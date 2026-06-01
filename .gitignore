@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+frontend/dist/
+backend/public/
+frontend/public/design-prd.md
+
+# Environment
+backend/.env
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+
+# Database
+*.db
+*.db-journal
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+ Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

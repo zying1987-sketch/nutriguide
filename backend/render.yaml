@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: nutriguide-backend
+    env: node
+    plan: free
+    region: oregon  # 可选: oregon, ohio, frankfurt, singapore
+    buildCommand: |
+      npm install
+      cd ../frontend && npm install && npm run build && cp -r dist/* ../backend/public/
+    startCommand: node server.js
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: JWT_SECRET
+        generateValue: true
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: DEEPSEEK_API_KEY
+        sync: false
