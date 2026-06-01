@@ -16,6 +16,8 @@ frontend/.env.production
 # Database
 *.db
 *.db-journal
+*.db-shm
+*.db-wal
 
 # Logs
 *.log

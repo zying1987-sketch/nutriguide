@@ -32,6 +32,9 @@ export default function Header() {
           <span className="text-lg font-semibold tracking-tight text-[#1B2A4A]">NutriGuide</span>
         </Link>
         <nav className="flex items-center gap-4 text-sm">
+          <Link to="/nutrients" className="text-[#1B2A4A]/70 hover:text-[#7A8B6F] transition-colors no-underline">
+            营养素百科
+          </Link>
           <Link to="/assessment" className="text-[#1B2A4A]/70 hover:text-[#7A8B6F] transition-colors no-underline">
             自测
           </Link>

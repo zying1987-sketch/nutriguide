@@ -8,9 +8,9 @@ import { useState } from 'react'
 
 const navLinks = [
   { label: '首页', href: '#/' },
+  { label: '营养素百科', href: '#/nutrients' },
   { label: '自测', href: '#/assessment' },
-  { label: '知识库', href: '#/results' },
-  { label: '方案', href: '#/plan' },
+  { label: '人群方案', href: '#/population/pregnancy' },
 ]
 
 const features = [

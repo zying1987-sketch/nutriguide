@@ -5,6 +5,8 @@ import HomePage from './pages/HomePage'
 import AssessmentPage from './pages/AssessmentPage'
 import ResultsPage from './pages/ResultsPage'
 import PlanPage from './pages/PlanPage'
+import NutrientListPage from './pages/NutrientListPage'
+import NutrientDetailPage from './pages/NutrientDetailPage'
 import PopulationDetailPage from './pages/population/PopulationDetailPage'
 import LoginPage from './pages/LoginPage'
 import RegisterPage from './pages/RegisterPage'
@@ -22,6 +24,8 @@ function App() {
     <Layout>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/nutrients" element={<NutrientListPage />} />
+        <Route path="/nutrient/:id" element={<NutrientDetailPage />} />
         <Route path="/assessment" element={<AssessmentPage />} />
         <Route path="/results" element={<ResultsPage />} />
         <Route path="/plan" element={<PlanPage />} />
