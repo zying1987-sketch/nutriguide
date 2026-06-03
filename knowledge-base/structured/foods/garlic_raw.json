@@ -1,0 +1,42 @@
+{
+  "id": "garlic_raw",
+  "name": "Garlic, raw",
+  "category": "蔬菜与蔬菜制品",
+  "tags": [
+    "肠脑轴"
+  ],
+  "deep_analysis": false,
+  "nutrients": {
+    "能量": {
+      "value": 623.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [],
+  "health_benefits": [
+    {
+      "text": "🟢 A级** — **骨健康**：每100g含钙181mg",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **免疫**：每100g含维C31mg",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+      "evidence_level": "C",
+      "description": ""
+    }
+  ],
+  "daily_intake": "100-300g/d",
+  "cooking_tips": [
+    "蒸制或快炒保留营养素",
+    "避免长时间水煮"
+  ],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

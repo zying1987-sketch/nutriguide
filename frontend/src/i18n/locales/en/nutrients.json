@@ -1,0 +1,176 @@
+{
+  "vitamin_a": {
+    "mainFunction": "Maintains vision, skin and mucosal integrity, immune function",
+    "overdoseRisk": "Liver damage, osteoporosis, fetal malformations",
+    "sources": ["Animal liver", "Egg yolk", "Dark green leafy vegetables", "Carrots", "Pumpkin"],
+    "specialNotes": "Generally not deficient; avoid long-term high-dose supplementation",
+    "supplementAdvice": "Omnivores typically don't need extra supplementation. Pregnant women should follow medical advice and not exceed the UL (3000μg RAE). Night blindness or severe deficiency requires medically supervised supplementation.",
+    "atRiskGroups": ["Pregnant women", "Breastfeeding", "Children", "Night blindness", "Chronic diarrhea"]
+  },
+  "vitamin_c": {
+    "mainFunction": "Antioxidant, promotes collagen synthesis, enhances immunity",
+    "overdoseRisk": "Diarrhea, kidney stones (chronic high doses)",
+    "sources": ["Kiwi", "Citrus fruits", "Strawberries", "Bell peppers", "Broccoli"],
+    "supplementAdvice": "Those with a balanced diet don't need extra supplementation. Smokers, high-stress individuals, and those prone to colds may consider 100–200mg daily. High doses (>1000mg) may cause diarrhea.",
+    "atRiskGroups": ["Smokers", "High stress", "Post-surgery", "Infection-prone individuals"]
+  },
+  "vitamin_d": {
+    "mainFunction": "Promotes calcium absorption, bone health, immune regulation",
+    "overdoseRisk": "Hypercalcemia, renal calcification",
+    "sources": ["Sun exposure", "Deep-sea fish", "Egg yolk", "Fortified milk", "Sun-dried mushrooms"],
+    "specialNotes": "Deficiency is extremely common; testing 25(OH)D levels is recommended",
+    "supplementAdvice": "⚠️ Most people with insufficient sun exposure need extra supplementation. Recommended: 400–2000 IU daily. Winter, high latitudes, dark skin, and indoor workers must supplement — food sources are nearly insufficient.",
+    "atRiskGroups": ["Infants", "Elderly", "Pregnant women", "Dark skin", "Predominantly indoor workers", "Obese individuals"]
+  },
+  "vitamin_e": {
+    "mainFunction": "Antioxidant, protects cell membranes",
+    "overdoseRisk": "Bleeding tendency (anticoagulant effect)",
+    "sources": ["Nuts", "Seeds", "Vegetable oils", "Avocado", "Spinach"],
+    "supplementAdvice": "A typical diet with nuts and vegetable oils is usually sufficient. High doses (>400 IU) may increase bleeding risk, especially in those on anticoagulants.",
+    "atRiskGroups": ["Fat malabsorption", "Premature infants", "Hyperlipidemia"]
+  },
+  "vitamin_k": {
+    "mainFunction": "Blood clotting, bone metabolism",
+    "overdoseRisk": "Large doses of synthetic K3 may cause hemolysis",
+    "sources": ["Dark green leafy vegetables", "Natto", "Broccoli", "Canola oil"],
+    "supplementAdvice": "A diet rich in leafy greens is usually sufficient. Newborns require K1 injection to prevent bleeding. Those at high risk of osteoporosis may consider K2 (MK-7, 90–180μg).",
+    "atRiskGroups": ["Newborns", "Long-term antibiotic use", "Liver disease", "Malabsorption conditions"]
+  },
+  "vitamin_b1": {
+    "mainFunction": "Energy metabolism, neurological function",
+    "overdoseRisk": "Rare; excess is excreted",
+    "sources": ["Whole grains", "Legumes", "Lean meat", "Nuts", "Yeast"],
+    "supplementAdvice": "A typical diet with whole grains and lean meat is usually sufficient. Heavy drinkers and those who eat mainly refined grains should pay attention to B1 intake.",
+    "atRiskGroups": ["Heavy drinkers", "Hyperthyroidism", "Refined grain diet", "Pregnant women"]
+  },
+  "vitamin_b2": {
+    "mainFunction": "Energy metabolism, mucosal health",
+    "overdoseRisk": "Yellow urine (harmless)",
+    "sources": ["Dairy products", "Eggs", "Lean meat", "Green leafy vegetables", "Legumes"],
+    "supplementAdvice": "A typical diet is usually sufficient. Vegetarians, pregnant women, and picky-eating children should pay attention. B2 is usually included in B-complex supplements.",
+    "atRiskGroups": ["Vegetarians", "Pregnant women", "Picky-eating children"]
+  },
+  "vitamin_b3": {
+    "mainFunction": "Energy metabolism, skin and nerve health",
+    "overdoseRisk": "Skin flushing, liver damage",
+    "sources": ["Poultry", "Fish", "Peanuts", "Whole grains", "Mushrooms"],
+    "supplementAdvice": "A typical diet is usually sufficient. Pellagra patients require therapeutic doses under medical supervision. High doses (>35mg) may cause skin flushing; extended-release forms reduce this.",
+    "atRiskGroups": ["Pellagra", "Diarrhea", "Heavy drinkers"]
+  },
+  "vitamin_b6": {
+    "mainFunction": "Amino acid metabolism, neurotransmitter synthesis, hematopoiesis",
+    "overdoseRisk": "Neurological toxicity (reversible)",
+    "sources": ["Poultry", "Fish", "Potatoes", "Bananas", "Chickpeas"],
+    "specialNotes": "Can relieve morning sickness; B6 + magnesium work synergistically",
+    "supplementAdvice": "Omnivores generally don't need extra supplementation. Those with morning sickness may consider B6 + ginger (10–25mg/day). Oral contraceptive users may have increased needs.",
+    "atRiskGroups": ["Pregnant women", "Oral contraceptive users", "Isoniazid users"]
+  },
+  "vitamin_b12": {
+    "mainFunction": "Hematopoiesis, myelin sheath formation",
+    "overdoseRisk": "Very low toxicity",
+    "sources": ["Animal liver", "Fish", "Eggs", "Dairy", "Fortified foods"],
+    "specialNotes": "Found almost exclusively in animal products; strict vegetarians must supplement",
+    "supplementAdvice": "⚠️ Strict vegetarians must supplement (25–100μg/day). Older adults (>50) have reduced stomach acid and poor absorption; supplementation is recommended. Gastrectomy patients may need injections.",
+    "atRiskGroups": ["Strict vegetarians", "Elderly (poor absorption)", "Gastrectomy patients"]
+  },
+  "folate": {
+    "mainFunction": "DNA synthesis, prevention of fetal neural tube defects",
+    "overdoseRisk": "May mask B12 deficiency symptoms",
+    "sources": ["Dark green leafy vegetables", "Legumes", "Animal liver", "Fortified cereals", "Orange juice"],
+    "specialNotes": "Supplement 400–800μg daily from pre-conception through early pregnancy",
+    "supplementAdvice": "⚠️ Women trying to conceive and those in early pregnancy must supplement (400–800μg DFE/day) to prevent neural tube defects. Cooking destroys 50–90%; supplements have better absorption.",
+    "atRiskGroups": ["Women trying to conceive and pregnant women", "Megaloblastic anemia", "Heavy drinkers"]
+  },
+  "biotin": {
+    "mainFunction": "Fat and glucose metabolism, skin and hair health",
+    "overdoseRisk": "Rare",
+    "sources": ["Egg yolk", "Nuts", "Seeds", "Salmon", "Avocado"],
+    "supplementAdvice": "A typical diet (eggs, liver, nuts) is usually sufficient. Those who eat raw egg whites (which contain avidin) or those on long-term parenteral nutrition should pay attention.",
+    "atRiskGroups": ["Raw egg white consumers", "Long-term parenteral nutrition", "Pregnant women"]
+  },
+  "pantothenic_acid": {
+    "mainFunction": "Energy metabolism, hormone synthesis",
+    "overdoseRisk": "Diarrhea",
+    "sources": ["Almost all foods", "Whole grains", "Avocado", "Mushrooms", "Eggs"],
+    "supplementAdvice": "Found in almost all foods; deficiency is extremely rare. No additional supplementation needed.",
+    "atRiskGroups": ["Rarely deficient"]
+  },
+  "calcium": {
+    "mainFunction": "Bones and teeth, neuromuscular transmission, blood clotting",
+    "overdoseRisk": "Kidney stones, vascular calcification, constipation",
+    "sources": ["Dairy products", "Tofu", "Dark green leafy vegetables", "Sesame", "Sardines"],
+    "specialNotes": "Women over 40 are recommended 1000–1200mg daily",
+    "supplementAdvice": "Those who regularly consume dairy and soy products don't need extra supplementation. ⚠️ Those with insufficient dairy intake (teens, pregnant women, elderly, vegetarians) should supplement with calcium citrate 500–600mg/day, divided doses, with Vitamin D.",
+    "atRiskGroups": ["Children", "Adolescents", "Pregnant women", "Elderly", "Vegetarians"]
+  },
+  "iron": {
+    "mainFunction": "Hematopoiesis, oxygen transport",
+    "overdoseRisk": "Liver damage, constipation, cardiac damage",
+    "sources": ["Red meat", "Animal liver", "Clams", "Legumes", "Spinach"],
+    "specialNotes": "Heme iron (animal) is far more absorbable than plant iron; Vitamin C enhances iron absorption",
+    "supplementAdvice": "⚠️ Menstruating women, pregnant women, and vegetarians are prone to deficiency. Those diagnosed with iron-deficiency anemia need 20–30mg elemental iron/day (under medical supervision). Test serum ferritin before supplementing.",
+    "atRiskGroups": ["Menstruating women", "Pregnant women", "Infants", "Vegetarians", "Anemic individuals"]
+  },
+  "zinc": {
+    "mainFunction": "Immunity, wound healing, taste, reproduction",
+    "overdoseRisk": "Copper deficiency, impaired immune function",
+    "sources": ["Oysters", "Red meat", "Pumpkin seeds", "Cashews", "Chickpeas"],
+    "supplementAdvice": "⚠️ Vegetarians have low absorption rates and should pay attention. Omnivores generally don't need extra supplementation. Supplements: low dose recommended (8–11mg/day).",
+    "atRiskGroups": ["Vegetarians", "Pregnant women", "Children", "Diarrhea sufferers", "Elderly"]
+  },
+  "magnesium": {
+    "mainFunction": "Neuromuscular function, heart rhythm, bone health, blood sugar regulation",
+    "overdoseRisk": "Diarrhea, low blood pressure, respiratory depression",
+    "sources": ["Pumpkin seeds", "Almonds", "Spinach", "Dark chocolate", "Avocado"],
+    "specialNotes": "Magnesium glycinate/citrate absorbs well; magnesium oxide causes diarrhea",
+    "supplementAdvice": "High-stress individuals, diabetics, and heavy drinkers should pay attention. Choose magnesium glycinate or citrate (better absorption); avoid magnesium oxide (causes diarrhea).",
+    "atRiskGroups": ["High-stress individuals", "Diabetics", "Heavy drinkers", "Diuretic users"]
+  },
+  "selenium": {
+    "mainFunction": "Antioxidant, thyroid function",
+    "overdoseRisk": "Hair loss, nail deformity, garlic-like breath",
+    "sources": ["Brazil nuts", "Seafood", "Eggs", "Lean meat", "Whole grains"],
+    "specialNotes": "1–2 Brazil nuts per day can meet daily requirements",
+    "supplementAdvice": "Residents in selenium-poor regions should pay attention. 1–2 Brazil nuts per day is usually sufficient. Very high doses (>400μg) are toxic.",
+    "atRiskGroups": ["Residents of low-selenium regions", "Keshan disease", "Thyroid conditions"]
+  },
+  "iodine": {
+    "mainFunction": "Thyroid hormone synthesis",
+    "overdoseRisk": "Hyperthyroidism / Hypothyroidism",
+    "sources": ["Iodized salt", "Kelp", "Nori", "Seafood", "Eggs"],
+    "specialNotes": "Hashimoto's patients should be cautious with iodine; avoid high-iodine foods",
+    "supplementAdvice": "Those using iodized salt are typically sufficient. ⚠️ Pregnant and breastfeeding women need 200–250μg/day. Supplements require medical guidance; excess causes thyroid dysfunction.",
+    "atRiskGroups": ["Pregnant women", "Breastfeeding women", "Thyroid disease patients (requires medical advice)"]
+  },
+  "potassium": {
+    "mainFunction": "Blood pressure regulation, neuromuscular transmission",
+    "overdoseRisk": "Hyperkalemia (in those with kidney dysfunction)",
+    "sources": ["Bananas", "Potatoes", "Avocado", "Spinach", "Coconut water"],
+    "supplementAdvice": "A typical diet with vegetables and fruits is usually sufficient. Those with kidney disease should avoid high-potassium supplements.",
+    "atRiskGroups": ["Hypertension patients", "Heavy sweaters", "Diuretic users"]
+  },
+  "omega3": {
+    "mainFunction": "Anti-inflammatory, cardiovascular protection, brain development",
+    "overdoseRisk": "Anticoagulant effect (very high doses)",
+    "sources": ["Deep-sea fish (salmon, sardines)", "Flaxseed", "Chia seeds", "Walnuts", "Algae oil"],
+    "specialNotes": "Vegetarians can use algae DHA as an alternative",
+    "supplementAdvice": "⚠️ Those who rarely eat deep-sea fish (<2 times/week) should supplement with fish oil or algae DHA 200–300mg/day. Strongly recommended for pregnant women and those at high cardiovascular risk.",
+    "atRiskGroups": ["Pregnant women", "Infants", "Elderly", "Hyperlipidemia", "Depression-prone individuals"]
+  },
+  "fiber": {
+    "mainFunction": "Gut health, blood sugar and lipid control",
+    "overdoseRisk": "Bloating, interference with mineral absorption (excess)",
+    "sources": ["Whole grains", "Legumes", "Vegetables", "Fruits", "Nuts"],
+    "specialNotes": "IBS-D patients should prefer soluble fiber; IBS-C should increase insoluble fiber",
+    "supplementAdvice": "Those with constipation, obesity, diabetes, and hyperlipidemia should increase to 35g/day. Increase gradually with plenty of water to avoid bloating.",
+    "atRiskGroups": ["Constipation sufferers", "Obese individuals", "Diabetics", "Hyperlipidemia patients"]
+  },
+  "protein": {
+    "mainFunction": "Tissue repair, enzyme and hormone synthesis",
+    "overdoseRisk": "Kidney damage (in those with pre-existing kidney disease)",
+    "sources": ["Lean meat", "Fish", "Eggs", "Dairy", "Legumes", "Soy products"],
+    "specialNotes": "1.6–2.2g/kg body weight recommended during muscle-building phase",
+    "supplementAdvice": "A typical diet is usually sufficient. Those in muscle-building phase, post-surgery, elderly, and vegetarians should pay attention to quality protein intake. Protein powders (whey/pea/rice) can assist but are not essential.",
+    "atRiskGroups": ["Athletes/Fitness enthusiasts", "Post-surgery", "Elderly", "Vegetarians"]
+  }
+}

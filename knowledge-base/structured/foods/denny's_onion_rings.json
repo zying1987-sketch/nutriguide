@@ -1,0 +1,40 @@
+{
+  "id": "denny's_onion_rings",
+  "name": "DENNY'S, onion rings",
+  "category": "餐饮食品",
+  "tags": [
+    "肠脑轴"
+  ],
+  "deep_analysis": false,
+  "nutrients": {
+    "能量": {
+      "value": 1613.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [
+    {
+      "name": "Omega-3(ALA)**",
+      "content_text": "含量：2.5g/100g",
+      "mechanism": "作用机制：抗炎类花生酸前体"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "🟢 A级** — **抗炎**：omega-3含量2.5g/100g",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+      "evidence_level": "C",
+      "description": ""
+    }
+  ],
+  "daily_intake": "",
+  "cooking_tips": [],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

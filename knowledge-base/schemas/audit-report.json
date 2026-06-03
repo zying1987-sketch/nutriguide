@@ -1,0 +1,151 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "nutriguide/knowledge-base/schemas/audit-report.json",
+  "title": "Knowledge Audit Report",
+  "description": "知识审核官对知识条目的交叉验证与审核报告",
+  "type": "object",
+  "required": [
+    "id",
+    "target_entry_ids",
+    "verdict",
+    "audit_date"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^audit_\\d{3,}$"
+    },
+    "target_entry_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "被审核的知识条目ID列表"
+    },
+    "verdict": {
+      "type": "string",
+      "enum": [
+        "approved",
+        "approved_with_notes",
+        "contested",
+        "rejected",
+        "needs_update"
+      ],
+      "description": "审核结论"
+    },
+    "confidence_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "综合置信度评分"
+    },
+    "multi_source_consistency": {
+      "type": "string",
+      "enum": [
+        "high",
+        "moderate",
+        "low",
+        "single_source"
+      ],
+      "description": "多源一致性"
+    },
+    "source_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "contradictions_found": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "claim": {
+            "type": "string",
+            "description": "矛盾的具体主张"
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "resolution": {
+            "type": "string",
+            "description": "如何解决此矛盾"
+          },
+          "severity": {
+            "type": "string",
+            "enum": [
+              "minor",
+              "moderate",
+              "major"
+            ]
+          }
+        }
+      }
+    },
+    "evidence_grading": {
+      "type": "object",
+      "properties": {
+        "level": {
+          "type": "string",
+          "enum": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        "justification": {
+          "type": "string"
+        },
+        "study_types": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "currency_check": {
+      "type": "object",
+      "properties": {
+        "is_current": {
+          "type": "boolean"
+        },
+        "latest_guideline_year": {
+          "type": "integer"
+        },
+        "needs_review_by": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "regional_applicability": {
+      "type": "object",
+      "properties": {
+        "china_applicable": {
+          "type": "boolean"
+        },
+        "notes": {
+          "type": "string",
+          "description": "地域适用性说明"
+        }
+      }
+    },
+    "recommendations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "审核建议"
+    },
+    "auditor_notes": {
+      "type": "string"
+    },
+    "audit_date": {
+      "type": "string",
+      "format": "date"
+    }
+  }
+}

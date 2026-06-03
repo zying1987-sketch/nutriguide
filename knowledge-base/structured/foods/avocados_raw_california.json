@@ -1,0 +1,48 @@
+{
+  "id": "avocados_raw_california",
+  "name": "Avocados, raw, California",
+  "category": "水果与果汁",
+  "tags": [
+    "女性激素健康"
+  ],
+  "deep_analysis": false,
+  "nutrients": {
+    "能量": {
+      "value": 697.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [
+    {
+      "name": "膳食纤维**",
+      "content_text": "含量：6.8g/100g",
+      "mechanism": "作用机制：促进肠蠕动,调节菌群"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "🟢 A级** — **肠道健康**：高纤维(6.8g/100g)促进排便和菌群平衡",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **血压调节**：高钾(507mg/100g),有助钠钾平衡",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+      "evidence_level": "B",
+      "description": ""
+    }
+  ],
+  "daily_intake": "100-200g/d",
+  "cooking_tips": [
+    "生吃最佳",
+    "制成果昔/沙拉"
+  ],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

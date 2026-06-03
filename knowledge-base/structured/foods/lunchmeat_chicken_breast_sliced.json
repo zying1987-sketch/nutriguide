@@ -1,0 +1,26 @@
+{
+  "id": "lunchmeat_chicken_breast_sliced",
+  "name": "Lunchmeat, chicken breast, sliced",
+  "category": "加工肉制品",
+  "tags": [
+    "基础营养"
+  ],
+  "deep_analysis": false,
+  "nutrients": {},
+  "active_compounds": [],
+  "health_benefits": [
+    {
+      "text": "🟢 A级** — **综合营养**：全面营养支持",
+      "evidence_level": "A",
+      "description": ""
+    }
+  ],
+  "daily_intake": "少量,加工肉制品建议<50g/周",
+  "cooking_tips": [],
+  "synergy": [],
+  "contraindications": [
+    "加工肉制品IARC 1类致癌物(结直肠癌)"
+  ],
+  "tcm": {},
+  "source": ""
+}

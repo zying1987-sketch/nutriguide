@@ -28,7 +28,7 @@ async function request(path: string, options: RequestInit = {}) {
 
 export const api = {
   // Auth
-  register: (data: { email: string; password: string; name?: string }) =>
+  register: (data: { email: string; password: string; name?: string; code: string }) =>
     request('/auth/register', { method: 'POST', body: JSON.stringify(data) }),
 
   login: (data: { email: string; password: string }) =>
@@ -38,6 +38,13 @@ export const api = {
 
   updateProfile: (data: { name: string }) =>
     request('/auth/me', { method: 'PUT', body: JSON.stringify(data) }),
+
+  // Verification
+  sendVerifyCode: (email: string) =>
+    request('/verify/send-code', { method: 'POST', body: JSON.stringify({ email }) }),
+
+  verifyCode: (email: string, code: string) =>
+    request('/verify/verify-code', { method: 'POST', body: JSON.stringify({ email, code }) }),
 
   // Assessments
   saveAssessment: (data: { stepData: any; result: any }) =>
@@ -55,6 +62,10 @@ export const api = {
 
   getPlan: (id: number) => request(`/assessments/plan/${id}`),
 
+  // AI Plan
+  generatePlan: (prompt: string) =>
+    request('/generate-plan', { method: 'POST', body: JSON.stringify({ prompt }) }),
+
   // Admin
   getAdminStats: () => request('/admin/stats'),
 
@@ -65,6 +76,29 @@ export const api = {
 
   getAdminUserAssessment: (userId: number, assessmentId: number) =>
     request(`/admin/users/${userId}/assessments/${assessmentId}`),
+
+  // Credits
+  getCredits: () => request('/credits/balance'),
+  purchaseCredits: (pkg: string) =>
+    request('/credits/purchase', { method: 'POST', body: JSON.stringify({ package: pkg }) }),
+
+  // AI Chat
+  askAI: (question: string) =>
+    request('/chat/ask', { method: 'POST', body: JSON.stringify({ question }) }),
+  getChatHistory: () => request('/chat/history'),
+
+  // Knowledge Base
+  getKnowledgeOverview: () => request('/knowledge/overview'),
+  getKnowledgeList: (params?: { q?: string; category?: string; page?: number; limit?: number }) => {
+    const sp = new URLSearchParams()
+    if (params?.q) sp.set('q', params.q)
+    if (params?.category) sp.set('category', params.category)
+    if (params?.page) sp.set('page', String(params.page))
+    if (params?.limit) sp.set('limit', String(params.limit))
+    const qs = sp.toString()
+    return request(`/knowledge${qs ? '?' + qs : ''}`)
+  },
+  getKnowledgeDetail: (id: string) => request(`/knowledge/${encodeURIComponent(id)}`),
 }
 
 export function setToken(token: string) {

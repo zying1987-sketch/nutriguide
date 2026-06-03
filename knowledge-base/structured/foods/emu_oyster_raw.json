@@ -1,0 +1,43 @@
+{
+  "id": "emu_oyster_raw",
+  "name": "Emu, oyster, raw",
+  "category": "禽肉",
+  "tags": [
+    "女性激素健康"
+  ],
+  "deep_analysis": false,
+  "nutrients": {
+    "能量": {
+      "value": 591.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [
+    {
+      "name": "优质蛋白质**",
+      "content_text": "含量：22.8g/100g",
+      "mechanism": "作用机制：肌肉合成与修复"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "🟡 B级** — **补铁**：每100g含铁5.5mg",
+      "evidence_level": "B",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+      "evidence_level": "B",
+      "description": ""
+    }
+  ],
+  "daily_intake": "50-100g/d",
+  "cooking_tips": [
+    "彻底煮熟至安全温度",
+    "低温慢煮保留营养"
+  ],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

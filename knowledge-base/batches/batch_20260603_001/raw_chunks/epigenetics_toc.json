@@ -1,0 +1,1137 @@
+[
+  [
+    1,
+    "Epigenetics and Human Health",
+    5
+  ],
+  [
+    2,
+    "Contents",
+    9
+  ],
+  [
+    2,
+    "Preface",
+    17
+  ],
+  [
+    2,
+    "List of Contributors",
+    19
+  ],
+  [
+    2,
+    "Part I: General Introduction",
+    25
+  ],
+  [
+    3,
+    "1: The Research Program in Epigenetics: The Birth of a New Paradigm",
+    27
+  ],
+  [
+    4,
+    "References",
+    29
+  ],
+  [
+    3,
+    "2: Interactions Between Nutrition and Health",
+    31
+  ],
+  [
+    4,
+    "2.1 Introduction",
+    31
+  ],
+  [
+    4,
+    "2.2 Epigenetic Effects of the Diet",
+    32
+  ],
+  [
+    4,
+    "2.3 Current Nutrition Related Health Problems",
+    32
+  ],
+  [
+    4,
+    "References",
+    33
+  ],
+  [
+    3,
+    "3: Epigenetics: Comments from an Ecologist",
+    35
+  ],
+  [
+    4,
+    "References",
+    36
+  ],
+  [
+    3,
+    "4: Interaction of Hereditary and Epigenetic Mechanisms in the Regulation of Gene Expression",
+    37
+  ],
+  [
+    4,
+    "4.1 Hereditary Dispositions",
+    37
+  ],
+  [
+    4,
+    "4.2 The Epigenome",
+    38
+  ],
+  [
+    4,
+    "4.3 Epigenetic Mechanisms",
+    39
+  ],
+  [
+    5,
+    "4.3.1 Methylation",
+    39
+  ],
+  [
+    5,
+    "4.3.2 Histone Modifications",
+    42
+  ],
+  [
+    5,
+    "4.3.3 Micro RNAs",
+    44
+  ],
+  [
+    4,
+    "4.4 Environmental Influences",
+    44
+  ],
+  [
+    5,
+    "4.4.1 Nutritional and Environmental Effects in Early Life Conditions",
+    44
+  ],
+  [
+    5,
+    "4.4.2 Environmental Pollution and Toxins",
+    46
+  ],
+  [
+    4,
+    "4.5 Dietary Effects",
+    46
+  ],
+  [
+    5,
+    "4.5.1 Nutrition and the Immune System",
+    50
+  ],
+  [
+    5,
+    "4.5.2 Nutrition and Aging",
+    50
+  ],
+  [
+    4,
+    "4.6 Inheritance and Evolutionary Aspects",
+    52
+  ],
+  [
+    4,
+    "4.7 Conclusion",
+    53
+  ],
+  [
+    4,
+    "References",
+    54
+  ],
+  [
+    2,
+    "Part II: Hereditary Aspects",
+    59
+  ],
+  [
+    3,
+    "5: Methylenetetrahydrofolate Reductase C677T and A 1298C Polymorphisms and Cancer Risk: A Review of the Published Meta-Analyses",
+    61
+  ],
+  [
+    4,
+    "5.1 Key Concepts of Population-Based Genetic Association Studies",
+    61
+  ],
+  [
+    5,
+    "5.1.1 Definition and Goals of Genetic Epidemiology",
+    61
+  ],
+  [
+    5,
+    "5.1.2 Study Designs in Genetic Epidemiology",
+    62
+  ],
+  [
+    5,
+    "5.1.3 The Human Genome",
+    62
+  ],
+  [
+    5,
+    "5.1.4 Meta-Analysis in Genetic Epidemiology",
+    63
+  ],
+  [
+    5,
+    "5.1.5 Human Genome Epidemiology Network",
+    64
+  ],
+  [
+    5,
+    "5.1.6 “Mendelian Randomization”",
+    65
+  ],
+  [
+    4,
+    "5.2 Methylenetetrahydrofolate Reductase Gene Polymorphisms (C677T and A 1298C) and Its Association with Cancer Risk",
+    65
+  ],
+  [
+    5,
+    "5.2.1 Gene and Function",
+    65
+  ],
+  [
+    5,
+    "5.2.2 C677T and A 1298C Gene Variants",
+    67
+  ],
+  [
+    5,
+    "5.2.3 Gene–Environment Interaction",
+    67
+  ],
+  [
+    4,
+    "5.3 Meta-Analyses of Methylenetetrahydrofolate Reductase C677T and A 1298C Polymorphisms and Cancer",
+    68
+  ],
+  [
+    4,
+    "References",
+    71
+  ],
+  [
+    3,
+    "6: The Role of Biobanks for the Understanding of Gene–Environment Interactions",
+    75
+  ],
+  [
+    4,
+    "6.1 Background",
+    75
+  ],
+  [
+    5,
+    "6.1.1 What Purpose Do Different Biobank Formats Serve?",
+    76
+  ],
+  [
+    5,
+    "6.1.2 Why Do We Need Networks of Biobanks?",
+    77
+  ],
+  [
+    4,
+    "6.2 The Investigation of Gene–Environment Interactions as a Challenge for Biobanks",
+    79
+  ],
+  [
+    5,
+    "6.2.1 How to Evaluate Risk Factors for Metabolic Syndrome and Steatohepatitis?",
+    82
+  ],
+  [
+    5,
+    "6.2.2 Why Are Biobanks Needed in This Context and What Challenges Do They Have to Face?",
+    82
+  ],
+  [
+    4,
+    "References",
+    84
+  ],
+  [
+    3,
+    "7: Case Studies on Epigenetic Inheritance",
+    87
+  ],
+  [
+    4,
+    "7.1 Introduction",
+    88
+  ],
+  [
+    4,
+    "7.2 Methodology",
+    89
+  ],
+  [
+    5,
+    "7.2.1 On the Study of Epigenetic Inheritance",
+    89
+  ],
+  [
+    5,
+    "7.2.2 The Ideal Study Design",
+    90
+  ],
+  [
+    5,
+    "7.2.3 The Överkalix Cohorts of 1890, 1905 and 1920",
+    91
+  ],
+  [
+    5,
+    "7.2.4 The ALSPAC Data Set",
+    92
+  ],
+  [
+    5,
+    "7.2.5 The Proband’s Childhood",
+    92
+  ],
+  [
+    5,
+    "7.2.6 Food Availability",
+    93
+  ],
+  [
+    5,
+    "7.2.7 Ancestors’ Experience of Crises",
+    93
+  ],
+  [
+    5,
+    "7.2.8 Growth Velocity",
+    93
+  ],
+  [
+    4,
+    "7.3 Patterns of Transgenerational Responses",
+    94
+  ],
+  [
+    5,
+    "7.3.1 The Social Context",
+    94
+  ],
+  [
+    5,
+    "7.3.2 The Ancestors’ Nutrition",
+    95
+  ],
+  [
+    5,
+    "7.3.3 Longevity and Paternal Ancestors’ Nutrition",
+    95
+  ],
+  [
+    5,
+    "7.3.4 The Influence of Nutrition During the Slow Growth Period on Cardiovascular and Diabetes Mortality",
+    96
+  ],
+  [
+    5,
+    "7.3.5 Is Human Epigenetic Inheritance Mediated by the Sex Chromosomes?",
+    97
+  ],
+  [
+    6,
+    "7.3.5.1 Paternal Initiation of Smoking and Pregnancy Outcome",
+    99
+  ],
+  [
+    5,
+    "7.3.6 Epigenetic Inheritance, Early Life Circumstances and Longevity",
+    99
+  ],
+  [
+    5,
+    "7.3.7 How to Explain the Effects of Food Availability During SGP on Human Health?",
+    100
+  ],
+  [
+    6,
+    "7.3.7.1 Genetic Selection Through Differential Survival or Fertility?",
+    100
+  ],
+  [
+    6,
+    "7.3.7.2 Chromosomal Transmission of Nutritionally Induced Epigenetic Modifications",
+    100
+  ],
+  [
+    4,
+    "7.4 Epigenetic Inheritance",
+    101
+  ],
+  [
+    5,
+    "7.4.1 Fetal Programming and Epigenetic Inheritance",
+    102
+  ],
+  [
+    4,
+    "7.5 Future Directions",
+    104
+  ],
+  [
+    4,
+    "7.6 Conclusions",
+    105
+  ],
+  [
+    4,
+    "References",
+    107
+  ],
+  [
+    2,
+    "Part III: Environmental and Toxicological Aspects",
+    111
+  ],
+  [
+    3,
+    "8: Genotoxic, Non-Genotoxic and Epigenetic Mechanisms in Chemical Hepatocarcinogenesis: Implications for Safety Evaluation",
+    113
+  ],
+  [
+    4,
+    "8.1 Introduction",
+    114
+  ],
+  [
+    4,
+    "8.2 Genotoxic and Non-Genotoxic Chemicals in Relation to the Multistage Model of Cancer Development",
+    115
+  ],
+  [
+    5,
+    "8.2.1 Tumor Initiation",
+    115
+  ],
+  [
+    5,
+    "8.2.2 Tumor Promotion",
+    116
+  ],
+  [
+    5,
+    "8.2.3 Tumor Progression",
+    117
+  ],
+  [
+    5,
+    "8.2.4 Cellular and Molecular Mechanisms of Tumor Initiation and Promotion",
+    117
+  ],
+  [
+    5,
+    "8.2.5 Epigenetic Effects of Genotoxic and Non-Genotoxic Hepatocarcinogens",
+    120
+  ],
+  [
+    5,
+    "8.2.6 How Carcinogens Alter the Microenvironment–Crucial Roles of Inflammation",
+    121
+  ],
+  [
+    4,
+    "8.3 Concluding Remarks",
+    121
+  ],
+  [
+    4,
+    "References",
+    123
+  ],
+  [
+    3,
+    "9: Carcinogens in Foods: Occurrence, Modes of Action and Modulation of Human Risks by Genetic Factors and Dietary Constituents",
+    129
+  ],
+  [
+    4,
+    "9.1 Introduction",
+    129
+  ],
+  [
+    4,
+    "9.2 Genotoxic Carcinogens in Human Foods",
+    130
+  ],
+  [
+    5,
+    "9.2.1 Polycyclic Aromatic Hydrocarbons",
+    131
+  ],
+  [
+    5,
+    "9.2.2 Nitrosamines",
+    131
+  ],
+  [
+    5,
+    "9.2.3 Heterocyclic Aromatic Amines (HAAs) and Other Thermal Degradation Products",
+    132
+  ],
+  [
+    5,
+    "9.2.4 Mycotoxins",
+    133
+  ],
+  [
+    5,
+    "9.2.5 Food Additives and Carcinogens in Plant-Derived Foods",
+    133
+  ],
+  [
+    5,
+    "9.2.6 Alcohol",
+    135
+  ],
+  [
+    4,
+    "9.3 Contribution of Genotoxic Dietary Carcinogens to Human Cancer Risks",
+    135
+  ],
+  [
+    4,
+    "9.4 Protective Effects of Dietary Components Towards DNA-Reactive Carcinogens",
+    136
+  ],
+  [
+    4,
+    "9.5 Gene Polymorphisms Affecting the Metabolism of Genotoxic Carcinogens",
+    138
+  ],
+  [
+    4,
+    "9.6 Concluding Remarks, Epigenetics and Outlook",
+    142
+  ],
+  [
+    4,
+    "References",
+    142
+  ],
+  [
+    2,
+    "Part IV: Nutritional Aspects",
+    149
+  ],
+  [
+    3,
+    "10: From Molecular Nutrition to Nutritional Systems Biology",
+    151
+  ],
+  [
+    4,
+    "10.1 Impact of Life Sciences on Molecular Nutrition Research",
+    151
+  ],
+  [
+    4,
+    "10.2 Nutrigenomics",
+    153
+  ],
+  [
+    5,
+    "10.2.1 Genomics and Nutrition Research",
+    153
+  ],
+  [
+    5,
+    "10.2.2 Transcriptomics and Nutrition Research",
+    154
+  ],
+  [
+    5,
+    "10.2.3 Proteomics and Nutrition Research",
+    155
+  ],
+  [
+    5,
+    "10.2.4 Metabolomics and Nutrition Research",
+    156
+  ],
+  [
+    4,
+    "10.3 Nutrigenetics",
+    157
+  ],
+  [
+    4,
+    "10.4 Nutri-Epigenetics",
+    159
+  ],
+  [
+    4,
+    "10.5 Nutritional Systems Biology",
+    161
+  ],
+  [
+    4,
+    "10.6 Ethics and Socio-Economics of Modern Nutrition Research",
+    161
+  ],
+  [
+    4,
+    "References",
+    163
+  ],
+  [
+    3,
+    "11: Effects of Dietary Natural Compounds on DNA Methylation Related to Cancer Chemoprevention and Anticancer Epigenetic Therapy",
+    165
+  ],
+  [
+    4,
+    "11.1 Introduction",
+    165
+  ],
+  [
+    4,
+    "11.2 DNA Methylation Reaction",
+    166
+  ],
+  [
+    4,
+    "11.3 Implication of the Selected Natural Compounds in DNA Methylation Regulation",
+    168
+  ],
+  [
+    5,
+    "11.3.1 ATRA, Vitamin D3, Resveratrol, and Genistein",
+    168
+  ],
+  [
+    6,
+    "11.3.1.1 Involvement of p21WAF1/CIP1 and Rb/E2F Pathway in Regulation of DNMT1",
+    171
+  ],
+  [
+    6,
+    "11.3.1.2 Involvement of the AP-1 Transcriptional Complex in Regulation of DNMT1",
+    172
+  ],
+  [
+    5,
+    "11.3.2 Polyphenols with a Catechol Group",
+    173
+  ],
+  [
+    4,
+    "11.4 Conclusions and Future Perspectives",
+    175
+  ],
+  [
+    4,
+    "References",
+    176
+  ],
+  [
+    3,
+    "12: Health Determinants Throughout the Life Cycle",
+    181
+  ],
+  [
+    4,
+    "12.1 Introduction",
+    181
+  ],
+  [
+    4,
+    "12.2 Pre-and Postnatal Determinants",
+    183
+  ],
+  [
+    4,
+    "12.3 Determinants During Infancy and Adulthood",
+    184
+  ],
+  [
+    4,
+    "12.4 Determinants in Adults and Older People",
+    184
+  ],
+  [
+    4,
+    "12.5 Interactions Throughout the Lifecycle",
+    185
+  ],
+  [
+    4,
+    "12.6 Intergenerational Effects",
+    185
+  ],
+  [
+    4,
+    "References",
+    186
+  ],
+  [
+    2,
+    "Part V: Case Studies",
+    189
+  ],
+  [
+    3,
+    "13: Viral Infections and Epigenetic Control Mechanisms",
+    191
+  ],
+  [
+    4,
+    "13.1 The Evolutionary Need for Control Mechanisms",
+    191
+  ],
+  [
+    4,
+    "13.2 Control by RNA Silencing",
+    192
+  ],
+  [
+    4,
+    "13.3 Viral Infections and Epigenetic Control Mechanisms",
+    193
+  ],
+  [
+    5,
+    "13.3.1 RNA Silencing in Plants",
+    193
+  ],
+  [
+    5,
+    "13.3.2 RNA Silencing in Fungi",
+    194
+  ],
+  [
+    5,
+    "13.3.3 RNA Silencing in Mammals",
+    194
+  ],
+  [
+    4,
+    "13.4 Epigenetics and Adaptive Immune Responses",
+    195
+  ],
+  [
+    4,
+    "References",
+    195
+  ],
+  [
+    3,
+    "14: Epigenetics Aspects in Gyneacology and Reproductive Medicine",
+    197
+  ],
+  [
+    4,
+    "References",
+    202
+  ],
+  [
+    3,
+    "15: Epigenetics and Tumorigenesis",
+    203
+  ],
+  [
+    4,
+    "15.1 Introduction",
+    203
+  ],
+  [
+    4,
+    "15.2 Role of Metabolism Within the Epigenetic Network",
+    205
+  ],
+  [
+    4,
+    "15.3 Epigenetic Modification by DNA Methylation During Lifetime",
+    207
+  ],
+  [
+    4,
+    "15.4 Interaction of Genetic and Epigenetic Mechanisms in Cancer",
+    208
+  ],
+  [
+    4,
+    "15.5 DNA Methylation in Normal and Cancer Cells",
+    209
+  ],
+  [
+    4,
+    "15.6 Promoter Hypermethylation in Hematopoietic Malignancies",
+    210
+  ],
+  [
+    4,
+    "15.7 Hypermethylated Gene Promoters in Solid Cancers",
+    211
+  ],
+  [
+    4,
+    "15.8 Interaction DNA Methylation and Chromatin",
+    212
+  ],
+  [
+    4,
+    "References",
+    214
+  ],
+  [
+    3,
+    "16: Epigenetic Approaches in Oncology",
+    219
+  ],
+  [
+    4,
+    "16.1 Introduction",
+    219
+  ],
+  [
+    4,
+    "16.2 DNA Methylation, Chromatin and Transcription",
+    220
+  ],
+  [
+    4,
+    "16.3 Methods for Detecting Methylation",
+    221
+  ],
+  [
+    4,
+    "16.4 The Paradigm of Lung Cancer",
+    222
+  ],
+  [
+    5,
+    "16.4.1 Frequently Methylated Tumor Suppressor Genes and Other Cancer-Related Genes in Lung Carcinomas",
+    223
+  ],
+  [
+    5,
+    "16.4.2 Monitoring of DNA Methylation in Blood Samples",
+    224
+  ],
+  [
+    4,
+    "16.5 Epigenetics and Therapy",
+    224
+  ],
+  [
+    4,
+    "16.6 Epigenetic Alterations Under Cytotoxic Stress",
+    225
+  ],
+  [
+    4,
+    "16.7 Therapeutic Applications of Inhibitors of DNA Methylation",
+    226
+  ],
+  [
+    4,
+    "16.8 How May Methylation Become Relevant to Clinical Applications?",
+    227
+  ],
+  [
+    4,
+    "16.9 Conclusions",
+    228
+  ],
+  [
+    4,
+    "References",
+    229
+  ],
+  [
+    3,
+    "17: Epigenetic Dysregulation in Aging and Cancer",
+    233
+  ],
+  [
+    4,
+    "17.1 Introduction",
+    234
+  ],
+  [
+    4,
+    "17.2 The Cancer-Prone Metabolic Phenotype of Aging",
+    234
+  ],
+  [
+    4,
+    "17.3 Age-Related Epigenetic Silencing Via DNA Methylation",
+    236
+  ],
+  [
+    4,
+    "17.4 Inflammatory Control of Age-Related Epigenetic Regulators",
+    238
+  ],
+  [
+    4,
+    "17.5 Lessons from Anti-Aging Modalities",
+    239
+  ],
+  [
+    4,
+    "17.6 Conclusions",
+    241
+  ],
+  [
+    4,
+    "References",
+    242
+  ],
+  [
+    3,
+    "18: The Impact of Genetic and Environmental Factors in Neurodegeneration: Emerging Role of Epigenetics",
+    249
+  ],
+  [
+    4,
+    "18.1 Neurodegenerative Diseases",
+    249
+  ],
+  [
+    4,
+    "18.2 The Role of Causative and Susceptibility Genes in Neurodegenerative Diseases",
+    250
+  ],
+  [
+    4,
+    "18.3 The Contribution of Environmental Factors to Neurodegenerative Diseases",
+    255
+  ],
+  [
+    4,
+    "18.4 Epigenetics, Environment and Susceptibility to Human Diseases",
+    257
+  ],
+  [
+    4,
+    "18.5 Epigenetics and Neurodegenerative Diseases",
+    258
+  ],
+  [
+    4,
+    "18.6 The Epigenetic Role of the Diet in Neurodegenerative Diseases",
+    261
+  ],
+  [
+    4,
+    "18.7 Concluding Remarks",
+    262
+  ],
+  [
+    4,
+    "References",
+    263
+  ],
+  [
+    3,
+    "19: Epigenetic Biomarkers in Neurodegenerative Disorders",
+    269
+  ],
+  [
+    4,
+    "19.1 Introduction",
+    269
+  ],
+  [
+    4,
+    "19.2 Epigenetic Marks in Inherited Neurological and Neurodegenerative Disorders",
+    270
+  ],
+  [
+    4,
+    "19.3 Epigenetic Dysregulation in Neurodegenerative Disorders",
+    271
+  ],
+  [
+    4,
+    "19.4 Gene Candidates for Epigenetic Biomarkers",
+    272
+  ],
+  [
+    4,
+    "19.5 Conclusions",
+    273
+  ],
+  [
+    4,
+    "References",
+    274
+  ],
+  [
+    3,
+    "20: Epigenetic Mechanisms in Asthma",
+    277
+  ],
+  [
+    4,
+    "20.1 Introduction",
+    277
+  ],
+  [
+    4,
+    "20.2 Epigenetic Mechanisms",
+    279
+  ],
+  [
+    4,
+    "20.3 Fetal Basis of Adult Disease",
+    279
+  ],
+  [
+    4,
+    "20.4 Fetal Basis of Asthma",
+    280
+  ],
+  [
+    4,
+    "20.5 Experimental Evidence",
+    281
+  ],
+  [
+    4,
+    "20.6 Epigenetic Mechanisms in Asthma",
+    281
+  ],
+  [
+    4,
+    "20.7 Cell-Specific Responses",
+    283
+  ],
+  [
+    4,
+    "20.8 Conclusion",
+    283
+  ],
+  [
+    4,
+    "References",
+    284
+  ],
+  [
+    2,
+    "Part VI: Ways to Translate the Concept",
+    289
+  ],
+  [
+    3,
+    "21: Public Health Genomics–Integrating Genomics and Epigenetics into National and European Health Strategies and Policies",
+    291
+  ],
+  [
+    4,
+    "21.1 Public Health and Genomics",
+    291
+  ],
+  [
+    4,
+    "21.2 The Bellagio Model of Public Health Genomics",
+    292
+  ],
+  [
+    4,
+    "21.3 The Public Health Genomics European Network",
+    295
+  ],
+  [
+    4,
+    "21.4 From Public Health Genomics to Public Health and Epigenetics/Epigenomics",
+    296
+  ],
+  [
+    4,
+    "21.5 Health in All Policies – Translating Epigenetics/Epigenomics into Policies and Practice",
+    296
+  ],
+  [
+    4,
+    "21.6 Health in All Policies as a Guiding Concept for European Policies",
+    297
+  ],
+  [
+    4,
+    "21.7 Relative Risk and Risk Regulation – A Model for the Regulation of Epigenetic Risks?",
+    298
+  ],
+  [
+    4,
+    "21.8 Attributable Risks and Risk Regulation",
+    299
+  ],
+  [
+    4,
+    "21.9 Translating Attributable Risks into Policies",
+    299
+  ],
+  [
+    4,
+    "21.10 Limits to the Concept of Health in All Policies in Genomics and Epigenetics",
+    301
+  ],
+  [
+    4,
+    "21.11 Conclusion",
+    302
+  ],
+  [
+    4,
+    "References",
+    302
+  ],
+  [
+    3,
+    "22: Taking a First Step: Epigenetic Health and Responsibility",
+    305
+  ],
+  [
+    4,
+    "22.1 Introduction",
+    305
+  ],
+  [
+    4,
+    "22.2 Responding to Epigenetic Challenges",
+    306
+  ],
+  [
+    4,
+    "22.3 Responsibility and Public Health Care Policy",
+    307
+  ],
+  [
+    4,
+    "22.4 Conclusion",
+    308
+  ],
+  [
+    4,
+    "References",
+    309
+  ],
+  [
+    2,
+    "Index",
+    311
+  ]
+]

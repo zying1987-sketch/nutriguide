@@ -1,0 +1,29 @@
+{
+  "id": "bread_oatmeal",
+  "name": "Bread, oatmeal",
+  "category": "烘焙食品",
+  "tags": [
+    "肠脑轴"
+  ],
+  "deep_analysis": false,
+  "nutrients": {
+    "能量": {
+      "value": 1125.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [],
+  "health_benefits": [
+    {
+      "text": "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+      "evidence_level": "C",
+      "description": ""
+    }
+  ],
+  "daily_intake": "",
+  "cooking_tips": [],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

@@ -1,0 +1,232 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "nutrients": "Encyclopédie Nutritionnelle",
+    "assessment": "Auto-évaluation",
+    "populations": "Plans par Population",
+    "results": "Résultats",
+    "login": "Connexion",
+    "register": "S'inscrire",
+    "adminPanel": "Panneau Admin",
+    "logout": "Déconnexion"
+  },
+  "home": {
+    "hero": {
+      "tags": ["Nutrition Personnalisée", "Fondé sur les Preuves", "Plan 28 Jours"],
+      "headline": "Votre Corps<br/><span style=\"color:#2D6B4F\">Mérite un</span><br/>Plan Sur Mesure",
+      "subtitle": "Arrêtez de suivre aveuglément les tendances de supplémentation. Grâce à une évaluation intelligente en 6 étapes, identifiez précisément votre groupe de population et générez un plan personnalisé en 3 dimensions sur 28 jours.",
+      "cta1": "Commencer l'évaluation gratuite",
+      "cta2": "Voir un exemple de rapport",
+      "stat1": "groupes de population",
+      "stat2": "nutriments",
+      "stat3": "étapes d'évaluation",
+      "cardTitle": "Les besoins nutritionnels\nde chacun sont uniques",
+      "card1Title": "Plan de Supplémentation",
+      "card1Desc": "Dosage et timing précis",
+      "card2Title": "Ajustement Alimentaire",
+      "card2Desc": "Plan diététique personnalisé",
+      "card3Title": "Mode de Vie",
+      "card3Desc": "Sommeil, exercice, stress"
+    },
+    "whyUs": {
+      "label": "Nos Avantages",
+      "title": "Plus que des Recommandations de Suppléments",
+      "subtitle": "Chaque étape, de l'évaluation au plan, est adaptée à votre santé"
+    },
+    "features": {
+      "f1": {
+        "title": "Correspondance Intelligente",
+        "desc": "Basé sur l'auto-évaluation des symptômes et les données de bilan de santé, identifier précisément les lacunes nutritionnelles parmi 12 groupes spéciaux — sans recommandations génériques."
+      },
+      "f2": {
+        "title": "Plan en 3 Dimensions",
+        "desc": "Supplémentation + Ajustement alimentaire + Changements de mode de vie, trois dimensions combinées pour couvrir complètement vos besoins de santé."
+      },
+      "f3": {
+        "title": "Science Fondée sur les Preuves",
+        "desc": "Basé sur les DRIs chinois 2023 et les directives internationales — chaque recommandation est étayée par des preuves, sans alarmisme."
+      },
+      "f4": {
+        "title": "Sécurité Avant Tout",
+        "desc": "Détection de conflits + rappels d'intervalles médicamenteux + indicateurs de référence clinique. Nous ne remplaçons pas les médecins, mais vous aidons à supplémenter plus intelligemment."
+      }
+    },
+    "populations": {
+      "label": "Groupes Couverts",
+      "title": "12 Groupes de Population Spéciaux",
+      "subtitle": "Le corps de chacun est différent et nécessite des stratégies nutritionnelles différentes. Choisissez le groupe qui vous correspond le mieux pour des recommandations précises.",
+      "cta": "Commencer l'Évaluation de Correspondance"
+    },
+    "philosophy": {
+      "label": "Notre Philosophie",
+      "title": "Science Fondée sur les Preuves<br/><span style=\"color:#2D6B4F\">Nutrition Personnalisée</span>",
+      "p1": "Plus de suppléments n'est pas toujours mieux. Basé sur les Apports Nutritionnels de Référence chinois (DRIs 2023) et les directives internationales, nous développons des stratégies nutritionnelles précises pour chaque groupe de population spécial.",
+      "p2": "Nous détectons également les conflits entre nutriments (p.ex., Hashimoto nécessitant une restriction en iode alors que la grossesse en nécessite), rappelons les intervalles médicamenteux et suggérons de consulter un médecin si nécessaire.",
+      "tags": ["DRIs 2023", "Directives OMS", "Preuves AHRQ", "Algorithme Personnalisé"],
+      "c1Title": "Fusion Multi-Groupes",
+      "c1Desc": "Une personne peut appartenir simultanément à plusieurs groupes spéciaux (p.ex., enceinte + végane). Notre algorithme fusionne automatiquement les plans et détecte les conflits.",
+      "c2Title": "Priorité à la Sécurité",
+      "c2Desc": "Tous les plans incluent des notes sur les interactions médicamenteuses et les indicateurs cliniques. Nous fournissons les meilleurs conseils nutritionnels dans un cadre sécuritaire.",
+      "c3Title": "Plans Améliorés par l'IA",
+      "c3Desc": "Alimenté par des grands modèles de langage pour générer des conseils personnalisés sur 28 jours, des rappels quotidiens de suppléments aux suggestions d'associations alimentaires."
+    },
+    "cta": {
+      "title": "Prêt à Découvrir ce Dont\nVotre Corps a Vraiment Besoin ?",
+      "subtitle": "Complétez l'évaluation en 6 étapes en environ 5 à 8 minutes. Toutes vos données sont stockées uniquement dans votre navigateur local.",
+      "button": "Commencer l'Évaluation Maintenant",
+      "note": "Complètement gratuit · Aucune inscription requise · Stockage local"
+    },
+    "footer": {
+      "disclaimer": "Cet outil est à titre indicatif uniquement et ne remplace pas les conseils médicaux professionnels. Consultez un médecin pour tout problème de santé."
+    }
+  },
+  "populations": {
+    "pregnancy": { "name": "Grossesse / Préconception", "desc": "Folate, fer, supplémentation DHA précise" },
+    "vegetarian": { "name": "Végétalien Strict / Végétarien", "desc": "Plan B12, fer, zinc, Oméga-3" },
+    "fitness": { "name": "Fitness / Composition Corporelle", "desc": "Protéines, créatine, gestion des électrolytes" },
+    "menopause": { "name": "Femmes Ménopausées", "desc": "Calcium, Vitamine D, soutien aux phytoestrogènes" },
+    "pcos": { "name": "SOPK", "desc": "Inositol, Vitamine D, stratégie alimentaire IG bas" },
+    "ibs": { "name": "SII", "desc": "FODMAP bas + restauration probiotique" },
+    "mental_health": { "name": "Anxiété / Dépression", "desc": "Oméga-3, magnésium, vitamines B, axe intestin-cerveau" },
+    "diabetes": { "name": "Gestion du Diabète", "desc": "Chrome, magnésium, acide alpha-lipoïque, IG bas" },
+    "hashimoto": { "name": "Thyroïdite de Hashimoto", "desc": "Sélénium, zinc, Vitamine D, régime sans gluten" },
+    "menstrual": { "name": "Optimisation du Cycle Menstruel", "desc": "Nutrition synchronisée au cycle, soulagement du SPM" },
+    "elderly": { "name": "Personnes Âgées", "desc": "Sarcopénie, santé osseuse, soutien cognitif" },
+    "adolescent": { "name": "Adolescents", "desc": "Croissance et développement + soutien cérébral académique" }
+  },
+  "nutrients": {
+    "title": "Encyclopédie Nutritionnelle",
+    "badge": "Nutrition Fondée sur les Preuves",
+    "subtitle": "Basé sur les Apports Nutritionnels de Référence chinois (DRIs 2023), découvrez les sources, les recommandations d'apport et les risques de surdosage pour chaque nutriment.",
+    "searchPlaceholder": "Rechercher un nutriment ou un mot-clé…",
+    "allCategory": "Tout",
+    "categoryVitamin": "Vitamines",
+    "categoryMineral": "Minéraux",
+    "categoryFattyAcid": "Acides Gras",
+    "categoryFiber": "Fibres Alimentaires",
+    "categoryMacro": "Macronutriments",
+    "noResults": "Aucun nutriment correspondant trouvé",
+    "noResultsHint": "Essayez un autre mot-clé ou catégorie",
+    "ulUnknown": "UL Non Déterminé",
+    "back": "Retour à la Liste des Nutriments",
+    "notFound": "Nutriment non trouvé",
+    "dailyIntake": "Recommandations d'Apport Quotidien",
+    "rniLabel": "Apport Recommandé (RNI / AI)",
+    "male": "♂ Homme",
+    "female": "♀ Femme",
+    "unitLabel": "Unité : ",
+    "cycleLabel": "Cycle de Supplémentation",
+    "specialNote": "💡 Note Spéciale",
+    "overdoseRisk": "Risque de Surdosage",
+    "ulLabel": "Niveau d'Apport Supérieur Tolérable (UL)",
+    "ulSafe": "Non clairement défini (régime habituel peu susceptible de causer un excès)",
+    "overdoseSymptoms": "Symptômes de Surdosage",
+    "foodSources": "Sources Alimentaires",
+    "vitDNote": "☀️ Note Spéciale : Sources alimentaires limitées de Vitamine D",
+    "vitDNoteBody": "La Vitamine D est principalement synthétisée par exposition de la peau au soleil, avec peu de sources alimentaires. Recommandez 15 à 30 minutes d'activité extérieure quotidienne, ou supplémentation en Vitamine D sous supervision médicale.",
+    "vitB12Note": "🌱 Note pour les Véganes",
+    "vitB12NoteBody": "La Vitamine B12 se trouve presque exclusivement dans les aliments d'origine animale. Les véganes stricts doivent l'obtenir via des aliments enrichis ou des suppléments pour éviter une carence.",
+    "supplementAdvice": "Conseils d'Achat de Suppléments",
+    "atRiskGroups": "Groupes à Risque Élevé de Carence",
+    "labRef": "Valeurs de Référence de Laboratoire",
+    "labDeficient": "Déficient",
+    "labInsufficient": "Insuffisant",
+    "labOptimal": "Plage Optimale",
+    "labHigh": "Élevé",
+    "labNote": "Les données sont à titre indicatif uniquement ; veuillez consulter votre médecin pour l'interprétation",
+    "disclaimer": "⚠️ Avertissement : Les informations sur cette page sont basées sur les DRIs chinois 2023 et la littérature scientifique publiquement disponible, à des fins éducatives et de référence uniquement. Elles ne constituent pas un diagnostic médical ou un conseil de traitement.",
+    "cycleDaily": "Supplémentation Quotidienne",
+    "cyclePeriodic": "Supplémentation Périodique",
+    "cycleAsNeeded": "Selon les Besoins"
+  },
+  "assessment": {
+    "stepOf": "Étape {{current}} sur {{total}}",
+    "draftFound": "Brouillon d'évaluation non terminé détecté",
+    "draftRestore": "Restaurer le Brouillon",
+    "required": "Veuillez remplir/sélectionner : ",
+    "requireCoreNeed": "Veuillez sélectionner au moins un besoin principal",
+    "fillGenderAge": "Veuillez remplir le genre et l'âge dans 'Infos de Base' avant de sélectionner les besoins.",
+    "goBack": "Cliquez sur 'Précédent' pour revenir.",
+    "noFollowUp": "Aucun besoin principal sélectionné, pas de suivi nécessaire.",
+    "continueNext": "Cliquez sur 'Suivant' pour continuer.",
+    "noContent": "Aucun contenu à remplir pour cette étape.",
+    "clickNext": "Cliquez sur 'Suivant' pour continuer.",
+    "optional": "(Facultatif)",
+    "prev": "Précédent",
+    "next": "Suivant",
+    "saveDraft": "Enregistrer le Brouillon",
+    "skipFollowUp": "Ignorer le Suivi",
+    "viewResults": "Voir les Résultats",
+    "placeholder": "Veuillez sélectionner..."
+  },
+  "summary": {
+    "basicInfo": "Informations de Base",
+    "gender": "Genre",
+    "age": "Âge",
+    "heightWeight": "Taille/Poids",
+    "pregnancy": "Grossesse/Préconception",
+    "diagnosis": "Conditions Diagnostiquées",
+    "coreNeeds": "Besoins Principaux ({{count}} sélectionné(s))",
+    "currentSupplements": "Actuellement Pris",
+    "labData": "Données de Laboratoire",
+    "noLabData": "Pas de données de laboratoire",
+    "goBackEdit": "Pour apporter des modifications, cliquez sur 'Précédent'.",
+    "genderFemale": "Femme",
+    "genderMale": "Homme",
+    "notFilled": "Non rempli",
+    "bmi": "IMC",
+    "ageUnit": " ans"
+  },
+  "results": {
+    "title": "Vos Résultats d'Évaluation Nutritionnelle",
+    "subtitle": "Basé sur vos données d'évaluation, voici vos recommandations nutritionnelles personnalisées",
+    "noResult": "Aucun résultat d'évaluation pour le moment",
+    "goAssess": "Faire l'Évaluation",
+    "matched": "Groupes Correspondants",
+    "plan": "Plan Nutritionnel",
+    "supplements": "Suppléments Recommandés",
+    "diet": "Recommandations Alimentaires",
+    "lifestyle": "Mode de Vie"
+  },
+  "login": {
+    "welcome": "Bon Retour",
+    "welcomeDesc": "Connectez-vous pour voir votre plan nutritionnel",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "passwordPlaceholder": "Au moins 6 caractères",
+    "submit": "Se Connecter",
+    "submitting": "Connexion en cours...",
+    "noAccount": "Pas encore de compte ?",
+    "registerLink": "S'inscrire Maintenant"
+  },
+  "register": {
+    "subtitle": "Créez un compte pour commencer votre parcours nutritionnel personnalisé",
+    "email": "E-mail",
+    "getCode": "Obtenir le code",
+    "verifyCode": "Code de vérification",
+    "codeSentTo": "Code envoyé à",
+    "resendCode": "Renvoyer",
+    "retryLater": "s pour réessayer",
+    "invalidEmail": "Veuillez entrer un e-mail valide",
+    "invalidCode": "Veuillez entrer le code à 6 chiffres",
+    "sendCodeFailed": "Échec de l'envoi du code",
+    "name": "Nom / Surnom",
+    "namePlaceholder": "Comment vous appeler",
+    "optional": "optionnel",
+    "password": "Définir le mot de passe",
+    "passwordPlaceholder": "Au moins 6 caractères",
+    "passwordTooShort": "Le mot de passe doit comporter au moins 6 caractères",
+    "createAccount": "Créer un compte",
+    "registerFailed": "Échec de l'inscription, vérifiez le code",
+    "hasAccount": "Vous avez déjà un compte ?",
+    "goLogin": "Se connecter"
+  },
+  "language": {
+    "label": "Langue"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "retry": "Réessayer"
+  }
+}

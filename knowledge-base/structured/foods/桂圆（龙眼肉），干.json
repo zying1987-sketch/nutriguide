@@ -1,0 +1,34 @@
+{
+  "id": "桂圆（龙眼肉），干",
+  "name": "桂圆（龙眼肉），干",
+  "category": "中式药食同源食材",
+  "tags": [],
+  "deep_analysis": false,
+  "nutrients": {},
+  "active_compounds": [
+    {
+      "name": "复合活性成分**",
+      "content_text": "含量：传统药食同源食材",
+      "mechanism": "作用机制：多靶点协同"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "⚪ C级(传统知识)** — **传统功效**：补心脾,益气血,安神",
+      "evidence_level": "C",
+      "description": ""
+    }
+  ],
+  "daily_intake": "按传统用法适量食用",
+  "cooking_tips": [
+    "按传统烹饪方法"
+  ],
+  "synergy": [],
+  "contraindications": [
+    "参照中医体质辨证食用"
+  ],
+  "tcm": {
+    "meridian": "** 归经：归心、脾经"
+  },
+  "source": ""
+}

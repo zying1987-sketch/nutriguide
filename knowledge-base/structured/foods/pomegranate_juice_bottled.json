@@ -1,0 +1,32 @@
+{
+  "id": "pomegranate_juice_bottled",
+  "name": "Pomegranate juice, bottled",
+  "category": "水果与果汁",
+  "tags": [
+    "抗炎"
+  ],
+  "deep_analysis": false,
+  "nutrients": {
+    "能量": {
+      "value": 228.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [],
+  "health_benefits": [
+    {
+      "text": "🟡 B级** — **抗炎**：富含抗炎活性成分",
+      "evidence_level": "B",
+      "description": ""
+    }
+  ],
+  "daily_intake": "100-200g/d",
+  "cooking_tips": [
+    "生吃最佳",
+    "制成果昔/沙拉"
+  ],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

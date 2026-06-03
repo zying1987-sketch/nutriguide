@@ -1,0 +1,77 @@
+{
+  "id": "spices_ginger_ground",
+  "name": "Spices, ginger, ground",
+  "category": "香料与草本",
+  "tags": [
+    "抗炎"
+  ],
+  "deep_analysis": true,
+  "nutrients": {
+    "能量": {
+      "value": 1404.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [
+    {
+      "name": "6-姜辣素**",
+      "content_text": "含量：鲜姜主要活性物",
+      "mechanism": "作用机制：COX-2抑制,TRPV1激活,5-HT3拮抗(止吐)"
+    },
+    {
+      "name": "6-姜烯酚**",
+      "content_text": "含量：干姜/加热后升高",
+      "mechanism": "作用机制：比6-gingerol抗炎活性更强"
+    },
+    {
+      "name": "姜烯**",
+      "content_text": "含量：挥发油30-40%",
+      "mechanism": "作用机制：抗氧化、抗微生物"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "🟢 A级** — **抗炎镇痛**：减轻运动后肌肉酸痛25%",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **消化**：加速胃排空50%",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **止吐**：妊娠恶心效果与VB6相当",
+      "evidence_level": "A",
+      "reference": "参考文献：Cochrane系统评价",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **代谢**：降低空腹血糖和HbA1c",
+      "evidence_level": "B",
+      "reference": "参考文献：2022 meta分析",
+      "description": ""
+    }
+  ],
+  "daily_intake": "鲜姜10-30g/d,干姜粉2-4g/d,提取物500-2000mg/d",
+  "cooking_tips": [
+    "鲜姜:炒菜/蒸鱼/煲汤,最后5-10分钟加入保留挥发油",
+    "姜茶:鲜姜5-10片+红枣煮水10分钟",
+    "干姜粉:烘焙/咖喱/炖肉",
+    "不宜高温长时间烹煮"
+  ],
+  "synergy": [
+    "姜黄(协同抗炎)",
+    "红枣(补气血经典药对)",
+    "柠檬+蜂蜜(日常保健)",
+    "大蒜(双重抗炎+抗菌)"
+  ],
+  "contraindications": [
+    "胃溃疡活动期慎用",
+    "胆结石大量服用可能诱发绞痛",
+    "服用抗凝药者监测凝血",
+    "孕期止吐:<1g干姜/d安全"
+  ],
+  "tcm": {},
+  "source": ""
+}

@@ -1,0 +1,176 @@
+{
+  "vitamin_a": {
+    "mainFunction": "Maintient la vision, l'intégrité de la peau et des muqueuses, la fonction immunitaire",
+    "overdoseRisk": "Lésions hépatiques, ostéoporose, malformations fœtales",
+    "sources": ["Foie d'animaux", "Jaune d'œuf", "Légumes-feuilles vert foncé", "Carottes", "Courge"],
+    "specialNotes": "Généralement pas déficitaire ; éviter la supplémentation à haute dose à long terme",
+    "supplementAdvice": "Les omnivores n'ont généralement pas besoin de supplémentation. Les femmes enceintes doivent suivre les conseils médicaux et ne pas dépasser la LS (3000μg RAE). La cécité nocturne ou une carence sévère nécessite une supplémentation sous supervision médicale.",
+    "atRiskGroups": ["Femmes enceintes", "Allaitement", "Enfants", "Cécité nocturne", "Diarrhée chronique"]
+  },
+  "vitamin_c": {
+    "mainFunction": "Antioxydant, favorise la synthèse du collagène, renforce l'immunité",
+    "overdoseRisk": "Diarrhée, calculs rénaux (doses élevées chroniques)",
+    "sources": ["Kiwi", "Agrumes", "Fraises", "Poivrons", "Brocoli"],
+    "supplementAdvice": "Une alimentation équilibrée est généralement suffisante. Les fumeurs, les personnes stressées et celles sujettes aux rhumes peuvent envisager 100–200mg/jour. Des doses élevées (>1000mg) peuvent provoquer des diarrhées.",
+    "atRiskGroups": ["Fumeurs", "Stress élevé", "Post-opératoire", "Personnes sujettes aux infections"]
+  },
+  "vitamin_d": {
+    "mainFunction": "Favorise l'absorption du calcium, santé osseuse, régulation immunitaire",
+    "overdoseRisk": "Hypercalcémie, calcification rénale",
+    "sources": ["Exposition solaire", "Poissons des grands fonds", "Jaune d'œuf", "Lait enrichi", "Champignons séchés au soleil"],
+    "specialNotes": "La carence est extrêmement répandue ; le test du taux de 25(OH)D est recommandé",
+    "supplementAdvice": "⚠️ La plupart des personnes manquant d'exposition solaire ont besoin d'une supplémentation. Recommandé : 400–2000 UI/jour. Indispensable en hiver, aux hautes latitudes, pour les peaux sombres et les travailleurs d'intérieur.",
+    "atRiskGroups": ["Nourrissons", "Personnes âgées", "Femmes enceintes", "Peau sombre", "Travailleurs d'intérieur", "Personnes obèses"]
+  },
+  "vitamin_e": {
+    "mainFunction": "Antioxydant, protège les membranes cellulaires",
+    "overdoseRisk": "Tendance aux saignements (effet anticoagulant)",
+    "sources": ["Noix", "Graines", "Huiles végétales", "Avocat", "Épinards"],
+    "supplementAdvice": "Une alimentation avec des noix et huiles végétales est généralement suffisante. Les doses élevées (>400 UI) peuvent augmenter le risque de saignement.",
+    "atRiskGroups": ["Malabsorption des graisses", "Prématurés", "Hyperlipidémie"]
+  },
+  "vitamin_k": {
+    "mainFunction": "Coagulation sanguine, métabolisme osseux",
+    "overdoseRisk": "De grandes doses de K3 synthétique peuvent provoquer une hémolyse",
+    "sources": ["Légumes-feuilles vert foncé", "Natto", "Brocoli", "Huile de colza"],
+    "supplementAdvice": "Une alimentation riche en légumes-feuilles est généralement suffisante. Les nouveau-nés ont besoin d'une injection de K1 pour prévenir les saignements. Les personnes à haut risque d'ostéoporose peuvent envisager K2 (MK-7, 90–180μg).",
+    "atRiskGroups": ["Nouveau-nés", "Utilisation prolongée d'antibiotiques", "Maladie hépatique", "Malabsorption"]
+  },
+  "vitamin_b1": {
+    "mainFunction": "Métabolisme énergétique, fonction neurologique",
+    "overdoseRisk": "Rare ; l'excès est excrété",
+    "sources": ["Céréales complètes", "Légumineuses", "Viande maigre", "Noix", "Levure"],
+    "supplementAdvice": "Une alimentation typique avec des céréales complètes est généralement suffisante. Les gros buveurs et ceux qui consomment principalement des céréales raffinées doivent surveiller leur apport en B1.",
+    "atRiskGroups": ["Gros buveurs", "Hyperthyroïdie", "Régime à base de céréales raffinées", "Femmes enceintes"]
+  },
+  "vitamin_b2": {
+    "mainFunction": "Métabolisme énergétique, santé des muqueuses",
+    "overdoseRisk": "Urine jaune (inoffensif)",
+    "sources": ["Produits laitiers", "Œufs", "Viande maigre", "Légumes-feuilles verts", "Légumineuses"],
+    "supplementAdvice": "Une alimentation typique est généralement suffisante. Les végétariens, les femmes enceintes et les enfants difficiles doivent faire attention. La B2 est généralement incluse dans les complexes vitaminiques B.",
+    "atRiskGroups": ["Végétariens", "Femmes enceintes", "Enfants difficiles"]
+  },
+  "vitamin_b3": {
+    "mainFunction": "Métabolisme énergétique, santé de la peau et des nerfs",
+    "overdoseRisk": "Bouffées de chaleur cutanées, lésions hépatiques",
+    "sources": ["Volaille", "Poisson", "Cacahuètes", "Céréales complètes", "Champignons"],
+    "supplementAdvice": "Une alimentation typique est généralement suffisante. Les patients atteints de pellagre ont besoin de doses thérapeutiques. Des doses élevées (>35mg) peuvent provoquer des bouffées de chaleur.",
+    "atRiskGroups": ["Pellagre", "Diarrhée", "Gros buveurs"]
+  },
+  "vitamin_b6": {
+    "mainFunction": "Métabolisme des acides aminés, synthèse des neurotransmetteurs, hématopoïèse",
+    "overdoseRisk": "Neurotoxicité (réversible)",
+    "sources": ["Volaille", "Poisson", "Pommes de terre", "Bananes", "Pois chiches"],
+    "specialNotes": "Peut soulager les nausées matinales ; B6 + magnésium agissent en synergie",
+    "supplementAdvice": "Les omnivores n'ont généralement pas besoin de supplémentation. Ceux qui souffrent de nausées matinales peuvent envisager B6 + gingembre (10–25mg/jour).",
+    "atRiskGroups": ["Femmes enceintes", "Utilisateurs de contraceptifs oraux", "Utilisateurs d'isoniazide"]
+  },
+  "vitamin_b12": {
+    "mainFunction": "Hématopoïèse, formation de la gaine de myéline",
+    "overdoseRisk": "Très faible toxicité",
+    "sources": ["Foie d'animaux", "Poisson", "Œufs", "Produits laitiers", "Aliments enrichis"],
+    "specialNotes": "Présente presque exclusivement dans les produits animaux ; les végétaliens stricts doivent se supplémenter",
+    "supplementAdvice": "⚠️ Les végétaliens stricts doivent se supplémenter (25–100μg/jour). Les personnes âgées (>50 ans) ont une réduction de l'acide gastrique et une mauvaise absorption ; la supplémentation est recommandée.",
+    "atRiskGroups": ["Végétaliens stricts", "Personnes âgées (mauvaise absorption)", "Patients gastrectomisés"]
+  },
+  "folate": {
+    "mainFunction": "Synthèse de l'ADN, prévention des anomalies du tube neural fœtal",
+    "overdoseRisk": "Peut masquer les symptômes d'une carence en B12",
+    "sources": ["Légumes-feuilles vert foncé", "Légumineuses", "Foie d'animaux", "Céréales enrichies", "Jus d'orange"],
+    "specialNotes": "Supplémenter 400–800μg/jour de la pré-conception au début de la grossesse",
+    "supplementAdvice": "⚠️ Les femmes qui essaient de concevoir et celles au début de la grossesse doivent se supplémenter (400–800μg DFE/jour) pour prévenir les anomalies du tube neural.",
+    "atRiskGroups": ["Femmes cherchant à concevoir et femmes enceintes", "Anémie mégaloblastique", "Gros buveurs"]
+  },
+  "biotin": {
+    "mainFunction": "Métabolisme des graisses et du glucose, santé de la peau et des cheveux",
+    "overdoseRisk": "Rare",
+    "sources": ["Jaune d'œuf", "Noix", "Graines", "Saumon", "Avocat"],
+    "supplementAdvice": "Une alimentation typique (œufs, foie, noix) est généralement suffisante. Ceux qui consomment des blancs d'œufs crus ou sous nutrition parentérale prolongée doivent faire attention.",
+    "atRiskGroups": ["Consommateurs de blancs d'œufs crus", "Nutrition parentérale prolongée", "Femmes enceintes"]
+  },
+  "pantothenic_acid": {
+    "mainFunction": "Métabolisme énergétique, synthèse hormonale",
+    "overdoseRisk": "Diarrhée",
+    "sources": ["Presque tous les aliments", "Céréales complètes", "Avocat", "Champignons", "Œufs"],
+    "supplementAdvice": "Présente dans presque tous les aliments ; la carence est extrêmement rare. Pas de supplémentation nécessaire.",
+    "atRiskGroups": ["Rarement déficitaire"]
+  },
+  "calcium": {
+    "mainFunction": "Os et dents, transmission neuromusculaire, coagulation sanguine",
+    "overdoseRisk": "Calculs rénaux, calcification vasculaire, constipation",
+    "sources": ["Produits laitiers", "Tofu", "Légumes-feuilles vert foncé", "Sésame", "Sardines"],
+    "specialNotes": "Femmes de plus de 40 ans : 1000–1200mg/jour recommandés",
+    "supplementAdvice": "Ceux qui consomment régulièrement des produits laitiers et du soja n'ont pas besoin de supplémentation. ⚠️ Ceux ayant une consommation insuffisante (adolescents, femmes enceintes, personnes âgées, végétariens) devraient supplémenter avec du citrate de calcium 500–600mg/jour, en doses fractionnées, avec de la vitamine D.",
+    "atRiskGroups": ["Enfants", "Adolescents", "Femmes enceintes", "Personnes âgées", "Végétariens"]
+  },
+  "iron": {
+    "mainFunction": "Hématopoïèse, transport de l'oxygène",
+    "overdoseRisk": "Lésions hépatiques, constipation, dommages cardiaques",
+    "sources": ["Viande rouge", "Foie d'animaux", "Palourdes", "Légumineuses", "Épinards"],
+    "specialNotes": "Le fer héminique (animal) est beaucoup plus absorbable que le fer végétal ; la vitamine C améliore l'absorption",
+    "supplementAdvice": "⚠️ Les femmes en période de menstruation, les femmes enceintes et les végétariens sont sujets à la carence. Ceux diagnostiqués avec une anémie ferriprive ont besoin de 20–30mg de fer élémentaire/jour (sous supervision médicale).",
+    "atRiskGroups": ["Femmes en menstruation", "Femmes enceintes", "Nourrissons", "Végétariens", "Personnes anémiques"]
+  },
+  "zinc": {
+    "mainFunction": "Immunité, cicatrisation, goût, reproduction",
+    "overdoseRisk": "Carence en cuivre, fonction immunitaire altérée",
+    "sources": ["Huîtres", "Viande rouge", "Graines de citrouille", "Noix de cajou", "Pois chiches"],
+    "supplementAdvice": "⚠️ Les végétariens ont de faibles taux d'absorption et doivent faire attention. Les omnivores n'ont généralement pas besoin de supplémentation. Suppléments : faible dose recommandée (8–11mg/jour).",
+    "atRiskGroups": ["Végétariens", "Femmes enceintes", "Enfants", "Diarrhée", "Personnes âgées"]
+  },
+  "magnesium": {
+    "mainFunction": "Fonction neuromusculaire, rythme cardiaque, santé osseuse, régulation de la glycémie",
+    "overdoseRisk": "Diarrhée, hypotension, dépression respiratoire",
+    "sources": ["Graines de citrouille", "Amandes", "Épinards", "Chocolat noir", "Avocat"],
+    "specialNotes": "Le glycinate/citrate de magnésium s'absorbe bien ; l'oxyde de magnésium cause des diarrhées",
+    "supplementAdvice": "Les personnes stressées, les diabétiques et les gros buveurs doivent faire attention. Choisir le glycinate ou citrate de magnésium (meilleure absorption) ; éviter l'oxyde de magnésium.",
+    "atRiskGroups": ["Personnes stressées", "Diabétiques", "Gros buveurs", "Utilisateurs de diurétiques"]
+  },
+  "selenium": {
+    "mainFunction": "Antioxydant, fonction thyroïdienne",
+    "overdoseRisk": "Chute de cheveux, déformation des ongles, haleine à l'ail",
+    "sources": ["Noix du Brésil", "Fruits de mer", "Œufs", "Viande maigre", "Céréales complètes"],
+    "specialNotes": "1–2 noix du Brésil par jour suffisent",
+    "supplementAdvice": "Les habitants des régions pauvres en sélénium doivent faire attention. 1–2 noix du Brésil/jour est généralement suffisant. Des doses très élevées (>400μg) sont toxiques.",
+    "atRiskGroups": ["Habitants de régions pauvres en sélénium", "Maladie de Keshan", "Affections thyroïdiennes"]
+  },
+  "iodine": {
+    "mainFunction": "Synthèse des hormones thyroïdiennes",
+    "overdoseRisk": "Hyperthyroïdie / Hypothyroïdie",
+    "sources": ["Sel iodé", "Kelp", "Nori", "Fruits de mer", "Œufs"],
+    "specialNotes": "Les patients atteints de Hashimoto doivent être prudents avec l'iode ; éviter les aliments riches en iode",
+    "supplementAdvice": "Ceux qui utilisent du sel iodé sont généralement en quantité suffisante. ⚠️ Les femmes enceintes et allaitantes ont besoin de 200–250μg/jour. Les suppléments nécessitent des conseils médicaux.",
+    "atRiskGroups": ["Femmes enceintes", "Femmes allaitantes", "Patients atteints de maladie thyroïdienne (nécessite un avis médical)"]
+  },
+  "potassium": {
+    "mainFunction": "Régulation de la pression artérielle, transmission neuromusculaire",
+    "overdoseRisk": "Hyperkaliémie (chez les personnes atteintes d'insuffisance rénale)",
+    "sources": ["Bananes", "Pommes de terre", "Avocat", "Épinards", "Eau de coco"],
+    "supplementAdvice": "Une alimentation typique avec des légumes et des fruits est généralement suffisante. Les personnes atteintes de maladie rénale doivent éviter les suppléments riches en potassium.",
+    "atRiskGroups": ["Patients hypertendus", "Personnes qui transpirent beaucoup", "Utilisateurs de diurétiques"]
+  },
+  "omega3": {
+    "mainFunction": "Anti-inflammatoire, protection cardiovasculaire, développement cérébral",
+    "overdoseRisk": "Effet anticoagulant (doses très élevées)",
+    "sources": ["Poissons des grands fonds (saumon, sardines)", "Graines de lin", "Graines de chia", "Noix", "Huile d'algue"],
+    "specialNotes": "Les végétariens peuvent utiliser l'huile d'algue DHA comme alternative",
+    "supplementAdvice": "⚠️ Ceux qui mangent rarement du poisson (<2 fois/semaine) devraient supplémenter avec de l'huile de poisson ou de l'algue DHA 200–300mg/jour. Fortement recommandé pour les femmes enceintes.",
+    "atRiskGroups": ["Femmes enceintes", "Nourrissons", "Personnes âgées", "Hyperlipidémie", "Personnes sujettes à la dépression"]
+  },
+  "fiber": {
+    "mainFunction": "Santé intestinale, contrôle de la glycémie et des lipides",
+    "overdoseRisk": "Ballonnements, interférence avec l'absorption des minéraux (excès)",
+    "sources": ["Céréales complètes", "Légumineuses", "Légumes", "Fruits", "Noix"],
+    "specialNotes": "Les patients SCI-D devraient préférer les fibres solubles ; SCI-C devrait augmenter les fibres insolubles",
+    "supplementAdvice": "Les personnes souffrant de constipation, d'obésité, de diabète et d'hyperlipidémie devraient augmenter à 35g/jour. Augmenter progressivement avec beaucoup d'eau.",
+    "atRiskGroups": ["Personnes souffrant de constipation", "Obésité", "Diabète", "Hyperlipidémie"]
+  },
+  "protein": {
+    "mainFunction": "Réparation des tissus, synthèse d'enzymes et d'hormones",
+    "overdoseRisk": "Lésions rénales (chez les personnes avec une maladie rénale préexistante)",
+    "sources": ["Viande maigre", "Poisson", "Œufs", "Produits laitiers", "Légumineuses", "Produits à base de soja"],
+    "specialNotes": "1,6–2,2g/kg de poids corporel recommandé en phase de prise de masse",
+    "supplementAdvice": "Une alimentation typique est généralement suffisante. Ceux en phase de prise de masse, post-opératoire, les personnes âgées et les végétariens devraient faire attention à l'apport en protéines de qualité.",
+    "atRiskGroups": ["Sportifs/Pratiquants de fitness", "Post-opératoire", "Personnes âgées", "Végétariens"]
+  }
+}

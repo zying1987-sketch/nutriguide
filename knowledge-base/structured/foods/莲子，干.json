@@ -1,0 +1,59 @@
+{
+  "id": "莲子，干",
+  "name": "莲子，干",
+  "category": "中式药食同源食材",
+  "tags": [],
+  "deep_analysis": true,
+  "nutrients": {},
+  "active_compounds": [
+    {
+      "name": "莲子碱**",
+      "content_text": "含量：异喹啉生物碱",
+      "mechanism": "作用机制：镇静安神,钙通道阻滞→降血压"
+    },
+    {
+      "name": "GABA**",
+      "content_text": "含量：天然存在",
+      "mechanism": "作用机制：抑制性神经递质,帮助放松和入睡"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "⚪ C级** — **睡眠**：养心安神,GABA+生物碱镇静",
+      "evidence_level": "C",
+      "description": ""
+    },
+    {
+      "text": "⚪ C级** — **消化**：健脾止泻",
+      "evidence_level": "C",
+      "description": ""
+    },
+    {
+      "text": "⚪ C级** — **心血管**：莲子碱温和降压",
+      "evidence_level": "C",
+      "description": ""
+    }
+  ],
+  "daily_intake": "干品10-30g/d",
+  "cooking_tips": [
+    "提前浸泡>2h",
+    "莲子粥:莲子+百合+糯米",
+    "冰糖莲子:莲子+银耳+冰糖煲糖水",
+    "莲子心苦味极重但清热效果更强,可根据需要去留"
+  ],
+  "synergy": [
+    "百合(安神协同)",
+    "银耳(双重滋阴)",
+    "桂圆(补心血+安神)",
+    "山药(健脾养胃黄金配)"
+  ],
+  "contraindications": [
+    "大便燥结/便秘者少食(收敛止泻)",
+    "腹胀满者慎食",
+    "莲子心极苦性寒,体质虚寒者去心"
+  ],
+  "tcm": {
+    "meridian": "** 归经：归脾、肾、心经"
+  },
+  "source": ""
+}

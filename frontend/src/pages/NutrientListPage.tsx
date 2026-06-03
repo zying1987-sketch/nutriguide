@@ -1,31 +1,32 @@
 import { useState, useMemo } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import {
-  Search, Filter, ArrowRight, Apple, Beef, Droplets, Wheat, Pill,
+  Search, ArrowRight, Apple, Beef, Droplets, Wheat, Pill,
 } from 'lucide-react'
 import { nutrients, type Nutrient } from '../data/nutrients'
 
-const categoryConfig: Record<Nutrient['category'], { label: string; color: string; bg: string }> = {
-  vitamin:   { label: '维生素',   color: '#7A8B6F', bg: 'bg-[#E8F0EB]/60' },
-  mineral:   { label: '矿物质',   color: '#C17A5F', bg: 'bg-[#F0E6D8]/60' },
-  fatty_acid: { label: '脂肪酸',   color: '#3A6B70', bg: 'bg-[#DCE8E4]/60' },
-  fiber:     { label: '膳食纤维', color: '#5A6B40', bg: 'bg-[#E0EBDC]/60' },
-  macronutrient: { label: '宏量营养素', color: '#6B5040', bg: 'bg-[#EDE5DC]/60' },
-}
-
-const categoryIcons: Record<Nutrient['category'], typeof Pill> = {
-  vitamin: Pill,
-  mineral: Beef,
-  fatty_acid: Droplets,
-  fiber: Wheat,
-  macronutrient: Apple,
-}
-
 export default function NutrientListPage() {
+  const { t } = useTranslation()
   const [searchParams, setSearchParams] = useSearchParams()
   const activeCategory = (searchParams.get('category') || 'all') as string
-
   const [search, setSearch] = useState('')
+
+  const categoryConfig: Record<Nutrient['category'], { labelKey: string; color: string; bg: string }> = {
+    vitamin:   { labelKey: 'nutrients.categoryVitamin',   color: '#7A8B6F', bg: 'bg-[#E8F0EB]/60' },
+    mineral:   { labelKey: 'nutrients.categoryMineral',   color: '#C17A5F', bg: 'bg-[#F0E6D8]/60' },
+    fatty_acid: { labelKey: 'nutrients.categoryFattyAcid', color: '#3A6B70', bg: 'bg-[#DCE8E4]/60' },
+    fiber:     { labelKey: 'nutrients.categoryFiber',     color: '#5A6B40', bg: 'bg-[#E0EBDC]/60' },
+    macronutrient: { labelKey: 'nutrients.categoryMacro', color: '#6B5040', bg: 'bg-[#EDE5DC]/60' },
+  }
+
+  const categoryIcons: Record<Nutrient['category'], typeof Pill> = {
+    vitamin: Pill,
+    mineral: Beef,
+    fatty_acid: Droplets,
+    fiber: Wheat,
+    macronutrient: Apple,
+  }
 
   const filtered = useMemo(() => {
     return nutrients.filter(n => {
@@ -38,9 +39,13 @@ export default function NutrientListPage() {
     })
   }, [activeCategory, search])
 
-  const categories: Array<{ key: Nutrient['category'] | 'all'; label: string }> = [
-    { key: 'all', label: '全部' },
-    ...Object.entries(categoryConfig).map(([k, v]) => ({ key: k as Nutrient['category'], label: v.label })),
+  const categories = [
+    { key: 'all', label: t('nutrients.allCategory') },
+    { key: 'vitamin',       label: t('nutrients.categoryVitamin') },
+    { key: 'mineral',       label: t('nutrients.categoryMineral') },
+    { key: 'fatty_acid',    label: t('nutrients.categoryFattyAcid') },
+    { key: 'fiber',         label: t('nutrients.categoryFiber') },
+    { key: 'macronutrient', label: t('nutrients.categoryMacro') },
   ]
 
   return (
@@ -48,14 +53,13 @@ export default function NutrientListPage() {
       {/* Header */}
       <div className="mb-10">
         <span className="text-xs tracking-[0.2em] uppercase text-[#A8A199] font-medium">
-          科学营养
+          {t('nutrients.badge')}
         </span>
         <h1 className="font-serif text-4xl md:text-5xl font-semibold text-[#1A1A1A] mt-3 leading-tight">
-          营养素百科
+          {t('nutrients.title')}
         </h1>
         <p className="text-[#6B6560] mt-3 max-w-lg leading-relaxed">
-          基于中国居民膳食营养素参考摄入量（DRIs 2023），
-          了解每种营养素的获取途径、摄入建议与超量风险。
+          {t('nutrients.subtitle')}
         </p>
       </div>
 
@@ -65,7 +69,7 @@ export default function NutrientListPage() {
           <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#A8A199]" />
           <input
             type="text"
-            placeholder="搜索营养素名称或关键词…"
+            placeholder={t('nutrients.searchPlaceholder')}
             value={search}
             onChange={e => setSearch(e.target.value)}
             className="w-full pl-11 pr-4 py-3 rounded-2xl border border-[#E5E0D8] bg-white text-sm text-[#1A1A1A] placeholder:text-[#A8A199] focus:outline-none focus:border-[#7A8B6F] transition-colors"
@@ -109,7 +113,7 @@ export default function NutrientListPage() {
                   <Icon className="w-5 h-5" style={{ color: cfg.color }} />
                 </div>
                 <span className="text-[10px] tracking-wider uppercase text-[#A8A199] font-medium">
-                  {cfg.label}
+                  {t(cfg.labelKey)}
                 </span>
               </div>
 
@@ -134,7 +138,7 @@ export default function NutrientListPage() {
                     ? 'bg-[#E8F0EB]/60 text-[#7A8B6F]'
                     : 'bg-[#F0E6D8]/80 text-[#C17A5F]'
                 }`}>
-                  {isULUnknown ? 'UL 未确定' : `UL ${n.ul}`}
+                  {isULUnknown ? t('nutrients.ulUnknown') : `UL ${n.ul}`}
                 </span>
               </div>
 
@@ -149,8 +153,8 @@ export default function NutrientListPage() {
 
       {filtered.length === 0 && (
         <div className="text-center py-20 text-[#A8A199]">
-          <p className="text-lg">没有找到匹配的营养素</p>
-          <p className="text-sm mt-2">换一个关键词或分类试试</p>
+          <p className="text-lg">{t('nutrients.noResults')}</p>
+          <p className="text-sm mt-2">{t('nutrients.noResultsHint')}</p>
         </div>
       )}
     </div>

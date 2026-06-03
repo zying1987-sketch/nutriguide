@@ -1,0 +1,66 @@
+{
+  "id": "beverages_tea_green_brewed_regular",
+  "name": "Beverages, tea, green, brewed, regular",
+  "category": "饮品",
+  "tags": [],
+  "deep_analysis": true,
+  "nutrients": {
+    "能量": {
+      "value": 4.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [
+    {
+      "name": "EGCG**",
+      "content_text": "含量：儿茶素总量50-60%",
+      "mechanism": "作用机制：NF-κB抑制;DNA甲基转移酶抑制"
+    },
+    {
+      "name": "L-茶氨酸**",
+      "content_text": "含量：干重1-2%",
+      "mechanism": "作用机制：穿过血脑屏障→GABA增加,α脑波(放松专注)"
+    },
+    {
+      "name": "咖啡因**",
+      "content_text": "含量：每杯30-50mg",
+      "mechanism": "作用机制：腺苷受体拮抗"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "🟢 A级** — **认知**：L-茶氨酸+咖啡因改善注意力",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **代谢**：EGCG 300-500mg/d增脂肪氧化4-8%",
+      "evidence_level": "B",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **心血管**：≥3杯/天心血管死亡率降20-30%",
+      "evidence_level": "B",
+      "description": ""
+    }
+  ],
+  "daily_intake": "3-5杯/d(750-1250ml),每杯3g茶叶80°C冲泡2-3分钟",
+  "cooking_tips": [
+    "80°C水温冲泡(沸水破坏儿茶素且涩味重)",
+    "冲泡2-3分钟——过量浸泡苦涩+空腹胃不适",
+    "冷泡:儿茶素/茶氨酸更高,咖啡因更低",
+    "抹茶EGCG是普通冲泡3-5倍"
+  ],
+  "synergy": [
+    "柠檬/VC(儿茶素肠道稳定性+3倍)",
+    "薄荷(清爽协同)",
+    "不宜与牛奶同饮(酪蛋白降低抗氧化活性20-25%)"
+  ],
+  "contraindications": [
+    "贫血女性餐后1h再喝(单宁酸抑制铁吸收>60%)",
+    "肝功能异常者慎用高剂量EGCG补充剂",
+    "孕期<2杯/d安全"
+  ],
+  "tcm": {},
+  "source": ""
+}

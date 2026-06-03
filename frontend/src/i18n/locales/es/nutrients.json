@@ -1,0 +1,176 @@
+{
+  "vitamin_a": {
+    "mainFunction": "Mantiene la visión, la integridad de la piel y las mucosas, la función inmune",
+    "overdoseRisk": "Daño hepático, osteoporosis, malformaciones fetales",
+    "sources": ["Hígado de animales", "Yema de huevo", "Verduras de hoja verde oscura", "Zanahorias", "Calabaza"],
+    "specialNotes": "Generalmente no hay deficiencia; evitar la suplementación a altas dosis a largo plazo",
+    "supplementAdvice": "Los omnívoros generalmente no necesitan suplementación adicional. Las mujeres embarazadas deben seguir consejo médico y no superar el LS (3000μg RAE). La ceguera nocturna o deficiencia severa requiere suplementación bajo supervisión médica.",
+    "atRiskGroups": ["Mujeres embarazadas", "Lactancia", "Niños", "Ceguera nocturna", "Diarrea crónica"]
+  },
+  "vitamin_c": {
+    "mainFunction": "Antioxidante, promueve la síntesis de colágeno, refuerza la inmunidad",
+    "overdoseRisk": "Diarrea, cálculos renales (dosis altas crónicas)",
+    "sources": ["Kiwi", "Cítricos", "Fresas", "Pimientos", "Brócoli"],
+    "supplementAdvice": "Una dieta equilibrada suele ser suficiente. Los fumadores, personas con alto estrés y propensos a resfriados pueden considerar 100–200mg/día. Dosis altas (>1000mg) pueden causar diarrea.",
+    "atRiskGroups": ["Fumadores", "Alto estrés", "Post-cirugía", "Personas propensas a infecciones"]
+  },
+  "vitamin_d": {
+    "mainFunction": "Promueve la absorción de calcio, salud ósea, regulación inmune",
+    "overdoseRisk": "Hipercalcemia, calcificación renal",
+    "sources": ["Exposición solar", "Pescado de aguas profundas", "Yema de huevo", "Leche enriquecida", "Setas secadas al sol"],
+    "specialNotes": "La deficiencia es extremadamente común; se recomienda analizar los niveles de 25(OH)D",
+    "supplementAdvice": "⚠️ La mayoría de las personas con exposición solar insuficiente necesitan suplementación. Recomendado: 400–2000 UI/día. Esencial en invierno, latitudes altas, piel oscura y trabajadores de interior.",
+    "atRiskGroups": ["Lactantes", "Personas mayores", "Mujeres embarazadas", "Piel oscura", "Trabajadores de interior", "Personas obesas"]
+  },
+  "vitamin_e": {
+    "mainFunction": "Antioxidante, protege las membranas celulares",
+    "overdoseRisk": "Tendencia al sangrado (efecto anticoagulante)",
+    "sources": ["Frutos secos", "Semillas", "Aceites vegetales", "Aguacate", "Espinacas"],
+    "supplementAdvice": "Una dieta con frutos secos y aceites vegetales suele ser suficiente. Dosis altas (>400 UI) pueden aumentar el riesgo de sangrado.",
+    "atRiskGroups": ["Malabsorción de grasas", "Prematuros", "Hiperlipidemia"]
+  },
+  "vitamin_k": {
+    "mainFunction": "Coagulación sanguínea, metabolismo óseo",
+    "overdoseRisk": "Grandes dosis de K3 sintético pueden causar hemólisis",
+    "sources": ["Verduras de hoja verde oscura", "Natto", "Brócoli", "Aceite de canola"],
+    "supplementAdvice": "Una dieta rica en verduras de hoja suele ser suficiente. Los recién nacidos necesitan inyección de K1 para prevenir el sangrado. Los de alto riesgo de osteoporosis pueden considerar K2 (MK-7, 90–180μg).",
+    "atRiskGroups": ["Recién nacidos", "Uso prolongado de antibióticos", "Enfermedad hepática", "Malabsorción"]
+  },
+  "vitamin_b1": {
+    "mainFunction": "Metabolismo energético, función neurológica",
+    "overdoseRisk": "Raro; el exceso se excreta",
+    "sources": ["Granos integrales", "Legumbres", "Carne magra", "Frutos secos", "Levadura"],
+    "supplementAdvice": "Una dieta típica con granos integrales suele ser suficiente. Los bebedores empedernidos y quienes consumen principalmente cereales refinados deben vigilar su ingesta de B1.",
+    "atRiskGroups": ["Bebedores empedernidos", "Hipertiroidismo", "Dieta de cereales refinados", "Mujeres embarazadas"]
+  },
+  "vitamin_b2": {
+    "mainFunction": "Metabolismo energético, salud de las mucosas",
+    "overdoseRisk": "Orina amarilla (inofensivo)",
+    "sources": ["Productos lácteos", "Huevos", "Carne magra", "Verduras de hoja verde", "Legumbres"],
+    "supplementAdvice": "Una dieta típica suele ser suficiente. Los vegetarianos, mujeres embarazadas y niños quisquillosos deben prestar atención. La B2 suele incluirse en los complejos de vitamina B.",
+    "atRiskGroups": ["Vegetarianos", "Mujeres embarazadas", "Niños quisquillosos"]
+  },
+  "vitamin_b3": {
+    "mainFunction": "Metabolismo energético, salud de la piel y los nervios",
+    "overdoseRisk": "Sofocos cutáneos, daño hepático",
+    "sources": ["Aves de corral", "Pescado", "Cacahuetes", "Granos integrales", "Setas"],
+    "supplementAdvice": "Una dieta típica suele ser suficiente. Los pacientes con pelagra necesitan dosis terapéuticas. Dosis altas (>35mg) pueden causar sofocos.",
+    "atRiskGroups": ["Pelagra", "Diarrea", "Bebedores empedernidos"]
+  },
+  "vitamin_b6": {
+    "mainFunction": "Metabolismo de aminoácidos, síntesis de neurotransmisores, hematopoyesis",
+    "overdoseRisk": "Neurotoxicidad (reversible)",
+    "sources": ["Aves de corral", "Pescado", "Patatas", "Plátanos", "Garbanzos"],
+    "specialNotes": "Puede aliviar las náuseas matutinas; B6 + magnesio actúan en sinergia",
+    "supplementAdvice": "Los omnívoros generalmente no necesitan suplementación. Quienes sufren náuseas matutinas pueden considerar B6 + jengibre (10–25mg/día).",
+    "atRiskGroups": ["Mujeres embarazadas", "Usuarias de anticonceptivos orales", "Usuarios de isoniazida"]
+  },
+  "vitamin_b12": {
+    "mainFunction": "Hematopoyesis, formación de la vaina de mielina",
+    "overdoseRisk": "Toxicidad muy baja",
+    "sources": ["Hígado de animales", "Pescado", "Huevos", "Lácteos", "Alimentos enriquecidos"],
+    "specialNotes": "Se encuentra casi exclusivamente en productos animales; los veganos estrictos deben suplementarse",
+    "supplementAdvice": "⚠️ Los veganos estrictos deben suplementarse (25–100μg/día). Las personas mayores (>50 años) tienen reducida la acidez gástrica y mala absorción; se recomienda suplementación.",
+    "atRiskGroups": ["Veganos estrictos", "Personas mayores (mala absorción)", "Pacientes con gastrectomía"]
+  },
+  "folate": {
+    "mainFunction": "Síntesis de ADN, prevención de defectos del tubo neural fetal",
+    "overdoseRisk": "Puede enmascarar los síntomas de deficiencia de B12",
+    "sources": ["Verduras de hoja verde oscura", "Legumbres", "Hígado de animales", "Cereales enriquecidos", "Zumo de naranja"],
+    "specialNotes": "Suplementar 400–800μg/día desde la preconcepcional hasta el inicio del embarazo",
+    "supplementAdvice": "⚠️ Las mujeres que intentan concebir y las del inicio del embarazo deben suplementarse (400–800μg DFE/día) para prevenir defectos del tubo neural.",
+    "atRiskGroups": ["Mujeres que buscan concebir y embarazadas", "Anemia megaloblástica", "Bebedores empedernidos"]
+  },
+  "biotin": {
+    "mainFunction": "Metabolismo de grasas y glucosa, salud de la piel y el cabello",
+    "overdoseRisk": "Raro",
+    "sources": ["Yema de huevo", "Frutos secos", "Semillas", "Salmón", "Aguacate"],
+    "supplementAdvice": "Una dieta típica (huevos, hígado, frutos secos) suele ser suficiente. Quienes consumen claras de huevo crudas o reciben nutrición parenteral prolongada deben prestar atención.",
+    "atRiskGroups": ["Consumidores de claras de huevo crudas", "Nutrición parenteral prolongada", "Mujeres embarazadas"]
+  },
+  "pantothenic_acid": {
+    "mainFunction": "Metabolismo energético, síntesis hormonal",
+    "overdoseRisk": "Diarrea",
+    "sources": ["Casi todos los alimentos", "Granos integrales", "Aguacate", "Setas", "Huevos"],
+    "supplementAdvice": "Presente en casi todos los alimentos; la deficiencia es extremadamente rara. No se necesita suplementación adicional.",
+    "atRiskGroups": ["Raramente deficiente"]
+  },
+  "calcium": {
+    "mainFunction": "Huesos y dientes, transmisión neuromuscular, coagulación sanguínea",
+    "overdoseRisk": "Cálculos renales, calcificación vascular, estreñimiento",
+    "sources": ["Productos lácteos", "Tofu", "Verduras de hoja verde oscura", "Sésamo", "Sardinas"],
+    "specialNotes": "Mujeres mayores de 40 años: se recomiendan 1000–1200mg/día",
+    "supplementAdvice": "Quienes consumen regularmente lácteos y soja no necesitan suplementación. ⚠️ Quienes tienen ingesta insuficiente (adolescentes, embarazadas, mayores, vegetarianos) deberían suplementarse con citrato de calcio 500–600mg/día, en dosis divididas, con vitamina D.",
+    "atRiskGroups": ["Niños", "Adolescentes", "Mujeres embarazadas", "Personas mayores", "Vegetarianos"]
+  },
+  "iron": {
+    "mainFunction": "Hematopoyesis, transporte de oxígeno",
+    "overdoseRisk": "Daño hepático, estreñimiento, daño cardíaco",
+    "sources": ["Carne roja", "Hígado de animales", "Almejas", "Legumbres", "Espinacas"],
+    "specialNotes": "El hierro hemo (animal) es mucho más absorbible que el hierro vegetal; la vitamina C mejora la absorción",
+    "supplementAdvice": "⚠️ Las mujeres en menstruación, embarazadas y vegetarianas son propensas a la deficiencia. Las diagnosticadas con anemia ferropénica necesitan 20–30mg de hierro elemental/día (bajo supervisión médica).",
+    "atRiskGroups": ["Mujeres en menstruación", "Mujeres embarazadas", "Lactantes", "Vegetarianos", "Personas anémicas"]
+  },
+  "zinc": {
+    "mainFunction": "Inmunidad, cicatrización, gusto, reproducción",
+    "overdoseRisk": "Deficiencia de cobre, función inmune deteriorada",
+    "sources": ["Ostras", "Carne roja", "Semillas de calabaza", "Anacardos", "Garbanzos"],
+    "supplementAdvice": "⚠️ Los vegetarianos tienen bajas tasas de absorción y deben prestar atención. Los omnívoros generalmente no necesitan suplementación adicional. Suplementos: dosis baja recomendada (8–11mg/día).",
+    "atRiskGroups": ["Vegetarianos", "Mujeres embarazadas", "Niños", "Personas con diarrea", "Personas mayores"]
+  },
+  "magnesium": {
+    "mainFunction": "Función neuromuscular, ritmo cardíaco, salud ósea, regulación del azúcar en sangre",
+    "overdoseRisk": "Diarrea, presión arterial baja, depresión respiratoria",
+    "sources": ["Semillas de calabaza", "Almendras", "Espinacas", "Chocolate negro", "Aguacate"],
+    "specialNotes": "El glicinato/citrato de magnesio se absorbe bien; el óxido de magnesio causa diarrea",
+    "supplementAdvice": "Las personas con alto estrés, diabéticos y bebedores empedernidos deben prestar atención. Elegir glicinato o citrato de magnesio (mejor absorción); evitar el óxido de magnesio.",
+    "atRiskGroups": ["Personas con alto estrés", "Diabéticos", "Bebedores empedernidos", "Usuarios de diuréticos"]
+  },
+  "selenium": {
+    "mainFunction": "Antioxidante, función tiroidea",
+    "overdoseRisk": "Pérdida de cabello, deformación de uñas, aliento a ajo",
+    "sources": ["Nueces de Brasil", "Mariscos", "Huevos", "Carne magra", "Granos integrales"],
+    "specialNotes": "1–2 nueces de Brasil al día son suficientes",
+    "supplementAdvice": "Los habitantes de regiones pobres en selenio deben prestar atención. 1–2 nueces de Brasil/día suele ser suficiente. Dosis muy altas (>400μg) son tóxicas.",
+    "atRiskGroups": ["Habitantes de regiones pobres en selenio", "Enfermedad de Keshan", "Afecciones tiroideas"]
+  },
+  "iodine": {
+    "mainFunction": "Síntesis de hormonas tiroideas",
+    "overdoseRisk": "Hipertiroidismo / Hipotiroidismo",
+    "sources": ["Sal yodada", "Kelp", "Nori", "Mariscos", "Huevos"],
+    "specialNotes": "Los pacientes con Hashimoto deben tener cuidado con el yodo; evitar alimentos ricos en yodo",
+    "supplementAdvice": "Quienes usan sal yodada suelen tener suficiente. ⚠️ Las mujeres embarazadas y en lactancia necesitan 200–250μg/día. Los suplementos requieren orientación médica.",
+    "atRiskGroups": ["Mujeres embarazadas", "Mujeres en lactancia", "Pacientes con enfermedad tiroidea (requiere consejo médico)"]
+  },
+  "potassium": {
+    "mainFunction": "Regulación de la presión arterial, transmisión neuromuscular",
+    "overdoseRisk": "Hiperpotasemia (en personas con disfunción renal)",
+    "sources": ["Plátanos", "Patatas", "Aguacate", "Espinacas", "Agua de coco"],
+    "supplementAdvice": "Una dieta típica con verduras y frutas suele ser suficiente. Las personas con enfermedad renal deben evitar los suplementos ricos en potasio.",
+    "atRiskGroups": ["Pacientes con hipertensión", "Personas que sudan mucho", "Usuarios de diuréticos"]
+  },
+  "omega3": {
+    "mainFunction": "Antiinflamatorio, protección cardiovascular, desarrollo cerebral",
+    "overdoseRisk": "Efecto anticoagulante (dosis muy altas)",
+    "sources": ["Pescado de aguas profundas (salmón, sardinas)", "Semillas de lino", "Semillas de chía", "Nueces", "Aceite de algas"],
+    "specialNotes": "Los vegetarianos pueden usar aceite de algas DHA como alternativa",
+    "supplementAdvice": "⚠️ Quienes rara vez comen pescado (<2 veces/semana) deberían suplementarse con aceite de pescado o aceite de algas DHA 200–300mg/día. Muy recomendado para mujeres embarazadas y personas de alto riesgo cardiovascular.",
+    "atRiskGroups": ["Mujeres embarazadas", "Lactantes", "Personas mayores", "Hiperlipidemia", "Personas propensas a la depresión"]
+  },
+  "fiber": {
+    "mainFunction": "Salud intestinal, control del azúcar en sangre y los lípidos",
+    "overdoseRisk": "Hinchazón, interferencia con la absorción de minerales (exceso)",
+    "sources": ["Granos integrales", "Legumbres", "Verduras", "Frutas", "Frutos secos"],
+    "specialNotes": "Los pacientes con SII-D deben preferir fibra soluble; SII-C debe aumentar la fibra insoluble",
+    "supplementAdvice": "Las personas con estreñimiento, obesidad, diabetes e hiperlipidemia deberían aumentar a 35g/día. Aumentar gradualmente con abundante agua.",
+    "atRiskGroups": ["Personas con estreñimiento", "Obesos", "Diabéticos", "Hiperlipidemia"]
+  },
+  "protein": {
+    "mainFunction": "Reparación de tejidos, síntesis de enzimas y hormonas",
+    "overdoseRisk": "Daño renal (en personas con enfermedad renal preexistente)",
+    "sources": ["Carne magra", "Pescado", "Huevos", "Lácteos", "Legumbres", "Productos de soja"],
+    "specialNotes": "Se recomiendan 1,6–2,2g/kg de peso corporal durante la fase de aumento de masa muscular",
+    "supplementAdvice": "Una dieta típica suele ser suficiente. Quienes están en fase de aumento de masa, post-cirugía, personas mayores y vegetarianos deben prestar atención a la ingesta de proteína de calidad.",
+    "atRiskGroups": ["Deportistas/Practicantes de fitness", "Post-cirugía", "Personas mayores", "Vegetarianos"]
+  }
+}

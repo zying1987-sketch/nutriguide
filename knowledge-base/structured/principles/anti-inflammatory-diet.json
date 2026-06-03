@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "title": "抗炎饮食实践指南",
+    "source": "市场监管总局、知乎营养科普、家庭医学在线",
+    "year": 2024,
+    "category": "diet_pattern",
+    "subcategory": "anti_inflammatory",
+    "evidence_level": "B",
+    "batch_id": "batch_20260603_001",
+    "extracted_at": "2026-06-03"
+  },
+  "overview": "抗炎饮食不是固定食谱，而是以科学为基础的饮食模式，旨在通过食物选择减少体内慢性炎症。慢性炎症与心血管疾病、糖尿病、癌症、阿尔茨海默病等衰老相关疾病密切相关。",
+  "core_principles": [
+    {
+      "id": "ai_01",
+      "principle": "多吃新鲜植物性食物",
+      "why": "富含维生素、矿物质、膳食纤维及类黄酮、多酚等抗氧化植物化学物",
+      "recommended_foods": [
+        {
+          "category": "水果",
+          "examples": "猕猴桃、桃、柑橘、柚子、蓝莓、草莓等浆果",
+          "frequency": "每天200-350g"
+        },
+        {
+          "category": "蔬菜",
+          "examples": "胡萝卜、西兰花、卷心菜、生菜、柿子椒、西红柿",
+          "frequency": "每天≥300g，深色蔬菜占1/2"
+        },
+        {
+          "category": "全谷物",
+          "examples": "糙米、藜麦、燕麦、黑米、全麦面包",
+          "frequency": "每天50-150g"
+        },
+        {
+          "category": "杂豆类",
+          "examples": "红豆、绿豆、鹰嘴豆",
+          "frequency": "每周多次"
+        }
+      ]
+    },
+    {
+      "id": "ai_02",
+      "principle": "适量摄入健康脂肪",
+      "why": "不饱和脂肪酸（尤其Omega-3）有助于减轻炎症通路激活",
+      "recommended_foods": [
+        {
+          "category": "多脂鱼",
+          "examples": "三文鱼、鲭鱼、沙丁鱼、鲱鱼",
+          "frequency": "每周至少2次，共300-500g"
+        },
+        {
+          "category": "坚果种子",
+          "examples": "核桃、杏仁、亚麻籽、奇亚籽",
+          "frequency": "每天一小把（约30g）"
+        },
+        {
+          "category": "植物油",
+          "examples": "特级初榨橄榄油",
+          "frequency": "每天25-30g"
+        },
+        {
+          "category": "牛油果",
+          "examples": "鳄梨",
+          "frequency": "每周2-3次"
+        }
+      ],
+      "note": "避免反式脂肪（部分氢化植物油），每天摄入不超过2g"
+    },
+    {
+      "id": "ai_03",
+      "principle": "多吃富含多酚的食物",
+      "why": "多酚具有显著的抗炎、抗氧化和代谢调节作用",
+      "recommended_foods": [
+        {
+          "category": "饮品",
+          "examples": "绿茶（儿茶素）、红酒（白藜芦醇，限量）",
+          "note": "女性每天酒精≤15g，不饮酒更好"
+        },
+        {
+          "category": "香料",
+          "examples": "姜（姜黄素）、大蒜、洋葱、姜黄",
+          "frequency": "日常烹饪使用"
+        },
+        {
+          "category": "水果",
+          "examples": "蓝莓、黑巧克力（70%以上可可）",
+          "note": "黑巧克力含糖量也需注意"
+        },
+        {
+          "category": "蔬菜",
+          "examples": "洋葱、紫甘蓝（花青素）",
+          "frequency": "经常食用"
+        }
+      ]
+    },
+    {
+      "id": "ai_04",
+      "principle": "减少高糖、高盐、高脂加工食品",
+      "why": "这类食物促进炎症因子表达，加重氧化应激",
+      "foods_to_limit": [
+        {
+          "category": "添加糖",
+          "examples": "含糖饮料、甜点、糖果",
+          "limit": "每天≤25g"
+        },
+        {
+          "category": "精制碳水",
+          "examples": "白面包、白米、糕点",
+          "limit": "尽量用全谷物替代50%以上"
+        },
+        {
+          "category": "加工肉制品",
+          "examples": "培根、香肠、火腿",
+          "limit": "尽量不吃，用新鲜肉类替代"
+        },
+        {
+          "category": "反式脂肪",
+          "examples": "部分烘焙食品、植脂末",
+          "limit": "每天≤2g，尽量避免"
+        },
+        {
+          "category": "高盐食品",
+          "examples": "咸菜、加工零食",
+          "limit": "每天食盐≤5g"
+        }
+      ]
+    }
+  ],
+  "anti_inflammatory_diet_patterns": [
+    {
+      "name": "地中海饮食",
+      "description": "被研究最充分的抗炎饮食模式",
+      "key_features": [
+        "大量蔬菜水果（每天≥400g）",
+        "主食以全谷物和杂豆为主",
+        "健康脂肪以橄榄油为主要脂肪来源",
+        "适量鱼类和海鲜（每周≥2次）",
+        "适量发酵乳制品（酸奶、奶酪）",
+        "少量红肉（每月偶尔）",
+        "适量红酒（可选，每天≤150ml，不推荐不饮酒者开始饮酒）"
+      ],
+      "evidence": "多项大型队列研究和RCT证实可降低心血管事件风险20-30%，延缓认知衰退"
+    },
+    {
+      "name": "DASH 饮食",
+      "description": " Dietary Approaches to Stop Hypertension，原用于降血压",
+      "key_features": [
+        "高钾、高镁、高钙（蔬菜水果丰富）",
+        "低脂乳制品",
+        "限制钠摄入（<2300mg/天，理想<1500mg）",
+        "全谷物为主食",
+        "坚果种子作为零食"
+      ],
+      "evidence": "可显著降低收缩压（高血压者平均降低11mmHg）"
+    }
+  ],
+  "cooking_tips": [
+    "优先选择蒸、煮、炖、烩等低温烹饪方式",
+    "避免高温煎炸（产生AGEs晚期糖基化终末产物，促炎症）",
+    "外卖可以备注低油、低盐、低糖",
+    "尽量减少加工步骤，保留食物天然营养"
+  ],
+  "tags": [
+    "anti_inflammatory",
+    "chronic_disease",
+    "aging"
+  ]
+}

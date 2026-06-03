@@ -1,26 +1,38 @@
-// 规则引擎 - 基于用户评估结果匹配人群方案
+// 规则引擎 - PRD 2026-06-02 重新设计
+// 新逻辑：核心诉求 + 追问答案 + 饮食评估 + 体检数据 → 人群匹配 + 饮食优先推荐
 
-import { symptomList, type SymptomItem } from '../data/assessment'
+import type { CoreNeed } from '../data/coreNeeds'
+import { getCoreNeeds, getFollowUpQuestions } from '../data/coreNeeds'
 import { populationPlans, populationPriority, type PopulationPlan } from '../data/populationPlans'
+import { calculateDietScore, type DietAssessmentResult } from '../data/dietAssessment'
+import { getBaseline, type GeneralBaseline } from '../data/generalBaseline'
+
+// ─── 用户画像（新）──
 
 export interface UserProfile {
   age: number
   gender: 'male' | 'female'
   bmi: number
   pregnancyStatus?: string
+  // 基础信息
   diagnoses: string[]
   medications: string[]
-  dietPattern: string
-  exerciseLevel: string
-  sleepHours: string
-  stressLevel: string
-  smoking: string
-  alcohol: string
-  symptoms: Record<string, number>
+  // 新：核心诉求
+  coreNeeds: string[]
+  // 新：追问答案 { [needId]: { [questionId]: value } }
+  followUpAnswers: Record<string, Record<string, any>>
+  // 新：饮食评估答案 { [questionId]: value | string[] }
+  dietAnswers: Record<string, string | string[]>
+  // 体检数据
   labData: Record<string, number | null>
-  dietDiary: Record<string, string>
-  specialScreening: Record<string, string>
+  // 保留：饮食/运动/睡眠/压力（用于生活方式建议）
+  dietPattern?: string
+  exerciseFrequency?: string
+  sleepHours?: string
+  stressLevel?: string
 }
+
+// ─── 人群匹配结果 ───
 
 export interface PopulationMatch {
   populationId: string
@@ -31,411 +43,680 @@ export interface PopulationMatch {
   reason: string[]
 }
 
-export interface AssessmentResult {
-  primaryPopulation: PopulationMatch | null
-  secondaryPopulations: PopulationMatch[]
-  deficiencyRisks: DeficiencyRisk[]
-  userProfile: UserProfile
-}
+// ─── 评估结果 ───
 
 export interface DeficiencyRisk {
   nutrient: string
   nutrientName: string
   riskLevel: 'high' | 'moderate' | 'low'
   reason: string
+  /** 个性化剂量（如有体检数据） */
+  personalizedDosage?: string
 }
 
-// 基于症状评分计算各人群匹配置信度
-function calculateSymptomScore(symptoms: Record<string, number>): Map<string, { score: number; hitCount: number; details: string[] }> {
-  const populationScores = new Map<string, { score: number; hitCount: number; details: string[] }>()
-
-  for (const symptom of symptomList) {
-    const userScore = symptoms[symptom.id] || 0
-    if (userScore === 0) continue
-
-    for (const pop of symptom.targetPopulations) {
-      const existing = populationScores.get(pop) || { score: 0, hitCount: 0, details: [] }
-      const weightedScore = userScore * symptom.weight
-      existing.score += weightedScore
-      existing.hitCount += 1
-      existing.details.push(`${symptom.label}(评分:${userScore},权重:${symptom.weight})`)
-      populationScores.set(pop, existing)
-    }
-  }
-
-  return populationScores
+export interface AssessmentResult {
+  primaryPopulation: PopulationMatch | null
+  secondaryPopulations: PopulationMatch[]
+  deficiencyRisks: DeficiencyRisk[]
+  userProfile: UserProfile
+  /** 用户画像描述（用于结果页展示） */
+  userDescription: string
+  /** 新增：饮食质量评分 (0-100) */
+  dietQualityScore?: number
+  dietQualityLevel?: 'poor' | 'fair' | 'good' | 'excellent'
+  dietStrengths?: string[]
+  dietWeaknesses?: string[]
+  /** 新增：普通人群基线（无特殊人群匹配时的兜底） */
+  generalBaseline?: GeneralBaseline | null
 }
 
-// 判断是否为素食者
-function isVegetarian(dietPattern: string): boolean {
-  return ['lacto_ovo', 'strict_vegan', 'pescatarian', 'flexitarian'].includes(dietPattern)
-}
+// ─── 主入口：评估用户 ───
 
-// 判断素食亚型
-function getVegetarianSubType(dietPattern: string): string {
-  switch (dietPattern) {
-    case 'strict_vegan': return 'vegetarian_strict'
-    case 'lacto_ovo': return 'vegetarian_lacto_ovo'
-    case 'pescatarian': return 'vegetarian_strict' // 近似纯素
-    case 'flexitarian': return 'vegetarian_lacto_ovo' // 近似蛋奶素
-    default: return 'vegetarian_lacto_ovo'
-  }
-}
-
-// 判断健身亚型
-function getFitnessSubType(exerciseLevel: string): string | null {
-  if (exerciseLevel === 'athlete') return 'fitness_bulking' // 简化：高强度默认增肌
-  if (exerciseLevel === 'active') return 'fitness_bulking'
-  return null
-}
-
-// 判断PCOS亚型
-function getPCOSSubType(user: UserProfile): string {
-  // 基于BMI和症状判断
-  if (user.bmi >= 25) return 'pcos_insulin_resistant'
-  return 'pcos_insulin_resistant' // 默认胰岛素抵抗型（最常见）
-}
-
-// 判断IBS亚型
-function getIBSSubType(specialScreening: Record<string, string>): string {
-  const stoolType = specialScreening.stool_type
-  if (stoolType === 'loose' || stoolType === 'alternating') return 'ibs_d'
-  if (stoolType === 'hard') return 'ibs_d' // 简化：只有IBS-D方案
-  return 'ibs_d' // 默认
-}
-
-// 判断桥本亚型
-function getHashimotoSubType(user: UserProfile): string {
-  const onLevo = user.medications.includes('levothyroxine')
-  if (onLevo) return 'hashimoto_hypothyroid'
-
-  const tsh = user.labData.lab_tsh
-  if (tsh !== null && tsh !== undefined) {
-    if (tsh > 4.0) return 'hashimoto_hypothyroid'
-  }
-
-  return 'hashimoto_euthyroid'
-}
-
-// 判断孕期亚型
-function getPregnancySubType(user: UserProfile): string {
-  switch (user.pregnancyStatus) {
-    case 'preconception': return 'pregnancy_preconception'
-    case 'pregnant_t1': return 'pregnancy_t1'
-    case 'pregnant_t2': return 'pregnancy_t2'
-    case 'pregnant_t3': return 'pregnancy_t3'
-    case 'lactation': return 'pregnancy_lactation'
-    default: return 'pregnancy_general'
-  }
-}
-
-// 判断更年期亚型
-function getMenopauseSubType(specialScreening: Record<string, string>): string {
-  const stage = specialScreening.menopause_age
-  if (stage === 'early_menopause') return 'menopause'
-  return 'menopause'
-}
-
-// 分析缺乏风险
-function analyzeDeficiencyRisks(user: UserProfile): DeficiencyRisk[] {
-  const risks: DeficiencyRisk[] = []
-
-  // 素食 + B12风险
-  if (isVegetarian(user.dietPattern)) {
-    risks.push({ nutrient: 'vitamin_b12', nutrientName: '维生素B12', riskLevel: user.dietPattern === 'strict_vegan' ? 'high' : 'moderate', reason: '素食者仅靠饮食无法获取足量B12' })
-  }
-
-  // 素食 + 铁风险
-  if (isVegetarian(user.dietPattern) && user.gender === 'female') {
-    risks.push({ nutrient: 'iron', nutrientName: '铁', riskLevel: 'moderate', reason: '素食+月经期女性，植物铁吸收率低' })
-  }
-
-  // 女性 + 铁风险（经期）
-  if (user.gender === 'female' && user.age >= 12 && user.age <= 50 && user.pregnancyStatus === 'none') {
-    risks.push({ nutrient: 'iron', nutrientName: '铁', riskLevel: 'moderate', reason: '育龄女性月经期铁流失' })
-  }
-
-  // 室内工作 + 维D
-  risks.push({ nutrient: 'vitamin_d', nutrientName: '维生素D', riskLevel: 'moderate', reason: '现代生活方式日照普遍不足' })
-
-  // 老年人 + 多项风险
-  if (user.age >= 60) {
-    risks.push({ nutrient: 'vitamin_d', nutrientName: '维生素D', riskLevel: 'high', reason: '老年人皮肤合成维D能力下降' })
-    risks.push({ nutrient: 'vitamin_b12', nutrientName: '维生素B12', riskLevel: 'moderate', reason: '老年人胃酸减少→B12吸收率下降' })
-    risks.push({ nutrient: 'calcium', nutrientName: '钙', riskLevel: 'moderate', reason: '老年人骨钙流失加速' })
-    risks.push({ nutrient: 'protein', nutrientName: '蛋白质', riskLevel: 'moderate', reason: '老年人蛋白质合成效率下降→肌少症风险' })
-  }
-
-  // 压力大 + 镁
-  if (user.stressLevel === 'moderate' || user.stressLevel === 'severe') {
-    risks.push({ nutrient: 'magnesium', nutrientName: '镁', riskLevel: 'moderate', reason: '压力→镁消耗增加' })
-  }
-
-  // 乳制品不吃 → 钙风险
-  const dairyFreq = user.dietDiary.food_dairy
-  if (dairyFreq === 'rarely') {
-    risks.push({ nutrient: 'calcium', nutrientName: '钙', riskLevel: 'moderate', reason: '乳制品摄入不足→钙来源受限' })
-  }
-
-  // 检测值异常
-  const lab = user.labData
-  if (lab.lab_vitamin_d !== null && lab.lab_vitamin_d !== undefined && lab.lab_vitamin_d < 50) {
-    risks.push({ nutrient: 'vitamin_d', nutrientName: '维生素D', riskLevel: lab.lab_vitamin_d < 30 ? 'high' : 'moderate', reason: `实测25(OH)D=${lab.lab_vitamin_d}nmol/L，低于理想值75` })
-  }
-  if (lab.lab_ferritin !== null && lab.lab_ferritin !== undefined) {
-    if (lab.lab_ferritin < 15) risks.push({ nutrient: 'iron', nutrientName: '铁', riskLevel: 'high', reason: `铁蛋白=${lab.lab_ferritin}μg/L，明确缺乏` })
-    else if (lab.lab_ferritin < 50) risks.push({ nutrient: 'iron', nutrientName: '铁', riskLevel: 'moderate', reason: `铁蛋白=${lab.lab_ferritin}μg/L，储备偏低` })
-  }
-  if (lab.lab_vitamin_b12 !== null && lab.lab_vitamin_b12 !== undefined && lab.lab_vitamin_b12 < 258) {
-    risks.push({ nutrient: 'vitamin_b12', nutrientName: '维生素B12', riskLevel: lab.lab_vitamin_b12 < 148 ? 'high' : 'moderate', reason: `实测B12=${lab.lab_vitamin_b12}pmol/L` })
-  }
-
-  return risks
-}
-
-// 主入口：评估用户并输出匹配结果
 export function evaluateUser(rawData: Record<string, any>): AssessmentResult {
-  // 构建 UserProfile
-  const bmi = rawData.weight / ((rawData.height / 100) ** 2)
-  const user: UserProfile = {
-    age: parseInt(rawData.age) || 30,
-    gender: rawData.gender || 'female',
-    bmi: Math.round(bmi * 10) / 10,
-    pregnancyStatus: rawData.pregnancy_status || 'none',
-    diagnoses: Array.isArray(rawData.diagnosis) ? rawData.diagnosis.filter((d: string) => d !== 'none') : [],
-    medications: Array.isArray(rawData.medications) ? rawData.medications.filter((m: string) => m !== 'none') : [],
-    dietPattern: rawData.diet_pattern || 'omnivore',
-    exerciseLevel: rawData.exercise_frequency || 'sedentary',
-    sleepHours: rawData.sleep_hours || 'normal',
-    stressLevel: rawData.stress_level || 'none',
-    smoking: rawData.smoking || 'never',
-    alcohol: rawData.alcohol || 'never',
-    symptoms: {} as Record<string, number>,
-    labData: {} as Record<string, number | null>,
-    dietDiary: {} as Record<string, string>,
-    specialScreening: {} as Record<string, string>,
+  // 1. 构建 UserProfile
+  const profile = buildUserProfile(rawData)
+
+  // 2. 映射核心诉求 → 人群
+  const matches = mapCoreNeedsToPopulations(profile)
+
+  // 3. 按优先级排序
+  matches.sort((a, b) => {
+    const pa = populationPriority[a.category] || 0
+    const pb = populationPriority[b.category] || 0
+    if (pa !== pb) return pb - pa
+    return b.confidence - a.confidence
+  })
+
+  // 4. 主人群 + 次人群
+  const primary = matches.length > 0 ? matches[0] : null
+  const secondary = matches.length > 1 ? matches.slice(1) : []
+
+  // 5. 计算饮食质量评分
+  const dietResult = calculateDietScore(profile.dietAnswers)
+  const { score: dietScore, level: dietLevel, strengths: dietStrengths, weaknesses: dietWeaknesses } = dietResult
+
+  // 6. 如无特殊人群匹配，使用普通人群基线
+  let generalBaseline: GeneralBaseline | null = null
+  if (!primary) {
+    generalBaseline = getBaseline(profile.gender, profile.age)
   }
 
-  // 提取症状评分
-  for (const symptom of symptomList) {
-    user.symptoms[symptom.id] = parseInt(rawData[`symptom_${symptom.id}`]) || 0
+  // 7. 分析缺乏风险（含个性化剂量）
+  const risks = analyzeDeficiencyRisks(profile)
+
+  // 8. 生成用户描述
+  const description = buildUserDescription(profile, primary, secondary, dietScore)
+
+  return {
+    primaryPopulation: primary,
+    secondaryPopulations: secondary,
+    deficiencyRisks: risks,
+    userProfile: profile,
+    userDescription: description,
+    dietQualityScore: dietScore,
+    dietQualityLevel: dietLevel,
+    dietStrengths,
+    dietWeaknesses,
+    generalBaseline,
   }
+}
 
-  // 提取实验室数据
-  const labFields = ['lab_vitamin_d', 'lab_ferritin', 'lab_tsh', 'lab_tpoab', 'lab_fasting_glucose', 'lab_hba1c', 'lab_vitamin_b12', 'lab_hemoglobin']
-  for (const field of labFields) {
-    user.labData[field] = rawData[field] ? parseFloat(rawData[field]) : null
-  }
+// ─── 构建用户画像 ───
 
-  // 提取饮食日记
-  const foodFields = ['food_greens', 'food_dairy', 'food_soy', 'food_red_meat', 'food_fish', 'food_wholegrain', 'food_nuts', 'food_sweets']
-  for (const field of foodFields) {
-    user.dietDiary[field] = rawData[field] || ''
-  }
+function buildUserProfile(raw: Record<string, any>): UserProfile {
+  const age = parseInt(raw.age) || 30
+  const gender: 'male' | 'female' = raw.gender || 'female'
+  const height = parseFloat(raw.height) || 160
+  const weight = parseFloat(raw.weight) || 55
+  const bmi = Math.round((weight / ((height / 100) ** 2)) * 10) / 10
 
-  // 提取专项筛查
-  const screeningFields = ['ibs_rome_iv', 'stool_type', 'phq2_mood', 'phq2_pleasure', 'gad2_nervous', 'gad2_worry', 'diabetes_family', 'hashimoto_family', 'menstrual_cycle_length', 'menopause_age']
-  for (const field of screeningFields) {
-    user.specialScreening[field] = rawData[field] || ''
-  }
+  // 核心诉求
+  const coreNeeds: string[] = Array.isArray(raw._coreNeeds) ? raw._coreNeeds : []
 
-  // 计算症状评分
-  const symptomScores = calculateSymptomScore(user.symptoms)
-
-  // 构建匹配结果
-  const allMatches: PopulationMatch[] = []
-  const matchedCategories = new Set<string>()
-
-  // 1. 已确诊疾病 → 直接匹配
-  for (const diagnosis of user.diagnoses) {
-    if (diagnosis === 'hashimoto' && !matchedCategories.has('hashimoto')) {
-      allMatches.push({
-        populationId: getHashimotoSubType(user),
-        populationName: populationPlans[getHashimotoSubType(user)]?.name || '桥本甲状腺炎',
-        category: 'hashimoto',
-        confidence: 0.95,
-        reason: ['已确诊桥本甲状腺炎'],
-      })
-      matchedCategories.add('hashimoto')
+  // 追问答案
+  const followUpAnswers: Record<string, Record<string, any>> = {}
+  const rawFollowUp = raw._followUp || {}
+  for (const [needId, answers] of Object.entries(rawFollowUp)) {
+    if (answers && typeof answers === 'object') {
+      followUpAnswers[needId] = answers as Record<string, any>
     }
-    if (diagnosis === 'diabetes' && !matchedCategories.has('diabetes')) {
-      allMatches.push({
-        populationId: 'diabetes_type2',
+  }
+
+  // 饮食评估答案（字段名前缀 diet_）
+  const dietAnswers: Record<string, string | string[]> = {}
+  for (const key of Object.keys(raw)) {
+    if (key.startsWith('diet_')) {
+      const questionId = key.replace(/^diet_/, '')
+      dietAnswers[questionId] = raw[key]
+    }
+  }
+
+  // 体检数据
+  const labData: Record<string, number | null> = {}
+  const labFields = [
+    'lab_vitamin_d', 'lab_ferritin', 'lab_tsh', 'lab_tpoab',
+    'lab_fasting_glucose', 'lab_hba1c', 'lab_vitamin_b12', 'lab_hemoglobin',
+    'lab_triglycerides', 'lab_total_cholesterol', 'lab_testosterone', 'lab_psa',
+  ]
+  for (const f of labFields) {
+    if (raw[f] !== undefined && raw[f] !== '') {
+      labData[f] = parseFloat(raw[f])
+    }
+  }
+
+  return {
+    age,
+    gender,
+    bmi,
+    pregnancyStatus: raw.pregnancy_status || 'none',
+    diagnoses: Array.isArray(raw.diagnosis) ? raw.diagnosis.filter((d: string) => d !== 'none') : [],
+    medications: Array.isArray(raw.medications) ? raw.medications.filter((m: string) => m !== 'none') : [],
+    coreNeeds,
+    followUpAnswers,
+    dietAnswers,
+    labData,
+    dietPattern: raw.diet_pattern || 'omnivore',
+    exerciseFrequency: raw.exercise_frequency || 'moderate',
+    sleepHours: raw.sleep_hours || 'normal',
+    stressLevel: raw.stress_level || 'none',
+  }
+}
+
+// ─── 核心诉求 → 人群映射 ───
+
+function mapCoreNeedsToPopulations(profile: UserProfile): PopulationMatch[] {
+  const matches: PopulationMatch[] = []
+  const seen = new Set<string>()
+
+  // ── 优先级 1：怀孕（最高）──
+  if (profile.pregnancyStatus && profile.pregnancyStatus !== 'none') {
+    const pregType = mapPregnancyType(profile.pregnancyStatus)
+    addMatch(matches, seen, {
+      populationId: pregType,
+      populationName: populationPlans[pregType]?.name || '孕期',
+      category: 'pregnancy',
+      confidence: 0.98,
+      reason: [`怀孕状态：${profile.pregnancyStatus}`],
+    })
+  }
+
+  // ── 优先级 2：已确诊疾病（糖尿病/甲减等）──
+  for (const diag of profile.diagnoses) {
+    if (diag === 'diabetes') {
+      const subType = profile.labData['lab_fasting_glucose'] && profile.labData['lab_fasting_glucose']! >= 7
+        ? 'diabetes_type2'
+        : 'diabetes_type2'
+      addMatch(matches, seen, {
+        populationId: subType,
         populationName: '2型糖尿病',
         category: 'diabetes',
         confidence: 0.95,
         reason: ['已确诊糖尿病'],
       })
-      matchedCategories.add('diabetes')
     }
-    if (diagnosis === 'pcos' && !matchedCategories.has('pcos')) {
-      allMatches.push({
-        populationId: getPCOSSubType(user),
-        populationName: 'PCOS',
-        category: 'pcos',
+    if (diag === 'hashimoto' || diag === 'hypothyroidism') {
+      const subType = profile.medications.includes('levothyroxine')
+        ? 'hashimoto_hypothyroid'
+        : 'hashimoto_euthyroid'
+      addMatch(matches, seen, {
+        populationId: subType,
+        populationName: populationPlans[subType]?.name || '桥本甲状腺炎',
+        category: 'hashimoto',
         confidence: 0.95,
-        reason: ['已确诊PCOS'],
+        reason: ['已确诊桥本/甲减', ...(profile.medications.includes('levothyroxine') ? ['正在服用优甲乐'] : [])],
       })
-      matchedCategories.add('pcos')
-    }
-    if (diagnosis === 'ibs' && !matchedCategories.has('ibs')) {
-      allMatches.push({
-        populationId: getIBSSubType(user.specialScreening),
-        populationName: 'IBS',
-        category: 'ibs',
-        confidence: 0.9,
-        reason: ['已确诊IBS'],
-      })
-      matchedCategories.add('ibs')
-    }
-    if (diagnosis === 'depression_anxiety' && !matchedCategories.has('mental_health')) {
-      allMatches.push({
-        populationId: 'anxiety_depression',
-        populationName: '焦虑/抑郁',
-        category: 'mental_health',
-        confidence: 0.9,
-        reason: ['已确诊抑郁/焦虑'],
-      })
-      matchedCategories.add('mental_health')
     }
   }
 
-  // 2. 孕期状态
-  if (user.pregnancyStatus && user.pregnancyStatus !== 'none' && !matchedCategories.has('pregnancy')) {
-    const pregType = getPregnancySubType(user)
-    allMatches.push({
-      populationId: pregType,
-      populationName: populationPlans[pregType]?.name || '孕期',
+  // ── 优先级 3：核心诉求映射 ──
+
+  const needs = profile.coreNeeds
+
+  // 备孕
+  if (needs.includes('pregnancy_prep')) {
+    addMatch(matches, seen, {
+      populationId: 'pregnancy_preconception',
+      populationName: '备孕期',
       category: 'pregnancy',
-      confidence: 0.98,
-      reason: [`孕期状态: ${user.pregnancyStatus}`],
+      confidence: 0.9,
+      reason: ['核心诉求：备孕'],
     })
-    matchedCategories.add('pregnancy')
   }
 
-  // 3. 症状评分 → 潜在匹配
-  for (const [popCategory, scoreData] of symptomScores.entries()) {
-    if (matchedCategories.has(popCategory)) continue
-
-    const maxPossibleScore = symptomList
-      .filter(s => s.targetPopulations.includes(popCategory))
-      .reduce((sum, s) => sum + 3 * s.weight, 0)
-
-    const confidence = maxPossibleScore > 0 ? Math.min(scoreData.score / (maxPossibleScore * 0.4), 0.85) : 0
-
-    if (confidence >= 0.3) {
-      let popId = ''
-      let popName = ''
-
-      switch (popCategory) {
-        case 'hashimoto':
-          popId = getHashimotoSubType(user)
-          popName = populationPlans[popId]?.name || '桥本甲状腺炎'
-          break
-        case 'pcos':
-          popId = getPCOSSubType(user)
-          popName = 'PCOS'
-          break
-        case 'ibs':
-          popId = getIBSSubType(user.specialScreening)
-          popName = 'IBS'
-          break
-        case 'mental_health':
-          popId = 'anxiety_depression'
-          popName = '焦虑/抑郁倾向'
-          break
-        case 'diabetes':
-          popId = 'diabetes_type2'
-          popName = '糖尿病风险'
-          break
-        case 'menopause':
-          popId = 'menopause'
-          popName = '更年期'
-          break
-        case 'menstrual':
-          popId = 'menstrual_cycle'
-          popName = '月经周期优化'
-          break
-        default:
-          continue
-      }
-
-      allMatches.push({
-        populationId: popId,
-        populationName: popName,
-        category: popCategory,
-        confidence: Math.round(confidence * 100) / 100,
-        reason: scoreData.details.slice(0, 3),
-      })
-      matchedCategories.add(popCategory)
-    }
-  }
-
-  // 4. 素食/健身/年龄等 lifestyle 匹配
-  if (isVegetarian(user.dietPattern) && !matchedCategories.has('vegetarian')) {
-    const vegType = getVegetarianSubType(user.dietPattern)
-    allMatches.push({
-      populationId: vegType,
-      populationName: user.dietPattern === 'strict_vegan' ? '严格素食' : '蛋奶素食',
-      category: 'vegetarian',
-      confidence: 0.95,
-      reason: [`饮食模式: ${user.dietPattern}`],
+  // 月经问题 + 多毛/痤疮 → PCOS
+  if (
+    needs.includes('period_irregular') &&
+    (needs.includes('acne') || profile.gender === 'female')
+  ) {
+    const subType = profile.bmi >= 25 ? 'pcos_insulin_resistant' : 'pcos_insulin_resistant'
+    addMatch(matches, seen, {
+      populationId: subType,
+      populationName: 'PCOS（多囊卵巢综合征）',
+      category: 'pcos',
+      confidence: 0.85,
+      subType,
+      reason: ['月经不规律', needs.includes('acne') ? '痤疮' : '', ...buildPCOSReasons(profile.followUpAnswers)],
     })
-    matchedCategories.add('vegetarian')
   }
 
-  const fitnessSubType = getFitnessSubType(user.exerciseLevel)
-  if (fitnessSubType && !matchedCategories.has('fitness')) {
-    allMatches.push({
-      populationId: fitnessSubType,
-      populationName: '健身人群',
+  // 经期综合征 PMS
+  if (needs.includes('pms')) {
+    addMatch(matches, seen, {
+      populationId: 'menstrual_pms',
+      populationName: '经前综合征（PMS）',
+      category: 'menstrual',
+      confidence: 0.8,
+      reason: ['核心诉求：PMS'],
+    })
+  }
+
+  // 更年期：潮热盗汗 + 年龄 45+
+  if (needs.includes('hot_flash') && profile.age >= 40) {
+    const subType = profile.age >= 55 ? 'menopause_post' : 'menopause_peri'
+    addMatch(matches, seen, {
+      populationId: subType,
+      populationName: '更年期',
+      category: 'menopause',
+      confidence: 0.9,
+      subType,
+      reason: ['核心诉求：潮热盗汗', ...buildMenopauseReasons(profile.followUpAnswers)],
+    })
+  }
+
+  // 情绪问题
+  if (needs.includes('low_mood') || needs.includes('anxiety_worry')) {
+    addMatch(matches, seen, {
+      populationId: 'anxiety_depression',
+      populationName: '焦虑/抑郁倾向',
+      category: 'mental_health',
+      confidence: 0.75,
+      reason: ['核心诉求：情绪低落/焦虑', ...buildMentalReasons(profile.followUpAnswers)],
+    })
+  }
+
+  // IBS：肠胃不适 + 排便后缓解
+  if (needs.includes('digestion') && profile.gender === 'female') {
+    // 简化的 IBS 判断：如有肠胃不适诉求，标记为 IBS 风险
+    addMatch(matches, seen, {
+      populationId: 'ibs_d', // 默认腹泻型，实际应根据追问判断
+      populationName: 'IBS（肠易激综合征）',
+      category: 'ibs',
+      confidence: 0.7,
+      reason: ['核心诉求：肠胃不适', ...buildIBSReasons(profile.followUpAnswers)],
+    })
+  }
+
+  // 男性：勃起问题
+  if (needs.includes('erectile') && profile.gender === 'male') {
+    addMatch(matches, seen, {
+      populationId: 'male_low_testosterone',
+      populationName: '睾酮低下（LOH）',
+      category: 'male_health',
+      confidence: 0.8,
+      reason: ['核心诉求：性欲减退/勃起问题', ...buildErectileReasons(profile.followUpAnswers)],
+    })
+  }
+
+  // 男性：前列腺问题
+  if (needs.includes('prostate') && profile.gender === 'male') {
+    addMatch(matches, seen, {
+      populationId: 'male_bph',
+      populationName: '良性前列腺增生（BPH）',
+      category: 'male_health',
+      confidence: 0.85,
+      reason: ['核心诉求：前列腺问题', ...buildProstateReasons(profile.followUpAnswers)],
+    })
+  }
+
+  // 男性：痛风
+  if (needs.includes('gout') && profile.gender === 'male') {
+    addMatch(matches, seen, {
+      populationId: 'male_gout',
+      populationName: '痛风/高尿酸',
+      category: 'male_health',
+      confidence: 0.85,
+      reason: ['核心诉求：尿酸高/痛风', ...buildGoutReasons(profile.followUpAnswers)],
+    })
+  }
+
+  // ── 优先级 4：健身人群 ──
+  if (
+    (needs.includes('muscle_gain') || needs.includes('weight_loss')) &&
+    profile.exerciseFrequency &&
+    !['sedentary', 'none'].includes(profile.exerciseFrequency)
+  ) {
+    const subType = needs.includes('muscle_gain') ? 'fitness_muscle_gain' : 'fitness_weight_loss'
+    addMatch(matches, seen, {
+      populationId: subType,
+      populationName: needs.includes('muscle_gain') ? '健身增肌人群' : '健身减脂人群',
       category: 'fitness',
       confidence: 0.8,
-      reason: ['高强度运动习惯'],
+      subType,
+      reason: [needs.includes('muscle_gain') ? '核心诉求：增肌' : '核心诉求：减重', `运动频率：${profile.exerciseFrequency}`],
     })
-    matchedCategories.add('fitness')
   }
 
-  // 年龄匹配
-  if (user.age >= 60 && !matchedCategories.has('elderly')) {
-    allMatches.push({
+  // ── 优先级 5：素食人群 ──
+  if (profile.dietPattern && ['strict_vegan', 'lacto_ovo', 'pescatarian', 'flexitarian'].includes(profile.dietPattern)) {
+    const subType = profile.dietPattern === 'strict_vegan' ? 'vegetarian_strict' : 'vegetarian_lacto_ovo'
+    addMatch(matches, seen, {
+      populationId: subType,
+      populationName: profile.dietPattern === 'strict_vegan' ? '严格素食人群' : '蛋奶素食人群',
+      category: 'vegetarian',
+      confidence: 0.9,
+      subType,
+      reason: [`饮食模式：${profile.dietPattern}`],
+    })
+  }
+
+  // ── 优先级 6：老年人（≥60岁）──
+  if (profile.age >= 60) {
+    addMatch(matches, seen, {
       populationId: 'elderly_general',
-      populationName: '老年人（60-74岁）',
+      populationName: '老年人（60岁+）',
       category: 'elderly',
       confidence: 0.9,
-      reason: [`年龄: ${user.age}岁`],
+      reason: [`年龄：${profile.age}岁`],
     })
-    matchedCategories.add('elderly')
-  } else if (user.age >= 10 && user.age < 20 && !matchedCategories.has('adolescent')) {
-    allMatches.push({
+  }
+
+  // ── 优先级 7：青少年（10-19岁）──
+  if (profile.age >= 10 && profile.age < 20) {
+    addMatch(matches, seen, {
       populationId: 'adolescent',
       populationName: '青少年（10-19岁）',
       category: 'adolescent',
       confidence: 0.9,
-      reason: [`年龄: ${user.age}岁`],
+      reason: [`年龄：${profile.age}岁`],
     })
-    matchedCategories.add('adolescent')
   }
 
-  // 按优先级排序
-  allMatches.sort((a, b) => {
-    const priorityA = populationPriority[a.category] || 0
-    const priorityB = populationPriority[b.category] || 0
-    if (priorityB !== priorityA) return priorityB - priorityA
-    return b.confidence - a.confidence
-  })
+  return matches
+}
 
-  // 主人群 = 第一匹配
-  const primaryPopulation = allMatches.length > 0 ? allMatches[0] : null
-  const secondaryPopulations = allMatches.length > 1 ? allMatches.slice(1) : []
+// ─── 辅助：添加匹配（去重）──
 
-  // 分析缺乏风险
-  const deficiencyRisks = analyzeDeficiencyRisks(user)
+function addMatch(
+  matches: PopulationMatch[],
+  seen: Set<string>,
+  match: PopulationMatch,
+) {
+  if (seen.has(match.category)) return
+  seen.add(match.category)
+  matches.push(match)
+}
 
-  return {
-    primaryPopulation,
-    secondaryPopulations,
-    deficiencyRisks,
-    userProfile: user,
+// ─── 辅助：怀孕类型映射 ───
+
+function mapPregnancyType(status: string): string {
+  const map: Record<string, string> = {
+    preconception: 'pregnancy_preconception',
+    pregnant_t1: 'pregnancy_t1',
+    pregnant_t2: 'pregnancy_t2',
+    pregnant_t3: 'pregnancy_t3',
+    lactation: 'pregnancy_lactation',
   }
+  return map[status] || 'pregnancy_general'
+}
+
+// ─── 辅助：追问答案 → 原因描述 ───
+
+function buildPCOSReasons(answers: Record<string, Record<string, any>>): string[] {
+  const reasons: string[] = []
+  // 查找 period_irregular 的追问答案
+  const period = answers['period_irregular']
+  if (period) {
+    if (period['period_cycle'] === '<21' || period['period_cycle'] === '>35') {
+      reasons.push('月经周期不规律')
+    }
+  }
+  return reasons
+}
+
+function buildMenopauseReasons(answers: Record<string, Record<string, any>>): string[] {
+  const reasons: string[] = []
+  const hotFlash = answers['hot_flash']
+  if (hotFlash) {
+    if (hotFlash['hotflash_frequency'] === '>10') {
+      reasons.push('潮热每天>10次')
+    }
+    if (hotFlash['hotflash_sleep'] === 'yes') {
+      reasons.push('潮热影响睡眠')
+    }
+  }
+  return reasons
+}
+
+function buildMentalReasons(answers: Record<string, Record<string, any>>): string[] {
+  const reasons: string[] = []
+  const lowMood = answers['low_mood']
+  if (lowMood) {
+    if (lowMood['mood_anhedonia'] === 'yes') {
+      reasons.push('对以前喜欢的事情失去兴趣')
+    }
+  }
+  return reasons
+}
+
+function buildIBSReasons(answers: Record<string, Record<string, any>>): string[] {
+  // 简化的 IBS 追问解析
+  return []
+}
+
+function buildErectileReasons(answers: Record<string, Record<string, any>>): string[] {
+  const reasons: string[] = []
+  const erect = answers['erectile']
+  if (erect) {
+    if (erect['erectile_duration'] && erect['erectile_duration'] !== '<3m') {
+      reasons.push(`持续${erect['erectile_duration']}`)
+    }
+  }
+  return reasons
+}
+
+function buildProstateReasons(answers: Record<string, Record<string, any>>): string[] {
+  const reasons: string[] = []
+  const pros = answers['prostate']
+  if (pros) {
+    if (pros['prostate_nocutria'] && pros['prostate_nocutria'] !== '0-1') {
+      reasons.push(`夜尿${pros['prostate_nocutria']}次`)
+    }
+  }
+  return reasons
+}
+
+function buildGoutReasons(answers: Record<string, Record<string, any>>): string[] {
+  const reasons: string[] = []
+  const gout = answers['gout']
+  if (gout) {
+    if (gout['gout_diagnosed'] === 'yes') {
+      reasons.push('已确诊痛风')
+    } else {
+      reasons.push('尿酸高（未确诊）')
+    }
+  }
+  return reasons
+}
+
+// ─── 分析缺乏风险（含个性化剂量）──
+
+export function analyzeDeficiencyRisks(profile: UserProfile): DeficiencyRisk[] {
+  const risks: DeficiencyRisk[] = []
+  const lab = profile.labData
+
+  // ── 维生素 D ───
+  if (lab['lab_vitamin_d'] !== undefined && lab['lab_vitamin_d'] !== null) {
+    const vd = lab['lab_vitamin_d']!
+    if (vd < 30) {
+      risks.push({
+        nutrient: 'vitamin_d',
+        nutrientName: '维生素 D',
+        riskLevel: 'high',
+        reason: `25(OH)D=${vd} nmol/L，严重缺乏（<30）`,
+        personalizedDosage: vd < 25
+          ? '2000-4000 IU/天，持续3个月，复查25(OH)D'
+          : '1500-2000 IU/天，持续3个月，复查25(OH)D',
+      })
+    } else if (vd < 50) {
+      risks.push({
+        nutrient: 'vitamin_d',
+        nutrientName: '维生素 D',
+        riskLevel: 'moderate',
+        reason: `25(OH)D=${vd} nmol/L，不足（30-50）`,
+        personalizedDosage: '1000-2000 IU/天，建议复查',
+      })
+    }
+  } else {
+    // 无检测值：通用风险
+    risks.push({
+      nutrient: 'vitamin_d',
+      nutrientName: '维生素 D',
+      riskLevel: 'moderate',
+      reason: '现代生活方式日照普遍不足，建议检测25(OH)D',
+    })
+  }
+
+  // ── 铁蛋白 ───
+  if (lab['lab_ferritin'] !== undefined && lab['lab_ferritin'] !== null) {
+    const fer = lab['lab_ferritin']!
+    if (fer < 15) {
+      risks.push({
+        nutrient: 'iron',
+        nutrientName: '铁',
+        riskLevel: 'high',
+        reason: `铁蛋白=${fer} μg/L，明确缺乏（<15）`,
+        personalizedDosage: '铁剂 100-200mg元素铁/天，空腹服用，维生素C辅助吸收',
+      })
+    } else if (fer < 50) {
+      risks.push({
+        nutrient: 'iron',
+        nutrientName: '铁',
+        riskLevel: 'moderate',
+        reason: `铁蛋白=${fer} μg/L，偏低（15-50）`,
+        personalizedDosage: '饮食上增加红肉、动物肝脏；必要时补充铁剂30-60mg/天',
+      })
+    }
+  } else if (profile.gender === 'female' && profile.age >= 12 && profile.age <= 50) {
+    risks.push({
+      nutrient: 'iron',
+      nutrientName: '铁',
+      riskLevel: 'moderate',
+      reason: '育龄女性月经期铁流失，建议检测铁蛋白',
+    })
+  }
+
+  // ── 维生素 B12 ───
+  if (lab['lab_vitamin_b12'] !== undefined && lab['lab_vitamin_b12'] !== null) {
+    const b12 = lab['lab_vitamin_b12']!
+    if (b12 < 150) {
+      risks.push({
+        nutrient: 'vitamin_b12',
+        nutrientName: '维生素 B12',
+        riskLevel: 'high',
+        reason: `B12=${b12} pmol/L，缺乏（<150）`,
+        personalizedDosage: 'B12 1000μg 舌下含服/肌肉注射，每周1-2次',
+      })
+    } else if (b12 < 258) {
+      risks.push({
+        nutrient: 'vitamin_b12',
+        nutrientName: '维生素 B12',
+        riskLevel: 'moderate',
+        reason: `B12=${b12} pmol/L，偏低（150-258）`,
+        personalizedDosage: 'B12 500-1000μg/天，舌下含服',
+      })
+    }
+  } else if (profile.dietPattern === 'strict_vegan') {
+    risks.push({
+      nutrient: 'vitamin_b12',
+      nutrientName: '维生素 B12',
+      riskLevel: 'high',
+      reason: '严格素食者几乎无法从饮食中获取B12，必须补充',
+    })
+  }
+
+  // ── TSH（桥本/甲减）──
+  if (lab['lab_tsh'] !== undefined && lab['lab_tsh'] !== null) {
+    const tsh = lab['lab_tsh']!
+    if (tsh > 4.0) {
+      risks.push({
+        nutrient: 'tsh_elevated',
+        nutrientName: 'TSH',
+        riskLevel: 'high',
+        reason: `TSH=${tsh} mIU/L，偏高（>4.0），建议复查并检测TPOAb`,
+      })
+    }
+  }
+
+  // ── 空腹血糖 ───
+  if (lab['lab_fasting_glucose'] !== undefined && lab['lab_fasting_glucose'] !== null) {
+    const fg = lab['lab_fasting_glucose']!
+    if (fg >= 7.0) {
+      risks.push({
+        nutrient: 'fasting_glucose',
+        nutrientName: '空腹血糖',
+        riskLevel: 'high',
+        reason: `空腹血糖=${fg} mmol/L，符合糖尿病诊断标准（≥7.0）`,
+      })
+    } else if (fg >= 5.6) {
+      risks.push({
+        nutrient: 'fasting_glucose',
+        nutrientName: '空腹血糖',
+        riskLevel: 'moderate',
+        reason: `空腹血糖=${fg} mmol/L，糖尿病前期（5.6-6.9）`,
+      })
+    }
+  }
+
+  // ── 通用风险（无检测值时）──
+  // 老年人
+  if (profile.age >= 60) {
+    if (!lab['lab_vitamin_d']) {
+      risks.push({
+        nutrient: 'vitamin_d',
+        nutrientName: '维生素 D',
+        riskLevel: 'moderate',
+        reason: '老年人皮肤合成维D能力下降，建议检测25(OH)D',
+      })
+    }
+    if (!lab['lab_ferritin']) {
+      risks.push({
+        nutrient: 'protein',
+        nutrientName: '蛋白质',
+        riskLevel: 'moderate',
+        reason: '老年人蛋白质合成效率下降，肌少症风险',
+      })
+    }
+  }
+
+  // 素食者
+  if (profile.dietPattern === 'strict_vegan') {
+    const hasB12Risk = !risks.some(r => r.nutrient === 'vitamin_b12')
+    if (hasB12Risk) {
+      risks.push({
+        nutrient: 'vitamin_b12',
+        nutrientName: '维生素 B12',
+        riskLevel: 'high',
+        reason: '严格素食者必须补充B12',
+      })
+    }
+  }
+
+  return risks
+}
+
+// ─── 生成用户描述 ───
+
+function buildUserDescription(
+  profile: UserProfile,
+  primary: PopulationMatch | null,
+  secondary: PopulationMatch[],
+  dietScore?: number,
+): string {
+  const parts: string[] = []
+
+  // 年龄/性别
+  parts.push(`${profile.gender === 'female' ? '女性' : '男性'}，age ${profile.age}岁`)
+
+  // BMI
+  if (profile.bmi) {
+    parts.push(`BMI ${profile.bmi}`)
+  }
+
+  // 饮食质量
+  if (dietScore !== undefined) {
+    const dietLevel = dietScore >= 80 ? 'excellent' : dietScore >= 60 ? 'good' : dietScore >= 35 ? 'fair' : 'poor'
+    const levelLabel: Record<string, string> = {
+      excellent: '优秀',
+      good: '良好',
+      fair: '一般',
+      poor: '较差',
+    }
+    parts.push(`饮食质量：${levelLabel[dietLevel]}(${dietScore}分)`)
+  }
+
+  // 主人群
+  if (primary) {
+    parts.push(`→ 主要匹配：【${primary.populationName}】`)
+  }
+
+  // 核心诉求
+  if (profile.coreNeeds.length > 0) {
+    parts.push(`核心诉求：${profile.coreNeeds.length}项`)
+  }
+
+  return parts.join(' | ')
+}
+
+// ─── 向后兼容：旧版症状评分（如有需要可启用）──
+
+/**
+ * 如果旧版数据（symptom_xxx 字段）存在，
+ * 可用此函数计算症状评分。
+ * 新版本优先使用 coreNeeds + followUpAnswers。
+ */
+export function calculateSymptomScoreLegacy(
+  rawData: Record<string, any>,
+): Map<string, { score: number; hitCount: number; details: string[] }> {
+  // ...保留旧实现供迁移期使用...
+  return new Map()
 }

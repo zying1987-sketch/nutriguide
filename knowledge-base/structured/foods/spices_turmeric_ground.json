@@ -1,0 +1,73 @@
+{
+  "id": "spices_turmeric_ground",
+  "name": "Spices, turmeric, ground",
+  "category": "香料与草本",
+  "tags": [
+    "抗炎"
+  ],
+  "deep_analysis": true,
+  "nutrients": {
+    "能量": {
+      "value": 1305.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [
+    {
+      "name": "姜黄素**",
+      "content_text": "含量：干重3-5%",
+      "mechanism": "作用机制：NF-κB通路抑制，COX-2下调"
+    },
+    {
+      "name": "芳香姜黄酮**",
+      "content_text": "含量：挥发油",
+      "mechanism": "作用机制：促进神经干细胞增殖"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "🟢 A级** — **抗炎**：抑制慢性低度炎症",
+      "evidence_level": "A",
+      "reference": "参考文献：多中心RCT",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **关节**：减轻骨关节炎疼痛30-50%",
+      "evidence_level": "A",
+      "reference": "参考文献：Cochrane系统评价",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **心血管**：改善内皮功能,降低CRP 25-40%",
+      "evidence_level": "B",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **认知**：印度农村阿尔茨海默病发病率显著低于西方国家",
+      "evidence_level": "B",
+      "description": ""
+    }
+  ],
+  "daily_intake": "姜黄粉1-3g/d,或姜黄素提取物500-2000mg/d",
+  "cooking_tips": [
+    "与黑胡椒和油脂同煮——胡椒碱将生物利用度提高2000%",
+    "脂溶性,需与油脂共热",
+    "适合咖喱、炖菜、汤品、黄金奶",
+    "不宜高温油炸(>180°C降解姜黄素)"
+  ],
+  "synergy": [
+    "黑胡椒(胡椒碱增效2000%)",
+    "油脂(椰奶/橄榄油)",
+    "生姜(协同抗炎)",
+    "维生素C(稳定姜黄素)"
+  ],
+  "contraindications": [
+    "胆结石/胆道梗阻者慎用",
+    "服用抗凝药者需监测INR",
+    "铁缺乏者不宜随餐大量服用",
+    "孕期慎用大剂量",
+    "手术前2周停用"
+  ],
+  "tcm": {},
+  "source": ""
+}

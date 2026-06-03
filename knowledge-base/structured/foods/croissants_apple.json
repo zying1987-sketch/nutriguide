@@ -1,0 +1,21 @@
+{
+  "id": "croissants_apple",
+  "name": "Croissants, apple",
+  "category": "烘焙食品",
+  "tags": [],
+  "deep_analysis": false,
+  "nutrients": {
+    "能量": {
+      "value": 1063.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [],
+  "health_benefits": [],
+  "daily_intake": "",
+  "cooking_tips": [],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

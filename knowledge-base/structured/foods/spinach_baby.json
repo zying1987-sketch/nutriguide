@@ -1,0 +1,43 @@
+{
+  "id": "spinach_baby",
+  "name": "Spinach, baby",
+  "category": "蔬菜与蔬菜制品",
+  "tags": [
+    "基础营养"
+  ],
+  "deep_analysis": false,
+  "nutrients": {},
+  "active_compounds": [
+    {
+      "name": "镁**",
+      "content_text": "含量：93mg/100g",
+      "mechanism": "作用机制：300+酶促反应辅因子"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "🟢 A级** — **神经肌肉**：每100g含镁93mg",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **血压调节**：高钾(582mg/100g),有助钠钾平衡",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **综合营养**：全面营养支持",
+      "evidence_level": "A",
+      "description": ""
+    }
+  ],
+  "daily_intake": "100-300g/d",
+  "cooking_tips": [
+    "蒸制或快炒保留营养素",
+    "避免长时间水煮"
+  ],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

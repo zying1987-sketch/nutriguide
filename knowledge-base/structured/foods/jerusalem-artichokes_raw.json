@@ -1,0 +1,37 @@
+{
+  "id": "jerusalem-artichokes_raw",
+  "name": "Jerusalem-artichokes, raw",
+  "category": "蔬菜与蔬菜制品",
+  "tags": [
+    "抗氧化"
+  ],
+  "deep_analysis": false,
+  "nutrients": {
+    "能量": {
+      "value": 304.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [],
+  "health_benefits": [
+    {
+      "text": "🟡 B级** — **补铁**：每100g含铁3.4mg",
+      "evidence_level": "B",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+      "evidence_level": "B",
+      "description": ""
+    }
+  ],
+  "daily_intake": "100-300g/d",
+  "cooking_tips": [
+    "蒸制或快炒保留营养素",
+    "避免长时间水煮"
+  ],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

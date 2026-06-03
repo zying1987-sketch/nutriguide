@@ -1,0 +1,59 @@
+{
+  "id": "薏苡仁（薏米）",
+  "name": "薏苡仁（薏米）",
+  "category": "中式药食同源食材",
+  "tags": [],
+  "deep_analysis": true,
+  "nutrients": {},
+  "active_compounds": [
+    {
+      "name": "薏苡仁酯**",
+      "content_text": "含量：脂溶性成分",
+      "mechanism": "作用机制：抗肿瘤活性(体外)"
+    },
+    {
+      "name": "薏苡仁多糖(Coixan)**",
+      "content_text": "含量：多糖",
+      "mechanism": "作用机制：降血糖(抑制α-葡萄糖苷酶)"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "⚪ C级** — **利水渗湿**：促进水分代谢,改善水肿",
+      "evidence_level": "C",
+      "description": ""
+    },
+    {
+      "text": "⚪ C级** — **关节**：传统治疗湿热痹症",
+      "evidence_level": "C",
+      "description": ""
+    },
+    {
+      "text": "⚪ C级** — **皮肤**：改善湿热型痤疮,对扁平疣有效",
+      "evidence_level": "C",
+      "description": ""
+    }
+  ],
+  "daily_intake": "生薏米30-50g/d",
+  "cooking_tips": [
+    "提前浸泡>4h",
+    "薏米+赤小豆——经典祛湿组合",
+    "薏米+冬瓜+排骨煲汤",
+    "生薏米性凉,炒薏米性平——体虚寒者选炒制"
+  ],
+  "synergy": [
+    "赤小豆(祛湿黄金组合)",
+    "冬瓜(利水消肿叠加)",
+    "茯苓(健脾利湿协同)",
+    "山药(健脾祛湿不伤正)"
+  ],
+  "contraindications": [
+    "孕妇慎用(动物实验薏苡仁油有子宫兴奋作用)",
+    "阴虚津亏/口干严重者少食",
+    "脾胃虚寒严重者用炒薏米"
+  ],
+  "tcm": {
+    "meridian": "** 归经：归脾、胃、肺、肾经"
+  },
+  "source": ""
+}

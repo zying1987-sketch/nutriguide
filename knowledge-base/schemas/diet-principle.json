@@ -1,0 +1,142 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "nutriguide/knowledge-base/schemas/diet-principle.json",
+  "title": "Diet Principle Entry",
+  "description": "一条经过验证的饮食原则或指南建议",
+  "type": "object",
+  "required": [
+    "id",
+    "principle",
+    "category",
+    "practical_advice",
+    "evidence_level"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^dp_\\d{3,}$"
+    },
+    "principle": {
+      "type": "string",
+      "description": "原则核心描述，一句话概括"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "food_diversity",
+        "portion_control",
+        "meal_timing",
+        "cooking_method",
+        "eating_behavior",
+        "food_safety",
+        "macronutrient_balance",
+        "micronutrient_adequacy",
+        "hydration",
+        "food_choice"
+      ]
+    },
+    "subcategory": {
+      "type": "string",
+      "description": "更细粒度的子分类"
+    },
+    "target_population": {
+      "oneOf": [
+        {
+          "type": "string",
+          "const": "general"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "适用人群标签列表"
+        }
+      ]
+    },
+    "excluded_populations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "不适用人群"
+    },
+    "evidence_level": {
+      "type": "string",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "practical_advice": {
+      "type": "string",
+      "description": "可操作的、面向用户的建议"
+    },
+    "rationale": {
+      "type": "string",
+      "description": "科学依据简要说明"
+    },
+    "quantitative_guidance": {
+      "type": "object",
+      "description": "量化指导（如份数、克数）",
+      "properties": {
+        "metric": {
+          "type": "string"
+        },
+        "target": {
+          "type": "string"
+        },
+        "minimum": {
+          "type": "string"
+        },
+        "maximum": {
+          "type": "string"
+        }
+      }
+    },
+    "related_nutrients": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "关联的营养素ID"
+    },
+    "contraindications": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "禁忌或注意事项"
+    },
+    "is_contested": {
+      "type": "boolean",
+      "default": false,
+      "description": "是否为争议领域"
+    },
+    "alternative_viewpoint": {
+      "type": "string",
+      "description": "对立观点（如存在争议）"
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "audit_id": {
+      "type": "string",
+      "description": "关联的审核记录ID"
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date"
+    }
+  }
+}

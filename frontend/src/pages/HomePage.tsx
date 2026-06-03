@@ -1,62 +1,71 @@
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import {
   ArrowRight, Leaf, Brain, Heart, Shield, Apple,
   FlaskConical, Sparkles, Sun, Baby, Activity,
-  Droplets, Smile, Timer, Users, Pill, Menu, X, Moon
+  Droplets, Smile, Timer, Users, Pill, Menu, X, Moon,
+  Zap, MessageCircle, CheckCircle, Globe
 } from 'lucide-react'
 import { useState } from 'react'
-
-const navLinks = [
-  { label: '首页', href: '#/' },
-  { label: '营养素百科', href: '#/nutrients' },
-  { label: '自测', href: '#/assessment' },
-  { label: '人群方案', href: '#/population/pregnancy' },
-]
-
-const features = [
-  {
-    num: '01',
-    title: '智能人群匹配',
-    desc: '基于症状自评与体检数据，精准识别 12 类特殊人群的营养需求缺口，不做泛泛推荐。',
-    icon: Brain,
-  },
-  {
-    num: '02',
-    title: '三维度方案',
-    desc: '营养素补充 + 饮食调节 + 生活方式调整，三个维度协同发力，全面覆盖你的健康需求。',
-    icon: Apple,
-  },
-  {
-    num: '03',
-    title: '科学循证',
-    desc: '基于中国 DRIs 2023 及国际权威指南，每一条建议都有据可查，不贩卖焦虑。',
-    icon: FlaskConical,
-  },
-  {
-    num: '04',
-    title: '安全第一',
-    desc: '冲突检测 + 药物间隔提醒 + 就医指征提示，不替代医生，但帮你更聪明地补充。',
-    icon: Shield,
-  },
-]
-
-const populationGroups = [
-  { name: '备孕 / 孕期', desc: '叶酸、铁、DHA 精准补充', icon: Baby, color: 'from-[#E8D5C4] to-[#F0E6D8]', textColor: '#7A5C4A', categoryKey: 'pregnancy' },
-  { name: '严格素食者', desc: 'B12、铁、锌、Omega-3 方案', icon: Leaf, color: 'from-[#C8D9C4] to-[#E0EBDC]', textColor: '#4A6B40', categoryKey: 'vegetarian' },
-  { name: '健身增肌 / 减脂', desc: '蛋白、肌酸、电解质管理', icon: Activity, color: 'from-[#C4D4E0] to-[#DCE6EE]', textColor: '#3A5A70', categoryKey: 'fitness' },
-  { name: '更年期女性', desc: '钙、维D、植物雌激素支持', icon: Sun, color: 'from-[#E0D4C8] to-[#EDE5DC]', textColor: '#6B5040', categoryKey: 'menopause' },
-  { name: 'PCOS 多囊', desc: '肌醇、维D、低 GI 饮食策略', icon: Droplets, color: 'from-[#D4C8D8] to-[#E8E0EC]', textColor: '#5A4060', categoryKey: 'pcos' },
-  { name: 'IBS 肠易激', desc: '低 FODMAP + 益生菌修复', icon: Smile, color: 'from-[#C8D8D4] to-[#DCE8E4]', textColor: '#3A6050', categoryKey: 'ibs' },
-  { name: '焦虑 / 抑郁', desc: 'Omega-3、镁、B 族、脑肠轴', icon: Heart, color: 'from-[#D8C8C4] to-[#ECE0DC]', textColor: '#604040', categoryKey: 'mental_health' },
-  { name: '糖尿病管理', desc: '铬、镁、α-硫辛酸、低 GI', icon: Shield, color: 'from-[#C4D0D8] to-[#DCE4EA]', textColor: '#3A5060', categoryKey: 'diabetes' },
-  { name: '桥本甲状腺炎', desc: '硒、锌、维D、无麸质饮食', icon: Sparkles, color: 'from-[#D8D4C8] to-[#ECE8DC]', textColor: '#605040', categoryKey: 'hashimoto' },
-  { name: '月经周期优化', desc: '周期同步营养，缓解PMS', icon: Moon, color: 'from-[#E8D0DA] to-[#F0E0E8]', textColor: '#8B5A6B', categoryKey: 'menstrual' },
-  { name: '老年人', desc: '肌少症、骨骼、认知支持', icon: Users, color: 'from-[#D4D0C8] to-[#E8E4DC]', textColor: '#5A5040', categoryKey: 'elderly' },
-  { name: '青少年', desc: '生长发育 + 学业脑力支持', icon: Brain, color: 'from-[#C8DCE0] to-[#DCEAEE]', textColor: '#3A5A6B', categoryKey: 'adolescent' },
-]
+import LanguageSwitcher from '../components/ui/LanguageSwitcher'
+import CreditPurchaseModal from '../components/ui/CreditPurchaseModal'
+import { useAuthStore } from '../stores/useAuthStore'
 
 export default function HomePage() {
+  const { t } = useTranslation()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [showPurchase, setShowPurchase] = useState(false)
+  const user = useAuthStore((s) => s.user)
+
+  const navLinks = [
+    { label: t('nav.home'), href: '#/' },
+    { label: t('nav.nutrients'), href: '#/nutrients' },
+    { label: t('nav.assessment'), href: '#/assessment' },
+    { label: t('nav.populations'), href: '#/population/pregnancy' },
+  ]
+
+  const features = [
+    {
+      num: '01',
+      title: t('home.features.f1.title'),
+      desc: t('home.features.f1.desc'),
+      icon: Brain,
+    },
+    {
+      num: '02',
+      title: t('home.features.f2.title'),
+      desc: t('home.features.f2.desc'),
+      icon: Apple,
+    },
+    {
+      num: '03',
+      title: t('home.features.f3.title'),
+      desc: t('home.features.f3.desc'),
+      icon: FlaskConical,
+    },
+    {
+      num: '04',
+      title: t('home.features.f4.title'),
+      desc: t('home.features.f4.desc'),
+      icon: Shield,
+    },
+  ]
+
+  const populationGroups = [
+    { name: t('populations.pregnancy.name'), desc: t('populations.pregnancy.desc'), icon: Baby, color: 'from-[#E8D5C4] to-[#F0E6D8]', textColor: '#7A5C4A', categoryKey: 'pregnancy' },
+    { name: t('populations.vegetarian.name'), desc: t('populations.vegetarian.desc'), icon: Leaf, color: 'from-[#C8D9C4] to-[#E0EBDC]', textColor: '#4A6B40', categoryKey: 'vegetarian' },
+    { name: t('populations.fitness.name'), desc: t('populations.fitness.desc'), icon: Activity, color: 'from-[#C4D4E0] to-[#DCE6EE]', textColor: '#3A5A70', categoryKey: 'fitness' },
+    { name: t('populations.menopause.name'), desc: t('populations.menopause.desc'), icon: Sun, color: 'from-[#E0D4C8] to-[#EDE5DC]', textColor: '#6B5040', categoryKey: 'menopause' },
+    { name: t('populations.pcos.name'), desc: t('populations.pcos.desc'), icon: Droplets, color: 'from-[#D4C8D8] to-[#E8E0EC]', textColor: '#5A4060', categoryKey: 'pcos' },
+    { name: t('populations.ibs.name'), desc: t('populations.ibs.desc'), icon: Smile, color: 'from-[#C8D8D4] to-[#DCE8E4]', textColor: '#3A6050', categoryKey: 'ibs' },
+    { name: t('populations.mental_health.name'), desc: t('populations.mental_health.desc'), icon: Heart, color: 'from-[#D8C8C4] to-[#ECE0DC]', textColor: '#604040', categoryKey: 'mental_health' },
+    { name: t('populations.diabetes.name'), desc: t('populations.diabetes.desc'), icon: Shield, color: 'from-[#C4D0D8] to-[#DCE4EA]', textColor: '#3A5060', categoryKey: 'diabetes' },
+    { name: t('populations.hashimoto.name'), desc: t('populations.hashimoto.desc'), icon: Sparkles, color: 'from-[#D8D4C8] to-[#ECE8DC]', textColor: '#605040', categoryKey: 'hashimoto' },
+    { name: t('populations.menstrual.name'), desc: t('populations.menstrual.desc'), icon: Moon, color: 'from-[#E8D0DA] to-[#F0E0E8]', textColor: '#8B5A6B', categoryKey: 'menstrual' },
+    { name: t('populations.elderly.name'), desc: t('populations.elderly.desc'), icon: Users, color: 'from-[#D4D0C8] to-[#E8E4DC]', textColor: '#5A5040', categoryKey: 'elderly' },
+    { name: t('populations.adolescent.name'), desc: t('populations.adolescent.desc'), icon: Brain, color: 'from-[#C8DCE0] to-[#DCEAEE]', textColor: '#3A5A6B', categoryKey: 'adolescent' },
+    { name: '普通人群', desc: '18-64岁健康成年人营养基准，基于《中国居民膳食指南》& US Guidelines', icon: Globe, color: 'from-[#C8D4E0] to-[#DCE4EE]', textColor: '#2A4A6B', categoryKey: 'general' },
+  ]
 
   return (
     <div className="overflow-hidden">
@@ -71,7 +80,7 @@ export default function HomePage() {
           </Link>
 
           {/* Desktop nav */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-6">
             {navLinks.map((link) => (
               <a
                 key={link.label}
@@ -81,21 +90,25 @@ export default function HomePage() {
                 {link.label}
               </a>
             ))}
+            <LanguageSwitcher />
             <a
               href="#/assessment"
               className="px-5 py-2 bg-[#1A1A1A] text-white text-sm rounded-full hover:bg-[#333] transition-colors no-underline"
             >
-              开始自测
+              {t('home.hero.cta1')}
             </a>
           </div>
 
           {/* Mobile toggle */}
-          <button
-            className="md:hidden p-2"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          >
-            {mobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
-          </button>
+          <div className="md:hidden flex items-center gap-2">
+            <LanguageSwitcher compact />
+            <button
+              className="p-2"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            >
+              {mobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
+            </button>
+          </div>
         </div>
 
         {/* Mobile menu */}
@@ -115,129 +128,102 @@ export default function HomePage() {
         )}
       </nav>
 
-      {/* ===== HERO ===== */}
-      <section className="relative min-h-screen pt-24 flex items-center">
-        <div className="max-w-[1200px] mx-auto px-6 w-full">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            {/* Left: Text */}
-            <div className="lg:col-span-7 space-y-8">
-              {/* Tag pills */}
-              <div className="flex flex-wrap gap-2 animate-fade-in-up">
-                <span className="px-4 py-1.5 rounded-full border border-[#E5E0D8] text-xs text-[#6B6560] tracking-wide">
-                  个性化营养
-                </span>
-                <span className="px-4 py-1.5 rounded-full border border-[#E5E0D8] text-xs text-[#6B6560] tracking-wide">
-                  科学循证
-                </span>
-                <span className="px-4 py-1.5 rounded-full border border-[#E5E0D8] text-xs text-[#6B6560] tracking-wide">
-                  28 天方案
-                </span>
+      {/* ===== HERO: 双入口 ===== */}
+      <section className="relative pt-28 pb-16 md:pt-36 md:pb-24">
+        <div className="max-w-[1000px] mx-auto px-6">
+          {/* Headline */}
+          <div className="text-center mb-12">
+            <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-semibold text-[#1A1A1A] leading-tight">
+              你的专属营养顾问
+            </h1>
+            <p className="mt-4 text-[#6B6560] text-lg">选择适合你的方式，获取个性化营养方案</p>
+          </div>
+
+          {/* Two Cards */}
+          <div className="grid md:grid-cols-2 gap-6 max-w-[800px] mx-auto">
+            {/* Left: Free Assessment */}
+            <div className="relative rounded-2xl border border-[#E5E0D8] bg-white overflow-hidden group hover:shadow-lg hover:shadow-[#2D6B4F]/5 transition-all">
+              <div className="bg-[#2D6B4F] px-6 py-3 flex items-center gap-2">
+                <CheckCircle size={16} className="text-white" />
+                <span className="text-white font-semibold text-sm">免费自测</span>
               </div>
-
-              {/* Main headline */}
-              <h1 className="font-serif text-5xl md:text-6xl lg:text-[72px] font-semibold text-[#1A1A1A] leading-[1.1] tracking-tight animate-fade-in-up delay-100">
-                你的身体
-                <br />
-                <span className="text-[#2D6B4F]">值得一套</span>
-                <br />
-                专属方案
-              </h1>
-
-              {/* Subtitle */}
-              <p className="text-lg text-[#6B6560] leading-relaxed max-w-lg animate-fade-in-up delay-200">
-                不再盲目跟风吃补剂。通过 6 步智能自测，
-                精准匹配你所属的特殊人群，生成营养素补充、饮食调节、
-                生活方式调整的三维度 28 天个性化方案。
-              </p>
-
-              {/* CTA */}
-              <div className="flex flex-col sm:flex-row items-start gap-4 pt-2 animate-fade-in-up delay-300">
+              <div className="p-6 space-y-4">
+                <div className="space-y-2">
+                  <div className="flex items-start gap-2">
+                    <div className="w-5 h-5 rounded-full bg-[#E8F0EB] flex items-center justify-center shrink-0 mt-0.5">
+                      <span className="text-[10px] text-[#2D6B4F] font-semibold">1</span>
+                    </div>
+                    <p className="text-sm text-[#6B6560]">7 步问卷：年龄、性别、症状、饮食、生活习惯</p>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <div className="w-5 h-5 rounded-full bg-[#E8F0EB] flex items-center justify-center shrink-0 mt-0.5">
+                      <span className="text-[10px] text-[#2D6B4F] font-semibold">2</span>
+                    </div>
+                    <p className="text-sm text-[#6B6560]">AI 智能匹配：12 类人群 × 26+ 营养素精准推荐</p>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <div className="w-5 h-5 rounded-full bg-[#E8F0EB] flex items-center justify-center shrink-0 mt-0.5">
+                      <span className="text-[10px] text-[#2D6B4F] font-semibold">3</span>
+                    </div>
+                    <p className="text-sm text-[#6B6560]">完整报告：营养素 + 饮食方案 + 生活建议</p>
+                  </div>
+                </div>
                 <a
                   href="#/assessment"
-                  className="group px-8 py-4 bg-[#1A1A1A] text-white rounded-full text-base font-medium hover:bg-[#333] transition-all flex items-center gap-3 no-underline shadow-lg shadow-[#1A1A1A]/10"
+                  className="block text-center px-6 py-3 bg-[#1A1A1A] text-white rounded-full text-sm font-medium hover:bg-[#333] transition-all no-underline"
                 >
-                  开始免费自测
-                  <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                  开始免费自测 →
                 </a>
-                <a
-                  href="#/assessment"
-                  className="px-8 py-4 border border-[#E5E0D8] text-[#1A1A1A] rounded-full text-base font-medium hover:border-[#1A1A1A] transition-all no-underline"
-                >
-                  查看示例报告
-                </a>
-              </div>
-
-              {/* Stats */}
-              <div className="flex gap-10 pt-6 animate-fade-in-up delay-400">
-                <div>
-                  <div className="font-serif text-3xl font-semibold text-[#1A1A1A]">12</div>
-                  <div className="text-xs text-[#A8A199] mt-1">类特殊人群</div>
-                </div>
-                <div>
-                  <div className="font-serif text-3xl font-semibold text-[#1A1A1A]">26+</div>
-                  <div className="text-xs text-[#A8A199] mt-1">种营养素</div>
-                </div>
-                <div>
-                  <div className="font-serif text-3xl font-semibold text-[#1A1A1A]">6</div>
-                  <div className="text-xs text-[#A8A199] mt-1">步自测流程</div>
-                </div>
               </div>
             </div>
 
-            {/* Right: Decorative visual */}
-            <div className="lg:col-span-5 relative animate-slide-right delay-200">
-              {/* Main card */}
-              <div className="relative rounded-[32px] bg-gradient-to-br from-[#E8F0EB] to-[#F0EBE3] p-8 aspect-[4/5] flex flex-col justify-between overflow-hidden">
-                {/* Decorative circles */}
-                <div className="absolute top-[-40px] right-[-40px] w-40 h-40 rounded-full border-2 border-[#2D6B4F]/10 animate-rotate-slow" />
-                <div className="absolute bottom-[-60px] left-[-60px] w-48 h-48 rounded-full bg-[#2D6B4F]/5" />
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-full bg-[#C17A5F]/10 animate-float" />
-
-                <div className="relative z-10">
-                  <div className="w-12 h-12 rounded-2xl bg-[#2D6B4F] flex items-center justify-center mb-6">
-                    <Sparkles className="w-6 h-6 text-white" />
-                  </div>
-                  <p className="font-serif text-2xl text-[#1A1A1A] leading-snug">
-                    每个人的营养需求
-                    <br />
-                    都独一无二
-                  </p>
+            {/* Right: Paid AI Chat */}
+            <div className="relative rounded-2xl border border-amber-200 bg-white overflow-hidden group hover:shadow-lg hover:shadow-amber-100/30 transition-all">
+              <div className="bg-amber-500 px-6 py-3 flex items-center justify-between">
+                <div className="flex items-center gap-2">
+                  <Zap size={16} className="text-white" />
+                  <span className="text-white font-semibold text-sm">AI 即时咨询</span>
                 </div>
-
-                <div className="relative z-10 space-y-3">
-                  <div className="flex items-center gap-3 bg-white/60 backdrop-blur-sm rounded-2xl p-4">
-                    <div className="w-10 h-10 rounded-xl bg-[#E8F0EB] flex items-center justify-center shrink-0">
-                      <Pill className="w-5 h-5 text-[#2D6B4F]" />
-                    </div>
-                    <div>
-                      <div className="text-sm font-medium text-[#1A1A1A]">营养素补充</div>
-                      <div className="text-xs text-[#A8A199]">精准剂量与时机</div>
-                    </div>
+                <span className="text-white/80 text-xs bg-white/20 px-2 py-0.5 rounded-full">1 积分/次</span>
+              </div>
+              <div className="p-6 space-y-4">
+                <div className="space-y-2">
+                  <div className="flex items-start gap-2">
+                    <MessageCircle size={16} className="text-amber-500 shrink-0 mt-0.5" />
+                    <p className="text-sm text-[#6B6560]">直接描述身体状况，AI 营养顾问实时对话</p>
                   </div>
-                  <div className="flex items-center gap-3 bg-white/60 backdrop-blur-sm rounded-2xl p-4">
-                    <div className="w-10 h-10 rounded-xl bg-[#F0E6D8] flex items-center justify-center shrink-0">
-                      <Apple className="w-5 h-5 text-[#C17A5F]" />
-                    </div>
-                    <div>
-                      <div className="text-sm font-medium text-[#1A1A1A]">饮食调节</div>
-                      <div className="text-xs text-[#A8A199]">个性化膳食方案</div>
-                    </div>
+                  <div className="flex items-start gap-2">
+                    <Brain size={16} className="text-amber-500 shrink-0 mt-0.5" />
+                    <p className="text-sm text-[#6B6560]">通义千问驱动，专业级营养分析</p>
                   </div>
-                  <div className="flex items-center gap-3 bg-white/60 backdrop-blur-sm rounded-2xl p-4">
-                    <div className="w-10 h-10 rounded-xl bg-[#E0E4EC] flex items-center justify-center shrink-0">
-                      <Timer className="w-5 h-5 text-[#3A5060]" />
-                    </div>
-                    <div>
-                      <div className="text-sm font-medium text-[#1A1A1A]">生活方式</div>
-                      <div className="text-xs text-[#A8A199]">睡眠、运动、压力</div>
-                    </div>
+                  <div className="flex items-start gap-2">
+                    <Sparkles size={16} className="text-amber-500 shrink-0 mt-0.5" />
+                    <p className="text-sm text-[#6B6560]">新用户赠送 3 积分，可追问、可深入</p>
                   </div>
                 </div>
+                {user ? (
+                  <a
+                    href="#/chat"
+                    className="block w-full text-center px-6 py-3 bg-amber-500 text-white rounded-full text-sm font-medium hover:bg-amber-600 transition-all no-underline"
+                  >
+                    开始咨询（1 积分）→
+                  </a>
+                ) : (
+                  <a
+                    href="#/register"
+                    className="block text-center px-6 py-3 bg-amber-500 text-white rounded-full text-sm font-medium hover:bg-amber-600 transition-all no-underline"
+                  >
+                    注册后使用（送 3 积分）→
+                  </a>
+                )}
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      {/* 积分购买弹窗 */}
+      {showPurchase && <CreditPurchaseModal onClose={() => setShowPurchase(false)} />}
 
       {/* ===== WHY US ===== */}
       <section className="py-28 md:py-36">
@@ -245,13 +231,13 @@ export default function HomePage() {
           {/* Section header */}
           <div className="text-center mb-20">
             <span className="text-xs tracking-[0.2em] uppercase text-[#A8A199] font-medium">
-              我们的优势
+              {t('home.whyUs.label')}
             </span>
             <h2 className="font-serif text-4xl md:text-5xl font-semibold text-[#1A1A1A] mt-4 leading-tight">
-              不只是补剂推荐
+              {t('home.whyUs.title')}
             </h2>
             <p className="text-[#6B6560] mt-4 max-w-md mx-auto leading-relaxed">
-              从测试到方案，每个环节都为你的健康量身定制
+              {t('home.whyUs.subtitle')}
             </p>
           </div>
 
@@ -286,20 +272,20 @@ export default function HomePage() {
           <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-16">
             <div>
               <span className="text-xs tracking-[0.2em] uppercase text-[#A8A199] font-medium">
-                覆盖人群
+                {t('home.populations.label')}
               </span>
               <h2 className="font-serif text-4xl md:text-5xl font-semibold text-[#1A1A1A] mt-4 leading-tight">
-                12 类特殊人群
+                {t('home.populations.title')}
               </h2>
               <p className="text-[#6B6560] mt-4 max-w-md leading-relaxed">
-                每个人的身体状态不同，需要不同的营养策略。选择最贴近你的人群，获得精准建议。
+                {t('home.populations.subtitle')}
               </p>
             </div>
             <a
               href="#/assessment"
               className="mt-6 md:mt-0 inline-flex items-center gap-2 text-sm text-[#2D6B4F] font-medium hover:underline no-underline"
             >
-              开始自测匹配 <ArrowRight size={14} />
+              {t('home.populations.cta')} <ArrowRight size={14} />
             </a>
           </div>
 
@@ -361,24 +347,20 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <span className="text-xs tracking-[0.2em] uppercase text-[#A8A199] font-medium">
-                我们的理念
+                {t('home.philosophy.label')}
               </span>
-              <h2 className="font-serif text-4xl md:text-5xl font-semibold text-[#1A1A1A] mt-4 leading-tight">
-                科学循证
-                <br />
-                <span className="text-[#2D6B4F]">个性化营养</span>
-              </h2>
+              <h2 className="font-serif text-4xl md:text-5xl font-semibold text-[#1A1A1A] mt-4 leading-tight"
+                dangerouslySetInnerHTML={{ __html: t('home.philosophy.title') }}
+              />
               <p className="text-[#6B6560] mt-6 leading-relaxed">
-                营养补充不是越多越好。基于中国居民膳食营养素参考摄入量（DRIs 2023）
-                及国际权威指南，我们为每一类特殊人群制定精准的营养策略。
+                {t('home.philosophy.p1')}
               </p>
               <p className="text-[#6B6560] mt-4 leading-relaxed">
-                同时检测营养素之间的冲突（如桥本需限碘而孕期需碘），
-                提醒与药物的服用间隔，并在必要时建议你咨询医生。
+                {t('home.philosophy.p2')}
               </p>
 
               <div className="mt-10 flex flex-wrap gap-3">
-                {['DRIs 2023', 'WHO 指南', 'AHRQ 循证', '个性化算法'].map((tag) => (
+                {(t('home.philosophy.tags', { returnObjects: true }) as string[]).map((tag) => (
                   <span
                     key={tag}
                     className="px-4 py-2 rounded-full bg-white border border-[#E5E0D8] text-xs text-[#6B6560]"
@@ -396,10 +378,9 @@ export default function HomePage() {
                     <Users className="w-5 h-5 text-[#2D6B4F]" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-[#1A1A1A]">多人群合并</h4>
+                    <h4 className="font-semibold text-[#1A1A1A]">{t('home.philosophy.c1Title')}</h4>
                     <p className="text-sm text-[#6B6560] mt-1 leading-relaxed">
-                      一个人可能同时属于多个特殊人群（如孕期 + 素食），
-                      我们的算法会自动合并方案、检测冲突。
+                      {t('home.philosophy.c1Desc')}
                     </p>
                   </div>
                 </div>
@@ -409,10 +390,9 @@ export default function HomePage() {
                     <Shield className="w-5 h-5 text-[#C17A5F]" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-[#1A1A1A]">安全优先</h4>
+                    <h4 className="font-semibold text-[#1A1A1A]">{t('home.philosophy.c2Title')}</h4>
                     <p className="text-sm text-[#6B6560] mt-1 leading-relaxed">
-                      所有方案均标注药物相互作用和就医指征，
-                      在确保安全的前提下提供最优营养建议。
+                      {t('home.philosophy.c2Desc')}
                     </p>
                   </div>
                 </div>
@@ -422,10 +402,9 @@ export default function HomePage() {
                     <Sparkles className="w-5 h-5 text-[#3A5060]" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-[#1A1A1A]">AI 增强方案</h4>
+                    <h4 className="font-semibold text-[#1A1A1A]">{t('home.philosophy.c3Title')}</h4>
                     <p className="text-sm text-[#6B6560] mt-1 leading-relaxed">
-                      接入大模型生成 28 天个性化指导，
-                      从每日补充提醒到膳食搭配建议，全方位陪伴。
+                      {t('home.philosophy.c3Desc')}
                     </p>
                   </div>
                 </div>
@@ -443,23 +422,20 @@ export default function HomePage() {
 
         <div className="max-w-[800px] mx-auto px-6 text-center relative z-10">
           <h2 className="font-serif text-4xl md:text-5xl font-semibold leading-tight">
-            准备好了解
-            <br />
-            你的身体真正需要什么了吗？
+            {t('home.cta.title')}
           </h2>
           <p className="mt-6 text-white/50 leading-relaxed max-w-md mx-auto">
-            完成 6 步自测，大约需要 5–8 分钟。
-            你的所有数据仅保存在本地浏览器中。
+            {t('home.cta.subtitle')}
           </p>
           <a
             href="#/assessment"
             className="mt-10 inline-flex items-center gap-3 px-10 py-5 bg-white text-[#1A1A1A] rounded-full text-base font-medium hover:bg-[#F5F2EC] transition-colors no-underline shadow-xl shadow-black/20"
           >
-            立即开始自测
+            {t('home.cta.button')}
             <ArrowRight size={18} />
           </a>
           <p className="mt-6 text-white/30 text-xs">
-            完全免费 · 无需注册 · 本地存储
+            {t('home.cta.note')}
           </p>
         </div>
       </section>
@@ -474,12 +450,12 @@ export default function HomePage() {
             <span className="font-serif text-sm font-semibold text-[#1A1A1A]">NutriGuide</span>
           </div>
           <p className="text-xs text-[#A8A199]">
-            本工具仅供参考，不替代专业医疗建议。如有健康问题请咨询医生。
+            {t('home.footer.disclaimer')}
           </p>
           <div className="flex gap-6">
-            <a href="#/" className="text-xs text-[#A8A199] hover:text-[#1A1A1A] transition-colors no-underline">首页</a>
-            <a href="#/assessment" className="text-xs text-[#A8A199] hover:text-[#1A1A1A] transition-colors no-underline">自测</a>
-            <a href="#/results" className="text-xs text-[#A8A199] hover:text-[#1A1A1A] transition-colors no-underline">结果</a>
+            <a href="#/" className="text-xs text-[#A8A199] hover:text-[#1A1A1A] transition-colors no-underline">{t('nav.home')}</a>
+            <a href="#/assessment" className="text-xs text-[#A8A199] hover:text-[#1A1A1A] transition-colors no-underline">{t('nav.assessment')}</a>
+            <a href="#/results" className="text-xs text-[#A8A199] hover:text-[#1A1A1A] transition-colors no-underline">{t('nav.results')}</a>
           </div>
         </div>
       </footer>

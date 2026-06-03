@@ -1,0 +1,23 @@
+{
+  "id": "beans_liquid_from_stewed_kidney_beans",
+  "name": "Beans, liquid from stewed kidney beans",
+  "category": "豆类与豆制品",
+  "tags": [],
+  "deep_analysis": false,
+  "nutrients": {
+    "能量": {
+      "value": 197.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [],
+  "health_benefits": [],
+  "daily_intake": "50-100g/d(干重)",
+  "cooking_tips": [
+    "充分浸泡+彻底煮熟"
+  ],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

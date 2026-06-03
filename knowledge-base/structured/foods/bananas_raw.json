@@ -1,0 +1,32 @@
+{
+  "id": "bananas_raw",
+  "name": "Bananas, raw",
+  "category": "水果与果汁",
+  "tags": [
+    "肠脑轴"
+  ],
+  "deep_analysis": false,
+  "nutrients": {
+    "能量": {
+      "value": 371.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [],
+  "health_benefits": [
+    {
+      "text": "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+      "evidence_level": "C",
+      "description": ""
+    }
+  ],
+  "daily_intake": "100-200g/d",
+  "cooking_tips": [
+    "生吃最佳",
+    "制成果昔/沙拉"
+  ],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

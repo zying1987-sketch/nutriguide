@@ -1,0 +1,140 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "nutriguide/knowledge-base/schemas/diet-assessment.json",
+  "title": "Diet Assessment Questionnaire",
+  "description": "饮食评估问卷——评估用户日常饮食质量，识别缺口",
+  "type": "object",
+  "required": [
+    "id",
+    "question",
+    "category",
+    "type",
+    "options"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^dq_\\d{3,}$"
+    },
+    "question": {
+      "type": "string",
+      "description": "问题文本"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "meal_regularity",
+        "food_diversity",
+        "grain_quality",
+        "vegetable_intake",
+        "fruit_intake",
+        "protein_quality",
+        "dairy_intake",
+        "soy_nut_intake",
+        "oil_quality",
+        "salt_sugar",
+        "water_intake",
+        "cooking_method",
+        "eating_out",
+        "processed_food",
+        "alcohol"
+      ],
+      "description": "评估维度"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "frequency",
+        "single_choice",
+        "multiple_choice",
+        "portion",
+        "yes_no"
+      ],
+      "description": "题型"
+    },
+    "target_population": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "适用人群"
+    },
+    "options": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "value",
+          "label"
+        ],
+        "properties": {
+          "value": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "score": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 10,
+            "description": "该选项的饮食质量评分"
+          }
+        }
+      }
+    },
+    "scoring": {
+      "type": "object",
+      "properties": {
+        "method": {
+          "type": "string",
+          "enum": [
+            "cumulative",
+            "threshold",
+            "pattern",
+            "best_of"
+          ],
+          "description": "评分方法"
+        },
+        "max_score": {
+          "type": "integer"
+        },
+        "deficient_threshold": {
+          "type": "integer",
+          "description": "低于此分为不足"
+        }
+      }
+    },
+    "follow_up_questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "该题答后需要追问的问题ID列表"
+    },
+    "mapped_nutrients": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "该维度关联的营养素ID（如蔬菜摄入不足→维生素C、叶酸、纤维缺乏风险）"
+    },
+    "weight": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "default": 1,
+      "description": "在饮食质量总分中的权重"
+    },
+    "feedback_template": {
+      "type": "string",
+      "description": "针对该题不足的反馈话术模板"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

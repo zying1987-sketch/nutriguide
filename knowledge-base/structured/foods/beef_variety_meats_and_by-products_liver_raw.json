@@ -1,0 +1,43 @@
+{
+  "id": "beef_variety_meats_and_by-products_liver_raw",
+  "name": "Beef, variety meats and by-products, liver, raw",
+  "category": "牛肉制品",
+  "tags": [
+    "基础营养"
+  ],
+  "deep_analysis": false,
+  "nutrients": {
+    "能量": {
+      "value": 564.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [
+    {
+      "name": "优质蛋白质**",
+      "content_text": "含量：20.4g/100g",
+      "mechanism": "作用机制：肌肉合成与修复"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "🟡 B级** — **补铁**：每100g含铁4.9mg",
+      "evidence_level": "B",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **综合营养**：全面营养支持",
+      "evidence_level": "A",
+      "description": ""
+    }
+  ],
+  "daily_intake": "50-100g/d",
+  "cooking_tips": [
+    "彻底煮熟至安全温度",
+    "低温慢煮保留营养"
+  ],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

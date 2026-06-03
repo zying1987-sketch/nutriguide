@@ -57,8 +57,8 @@ export default function PlanPage() {
     const plan = generatedPlan!
     const { userProfile } = assessmentResult!
 
-    const coreSupps = plan.mergedSupplements.filter(s => s.level === 'core')
-    const condSupps = plan.mergedSupplements.filter(s => s.level === 'conditional')
+    const coreSupps = (plan.mergedSupplements || []).filter(s => s.level === 'core')
+    const condSupps = (plan.mergedSupplements || []).filter(s => s.level === 'conditional')
 
     let output = `# 28天个性化营养素指导方案
 
@@ -165,7 +165,7 @@ ${plan.plans[0]?.diet.foodsToAvoid.map(f => `- **${f.name}**：${f.reason}`).joi
 
     try {
       await api.savePlan({
-        populationTags: generatedPlan.plans.map(p => p.id).join(','),
+        populationTags: generatedPlan.plans?.map(p => p.id).join(',') || '',
         planData: {
           generatedPlan,
           aiPlan: planText,
@@ -180,9 +180,13 @@ ${plan.plans[0]?.diet.foodsToAvoid.map(f => `- **${f.name}**：${f.reason}`).joi
 
   const handleCopy = () => {
     if (aiPlan) {
-      navigator.clipboard.writeText(aiPlan)
-      setCopied(true)
-      setTimeout(() => setCopied(false), 2000)
+      try {
+        navigator.clipboard?.writeText(aiPlan)
+        setCopied(true)
+        setTimeout(() => setCopied(false), 2000)
+      } catch {
+        // clipboard API 不可用（非HTTPS或权限不足），静默忽略
+      }
     }
   }
 

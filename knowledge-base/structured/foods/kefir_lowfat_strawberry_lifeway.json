@@ -1,0 +1,42 @@
+{
+  "id": "kefir_lowfat_strawberry_lifeway",
+  "name": "Kefir, lowfat, strawberry, LIFEWAY",
+  "category": "乳制品与蛋类",
+  "tags": [
+    "抗氧化",
+    "肠脑轴"
+  ],
+  "deep_analysis": false,
+  "nutrients": {
+    "能量": {
+      "value": 261.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [],
+  "health_benefits": [
+    {
+      "text": "🟢 A级** — **骨健康**：每100g含钙119mg",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+      "evidence_level": "B",
+      "description": ""
+    },
+    {
+      "text": "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+      "evidence_level": "C",
+      "description": ""
+    }
+  ],
+  "daily_intake": "100-200g/d",
+  "cooking_tips": [
+    "冷藏保存,开封后尽快食用"
+  ],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

@@ -1,0 +1,303 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "nutriguide/knowledge-base/schemas/general-baseline.json",
+  "title": "General Population Baseline",
+  "description": "面向无特殊健康问题的普通人群的营养基线指导。按性别×年龄分层。",
+  "type": "object",
+  "required": [
+    "id",
+    "gender",
+    "age_group",
+    "energy_needs",
+    "daily_portions",
+    "key_nutrients"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^baseline_\\d{3,}$"
+    },
+    "gender": {
+      "type": "string",
+      "enum": [
+        "male",
+        "female"
+      ]
+    },
+    "age_group": {
+      "type": "string",
+      "enum": [
+        "10-17",
+        "18-49",
+        "50-64",
+        "65+"
+      ],
+      "description": "年龄分层"
+    },
+    "age_group_label": {
+      "type": "string",
+      "description": "中文标签，如「成年女性(18-49岁)」"
+    },
+    "energy_needs": {
+      "type": "object",
+      "required": [
+        "sedentary_kcal",
+        "moderate_kcal",
+        "active_kcal"
+      ],
+      "properties": {
+        "sedentary_kcal": {
+          "type": "integer"
+        },
+        "moderate_kcal": {
+          "type": "integer"
+        },
+        "active_kcal": {
+          "type": "integer"
+        }
+      },
+      "description": "按身体活动水平(PAL)分层的能量需求"
+    },
+    "macro_distribution": {
+      "type": "object",
+      "properties": {
+        "carbs_percent": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "碳水供能比 [min, max]"
+        },
+        "protein_percent": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "fat_percent": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "saturated_fat_percent": {
+          "type": "integer",
+          "description": "饱和脂肪酸供能比上限"
+        },
+        "added_sugar_percent": {
+          "type": "integer",
+          "description": "添加糖供能比上限"
+        }
+      }
+    },
+    "daily_portions": {
+      "type": "object",
+      "required": [
+        "grains",
+        "vegetables",
+        "fruits",
+        "protein",
+        "dairy",
+        "soy_nuts"
+      ],
+      "properties": {
+        "grains": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "谷薯类 份/天 [min, max]"
+        },
+        "vegetables": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "fruits": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "protein": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "畜禽鱼蛋类 份/天"
+        },
+        "dairy": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "奶及奶制品 份/天"
+        },
+        "soy_nuts": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "大豆及坚果 份/天"
+        },
+        "oils_g": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "烹调油 g/天 [min, max]"
+        },
+        "salt_g": {
+          "type": "integer",
+          "description": "盐 g/天 上限"
+        },
+        "water_ml": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "饮水 ml/天 [min, max]"
+        }
+      }
+    },
+    "key_nutrients": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "nutrient_id",
+          "rni",
+          "priority_foods"
+        ],
+        "properties": {
+          "nutrient_id": {
+            "type": "string",
+            "description": "营养素ID"
+          },
+          "nutrient_name": {
+            "type": "string"
+          },
+          "rni": {
+            "type": "string",
+            "description": "推荐摄入量"
+          },
+          "priority_foods": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "优先食物来源（中文食物名）"
+          },
+          "warning_signs": {
+            "type": "string",
+            "description": "缺乏的早期信号"
+          },
+          "common_deficiency": {
+            "type": "boolean",
+            "description": "该人群是否常见缺乏"
+          },
+          "deficiency_rate": {
+            "type": "string",
+            "description": "参考缺乏率（如'育龄女性约20%'）"
+          }
+        }
+      },
+      "description": "该人群重点关注的关键营养素"
+    },
+    "diet_principles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "核心饮食原则（引用 diet_principles 中的 ID）"
+    },
+    "supplement_guidance": {
+      "type": "string",
+      "description": "补充剂立场说明。通常为'饮食优先，仅在饮食无法满足或体检确认缺乏时考虑补充'"
+    },
+    "recommended_supplements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "nutrient_id": {
+            "type": "string"
+          },
+          "dose": {
+            "type": "string"
+          },
+          "condition": {
+            "type": "string",
+            "description": "什么情况下考虑补充"
+          },
+          "priority": {
+            "type": "string",
+            "enum": [
+              "consider",
+              "optional"
+            ]
+          }
+        }
+      },
+      "description": "特殊情况下可考虑的补充剂（非默认推荐）"
+    },
+    "lifestyle_recommendations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string",
+            "enum": [
+              "exercise",
+              "sleep",
+              "stress",
+              "sun_exposure",
+              "other"
+            ]
+          },
+          "recommendation": {
+            "type": "string"
+          },
+          "target": {
+            "type": "string",
+            "description": "量化目标"
+          }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date"
+    }
+  }
+}

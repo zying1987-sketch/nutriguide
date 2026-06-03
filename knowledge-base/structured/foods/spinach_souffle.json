@@ -1,0 +1,37 @@
+{
+  "id": "spinach_souffle",
+  "name": "Spinach souffle",
+  "category": "蔬菜与蔬菜制品",
+  "tags": [
+    "基础营养"
+  ],
+  "deep_analysis": false,
+  "nutrients": {
+    "能量": {
+      "value": 719.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [],
+  "health_benefits": [
+    {
+      "text": "🟢 A级** — **骨健康**：每100g含钙165mg",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **综合营养**：全面营养支持",
+      "evidence_level": "A",
+      "description": ""
+    }
+  ],
+  "daily_intake": "100-300g/d",
+  "cooking_tips": [
+    "蒸制或快炒保留营养素",
+    "避免长时间水煮"
+  ],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

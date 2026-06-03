@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "title": "女性激素健康关键营养素",
+    "source": "综合医学科普（百度健康、家庭医生在线）",
+    "year": 2025,
+    "category": "population",
+    "subcategory": "reproductive_female_20_45",
+    "evidence_level": "B",
+    "batch_id": "batch_20260603_001",
+    "extracted_at": "2026-06-03"
+  },
+  "nutrition_focus": [
+    {
+      "id": "fem_nut_01",
+      "nutrient": "铁 Iron",
+      "importance": "女性因月经流失铁，缺铁性贫血是最常见的营养缺乏病",
+      "RNI_per_day": {
+        "reproductive_age": "20mg",
+        "pregnancy": "29mg",
+        "lactation": "24mg"
+      },
+      "food_sources": [
+        {
+          "food": "猪血/鸭血",
+          "content_per_100g": "8.7mg"
+        },
+        {
+          "food": "瘦牛肉",
+          "content_per_100g": "3.3mg"
+        },
+        {
+          "food": "菠菜",
+          "content_per_100g": "2.9mg（吸收率较低）"
+        },
+        {
+          "food": "黑豆",
+          "content_per_100g": "7mg"
+        }
+      ],
+      "absorption_tip": "搭配维生素C（如柑橘类水果）可提升铁吸收率2-3倍；避免与茶、咖啡同时摄入（单宁酸抑制吸收）",
+      "tags": [
+        "iron",
+        "general_female",
+        "pregnancy"
+      ]
+    },
+    {
+      "id": "fem_nut_02",
+      "nutrient": "钙 Calcium",
+      "importance": "女性骨量峰值在30-35岁，此后逐渐下降，绝经后加速流失",
+      "RNI_per_day": {
+        "adult_female": "800mg",
+        "pregnancy": "1000mg",
+        "lactation": "1000mg",
+        "postmenopause": "1000mg"
+      },
+      "food_sources": [
+        {
+          "food": "牛奶",
+          "content_per_100g": "104mg"
+        },
+        {
+          "food": "酸奶",
+          "content_per_100g": "118mg"
+        },
+        {
+          "food": "北豆腐",
+          "content_per_100g": "138mg"
+        },
+        {
+          "food": "小白菜",
+          "content_per_100g": "90mg"
+        },
+        {
+          "food": "黑芝麻",
+          "content_per_100g": "780mg"
+        }
+      ],
+      "absorption_tip": "维生素D促进钙吸收；高盐饮食促进钙流失",
+      "tags": [
+        "calcium",
+        "general_female",
+        "perimenopause_female_45_60"
+      ]
+    },
+    {
+      "id": "fem_nut_03",
+      "nutrient": "叶酸 Folate (维生素B9)",
+      "importance": "备孕期和孕早期补充叶酸可预防胎儿神经管缺陷；对女性心血管健康也有益",
+      "RNI_per_day": {
+        "adult_female": "400μg DFE",
+        "pregnancy": "600μg DFE"
+      },
+      "food_sources": [
+        {
+          "food": "深绿色叶菜（菠菜、芦笋）",
+          "content_per_100g": "140-260μg"
+        },
+        {
+          "food": "动物肝脏",
+          "content_per_100g": "约600μg（过量需谨慎）"
+        },
+        {
+          "food": "豆类",
+          "content_per_100g": "约130μg"
+        },
+        {
+          "food": "柑橘类水果",
+          "content_per_100g": "约30μg"
+        }
+      ],
+      "note": "备孕妇女建议提前3个月开始每日补充400μg合成叶酸",
+      "tags": [
+        "folate",
+        "pregnancy",
+        "lactation"
+      ]
+    },
+    {
+      "id": "fem_nut_04",
+      "nutrient": "维生素D Vitamin D",
+      "importance": "维持钙吸收、免疫调节、情绪稳定；现代女性普遍缺乏（室内活动多、防晒过度）",
+      "RNI_per_day": "10-15μg (400-600 IU)",
+      "food_sources": [
+        {
+          "food": "三文鱼",
+          "content_per_100g": "约10-15μg"
+        },
+        {
+          "food": "蛋黄",
+          "content_per_100g": "约5μg"
+        },
+        {
+          "food": "强化牛奶",
+          "content_per_100g": "约2.5μg/250ml"
+        },
+        {
+          "food": "日光照射",
+          "content_per_100g": "皮肤合成是最主要来源（每周2-3次，每次15-20分钟）"
+        }
+      ],
+      "note": "血25(OH)D < 50 nmol/L 建议补充制剂",
+      "tags": [
+        "vitamin_d",
+        "general_female",
+        "perimenopause_female_45_60"
+      ]
+    },
+    {
+      "id": "fem_nut_05",
+      "nutrient": "镁 Magnesium",
+      "importance": "参与300+酶反应，调节情绪、睡眠、肌肉放松；PMS（经前综合征）症状与镁缺乏相关",
+      "RNI_per_day": {
+        "adult_female": "330mg"
+      },
+      "food_sources": [
+        {
+          "food": "南瓜子",
+          "content_per_100g": "535mg"
+        },
+        {
+          "food": "杏仁",
+          "content_per_100g": "270mg"
+        },
+        {
+          "food": "深绿色叶菜",
+          "content_per_100g": "约80mg"
+        },
+        {
+          "food": "黑巧克力（70%+）",
+          "content_per_100g": "约230mg"
+        }
+      ],
+      "tags": [
+        "magnesium",
+        "general_female",
+        "anxiety_depression"
+      ]
+    },
+    {
+      "id": "fem_nut_06",
+      "nutrient": "Omega-3 脂肪酸",
+      "importance": "调节激素平衡、降低炎症、改善情绪（经前和产后抑郁风险降低）；对胎儿神经系统发育至关重要",
+      "RNI_per_day": "250-2000mg EPA+DHA",
+      "food_sources": [
+        {
+          "food": "三文鱼",
+          "content_per_100g": "约1500-2000mg"
+        },
+        {
+          "food": "亚麻籽（磨碎）",
+          "content_per_100g": "约22000mg ALA"
+        },
+        {
+          "food": "核桃",
+          "content_per_100g": "约9000mg ALA"
+        },
+        {
+          "food": "鲭鱼",
+          "content_per_100g": "约1400mg"
+        }
+      ],
+      "tags": [
+        "omega_3",
+        "pregnancy",
+        "lactation",
+        "anxiety_depression"
+      ]
+    }
+  ],
+  "hormone_health_tips": [
+    "保持血糖稳定（低GI饮食）有助于减少胰岛素抵抗，改善PCOS症状",
+    "过量精制糖和反式脂肪会加重炎症反应，影响激素平衡",
+    "大豆异黄酮（植物雌激素）对缓解更年期症状有一定帮助，但甲状腺问题患者需咨询医生",
+    "充足睡眠（7-9小时）对激素调节至关重要，长期睡眠不足会升高皮质醇、降低瘦素",
+    "规律运动（每周150分钟中等强度）可改善胰岛素敏感性、降低雌激素优势风险"
+  ]
+}

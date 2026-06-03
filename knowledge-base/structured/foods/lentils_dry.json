@@ -1,0 +1,52 @@
+{
+  "id": "lentils_dry",
+  "name": "Lentils, dry",
+  "category": "豆类与豆制品",
+  "tags": [
+    "基础营养"
+  ],
+  "deep_analysis": true,
+  "nutrients": {},
+  "active_compounds": [
+    {
+      "name": "优质蛋白质**",
+      "content_text": "含量：23.6g/100g",
+      "mechanism": "作用机制：肌肉合成与修复"
+    },
+    {
+      "name": "镁**",
+      "content_text": "含量：107mg/100g",
+      "mechanism": "作用机制：300+酶促反应辅因子"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "🟡 B级** — **补铁**：每100g含铁7.2mg",
+      "evidence_level": "B",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **神经肌肉**：每100g含镁107mg",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **血压调节**：高钾(949mg/100g),有助钠钾平衡",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **综合营养**：全面营养支持",
+      "evidence_level": "A",
+      "description": ""
+    }
+  ],
+  "daily_intake": "50-100g/d(干重)",
+  "cooking_tips": [
+    "充分浸泡+彻底煮熟"
+  ],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

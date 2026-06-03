@@ -1,0 +1,227 @@
+{
+  "version": "1.0.0",
+  "description": "NutriGuide 知识分类体系 — 所有知识条目的标签和分类标准",
+  "categories": {
+    "macronutrient": {
+      "label": "宏量营养素",
+      "description": "碳水化合物、蛋白质、脂肪的代谢、需求与食物来源",
+      "subcategories": [
+        "carbohydrate",
+        "protein",
+        "fat",
+        "fiber",
+        "energy_metabolism"
+      ]
+    },
+    "micronutrient": {
+      "label": "微量营养素",
+      "description": "维生素、矿物质的生理功能、缺乏症状、食物来源与补充建议",
+      "subcategories": [
+        "vitamin_fat_soluble",
+        "vitamin_water_soluble",
+        "mineral_major",
+        "mineral_trace"
+      ]
+    },
+    "food": {
+      "label": "食物与食物成分",
+      "description": "食物的营养素含量、生物利用率、烹饪影响",
+      "subcategories": [
+        "grains",
+        "vegetables",
+        "fruits",
+        "meat_poultry",
+        "seafood",
+        "eggs",
+        "dairy",
+        "soy_products",
+        "nuts_seeds",
+        "oils_fats",
+        "beverages",
+        "condiments",
+        "processed_foods"
+      ]
+    },
+    "diet_pattern": {
+      "label": "膳食模式",
+      "description": "各类膳食模式的定义、健康效应与实践指导",
+      "subcategories": [
+        "chinese_dietary",
+        "mediterranean",
+        "dash",
+        "low_carb",
+        "plant_based",
+        "intermittent_fasting",
+        "other_patterns"
+      ]
+    },
+    "diet_principle": {
+      "label": "饮食原则与指南",
+      "description": "通用饮食指导原则、各国膳食指南核心建议",
+      "subcategories": [
+        "food_diversity",
+        "portion_control",
+        "meal_timing",
+        "cooking_method",
+        "eating_behavior",
+        "food_safety"
+      ]
+    },
+    "population": {
+      "label": "人群营养",
+      "description": "特定生命阶段或健康状况下的营养需求与饮食调整",
+      "subcategories": [
+        "general_adult",
+        "pregnancy_lactation",
+        "infant_child",
+        "adolescent",
+        "elderly",
+        "athlete",
+        "vegetarian",
+        "chronic_disease"
+      ]
+    },
+    "supplement": {
+      "label": "营养补充剂",
+      "description": "补充剂的循证使用、剂量、安全性与药物相互作用",
+      "subcategories": [
+        "vitamin_supplement",
+        "mineral_supplement",
+        "herbal",
+        "protein_amino_acid",
+        "safety_interaction"
+      ]
+    },
+    "assessment": {
+      "label": "营养评估",
+      "description": "营养状况评估方法、生物标志物、饮食评估工具",
+      "subcategories": [
+        "dietary_assessment",
+        "anthropometry",
+        "biochemical_markers",
+        "clinical_signs",
+        "risk_screening"
+      ]
+    },
+    "disease_nutrition": {
+      "label": "疾病营养治疗",
+      "description": "特定疾病的营养干预策略与循证指南",
+      "subcategories": [
+        "metabolic",
+        "cardiovascular",
+        "gastrointestinal",
+        "endocrine",
+        "autoimmune",
+        "mental_health",
+        "bone_health",
+        "cancer"
+      ]
+    }
+  },
+  "tags": {
+    "evidence_level": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "claim_type": [
+      "fact",
+      "guideline",
+      "opinion",
+      "data_point",
+      "meta_analysis"
+    ],
+    "population_groups": [
+      "general_male",
+      "general_female",
+      "adolescent_female_10_19",
+      "adolescent_male_10_19",
+      "reproductive_female_20_45",
+      "adult_male_20_59",
+      "perimenopause_female_45_60",
+      "elderly_female_60plus",
+      "elderly_male_60plus",
+      "pregnancy",
+      "lactation",
+      "vegetarian",
+      "athlete",
+      "pcos",
+      "hashimoto",
+      "diabetes_t2",
+      "ibs",
+      "anxiety_depression"
+    ],
+    "nutrient_ids": [
+      "vitamin_a",
+      "vitamin_c",
+      "vitamin_d",
+      "vitamin_e",
+      "vitamin_k",
+      "thiamin",
+      "riboflavin",
+      "niacin",
+      "vitamin_b6",
+      "folate",
+      "vitamin_b12",
+      "biotin",
+      "pantothenic_acid",
+      "calcium",
+      "iron",
+      "zinc",
+      "magnesium",
+      "selenium",
+      "iodine",
+      "potassium",
+      "sodium",
+      "omega_3",
+      "fiber",
+      "protein"
+    ],
+    "diet_patterns": [
+      "chinese_dietary_guidelines",
+      "mediterranean",
+      "dash",
+      "low_carb",
+      "ketogenic",
+      "paleo",
+      "vegetarian_lacto_ovo",
+      "vegan",
+      "flexitarian",
+      "intermittent_fasting"
+    ],
+    "food_categories": [
+      "grains_refined",
+      "grains_whole",
+      "tubers",
+      "vegetables_leafy",
+      "vegetables_cruciferous",
+      "vegetables_root",
+      "vegetables_colorful",
+      "fruits_berries",
+      "fruits_citrus",
+      "fruits_tropical",
+      "meat_red",
+      "meat_white",
+      "organ_meats",
+      "processed_meat",
+      "seafood_fish",
+      "seafood_shellfish",
+      "seafood_seaweed",
+      "eggs",
+      "dairy_milk",
+      "dairy_yogurt",
+      "dairy_cheese",
+      "soy_tofu",
+      "soy_fermented",
+      "legumes",
+      "nuts",
+      "seeds",
+      "oils_vegetable",
+      "oils_animal",
+      "beverages_tea",
+      "beverages_coffee",
+      "beverages_alcohol"
+    ]
+  }
+}

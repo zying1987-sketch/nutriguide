@@ -24,7 +24,15 @@ router.post('/', requireAuth, (req, res) => {
 router.get('/', requireAuth, (req, res) => {
   const db = getDb()
   const records = db.prepare(
-    'SELECT id, created_at, substr(step_data, 1, 100) as step_preview, result FROM assessments WHERE user_id = ? ORDER BY created_at DESC LIMIT 20'
+    `SELECT id, created_at,
+      json_extract(step_data, '$.gender') as gender,
+      json_extract(step_data, '$.age') as age,
+      COALESCE(
+        json_extract(result, '$.primaryPopulation.populationName'),
+        json_extract(result, '$.primaryPopulation')
+      ) as population,
+      json_extract(result, '$.dietQualityScore') as diet_score
+    FROM assessments WHERE user_id = ? ORDER BY created_at DESC LIMIT 20`
   ).all(req.user.id)
 
   res.json({ records })

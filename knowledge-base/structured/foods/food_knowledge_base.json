@@ -1,0 +1,5162 @@
+[
+  {
+    "id": "food_荠菜，生",
+    "title": "荠菜，生",
+    "content": "分类: 中式药食同源食材\n活性成分 [钙**]: 含量：每100g含294mg — 作用机制：是牛奶2.5倍,但含草酸吸收率约20-30%\n活性成分 [荠菜酸**]: 含量：特征性植物化学物 — 作用机制：收缩血管止血\n活性成分 [胡萝卜素**]: 含量：每100g约2590μg — 作用机制：转化为VA\n[证据C级] ⚪ C级** — **止血**：缩短出血和凝血时间: \n[证据C级] ⚪ C级** — **骨健康**：高钙来源,适合乳糖不耐受人群: \n[证据C级] ⚪ C级** — **降血压**：ACE抑制活性: \n每日建议摄入: 鲜荠菜100-200g/d\n注意事项: 肾结石草酸钙型限量; 孕妇慎用大量; 甲减者焯水后食用",
+    "tags": [
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "benefit_荠菜，生_⚪_C级**_—_**止血**：缩短出血和凝血时间",
+    "title": "荠菜，生 - ⚪ C级** — **止血**：缩短出血和凝血时间",
+    "content": "[证据C级] ",
+    "tags": [
+      "中式药食同源食材",
+      "⚪ C级** — **止血**：缩短出血和凝血时间"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "benefit_荠菜，生_⚪_C级**_—_**骨健康**：高钙来源,适合乳糖不耐受人群",
+    "title": "荠菜，生 - ⚪ C级** — **骨健康**：高钙来源,适合乳糖不耐受人群",
+    "content": "[证据C级] ",
+    "tags": [
+      "中式药食同源食材",
+      "⚪ C级** — **骨健康**：高钙来源,适合乳糖不耐受人群"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "benefit_荠菜，生_⚪_C级**_—_**降血压**：ACE抑制活性",
+    "title": "荠菜，生 - ⚪ C级** — **降血压**：ACE抑制活性",
+    "content": "[证据C级] ",
+    "tags": [
+      "中式药食同源食材",
+      "⚪ C级** — **降血压**：ACE抑制活性"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "tcm_荠菜，生",
+    "title": "荠菜，生（中医属性）",
+    "content": "meridian: ** 归经：归肝、胃经",
+    "tags": [
+      "中医",
+      "药食同源",
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科（中医） - 中式药食同源食材"
+  },
+  {
+    "id": "food_马齿苋，生",
+    "title": "马齿苋，生",
+    "content": "分类: 中式药食同源食材\n活性成分 [ALA**]: 含量：陆生植物最高(~350-400mg/100g) — 作用机制：植物omega-3,抗炎\n活性成分 [去甲肾上腺素**]: 含量：每100g约2.5mg — 作用机制：调节血管张力\n活性成分 [谷胱甘肽**]: 含量：三肽抗氧化剂 — 作用机制：清除自由基,肝脏解毒辅因子\n[证据C级] ⚪ C级** — **抗炎**：omega-3+多酚双重抗炎: \n[证据C级] ⚪ C级** — **抗菌**：抑制痢疾杆菌/大肠杆菌(体外): \n[证据C级] ⚪ C级** — **血糖**：动物实验显示降糖作用: \n每日建议摄入: 鲜马齿苋100-150g/d\n注意事项: 脾胃虚寒腹泻者慎用; 大剂量安全性未知; 肾结石草酸钙型限量",
+    "tags": [
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "benefit_马齿苋，生_⚪_C级**_—_**抗炎**：omega-3+多酚双重抗炎",
+    "title": "马齿苋，生 - ⚪ C级** — **抗炎**：omega-3+多酚双重抗炎",
+    "content": "[证据C级] ",
+    "tags": [
+      "中式药食同源食材",
+      "⚪ C级** — **抗炎**：omega-3+多酚双重抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "benefit_马齿苋，生_⚪_C级**_—_**抗菌**：抑制痢疾杆菌/大肠杆菌(体外)",
+    "title": "马齿苋，生 - ⚪ C级** — **抗菌**：抑制痢疾杆菌/大肠杆菌(体外)",
+    "content": "[证据C级] ",
+    "tags": [
+      "中式药食同源食材",
+      "⚪ C级** — **抗菌**：抑制痢疾杆菌/大肠杆菌(体外)"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "benefit_马齿苋，生_⚪_C级**_—_**血糖**：动物实验显示降糖作用",
+    "title": "马齿苋，生 - ⚪ C级** — **血糖**：动物实验显示降糖作用",
+    "content": "[证据C级] ",
+    "tags": [
+      "中式药食同源食材",
+      "⚪ C级** — **血糖**：动物实验显示降糖作用"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "tcm_马齿苋，生",
+    "title": "马齿苋，生（中医属性）",
+    "content": "meridian: ** 归经：归肝、大肠经",
+    "tags": [
+      "中医",
+      "药食同源",
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科（中医） - 中式药食同源食材"
+  },
+  {
+    "id": "food_黑木耳，干",
+    "title": "黑木耳，干",
+    "content": "分类: 中式药食同源食材\n活性成分 [木耳多糖**]: 含量：水溶性β-葡聚糖 — 作用机制：免疫调节;抑制血小板聚集\n活性成分 [铁**]: 含量：干品5.9mg/100g — 作用机制：血红素合成必需\n活性成分 [膳食纤维**]: 含量：干品30-40% — 作用机制：增加饱腹感,调节菌群\n[证据C级] ⚪ C级** — **心血管**：温和抗血栓作用: \n[证据B级] 🟡 B级** — **补铁**：植物性铁良好来源: \n[证据C级] ⚪ C级** — **肠道**：高纤维促进排便: \n每日建议摄入: 干品5-10g(泡发后50-100g)\n注意事项: 服用抗凝药者注意(食物量通常不造成临床风险); 术前1周暂停; 选择干燥无异味产品",
+    "tags": [
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "benefit_黑木耳，干_⚪_C级**_—_**心血管**：温和抗血栓作用",
+    "title": "黑木耳，干 - ⚪ C级** — **心血管**：温和抗血栓作用",
+    "content": "[证据C级] ",
+    "tags": [
+      "中式药食同源食材",
+      "⚪ C级** — **心血管**：温和抗血栓作用"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "benefit_黑木耳，干_🟡_B级**_—_**补铁**：植物性铁良好来源",
+    "title": "黑木耳，干 - 🟡 B级** — **补铁**：植物性铁良好来源",
+    "content": "[证据B级] ",
+    "tags": [
+      "中式药食同源食材",
+      "🟡 B级** — **补铁**：植物性铁良好来源"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "benefit_黑木耳，干_⚪_C级**_—_**肠道**：高纤维促进排便",
+    "title": "黑木耳，干 - ⚪ C级** — **肠道**：高纤维促进排便",
+    "content": "[证据C级] ",
+    "tags": [
+      "中式药食同源食材",
+      "⚪ C级** — **肠道**：高纤维促进排便"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "tcm_黑木耳，干",
+    "title": "黑木耳，干（中医属性）",
+    "content": "meridian: ** 归经：归胃、大肠经",
+    "tags": [
+      "中医",
+      "药食同源",
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科（中医） - 中式药食同源食材"
+  },
+  {
+    "id": "food_银耳（白木耳），干",
+    "title": "银耳（白木耳），干",
+    "content": "分类: 中式药食同源食材\n活性成分 [复合活性成分**]: 含量：传统药食同源食材 — 作用机制：多靶点协同\n[证据C级] ⚪ C级(传统知识)** — **传统功效**：滋阴润肺,养胃生津: \n每日建议摄入: 按传统用法适量食用\n注意事项: 参照中医体质辨证食用",
+    "tags": [
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "benefit_银耳（白木耳），干_⚪_C级(传统知识)**_—_**传统功效**：滋阴润肺,养胃生津",
+    "title": "银耳（白木耳），干 - ⚪ C级(传统知识)** — **传统功效**：滋阴润肺,养胃生津",
+    "content": "[证据C级] ",
+    "tags": [
+      "中式药食同源食材",
+      "⚪ C级(传统知识)** — **传统功效**：滋阴润肺,养胃生津"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "tcm_银耳（白木耳），干",
+    "title": "银耳（白木耳），干（中医属性）",
+    "content": "meridian: ** 归经：归肺、胃、肾经",
+    "tags": [
+      "中医",
+      "药食同源",
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科（中医） - 中式药食同源食材"
+  },
+  {
+    "id": "food_莲子，干",
+    "title": "莲子，干",
+    "content": "分类: 中式药食同源食材\n活性成分 [莲子碱**]: 含量：异喹啉生物碱 — 作用机制：镇静安神,钙通道阻滞→降血压\n活性成分 [GABA**]: 含量：天然存在 — 作用机制：抑制性神经递质,帮助放松和入睡\n[证据C级] ⚪ C级** — **睡眠**：养心安神,GABA+生物碱镇静: \n[证据C级] ⚪ C级** — **消化**：健脾止泻: \n[证据C级] ⚪ C级** — **心血管**：莲子碱温和降压: \n每日建议摄入: 干品10-30g/d\n注意事项: 大便燥结/便秘者少食(收敛止泻); 腹胀满者慎食; 莲子心极苦性寒,体质虚寒者去心",
+    "tags": [
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "benefit_莲子，干_⚪_C级**_—_**睡眠**：养心安神,GABA+生物碱镇静",
+    "title": "莲子，干 - ⚪ C级** — **睡眠**：养心安神,GABA+生物碱镇静",
+    "content": "[证据C级] ",
+    "tags": [
+      "中式药食同源食材",
+      "⚪ C级** — **睡眠**：养心安神,GABA+生物碱镇静"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "benefit_莲子，干_⚪_C级**_—_**消化**：健脾止泻",
+    "title": "莲子，干 - ⚪ C级** — **消化**：健脾止泻",
+    "content": "[证据C级] ",
+    "tags": [
+      "中式药食同源食材",
+      "⚪ C级** — **消化**：健脾止泻"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "benefit_莲子，干_⚪_C级**_—_**心血管**：莲子碱温和降压",
+    "title": "莲子，干 - ⚪ C级** — **心血管**：莲子碱温和降压",
+    "content": "[证据C级] ",
+    "tags": [
+      "中式药食同源食材",
+      "⚪ C级** — **心血管**：莲子碱温和降压"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "tcm_莲子，干",
+    "title": "莲子，干（中医属性）",
+    "content": "meridian: ** 归经：归脾、肾、心经",
+    "tags": [
+      "中医",
+      "药食同源",
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科（中医） - 中式药食同源食材"
+  },
+  {
+    "id": "food_红枣（大枣），干",
+    "title": "红枣（大枣），干",
+    "content": "分类: 中式药食同源食材\n活性成分 [cAMP**]: 含量：植物界最高(~100-500nmol/g) — 作用机制：第二信使,调节激素分泌/免疫应答\n活性成分 [多糖**]: 含量：水溶性枣多糖 — 作用机制：免疫调节\n活性成分 [VC**]: 含量：鲜枣约243mg/100g — 作用机制：抗氧化,促进铁吸收\n[证据C级] ⚪ C级** — **补血**：传统补气血要药,cAMP可能促进EPO分泌: \n[证据C级] ⚪ C级** — **免疫**：多糖激活巨噬细胞: \n[证据C级] ⚪ C级** — **安神**：GABA+黄酮镇静(甘麦大枣汤): \n每日建议摄入: 干红枣5-10颗(约20-30g)/d\n注意事项: 糖尿病患者严格控制(GI约103); 痰湿体质/腹胀满者少食; 外感风热/喉咙痛时暂停; 避免霉变枣(黄曲霉素)",
+    "tags": [
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "benefit_红枣（大枣），干_⚪_C级**_—_**补血**：传统补气血要药,cAMP可能促进EPO分泌",
+    "title": "红枣（大枣），干 - ⚪ C级** — **补血**：传统补气血要药,cAMP可能促进EPO分泌",
+    "content": "[证据C级] ",
+    "tags": [
+      "中式药食同源食材",
+      "⚪ C级** — **补血**：传统补气血要药,cAMP可能促进EPO分泌"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "benefit_红枣（大枣），干_⚪_C级**_—_**免疫**：多糖激活巨噬细胞",
+    "title": "红枣（大枣），干 - ⚪ C级** — **免疫**：多糖激活巨噬细胞",
+    "content": "[证据C级] ",
+    "tags": [
+      "中式药食同源食材",
+      "⚪ C级** — **免疫**：多糖激活巨噬细胞"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "benefit_红枣（大枣），干_⚪_C级**_—_**安神**：GABA+黄酮镇静(甘麦大枣汤)",
+    "title": "红枣（大枣），干 - ⚪ C级** — **安神**：GABA+黄酮镇静(甘麦大枣汤)",
+    "content": "[证据C级] ",
+    "tags": [
+      "中式药食同源食材",
+      "⚪ C级** — **安神**：GABA+黄酮镇静(甘麦大枣汤)"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "tcm_红枣（大枣），干",
+    "title": "红枣（大枣），干（中医属性）",
+    "content": "meridian: ** 归经：归脾、胃、心经",
+    "tags": [
+      "中医",
+      "药食同源",
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科（中医） - 中式药食同源食材"
+  },
+  {
+    "id": "food_桂圆（龙眼肉），干",
+    "title": "桂圆（龙眼肉），干",
+    "content": "分类: 中式药食同源食材\n活性成分 [复合活性成分**]: 含量：传统药食同源食材 — 作用机制：多靶点协同\n[证据C级] ⚪ C级(传统知识)** — **传统功效**：补心脾,益气血,安神: \n每日建议摄入: 按传统用法适量食用\n注意事项: 参照中医体质辨证食用",
+    "tags": [
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "benefit_桂圆（龙眼肉），干_⚪_C级(传统知识)**_—_**传统功效**：补心脾,益气血,安神",
+    "title": "桂圆（龙眼肉），干 - ⚪ C级(传统知识)** — **传统功效**：补心脾,益气血,安神",
+    "content": "[证据C级] ",
+    "tags": [
+      "中式药食同源食材",
+      "⚪ C级(传统知识)** — **传统功效**：补心脾,益气血,安神"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "tcm_桂圆（龙眼肉），干",
+    "title": "桂圆（龙眼肉），干（中医属性）",
+    "content": "meridian: ** 归经：归心、脾经",
+    "tags": [
+      "中医",
+      "药食同源",
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科（中医） - 中式药食同源食材"
+  },
+  {
+    "id": "food_薏苡仁（薏米）",
+    "title": "薏苡仁（薏米）",
+    "content": "分类: 中式药食同源食材\n活性成分 [薏苡仁酯**]: 含量：脂溶性成分 — 作用机制：抗肿瘤活性(体外)\n活性成分 [薏苡仁多糖(Coixan)**]: 含量：多糖 — 作用机制：降血糖(抑制α-葡萄糖苷酶)\n[证据C级] ⚪ C级** — **利水渗湿**：促进水分代谢,改善水肿: \n[证据C级] ⚪ C级** — **关节**：传统治疗湿热痹症: \n[证据C级] ⚪ C级** — **皮肤**：改善湿热型痤疮,对扁平疣有效: \n每日建议摄入: 生薏米30-50g/d\n注意事项: 孕妇慎用(动物实验薏苡仁油有子宫兴奋作用); 阴虚津亏/口干严重者少食; 脾胃虚寒严重者用炒薏米",
+    "tags": [
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "benefit_薏苡仁（薏米）_⚪_C级**_—_**利水渗湿**：促进水分代谢,改善水肿",
+    "title": "薏苡仁（薏米） - ⚪ C级** — **利水渗湿**：促进水分代谢,改善水肿",
+    "content": "[证据C级] ",
+    "tags": [
+      "中式药食同源食材",
+      "⚪ C级** — **利水渗湿**：促进水分代谢,改善水肿"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "benefit_薏苡仁（薏米）_⚪_C级**_—_**关节**：传统治疗湿热痹症",
+    "title": "薏苡仁（薏米） - ⚪ C级** — **关节**：传统治疗湿热痹症",
+    "content": "[证据C级] ",
+    "tags": [
+      "中式药食同源食材",
+      "⚪ C级** — **关节**：传统治疗湿热痹症"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "benefit_薏苡仁（薏米）_⚪_C级**_—_**皮肤**：改善湿热型痤疮,对扁平疣有效",
+    "title": "薏苡仁（薏米） - ⚪ C级** — **皮肤**：改善湿热型痤疮,对扁平疣有效",
+    "content": "[证据C级] ",
+    "tags": [
+      "中式药食同源食材",
+      "⚪ C级** — **皮肤**：改善湿热型痤疮,对扁平疣有效"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "tcm_薏苡仁（薏米）",
+    "title": "薏苡仁（薏米）（中医属性）",
+    "content": "meridian: ** 归经：归脾、胃、肺、肾经",
+    "tags": [
+      "中医",
+      "药食同源",
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科（中医） - 中式药食同源食材"
+  },
+  {
+    "id": "food_山楂，干",
+    "title": "山楂，干",
+    "content": "分类: 中式药食同源食材\n活性成分 [复合活性成分**]: 含量：传统药食同源食材 — 作用机制：多靶点协同\n[证据C级] ⚪ C级(传统知识)** — **传统功效**：消食化积,行气散瘀: \n每日建议摄入: 按传统用法适量食用\n注意事项: 参照中医体质辨证食用",
+    "tags": [
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "benefit_山楂，干_⚪_C级(传统知识)**_—_**传统功效**：消食化积,行气散瘀",
+    "title": "山楂，干 - ⚪ C级(传统知识)** — **传统功效**：消食化积,行气散瘀",
+    "content": "[证据C级] ",
+    "tags": [
+      "中式药食同源食材",
+      "⚪ C级(传统知识)** — **传统功效**：消食化积,行气散瘀"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "tcm_山楂，干",
+    "title": "山楂，干（中医属性）",
+    "content": "meridian: ** 归经：归脾、胃、肝经",
+    "tags": [
+      "中医",
+      "药食同源",
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科（中医） - 中式药食同源食材"
+  },
+  {
+    "id": "food_紫菜，干",
+    "title": "紫菜，干",
+    "content": "分类: 中式药食同源食材\n活性成分 [复合活性成分**]: 含量：传统药食同源食材 — 作用机制：多靶点协同\n[证据C级] ⚪ C级(传统知识)** — **传统功效**：软坚散结,清热化痰: \n每日建议摄入: 按传统用法适量食用\n注意事项: 参照中医体质辨证食用",
+    "tags": [
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "benefit_紫菜，干_⚪_C级(传统知识)**_—_**传统功效**：软坚散结,清热化痰",
+    "title": "紫菜，干 - ⚪ C级(传统知识)** — **传统功效**：软坚散结,清热化痰",
+    "content": "[证据C级] ",
+    "tags": [
+      "中式药食同源食材",
+      "⚪ C级(传统知识)** — **传统功效**：软坚散结,清热化痰"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "tcm_紫菜，干",
+    "title": "紫菜，干（中医属性）",
+    "content": "meridian: ** 归经：归肺、肾经",
+    "tags": [
+      "中医",
+      "药食同源",
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科（中医） - 中式药食同源食材"
+  },
+  {
+    "id": "food_白果（银杏），煮熟",
+    "title": "白果（银杏），煮熟",
+    "content": "分类: 中式药食同源食材\n活性成分 [复合活性成分**]: 含量：传统药食同源食材 — 作用机制：多靶点协同\n[证据C级] ⚪ C级(传统知识)** — **传统功效**：敛肺定喘,止带缩尿: \n每日建议摄入: 按传统用法适量食用\n注意事项: 参照中医体质辨证食用",
+    "tags": [
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "benefit_白果（银杏），煮熟_⚪_C级(传统知识)**_—_**传统功效**：敛肺定喘,止带缩尿",
+    "title": "白果（银杏），煮熟 - ⚪ C级(传统知识)** — **传统功效**：敛肺定喘,止带缩尿",
+    "content": "[证据C级] ",
+    "tags": [
+      "中式药食同源食材",
+      "⚪ C级(传统知识)** — **传统功效**：敛肺定喘,止带缩尿"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "tcm_白果（银杏），煮熟",
+    "title": "白果（银杏），煮熟（中医属性）",
+    "content": "meridian: ** 归经：归肺、肾经",
+    "tags": [
+      "中医",
+      "药食同源",
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科（中医） - 中式药食同源食材"
+  },
+  {
+    "id": "food_陈皮，干",
+    "title": "陈皮，干",
+    "content": "分类: 中式药食同源食材\n活性成分 [复合活性成分**]: 含量：传统药食同源食材 — 作用机制：多靶点协同\n[证据C级] ⚪ C级(传统知识)** — **传统功效**：理气健脾,燥湿化痰: \n每日建议摄入: 按传统用法适量食用\n注意事项: 参照中医体质辨证食用",
+    "tags": [
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "benefit_陈皮，干_⚪_C级(传统知识)**_—_**传统功效**：理气健脾,燥湿化痰",
+    "title": "陈皮，干 - ⚪ C级(传统知识)** — **传统功效**：理气健脾,燥湿化痰",
+    "content": "[证据C级] ",
+    "tags": [
+      "中式药食同源食材",
+      "⚪ C级(传统知识)** — **传统功效**：理气健脾,燥湿化痰"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "tcm_陈皮，干",
+    "title": "陈皮，干（中医属性）",
+    "content": "meridian: ** 归经：归脾、肺经",
+    "tags": [
+      "中医",
+      "药食同源",
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科（中医） - 中式药食同源食材"
+  },
+  {
+    "id": "food_黑芝麻，生",
+    "title": "黑芝麻，生",
+    "content": "分类: 中式药食同源食材\n活性成分 [复合活性成分**]: 含量：传统药食同源食材 — 作用机制：多靶点协同\n[证据C级] ⚪ C级(传统知识)** — **传统功效**：补肝肾,益精血,润肠通便: \n每日建议摄入: 按传统用法适量食用\n注意事项: 参照中医体质辨证食用",
+    "tags": [
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "benefit_黑芝麻，生_⚪_C级(传统知识)**_—_**传统功效**：补肝肾,益精血,润肠通便",
+    "title": "黑芝麻，生 - ⚪ C级(传统知识)** — **传统功效**：补肝肾,益精血,润肠通便",
+    "content": "[证据C级] ",
+    "tags": [
+      "中式药食同源食材",
+      "⚪ C级(传统知识)** — **传统功效**：补肝肾,益精血,润肠通便"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "tcm_黑芝麻，生",
+    "title": "黑芝麻，生（中医属性）",
+    "content": "meridian: ** 归经：归肝、肾、大肠经",
+    "tags": [
+      "中医",
+      "药食同源",
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科（中医） - 中式药食同源食材"
+  },
+  {
+    "id": "food_绿豆芽",
+    "title": "绿豆芽",
+    "content": "分类: 中式药食同源食材\n活性成分 [复合活性成分**]: 含量：传统药食同源食材 — 作用机制：多靶点协同\n[证据C级] ⚪ C级(传统知识)** — **传统功效**：清热消暑,利尿解毒: \n每日建议摄入: 按传统用法适量食用\n注意事项: 参照中医体质辨证食用",
+    "tags": [
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "benefit_绿豆芽_⚪_C级(传统知识)**_—_**传统功效**：清热消暑,利尿解毒",
+    "title": "绿豆芽 - ⚪ C级(传统知识)** — **传统功效**：清热消暑,利尿解毒",
+    "content": "[证据C级] ",
+    "tags": [
+      "中式药食同源食材",
+      "⚪ C级(传统知识)** — **传统功效**：清热消暑,利尿解毒"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 中式药食同源食材"
+  },
+  {
+    "id": "tcm_绿豆芽",
+    "title": "绿豆芽（中医属性）",
+    "content": "meridian: ** 归经：归脾、胃经",
+    "tags": [
+      "中医",
+      "药食同源",
+      "中式药食同源食材"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科（中医） - 中式药食同源食材"
+  },
+  {
+    "id": "food_kefir_lowfat_plain_lifeway",
+    "title": "Kefir, lowfat, plain, LIFEWAY",
+    "content": "分类: 乳制品与蛋类\n每100g营养素: 能量: 182.0kcal\n[证据A级] 🟢 A级** — **骨健康**：每100g含钙130mg: \n[证据C级] ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素: \n每日建议摄入: 100-200g/d",
+    "tags": [
+      "肠脑轴",
+      "乳制品与蛋类"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 乳制品与蛋类"
+  },
+  {
+    "id": "benefit_kefir_lowfat_plain_lifeway_🟢_A级**_—_**骨健康**：每100g含钙130mg",
+    "title": "Kefir, lowfat, plain, LIFEWAY - 🟢 A级** — **骨健康**：每100g含钙130mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "乳制品与蛋类",
+      "🟢 A级** — **骨健康**：每100g含钙130mg",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 乳制品与蛋类"
+  },
+  {
+    "id": "benefit_kefir_lowfat_plain_lifeway_⚪_C级**_—_**肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "title": "Kefir, lowfat, plain, LIFEWAY - ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "content": "[证据C级] ",
+    "tags": [
+      "乳制品与蛋类",
+      "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 乳制品与蛋类"
+  },
+  {
+    "id": "food_kefir_lowfat_strawberry_lifeway",
+    "title": "Kefir, lowfat, strawberry, LIFEWAY",
+    "content": "分类: 乳制品与蛋类\n每100g营养素: 能量: 261.0kcal\n[证据A级] 🟢 A级** — **骨健康**：每100g含钙119mg: \n[证据B级] 🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激: \n[证据C级] ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素: \n每日建议摄入: 100-200g/d",
+    "tags": [
+      "抗氧化",
+      "肠脑轴",
+      "乳制品与蛋类"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 乳制品与蛋类"
+  },
+  {
+    "id": "benefit_kefir_lowfat_strawberry_lifeway_🟢_A级**_—_**骨健康**：每100g含钙119mg",
+    "title": "Kefir, lowfat, strawberry, LIFEWAY - 🟢 A级** — **骨健康**：每100g含钙119mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "乳制品与蛋类",
+      "🟢 A级** — **骨健康**：每100g含钙119mg",
+      "抗氧化",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 乳制品与蛋类"
+  },
+  {
+    "id": "benefit_kefir_lowfat_strawberry_lifeway_🟡_B级**_—_**抗氧化**：高ORAC值,减轻氧化应激",
+    "title": "Kefir, lowfat, strawberry, LIFEWAY - 🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+    "content": "[证据B级] ",
+    "tags": [
+      "乳制品与蛋类",
+      "🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+      "抗氧化",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 乳制品与蛋类"
+  },
+  {
+    "id": "benefit_kefir_lowfat_strawberry_lifeway_⚪_C级**_—_**肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "title": "Kefir, lowfat, strawberry, LIFEWAY - ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "content": "[证据C级] ",
+    "tags": [
+      "乳制品与蛋类",
+      "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+      "抗氧化",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 乳制品与蛋类"
+  },
+  {
+    "id": "food_lunchmeat_chicken_breast_sliced",
+    "title": "Lunchmeat, chicken breast, sliced",
+    "content": "分类: 加工肉制品\n[证据A级] 🟢 A级** — **综合营养**：全面营养支持: \n每日建议摄入: 少量,加工肉制品建议<50g/周\n注意事项: 加工肉制品IARC 1类致癌物(结直肠癌)",
+    "tags": [
+      "基础营养",
+      "加工肉制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 加工肉制品"
+  },
+  {
+    "id": "benefit_lunchmeat_chicken_breast_sliced_🟢_A级**_—_**综合营养**：全面营养支持",
+    "title": "Lunchmeat, chicken breast, sliced - 🟢 A级** — **综合营养**：全面营养支持",
+    "content": "[证据A级] ",
+    "tags": [
+      "加工肉制品",
+      "🟢 A级** — **综合营养**：全面营养支持",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 加工肉制品"
+  },
+  {
+    "id": "food_nuts_walnuts_english",
+    "title": "Nuts, walnuts, english",
+    "content": "分类: 坚果与种子\n每100g营养素: 能量: 2738.0kcal\n活性成分 [α-亚麻酸(ALA)**]: 含量：每100g约9g — 作用机制：植物omega-3最高来源之一,转化为EPA/DHA\n活性成分 [鞣花酸**]: 含量：多酚类 — 作用机制：肠道菌群代谢为尿石素,激活线粒体自噬\n活性成分 [褪黑素**]: 含量：约3.5ng/g — 作用机制：调节昼夜节律,抗氧化\n[证据A级] 🟢 A级** — **心血管**：降低LDL-C 5-10%:  (来源: 参考文献：PREDIMED研究(n=7447))\n[证据B级] 🟡 B级** — **认知**：改善老年人认知功能:  (来源: 参考文献：WAHA研究(n=708,2年RCT))\n[证据A级] 🟢 A级** — **抗炎**：降低CRP、IL-6: \n[证据B级] 🟡 B级** — **肠道**：增加产丁酸菌丰度: \n每日建议摄入: 30-60g/d(约6-12个,一把)\n注意事项: 坚果过敏者严格避免; 肾结石草酸钙型需限量; 注意热量(654kcal/100g); 冷藏密封保存(ALA易氧化)",
+    "tags": [
+      "抗炎",
+      "坚果与种子"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_nuts_walnuts_english_🟢_A级**_—_**心血管**：降低LDL-C_5-10%",
+    "title": "Nuts, walnuts, english - 🟢 A级** — **心血管**：降低LDL-C 5-10%",
+    "content": "[证据A级] \n来源: 参考文献：PREDIMED研究(n=7447)",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **心血管**：降低LDL-C 5-10%",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_nuts_walnuts_english_🟡_B级**_—_**认知**：改善老年人认知功能",
+    "title": "Nuts, walnuts, english - 🟡 B级** — **认知**：改善老年人认知功能",
+    "content": "[证据B级] \n来源: 参考文献：WAHA研究(n=708,2年RCT)",
+    "tags": [
+      "坚果与种子",
+      "🟡 B级** — **认知**：改善老年人认知功能",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_nuts_walnuts_english_🟢_A级**_—_**抗炎**：降低CRP、IL-6",
+    "title": "Nuts, walnuts, english - 🟢 A级** — **抗炎**：降低CRP、IL-6",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **抗炎**：降低CRP、IL-6",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_nuts_walnuts_english_🟡_B级**_—_**肠道**：增加产丁酸菌丰度",
+    "title": "Nuts, walnuts, english - 🟡 B级** — **肠道**：增加产丁酸菌丰度",
+    "content": "[证据B级] ",
+    "tags": [
+      "坚果与种子",
+      "🟡 B级** — **肠道**：增加产丁酸菌丰度",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "food_nuts_pecans",
+    "title": "Nuts, pecans",
+    "content": "分类: 坚果与种子\n每100g营养素: 能量: 2889.0kcal\n活性成分 [膳食纤维**]: 含量：9.6g/100g — 作用机制：促进肠蠕动,调节菌群\n活性成分 [镁**]: 含量：121mg/100g — 作用机制：300+酶促反应辅因子\n活性成分 [Omega-3(ALA)**]: 含量：1.0g/100g — 作用机制：抗炎类花生酸前体\n[证据A级] 🟢 A级** — **肠道健康**：高纤维(9.6g/100g)促进排便和菌群平衡: \n[证据A级] 🟢 A级** — **神经肌肉**：每100g含镁121mg: \n[证据A级] 🟢 A级** — **抗炎**：omega-3含量1.0g/100g: \n[证据B级] 🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激: \n每日建议摄入: 20-40g/d(约一把)\n注意事项: 过敏者避免",
+    "tags": [
+      "抗氧化",
+      "坚果与种子"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_nuts_pecans_🟢_A级**_—_**肠道健康**：高纤维(9.6g/100g)促进排便和菌群平衡",
+    "title": "Nuts, pecans - 🟢 A级** — **肠道健康**：高纤维(9.6g/100g)促进排便和菌群平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **肠道健康**：高纤维(9.6g/100g)促进排便和菌群平衡",
+      "抗氧化"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_nuts_pecans_🟢_A级**_—_**神经肌肉**：每100g含镁121mg",
+    "title": "Nuts, pecans - 🟢 A级** — **神经肌肉**：每100g含镁121mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **神经肌肉**：每100g含镁121mg",
+      "抗氧化"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_nuts_pecans_🟢_A级**_—_**抗炎**：omega-3含量1.0g/100g",
+    "title": "Nuts, pecans - 🟢 A级** — **抗炎**：omega-3含量1.0g/100g",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **抗炎**：omega-3含量1.0g/100g",
+      "抗氧化"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_nuts_pecans_🟡_B级**_—_**抗氧化**：高ORAC值,减轻氧化应激",
+    "title": "Nuts, pecans - 🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+    "content": "[证据B级] ",
+    "tags": [
+      "坚果与种子",
+      "🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+      "抗氧化"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "food_nuts_pecans_halves_raw",
+    "title": "Nuts, pecans, halves, raw",
+    "content": "分类: 坚果与种子\n活性成分 [膳食纤维**]: 含量：5.8g/100g — 作用机制：促进肠蠕动,调节菌群\n活性成分 [镁**]: 含量：103mg/100g — 作用机制：300+酶促反应辅因子\n[证据A级] 🟢 A级** — **肠道健康**：高纤维(5.8g/100g)促进排便和菌群平衡: \n[证据A级] 🟢 A级** — **神经肌肉**：每100g含镁103mg: \n[证据B级] 🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激: \n每日建议摄入: 20-40g/d(约一把)\n注意事项: 过敏者避免",
+    "tags": [
+      "抗氧化",
+      "坚果与种子"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_nuts_pecans_halves_raw_🟢_A级**_—_**肠道健康**：高纤维(5.8g/100g)促进排便和菌群平衡",
+    "title": "Nuts, pecans, halves, raw - 🟢 A级** — **肠道健康**：高纤维(5.8g/100g)促进排便和菌群平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **肠道健康**：高纤维(5.8g/100g)促进排便和菌群平衡",
+      "抗氧化"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_nuts_pecans_halves_raw_🟢_A级**_—_**神经肌肉**：每100g含镁103mg",
+    "title": "Nuts, pecans, halves, raw - 🟢 A级** — **神经肌肉**：每100g含镁103mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **神经肌肉**：每100g含镁103mg",
+      "抗氧化"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_nuts_pecans_halves_raw_🟡_B级**_—_**抗氧化**：高ORAC值,减轻氧化应激",
+    "title": "Nuts, pecans, halves, raw - 🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+    "content": "[证据B级] ",
+    "tags": [
+      "坚果与种子",
+      "🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+      "抗氧化"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "food_flaxseed_ground",
+    "title": "Flaxseed, ground",
+    "content": "分类: 坚果与种子\n活性成分 [木脂素(SDG)**]: 含量：每100g含300mg(自然界最高) — 作用机制：肠道菌群→肠内酯,SERM样作用\n活性成分 [ALA**]: 含量：每100g约22g — 作用机制：植物omega-3最高来源,抑制COX-2/5-LOX\n活性成分 [粘液纤维**]: 含量：6-12% — 作用机制：形成凝胶延缓胃排空,包裹胆汁酸\n[证据B级] 🟡 B级** — **激素平衡**：木脂素SERM:雌激素高时拮抗,低时弱激活: \n[证据B级] 🟡 B级** — **更年期**：40g/d亚麻籽粉减轻潮热频率: \n[证据A级] 🟢 A级** — **心血管**：降低总胆固醇和LDL-C 6-11%: \n[证据A级] 🟢 A级** — **肠道**：粘液纤维促进排便规律: \n每日建议摄入: 亚麻籽粉15-30g/d(约1-2汤匙),必须研磨后食用!\n注意事项: 肠道梗阻/狭窄禁用; 甲减者与甲状腺素药物间隔>2h; 孕期<30g/d安全; 购买棕色或金色亚麻籽均可",
+    "tags": [
+      "女性激素健康",
+      "坚果与种子"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_flaxseed_ground_🟡_B级**_—_**激素平衡**：木脂素SERM:雌激素高时拮抗,低时弱激活",
+    "title": "Flaxseed, ground - 🟡 B级** — **激素平衡**：木脂素SERM:雌激素高时拮抗,低时弱激活",
+    "content": "[证据B级] ",
+    "tags": [
+      "坚果与种子",
+      "🟡 B级** — **激素平衡**：木脂素SERM:雌激素高时拮抗,低时弱激活",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_flaxseed_ground_🟡_B级**_—_**更年期**：40g/d亚麻籽粉减轻潮热频率",
+    "title": "Flaxseed, ground - 🟡 B级** — **更年期**：40g/d亚麻籽粉减轻潮热频率",
+    "content": "[证据B级] ",
+    "tags": [
+      "坚果与种子",
+      "🟡 B级** — **更年期**：40g/d亚麻籽粉减轻潮热频率",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_flaxseed_ground_🟢_A级**_—_**心血管**：降低总胆固醇和LDL-C_6-11%",
+    "title": "Flaxseed, ground - 🟢 A级** — **心血管**：降低总胆固醇和LDL-C 6-11%",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **心血管**：降低总胆固醇和LDL-C 6-11%",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_flaxseed_ground_🟢_A级**_—_**肠道**：粘液纤维促进排便规律",
+    "title": "Flaxseed, ground - 🟢 A级** — **肠道**：粘液纤维促进排便规律",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **肠道**：粘液纤维促进排便规律",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "food_seeds_flaxseed",
+    "title": "Seeds, flaxseed",
+    "content": "分类: 坚果与种子\n每100g营养素: 能量: 2234.0kcal\n活性成分 [木脂素(SDG)**]: 含量：每100g含300mg(自然界最高) — 作用机制：肠道菌群→肠内酯,SERM样作用\n活性成分 [ALA**]: 含量：每100g约22g — 作用机制：植物omega-3最高来源,抑制COX-2/5-LOX\n活性成分 [粘液纤维**]: 含量：6-12% — 作用机制：形成凝胶延缓胃排空,包裹胆汁酸\n[证据B级] 🟡 B级** — **激素平衡**：木脂素SERM:雌激素高时拮抗,低时弱激活: \n[证据B级] 🟡 B级** — **更年期**：40g/d亚麻籽粉减轻潮热频率: \n[证据A级] 🟢 A级** — **心血管**：降低总胆固醇和LDL-C 6-11%: \n[证据A级] 🟢 A级** — **肠道**：粘液纤维促进排便规律: \n每日建议摄入: 亚麻籽粉15-30g/d(约1-2汤匙),必须研磨后食用!\n注意事项: 肠道梗阻/狭窄禁用; 甲减者与甲状腺素药物间隔>2h; 孕期<30g/d安全; 购买棕色或金色亚麻籽均可",
+    "tags": [
+      "女性激素健康",
+      "坚果与种子"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_flaxseed_🟡_B级**_—_**激素平衡**：木脂素SERM:雌激素高时拮抗,低时弱激活",
+    "title": "Seeds, flaxseed - 🟡 B级** — **激素平衡**：木脂素SERM:雌激素高时拮抗,低时弱激活",
+    "content": "[证据B级] ",
+    "tags": [
+      "坚果与种子",
+      "🟡 B级** — **激素平衡**：木脂素SERM:雌激素高时拮抗,低时弱激活",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_flaxseed_🟡_B级**_—_**更年期**：40g/d亚麻籽粉减轻潮热频率",
+    "title": "Seeds, flaxseed - 🟡 B级** — **更年期**：40g/d亚麻籽粉减轻潮热频率",
+    "content": "[证据B级] ",
+    "tags": [
+      "坚果与种子",
+      "🟡 B级** — **更年期**：40g/d亚麻籽粉减轻潮热频率",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_flaxseed_🟢_A级**_—_**心血管**：降低总胆固醇和LDL-C_6-11%",
+    "title": "Seeds, flaxseed - 🟢 A级** — **心血管**：降低总胆固醇和LDL-C 6-11%",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **心血管**：降低总胆固醇和LDL-C 6-11%",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_flaxseed_🟢_A级**_—_**肠道**：粘液纤维促进排便规律",
+    "title": "Seeds, flaxseed - 🟢 A级** — **肠道**：粘液纤维促进排便规律",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **肠道**：粘液纤维促进排便规律",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "food_seeds_pumpkin_seeds_pepitas_raw",
+    "title": "Seeds, pumpkin seeds (pepitas), raw",
+    "content": "分类: 坚果与种子\n活性成分 [优质蛋白质**]: 含量：29.9g/100g — 作用机制：肌肉合成与修复\n活性成分 [膳食纤维**]: 含量：5.1g/100g — 作用机制：促进肠蠕动,调节菌群\n活性成分 [镁**]: 含量：500mg/100g — 作用机制：300+酶促反应辅因子\n[证据A级] 🟢 A级** — **肠道健康**：高纤维(5.1g/100g)促进排便和菌群平衡: \n[证据B级] 🟡 B级** — **补铁**：每100g含铁8.4mg: \n[证据A级] 🟢 A级** — **神经肌肉**：每100g含镁500mg: \n[证据A级] 🟢 A级** — **血压调节**：高钾(691mg/100g),有助钠钾平衡: \n[证据B级] 🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素: \n每日建议摄入: 20-40g/d(约一把)\n注意事项: 过敏者避免",
+    "tags": [
+      "女性激素健康",
+      "坚果与种子"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_pumpkin_seeds_pepitas_raw_🟢_A级**_—_**肠道健康**：高纤维(5.1g/100g)促进排便和菌群平衡",
+    "title": "Seeds, pumpkin seeds (pepitas), raw - 🟢 A级** — **肠道健康**：高纤维(5.1g/100g)促进排便和菌群平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **肠道健康**：高纤维(5.1g/100g)促进排便和菌群平衡",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_pumpkin_seeds_pepitas_raw_🟡_B级**_—_**补铁**：每100g含铁8.4mg",
+    "title": "Seeds, pumpkin seeds (pepitas), raw - 🟡 B级** — **补铁**：每100g含铁8.4mg",
+    "content": "[证据B级] ",
+    "tags": [
+      "坚果与种子",
+      "🟡 B级** — **补铁**：每100g含铁8.4mg",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_pumpkin_seeds_pepitas_raw_🟢_A级**_—_**神经肌肉**：每100g含镁500mg",
+    "title": "Seeds, pumpkin seeds (pepitas), raw - 🟢 A级** — **神经肌肉**：每100g含镁500mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **神经肌肉**：每100g含镁500mg",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_pumpkin_seeds_pepitas_raw_🟢_A级**_—_**血压调节**：高钾(691mg/100g),有助钠钾平衡",
+    "title": "Seeds, pumpkin seeds (pepitas), raw - 🟢 A级** — **血压调节**：高钾(691mg/100g),有助钠钾平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **血压调节**：高钾(691mg/100g),有助钠钾平衡",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_pumpkin_seeds_pepitas_raw_🟡_B级**_—_**激素平衡**：含植物雌激素或激素调节营养素",
+    "title": "Seeds, pumpkin seeds (pepitas), raw - 🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+    "content": "[证据B级] ",
+    "tags": [
+      "坚果与种子",
+      "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "food_seeds_pumpkin_and_squash_seed_kernels_dried",
+    "title": "Seeds, pumpkin and squash seed kernels, dried",
+    "content": "分类: 坚果与种子\n每100g营养素: 能量: 2339.0kcal\n活性成分 [优质蛋白质**]: 含量：30.2g/100g — 作用机制：肌肉合成与修复\n活性成分 [膳食纤维**]: 含量：6.0g/100g — 作用机制：促进肠蠕动,调节菌群\n活性成分 [镁**]: 含量：592mg/100g — 作用机制：300+酶促反应辅因子\n[证据A级] 🟢 A级** — **肠道健康**：高纤维(6.0g/100g)促进排便和菌群平衡: \n[证据B级] 🟡 B级** — **补铁**：每100g含铁8.8mg: \n[证据A级] 🟢 A级** — **神经肌肉**：每100g含镁592mg: \n[证据A级] 🟢 A级** — **血压调节**：高钾(809mg/100g),有助钠钾平衡: \n[证据B级] 🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素: \n每日建议摄入: 20-40g/d(约一把)\n注意事项: 过敏者避免",
+    "tags": [
+      "女性激素健康",
+      "坚果与种子"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_pumpkin_and_squash_seed_kernels_dried_🟢_A级**_—_**肠道健康**：高纤维(6.0g/100g)促进排便和菌群平衡",
+    "title": "Seeds, pumpkin and squash seed kernels, dried - 🟢 A级** — **肠道健康**：高纤维(6.0g/100g)促进排便和菌群平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **肠道健康**：高纤维(6.0g/100g)促进排便和菌群平衡",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_pumpkin_and_squash_seed_kernels_dried_🟡_B级**_—_**补铁**：每100g含铁8.8mg",
+    "title": "Seeds, pumpkin and squash seed kernels, dried - 🟡 B级** — **补铁**：每100g含铁8.8mg",
+    "content": "[证据B级] ",
+    "tags": [
+      "坚果与种子",
+      "🟡 B级** — **补铁**：每100g含铁8.8mg",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_pumpkin_and_squash_seed_kernels_dried_🟢_A级**_—_**神经肌肉**：每100g含镁592mg",
+    "title": "Seeds, pumpkin and squash seed kernels, dried - 🟢 A级** — **神经肌肉**：每100g含镁592mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **神经肌肉**：每100g含镁592mg",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_pumpkin_and_squash_seed_kernels_dried_🟢_A级**_—_**血压调节**：高钾(809mg/100g),有助钠钾平衡",
+    "title": "Seeds, pumpkin and squash seed kernels, dried - 🟢 A级** — **血压调节**：高钾(809mg/100g),有助钠钾平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **血压调节**：高钾(809mg/100g),有助钠钾平衡",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_pumpkin_and_squash_seed_kernels_dried_🟡_B级**_—_**激素平衡**：含植物雌激素或激素调节营养素",
+    "title": "Seeds, pumpkin and squash seed kernels, dried - 🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+    "content": "[证据B级] ",
+    "tags": [
+      "坚果与种子",
+      "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "food_seeds_sunflower_seed_kernels_dried",
+    "title": "Seeds, sunflower seed kernels, dried",
+    "content": "分类: 坚果与种子\n每100g营养素: 能量: 2445.0kcal\n活性成分 [优质蛋白质**]: 含量：20.8g/100g — 作用机制：肌肉合成与修复\n活性成分 [膳食纤维**]: 含量：8.6g/100g — 作用机制：促进肠蠕动,调节菌群\n活性成分 [镁**]: 含量：325mg/100g — 作用机制：300+酶促反应辅因子\n[证据A级] 🟢 A级** — **肠道健康**：高纤维(8.6g/100g)促进排便和菌群平衡: \n[证据B级] 🟡 B级** — **补铁**：每100g含铁5.2mg: \n[证据A级] 🟢 A级** — **神经肌肉**：每100g含镁325mg: \n[证据A级] 🟢 A级** — **血压调节**：高钾(645mg/100g),有助钠钾平衡: \n[证据B级] 🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素: \n每日建议摄入: 20-40g/d(约一把)\n注意事项: 过敏者避免",
+    "tags": [
+      "女性激素健康",
+      "坚果与种子"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_sunflower_seed_kernels_dried_🟢_A级**_—_**肠道健康**：高纤维(8.6g/100g)促进排便和菌群平衡",
+    "title": "Seeds, sunflower seed kernels, dried - 🟢 A级** — **肠道健康**：高纤维(8.6g/100g)促进排便和菌群平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **肠道健康**：高纤维(8.6g/100g)促进排便和菌群平衡",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_sunflower_seed_kernels_dried_🟡_B级**_—_**补铁**：每100g含铁5.2mg",
+    "title": "Seeds, sunflower seed kernels, dried - 🟡 B级** — **补铁**：每100g含铁5.2mg",
+    "content": "[证据B级] ",
+    "tags": [
+      "坚果与种子",
+      "🟡 B级** — **补铁**：每100g含铁5.2mg",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_sunflower_seed_kernels_dried_🟢_A级**_—_**神经肌肉**：每100g含镁325mg",
+    "title": "Seeds, sunflower seed kernels, dried - 🟢 A级** — **神经肌肉**：每100g含镁325mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **神经肌肉**：每100g含镁325mg",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_sunflower_seed_kernels_dried_🟢_A级**_—_**血压调节**：高钾(645mg/100g),有助钠钾平衡",
+    "title": "Seeds, sunflower seed kernels, dried - 🟢 A级** — **血压调节**：高钾(645mg/100g),有助钠钾平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **血压调节**：高钾(645mg/100g),有助钠钾平衡",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_sunflower_seed_kernels_dried_🟡_B级**_—_**激素平衡**：含植物雌激素或激素调节营养素",
+    "title": "Seeds, sunflower seed kernels, dried - 🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+    "content": "[证据B级] ",
+    "tags": [
+      "坚果与种子",
+      "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "food_seeds_sunflower_seed_kernel_raw",
+    "title": "Seeds, sunflower seed, kernel, raw",
+    "content": "分类: 坚果与种子\n活性成分 [优质蛋白质**]: 含量：18.9g/100g — 作用机制：肌肉合成与修复\n活性成分 [膳食纤维**]: 含量：7.2g/100g — 作用机制：促进肠蠕动,调节菌群\n活性成分 [镁**]: 含量：302mg/100g — 作用机制：300+酶促反应辅因子\n[证据A级] 🟢 A级** — **肠道健康**：高纤维(7.2g/100g)促进排便和菌群平衡: \n[证据A级] 🟢 A级** — **骨健康**：每100g含钙116mg: \n[证据B级] 🟡 B级** — **补铁**：每100g含铁4.4mg: \n[证据A级] 🟢 A级** — **神经肌肉**：每100g含镁302mg: \n[证据A级] 🟢 A级** — **血压调节**：高钾(657mg/100g),有助钠钾平衡: \n[证据B级] 🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素: \n每日建议摄入: 20-40g/d(约一把)\n注意事项: 过敏者避免",
+    "tags": [
+      "女性激素健康",
+      "坚果与种子"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_sunflower_seed_kernel_raw_🟢_A级**_—_**肠道健康**：高纤维(7.2g/100g)促进排便和菌群平衡",
+    "title": "Seeds, sunflower seed, kernel, raw - 🟢 A级** — **肠道健康**：高纤维(7.2g/100g)促进排便和菌群平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **肠道健康**：高纤维(7.2g/100g)促进排便和菌群平衡",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_sunflower_seed_kernel_raw_🟢_A级**_—_**骨健康**：每100g含钙116mg",
+    "title": "Seeds, sunflower seed, kernel, raw - 🟢 A级** — **骨健康**：每100g含钙116mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **骨健康**：每100g含钙116mg",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_sunflower_seed_kernel_raw_🟡_B级**_—_**补铁**：每100g含铁4.4mg",
+    "title": "Seeds, sunflower seed, kernel, raw - 🟡 B级** — **补铁**：每100g含铁4.4mg",
+    "content": "[证据B级] ",
+    "tags": [
+      "坚果与种子",
+      "🟡 B级** — **补铁**：每100g含铁4.4mg",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_sunflower_seed_kernel_raw_🟢_A级**_—_**神经肌肉**：每100g含镁302mg",
+    "title": "Seeds, sunflower seed, kernel, raw - 🟢 A级** — **神经肌肉**：每100g含镁302mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **神经肌肉**：每100g含镁302mg",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_sunflower_seed_kernel_raw_🟢_A级**_—_**血压调节**：高钾(657mg/100g),有助钠钾平衡",
+    "title": "Seeds, sunflower seed, kernel, raw - 🟢 A级** — **血压调节**：高钾(657mg/100g),有助钠钾平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **血压调节**：高钾(657mg/100g),有助钠钾平衡",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_sunflower_seed_kernel_raw_🟡_B级**_—_**激素平衡**：含植物雌激素或激素调节营养素",
+    "title": "Seeds, sunflower seed, kernel, raw - 🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+    "content": "[证据B级] ",
+    "tags": [
+      "坚果与种子",
+      "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "food_seeds_sesame_seeds_whole_dried",
+    "title": "Seeds, sesame seeds, whole, dried",
+    "content": "分类: 坚果与种子\n每100g营养素: 能量: 2397.0kcal\n活性成分 [优质蛋白质**]: 含量：17.7g/100g — 作用机制：肌肉合成与修复\n活性成分 [膳食纤维**]: 含量：11.8g/100g — 作用机制：促进肠蠕动,调节菌群\n活性成分 [镁**]: 含量：351mg/100g — 作用机制：300+酶促反应辅因子\n[证据A级] 🟢 A级** — **肠道健康**：高纤维(11.8g/100g)促进排便和菌群平衡: \n[证据A级] 🟢 A级** — **骨健康**：每100g含钙975mg: \n[证据B级] 🟡 B级** — **补铁**：每100g含铁14.6mg: \n[证据A级] 🟢 A级** — **神经肌肉**：每100g含镁351mg: \n[证据B级] 🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素: \n每日建议摄入: 20-40g/d(约一把)\n注意事项: 过敏者避免",
+    "tags": [
+      "女性激素健康",
+      "坚果与种子"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_sesame_seeds_whole_dried_🟢_A级**_—_**肠道健康**：高纤维(11.8g/100g)促进排便和菌群平衡",
+    "title": "Seeds, sesame seeds, whole, dried - 🟢 A级** — **肠道健康**：高纤维(11.8g/100g)促进排便和菌群平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **肠道健康**：高纤维(11.8g/100g)促进排便和菌群平衡",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_sesame_seeds_whole_dried_🟢_A级**_—_**骨健康**：每100g含钙975mg",
+    "title": "Seeds, sesame seeds, whole, dried - 🟢 A级** — **骨健康**：每100g含钙975mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **骨健康**：每100g含钙975mg",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_sesame_seeds_whole_dried_🟡_B级**_—_**补铁**：每100g含铁14.6mg",
+    "title": "Seeds, sesame seeds, whole, dried - 🟡 B级** — **补铁**：每100g含铁14.6mg",
+    "content": "[证据B级] ",
+    "tags": [
+      "坚果与种子",
+      "🟡 B级** — **补铁**：每100g含铁14.6mg",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_sesame_seeds_whole_dried_🟢_A级**_—_**神经肌肉**：每100g含镁351mg",
+    "title": "Seeds, sesame seeds, whole, dried - 🟢 A级** — **神经肌肉**：每100g含镁351mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **神经肌肉**：每100g含镁351mg",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_sesame_seeds_whole_dried_🟡_B级**_—_**激素平衡**：含植物雌激素或激素调节营养素",
+    "title": "Seeds, sesame seeds, whole, dried - 🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+    "content": "[证据B级] ",
+    "tags": [
+      "坚果与种子",
+      "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "food_seeds_sesame_seed_kernels_dried_decorticated",
+    "title": "Seeds, sesame seed kernels, dried (decorticated)",
+    "content": "分类: 坚果与种子\n每100g营养素: 能量: 2640.0kcal\n活性成分 [优质蛋白质**]: 含量：20.4g/100g — 作用机制：肌肉合成与修复\n活性成分 [膳食纤维**]: 含量：11.6g/100g — 作用机制：促进肠蠕动,调节菌群\n活性成分 [镁**]: 含量：345mg/100g — 作用机制：300+酶促反应辅因子\n[证据A级] 🟢 A级** — **肠道健康**：高纤维(11.6g/100g)促进排便和菌群平衡: \n[证据B级] 🟡 B级** — **补铁**：每100g含铁6.4mg: \n[证据A级] 🟢 A级** — **神经肌肉**：每100g含镁345mg: \n[证据B级] 🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素: \n每日建议摄入: 20-40g/d(约一把)\n注意事项: 过敏者避免",
+    "tags": [
+      "女性激素健康",
+      "坚果与种子"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_sesame_seed_kernels_dried_decorticated_🟢_A级**_—_**肠道健康**：高纤维(11.6g/100g)促进排便和菌群平衡",
+    "title": "Seeds, sesame seed kernels, dried (decorticated) - 🟢 A级** — **肠道健康**：高纤维(11.6g/100g)促进排便和菌群平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **肠道健康**：高纤维(11.6g/100g)促进排便和菌群平衡",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_sesame_seed_kernels_dried_decorticated_🟡_B级**_—_**补铁**：每100g含铁6.4mg",
+    "title": "Seeds, sesame seed kernels, dried (decorticated) - 🟡 B级** — **补铁**：每100g含铁6.4mg",
+    "content": "[证据B级] ",
+    "tags": [
+      "坚果与种子",
+      "🟡 B级** — **补铁**：每100g含铁6.4mg",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_sesame_seed_kernels_dried_decorticated_🟢_A级**_—_**神经肌肉**：每100g含镁345mg",
+    "title": "Seeds, sesame seed kernels, dried (decorticated) - 🟢 A级** — **神经肌肉**：每100g含镁345mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "坚果与种子",
+      "🟢 A级** — **神经肌肉**：每100g含镁345mg",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "benefit_seeds_sesame_seed_kernels_dried_decorticated_🟡_B级**_—_**激素平衡**：含植物雌激素或激素调节营养素",
+    "title": "Seeds, sesame seed kernels, dried (decorticated) - 🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+    "content": "[证据B级] ",
+    "tags": [
+      "坚果与种子",
+      "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 坚果与种子"
+  },
+  {
+    "id": "food_blueberries_raw",
+    "title": "Blueberries, raw",
+    "content": "分类: 水果与果汁\n每100g营养素: 能量: 240.0kcal\n活性成分 [花青素**]: 含量：每100g约163-387mg — 作用机制：穿过血脑屏障,Nrf2/ARE通路激活\n活性成分 [紫檀芪**]: 含量：白藜芦醇类似物 — 作用机制：生物利用度比白藜芦醇高80%\n活性成分 [槲皮素**]: 含量：每100g约7-10mg — 作用机制：SIRT1激活,AMPK通路\n[证据A级] 🟢 A级** — **认知**：改善老年人记忆和执行功能: \n[证据A级] 🟢 A级** — **抗氧化**：ORAC值4669(水果最高之一): \n[证据B级] 🟡 B级** — **心血管**：降低血压5-8mmHg:  (来源: 参考文献：meta分析)\n[证据B级] 🟡 B级** — **血糖**：改善胰岛素敏感性22%:  (来源: 参考文献：RCT(n=32))\n每日建议摄入: 新鲜蓝莓100-150g/d(约一杯)\n注意事项: 水杨酸敏感者少量尝试; 草酸钙肾结石需限量; 选择有机蓝莓",
+    "tags": [
+      "抗氧化",
+      "水果与果汁"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "benefit_blueberries_raw_🟢_A级**_—_**认知**：改善老年人记忆和执行功能",
+    "title": "Blueberries, raw - 🟢 A级** — **认知**：改善老年人记忆和执行功能",
+    "content": "[证据A级] ",
+    "tags": [
+      "水果与果汁",
+      "🟢 A级** — **认知**：改善老年人记忆和执行功能",
+      "抗氧化"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "benefit_blueberries_raw_🟢_A级**_—_**抗氧化**：ORAC值4669(水果最高之一)",
+    "title": "Blueberries, raw - 🟢 A级** — **抗氧化**：ORAC值4669(水果最高之一)",
+    "content": "[证据A级] ",
+    "tags": [
+      "水果与果汁",
+      "🟢 A级** — **抗氧化**：ORAC值4669(水果最高之一)",
+      "抗氧化"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "benefit_blueberries_raw_🟡_B级**_—_**心血管**：降低血压5-8mmHg",
+    "title": "Blueberries, raw - 🟡 B级** — **心血管**：降低血压5-8mmHg",
+    "content": "[证据B级] \n来源: 参考文献：meta分析",
+    "tags": [
+      "水果与果汁",
+      "🟡 B级** — **心血管**：降低血压5-8mmHg",
+      "抗氧化"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "benefit_blueberries_raw_🟡_B级**_—_**血糖**：改善胰岛素敏感性22%",
+    "title": "Blueberries, raw - 🟡 B级** — **血糖**：改善胰岛素敏感性22%",
+    "content": "[证据B级] \n来源: 参考文献：RCT(n=32)",
+    "tags": [
+      "水果与果汁",
+      "🟡 B级** — **血糖**：改善胰岛素敏感性22%",
+      "抗氧化"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "food_pomegranates_raw",
+    "title": "Pomegranates, raw",
+    "content": "分类: 水果与果汁\n每100g营养素: 能量: 346.0kcal\n[证据B级] 🟡 B级** — **抗炎**：富含抗炎活性成分: \n每日建议摄入: 100-200g/d",
+    "tags": [
+      "抗炎",
+      "水果与果汁"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "benefit_pomegranates_raw_🟡_B级**_—_**抗炎**：富含抗炎活性成分",
+    "title": "Pomegranates, raw - 🟡 B级** — **抗炎**：富含抗炎活性成分",
+    "content": "[证据B级] ",
+    "tags": [
+      "水果与果汁",
+      "🟡 B级** — **抗炎**：富含抗炎活性成分",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "food_pomegranate_juice_bottled",
+    "title": "Pomegranate juice, bottled",
+    "content": "分类: 水果与果汁\n每100g营养素: 能量: 228.0kcal\n[证据B级] 🟡 B级** — **抗炎**：富含抗炎活性成分: \n每日建议摄入: 100-200g/d",
+    "tags": [
+      "抗炎",
+      "水果与果汁"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "benefit_pomegranate_juice_bottled_🟡_B级**_—_**抗炎**：富含抗炎活性成分",
+    "title": "Pomegranate juice, bottled - 🟡 B级** — **抗炎**：富含抗炎活性成分",
+    "content": "[证据B级] ",
+    "tags": [
+      "水果与果汁",
+      "🟡 B级** — **抗炎**：富含抗炎活性成分",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "food_cranberries_raw",
+    "title": "Cranberries, raw",
+    "content": "分类: 水果与果汁\n每100g营养素: 能量: 191.0kcal\n每日建议摄入: 100-200g/d",
+    "tags": [
+      "水果与果汁"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "food_cranberries_dried_sweetened",
+    "title": "Cranberries, dried, sweetened",
+    "content": "分类: 水果与果汁\n每日建议摄入: 100-200g/d",
+    "tags": [
+      "水果与果汁"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "food_blackberries_raw",
+    "title": "Blackberries, raw",
+    "content": "分类: 水果与果汁\n每100g营养素: 能量: 181.0kcal\n活性成分 [膳食纤维**]: 含量：5.3g/100g — 作用机制：促进肠蠕动,调节菌群\n[证据A级] 🟢 A级** — **肠道健康**：高纤维(5.3g/100g)促进排便和菌群平衡: \n[证据B级] 🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激: \n每日建议摄入: 100-200g/d",
+    "tags": [
+      "抗氧化",
+      "水果与果汁"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "benefit_blackberries_raw_🟢_A级**_—_**肠道健康**：高纤维(5.3g/100g)促进排便和菌群平衡",
+    "title": "Blackberries, raw - 🟢 A级** — **肠道健康**：高纤维(5.3g/100g)促进排便和菌群平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "水果与果汁",
+      "🟢 A级** — **肠道健康**：高纤维(5.3g/100g)促进排便和菌群平衡",
+      "抗氧化"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "benefit_blackberries_raw_🟡_B级**_—_**抗氧化**：高ORAC值,减轻氧化应激",
+    "title": "Blackberries, raw - 🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+    "content": "[证据B级] ",
+    "tags": [
+      "水果与果汁",
+      "🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+      "抗氧化"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "food_raspberries_raw",
+    "title": "Raspberries, raw",
+    "content": "分类: 水果与果汁\n每100g营养素: 能量: 220.0kcal\n活性成分 [膳食纤维**]: 含量：6.5g/100g — 作用机制：促进肠蠕动,调节菌群\n[证据A级] 🟢 A级** — **肠道健康**：高纤维(6.5g/100g)促进排便和菌群平衡: \n每日建议摄入: 100-200g/d",
+    "tags": [
+      "水果与果汁"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "benefit_raspberries_raw_🟢_A级**_—_**肠道健康**：高纤维(6.5g/100g)促进排便和菌群平衡",
+    "title": "Raspberries, raw - 🟢 A级** — **肠道健康**：高纤维(6.5g/100g)促进排便和菌群平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "水果与果汁",
+      "🟢 A级** — **肠道健康**：高纤维(6.5g/100g)促进排便和菌群平衡"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "food_strawberries_raw",
+    "title": "Strawberries, raw",
+    "content": "分类: 水果与果汁\n每100g营养素: 能量: 136.0kcal\n[证据A级] 🟢 A级** — **免疫**：每100g含维C59mg: \n每日建议摄入: 100-200g/d",
+    "tags": [
+      "水果与果汁"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "benefit_strawberries_raw_🟢_A级**_—_**免疫**：每100g含维C59mg",
+    "title": "Strawberries, raw - 🟢 A级** — **免疫**：每100g含维C59mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "水果与果汁",
+      "🟢 A级** — **免疫**：每100g含维C59mg"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "food_cherries_sweet_raw",
+    "title": "Cherries, sweet, raw",
+    "content": "分类: 水果与果汁\n每100g营养素: 能量: 263.0kcal\n每日建议摄入: 100-200g/d",
+    "tags": [
+      "水果与果汁"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "food_cherry_juice_tart",
+    "title": "Cherry juice, tart",
+    "content": "分类: 水果与果汁\n每100g营养素: 能量: 248.0kcal\n[证据B级] 🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激: \n每日建议摄入: 100-200g/d",
+    "tags": [
+      "抗氧化",
+      "水果与果汁"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "benefit_cherry_juice_tart_🟡_B级**_—_**抗氧化**：高ORAC值,减轻氧化应激",
+    "title": "Cherry juice, tart - 🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+    "content": "[证据B级] ",
+    "tags": [
+      "水果与果汁",
+      "🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+      "抗氧化"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "food_plums_raw",
+    "title": "Plums, raw",
+    "content": "分类: 水果与果汁\n每100g营养素: 能量: 192.0kcal\n[证据B级] 🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激: \n每日建议摄入: 100-200g/d",
+    "tags": [
+      "抗氧化",
+      "水果与果汁"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "benefit_plums_raw_🟡_B级**_—_**抗氧化**：高ORAC值,减轻氧化应激",
+    "title": "Plums, raw - 🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+    "content": "[证据B级] ",
+    "tags": [
+      "水果与果汁",
+      "🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+      "抗氧化"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "food_carissa_natal-plum_raw",
+    "title": "Carissa, (natal-plum), raw",
+    "content": "分类: 水果与果汁\n每100g营养素: 能量: 259.0kcal\n[证据A级] 🟢 A级** — **免疫**：每100g含维C38mg: \n[证据B级] 🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激: \n每日建议摄入: 100-200g/d",
+    "tags": [
+      "抗氧化",
+      "水果与果汁"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "benefit_carissa_natal-plum_raw_🟢_A级**_—_**免疫**：每100g含维C38mg",
+    "title": "Carissa, (natal-plum), raw - 🟢 A级** — **免疫**：每100g含维C38mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "水果与果汁",
+      "🟢 A级** — **免疫**：每100g含维C38mg",
+      "抗氧化"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "benefit_carissa_natal-plum_raw_🟡_B级**_—_**抗氧化**：高ORAC值,减轻氧化应激",
+    "title": "Carissa, (natal-plum), raw - 🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+    "content": "[证据B级] ",
+    "tags": [
+      "水果与果汁",
+      "🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+      "抗氧化"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "food_avocados_raw_california",
+    "title": "Avocados, raw, California",
+    "content": "分类: 水果与果汁\n每100g营养素: 能量: 697.0kcal\n活性成分 [膳食纤维**]: 含量：6.8g/100g — 作用机制：促进肠蠕动,调节菌群\n[证据A级] 🟢 A级** — **肠道健康**：高纤维(6.8g/100g)促进排便和菌群平衡: \n[证据A级] 🟢 A级** — **血压调节**：高钾(507mg/100g),有助钠钾平衡: \n[证据B级] 🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素: \n每日建议摄入: 100-200g/d",
+    "tags": [
+      "女性激素健康",
+      "水果与果汁"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "benefit_avocados_raw_california_🟢_A级**_—_**肠道健康**：高纤维(6.8g/100g)促进排便和菌群平衡",
+    "title": "Avocados, raw, California - 🟢 A级** — **肠道健康**：高纤维(6.8g/100g)促进排便和菌群平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "水果与果汁",
+      "🟢 A级** — **肠道健康**：高纤维(6.8g/100g)促进排便和菌群平衡",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "benefit_avocados_raw_california_🟢_A级**_—_**血压调节**：高钾(507mg/100g),有助钠钾平衡",
+    "title": "Avocados, raw, California - 🟢 A级** — **血压调节**：高钾(507mg/100g),有助钠钾平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "水果与果汁",
+      "🟢 A级** — **血压调节**：高钾(507mg/100g),有助钠钾平衡",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "benefit_avocados_raw_california_🟡_B级**_—_**激素平衡**：含植物雌激素或激素调节营养素",
+    "title": "Avocados, raw, California - 🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+    "content": "[证据B级] ",
+    "tags": [
+      "水果与果汁",
+      "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "food_bananas_dehydrated_or_banana_powder",
+    "title": "Bananas, dehydrated, or banana powder",
+    "content": "分类: 水果与果汁\n每100g营养素: 能量: 1448.0kcal\n活性成分 [膳食纤维**]: 含量：9.9g/100g — 作用机制：促进肠蠕动,调节菌群\n活性成分 [镁**]: 含量：108mg/100g — 作用机制：300+酶促反应辅因子\n[证据A级] 🟢 A级** — **肠道健康**：高纤维(9.9g/100g)促进排便和菌群平衡: \n[证据A级] 🟢 A级** — **神经肌肉**：每100g含镁108mg: \n[证据A级] 🟢 A级** — **血压调节**：高钾(1491mg/100g),有助钠钾平衡: \n[证据C级] ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素: \n每日建议摄入: 100-200g/d",
+    "tags": [
+      "肠脑轴",
+      "水果与果汁"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "benefit_bananas_dehydrated_or_banana_powder_🟢_A级**_—_**肠道健康**：高纤维(9.9g/100g)促进排便和菌群平衡",
+    "title": "Bananas, dehydrated, or banana powder - 🟢 A级** — **肠道健康**：高纤维(9.9g/100g)促进排便和菌群平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "水果与果汁",
+      "🟢 A级** — **肠道健康**：高纤维(9.9g/100g)促进排便和菌群平衡",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "benefit_bananas_dehydrated_or_banana_powder_🟢_A级**_—_**神经肌肉**：每100g含镁108mg",
+    "title": "Bananas, dehydrated, or banana powder - 🟢 A级** — **神经肌肉**：每100g含镁108mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "水果与果汁",
+      "🟢 A级** — **神经肌肉**：每100g含镁108mg",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "benefit_bananas_dehydrated_or_banana_powder_🟢_A级**_—_**血压调节**：高钾(1491mg/100g),有助钠钾平衡",
+    "title": "Bananas, dehydrated, or banana powder - 🟢 A级** — **血压调节**：高钾(1491mg/100g),有助钠钾平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "水果与果汁",
+      "🟢 A级** — **血压调节**：高钾(1491mg/100g),有助钠钾平衡",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "benefit_bananas_dehydrated_or_banana_powder_⚪_C级**_—_**肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "title": "Bananas, dehydrated, or banana powder - ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "content": "[证据C级] ",
+    "tags": [
+      "水果与果汁",
+      "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "food_bananas_raw",
+    "title": "Bananas, raw",
+    "content": "分类: 水果与果汁\n每100g营养素: 能量: 371.0kcal\n[证据C级] ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素: \n每日建议摄入: 100-200g/d",
+    "tags": [
+      "肠脑轴",
+      "水果与果汁"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "benefit_bananas_raw_⚪_C级**_—_**肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "title": "Bananas, raw - ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "content": "[证据C级] ",
+    "tags": [
+      "水果与果汁",
+      "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 水果与果汁"
+  },
+  {
+    "id": "food_oil_corn_peanut_and_olive",
+    "title": "Oil, corn, peanut, and olive",
+    "content": "分类: 油脂类\n每100g营养素: 能量: 3699.0kcal\n活性成分 [橄榄油刺激醛(Oleocanthal)**]: 含量：EVOO独有 — 作用机制：COX-1/COX-2非选择性抑制(50ml≈10%布洛芬剂量)\n活性成分 [羟基酪醇**]: 含量：多酚类 — 作用机制：超强抗氧化,保护LDL免受氧化\n活性成分 [单不饱和脂肪酸(MUFA)**]: 含量：70-80% — 作用机制：替代饱和脂肪改善血脂\n[证据A级] 🟢 A级** — **心血管**：降低心血管事件30%:  (来源: 参考文献：PREDIMED RCT(n=7447,NEJM 2018))\n[证据A级] 🟢 A级** — **抗炎**：抑制COX通路,长期每天摄入累积效应显著: \n[证据B级] 🟡 B级** — **认知**：EVOO组认知功能优于对照组: \n每日建议摄入: 特级初榨橄榄油30-50ml/d(约2-3汤匙)\n注意事项: 每日>60ml可能增加热量过多; 胆囊切除后大量食用可能腹泻; 市售EVOO掺假率高达70%,选择深色玻璃瓶",
+    "tags": [
+      "抗炎",
+      "油脂类"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 油脂类"
+  },
+  {
+    "id": "benefit_oil_corn_peanut_and_olive_🟢_A级**_—_**心血管**：降低心血管事件30%",
+    "title": "Oil, corn, peanut, and olive - 🟢 A级** — **心血管**：降低心血管事件30%",
+    "content": "[证据A级] \n来源: 参考文献：PREDIMED RCT(n=7447,NEJM 2018)",
+    "tags": [
+      "油脂类",
+      "🟢 A级** — **心血管**：降低心血管事件30%",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 油脂类"
+  },
+  {
+    "id": "benefit_oil_corn_peanut_and_olive_🟢_A级**_—_**抗炎**：抑制COX通路,长期每天摄入累积效应显著",
+    "title": "Oil, corn, peanut, and olive - 🟢 A级** — **抗炎**：抑制COX通路,长期每天摄入累积效应显著",
+    "content": "[证据A级] ",
+    "tags": [
+      "油脂类",
+      "🟢 A级** — **抗炎**：抑制COX通路,长期每天摄入累积效应显著",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 油脂类"
+  },
+  {
+    "id": "benefit_oil_corn_peanut_and_olive_🟡_B级**_—_**认知**：EVOO组认知功能优于对照组",
+    "title": "Oil, corn, peanut, and olive - 🟡 B级** — **认知**：EVOO组认知功能优于对照组",
+    "content": "[证据B级] ",
+    "tags": [
+      "油脂类",
+      "🟡 B级** — **认知**：EVOO组认知功能优于对照组",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 油脂类"
+  },
+  {
+    "id": "food_oil_olive_extra_light",
+    "title": "Oil, olive, extra light",
+    "content": "分类: 油脂类\n活性成分 [橄榄油刺激醛(Oleocanthal)**]: 含量：EVOO独有 — 作用机制：COX-1/COX-2非选择性抑制(50ml≈10%布洛芬剂量)\n活性成分 [羟基酪醇**]: 含量：多酚类 — 作用机制：超强抗氧化,保护LDL免受氧化\n活性成分 [单不饱和脂肪酸(MUFA)**]: 含量：70-80% — 作用机制：替代饱和脂肪改善血脂\n[证据A级] 🟢 A级** — **心血管**：降低心血管事件30%:  (来源: 参考文献：PREDIMED RCT(n=7447,NEJM 2018))\n[证据A级] 🟢 A级** — **抗炎**：抑制COX通路,长期每天摄入累积效应显著: \n[证据B级] 🟡 B级** — **认知**：EVOO组认知功能优于对照组: \n每日建议摄入: 特级初榨橄榄油30-50ml/d(约2-3汤匙)\n注意事项: 每日>60ml可能增加热量过多; 胆囊切除后大量食用可能腹泻; 市售EVOO掺假率高达70%,选择深色玻璃瓶",
+    "tags": [
+      "抗炎",
+      "油脂类"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 油脂类"
+  },
+  {
+    "id": "benefit_oil_olive_extra_light_🟢_A级**_—_**心血管**：降低心血管事件30%",
+    "title": "Oil, olive, extra light - 🟢 A级** — **心血管**：降低心血管事件30%",
+    "content": "[证据A级] \n来源: 参考文献：PREDIMED RCT(n=7447,NEJM 2018)",
+    "tags": [
+      "油脂类",
+      "🟢 A级** — **心血管**：降低心血管事件30%",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 油脂类"
+  },
+  {
+    "id": "benefit_oil_olive_extra_light_🟢_A级**_—_**抗炎**：抑制COX通路,长期每天摄入累积效应显著",
+    "title": "Oil, olive, extra light - 🟢 A级** — **抗炎**：抑制COX通路,长期每天摄入累积效应显著",
+    "content": "[证据A级] ",
+    "tags": [
+      "油脂类",
+      "🟢 A级** — **抗炎**：抑制COX通路,长期每天摄入累积效应显著",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 油脂类"
+  },
+  {
+    "id": "benefit_oil_olive_extra_light_🟡_B级**_—_**认知**：EVOO组认知功能优于对照组",
+    "title": "Oil, olive, extra light - 🟡 B级** — **认知**：EVOO组认知功能优于对照组",
+    "content": "[证据B级] ",
+    "tags": [
+      "油脂类",
+      "🟡 B级** — **认知**：EVOO组认知功能优于对照组",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 油脂类"
+  },
+  {
+    "id": "food_fish_oil_salmon",
+    "title": "Fish oil, salmon",
+    "content": "分类: 油脂类\n每100g营养素: 能量: 3774.0kcal\n活性成分 [EPA**]: 含量：每100g约0.7-1.2g — 作用机制：生成resolvins消退炎症\n活性成分 [DHA**]: 含量：每100g约0.8-1.5g — 作用机制：神经元细胞膜主要结构脂质\n活性成分 [虾青素**]: 含量：野生三文鱼橙红色来源 — 作用机制：比VE强100倍抗氧化,穿过血脑屏障\n活性成分 [维生素D**]: 含量：每100g约10-15μg — 作用机制：少数天然富含VD食物\n[证据A级] 🟢 A级** — **心血管**：降低甘油三酯25-30%:  (来源: 参考文献：GISSI-Prevenzione(n=11324))\n[证据A级] 🟢 A级** — **抗炎**：Resolvins/Protectins主动消退炎症: \n[证据B级] 🟡 B级** — **认知**：每周>1次鱼类降低痴呆风险20-30%: \n[证据A级] 🟢 A级** — **关节**：减轻类风湿关节炎症状: \n每日建议摄入: 每周2-3次,每次100-150g\n注意事项: 痛风急性发作期慎食; 选择野生或有机养殖三文鱼; 三文鱼属低汞安全鱼类; 服用抗凝药者监控",
+    "tags": [
+      "抗炎",
+      "油脂类"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 油脂类"
+  },
+  {
+    "id": "benefit_fish_oil_salmon_🟢_A级**_—_**心血管**：降低甘油三酯25-30%",
+    "title": "Fish oil, salmon - 🟢 A级** — **心血管**：降低甘油三酯25-30%",
+    "content": "[证据A级] \n来源: 参考文献：GISSI-Prevenzione(n=11324)",
+    "tags": [
+      "油脂类",
+      "🟢 A级** — **心血管**：降低甘油三酯25-30%",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 油脂类"
+  },
+  {
+    "id": "benefit_fish_oil_salmon_🟢_A级**_—_**抗炎**：Resolvins/Protectins主动消退炎症",
+    "title": "Fish oil, salmon - 🟢 A级** — **抗炎**：Resolvins/Protectins主动消退炎症",
+    "content": "[证据A级] ",
+    "tags": [
+      "油脂类",
+      "🟢 A级** — **抗炎**：Resolvins/Protectins主动消退炎症",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 油脂类"
+  },
+  {
+    "id": "benefit_fish_oil_salmon_🟡_B级**_—_**认知**：每周>1次鱼类降低痴呆风险20-30%",
+    "title": "Fish oil, salmon - 🟡 B级** — **认知**：每周>1次鱼类降低痴呆风险20-30%",
+    "content": "[证据B级] ",
+    "tags": [
+      "油脂类",
+      "🟡 B级** — **认知**：每周>1次鱼类降低痴呆风险20-30%",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 油脂类"
+  },
+  {
+    "id": "benefit_fish_oil_salmon_🟢_A级**_—_**关节**：减轻类风湿关节炎症状",
+    "title": "Fish oil, salmon - 🟢 A级** — **关节**：减轻类风湿关节炎症状",
+    "content": "[证据A级] ",
+    "tags": [
+      "油脂类",
+      "🟢 A级** — **关节**：减轻类风湿关节炎症状",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 油脂类"
+  },
+  {
+    "id": "food_oil_walnut",
+    "title": "Oil, walnut",
+    "content": "分类: 油脂类\n每100g营养素: 能量: 3699.0kcal\n活性成分 [Omega-3(ALA)**]: 含量：10.4g/100g — 作用机制：抗炎类花生酸前体\n[证据A级] 🟢 A级** — **抗炎**：omega-3含量10.4g/100g: \n[证据B级] 🟡 B级** — **抗炎**：富含抗炎活性成分: ",
+    "tags": [
+      "抗炎",
+      "油脂类"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 油脂类"
+  },
+  {
+    "id": "benefit_oil_walnut_🟢_A级**_—_**抗炎**：omega-3含量10.4g/100g",
+    "title": "Oil, walnut - 🟢 A级** — **抗炎**：omega-3含量10.4g/100g",
+    "content": "[证据A级] ",
+    "tags": [
+      "油脂类",
+      "🟢 A级** — **抗炎**：omega-3含量10.4g/100g",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 油脂类"
+  },
+  {
+    "id": "benefit_oil_walnut_🟡_B级**_—_**抗炎**：富含抗炎活性成分",
+    "title": "Oil, walnut - 🟡 B级** — **抗炎**：富含抗炎活性成分",
+    "content": "[证据B级] ",
+    "tags": [
+      "油脂类",
+      "🟡 B级** — **抗炎**：富含抗炎活性成分",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 油脂类"
+  },
+  {
+    "id": "food_fish_oil_sardine",
+    "title": "Fish oil, sardine",
+    "content": "分类: 油脂类\n每100g营养素: 能量: 3774.0kcal\n活性成分 [Omega-3(ALA)**]: 含量：22.1g/100g — 作用机制：抗炎类花生酸前体\n[证据A级] 🟢 A级** — **抗炎**：omega-3含量22.1g/100g: \n[证据B级] 🟡 B级** — **抗炎**：富含抗炎活性成分: ",
+    "tags": [
+      "抗炎",
+      "油脂类"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 油脂类"
+  },
+  {
+    "id": "benefit_fish_oil_sardine_🟢_A级**_—_**抗炎**：omega-3含量22.1g/100g",
+    "title": "Fish oil, sardine - 🟢 A级** — **抗炎**：omega-3含量22.1g/100g",
+    "content": "[证据A级] ",
+    "tags": [
+      "油脂类",
+      "🟢 A级** — **抗炎**：omega-3含量22.1g/100g",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 油脂类"
+  },
+  {
+    "id": "benefit_fish_oil_sardine_🟡_B级**_—_**抗炎**：富含抗炎活性成分",
+    "title": "Fish oil, sardine - 🟡 B级** — **抗炎**：富含抗炎活性成分",
+    "content": "[证据B级] ",
+    "tags": [
+      "油脂类",
+      "🟡 B级** — **抗炎**：富含抗炎活性成分",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 油脂类"
+  },
+  {
+    "id": "food_oil_avocado",
+    "title": "Oil, avocado",
+    "content": "分类: 油脂类\n每100g营养素: 能量: 3699.0kcal\n活性成分 [Omega-3(ALA)**]: 含量：1.0g/100g — 作用机制：抗炎类花生酸前体\n[证据A级] 🟢 A级** — **抗炎**：omega-3含量1.0g/100g: \n[证据B级] 🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素: ",
+    "tags": [
+      "女性激素健康",
+      "油脂类"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 油脂类"
+  },
+  {
+    "id": "benefit_oil_avocado_🟢_A级**_—_**抗炎**：omega-3含量1.0g/100g",
+    "title": "Oil, avocado - 🟢 A级** — **抗炎**：omega-3含量1.0g/100g",
+    "content": "[证据A级] ",
+    "tags": [
+      "油脂类",
+      "🟢 A级** — **抗炎**：omega-3含量1.0g/100g",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 油脂类"
+  },
+  {
+    "id": "benefit_oil_avocado_🟡_B级**_—_**激素平衡**：含植物雌激素或激素调节营养素",
+    "title": "Oil, avocado - 🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+    "content": "[证据B级] ",
+    "tags": [
+      "油脂类",
+      "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 油脂类"
+  },
+  {
+    "id": "food_croissants_apple",
+    "title": "Croissants, apple",
+    "content": "分类: 烘焙食品\n每100g营养素: 能量: 1063.0kcal",
+    "tags": [
+      "烘焙食品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 烘焙食品"
+  },
+  {
+    "id": "food_strudel_apple",
+    "title": "Strudel, apple",
+    "content": "分类: 烘焙食品\n每100g营养素: 能量: 1146.0kcal",
+    "tags": [
+      "烘焙食品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 烘焙食品"
+  },
+  {
+    "id": "food_bread_oatmeal",
+    "title": "Bread, oatmeal",
+    "content": "分类: 烘焙食品\n每100g营养素: 能量: 1125.0kcal\n[证据C级] ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素: ",
+    "tags": [
+      "肠脑轴",
+      "烘焙食品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 烘焙食品"
+  },
+  {
+    "id": "benefit_bread_oatmeal_⚪_C级**_—_**肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "title": "Bread, oatmeal - ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "content": "[证据C级] ",
+    "tags": [
+      "烘焙食品",
+      "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 烘焙食品"
+  },
+  {
+    "id": "food_bread_oatmeal_toasted",
+    "title": "Bread, oatmeal, toasted",
+    "content": "分类: 烘焙食品\n每100g营养素: 能量: 1222.0kcal\n[证据C级] ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素: ",
+    "tags": [
+      "肠脑轴",
+      "烘焙食品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 烘焙食品"
+  },
+  {
+    "id": "benefit_bread_oatmeal_toasted_⚪_C级**_—_**肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "title": "Bread, oatmeal, toasted - ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "content": "[证据C级] ",
+    "tags": [
+      "烘焙食品",
+      "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 烘焙食品"
+  },
+  {
+    "id": "food_beef_variety_meats_and_by-products_liver_raw",
+    "title": "Beef, variety meats and by-products, liver, raw",
+    "content": "分类: 牛肉制品\n每100g营养素: 能量: 564.0kcal\n活性成分 [优质蛋白质**]: 含量：20.4g/100g — 作用机制：肌肉合成与修复\n[证据B级] 🟡 B级** — **补铁**：每100g含铁4.9mg: \n[证据A级] 🟢 A级** — **综合营养**：全面营养支持: \n每日建议摄入: 50-100g/d",
+    "tags": [
+      "基础营养",
+      "牛肉制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 牛肉制品"
+  },
+  {
+    "id": "benefit_beef_variety_meats_and_by-products_liver_raw_🟡_B级**_—_**补铁**：每100g含铁4.9mg",
+    "title": "Beef, variety meats and by-products, liver, raw - 🟡 B级** — **补铁**：每100g含铁4.9mg",
+    "content": "[证据B级] ",
+    "tags": [
+      "牛肉制品",
+      "🟡 B级** — **补铁**：每100g含铁4.9mg",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 牛肉制品"
+  },
+  {
+    "id": "benefit_beef_variety_meats_and_by-products_liver_raw_🟢_A级**_—_**综合营养**：全面营养支持",
+    "title": "Beef, variety meats and by-products, liver, raw - 🟢 A级** — **综合营养**：全面营养支持",
+    "content": "[证据A级] ",
+    "tags": [
+      "牛肉制品",
+      "🟢 A级** — **综合营养**：全面营养支持",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 牛肉制品"
+  },
+  {
+    "id": "food_beef_variety_meats_and_by-products_liver_cooked_braised",
+    "title": "Beef, variety meats and by-products, liver, cooked, braised",
+    "content": "分类: 牛肉制品\n每100g营养素: 能量: 801.0kcal\n活性成分 [优质蛋白质**]: 含量：29.1g/100g — 作用机制：肌肉合成与修复\n[证据B级] 🟡 B级** — **补铁**：每100g含铁6.5mg: \n[证据A级] 🟢 A级** — **综合营养**：全面营养支持: \n每日建议摄入: 50-100g/d",
+    "tags": [
+      "基础营养",
+      "牛肉制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 牛肉制品"
+  },
+  {
+    "id": "benefit_beef_variety_meats_and_by-products_liver_cooked_braised_🟡_B级**_—_**补铁**：每100g含铁6.5mg",
+    "title": "Beef, variety meats and by-products, liver, cooked, braised - 🟡 B级** — **补铁**：每100g含铁6.5mg",
+    "content": "[证据B级] ",
+    "tags": [
+      "牛肉制品",
+      "🟡 B级** — **补铁**：每100g含铁6.5mg",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 牛肉制品"
+  },
+  {
+    "id": "benefit_beef_variety_meats_and_by-products_liver_cooked_braised_🟢_A级**_—_**综合营养**：全面营养支持",
+    "title": "Beef, variety meats and by-products, liver, cooked, braised - 🟢 A级** — **综合营养**：全面营养支持",
+    "content": "[证据A级] ",
+    "tags": [
+      "牛肉制品",
+      "🟢 A级** — **综合营养**：全面营养支持",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 牛肉制品"
+  },
+  {
+    "id": "food_candies_special_dark_chocolate_bar",
+    "title": "Candies, SPECIAL DARK Chocolate Bar",
+    "content": "分类: 甜食\n每100g营养素: 能量: 2325.0kcal\n活性成分 [膳食纤维**]: 含量：6.5g/100g — 作用机制：促进肠蠕动,调节菌群\n[证据A级] 🟢 A级** — **肠道健康**：高纤维(6.5g/100g)促进排便和菌群平衡: \n[证据A级] 🟢 A级** — **血压调节**：高钾(502mg/100g),有助钠钾平衡: \n[证据B级] 🟡 B级** — **抗炎**：富含抗炎活性成分: \n每日建议摄入: 少量,偶尔享用",
+    "tags": [
+      "抗炎",
+      "甜食"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 甜食"
+  },
+  {
+    "id": "benefit_candies_special_dark_chocolate_bar_🟢_A级**_—_**肠道健康**：高纤维(6.5g/100g)促进排便和菌群平衡",
+    "title": "Candies, SPECIAL DARK Chocolate Bar - 🟢 A级** — **肠道健康**：高纤维(6.5g/100g)促进排便和菌群平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "甜食",
+      "🟢 A级** — **肠道健康**：高纤维(6.5g/100g)促进排便和菌群平衡",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 甜食"
+  },
+  {
+    "id": "benefit_candies_special_dark_chocolate_bar_🟢_A级**_—_**血压调节**：高钾(502mg/100g),有助钠钾平衡",
+    "title": "Candies, SPECIAL DARK Chocolate Bar - 🟢 A级** — **血压调节**：高钾(502mg/100g),有助钠钾平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "甜食",
+      "🟢 A级** — **血压调节**：高钾(502mg/100g),有助钠钾平衡",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 甜食"
+  },
+  {
+    "id": "benefit_candies_special_dark_chocolate_bar_🟡_B级**_—_**抗炎**：富含抗炎活性成分",
+    "title": "Candies, SPECIAL DARK Chocolate Bar - 🟡 B级** — **抗炎**：富含抗炎活性成分",
+    "content": "[证据B级] ",
+    "tags": [
+      "甜食",
+      "🟡 B级** — **抗炎**：富含抗炎活性成分",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 甜食"
+  },
+  {
+    "id": "food_candies_dark_chocolate_coated_coffee_beans",
+    "title": "Candies, dark chocolate coated coffee beans",
+    "content": "分类: 甜食\n每100g营养素: 能量: 2259.0kcal\n活性成分 [膳食纤维**]: 含量：7.5g/100g — 作用机制：促进肠蠕动,调节菌群\n活性成分 [镁**]: 含量：107mg/100g — 作用机制：300+酶促反应辅因子\n[证据A级] 🟢 A级** — **肠道健康**：高纤维(7.5g/100g)促进排便和菌群平衡: \n[证据A级] 🟢 A级** — **神经肌肉**：每100g含镁107mg: \n[证据B级] 🟡 B级** — **抗炎**：富含抗炎活性成分: \n每日建议摄入: 少量,偶尔享用",
+    "tags": [
+      "抗炎",
+      "甜食"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 甜食"
+  },
+  {
+    "id": "benefit_candies_dark_chocolate_coated_coffee_beans_🟢_A级**_—_**肠道健康**：高纤维(7.5g/100g)促进排便和菌群平衡",
+    "title": "Candies, dark chocolate coated coffee beans - 🟢 A级** — **肠道健康**：高纤维(7.5g/100g)促进排便和菌群平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "甜食",
+      "🟢 A级** — **肠道健康**：高纤维(7.5g/100g)促进排便和菌群平衡",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 甜食"
+  },
+  {
+    "id": "benefit_candies_dark_chocolate_coated_coffee_beans_🟢_A级**_—_**神经肌肉**：每100g含镁107mg",
+    "title": "Candies, dark chocolate coated coffee beans - 🟢 A级** — **神经肌肉**：每100g含镁107mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "甜食",
+      "🟢 A级** — **神经肌肉**：每100g含镁107mg",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 甜食"
+  },
+  {
+    "id": "benefit_candies_dark_chocolate_coated_coffee_beans_🟡_B级**_—_**抗炎**：富含抗炎活性成分",
+    "title": "Candies, dark chocolate coated coffee beans - 🟡 B级** — **抗炎**：富含抗炎活性成分",
+    "content": "[证据B级] ",
+    "tags": [
+      "甜食",
+      "🟡 B级** — **抗炎**：富含抗炎活性成分",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 甜食"
+  },
+  {
+    "id": "food_frozen_yogurts_chocolate",
+    "title": "Frozen yogurts, chocolate",
+    "content": "分类: 甜食\n每100g营养素: 能量: 547.0kcal\n[证据B级] 🟡 B级** — **抗炎**：富含抗炎活性成分: \n[证据C级] ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素: \n每日建议摄入: 少量,偶尔享用",
+    "tags": [
+      "抗炎",
+      "肠脑轴",
+      "甜食"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 甜食"
+  },
+  {
+    "id": "benefit_frozen_yogurts_chocolate_🟡_B级**_—_**抗炎**：富含抗炎活性成分",
+    "title": "Frozen yogurts, chocolate - 🟡 B级** — **抗炎**：富含抗炎活性成分",
+    "content": "[证据B级] ",
+    "tags": [
+      "甜食",
+      "🟡 B级** — **抗炎**：富含抗炎活性成分",
+      "抗炎",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 甜食"
+  },
+  {
+    "id": "benefit_frozen_yogurts_chocolate_⚪_C级**_—_**肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "title": "Frozen yogurts, chocolate - ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "content": "[证据C级] ",
+    "tags": [
+      "甜食",
+      "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+      "抗炎",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 甜食"
+  },
+  {
+    "id": "food_emu_oyster_raw",
+    "title": "Emu, oyster, raw",
+    "content": "分类: 禽肉\n每100g营养素: 能量: 591.0kcal\n活性成分 [优质蛋白质**]: 含量：22.8g/100g — 作用机制：肌肉合成与修复\n[证据B级] 🟡 B级** — **补铁**：每100g含铁5.5mg: \n[证据B级] 🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素: \n每日建议摄入: 50-100g/d",
+    "tags": [
+      "女性激素健康",
+      "禽肉"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 禽肉"
+  },
+  {
+    "id": "benefit_emu_oyster_raw_🟡_B级**_—_**补铁**：每100g含铁5.5mg",
+    "title": "Emu, oyster, raw - 🟡 B级** — **补铁**：每100g含铁5.5mg",
+    "content": "[证据B级] ",
+    "tags": [
+      "禽肉",
+      "🟡 B级** — **补铁**：每100g含铁5.5mg",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 禽肉"
+  },
+  {
+    "id": "benefit_emu_oyster_raw_🟡_B级**_—_**激素平衡**：含植物雌激素或激素调节营养素",
+    "title": "Emu, oyster, raw - 🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+    "content": "[证据B级] ",
+    "tags": [
+      "禽肉",
+      "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 禽肉"
+  },
+  {
+    "id": "food_chicken_breast_tenders_breaded_uncooked",
+    "title": "Chicken breast tenders, breaded, uncooked",
+    "content": "分类: 禽肉\n每100g营养素: 能量: 1101.0kcal\n[证据A级] 🟢 A级** — **综合营养**：全面营养支持: \n每日建议摄入: 50-100g/d",
+    "tags": [
+      "基础营养",
+      "禽肉"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 禽肉"
+  },
+  {
+    "id": "benefit_chicken_breast_tenders_breaded_uncooked_🟢_A级**_—_**综合营养**：全面营养支持",
+    "title": "Chicken breast tenders, breaded, uncooked - 🟢 A级** — **综合营养**：全面营养支持",
+    "content": "[证据A级] ",
+    "tags": [
+      "禽肉",
+      "🟢 A级** — **综合营养**：全面营养支持",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 禽肉"
+  },
+  {
+    "id": "food_ginger_root_raw",
+    "title": "Ginger root, raw",
+    "content": "分类: 蔬菜与蔬菜制品\n每100g营养素: 能量: 333.0kcal\n活性成分 [6-姜辣素**]: 含量：鲜姜主要活性物 — 作用机制：COX-2抑制,TRPV1激活,5-HT3拮抗(止吐)\n活性成分 [6-姜烯酚**]: 含量：干姜/加热后升高 — 作用机制：比6-gingerol抗炎活性更强\n活性成分 [姜烯**]: 含量：挥发油30-40% — 作用机制：抗氧化、抗微生物\n[证据A级] 🟢 A级** — **抗炎镇痛**：减轻运动后肌肉酸痛25%: \n[证据A级] 🟢 A级** — **消化**：加速胃排空50%: \n[证据A级] 🟢 A级** — **止吐**：妊娠恶心效果与VB6相当:  (来源: 参考文献：Cochrane系统评价)\n[证据B级] 🟡 B级** — **代谢**：降低空腹血糖和HbA1c:  (来源: 参考文献：2022 meta分析)\n每日建议摄入: 鲜姜10-30g/d,干姜粉2-4g/d,提取物500-2000mg/d\n注意事项: 胃溃疡活动期慎用; 胆结石大量服用可能诱发绞痛; 服用抗凝药者监测凝血; 孕期止吐:<1g干姜/d安全",
+    "tags": [
+      "抗炎",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_ginger_root_raw_🟢_A级**_—_**抗炎镇痛**：减轻运动后肌肉酸痛25%",
+    "title": "Ginger root, raw - 🟢 A级** — **抗炎镇痛**：减轻运动后肌肉酸痛25%",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **抗炎镇痛**：减轻运动后肌肉酸痛25%",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_ginger_root_raw_🟢_A级**_—_**消化**：加速胃排空50%",
+    "title": "Ginger root, raw - 🟢 A级** — **消化**：加速胃排空50%",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **消化**：加速胃排空50%",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_ginger_root_raw_🟢_A级**_—_**止吐**：妊娠恶心效果与VB6相当",
+    "title": "Ginger root, raw - 🟢 A级** — **止吐**：妊娠恶心效果与VB6相当",
+    "content": "[证据A级] \n来源: 参考文献：Cochrane系统评价",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **止吐**：妊娠恶心效果与VB6相当",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_ginger_root_raw_🟡_B级**_—_**代谢**：降低空腹血糖和HbA1c",
+    "title": "Ginger root, raw - 🟡 B级** — **代谢**：降低空腹血糖和HbA1c",
+    "content": "[证据B级] \n来源: 参考文献：2022 meta分析",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟡 B级** — **代谢**：降低空腹血糖和HbA1c",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_kale_raw",
+    "title": "Kale, raw",
+    "content": "分类: 蔬菜与蔬菜制品\n每100g营养素: 能量: 148.0kcal\n[证据A级] 🟢 A级** — **骨健康**：每100g含钙254mg: \n[证据A级] 🟢 A级** — **免疫**：每100g含维C93mg: \n[证据B级] 🟡 B级** — **抗炎**：富含抗炎活性成分: \n每日建议摄入: 100-300g/d",
+    "tags": [
+      "抗炎",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_kale_raw_🟢_A级**_—_**骨健康**：每100g含钙254mg",
+    "title": "Kale, raw - 🟢 A级** — **骨健康**：每100g含钙254mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **骨健康**：每100g含钙254mg",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_kale_raw_🟢_A级**_—_**免疫**：每100g含维C93mg",
+    "title": "Kale, raw - 🟢 A级** — **免疫**：每100g含维C93mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **免疫**：每100g含维C93mg",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_kale_raw_🟡_B级**_—_**抗炎**：富含抗炎活性成分",
+    "title": "Kale, raw - 🟡 B级** — **抗炎**：富含抗炎活性成分",
+    "content": "[证据B级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟡 B级** — **抗炎**：富含抗炎活性成分",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_jerusalem-artichokes_raw",
+    "title": "Jerusalem-artichokes, raw",
+    "content": "分类: 蔬菜与蔬菜制品\n每100g营养素: 能量: 304.0kcal\n[证据B级] 🟡 B级** — **补铁**：每100g含铁3.4mg: \n[证据B级] 🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激: \n每日建议摄入: 100-300g/d",
+    "tags": [
+      "抗氧化",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_jerusalem-artichokes_raw_🟡_B级**_—_**补铁**：每100g含铁3.4mg",
+    "title": "Jerusalem-artichokes, raw - 🟡 B级** — **补铁**：每100g含铁3.4mg",
+    "content": "[证据B级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟡 B级** — **补铁**：每100g含铁3.4mg",
+      "抗氧化"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_jerusalem-artichokes_raw_🟡_B级**_—_**抗氧化**：高ORAC值,减轻氧化应激",
+    "title": "Jerusalem-artichokes, raw - 🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+    "content": "[证据B级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+      "抗氧化"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_artichokes_globe_or_french_raw",
+    "title": "Artichokes, (globe or french), raw",
+    "content": "分类: 蔬菜与蔬菜制品\n每100g营养素: 能量: 197.0kcal\n活性成分 [膳食纤维**]: 含量：5.4g/100g — 作用机制：促进肠蠕动,调节菌群\n活性成分 [镁**]: 含量：60mg/100g — 作用机制：300+酶促反应辅因子\n[证据A级] 🟢 A级** — **肠道健康**：高纤维(5.4g/100g)促进排便和菌群平衡: \n[证据A级] 🟢 A级** — **神经肌肉**：每100g含镁60mg: \n[证据B级] 🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激: \n每日建议摄入: 100-300g/d",
+    "tags": [
+      "抗氧化",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_artichokes_globe_or_french_raw_🟢_A级**_—_**肠道健康**：高纤维(5.4g/100g)促进排便和菌群平衡",
+    "title": "Artichokes, (globe or french), raw - 🟢 A级** — **肠道健康**：高纤维(5.4g/100g)促进排便和菌群平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **肠道健康**：高纤维(5.4g/100g)促进排便和菌群平衡",
+      "抗氧化"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_artichokes_globe_or_french_raw_🟢_A级**_—_**神经肌肉**：每100g含镁60mg",
+    "title": "Artichokes, (globe or french), raw - 🟢 A级** — **神经肌肉**：每100g含镁60mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **神经肌肉**：每100g含镁60mg",
+      "抗氧化"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_artichokes_globe_or_french_raw_🟡_B级**_—_**抗氧化**：高ORAC值,减轻氧化应激",
+    "title": "Artichokes, (globe or french), raw - 🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+    "content": "[证据B级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+      "抗氧化"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_beans_kidney_mature_seeds_sprouted_raw",
+    "title": "Beans, kidney, mature seeds, sprouted, raw",
+    "content": "分类: 蔬菜与蔬菜制品\n每100g营养素: 能量: 121.0kcal\n[证据A级] 🟢 A级** — **免疫**：每100g含维C39mg: \n每日建议摄入: 100-300g/d",
+    "tags": [
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_beans_kidney_mature_seeds_sprouted_raw_🟢_A级**_—_**免疫**：每100g含维C39mg",
+    "title": "Beans, kidney, mature seeds, sprouted, raw - 🟢 A级** — **免疫**：每100g含维C39mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **免疫**：每100g含维C39mg"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_broccoli_raw",
+    "title": "Broccoli, raw",
+    "content": "分类: 蔬菜与蔬菜制品\n每100g营养素: 能量: 141.0kcal\n活性成分 [萝卜硫素**]: 含量：前体glucoraphanin — 作用机制：最强Nrf2激活剂之一;抑制HDAC\n活性成分 [吲哚-3-甲醇(I3C)**]: 含量：glucobrassicin水解物 — 作用机制：→DIM,调节雌激素代谢\n活性成分 [维生素K**]: 含量：约101μg/100g(126%DV) — 作用机制：骨钙素活化必需\n[证据B级] 🟡 B级** — **激素代谢**：DIM促进雌激素保护性代谢: \n[证据B级] 🟡 B级** — **抗癌**：萝卜硫素与多种癌症风险降低关联: \n[证据A级] 🟢 A级** — **解毒/肝脏**：Nrf2激活上调谷胱甘肽: \n[证据B级] 🟡 B级** — **骨健康**：VK+钙协同维持骨密度: \n每日建议摄入: 鲜西兰花150-250g/d,西兰花芽萝卜硫素是成熟20-50倍\n注意事项: 甲减者勿大量生食(硫氰酸盐); 华法令患者保持VK摄入稳定; IBS可能产气——从少量开始",
+    "tags": [
+      "女性激素健康",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_broccoli_raw_🟡_B级**_—_**激素代谢**：DIM促进雌激素保护性代谢",
+    "title": "Broccoli, raw - 🟡 B级** — **激素代谢**：DIM促进雌激素保护性代谢",
+    "content": "[证据B级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟡 B级** — **激素代谢**：DIM促进雌激素保护性代谢",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_broccoli_raw_🟡_B级**_—_**抗癌**：萝卜硫素与多种癌症风险降低关联",
+    "title": "Broccoli, raw - 🟡 B级** — **抗癌**：萝卜硫素与多种癌症风险降低关联",
+    "content": "[证据B级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟡 B级** — **抗癌**：萝卜硫素与多种癌症风险降低关联",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_broccoli_raw_🟢_A级**_—_**解毒/肝脏**：Nrf2激活上调谷胱甘肽",
+    "title": "Broccoli, raw - 🟢 A级** — **解毒/肝脏**：Nrf2激活上调谷胱甘肽",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **解毒/肝脏**：Nrf2激活上调谷胱甘肽",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_broccoli_raw_🟡_B级**_—_**骨健康**：VK+钙协同维持骨密度",
+    "title": "Broccoli, raw - 🟡 B级** — **骨健康**：VK+钙协同维持骨密度",
+    "content": "[证据B级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟡 B级** — **骨健康**：VK+钙协同维持骨密度",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_edamame_frozen_prepared",
+    "title": "Edamame, frozen, prepared",
+    "content": "分类: 蔬菜与蔬菜制品\n每100g营养素: 能量: 507.0kcal\n活性成分 [大豆异黄酮**]: 含量：每100g约100-300mg — 作用机制：SERM:竞争性结合ERβ,组织特异性效应\n活性成分 [大豆蛋白**]: 含量：唯一植物完全蛋白质 — 作用机制：增LDL受体表达降胆固醇\n[证据A级] 🟢 A级** — **更年期**：异黄酮50-100mg/d减少潮热40-50%:  (来源: 参考文献：北美更年期学会2022)\n[证据B级] 🟡 B级** — **骨健康**：异黄酮+大豆蛋白维持骨密度: \n[证据A级] 🟢 A级** — **心血管**：大豆蛋白25g/d降LDL-C 3-5%:  (来源: 参考文献：FDA健康声明)\n[证据B级] 🟡 B级** — **乳腺**：青春期开始食用大豆降低乳腺癌风险:  (来源: 参考文献：上海乳腺癌生存研究(n=5042))\n每日建议摄入: 传统大豆食品(豆腐/毛豆/味噌)50-100g/d\n注意事项: 甲减者:与左甲状腺素间隔>4h; 乳腺癌ER+:食物安全,但避免浓缩异黄酮补充剂; 发酵豆制品嘌呤更高",
+    "tags": [
+      "女性激素健康",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_edamame_frozen_prepared_🟢_A级**_—_**更年期**：异黄酮50-100mg/d减少潮热40-50%",
+    "title": "Edamame, frozen, prepared - 🟢 A级** — **更年期**：异黄酮50-100mg/d减少潮热40-50%",
+    "content": "[证据A级] \n来源: 参考文献：北美更年期学会2022",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **更年期**：异黄酮50-100mg/d减少潮热40-50%",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_edamame_frozen_prepared_🟡_B级**_—_**骨健康**：异黄酮+大豆蛋白维持骨密度",
+    "title": "Edamame, frozen, prepared - 🟡 B级** — **骨健康**：异黄酮+大豆蛋白维持骨密度",
+    "content": "[证据B级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟡 B级** — **骨健康**：异黄酮+大豆蛋白维持骨密度",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_edamame_frozen_prepared_🟢_A级**_—_**心血管**：大豆蛋白25g/d降LDL-C_3-5%",
+    "title": "Edamame, frozen, prepared - 🟢 A级** — **心血管**：大豆蛋白25g/d降LDL-C 3-5%",
+    "content": "[证据A级] \n来源: 参考文献：FDA健康声明",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **心血管**：大豆蛋白25g/d降LDL-C 3-5%",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_edamame_frozen_prepared_🟡_B级**_—_**乳腺**：青春期开始食用大豆降低乳腺癌风险",
+    "title": "Edamame, frozen, prepared - 🟡 B级** — **乳腺**：青春期开始食用大豆降低乳腺癌风险",
+    "content": "[证据B级] \n来源: 参考文献：上海乳腺癌生存研究(n=5042)",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟡 B级** — **乳腺**：青春期开始食用大豆降低乳腺癌风险",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_mushroom_oyster",
+    "title": "Mushroom, oyster",
+    "content": "分类: 蔬菜与蔬菜制品\n[证据B级] 🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素: \n[证据A级] 🟢 A级** — **综合营养**：全面营养支持: \n每日建议摄入: 100-300g/d",
+    "tags": [
+      "女性激素健康",
+      "基础营养",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_mushroom_oyster_🟡_B级**_—_**激素平衡**：含植物雌激素或激素调节营养素",
+    "title": "Mushroom, oyster - 🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+    "content": "[证据B级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+      "女性激素健康",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_mushroom_oyster_🟢_A级**_—_**综合营养**：全面营养支持",
+    "title": "Mushroom, oyster - 🟢 A级** — **综合营养**：全面营养支持",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **综合营养**：全面营养支持",
+      "女性激素健康",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_seaweed_agar_dried",
+    "title": "Seaweed, agar, dried",
+    "content": "分类: 蔬菜与蔬菜制品\n每100g营养素: 能量: 1282.0kcal\n活性成分 [膳食纤维**]: 含量：7.7g/100g — 作用机制：促进肠蠕动,调节菌群\n活性成分 [镁**]: 含量：770mg/100g — 作用机制：300+酶促反应辅因子\n[证据A级] 🟢 A级** — **肠道健康**：高纤维(7.7g/100g)促进排便和菌群平衡: \n[证据A级] 🟢 A级** — **骨健康**：每100g含钙625mg: \n[证据B级] 🟡 B级** — **补铁**：每100g含铁21.4mg: \n[证据A级] 🟢 A级** — **神经肌肉**：每100g含镁770mg: \n[证据A级] 🟢 A级** — **血压调节**：高钾(1125mg/100g),有助钠钾平衡: \n[证据B级] 🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素: \n每日建议摄入: 100-300g/d",
+    "tags": [
+      "女性激素健康",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_seaweed_agar_dried_🟢_A级**_—_**肠道健康**：高纤维(7.7g/100g)促进排便和菌群平衡",
+    "title": "Seaweed, agar, dried - 🟢 A级** — **肠道健康**：高纤维(7.7g/100g)促进排便和菌群平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **肠道健康**：高纤维(7.7g/100g)促进排便和菌群平衡",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_seaweed_agar_dried_🟢_A级**_—_**骨健康**：每100g含钙625mg",
+    "title": "Seaweed, agar, dried - 🟢 A级** — **骨健康**：每100g含钙625mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **骨健康**：每100g含钙625mg",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_seaweed_agar_dried_🟡_B级**_—_**补铁**：每100g含铁21.4mg",
+    "title": "Seaweed, agar, dried - 🟡 B级** — **补铁**：每100g含铁21.4mg",
+    "content": "[证据B级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟡 B级** — **补铁**：每100g含铁21.4mg",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_seaweed_agar_dried_🟢_A级**_—_**神经肌肉**：每100g含镁770mg",
+    "title": "Seaweed, agar, dried - 🟢 A级** — **神经肌肉**：每100g含镁770mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **神经肌肉**：每100g含镁770mg",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_seaweed_agar_dried_🟢_A级**_—_**血压调节**：高钾(1125mg/100g),有助钠钾平衡",
+    "title": "Seaweed, agar, dried - 🟢 A级** — **血压调节**：高钾(1125mg/100g),有助钠钾平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **血压调节**：高钾(1125mg/100g),有助钠钾平衡",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_seaweed_agar_dried_🟡_B级**_—_**激素平衡**：含植物雌激素或激素调节营养素",
+    "title": "Seaweed, agar, dried - 🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+    "content": "[证据B级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_seaweed_agar_raw",
+    "title": "Seaweed, agar, raw",
+    "content": "分类: 蔬菜与蔬菜制品\n每100g营养素: 能量: 109.0kcal\n活性成分 [镁**]: 含量：67mg/100g — 作用机制：300+酶促反应辅因子\n[证据A级] 🟢 A级** — **神经肌肉**：每100g含镁67mg: \n[证据B级] 🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素: \n每日建议摄入: 100-300g/d",
+    "tags": [
+      "女性激素健康",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_seaweed_agar_raw_🟢_A级**_—_**神经肌肉**：每100g含镁67mg",
+    "title": "Seaweed, agar, raw - 🟢 A级** — **神经肌肉**：每100g含镁67mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **神经肌肉**：每100g含镁67mg",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_seaweed_agar_raw_🟡_B级**_—_**激素平衡**：含植物雌激素或激素调节营养素",
+    "title": "Seaweed, agar, raw - 🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+    "content": "[证据B级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_cabbage_kimchi",
+    "title": "Cabbage, kimchi",
+    "content": "分类: 蔬菜与蔬菜制品\n每100g营养素: 能量: 65.0kcal\n活性成分 [乳酸菌**]: 含量：10^8-10^9 CFU/g — 作用机制：竞争排除病原菌;产生SCFA;修复肠漏\n活性成分 [辣椒素**]: 含量：辣白菜品种 — 作用机制：TRPV1→内啡肽→情绪改善\n[证据B级] 🟡 B级** — **肠道菌群**：增加Lactobacillus和Bifidobacterium丰度: \n[证据B级] 🟡 B级** — **代谢**：12周食用降低空腹血糖和HOMA-IR:  (来源: 参考文献：RCT(n=21 prediabetes))\n[证据C级] ⚪ C级** — **免疫**：调节GALT,sIgA增加: \n每日建议摄入: 100-150g/d\n注意事项: 高钠版:高血压/肾病选低钠泡菜; IBS/SIBO从少量开始; 自制需充分发酵>7天; 孕期选择充分发酵或消毒处理",
+    "tags": [
+      "肠脑轴",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_cabbage_kimchi_🟡_B级**_—_**肠道菌群**：增加Lactobacillus和Bifidobacterium丰",
+    "title": "Cabbage, kimchi - 🟡 B级** — **肠道菌群**：增加Lactobacillus和Bifidobacterium丰度",
+    "content": "[证据B级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟡 B级** — **肠道菌群**：增加Lactobacillus和Bifidobacterium丰度",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_cabbage_kimchi_🟡_B级**_—_**代谢**：12周食用降低空腹血糖和HOMA-IR",
+    "title": "Cabbage, kimchi - 🟡 B级** — **代谢**：12周食用降低空腹血糖和HOMA-IR",
+    "content": "[证据B级] \n来源: 参考文献：RCT(n=21 prediabetes)",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟡 B级** — **代谢**：12周食用降低空腹血糖和HOMA-IR",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_cabbage_kimchi_⚪_C级**_—_**免疫**：调节GALT,sIgA增加",
+    "title": "Cabbage, kimchi - ⚪ C级** — **免疫**：调节GALT,sIgA增加",
+    "content": "[证据C级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "⚪ C级** — **免疫**：调节GALT,sIgA增加",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_asparagus_raw",
+    "title": "Asparagus, raw",
+    "content": "分类: 蔬菜与蔬菜制品\n每100g营养素: 能量: 85.0kcal\n[证据C级] ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素: \n每日建议摄入: 100-300g/d",
+    "tags": [
+      "肠脑轴",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_asparagus_raw_⚪_C级**_—_**肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "title": "Asparagus, raw - ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "content": "[证据C级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_asparagus_frozen_unprepared",
+    "title": "Asparagus, frozen, unprepared",
+    "content": "分类: 蔬菜与蔬菜制品\n每100g营养素: 能量: 100.0kcal\n[证据A级] 🟢 A级** — **免疫**：每100g含维C32mg: \n[证据C级] ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素: \n每日建议摄入: 100-300g/d",
+    "tags": [
+      "肠脑轴",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_asparagus_frozen_unprepared_🟢_A级**_—_**免疫**：每100g含维C32mg",
+    "title": "Asparagus, frozen, unprepared - 🟢 A级** — **免疫**：每100g含维C32mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **免疫**：每100g含维C32mg",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_asparagus_frozen_unprepared_⚪_C级**_—_**肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "title": "Asparagus, frozen, unprepared - ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "content": "[证据C级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_garlic_raw",
+    "title": "Garlic, raw",
+    "content": "分类: 蔬菜与蔬菜制品\n每100g营养素: 能量: 623.0kcal\n[证据A级] 🟢 A级** — **骨健康**：每100g含钙181mg: \n[证据A级] 🟢 A级** — **免疫**：每100g含维C31mg: \n[证据C级] ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素: \n每日建议摄入: 100-300g/d",
+    "tags": [
+      "肠脑轴",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_garlic_raw_🟢_A级**_—_**骨健康**：每100g含钙181mg",
+    "title": "Garlic, raw - 🟢 A级** — **骨健康**：每100g含钙181mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **骨健康**：每100g含钙181mg",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_garlic_raw_🟢_A级**_—_**免疫**：每100g含维C31mg",
+    "title": "Garlic, raw - 🟢 A级** — **免疫**：每100g含维C31mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **免疫**：每100g含维C31mg",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_garlic_raw_⚪_C级**_—_**肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "title": "Garlic, raw - ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "content": "[证据C级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_onions_raw",
+    "title": "Onions, raw",
+    "content": "分类: 蔬菜与蔬菜制品\n每100g营养素: 能量: 166.0kcal\n[证据C级] ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素: \n每日建议摄入: 100-300g/d",
+    "tags": [
+      "肠脑轴",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_onions_raw_⚪_C级**_—_**肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "title": "Onions, raw - ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "content": "[证据C级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_sauerkraut_canned_solids_and_liquids",
+    "title": "Sauerkraut, canned, solids and liquids",
+    "content": "分类: 蔬菜与蔬菜制品\n每100g营养素: 能量: 78.0kcal\n[证据C级] ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素: \n每日建议摄入: 100-300g/d",
+    "tags": [
+      "肠脑轴",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_sauerkraut_canned_solids_and_liquids_⚪_C级**_—_**肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "title": "Sauerkraut, canned, solids and liquids - ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "content": "[证据C级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_leeks_bulb_and_lower_leaf-portion_raw",
+    "title": "Leeks, (bulb and lower leaf-portion), raw",
+    "content": "分类: 蔬菜与蔬菜制品\n每100g营养素: 能量: 255.0kcal\n[证据C级] ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素: \n每日建议摄入: 100-300g/d",
+    "tags": [
+      "肠脑轴",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_leeks_bulb_and_lower_leaf-portion_raw_⚪_C级**_—_**肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "title": "Leeks, (bulb and lower leaf-portion), raw - ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "content": "[证据C级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_leeks_bulb_and_greens_root_removed_raw",
+    "title": "Leeks, bulb and greens, root removed, raw",
+    "content": "分类: 蔬菜与蔬菜制品\n[证据C级] ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素: \n每日建议摄入: 100-300g/d",
+    "tags": [
+      "肠脑轴",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_leeks_bulb_and_greens_root_removed_raw_⚪_C级**_—_**肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "title": "Leeks, bulb and greens, root removed, raw - ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "content": "[证据C级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_spinach_souffle",
+    "title": "Spinach souffle",
+    "content": "分类: 蔬菜与蔬菜制品\n每100g营养素: 能量: 719.0kcal\n[证据A级] 🟢 A级** — **骨健康**：每100g含钙165mg: \n[证据A级] 🟢 A级** — **综合营养**：全面营养支持: \n每日建议摄入: 100-300g/d",
+    "tags": [
+      "基础营养",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_spinach_souffle_🟢_A级**_—_**骨健康**：每100g含钙165mg",
+    "title": "Spinach souffle - 🟢 A级** — **骨健康**：每100g含钙165mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **骨健康**：每100g含钙165mg",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_spinach_souffle_🟢_A级**_—_**综合营养**：全面营养支持",
+    "title": "Spinach souffle - 🟢 A级** — **综合营养**：全面营养支持",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **综合营养**：全面营养支持",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_spinach_baby",
+    "title": "Spinach, baby",
+    "content": "分类: 蔬菜与蔬菜制品\n活性成分 [镁**]: 含量：93mg/100g — 作用机制：300+酶促反应辅因子\n[证据A级] 🟢 A级** — **神经肌肉**：每100g含镁93mg: \n[证据A级] 🟢 A级** — **血压调节**：高钾(582mg/100g),有助钠钾平衡: \n[证据A级] 🟢 A级** — **综合营养**：全面营养支持: \n每日建议摄入: 100-300g/d",
+    "tags": [
+      "基础营养",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_spinach_baby_🟢_A级**_—_**神经肌肉**：每100g含镁93mg",
+    "title": "Spinach, baby - 🟢 A级** — **神经肌肉**：每100g含镁93mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **神经肌肉**：每100g含镁93mg",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_spinach_baby_🟢_A级**_—_**血压调节**：高钾(582mg/100g),有助钠钾平衡",
+    "title": "Spinach, baby - 🟢 A级** — **血压调节**：高钾(582mg/100g),有助钠钾平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **血压调节**：高钾(582mg/100g),有助钠钾平衡",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_spinach_baby_🟢_A级**_—_**综合营养**：全面营养支持",
+    "title": "Spinach, baby - 🟢 A级** — **综合营养**：全面营养支持",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **综合营养**：全面营养支持",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_carrot_dehydrated",
+    "title": "Carrot, dehydrated",
+    "content": "分类: 蔬菜与蔬菜制品\n每100g营养素: 能量: 1427.0kcal\n活性成分 [膳食纤维**]: 含量：23.6g/100g — 作用机制：促进肠蠕动,调节菌群\n活性成分 [镁**]: 含量：118mg/100g — 作用机制：300+酶促反应辅因子\n[证据A级] 🟢 A级** — **肠道健康**：高纤维(23.6g/100g)促进排便和菌群平衡: \n[证据A级] 🟢 A级** — **骨健康**：每100g含钙212mg: \n[证据B级] 🟡 B级** — **补铁**：每100g含铁3.9mg: \n[证据A级] 🟢 A级** — **神经肌肉**：每100g含镁118mg: \n[证据A级] 🟢 A级** — **血压调节**：高钾(2540mg/100g),有助钠钾平衡: \n[证据A级] 🟢 A级** — **综合营养**：全面营养支持: \n每日建议摄入: 100-300g/d",
+    "tags": [
+      "基础营养",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_carrot_dehydrated_🟢_A级**_—_**肠道健康**：高纤维(23.6g/100g)促进排便和菌群平衡",
+    "title": "Carrot, dehydrated - 🟢 A级** — **肠道健康**：高纤维(23.6g/100g)促进排便和菌群平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **肠道健康**：高纤维(23.6g/100g)促进排便和菌群平衡",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_carrot_dehydrated_🟢_A级**_—_**骨健康**：每100g含钙212mg",
+    "title": "Carrot, dehydrated - 🟢 A级** — **骨健康**：每100g含钙212mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **骨健康**：每100g含钙212mg",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_carrot_dehydrated_🟡_B级**_—_**补铁**：每100g含铁3.9mg",
+    "title": "Carrot, dehydrated - 🟡 B级** — **补铁**：每100g含铁3.9mg",
+    "content": "[证据B级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟡 B级** — **补铁**：每100g含铁3.9mg",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_carrot_dehydrated_🟢_A级**_—_**神经肌肉**：每100g含镁118mg",
+    "title": "Carrot, dehydrated - 🟢 A级** — **神经肌肉**：每100g含镁118mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **神经肌肉**：每100g含镁118mg",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_carrot_dehydrated_🟢_A级**_—_**血压调节**：高钾(2540mg/100g),有助钠钾平衡",
+    "title": "Carrot, dehydrated - 🟢 A级** — **血压调节**：高钾(2540mg/100g),有助钠钾平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **血压调节**：高钾(2540mg/100g),有助钠钾平衡",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_carrot_dehydrated_🟢_A级**_—_**综合营养**：全面营养支持",
+    "title": "Carrot, dehydrated - 🟢 A级** — **综合营养**：全面营养支持",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **综合营养**：全面营养支持",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_carrots_raw",
+    "title": "Carrots, raw",
+    "content": "分类: 蔬菜与蔬菜制品\n每100g营养素: 能量: 173.0kcal\n[证据A级] 🟢 A级** — **综合营养**：全面营养支持: \n每日建议摄入: 100-300g/d",
+    "tags": [
+      "基础营养",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_carrots_raw_🟢_A级**_—_**综合营养**：全面营养支持",
+    "title": "Carrots, raw - 🟢 A级** — **综合营养**：全面营养支持",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **综合营养**：全面营养支持",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_sweet_potato_leaves_raw",
+    "title": "Sweet potato leaves, raw",
+    "content": "分类: 蔬菜与蔬菜制品\n每100g营养素: 能量: 175.0kcal\n活性成分 [膳食纤维**]: 含量：5.3g/100g — 作用机制：促进肠蠕动,调节菌群\n活性成分 [镁**]: 含量：70mg/100g — 作用机制：300+酶促反应辅因子\n[证据A级] 🟢 A级** — **肠道健康**：高纤维(5.3g/100g)促进排便和菌群平衡: \n[证据A级] 🟢 A级** — **神经肌肉**：每100g含镁70mg: \n[证据A级] 🟢 A级** — **血压调节**：高钾(508mg/100g),有助钠钾平衡: \n[证据A级] 🟢 A级** — **综合营养**：全面营养支持: \n每日建议摄入: 100-300g/d",
+    "tags": [
+      "基础营养",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_sweet_potato_leaves_raw_🟢_A级**_—_**肠道健康**：高纤维(5.3g/100g)促进排便和菌群平衡",
+    "title": "Sweet potato leaves, raw - 🟢 A级** — **肠道健康**：高纤维(5.3g/100g)促进排便和菌群平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **肠道健康**：高纤维(5.3g/100g)促进排便和菌群平衡",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_sweet_potato_leaves_raw_🟢_A级**_—_**神经肌肉**：每100g含镁70mg",
+    "title": "Sweet potato leaves, raw - 🟢 A级** — **神经肌肉**：每100g含镁70mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **神经肌肉**：每100g含镁70mg",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_sweet_potato_leaves_raw_🟢_A级**_—_**血压调节**：高钾(508mg/100g),有助钠钾平衡",
+    "title": "Sweet potato leaves, raw - 🟢 A级** — **血压调节**：高钾(508mg/100g),有助钠钾平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **血压调节**：高钾(508mg/100g),有助钠钾平衡",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_sweet_potato_leaves_raw_🟢_A级**_—_**综合营养**：全面营养支持",
+    "title": "Sweet potato leaves, raw - 🟢 A级** — **综合营养**：全面营养支持",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **综合营养**：全面营养支持",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_sweet_potato_canned_mashed",
+    "title": "Sweet potato, canned, mashed",
+    "content": "分类: 蔬菜与蔬菜制品\n每100g营养素: 能量: 421.0kcal\n[证据A级] 🟢 A级** — **综合营养**：全面营养支持: \n每日建议摄入: 100-300g/d",
+    "tags": [
+      "基础营养",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_sweet_potato_canned_mashed_🟢_A级**_—_**综合营养**：全面营养支持",
+    "title": "Sweet potato, canned, mashed - 🟢 A级** — **综合营养**：全面营养支持",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **综合营养**：全面营养支持",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_mushroom_beech",
+    "title": "Mushroom, beech",
+    "content": "分类: 蔬菜与蔬菜制品\n[证据A级] 🟢 A级** — **综合营养**：全面营养支持: \n每日建议摄入: 100-300g/d",
+    "tags": [
+      "基础营养",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_mushroom_beech_🟢_A级**_—_**综合营养**：全面营养支持",
+    "title": "Mushroom, beech - 🟢 A级** — **综合营养**：全面营养支持",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **综合营养**：全面营养支持",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_mushroom_crimini",
+    "title": "Mushroom, crimini",
+    "content": "分类: 蔬菜与蔬菜制品\n[证据A级] 🟢 A级** — **综合营养**：全面营养支持: \n每日建议摄入: 100-300g/d",
+    "tags": [
+      "基础营养",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_mushroom_crimini_🟢_A级**_—_**综合营养**：全面营养支持",
+    "title": "Mushroom, crimini - 🟢 A级** — **综合营养**：全面营养支持",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **综合营养**：全面营养支持",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_peppers_bell_green_raw",
+    "title": "Peppers, bell, green, raw",
+    "content": "分类: 蔬菜与蔬菜制品\n[证据A级] 🟢 A级** — **免疫**：每100g含维C100mg: \n每日建议摄入: 100-300g/d",
+    "tags": [
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_peppers_bell_green_raw_🟢_A级**_—_**免疫**：每100g含维C100mg",
+    "title": "Peppers, bell, green, raw - 🟢 A级** — **免疫**：每100g含维C100mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **免疫**：每100g含维C100mg"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_peppers_bell_orange_raw",
+    "title": "Peppers, bell, orange, raw",
+    "content": "分类: 蔬菜与蔬菜制品\n[证据A级] 🟢 A级** — **免疫**：每100g含维C158mg: \n每日建议摄入: 100-300g/d",
+    "tags": [
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_peppers_bell_orange_raw_🟢_A级**_—_**免疫**：每100g含维C158mg",
+    "title": "Peppers, bell, orange, raw - 🟢 A级** — **免疫**：每100g含维C158mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **免疫**：每100g含维C158mg"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_tomato_powder",
+    "title": "Tomato powder",
+    "content": "分类: 蔬菜与蔬菜制品\n每100g营养素: 能量: 1263.0kcal\n活性成分 [膳食纤维**]: 含量：16.5g/100g — 作用机制：促进肠蠕动,调节菌群\n活性成分 [镁**]: 含量：178mg/100g — 作用机制：300+酶促反应辅因子\n[证据A级] 🟢 A级** — **肠道健康**：高纤维(16.5g/100g)促进排便和菌群平衡: \n[证据A级] 🟢 A级** — **骨健康**：每100g含钙166mg: \n[证据B级] 🟡 B级** — **补铁**：每100g含铁4.6mg: \n[证据A级] 🟢 A级** — **神经肌肉**：每100g含镁178mg: \n[证据A级] 🟢 A级** — **血压调节**：高钾(1927mg/100g),有助钠钾平衡: \n[证据A级] 🟢 A级** — **免疫**：每100g含维C117mg: \n[证据A级] 🟢 A级** — **综合营养**：全面营养支持: \n每日建议摄入: 100-300g/d",
+    "tags": [
+      "基础营养",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_tomato_powder_🟢_A级**_—_**肠道健康**：高纤维(16.5g/100g)促进排便和菌群平衡",
+    "title": "Tomato powder - 🟢 A级** — **肠道健康**：高纤维(16.5g/100g)促进排便和菌群平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **肠道健康**：高纤维(16.5g/100g)促进排便和菌群平衡",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_tomato_powder_🟢_A级**_—_**骨健康**：每100g含钙166mg",
+    "title": "Tomato powder - 🟢 A级** — **骨健康**：每100g含钙166mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **骨健康**：每100g含钙166mg",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_tomato_powder_🟡_B级**_—_**补铁**：每100g含铁4.6mg",
+    "title": "Tomato powder - 🟡 B级** — **补铁**：每100g含铁4.6mg",
+    "content": "[证据B级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟡 B级** — **补铁**：每100g含铁4.6mg",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_tomato_powder_🟢_A级**_—_**神经肌肉**：每100g含镁178mg",
+    "title": "Tomato powder - 🟢 A级** — **神经肌肉**：每100g含镁178mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **神经肌肉**：每100g含镁178mg",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_tomato_powder_🟢_A级**_—_**血压调节**：高钾(1927mg/100g),有助钠钾平衡",
+    "title": "Tomato powder - 🟢 A级** — **血压调节**：高钾(1927mg/100g),有助钠钾平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **血压调节**：高钾(1927mg/100g),有助钠钾平衡",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_tomato_powder_🟢_A级**_—_**免疫**：每100g含维C117mg",
+    "title": "Tomato powder - 🟢 A级** — **免疫**：每100g含维C117mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **免疫**：每100g含维C117mg",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_tomato_powder_🟢_A级**_—_**综合营养**：全面营养支持",
+    "title": "Tomato powder - 🟢 A级** — **综合营养**：全面营养支持",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **综合营养**：全面营养支持",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_tomato_roma",
+    "title": "Tomato, roma",
+    "content": "分类: 蔬菜与蔬菜制品\n[证据A级] 🟢 A级** — **综合营养**：全面营养支持: \n每日建议摄入: 100-300g/d",
+    "tags": [
+      "基础营养",
+      "蔬菜与蔬菜制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "benefit_tomato_roma_🟢_A级**_—_**综合营养**：全面营养支持",
+    "title": "Tomato, roma - 🟢 A级** — **综合营养**：全面营养支持",
+    "content": "[证据A级] ",
+    "tags": [
+      "蔬菜与蔬菜制品",
+      "🟢 A级** — **综合营养**：全面营养支持",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 蔬菜与蔬菜制品"
+  },
+  {
+    "id": "food_flour_rice_brown",
+    "title": "Flour, rice, brown",
+    "content": "分类: 谷物与面食\n每100g营养素: 能量: 1582.2kcal\n活性成分 [镁**]: 含量：124mg/100g — 作用机制：300+酶促反应辅因子\n[证据A级] 🟢 A级** — **神经肌肉**：每100g含镁124mg: ",
+    "tags": [
+      "谷物与面食"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 谷物与面食"
+  },
+  {
+    "id": "benefit_flour_rice_brown_🟢_A级**_—_**神经肌肉**：每100g含镁124mg",
+    "title": "Flour, rice, brown - 🟢 A级** — **神经肌肉**：每100g含镁124mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "谷物与面食",
+      "🟢 A级** — **神经肌肉**：每100g含镁124mg"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 谷物与面食"
+  },
+  {
+    "id": "food_rice_flour_brown",
+    "title": "Rice flour, brown",
+    "content": "分类: 谷物与面食\n每100g营养素: 能量: 1519.0kcal\n活性成分 [镁**]: 含量：112mg/100g — 作用机制：300+酶促反应辅因子\n[证据A级] 🟢 A级** — **神经肌肉**：每100g含镁112mg: ",
+    "tags": [
+      "谷物与面食"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 谷物与面食"
+  },
+  {
+    "id": "benefit_rice_flour_brown_🟢_A级**_—_**神经肌肉**：每100g含镁112mg",
+    "title": "Rice flour, brown - 🟢 A级** — **神经肌肉**：每100g含镁112mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "谷物与面食",
+      "🟢 A级** — **神经肌肉**：每100g含镁112mg"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 谷物与面食"
+  },
+  {
+    "id": "food_quinoa_cooked",
+    "title": "Quinoa, cooked",
+    "content": "分类: 谷物与面食\n每100g营养素: 能量: 503.0kcal\n活性成分 [镁**]: 含量：64mg/100g — 作用机制：300+酶促反应辅因子\n[证据A级] 🟢 A级** — **神经肌肉**：每100g含镁64mg: \n[证据A级] 🟢 A级** — **综合营养**：全面营养支持: ",
+    "tags": [
+      "基础营养",
+      "谷物与面食"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 谷物与面食"
+  },
+  {
+    "id": "benefit_quinoa_cooked_🟢_A级**_—_**神经肌肉**：每100g含镁64mg",
+    "title": "Quinoa, cooked - 🟢 A级** — **神经肌肉**：每100g含镁64mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "谷物与面食",
+      "🟢 A级** — **神经肌肉**：每100g含镁64mg",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 谷物与面食"
+  },
+  {
+    "id": "benefit_quinoa_cooked_🟢_A级**_—_**综合营养**：全面营养支持",
+    "title": "Quinoa, cooked - 🟢 A级** — **综合营养**：全面营养支持",
+    "content": "[证据A级] ",
+    "tags": [
+      "谷物与面食",
+      "🟢 A级** — **综合营养**：全面营养支持",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 谷物与面食"
+  },
+  {
+    "id": "food_quinoa_uncooked",
+    "title": "Quinoa, uncooked",
+    "content": "分类: 谷物与面食\n每100g营养素: 能量: 1539.0kcal\n活性成分 [膳食纤维**]: 含量：7.0g/100g — 作用机制：促进肠蠕动,调节菌群\n活性成分 [镁**]: 含量：197mg/100g — 作用机制：300+酶促反应辅因子\n[证据A级] 🟢 A级** — **肠道健康**：高纤维(7.0g/100g)促进排便和菌群平衡: \n[证据B级] 🟡 B级** — **补铁**：每100g含铁4.6mg: \n[证据A级] 🟢 A级** — **神经肌肉**：每100g含镁197mg: \n[证据A级] 🟢 A级** — **血压调节**：高钾(563mg/100g),有助钠钾平衡: \n[证据A级] 🟢 A级** — **综合营养**：全面营养支持: ",
+    "tags": [
+      "基础营养",
+      "谷物与面食"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 谷物与面食"
+  },
+  {
+    "id": "benefit_quinoa_uncooked_🟢_A级**_—_**肠道健康**：高纤维(7.0g/100g)促进排便和菌群平衡",
+    "title": "Quinoa, uncooked - 🟢 A级** — **肠道健康**：高纤维(7.0g/100g)促进排便和菌群平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "谷物与面食",
+      "🟢 A级** — **肠道健康**：高纤维(7.0g/100g)促进排便和菌群平衡",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 谷物与面食"
+  },
+  {
+    "id": "benefit_quinoa_uncooked_🟡_B级**_—_**补铁**：每100g含铁4.6mg",
+    "title": "Quinoa, uncooked - 🟡 B级** — **补铁**：每100g含铁4.6mg",
+    "content": "[证据B级] ",
+    "tags": [
+      "谷物与面食",
+      "🟡 B级** — **补铁**：每100g含铁4.6mg",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 谷物与面食"
+  },
+  {
+    "id": "benefit_quinoa_uncooked_🟢_A级**_—_**神经肌肉**：每100g含镁197mg",
+    "title": "Quinoa, uncooked - 🟢 A级** — **神经肌肉**：每100g含镁197mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "谷物与面食",
+      "🟢 A级** — **神经肌肉**：每100g含镁197mg",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 谷物与面食"
+  },
+  {
+    "id": "benefit_quinoa_uncooked_🟢_A级**_—_**血压调节**：高钾(563mg/100g),有助钠钾平衡",
+    "title": "Quinoa, uncooked - 🟢 A级** — **血压调节**：高钾(563mg/100g),有助钠钾平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "谷物与面食",
+      "🟢 A级** — **血压调节**：高钾(563mg/100g),有助钠钾平衡",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 谷物与面食"
+  },
+  {
+    "id": "benefit_quinoa_uncooked_🟢_A级**_—_**综合营养**：全面营养支持",
+    "title": "Quinoa, uncooked - 🟢 A级** — **综合营养**：全面营养支持",
+    "content": "[证据A级] ",
+    "tags": [
+      "谷物与面食",
+      "🟢 A级** — **综合营养**：全面营养支持",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 谷物与面食"
+  },
+  {
+    "id": "food_beans_liquid_from_stewed_kidney_beans",
+    "title": "Beans, liquid from stewed kidney beans",
+    "content": "分类: 豆类与豆制品\n每100g营养素: 能量: 197.0kcal\n每日建议摄入: 50-100g/d(干重)",
+    "tags": [
+      "豆类与豆制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 豆类与豆制品"
+  },
+  {
+    "id": "food_tofu_yogurt",
+    "title": "Tofu yogurt",
+    "content": "分类: 豆类与豆制品\n每100g营养素: 能量: 394.0kcal\n活性成分 [大豆异黄酮**]: 含量：每100g约100-300mg — 作用机制：SERM:竞争性结合ERβ,组织特异性效应\n活性成分 [大豆蛋白**]: 含量：唯一植物完全蛋白质 — 作用机制：增LDL受体表达降胆固醇\n[证据A级] 🟢 A级** — **更年期**：异黄酮50-100mg/d减少潮热40-50%:  (来源: 参考文献：北美更年期学会2022)\n[证据B级] 🟡 B级** — **骨健康**：异黄酮+大豆蛋白维持骨密度: \n[证据A级] 🟢 A级** — **心血管**：大豆蛋白25g/d降LDL-C 3-5%:  (来源: 参考文献：FDA健康声明)\n[证据B级] 🟡 B级** — **乳腺**：青春期开始食用大豆降低乳腺癌风险:  (来源: 参考文献：上海乳腺癌生存研究(n=5042))\n每日建议摄入: 传统大豆食品(豆腐/毛豆/味噌)50-100g/d\n注意事项: 甲减者:与左甲状腺素间隔>4h; 乳腺癌ER+:食物安全,但避免浓缩异黄酮补充剂; 发酵豆制品嘌呤更高",
+    "tags": [
+      "女性激素健康",
+      "肠脑轴",
+      "豆类与豆制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 豆类与豆制品"
+  },
+  {
+    "id": "benefit_tofu_yogurt_🟢_A级**_—_**更年期**：异黄酮50-100mg/d减少潮热40-50%",
+    "title": "Tofu yogurt - 🟢 A级** — **更年期**：异黄酮50-100mg/d减少潮热40-50%",
+    "content": "[证据A级] \n来源: 参考文献：北美更年期学会2022",
+    "tags": [
+      "豆类与豆制品",
+      "🟢 A级** — **更年期**：异黄酮50-100mg/d减少潮热40-50%",
+      "女性激素健康",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 豆类与豆制品"
+  },
+  {
+    "id": "benefit_tofu_yogurt_🟡_B级**_—_**骨健康**：异黄酮+大豆蛋白维持骨密度",
+    "title": "Tofu yogurt - 🟡 B级** — **骨健康**：异黄酮+大豆蛋白维持骨密度",
+    "content": "[证据B级] ",
+    "tags": [
+      "豆类与豆制品",
+      "🟡 B级** — **骨健康**：异黄酮+大豆蛋白维持骨密度",
+      "女性激素健康",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 豆类与豆制品"
+  },
+  {
+    "id": "benefit_tofu_yogurt_🟢_A级**_—_**心血管**：大豆蛋白25g/d降LDL-C_3-5%",
+    "title": "Tofu yogurt - 🟢 A级** — **心血管**：大豆蛋白25g/d降LDL-C 3-5%",
+    "content": "[证据A级] \n来源: 参考文献：FDA健康声明",
+    "tags": [
+      "豆类与豆制品",
+      "🟢 A级** — **心血管**：大豆蛋白25g/d降LDL-C 3-5%",
+      "女性激素健康",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 豆类与豆制品"
+  },
+  {
+    "id": "benefit_tofu_yogurt_🟡_B级**_—_**乳腺**：青春期开始食用大豆降低乳腺癌风险",
+    "title": "Tofu yogurt - 🟡 B级** — **乳腺**：青春期开始食用大豆降低乳腺癌风险",
+    "content": "[证据B级] \n来源: 参考文献：上海乳腺癌生存研究(n=5042)",
+    "tags": [
+      "豆类与豆制品",
+      "🟡 B级** — **乳腺**：青春期开始食用大豆降低乳腺癌风险",
+      "女性激素健康",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 豆类与豆制品"
+  },
+  {
+    "id": "food_tofu_fried",
+    "title": "Tofu, fried",
+    "content": "分类: 豆类与豆制品\n每100g营养素: 能量: 1131.0kcal\n活性成分 [大豆异黄酮**]: 含量：每100g约100-300mg — 作用机制：SERM:竞争性结合ERβ,组织特异性效应\n活性成分 [大豆蛋白**]: 含量：唯一植物完全蛋白质 — 作用机制：增LDL受体表达降胆固醇\n[证据A级] 🟢 A级** — **更年期**：异黄酮50-100mg/d减少潮热40-50%:  (来源: 参考文献：北美更年期学会2022)\n[证据B级] 🟡 B级** — **骨健康**：异黄酮+大豆蛋白维持骨密度: \n[证据A级] 🟢 A级** — **心血管**：大豆蛋白25g/d降LDL-C 3-5%:  (来源: 参考文献：FDA健康声明)\n[证据B级] 🟡 B级** — **乳腺**：青春期开始食用大豆降低乳腺癌风险:  (来源: 参考文献：上海乳腺癌生存研究(n=5042))\n每日建议摄入: 传统大豆食品(豆腐/毛豆/味噌)50-100g/d\n注意事项: 甲减者:与左甲状腺素间隔>4h; 乳腺癌ER+:食物安全,但避免浓缩异黄酮补充剂; 发酵豆制品嘌呤更高",
+    "tags": [
+      "女性激素健康",
+      "豆类与豆制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 豆类与豆制品"
+  },
+  {
+    "id": "benefit_tofu_fried_🟢_A级**_—_**更年期**：异黄酮50-100mg/d减少潮热40-50%",
+    "title": "Tofu, fried - 🟢 A级** — **更年期**：异黄酮50-100mg/d减少潮热40-50%",
+    "content": "[证据A级] \n来源: 参考文献：北美更年期学会2022",
+    "tags": [
+      "豆类与豆制品",
+      "🟢 A级** — **更年期**：异黄酮50-100mg/d减少潮热40-50%",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 豆类与豆制品"
+  },
+  {
+    "id": "benefit_tofu_fried_🟡_B级**_—_**骨健康**：异黄酮+大豆蛋白维持骨密度",
+    "title": "Tofu, fried - 🟡 B级** — **骨健康**：异黄酮+大豆蛋白维持骨密度",
+    "content": "[证据B级] ",
+    "tags": [
+      "豆类与豆制品",
+      "🟡 B级** — **骨健康**：异黄酮+大豆蛋白维持骨密度",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 豆类与豆制品"
+  },
+  {
+    "id": "benefit_tofu_fried_🟢_A级**_—_**心血管**：大豆蛋白25g/d降LDL-C_3-5%",
+    "title": "Tofu, fried - 🟢 A级** — **心血管**：大豆蛋白25g/d降LDL-C 3-5%",
+    "content": "[证据A级] \n来源: 参考文献：FDA健康声明",
+    "tags": [
+      "豆类与豆制品",
+      "🟢 A级** — **心血管**：大豆蛋白25g/d降LDL-C 3-5%",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 豆类与豆制品"
+  },
+  {
+    "id": "benefit_tofu_fried_🟡_B级**_—_**乳腺**：青春期开始食用大豆降低乳腺癌风险",
+    "title": "Tofu, fried - 🟡 B级** — **乳腺**：青春期开始食用大豆降低乳腺癌风险",
+    "content": "[证据B级] \n来源: 参考文献：上海乳腺癌生存研究(n=5042)",
+    "tags": [
+      "豆类与豆制品",
+      "🟡 B级** — **乳腺**：青春期开始食用大豆降低乳腺癌风险",
+      "女性激素健康"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 豆类与豆制品"
+  },
+  {
+    "id": "food_miso",
+    "title": "Miso",
+    "content": "分类: 豆类与豆制品\n每100g营养素: 能量: 828.0kcal\n活性成分 [膳食纤维**]: 含量：5.4g/100g — 作用机制：促进肠蠕动,调节菌群\n[证据A级] 🟢 A级** — **肠道健康**：高纤维(5.4g/100g)促进排便和菌群平衡: \n[证据C级] ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素: \n每日建议摄入: 50-100g/d(干重)",
+    "tags": [
+      "肠脑轴",
+      "豆类与豆制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 豆类与豆制品"
+  },
+  {
+    "id": "benefit_miso_🟢_A级**_—_**肠道健康**：高纤维(5.4g/100g)促进排便和菌群平衡",
+    "title": "Miso - 🟢 A级** — **肠道健康**：高纤维(5.4g/100g)促进排便和菌群平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "豆类与豆制品",
+      "🟢 A级** — **肠道健康**：高纤维(5.4g/100g)促进排便和菌群平衡",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 豆类与豆制品"
+  },
+  {
+    "id": "benefit_miso_⚪_C级**_—_**肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "title": "Miso - ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "content": "[证据C级] ",
+    "tags": [
+      "豆类与豆制品",
+      "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 豆类与豆制品"
+  },
+  {
+    "id": "food_lentils_dry",
+    "title": "Lentils, dry",
+    "content": "分类: 豆类与豆制品\n活性成分 [优质蛋白质**]: 含量：23.6g/100g — 作用机制：肌肉合成与修复\n活性成分 [镁**]: 含量：107mg/100g — 作用机制：300+酶促反应辅因子\n[证据B级] 🟡 B级** — **补铁**：每100g含铁7.2mg: \n[证据A级] 🟢 A级** — **神经肌肉**：每100g含镁107mg: \n[证据A级] 🟢 A级** — **血压调节**：高钾(949mg/100g),有助钠钾平衡: \n[证据A级] 🟢 A级** — **综合营养**：全面营养支持: \n每日建议摄入: 50-100g/d(干重)",
+    "tags": [
+      "基础营养",
+      "豆类与豆制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 豆类与豆制品"
+  },
+  {
+    "id": "benefit_lentils_dry_🟡_B级**_—_**补铁**：每100g含铁7.2mg",
+    "title": "Lentils, dry - 🟡 B级** — **补铁**：每100g含铁7.2mg",
+    "content": "[证据B级] ",
+    "tags": [
+      "豆类与豆制品",
+      "🟡 B级** — **补铁**：每100g含铁7.2mg",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 豆类与豆制品"
+  },
+  {
+    "id": "benefit_lentils_dry_🟢_A级**_—_**神经肌肉**：每100g含镁107mg",
+    "title": "Lentils, dry - 🟢 A级** — **神经肌肉**：每100g含镁107mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "豆类与豆制品",
+      "🟢 A级** — **神经肌肉**：每100g含镁107mg",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 豆类与豆制品"
+  },
+  {
+    "id": "benefit_lentils_dry_🟢_A级**_—_**血压调节**：高钾(949mg/100g),有助钠钾平衡",
+    "title": "Lentils, dry - 🟢 A级** — **血压调节**：高钾(949mg/100g),有助钠钾平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "豆类与豆制品",
+      "🟢 A级** — **血压调节**：高钾(949mg/100g),有助钠钾平衡",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 豆类与豆制品"
+  },
+  {
+    "id": "benefit_lentils_dry_🟢_A级**_—_**综合营养**：全面营养支持",
+    "title": "Lentils, dry - 🟢 A级** — **综合营养**：全面营养支持",
+    "content": "[证据A级] ",
+    "tags": [
+      "豆类与豆制品",
+      "🟢 A级** — **综合营养**：全面营养支持",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 豆类与豆制品"
+  },
+  {
+    "id": "food_lentils_raw",
+    "title": "Lentils, raw",
+    "content": "分类: 豆类与豆制品\n每100g营养素: 能量: 1473.0kcal\n活性成分 [优质蛋白质**]: 含量：24.6g/100g — 作用机制：肌肉合成与修复\n活性成分 [膳食纤维**]: 含量：10.7g/100g — 作用机制：促进肠蠕动,调节菌群\n[证据A级] 🟢 A级** — **肠道健康**：高纤维(10.7g/100g)促进排便和菌群平衡: \n[证据B级] 🟡 B级** — **补铁**：每100g含铁6.5mg: \n[证据A级] 🟢 A级** — **血压调节**：高钾(677mg/100g),有助钠钾平衡: \n[证据A级] 🟢 A级** — **综合营养**：全面营养支持: \n每日建议摄入: 50-100g/d(干重)",
+    "tags": [
+      "基础营养",
+      "豆类与豆制品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 豆类与豆制品"
+  },
+  {
+    "id": "benefit_lentils_raw_🟢_A级**_—_**肠道健康**：高纤维(10.7g/100g)促进排便和菌群平衡",
+    "title": "Lentils, raw - 🟢 A级** — **肠道健康**：高纤维(10.7g/100g)促进排便和菌群平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "豆类与豆制品",
+      "🟢 A级** — **肠道健康**：高纤维(10.7g/100g)促进排便和菌群平衡",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 豆类与豆制品"
+  },
+  {
+    "id": "benefit_lentils_raw_🟡_B级**_—_**补铁**：每100g含铁6.5mg",
+    "title": "Lentils, raw - 🟡 B级** — **补铁**：每100g含铁6.5mg",
+    "content": "[证据B级] ",
+    "tags": [
+      "豆类与豆制品",
+      "🟡 B级** — **补铁**：每100g含铁6.5mg",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 豆类与豆制品"
+  },
+  {
+    "id": "benefit_lentils_raw_🟢_A级**_—_**血压调节**：高钾(677mg/100g),有助钠钾平衡",
+    "title": "Lentils, raw - 🟢 A级** — **血压调节**：高钾(677mg/100g),有助钠钾平衡",
+    "content": "[证据A级] ",
+    "tags": [
+      "豆类与豆制品",
+      "🟢 A级** — **血压调节**：高钾(677mg/100g),有助钠钾平衡",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 豆类与豆制品"
+  },
+  {
+    "id": "benefit_lentils_raw_🟢_A级**_—_**综合营养**：全面营养支持",
+    "title": "Lentils, raw - 🟢 A级** — **综合营养**：全面营养支持",
+    "content": "[证据A级] ",
+    "tags": [
+      "豆类与豆制品",
+      "🟢 A级** — **综合营养**：全面营养支持",
+      "基础营养"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 豆类与豆制品"
+  },
+  {
+    "id": "food_denny's_onion_rings",
+    "title": "DENNY'S, onion rings",
+    "content": "分类: 餐饮食品\n每100g营养素: 能量: 1613.0kcal\n活性成分 [Omega-3(ALA)**]: 含量：2.5g/100g — 作用机制：抗炎类花生酸前体\n[证据A级] 🟢 A级** — **抗炎**：omega-3含量2.5g/100g: \n[证据C级] ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素: ",
+    "tags": [
+      "肠脑轴",
+      "餐饮食品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 餐饮食品"
+  },
+  {
+    "id": "benefit_denny's_onion_rings_🟢_A级**_—_**抗炎**：omega-3含量2.5g/100g",
+    "title": "DENNY'S, onion rings - 🟢 A级** — **抗炎**：omega-3含量2.5g/100g",
+    "content": "[证据A级] ",
+    "tags": [
+      "餐饮食品",
+      "🟢 A级** — **抗炎**：omega-3含量2.5g/100g",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 餐饮食品"
+  },
+  {
+    "id": "benefit_denny's_onion_rings_⚪_C级**_—_**肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "title": "DENNY'S, onion rings - ⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+    "content": "[证据C级] ",
+    "tags": [
+      "餐饮食品",
+      "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+      "肠脑轴"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "C",
+    "meta_source": "食材百科 - 餐饮食品"
+  },
+  {
+    "id": "food_beverages_tea_green_brewed_decaffeinated",
+    "title": "Beverages, tea, green, brewed, decaffeinated",
+    "content": "分类: 饮品\n活性成分 [EGCG**]: 含量：儿茶素总量50-60% — 作用机制：NF-κB抑制;DNA甲基转移酶抑制\n活性成分 [L-茶氨酸**]: 含量：干重1-2% — 作用机制：穿过血脑屏障→GABA增加,α脑波(放松专注)\n活性成分 [咖啡因**]: 含量：每杯30-50mg — 作用机制：腺苷受体拮抗\n[证据A级] 🟢 A级** — **认知**：L-茶氨酸+咖啡因改善注意力: \n[证据B级] 🟡 B级** — **代谢**：EGCG 300-500mg/d增脂肪氧化4-8%: \n[证据B级] 🟡 B级** — **心血管**：≥3杯/天心血管死亡率降20-30%: \n每日建议摄入: 3-5杯/d(750-1250ml),每杯3g茶叶80°C冲泡2-3分钟\n注意事项: 贫血女性餐后1h再喝(单宁酸抑制铁吸收>60%); 肝功能异常者慎用高剂量EGCG补充剂; 孕期<2杯/d安全",
+    "tags": [
+      "饮品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 饮品"
+  },
+  {
+    "id": "benefit_beverages_tea_green_brewed_decaffeinated_🟢_A级**_—_**认知**：L-茶氨酸+咖啡因改善注意力",
+    "title": "Beverages, tea, green, brewed, decaffeinated - 🟢 A级** — **认知**：L-茶氨酸+咖啡因改善注意力",
+    "content": "[证据A级] ",
+    "tags": [
+      "饮品",
+      "🟢 A级** — **认知**：L-茶氨酸+咖啡因改善注意力"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 饮品"
+  },
+  {
+    "id": "benefit_beverages_tea_green_brewed_decaffeinated_🟡_B级**_—_**代谢**：EGCG_300-500mg/d增脂肪氧化4-8%",
+    "title": "Beverages, tea, green, brewed, decaffeinated - 🟡 B级** — **代谢**：EGCG 300-500mg/d增脂肪氧化4-8%",
+    "content": "[证据B级] ",
+    "tags": [
+      "饮品",
+      "🟡 B级** — **代谢**：EGCG 300-500mg/d增脂肪氧化4-8%"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 饮品"
+  },
+  {
+    "id": "benefit_beverages_tea_green_brewed_decaffeinated_🟡_B级**_—_**心血管**：≥3杯/天心血管死亡率降20-30%",
+    "title": "Beverages, tea, green, brewed, decaffeinated - 🟡 B级** — **心血管**：≥3杯/天心血管死亡率降20-30%",
+    "content": "[证据B级] ",
+    "tags": [
+      "饮品",
+      "🟡 B级** — **心血管**：≥3杯/天心血管死亡率降20-30%"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 饮品"
+  },
+  {
+    "id": "food_beverages_tea_green_brewed_regular",
+    "title": "Beverages, tea, green, brewed, regular",
+    "content": "分类: 饮品\n每100g营养素: 能量: 4.0kcal\n活性成分 [EGCG**]: 含量：儿茶素总量50-60% — 作用机制：NF-κB抑制;DNA甲基转移酶抑制\n活性成分 [L-茶氨酸**]: 含量：干重1-2% — 作用机制：穿过血脑屏障→GABA增加,α脑波(放松专注)\n活性成分 [咖啡因**]: 含量：每杯30-50mg — 作用机制：腺苷受体拮抗\n[证据A级] 🟢 A级** — **认知**：L-茶氨酸+咖啡因改善注意力: \n[证据B级] 🟡 B级** — **代谢**：EGCG 300-500mg/d增脂肪氧化4-8%: \n[证据B级] 🟡 B级** — **心血管**：≥3杯/天心血管死亡率降20-30%: \n每日建议摄入: 3-5杯/d(750-1250ml),每杯3g茶叶80°C冲泡2-3分钟\n注意事项: 贫血女性餐后1h再喝(单宁酸抑制铁吸收>60%); 肝功能异常者慎用高剂量EGCG补充剂; 孕期<2杯/d安全",
+    "tags": [
+      "饮品"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 饮品"
+  },
+  {
+    "id": "benefit_beverages_tea_green_brewed_regular_🟢_A级**_—_**认知**：L-茶氨酸+咖啡因改善注意力",
+    "title": "Beverages, tea, green, brewed, regular - 🟢 A级** — **认知**：L-茶氨酸+咖啡因改善注意力",
+    "content": "[证据A级] ",
+    "tags": [
+      "饮品",
+      "🟢 A级** — **认知**：L-茶氨酸+咖啡因改善注意力"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 饮品"
+  },
+  {
+    "id": "benefit_beverages_tea_green_brewed_regular_🟡_B级**_—_**代谢**：EGCG_300-500mg/d增脂肪氧化4-8%",
+    "title": "Beverages, tea, green, brewed, regular - 🟡 B级** — **代谢**：EGCG 300-500mg/d增脂肪氧化4-8%",
+    "content": "[证据B级] ",
+    "tags": [
+      "饮品",
+      "🟡 B级** — **代谢**：EGCG 300-500mg/d增脂肪氧化4-8%"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 饮品"
+  },
+  {
+    "id": "benefit_beverages_tea_green_brewed_regular_🟡_B级**_—_**心血管**：≥3杯/天心血管死亡率降20-30%",
+    "title": "Beverages, tea, green, brewed, regular - 🟡 B级** — **心血管**：≥3杯/天心血管死亡率降20-30%",
+    "content": "[证据B级] ",
+    "tags": [
+      "饮品",
+      "🟡 B级** — **心血管**：≥3杯/天心血管死亡率降20-30%"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 饮品"
+  },
+  {
+    "id": "food_spices_turmeric_ground",
+    "title": "Spices, turmeric, ground",
+    "content": "分类: 香料与草本\n每100g营养素: 能量: 1305.0kcal\n活性成分 [姜黄素**]: 含量：干重3-5% — 作用机制：NF-κB通路抑制，COX-2下调\n活性成分 [芳香姜黄酮**]: 含量：挥发油 — 作用机制：促进神经干细胞增殖\n[证据A级] 🟢 A级** — **抗炎**：抑制慢性低度炎症:  (来源: 参考文献：多中心RCT)\n[证据A级] 🟢 A级** — **关节**：减轻骨关节炎疼痛30-50%:  (来源: 参考文献：Cochrane系统评价)\n[证据B级] 🟡 B级** — **心血管**：改善内皮功能,降低CRP 25-40%: \n[证据B级] 🟡 B级** — **认知**：印度农村阿尔茨海默病发病率显著低于西方国家: \n每日建议摄入: 姜黄粉1-3g/d,或姜黄素提取物500-2000mg/d\n注意事项: 胆结石/胆道梗阻者慎用; 服用抗凝药者需监测INR; 铁缺乏者不宜随餐大量服用; 孕期慎用大剂量; 手术前2周停用",
+    "tags": [
+      "抗炎",
+      "香料与草本"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 香料与草本"
+  },
+  {
+    "id": "benefit_spices_turmeric_ground_🟢_A级**_—_**抗炎**：抑制慢性低度炎症",
+    "title": "Spices, turmeric, ground - 🟢 A级** — **抗炎**：抑制慢性低度炎症",
+    "content": "[证据A级] \n来源: 参考文献：多中心RCT",
+    "tags": [
+      "香料与草本",
+      "🟢 A级** — **抗炎**：抑制慢性低度炎症",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 香料与草本"
+  },
+  {
+    "id": "benefit_spices_turmeric_ground_🟢_A级**_—_**关节**：减轻骨关节炎疼痛30-50%",
+    "title": "Spices, turmeric, ground - 🟢 A级** — **关节**：减轻骨关节炎疼痛30-50%",
+    "content": "[证据A级] \n来源: 参考文献：Cochrane系统评价",
+    "tags": [
+      "香料与草本",
+      "🟢 A级** — **关节**：减轻骨关节炎疼痛30-50%",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 香料与草本"
+  },
+  {
+    "id": "benefit_spices_turmeric_ground_🟡_B级**_—_**心血管**：改善内皮功能,降低CRP_25-40%",
+    "title": "Spices, turmeric, ground - 🟡 B级** — **心血管**：改善内皮功能,降低CRP 25-40%",
+    "content": "[证据B级] ",
+    "tags": [
+      "香料与草本",
+      "🟡 B级** — **心血管**：改善内皮功能,降低CRP 25-40%",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 香料与草本"
+  },
+  {
+    "id": "benefit_spices_turmeric_ground_🟡_B级**_—_**认知**：印度农村阿尔茨海默病发病率显著低于西方国家",
+    "title": "Spices, turmeric, ground - 🟡 B级** — **认知**：印度农村阿尔茨海默病发病率显著低于西方国家",
+    "content": "[证据B级] ",
+    "tags": [
+      "香料与草本",
+      "🟡 B级** — **认知**：印度农村阿尔茨海默病发病率显著低于西方国家",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 香料与草本"
+  },
+  {
+    "id": "food_spices_ginger_ground",
+    "title": "Spices, ginger, ground",
+    "content": "分类: 香料与草本\n每100g营养素: 能量: 1404.0kcal\n活性成分 [6-姜辣素**]: 含量：鲜姜主要活性物 — 作用机制：COX-2抑制,TRPV1激活,5-HT3拮抗(止吐)\n活性成分 [6-姜烯酚**]: 含量：干姜/加热后升高 — 作用机制：比6-gingerol抗炎活性更强\n活性成分 [姜烯**]: 含量：挥发油30-40% — 作用机制：抗氧化、抗微生物\n[证据A级] 🟢 A级** — **抗炎镇痛**：减轻运动后肌肉酸痛25%: \n[证据A级] 🟢 A级** — **消化**：加速胃排空50%: \n[证据A级] 🟢 A级** — **止吐**：妊娠恶心效果与VB6相当:  (来源: 参考文献：Cochrane系统评价)\n[证据B级] 🟡 B级** — **代谢**：降低空腹血糖和HbA1c:  (来源: 参考文献：2022 meta分析)\n每日建议摄入: 鲜姜10-30g/d,干姜粉2-4g/d,提取物500-2000mg/d\n注意事项: 胃溃疡活动期慎用; 胆结石大量服用可能诱发绞痛; 服用抗凝药者监测凝血; 孕期止吐:<1g干姜/d安全",
+    "tags": [
+      "抗炎",
+      "香料与草本"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 香料与草本"
+  },
+  {
+    "id": "benefit_spices_ginger_ground_🟢_A级**_—_**抗炎镇痛**：减轻运动后肌肉酸痛25%",
+    "title": "Spices, ginger, ground - 🟢 A级** — **抗炎镇痛**：减轻运动后肌肉酸痛25%",
+    "content": "[证据A级] ",
+    "tags": [
+      "香料与草本",
+      "🟢 A级** — **抗炎镇痛**：减轻运动后肌肉酸痛25%",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 香料与草本"
+  },
+  {
+    "id": "benefit_spices_ginger_ground_🟢_A级**_—_**消化**：加速胃排空50%",
+    "title": "Spices, ginger, ground - 🟢 A级** — **消化**：加速胃排空50%",
+    "content": "[证据A级] ",
+    "tags": [
+      "香料与草本",
+      "🟢 A级** — **消化**：加速胃排空50%",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 香料与草本"
+  },
+  {
+    "id": "benefit_spices_ginger_ground_🟢_A级**_—_**止吐**：妊娠恶心效果与VB6相当",
+    "title": "Spices, ginger, ground - 🟢 A级** — **止吐**：妊娠恶心效果与VB6相当",
+    "content": "[证据A级] \n来源: 参考文献：Cochrane系统评价",
+    "tags": [
+      "香料与草本",
+      "🟢 A级** — **止吐**：妊娠恶心效果与VB6相当",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 香料与草本"
+  },
+  {
+    "id": "benefit_spices_ginger_ground_🟡_B级**_—_**代谢**：降低空腹血糖和HbA1c",
+    "title": "Spices, ginger, ground - 🟡 B级** — **代谢**：降低空腹血糖和HbA1c",
+    "content": "[证据B级] \n来源: 参考文献：2022 meta分析",
+    "tags": [
+      "香料与草本",
+      "🟡 B级** — **代谢**：降低空腹血糖和HbA1c",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 香料与草本"
+  },
+  {
+    "id": "food_fish_salmon_chinook_raw",
+    "title": "Fish, salmon, chinook, raw",
+    "content": "分类: 鱼类与海鲜\n每100g营养素: 能量: 750.0kcal\n活性成分 [EPA**]: 含量：每100g约0.7-1.2g — 作用机制：生成resolvins消退炎症\n活性成分 [DHA**]: 含量：每100g约0.8-1.5g — 作用机制：神经元细胞膜主要结构脂质\n活性成分 [虾青素**]: 含量：野生三文鱼橙红色来源 — 作用机制：比VE强100倍抗氧化,穿过血脑屏障\n活性成分 [维生素D**]: 含量：每100g约10-15μg — 作用机制：少数天然富含VD食物\n[证据A级] 🟢 A级** — **心血管**：降低甘油三酯25-30%:  (来源: 参考文献：GISSI-Prevenzione(n=11324))\n[证据A级] 🟢 A级** — **抗炎**：Resolvins/Protectins主动消退炎症: \n[证据B级] 🟡 B级** — **认知**：每周>1次鱼类降低痴呆风险20-30%: \n[证据A级] 🟢 A级** — **关节**：减轻类风湿关节炎症状: \n每日建议摄入: 每周2-3次,每次100-150g\n注意事项: 痛风急性发作期慎食; 选择野生或有机养殖三文鱼; 三文鱼属低汞安全鱼类; 服用抗凝药者监控",
+    "tags": [
+      "抗炎",
+      "鱼类与海鲜"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 鱼类与海鲜"
+  },
+  {
+    "id": "benefit_fish_salmon_chinook_raw_🟢_A级**_—_**心血管**：降低甘油三酯25-30%",
+    "title": "Fish, salmon, chinook, raw - 🟢 A级** — **心血管**：降低甘油三酯25-30%",
+    "content": "[证据A级] \n来源: 参考文献：GISSI-Prevenzione(n=11324)",
+    "tags": [
+      "鱼类与海鲜",
+      "🟢 A级** — **心血管**：降低甘油三酯25-30%",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 鱼类与海鲜"
+  },
+  {
+    "id": "benefit_fish_salmon_chinook_raw_🟢_A级**_—_**抗炎**：Resolvins/Protectins主动消退炎症",
+    "title": "Fish, salmon, chinook, raw - 🟢 A级** — **抗炎**：Resolvins/Protectins主动消退炎症",
+    "content": "[证据A级] ",
+    "tags": [
+      "鱼类与海鲜",
+      "🟢 A级** — **抗炎**：Resolvins/Protectins主动消退炎症",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 鱼类与海鲜"
+  },
+  {
+    "id": "benefit_fish_salmon_chinook_raw_🟡_B级**_—_**认知**：每周>1次鱼类降低痴呆风险20-30%",
+    "title": "Fish, salmon, chinook, raw - 🟡 B级** — **认知**：每周>1次鱼类降低痴呆风险20-30%",
+    "content": "[证据B级] ",
+    "tags": [
+      "鱼类与海鲜",
+      "🟡 B级** — **认知**：每周>1次鱼类降低痴呆风险20-30%",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 鱼类与海鲜"
+  },
+  {
+    "id": "benefit_fish_salmon_chinook_raw_🟢_A级**_—_**关节**：减轻类风湿关节炎症状",
+    "title": "Fish, salmon, chinook, raw - 🟢 A级** — **关节**：减轻类风湿关节炎症状",
+    "content": "[证据A级] ",
+    "tags": [
+      "鱼类与海鲜",
+      "🟢 A级** — **关节**：减轻类风湿关节炎症状",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 鱼类与海鲜"
+  },
+  {
+    "id": "food_fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone",
+    "title": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+    "content": "分类: 鱼类与海鲜\n每100g营养素: 能量: 871.0kcal\n活性成分 [优质蛋白质**]: 含量：24.6g/100g — 作用机制：肌肉合成与修复\n活性成分 [Omega-3(ALA)**]: 含量：1.5g/100g — 作用机制：抗炎类花生酸前体\n[证据A级] 🟢 A级** — **骨健康**：每100g含钙382mg: \n[证据A级] 🟢 A级** — **抗炎**：omega-3含量1.5g/100g: \n[证据B级] 🟡 B级** — **抗炎**：富含抗炎活性成分: ",
+    "tags": [
+      "抗炎",
+      "鱼类与海鲜"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 鱼类与海鲜"
+  },
+  {
+    "id": "benefit_fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone_🟢_A级**_—_**骨健康**：每100g含钙382mg",
+    "title": "Fish, sardine, Atlantic, canned in oil, drained solids with bone - 🟢 A级** — **骨健康**：每100g含钙382mg",
+    "content": "[证据A级] ",
+    "tags": [
+      "鱼类与海鲜",
+      "🟢 A级** — **骨健康**：每100g含钙382mg",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 鱼类与海鲜"
+  },
+  {
+    "id": "benefit_fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone_🟢_A级**_—_**抗炎**：omega-3含量1.5g/100g",
+    "title": "Fish, sardine, Atlantic, canned in oil, drained solids with bone - 🟢 A级** — **抗炎**：omega-3含量1.5g/100g",
+    "content": "[证据A级] ",
+    "tags": [
+      "鱼类与海鲜",
+      "🟢 A级** — **抗炎**：omega-3含量1.5g/100g",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "A",
+    "meta_source": "食材百科 - 鱼类与海鲜"
+  },
+  {
+    "id": "benefit_fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone_🟡_B级**_—_**抗炎**：富含抗炎活性成分",
+    "title": "Fish, sardine, Atlantic, canned in oil, drained solids with bone - 🟡 B级** — **抗炎**：富含抗炎活性成分",
+    "content": "[证据B级] ",
+    "tags": [
+      "鱼类与海鲜",
+      "🟡 B级** — **抗炎**：富含抗炎活性成分",
+      "抗炎"
+    ],
+    "category": "food",
+    "source": "NutriGuide食材百科",
+    "evidence_level": "B",
+    "meta_source": "食材百科 - 鱼类与海鲜"
+  }
+]

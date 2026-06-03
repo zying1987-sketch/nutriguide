@@ -1,0 +1,64 @@
+{
+  "id": "黑木耳，干",
+  "name": "黑木耳，干",
+  "category": "中式药食同源食材",
+  "tags": [],
+  "deep_analysis": true,
+  "nutrients": {},
+  "active_compounds": [
+    {
+      "name": "木耳多糖**",
+      "content_text": "含量：水溶性β-葡聚糖",
+      "mechanism": "作用机制：免疫调节;抑制血小板聚集"
+    },
+    {
+      "name": "铁**",
+      "content_text": "含量：干品5.9mg/100g",
+      "mechanism": "作用机制：血红素合成必需"
+    },
+    {
+      "name": "膳食纤维**",
+      "content_text": "含量：干品30-40%",
+      "mechanism": "作用机制：增加饱腹感,调节菌群"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "⚪ C级** — **心血管**：温和抗血栓作用",
+      "evidence_level": "C",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **补铁**：植物性铁良好来源",
+      "evidence_level": "B",
+      "description": ""
+    },
+    {
+      "text": "⚪ C级** — **肠道**：高纤维促进排便",
+      "evidence_level": "C",
+      "description": ""
+    }
+  ],
+  "daily_intake": "干品5-10g(泡发后50-100g)",
+  "cooking_tips": [
+    "冷水浸泡2-4h(勿用热水)",
+    "严禁隔夜泡发(椰毒假单胞菌→米酵菌酸中毒)",
+    "凉拌:焯水+醋/黄瓜/蒜泥",
+    "炒菜:木耳炒蛋/炒肉"
+  ],
+  "synergy": [
+    "醋(促进铁吸收)",
+    "青椒/番茄(VC提升铁利用)",
+    "鸡蛋(动物蛋白+植物铁)",
+    "山药(粘蛋白+木耳多糖)"
+  ],
+  "contraindications": [
+    "服用抗凝药者注意(食物量通常不造成临床风险)",
+    "术前1周暂停",
+    "选择干燥无异味产品"
+  ],
+  "tcm": {
+    "meridian": "** 归经：归胃、大肠经"
+  },
+  "source": ""
+}

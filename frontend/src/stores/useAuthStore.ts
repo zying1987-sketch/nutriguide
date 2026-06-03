@@ -6,6 +6,7 @@ interface User {
   email: string
   name: string
   role: 'user' | 'admin'
+  credits?: number
 }
 
 interface AuthState {
@@ -15,7 +16,7 @@ interface AuthState {
 
   // Actions
   login: (email: string, password: string) => Promise<void>
-  register: (email: string, password: string, name?: string) => Promise<void>
+  setUser: (user: User, token: string) => void
   logout: () => void
   loadUser: () => Promise<void>
 }
@@ -31,10 +32,9 @@ export const useAuthStore = create<AuthState>((set) => ({
     set({ user: data.user, token: data.token })
   },
 
-  register: async (email, password, name) => {
-    const data = await api.register({ email, password, name })
-    setToken(data.token)
-    set({ user: data.user, token: data.token })
+  setUser: (user, token) => {
+    setToken(token)
+    set({ user, token })
   },
 
   logout: () => {

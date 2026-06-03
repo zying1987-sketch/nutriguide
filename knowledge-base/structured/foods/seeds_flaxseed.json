@@ -1,0 +1,74 @@
+{
+  "id": "seeds_flaxseed",
+  "name": "Seeds, flaxseed",
+  "category": "坚果与种子",
+  "tags": [
+    "女性激素健康"
+  ],
+  "deep_analysis": true,
+  "nutrients": {
+    "能量": {
+      "value": 2234.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [
+    {
+      "name": "木脂素(SDG)**",
+      "content_text": "含量：每100g含300mg(自然界最高)",
+      "mechanism": "作用机制：肠道菌群→肠内酯,SERM样作用"
+    },
+    {
+      "name": "ALA**",
+      "content_text": "含量：每100g约22g",
+      "mechanism": "作用机制：植物omega-3最高来源,抑制COX-2/5-LOX"
+    },
+    {
+      "name": "粘液纤维**",
+      "content_text": "含量：6-12%",
+      "mechanism": "作用机制：形成凝胶延缓胃排空,包裹胆汁酸"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "🟡 B级** — **激素平衡**：木脂素SERM:雌激素高时拮抗,低时弱激活",
+      "evidence_level": "B",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **更年期**：40g/d亚麻籽粉减轻潮热频率",
+      "evidence_level": "B",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **心血管**：降低总胆固醇和LDL-C 6-11%",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **肠道**：粘液纤维促进排便规律",
+      "evidence_level": "A",
+      "description": ""
+    }
+  ],
+  "daily_intake": "亚麻籽粉15-30g/d(约1-2汤匙),必须研磨后食用!",
+  "cooking_tips": [
+    "必须研磨成粉后食用!整粒几乎原样排出",
+    "加入燕麦/酸奶/冰沙/面团",
+    "不宜高温烘烤(ALA氧化)",
+    "开封后密封冷藏,2周内用完"
+  ],
+  "synergy": [
+    "VC丰富食物(稳定ALA)",
+    "豆制品(木脂素+大豆异黄酮)",
+    "充分饮水(粘液纤维膨胀)"
+  ],
+  "contraindications": [
+    "肠道梗阻/狭窄禁用",
+    "甲减者与甲状腺素药物间隔>2h",
+    "孕期<30g/d安全",
+    "购买棕色或金色亚麻籽均可"
+  ],
+  "tcm": {},
+  "source": ""
+}

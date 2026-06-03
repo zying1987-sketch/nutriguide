@@ -1,0 +1,63 @@
+{
+  "id": "马齿苋，生",
+  "name": "马齿苋，生",
+  "category": "中式药食同源食材",
+  "tags": [],
+  "deep_analysis": true,
+  "nutrients": {},
+  "active_compounds": [
+    {
+      "name": "ALA**",
+      "content_text": "含量：陆生植物最高(~350-400mg/100g)",
+      "mechanism": "作用机制：植物omega-3,抗炎"
+    },
+    {
+      "name": "去甲肾上腺素**",
+      "content_text": "含量：每100g约2.5mg",
+      "mechanism": "作用机制：调节血管张力"
+    },
+    {
+      "name": "谷胱甘肽**",
+      "content_text": "含量：三肽抗氧化剂",
+      "mechanism": "作用机制：清除自由基,肝脏解毒辅因子"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "⚪ C级** — **抗炎**：omega-3+多酚双重抗炎",
+      "evidence_level": "C",
+      "description": ""
+    },
+    {
+      "text": "⚪ C级** — **抗菌**：抑制痢疾杆菌/大肠杆菌(体外)",
+      "evidence_level": "C",
+      "description": ""
+    },
+    {
+      "text": "⚪ C级** — **血糖**：动物实验显示降糖作用",
+      "evidence_level": "C",
+      "description": ""
+    }
+  ],
+  "daily_intake": "鲜马齿苋100-150g/d",
+  "cooking_tips": [
+    "必须焯水(含草酸+硝酸盐)",
+    "凉拌:焯水后+蒜泥+醋+香油",
+    "炒蛋:切碎+鸡蛋快炒",
+    "口感微酸滑腻"
+  ],
+  "synergy": [
+    "大蒜(双重抗菌)",
+    "醋(提升矿物质吸收)",
+    "鸡蛋/瘦肉(蛋白质补充)"
+  ],
+  "contraindications": [
+    "脾胃虚寒腹泻者慎用",
+    "大剂量安全性未知",
+    "肾结石草酸钙型限量"
+  ],
+  "tcm": {
+    "meridian": "** 归经：归肝、大肠经"
+  },
+  "source": ""
+}

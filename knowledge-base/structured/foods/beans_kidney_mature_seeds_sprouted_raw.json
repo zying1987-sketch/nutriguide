@@ -1,0 +1,30 @@
+{
+  "id": "beans_kidney_mature_seeds_sprouted_raw",
+  "name": "Beans, kidney, mature seeds, sprouted, raw",
+  "category": "蔬菜与蔬菜制品",
+  "tags": [],
+  "deep_analysis": false,
+  "nutrients": {
+    "能量": {
+      "value": 121.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [],
+  "health_benefits": [
+    {
+      "text": "🟢 A级** — **免疫**：每100g含维C39mg",
+      "evidence_level": "A",
+      "description": ""
+    }
+  ],
+  "daily_intake": "100-300g/d",
+  "cooking_tips": [
+    "蒸制或快炒保留营养素",
+    "避免长时间水煮"
+  ],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

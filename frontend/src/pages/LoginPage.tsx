@@ -1,5 +1,6 @@
 import { useState, FormEvent } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import { useAuthStore } from '../stores/useAuthStore'
 import { LogIn, Mail, Lock, Eye, EyeOff, AlertCircle } from 'lucide-react'
 
@@ -12,6 +13,7 @@ export default function LoginPage() {
 
   const login = useAuthStore((s) => s.login)
   const navigate = useNavigate()
+  const { t } = useTranslation()
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault()
@@ -22,7 +24,7 @@ export default function LoginPage() {
       await login(email.trim(), password)
       navigate('/')
     } catch (err: any) {
-      setError(err.message || '登录失败')
+      setError(err.message || t('login.submit'))
     } finally {
       setSubmitting(false)
     }
@@ -36,8 +38,8 @@ export default function LoginPage() {
           <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-[#7A8B6F]/10 mb-4">
             <LogIn className="w-6 h-6 text-[#7A8B6F]" />
           </div>
-          <h1 className="text-3xl serif font-semibold text-[#1A1A1A] mb-2">欢迎回来</h1>
-          <p className="text-[#6B6560] text-sm">登录以查看你的营养方案</p>
+          <h1 className="text-3xl serif font-semibold text-[#1A1A1A] mb-2">{t('login.welcome')}</h1>
+          <p className="text-[#6B6560] text-sm">{t('login.welcomeDesc')}</p>
         </div>
 
         {/* Card */}
@@ -51,7 +53,7 @@ export default function LoginPage() {
 
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
-              <label className="block text-xs font-medium text-[#6B6560] mb-1.5">邮箱</label>
+              <label className="block text-xs font-medium text-[#6B6560] mb-1.5">{t('login.email')}</label>
               <div className="relative">
                 <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#C4BFB8]" />
                 <input
@@ -66,14 +68,14 @@ export default function LoginPage() {
             </div>
 
             <div>
-              <label className="block text-xs font-medium text-[#6B6560] mb-1.5">密码</label>
+              <label className="block text-xs font-medium text-[#6B6560] mb-1.5">{t('login.password')}</label>
               <div className="relative">
                 <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#C4BFB8]" />
                 <input
                   type={showPassword ? 'text' : 'password'}
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  placeholder="至少6位"
+                  placeholder={t('login.passwordPlaceholder')}
                   required
                   className="w-full pl-10 pr-12 py-3 bg-[#F8F6F3] border border-[#E5E0D8] rounded-xl text-sm focus:outline-none focus:border-[#7A8B6F] focus:ring-2 focus:ring-[#7A8B6F]/20 transition-all"
                 />
@@ -96,15 +98,15 @@ export default function LoginPage() {
               disabled={submitting}
               className="w-full py-3 bg-[#1A1A1A] text-white rounded-xl font-medium text-sm hover:bg-[#333] disabled:opacity-50 disabled:cursor-not-allowed transition-all mt-2"
             >
-              {submitting ? '登录中...' : '登录'}
+              {submitting ? t('login.submitting') : t('login.submit')}
             </button>
           </form>
         </div>
 
         <p className="text-center text-sm text-[#6B6560] mt-6">
-          还没有账号？{' '}
+          {t('login.noAccount')}{' '}
           <Link to="/register" className="text-[#7A8B6F] font-medium hover:underline">
-            立即注册
+            {t('login.registerLink')}
           </Link>
         </p>
       </div>

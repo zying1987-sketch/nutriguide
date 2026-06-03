@@ -1,0 +1,176 @@
+{
+  "vitamin_a": {
+    "mainFunction": "维持视力、皮肤黏膜完整、免疫功能",
+    "overdoseRisk": "肝损伤、骨质疏松、胎儿畸形",
+    "sources": ["动物肝脏", "蛋黄", "深绿色叶菜", "胡萝卜", "南瓜"],
+    "specialNotes": "一般不缺，避免长期高剂量补充",
+    "supplementAdvice": "普通杂食者无需额外补充。孕妇需遵医嘱，不可超量（UL 3000μg RAE）。夜盲症或严重缺乏者需医疗监督下补充。",
+    "atRiskGroups": ["孕妇", "哺乳期", "儿童", "夜盲症", "长期腹泻者"]
+  },
+  "vitamin_c": {
+    "mainFunction": "抗氧化、促进胶原合成、增强免疫",
+    "overdoseRisk": "腹泻、肾结石（长期大剂量）",
+    "sources": ["猕猴桃", "柑橘", "草莓", "青椒", "西兰花"],
+    "supplementAdvice": "普通饮食均衡者无需额外补充。吸烟者、压力大、易感冒人群可考虑每日100-200mg；高剂量（>1000mg）可能引起腹泻。",
+    "atRiskGroups": ["吸烟者", "压力大", "术后", "易感染人群"]
+  },
+  "vitamin_d": {
+    "mainFunction": "促进钙吸收、骨骼健康、免疫调节",
+    "overdoseRisk": "高钙血症、肾钙化",
+    "sources": ["阳光照射", "深海鱼", "蛋黄", "强化奶", "蘑菇（晒过）"],
+    "specialNotes": "缺乏极其普遍，建议检测25(OH)D水平",
+    "supplementAdvice": "⚠️ 绝大多数日照不足者需要额外补充。建议每日400-2000 IU，冬季、高纬度、深色皮肤、室内工作者务必补充。",
+    "atRiskGroups": ["婴幼儿", "老年人", "孕妇", "深色皮肤", "长期室内工作", "肥胖者"]
+  },
+  "vitamin_e": {
+    "mainFunction": "抗氧化、保护细胞膜",
+    "overdoseRisk": "出血倾向（抗凝血）",
+    "sources": ["坚果", "种子", "植物油", "牛油果", "菠菜"],
+    "supplementAdvice": "普通饮食（坚果、植物油）通常充足，无需额外补充。高剂量（>400 IU）可能增加出血风险。",
+    "atRiskGroups": ["脂肪吸收不良", "早产儿", "高脂血症"]
+  },
+  "vitamin_k": {
+    "mainFunction": "凝血、骨骼代谢",
+    "overdoseRisk": "大剂量合成K3可致溶血",
+    "sources": ["深绿色叶菜", "纳豆", "西兰花", "菜籽油"],
+    "supplementAdvice": "普通饮食（绿叶菜）通常充足，无需额外补充。新生儿需注射K1防出血。骨质疏松高风险者可考虑补充K2（MK-7型）。",
+    "atRiskGroups": ["新生儿", "长期使用抗生素", "肝病", "吸收障碍者"]
+  },
+  "vitamin_b1": {
+    "mainFunction": "能量代谢、神经功能",
+    "overdoseRisk": "罕见，过量排出",
+    "sources": ["全谷物", "豆类", "瘦肉", "坚果", "酵母"],
+    "supplementAdvice": "普通饮食（全谷物、瘦肉）通常充足。酗酒者、长期吃精白米面者需注意补充B1。",
+    "atRiskGroups": ["酗酒者", "甲亢", "长期吃精白米面", "孕妇"]
+  },
+  "vitamin_b2": {
+    "mainFunction": "能量代谢、黏膜健康",
+    "overdoseRisk": "尿黄（无害）",
+    "sources": ["奶制品", "蛋", "瘦肉", "绿叶蔬菜", "豆类"],
+    "supplementAdvice": "普通饮食通常充足。素食者、孕妇、偏食儿童需注意。补充剂中B2通常包含在B族复合维生素中。",
+    "atRiskGroups": ["素食者", "孕妇", "偏食儿童"]
+  },
+  "vitamin_b3": {
+    "mainFunction": "能量代谢、皮肤神经健康",
+    "overdoseRisk": "皮肤潮红、肝损伤",
+    "sources": ["禽肉", "鱼", "花生", "全谷物", "蘑菇"],
+    "supplementAdvice": "普通饮食通常充足。糙皮病患者需医疗剂量补充。高剂量（>35mg）可能引起皮肤潮红。",
+    "atRiskGroups": ["糙皮病", "腹泻", "酗酒者"]
+  },
+  "vitamin_b6": {
+    "mainFunction": "氨基酸代谢、神经递质合成、造血",
+    "overdoseRisk": "神经毒性（可逆）",
+    "sources": ["禽肉", "鱼", "土豆", "香蕉", "鹰嘴豆"],
+    "specialNotes": "可缓解孕吐，B6+镁协同",
+    "supplementAdvice": "普通杂食者无需额外补充。孕吐者可考虑B6+生姜方案（10-25mg/天）。",
+    "atRiskGroups": ["孕妇", "口服避孕药者", "异烟肼使用者"]
+  },
+  "vitamin_b12": {
+    "mainFunction": "造血、神经鞘形成",
+    "overdoseRisk": "极低毒性",
+    "sources": ["动物肝脏", "鱼", "蛋", "奶", "强化食品"],
+    "specialNotes": "仅存在于动物性食物，素食者必须补充",
+    "supplementAdvice": "⚠️ 严格素食者必须补充（25-100μg/天）。老年人（>50岁）胃酸减少导致吸收差，建议补充。",
+    "atRiskGroups": ["严格素食者", "老年人（吸收差）", "胃切除者"]
+  },
+  "folate": {
+    "mainFunction": "DNA合成、预防胎儿神经管畸形",
+    "overdoseRisk": "掩盖B12缺乏症状",
+    "sources": ["深绿色叶菜", "豆类", "动物肝脏", "强化谷物", "橙汁"],
+    "specialNotes": "备孕至孕早期每日补充400-800μg",
+    "supplementAdvice": "⚠️ 备孕及孕早期女性必须补充（400-800μg DFE/天），预防胎儿神经管畸形。",
+    "atRiskGroups": ["备孕及孕妇", "巨幼细胞贫血", "酗酒者"]
+  },
+  "biotin": {
+    "mainFunction": "脂肪糖代谢、皮肤头发健康",
+    "overdoseRisk": "罕见",
+    "sources": ["蛋黄", "坚果", "种子", "三文鱼", "牛油果"],
+    "supplementAdvice": "普通饮食（蛋、肝脏、坚果）通常充足，无需额外补充。",
+    "atRiskGroups": ["生吃蛋清者", "长期肠外营养", "孕妇"]
+  },
+  "pantothenic_acid": {
+    "mainFunction": "能量代谢、激素合成",
+    "overdoseRisk": "腹泻",
+    "sources": ["几乎所有食物", "全谷物", "牛油果", "蘑菇", "蛋"],
+    "supplementAdvice": "几乎存在于所有食物中，极难缺乏。无需额外补充。",
+    "atRiskGroups": ["很少缺乏"]
+  },
+  "calcium": {
+    "mainFunction": "骨骼牙齿、神经肌肉传导、凝血",
+    "overdoseRisk": "肾结石、血管钙化、便秘",
+    "sources": ["奶制品", "豆腐", "深绿色叶菜", "芝麻", "沙丁鱼"],
+    "specialNotes": "40岁以上女性每日建议1000-1200mg",
+    "supplementAdvice": "常喝奶/吃豆制品者无需额外补充。奶摄入不足者建议补充柠檬酸钙500-600mg/天，配合维生素D。",
+    "atRiskGroups": ["儿童", "青少年", "孕妇", "老年人", "素食者"]
+  },
+  "iron": {
+    "mainFunction": "造血、携氧",
+    "overdoseRisk": "肝损伤、便秘、心脏损伤",
+    "sources": ["红肉", "动物肝脏", "蛤蜊", "豆类", "菠菜"],
+    "specialNotes": "动物性铁（血红素铁）吸收率远高于植物铁；维C促进铁吸收",
+    "supplementAdvice": "⚠️ 月经期女性、孕妇、素食者易缺乏。确诊缺铁性贫血者需补充元素铁20-30mg/天（医嘱）。",
+    "atRiskGroups": ["月经期女性", "孕妇", "婴幼儿", "素食者", "贫血者"]
+  },
+  "zinc": {
+    "mainFunction": "免疫、伤口愈合、味觉、生殖",
+    "overdoseRisk": "铜缺乏、免疫功能下降",
+    "sources": ["牡蛎", "红肉", "南瓜籽", "腰果", "鹰嘴豆"],
+    "supplementAdvice": "⚠️ 素食者吸收率低，需要额外注意。普通杂食者无需额外补充。补充剂建议低剂量（8-11mg/天）。",
+    "atRiskGroups": ["素食者", "孕妇", "儿童", "腹泻者", "老年人"]
+  },
+  "magnesium": {
+    "mainFunction": "神经肌肉、心律、骨骼、血糖调节",
+    "overdoseRisk": "腹泻、低血压、呼吸抑制",
+    "sources": ["南瓜籽", "杏仁", "菠菜", "黑巧克力", "牛油果"],
+    "specialNotes": "甘氨酸镁/柠檬酸镁吸收好；氧化镁易腹泻",
+    "supplementAdvice": "压力大、糖尿病、酗酒者需注意。补充剂选甘氨酸镁或柠檬酸镁（吸收好），避免氧化镁（易腹泻）。",
+    "atRiskGroups": ["压力大", "糖尿病患者", "酗酒者", "使用利尿剂者"]
+  },
+  "selenium": {
+    "mainFunction": "抗氧化、甲状腺功能",
+    "overdoseRisk": "脱发、指甲变形、蒜味呼吸",
+    "sources": ["巴西坚果", "海鲜", "蛋", "瘦肉", "全谷物"],
+    "specialNotes": "每天1-2颗巴西坚果即可满足需求",
+    "supplementAdvice": "低硒地区居民需注意。普通饮食（巴西坚果1-2颗/天）即可满足。极高剂量（>400μg）有毒。",
+    "atRiskGroups": ["低硒地区居民", "克山病", "甲状腺疾病"]
+  },
+  "iodine": {
+    "mainFunction": "甲状腺激素合成",
+    "overdoseRisk": "甲亢/甲减",
+    "sources": ["碘盐", "海带", "紫菜", "海鲜", "蛋"],
+    "specialNotes": "桥本患者需谨慎补碘，避免高碘食物",
+    "supplementAdvice": "使用加碘盐者通常充足。⚠️ 孕妇、哺乳期需增加至200-250μg/天。补充剂需医嘱。",
+    "atRiskGroups": ["孕妇", "哺乳期", "甲状腺疾病患者（需医嘱）"]
+  },
+  "potassium": {
+    "mainFunction": "血压调节、神经肌肉传导",
+    "overdoseRisk": "高钾血症（肾功能不全者）",
+    "sources": ["香蕉", "土豆", "牛油果", "菠菜", "椰子水"],
+    "supplementAdvice": "普通饮食（蔬菜水果）通常充足，无需额外补充。肾功能不全者避免高钾补充剂。",
+    "atRiskGroups": ["高血压患者", "大量出汗者", "使用利尿剂者"]
+  },
+  "omega3": {
+    "mainFunction": "抗炎、心血管保护、脑发育",
+    "overdoseRisk": "抗凝血（极高剂量）",
+    "sources": ["深海鱼（三文鱼、沙丁鱼）", "亚麻籽", "奇亚籽", "核桃", "藻油"],
+    "specialNotes": "素食者可用藻油DHA替代",
+    "supplementAdvice": "⚠️ 很少吃深海鱼（<2次/周）者建议补充鱼油或藻油DHA 200-300mg/天。孕妇、心血管高危者强烈建议。",
+    "atRiskGroups": ["孕妇", "婴幼儿", "老年人", "高血脂", "抑郁倾向"]
+  },
+  "fiber": {
+    "mainFunction": "肠道健康、血糖血脂控制",
+    "overdoseRisk": "腹胀、影响矿物质吸收（过量）",
+    "sources": ["全谷物", "豆类", "蔬菜", "水果", "坚果"],
+    "specialNotes": "IBS-D患者宜选可溶性纤维；IBS-C增加不可溶性纤维",
+    "supplementAdvice": "便秘者、肥胖、糖尿病、高血脂者建议增加至35g/天。逐渐增加用量，配合足量饮水。",
+    "atRiskGroups": ["便秘者", "肥胖", "糖尿病", "高血脂"]
+  },
+  "protein": {
+    "mainFunction": "组织修复、酶/激素合成",
+    "overdoseRisk": "肾损伤（已有肾病者）",
+    "sources": ["瘦肉", "鱼", "蛋", "奶", "豆类", "豆制品"],
+    "specialNotes": "健身增肌期建议1.6-2.2g/kg体重",
+    "supplementAdvice": "普通饮食通常充足。健身增肌期、术后、老年人、素食者需注意补充优质蛋白。",
+    "atRiskGroups": ["健身人群", "术后", "老年人", "素食者"]
+  }
+}

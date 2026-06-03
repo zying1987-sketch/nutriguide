@@ -1,0 +1,43 @@
+{
+  "id": "seaweed_agar_raw",
+  "name": "Seaweed, agar, raw",
+  "category": "蔬菜与蔬菜制品",
+  "tags": [
+    "女性激素健康"
+  ],
+  "deep_analysis": false,
+  "nutrients": {
+    "能量": {
+      "value": 109.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [
+    {
+      "name": "镁**",
+      "content_text": "含量：67mg/100g",
+      "mechanism": "作用机制：300+酶促反应辅因子"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "🟢 A级** — **神经肌肉**：每100g含镁67mg",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+      "evidence_level": "B",
+      "description": ""
+    }
+  ],
+  "daily_intake": "100-300g/d",
+  "cooking_tips": [
+    "蒸制或快炒保留营养素",
+    "避免长时间水煮"
+  ],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

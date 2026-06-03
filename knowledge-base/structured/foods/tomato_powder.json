@@ -1,0 +1,73 @@
+{
+  "id": "tomato_powder",
+  "name": "Tomato powder",
+  "category": "蔬菜与蔬菜制品",
+  "tags": [
+    "基础营养"
+  ],
+  "deep_analysis": true,
+  "nutrients": {
+    "能量": {
+      "value": 1263.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [
+    {
+      "name": "膳食纤维**",
+      "content_text": "含量：16.5g/100g",
+      "mechanism": "作用机制：促进肠蠕动,调节菌群"
+    },
+    {
+      "name": "镁**",
+      "content_text": "含量：178mg/100g",
+      "mechanism": "作用机制：300+酶促反应辅因子"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "🟢 A级** — **肠道健康**：高纤维(16.5g/100g)促进排便和菌群平衡",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **骨健康**：每100g含钙166mg",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **补铁**：每100g含铁4.6mg",
+      "evidence_level": "B",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **神经肌肉**：每100g含镁178mg",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **血压调节**：高钾(1927mg/100g),有助钠钾平衡",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **免疫**：每100g含维C117mg",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **综合营养**：全面营养支持",
+      "evidence_level": "A",
+      "description": ""
+    }
+  ],
+  "daily_intake": "100-300g/d",
+  "cooking_tips": [
+    "蒸制或快炒保留营养素",
+    "避免长时间水煮"
+  ],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

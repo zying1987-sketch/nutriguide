@@ -1,0 +1,68 @@
+{
+  "id": "oil_corn_peanut_and_olive",
+  "name": "Oil, corn, peanut, and olive",
+  "category": "油脂类",
+  "tags": [
+    "抗炎"
+  ],
+  "deep_analysis": true,
+  "nutrients": {
+    "能量": {
+      "value": 3699.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [
+    {
+      "name": "橄榄油刺激醛(Oleocanthal)**",
+      "content_text": "含量：EVOO独有",
+      "mechanism": "作用机制：COX-1/COX-2非选择性抑制(50ml≈10%布洛芬剂量)"
+    },
+    {
+      "name": "羟基酪醇**",
+      "content_text": "含量：多酚类",
+      "mechanism": "作用机制：超强抗氧化,保护LDL免受氧化"
+    },
+    {
+      "name": "单不饱和脂肪酸(MUFA)**",
+      "content_text": "含量：70-80%",
+      "mechanism": "作用机制：替代饱和脂肪改善血脂"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "🟢 A级** — **心血管**：降低心血管事件30%",
+      "evidence_level": "A",
+      "reference": "参考文献：PREDIMED RCT(n=7447,NEJM 2018)",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **抗炎**：抑制COX通路,长期每天摄入累积效应显著",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **认知**：EVOO组认知功能优于对照组",
+      "evidence_level": "B",
+      "description": ""
+    }
+  ],
+  "daily_intake": "特级初榨橄榄油30-50ml/d(约2-3汤匙)",
+  "cooking_tips": [
+    "EVOO适合凉拌、低温煎炒(<180°C)",
+    "不适合高温油炸(多酚破坏)",
+    "出锅淋油最大化多酚摄入"
+  ],
+  "synergy": [
+    "番茄(促进番茄红素吸收3-4倍)",
+    "绿叶蔬菜(促进叶黄素/β-胡萝卜素)",
+    "醋/柠檬(经典沙拉酱)"
+  ],
+  "contraindications": [
+    "每日>60ml可能增加热量过多",
+    "胆囊切除后大量食用可能腹泻",
+    "市售EVOO掺假率高达70%,选择深色玻璃瓶"
+  ],
+  "tcm": {},
+  "source": ""
+}

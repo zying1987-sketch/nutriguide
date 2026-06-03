@@ -1,0 +1,76 @@
+{
+  "id": "nuts_walnuts_english",
+  "name": "Nuts, walnuts, english",
+  "category": "坚果与种子",
+  "tags": [
+    "抗炎"
+  ],
+  "deep_analysis": true,
+  "nutrients": {
+    "能量": {
+      "value": 2738.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [
+    {
+      "name": "α-亚麻酸(ALA)**",
+      "content_text": "含量：每100g约9g",
+      "mechanism": "作用机制：植物omega-3最高来源之一,转化为EPA/DHA"
+    },
+    {
+      "name": "鞣花酸**",
+      "content_text": "含量：多酚类",
+      "mechanism": "作用机制：肠道菌群代谢为尿石素,激活线粒体自噬"
+    },
+    {
+      "name": "褪黑素**",
+      "content_text": "含量：约3.5ng/g",
+      "mechanism": "作用机制：调节昼夜节律,抗氧化"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "🟢 A级** — **心血管**：降低LDL-C 5-10%",
+      "evidence_level": "A",
+      "reference": "参考文献：PREDIMED研究(n=7447)",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **认知**：改善老年人认知功能",
+      "evidence_level": "B",
+      "reference": "参考文献：WAHA研究(n=708,2年RCT)",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **抗炎**：降低CRP、IL-6",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **肠道**：增加产丁酸菌丰度",
+      "evidence_level": "B",
+      "description": ""
+    }
+  ],
+  "daily_intake": "30-60g/d(约6-12个,一把)",
+  "cooking_tips": [
+    "生吃最佳(ALA和鞣花酸热敏)",
+    "烘焙<150°C,<15分钟",
+    "浸泡4-8小时去单宁",
+    "可研磨加入燕麦/酸奶/沙拉"
+  ],
+  "synergy": [
+    "蓝莓(多酚+ALA协同)",
+    "希腊酸奶(蛋白质稳定血糖)",
+    "绿叶蔬菜(脂溶性维生素)"
+  ],
+  "contraindications": [
+    "坚果过敏者严格避免",
+    "肾结石草酸钙型需限量",
+    "注意热量(654kcal/100g)",
+    "冷藏密封保存(ALA易氧化)"
+  ],
+  "tcm": {},
+  "source": ""
+}

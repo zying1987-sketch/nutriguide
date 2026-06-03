@@ -1,0 +1,40 @@
+{
+  "id": "oil_avocado",
+  "name": "Oil, avocado",
+  "category": "油脂类",
+  "tags": [
+    "女性激素健康"
+  ],
+  "deep_analysis": false,
+  "nutrients": {
+    "能量": {
+      "value": 3699.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [
+    {
+      "name": "Omega-3(ALA)**",
+      "content_text": "含量：1.0g/100g",
+      "mechanism": "作用机制：抗炎类花生酸前体"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "🟢 A级** — **抗炎**：omega-3含量1.0g/100g",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+      "evidence_level": "B",
+      "description": ""
+    }
+  ],
+  "daily_intake": "",
+  "cooking_tips": [],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

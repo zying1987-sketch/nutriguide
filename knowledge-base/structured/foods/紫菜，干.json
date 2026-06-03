@@ -1,0 +1,34 @@
+{
+  "id": "紫菜，干",
+  "name": "紫菜，干",
+  "category": "中式药食同源食材",
+  "tags": [],
+  "deep_analysis": false,
+  "nutrients": {},
+  "active_compounds": [
+    {
+      "name": "复合活性成分**",
+      "content_text": "含量：传统药食同源食材",
+      "mechanism": "作用机制：多靶点协同"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "⚪ C级(传统知识)** — **传统功效**：软坚散结,清热化痰",
+      "evidence_level": "C",
+      "description": ""
+    }
+  ],
+  "daily_intake": "按传统用法适量食用",
+  "cooking_tips": [
+    "按传统烹饪方法"
+  ],
+  "synergy": [],
+  "contraindications": [
+    "参照中医体质辨证食用"
+  ],
+  "tcm": {
+    "meridian": "** 归经：归肺、肾经"
+  },
+  "source": ""
+}

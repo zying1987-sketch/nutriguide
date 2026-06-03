@@ -1,0 +1,942 @@
+[
+  {
+    "id": "chunk_spec_001",
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "page": 2,
+      "chapter": "Chapter 1: Modern Health Paradigms"
+    },
+    "category": "diet_principle",
+    "subcategory": "anti_inflammatory",
+    "raw_text": "Seven out of every ten deaths in the US are attributed to chronic diseases such as cancer, diabetes, and cardiovascular disease, all of which have a direct nutritional connection. A randomized controlled trial published in JAMA (2003) found that adding soy protein, viscous fiber, and nuts can be as effective for lowering cholesterol as adding a prescription statin medication to a low-saturated fat diet. Furthermore, a New England Journal of Medicine study (2002) showed that diet and lifestyle changes decreased diabetes risk by 58%, compared to only 31% for metformin. Participants following lifestyle changes also had a significant reduction in C-reactive protein (CRP), an indirect marker of subclinical inflammation.",
+    "claim_type": "research_finding",
+    "tags": [
+      "chronic_disease",
+      "diet_vs_medication",
+      "CRP",
+      "diabetes_prevention",
+      "cholesterol"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_002",
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "page": 6,
+      "chapter": "Chapter 1: Modern Health Paradigms"
+    },
+    "category": "diet_principle",
+    "subcategory": "anti_inflammatory",
+    "raw_text": "According to Henry Lindlahr, M.D., diseases are often the result of nutrient deficiency, resulting in delivery by blood and lymph of less than adequate nutrients to fuel cell metabolism. If the diet consists of an excess of low-quality proteins, carbohydrates, and fats, tissues will inevitably be clogged with 'morbid matter.' This toxin accumulation can interfere with vital cellular functions, becoming pathogenic. The buildup of toxins supports cellular degeneration, moving the system toward disease rather than supporting cellular regeneration needed for healing.",
+    "claim_type": "fact",
+    "tags": [
+      "terrain_theory",
+      "toxin_accumulation",
+      "cellular_metabolism",
+      "disease_origin",
+      "blood_lymph"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_003",
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "page": 7,
+      "chapter": "Chapter 1: Modern Health Paradigms"
+    },
+    "category": "diet_principle",
+    "subcategory": "anti_inflammatory",
+    "raw_text": "The terrain theory states that disease is only able to affect a body that is susceptible. Dr. Rene Dubos, renowned microbiologist at the Rockefeller Institute, stated: 'Viruses and bacteria are not the cause of the disease; there is something else. Most human beings carry throughout life a variety of microbial agents potentially pathogenic for them; only when something happens which upsets the equilibrium between host and parasite does infection develop into disease.' The body's terrain determines susceptibility based on diet, lifestyle, genetic history, emotional stress, environmental toxin overload, and physical activity.",
+    "claim_type": "fact",
+    "tags": [
+      "terrain_theory",
+      "germ_theory_critique",
+      "host_resistance",
+      "disease_susceptibility",
+      "immune_function"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_004",
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "page": 13,
+      "chapter": "Chapter 2: Inflammation: What's the Big Deal?"
+    },
+    "category": "clinical",
+    "subcategory": "anti_inflammatory",
+    "raw_text": "Three families of prostaglandins control inflammation, fever, tissue swelling, and allergies: PGE1 reduces allergies, prevents inflammation, increases stomach mucous production, decreases blood pressure, improves nerve function, and promotes immune response. PGE2 stimulates allergy response, promotes inflammation, increases platelet aggregation, increases smooth-muscle contraction, and suppresses immune function. PGE3 blocks release of proinflammatory PGE2, promotes immune function, decreases platelet aggregation, increases HDL cholesterol, decreases triglycerides, and inhibits inflammation. In simple terms, PGE1 and PGE3 are the 'good' prostaglandins and PGE2 is the 'bad' proinflammatory prostaglandin.",
+    "claim_type": "fact",
+    "tags": [
+      "prostaglandins",
+      "PGE1",
+      "PGE2",
+      "PGE3",
+      "inflammatory_cascade",
+      "fatty_acids"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_005",
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "page": 14,
+      "chapter": "Chapter 2: Inflammation: What's the Big Deal?"
+    },
+    "category": "food",
+    "subcategory": "anti_inflammatory",
+    "raw_text": "Dietary fatty acids directly influence prostaglandin production: Linoleic acid (from safflower oil, sunflower oil and seeds, sesame oil and seeds) is converted into PGE1. Arachidonic acid (from meats, dairy products) is converted into PGE2. Alpha-linolenic acid (from pumpkin seeds, flaxseeds, walnuts, soybeans) is converted into PGE3. EPA and DHA promote the PGE3 pathway and are found in cold-water fish such as salmon, mackerel, sardines, and trout. Including plenty of nuts, seeds, and cold-water fish naturally inhibits inflammation by increasing PGE1 levels, which in turn inhibits PGE2 formation.",
+    "claim_type": "guideline",
+    "tags": [
+      "omega-3",
+      "omega-6",
+      "arachidonic_acid",
+      "EPA",
+      "DHA",
+      "ALA",
+      "fatty_acid_pathways"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_006",
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "page": 18,
+      "chapter": "Chapter 2: Inflammation: What's the Big Deal?"
+    },
+    "category": "clinical",
+    "subcategory": "anti_inflammatory",
+    "raw_text": "Chronic pain conditions like fibromyalgia are intimately connected to inflammation and sleep disruption. 95% of serotonin is produced within the gastrointestinal tract. When fibromyalgia sufferers adopt an anti-inflammatory diet, it decreases the toxic load on the digestive system, promotes GI tract health, and decreases inflammatory response. A better-functioning GI tract improves serotonin secretion, which in turn improves sleep and mood. As sleep and mood improve, the immune system is better able to perform detoxification and repair damaged tissue at night. When inflammation is reduced via dietary changes, tissues heal adequately, sleep improves, and pain lessens.",
+    "claim_type": "research_finding",
+    "tags": [
+      "serotonin",
+      "gut-brain_axis",
+      "fibromyalgia",
+      "sleep",
+      "GI_tract",
+      "pain_management"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_007",
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "page": 28,
+      "chapter": "Chapter 3: The Importance of Diet - Foods That Contribute to Inflammation"
+    },
+    "category": "food",
+    "subcategory": "anti_inflammatory",
+    "raw_text": "Foods to AVOID on the anti-inflammation diet: all wheat products, dairy products, potatoes, tomatoes, corn, sugar, citrus fruits, pork, commercial (nonorganic) eggs, shellfish, peanuts and peanut butter, coffee, alcohol, juice, caffeinated teas, soda, anything containing hydrogenated oils, processed foods, and fried foods. Tomatoes and potatoes (nightshade/Solanaceae family) are known to cause inflammation and should definitely be avoided by anyone with arthritis. Pork is avoided because of high arachidonic acid content and potential to stimulate autoimmune cross-reactions, as pigs have protein structures very similar to humans.",
+    "claim_type": "protocol",
+    "tags": [
+      "foods_to_avoid",
+      "nightshades",
+      "wheat",
+      "dairy",
+      "pork",
+      "shellfish",
+      "peanuts",
+      "hydrogenated_oils"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_008",
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "page": 27,
+      "chapter": "Chapter 3: The Importance of Diet - Elimination Diet Protocol"
+    },
+    "category": "diet_principle",
+    "subcategory": "anti_inflammatory",
+    "raw_text": "The Elimination and Challenge Diet protocol: Strictly follow the anti-inflammation diet for four weeks. After that time, each food can be introduced individually in its most whole form. For example, to introduce tomatoes, eat one whole tomato after avoiding anything with tomatoes for four weeks; do not use tomato sauce or soup. After eating the tomato, don't eat any more tomatoes or tomato products for three days because some reactions may be delayed. After three days with no reaction, tomatoes are probably safe. Then introduce the next food in whole form, wait three days, and so on. If you have a reaction immediately, avoid that food and introduce the next food without waiting the usual 3 days. Reactions can be anything from mild congestion to mood disturbance to severe abdominal cramps.",
+    "claim_type": "protocol",
+    "tags": [
+      "elimination_diet",
+      "food_challenge",
+      "food_allergy_testing",
+      "reintroduction",
+      "4-week_protocol"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_009",
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "page": 28,
+      "chapter": "Chapter 3: The Importance of Diet - Dairy"
+    },
+    "category": "food",
+    "subcategory": "anti_inflammatory",
+    "raw_text": "The body absorbs only about 30% of the calcium contained in dairy products. Intact milk proteins are known to stimulate secretion of proinflammatory cytokines in susceptible patients with cow's milk allergy. Because the standard diet is largely made up of animal proteins (including milk proteins), which are acidic, the body removes calcium from the bones to help balance pH in the GI system. Nondairy calcium sources include fortified soy, rice, oat, almond, and other nut milks. If dairy is tolerated, only organic dairy products should be consumed (not daily) because they don't contain pesticide residues, hormones, and antibiotic residues.",
+    "claim_type": "research_finding",
+    "tags": [
+      "dairy",
+      "calcium_absorption",
+      "milk_protein",
+      "acid_base_balance",
+      "bone_health",
+      "organic"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_010",
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "page": 31,
+      "chapter": "Chapter 3: The Importance of Diet - Wheat and Gluten"
+    },
+    "category": "food",
+    "subcategory": "anti_inflammatory",
+    "raw_text": "Genetically modifying wheat has increased its gluten content to 90%, which is highly irregular. In 'Dangerous Grains,' James Brady and Ron Hoggan describe gluten as a protein that the immune system reacts to pathologically, producing inflammation. Their theory, supported by evidence, is that gluten destroys healthy tissue through molecular mimicry (cross-reaction). CRP and IL-6 (inflammatory markers) are increased during acute allergic reactions to wheat. The typical American family may consume wheat three times daily - cereal/toast for breakfast, sandwich for lunch, pasta/pizza for dinner - which contributes to the development of wheat sensitivities through non-rotating consumption.",
+    "claim_type": "research_finding",
+    "tags": [
+      "gluten",
+      "wheat",
+      "molecular_mimicry",
+      "CRP",
+      "IL-6",
+      "GMO",
+      "celiac"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_011",
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "page": 34,
+      "chapter": "Chapter 4: The Anti-Inflammation Diet - Macronutrients"
+    },
+    "category": "diet_principle",
+    "subcategory": "anti_inflammatory",
+    "raw_text": "Recommended macronutrient proportions for optimal health: Protein 20-30% of total calories, Fat (primarily a balance of essential fatty acids) 20-30% of total calories, Carbohydrate (primarily complex carbohydrates) 40-60% of total calories. Adult protein intake should equal 45-60 grams per day. The low-fat, low-calorie diet often proposed for weight loss typically ends in a perpetual cycle of weight loss and regain. You should not have to greatly restrict calorie intake to lose weight if you are eating the right foods. Eating enough good-quality protein at each meal is one of the best ways to maintain steady blood sugar, energy levels, and mood throughout the day.",
+    "claim_type": "guideline",
+    "tags": [
+      "macronutrient_ratio",
+      "protein",
+      "fat",
+      "carbohydrate",
+      "blood_sugar",
+      "weight_management"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_012",
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "page": 38,
+      "chapter": "Chapter 4: The Anti-Inflammation Diet - Fats and Oils"
+    },
+    "category": "food",
+    "subcategory": "anti_inflammatory",
+    "raw_text": "Coconut oil is a shorter-chain saturated fat that is more easily metabolized than many other saturated fats. Studies reveal that coconut oil stored at room temperature for over one year still shows no evidence of rancidity. Individuals living in regions where coconut oil is eaten regularly have generally lower cholesterol levels than individuals eating the typical American diet. For cooking: use coconut oil for stir-fries, baking, and prolonged heating because it remains stable at high temperatures. Olive oil should not be heated too high due to risk of oxidative damage and conversion to trans fatty acids. Canola oil (from rapeseed) was used in chemical warfare as mustard gas and was placed on the FDA 'Generally Recognized as Safe' list after the Canadian government paid a large sum; animal studies show problems related to heart, adrenals, kidneys, and thyroid.",
+    "claim_type": "guideline",
+    "tags": [
+      "coconut_oil",
+      "olive_oil",
+      "canola_oil_warning",
+      "cooking_fats",
+      "oxidative_damage",
+      "trans_fats"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_013",
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "page": 37,
+      "chapter": "Chapter 4: The Anti-Inflammation Diet - Essential Fatty Acids"
+    },
+    "category": "nutrient",
+    "subcategory": "anti_inflammatory",
+    "raw_text": "Modern diets typically consume 20-25 times more omega-6 than omega-3 fatty acids, a significant imbalance from ancestral ratios. Omega-3 fatty acids (from cold-water fish like salmon, tuna, sardines, halibut, mackerel, as well as flaxseeds, seeds, some nuts, and legumes) should be consumed at least 3-4 times per week. Deficiency symptoms of omega-3 fatty acids include severe allergies, inflammatory conditions, dry hair and skin, brittle nails, eczema or other skin rashes, and bumps on the backs of upper arms (keratosis pilaris). Essential fatty acids promote healthier nervous system function including improved brain function, mood, memory, and nerve conduction; improve lipid profiles; are antiatherosclerotic; promote healthy skin; and support proper immune function.",
+    "claim_type": "guideline",
+    "tags": [
+      "omega-3",
+      "omega-6_ratio",
+      "essential_fatty_acids",
+      "deficiency_symptoms",
+      "fish_oil",
+      "flaxseed"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_014",
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "page": 38,
+      "chapter": "Chapter 4: The Anti-Inflammation Diet - Hydrogenated Oils"
+    },
+    "category": "food",
+    "subcategory": "anti_inflammatory",
+    "raw_text": "Hydrogenated oils are used in approximately 40,000 food products in the United States. According to the Journal of Clinical Nutrition, Harvard University studies in 2004 revealed that trans fats may increase levels of inflammation in the body and may worsen inflammation already present in people with heart failure. In 1977, the World Health Organization sent out an alert to all nations stating that continuing to use hydrogenated fats would cause detrimental health effects; not one nation listened. Hydrogenated oils promote inflammation by stimulating the increase of inflammation-promoting prostaglandins. Any oils or fats cooked at very high temperatures convert to trans fats; if oil begins smoking, the heat is too high. Deep-fried foods left sitting in fryers (as in fast food) become trans fatty acids.",
+    "claim_type": "research_finding",
+    "tags": [
+      "trans_fats",
+      "hydrogenated_oils",
+      "WHO_warning",
+      "fast_food",
+      "inflammation",
+      "processed_foods"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_015",
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "page": 41,
+      "chapter": "Chapter 4: The Anti-Inflammation Diet - Food Categories Summary"
+    },
+    "category": "food",
+    "subcategory": "anti_inflammatory",
+    "raw_text": "COMPLETE FOOD LISTS - Vegetables Group 1 (lowest carb): Asparagus, bean sprouts, beet greens, broccoli, red/green cabbage, cauliflower, celery, Swiss chard, cucumber, endive, lettuce (all types), mustard and dandelion greens, radishes, spinach, watercress. Group 2: String beans, beets, bok choy, brussels sprouts, chives, collards, eggplant, kale, kohlrabi, leeks, onion, parsley, red pepper, pumpkin, rutabagas, turnips, zucchini. Group 3: Artichokes, parsnips, green peas, winter squash, carrots. Group 4: Yams and sweet potatoes. Avoid: tomatoes and potatoes. Grains (allowed): Amaranth, spelt, barley, buckwheat, millet, oatmeal, quinoa, basmati/brown rice, rye, teff. Avoid all wheat products. Legumes (allowed): Split peas, lentils, kidney beans, pinto beans, black beans, garbanzo beans, tempeh, miso, mung beans, adzuki beans.",
+    "claim_type": "protocol",
+    "tags": [
+      "food_list",
+      "vegetables",
+      "grains",
+      "legumes",
+      "carbohydrate_groups",
+      "allowed_foods"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_016",
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "page": 42,
+      "chapter": "Chapter 4: The Anti-Inflammation Diet - Summary"
+    },
+    "category": "food",
+    "subcategory": "anti_inflammatory",
+    "raw_text": "Seafood (allowed): Wild salmon, cod, haddock, halibut, mackerel, sardines, tuna (limit 2 servings/month), trout, summer flounder. Eat wild cold-water fish 3-4 times per week. Avoid shellfish. Meat (allowed): Organic free-range chicken/turkey (meat only, not skin), wild game, venison, elk, organic free-range lamb and buffalo. Organic grass-fed beef allowed 1-2 servings weekly. Avoid pork and conventionally raised beef. Fruits Group 1 (lowest carb): Cantaloupe, rhubarb, melons, strawberries. Group 2: Apricots, blackberries, cranberries, papayas, peaches, plums, raspberries, kiwis. Group 3: Apples, blueberries, cherries, grapes, pears, pineapples, pomegranates. Group 4: Bananas, figs, prunes. Avoid citrus fruits (lemon is okay). Eat only 1-2 servings of fruit per day. Sweeteners (occasional): Pure maple syrup, brown rice syrup, raw honey, agave syrup, stevia. Absolutely no sugar, NutraSweet, or any artificial sweetener.",
+    "claim_type": "protocol",
+    "tags": [
+      "food_list",
+      "seafood",
+      "meat",
+      "fruits",
+      "sweeteners",
+      "allowed_foods"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_017",
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "page": 43,
+      "chapter": "Chapter 4: The Anti-Inflammation Diet - Nuts, Beverages, Oils"
+    },
+    "category": "food",
+    "subcategory": "anti_inflammatory",
+    "raw_text": "Nuts and seeds (allowed): Flax, pumpkin, sesame, sunflower seeds; most nuts and nut butters. Avoid peanuts and peanut butter. Butter and oils: Small amount of organic butter okay; olive oil for cooking; coconut oil for baking; nut/seed oils for salads. Mix 1 pound organic butter with 1 cup extra-virgin olive oil as spread. Avoid hydrogenated oils and partially hydrogenated oils. Eggs: Organic eggs from free-range, antibiotic-free chickens allowed. Slow cook, poach, or soft boil to prevent oxidation of egg protein. Avoid commercial eggs. Beverages: Minimum of half your weight in fluid ounces per day of filtered water. Small amounts of rice, oat, almond, or soy milk. Herbal teas as substitutes for coffee and juice. Avoid coffee, soda, juice, caffeinated teas, alcohol. Miscellaneous: Avoid corn products, processed foods, fried foods.",
+    "claim_type": "protocol",
+    "tags": [
+      "nuts_seeds",
+      "oils",
+      "eggs",
+      "beverages",
+      "hydration",
+      "food_list"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_018",
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "page": 40,
+      "chapter": "Chapter 4: The Anti-Inflammation Diet - Fiber"
+    },
+    "category": "nutrient",
+    "subcategory": "anti_inflammatory",
+    "raw_text": "The National Institutes of Health recommends 35 grams of fiber per day for adults; Dr. Black recommends 40-50 grams. Fiber acts as a bulking agent for stool passage, increases transit time to prevent toxin reabsorption, helps fend off food allergies, improves nutrient utilization, and keeps the entire digestive tract clean. Ground flaxseeds provide fiber, protein, and omega-3 EFAs - recommended 2 tablespoons freshly ground daily stored in refrigerator and ground each morning in a clean coffee grinder. Inadequate fiber can lead to constipation and, less often, diarrhea. Sources include fresh vegetables, fruits, legumes, and grains. Proper chewing (at least 19 times before swallowing) ensures a nearly liquidified product enters the stomach for easier absorption.",
+    "claim_type": "guideline",
+    "tags": [
+      "fiber",
+      "flaxseed",
+      "digestion",
+      "chewing",
+      "detoxification",
+      "daily_recommendations"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_019",
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "page": 44,
+      "chapter": "Chapter 4: The Anti-Inflammation Diet - Lifestyle"
+    },
+    "category": "diet_principle",
+    "subcategory": "anti_inflammatory",
+    "raw_text": "Lifestyle and mealtime recommendations: Do not eat any one food more than five times per week. Eat at regularly scheduled times to establish patterns with the endocrine system facilitating digestion. Do not eat late at night when metabolism is getting ready to rest. Eat a whole-grain breakfast (related to 15% reduction in insulin resistance risk). Do not drink anything while eating; if necessary, only small sips of water. Have a quiet, relaxed atmosphere - do not watch TV, drive, or talk on the phone while eating. Chew food at least 19 times before swallowing. Spend time with your food and reflect on the energy it holds. Fast food accounts for 40% of Americans' dietary intake. A study from Brigham and Women's Hospital (2006) found that preschoolers who regularly ate French fries had increased breast cancer risk - each additional serving per week as a preschooler increased risk by 27%.",
+    "claim_type": "guideline",
+    "tags": [
+      "meal_timing",
+      "food_rotation",
+      "mindful_eating",
+      "breakfast",
+      "children_nutrition",
+      "fast_food_risks"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_020",
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "page": 21,
+      "chapter": "Chapter 2: Inflammation - NSAID Risks"
+    },
+    "category": "clinical",
+    "subcategory": "anti_inflammatory",
+    "raw_text": "Chronic use of NSAIDs carries significant risks. Vioxx (rofecoxib) was recalled by the FDA in September 2004 due to increased cardiovascular events including heart attack and stroke. Celebrex was linked to a 'statistically significant' increase in cardiovascular risk (Pfizer halted a study in December 2004). A British Medical Journal study (2005) suggested regular ingestion of rofecoxib, diclofenac, and ibuprofen significantly increased heart attack risk. NSAIDs block the release of the anti-inflammatory prostaglandins PGE1 and PGE3, which is contrary to the effect the drugs are designed to produce. Noncardiac side effects include swelling, rashes, asthma, angioedema, urticaria (hives), and anaphylaxis. The book advocates adopting a healthy diet that naturally decreases inflammation rather than relying on long-term anti-inflammatory medications.",
+    "claim_type": "research_finding",
+    "tags": [
+      "NSAIDs",
+      "Vioxx",
+      "Celebrex",
+      "drug_risks",
+      "natural_alternatives",
+      "cardiovascular_risk"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_021",
+    "source": {
+      "type": "book",
+      "title": "Epigenetics and Human Health: Linking Hereditary, Environmental and Nutritional Aspects",
+      "page": 15,
+      "chapter": "Chapter 4: Interaction of Hereditary and Epigenetic Mechanisms"
+    },
+    "category": "nutrient",
+    "subcategory": "epigenetics",
+    "raw_text": "Epigenetic mechanisms include three main processes: (1) DNA Methylation - the addition of methyl groups to DNA, typically silencing gene expression; (2) Histone Modifications - chemical changes to histone proteins around which DNA is wrapped, affecting chromatin structure and gene accessibility; (3) Micro RNAs (miRNAs) - small non-coding RNAs that regulate gene expression post-transcriptionally. These mechanisms are influenced by dietary compounds, environmental toxins, and lifestyle factors. Unlike genetic mutations which are largely irreversible, epigenetic modifications are potentially reversible, making them attractive targets for nutritional intervention.",
+    "claim_type": "fact",
+    "tags": [
+      "DNA_methylation",
+      "histone_modification",
+      "miRNA",
+      "epigenetic_mechanisms",
+      "gene_expression",
+      "reversibility"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_022",
+    "source": {
+      "type": "book",
+      "title": "Epigenetics and Human Health: Linking Hereditary, Environmental and Nutritional Aspects",
+      "page": 22,
+      "chapter": "Chapter 4: Dietary Effects on Epigenetics"
+    },
+    "category": "nutrient",
+    "subcategory": "epigenetics",
+    "raw_text": "Dietary compounds that serve as methyl group donors are critical for DNA methylation: folic acid, vitamin B12, betaine, and choline. These nutrients are essential cofactors in one-carbon metabolism. In mouse studies, supplementation of these nutrients to pregnant mothers altered the coat color and disease susceptibility of offspring through epigenetic modifications. SAM (S-adenosylmethionine) serves as the universal methyl donor for DNA methylation. Folate, choline, or betaine can provide methyl groups for SAM regeneration. Under conditions of vitamin B12 depletion, cellular folate accumulates in the methylfolate form due to blocked methionine synthetase activity, creating a functional folate deficiency even when folate levels are adequate.",
+    "claim_type": "research_finding",
+    "tags": [
+      "methyl_donors",
+      "folic_acid",
+      "B12",
+      "betaine",
+      "choline",
+      "SAM",
+      "one-carbon_metabolism",
+      "transgenerational"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_023",
+    "source": {
+      "type": "book",
+      "title": "Epigenetics and Human Health: Linking Hereditary, Environmental and Nutritional Aspects",
+      "page": 23,
+      "chapter": "Chapter 4: Dietary Effects on Epigenetics"
+    },
+    "category": "food",
+    "subcategory": "epigenetics",
+    "raw_text": "Specific dietary compounds shown to influence DNA methylation and histone modifications include: genistein (main flavonoid in soy), vitamin D3, all-trans retinoic acid (vitamin A derivative), butyrate (produced from dietary fiber fermentation in the colon), diallyl disulfide (from garlic), sulforaphane (from cruciferous vegetables like broccoli), resveratrol (from grapes and red wine), and polyphenols with catechol groups (from green tea, berries, and cocoa). These compounds act as histone deacetylase (HDAC) inhibitors or modulate DNA methyltransferase (DNMT) enzyme activity. Butyrate, acetate, and propionate - short-chain fatty acids produced from dietary fiber fermentation - are taken up by colonic mucosa and influence gene expression in colon cells.",
+    "claim_type": "research_finding",
+    "tags": [
+      "genistein",
+      "vitamin_D",
+      "retinoic_acid",
+      "butyrate",
+      "sulforaphane",
+      "resveratrol",
+      "HDAC_inhibitors",
+      "dietary_fiber",
+      "SCFA"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_024",
+    "source": {
+      "type": "book",
+      "title": "Epigenetics and Human Health: Linking Hereditary, Environmental and Nutritional Aspects",
+      "page": 37,
+      "chapter": "Chapter 5: MTHFR Polymorphisms and Cancer Risk"
+    },
+    "category": "clinical",
+    "subcategory": "epigenetics",
+    "raw_text": "The MTHFR (methylenetetrahydrofolate reductase) gene plays a central role in folate metabolism by irreversibly catalyzing conversion of 5,10-methylenetetrahydrofolate to 5-methyltetrahydrofolate, the primary circulating form of folate and a cosubstrate for homocysteine methylation to methionine. The C677T polymorphism is associated with reduced folate-dependent enzyme activity that can be partly reversed by folate supplementation. Low folate intake may modify cancer risk depending on MTHFR genotype - folic acid protects from cancer by limiting aberrant DNA methylation. Large studies collecting data on folate intake and MTHFR genotype are needed to fully understand gene-diet interactions in cancer risk. This represents a classic example of nutrigenetics - how genetic variation affects individual response to dietary nutrients.",
+    "claim_type": "research_finding",
+    "tags": [
+      "MTHFR",
+      "folate",
+      "gene_polymorphism",
+      "cancer_risk",
+      "nutrigenetics",
+      "personalized_nutrition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_025",
+    "source": {
+      "type": "book",
+      "title": "Epigenetics and Human Health: Linking Hereditary, Environmental and Nutritional Aspects",
+      "page": 63,
+      "chapter": "Chapter 7: Case Studies on Epigenetic Inheritance"
+    },
+    "category": "population",
+    "subcategory": "epigenetics",
+    "raw_text": "The Overkalix cohort studies (Sweden, 1890, 1905, 1920 cohorts) demonstrated transgenerational epigenetic effects of nutrition. The nutrition of paternal grandparents during their slow growth period (SGP, ages 9-12) influenced the longevity and cardiovascular/diabetes mortality of their grandchildren. Food availability during ancestors' childhood affected descendants' health outcomes through epigenetic inheritance mechanisms. The studies provided evidence that environmental exposures (particularly nutrition) can create heritable epigenetic marks passed to subsequent generations, independent of DNA sequence changes. Fetal programming and epigenetic inheritance mechanisms explain how maternal nutrition during pregnancy can have lifelong effects on offspring health, including risk for metabolic syndrome and cardiovascular disease.",
+    "claim_type": "research_finding",
+    "tags": [
+      "transgenerational_epigenetics",
+      "Overkalix",
+      "fetal_programming",
+      "ancestral_nutrition",
+      "longevity",
+      "metabolic_syndrome"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_026",
+    "source": {
+      "type": "book",
+      "title": "Epigenetics and Human Health: Linking Hereditary, Environmental and Nutritional Aspects",
+      "page": 127,
+      "chapter": "Chapter 10: From Molecular Nutrition to Nutritional Systems Biology"
+    },
+    "category": "nutrient",
+    "subcategory": "epigenetics",
+    "raw_text": "Nutrigenomics studies how nutrients affect gene expression at the genomic, transcriptomic, proteomic, and metabolomic levels. Nutrigenetics examines how genetic variations (polymorphisms) affect individual responses to nutrients. Nutri-epigenetics specifically investigates how dietary compounds modify epigenetic marks including DNA methylation and histone modifications, thereby altering gene expression patterns without changing DNA sequence. Nutritional Systems Biology integrates all these approaches to understand the complex interactions between diet, genes, and health. This paradigm shift moves nutrition science from studying single nutrient effects to understanding whole-system dietary impacts on health and disease through multi-omics approaches.",
+    "claim_type": "fact",
+    "tags": [
+      "nutrigenomics",
+      "nutrigenetics",
+      "nutri-epigenetics",
+      "systems_biology",
+      "omics",
+      "personalized_nutrition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_027",
+    "source": {
+      "type": "book",
+      "title": "Epigenetics and Human Health: Linking Hereditary, Environmental and Nutritional Aspects",
+      "page": 141,
+      "chapter": "Chapter 11: Dietary Natural Compounds and DNA Methylation"
+    },
+    "category": "nutrient",
+    "subcategory": "epigenetics",
+    "raw_text": "Natural dietary compounds demonstrated to regulate DNA methylation in cancer chemoprevention: ATRA (all-trans retinoic acid from vitamin A), Vitamin D3, Resveratrol (from grapes, red wine, berries), and Genistein (from soy) have all been shown to decrease DNMT1 (DNA methyltransferase 1) activity and expression through various signaling pathways including p21WAF1/CIP1, Rb/E2F, and AP-1 transcriptional complexes. Polyphenols with catechol groups - including EGCG from green tea, quercetin from onions/apples, and caffeic acid from coffee - also modulate DNA methylation. These compounds can potentially reverse aberrant hypermethylation of tumor suppressor genes in cancer cells, representing a dietary approach to epigenetic cancer prevention and therapy.",
+    "claim_type": "research_finding",
+    "tags": [
+      "DNMT_inhibitors",
+      "cancer_prevention",
+      "EGCG",
+      "quercetin",
+      "catechol_polyphenols",
+      "epigenetic_therapy",
+      "chemoprevention"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_028",
+    "source": {
+      "type": "book",
+      "title": "Epigenetics and Human Health: Linking Hereditary, Environmental and Nutritional Aspects",
+      "page": 225,
+      "chapter": "Chapter 18: Epigenetic Role of Diet in Neurodegenerative Diseases"
+    },
+    "category": "nutrient",
+    "subcategory": "epigenetics",
+    "raw_text": "Diet plays an epigenetic role in neurodegenerative diseases including Alzheimer's, Parkinson's, and ALS. Dietary factors influence DNA methylation patterns in neuronal cells, affecting expression of genes involved in neuroprotection, oxidative stress response, and inflammation. Folate, vitamin B12, and other methyl donors are critical for maintaining proper DNA methylation in the brain. Polyphenols from diet (such as those in berries, green tea, and turmeric) can cross the blood-brain barrier and exert neuroprotective effects through epigenetic mechanisms. Environmental toxins combined with inadequate nutrient intake can create epigenetic changes that increase susceptibility to neurodegeneration. This emerging field suggests dietary interventions may help prevent or slow neurodegenerative disease progression through epigenetic modulation.",
+    "claim_type": "research_finding",
+    "tags": [
+      "neurodegeneration",
+      "Alzheimer",
+      "Parkinson",
+      "brain_health",
+      "polyphenols",
+      "neuroprotection",
+      "blood-brain_barrier"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_029",
+    "source": {
+      "type": "book",
+      "title": "Epigenetics and Human Health: Linking Hereditary, Environmental and Nutritional Aspects",
+      "page": 253,
+      "chapter": "Chapter 20: Epigenetic Mechanisms in Asthma"
+    },
+    "category": "clinical",
+    "subcategory": "epigenetics",
+    "raw_text": "Epigenetic mechanisms play a significant role in asthma development, particularly through the 'fetal basis of adult disease' (Barker hypothesis). Maternal nutrition during pregnancy influences fetal epigenetic programming of immune function and airway development. Dietary factors including folate, vitamin D, and omega-3 fatty acids during pregnancy have been shown to modify asthma risk in offspring through epigenetic mechanisms. Experimental evidence demonstrates that maternal dietary supplementation can alter DNA methylation patterns in genes related to immune regulation (Th1/Th2 balance) and airway inflammation. Cell-specific epigenetic responses to dietary compounds suggest targeted nutritional interventions during critical developmental windows could reduce asthma incidence.",
+    "claim_type": "research_finding",
+    "tags": [
+      "asthma",
+      "fetal_programming",
+      "maternal_nutrition",
+      "vitamin_D",
+      "omega-3",
+      "immune_development",
+      "Barker_hypothesis"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_030",
+    "source": {
+      "type": "book",
+      "title": "Public Health Nutrition: Rural, Urban, and Global Community-Based Practice",
+      "page": 3,
+      "chapter": "Chapter 1: Introduction to Public Health Nutrition"
+    },
+    "category": "population",
+    "subcategory": "public_health",
+    "raw_text": "Public Health Nutrition (PHN) is defined as the promotion and maintenance of nutrition-related health and well-being of populations through organized efforts and informed choices of society. PHN focuses on population-level interventions rather than individual clinical care, addressing the social determinants of health. Key areas include food security, nutrition policy, community-based nutrition programs, nutritional epidemiology, and health disparities. PHN professionals work in diverse settings including government agencies, non-profit organizations, community health centers, academic institutions, and international organizations. Mobile food markets represent an innovative PHN intervention to increase access to healthful foods in both urban and rural communities, addressing food deserts and improving nutritional equity.",
+    "claim_type": "fact",
+    "tags": [
+      "public_health_nutrition",
+      "population_health",
+      "food_security",
+      "health_disparities",
+      "community_nutrition",
+      "food_deserts"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_031",
+    "source": {
+      "type": "book",
+      "title": "Public Health Nutrition: Rural, Urban, and Global Community-Based Practice",
+      "page": 23,
+      "chapter": "Chapter 2: Nutrition Epidemiology Principles"
+    },
+    "category": "population",
+    "subcategory": "public_health",
+    "raw_text": "Nutritional epidemiology applies epidemiological principles to study the relationship between diet and disease in populations. Key study designs include: cross-sectional studies (assessing diet-disease relationships at one point in time), case-control studies (comparing dietary exposures between those with and without disease), cohort studies (following populations over time to relate diet to disease incidence), and randomized controlled trials (the gold standard for establishing causality). Dietary assessment methods include 24-hour recalls, food frequency questionnaires (FFQ), food records/diaries, and biomarkers. Each method has strengths and limitations in terms of accuracy, cost, and participant burden. Biostatistical principles essential to nutritional epidemiology include measures of association (relative risk, odds ratios), confidence intervals, and adjustment for confounding variables.",
+    "claim_type": "fact",
+    "tags": [
+      "nutritional_epidemiology",
+      "study_designs",
+      "dietary_assessment",
+      "FFQ",
+      "biomarkers",
+      "epidemiology_methods"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_032",
+    "source": {
+      "type": "book",
+      "title": "Public Health Nutrition: Rural, Urban, and Global Community-Based Practice",
+      "page": 5,
+      "chapter": "Chapter 1: Community-Based Practice"
+    },
+    "category": "population",
+    "subcategory": "community_nutrition",
+    "raw_text": "Community-based participatory research (CBPR) is a cornerstone methodology in public health nutrition that engages community members as equal partners in research and intervention design. PHN addresses the socio-ecological model recognizing that nutrition behaviors are influenced by multiple levels: individual (knowledge, skills, genetics), interpersonal (family, peers, social networks), organizational (schools, workplaces, faith-based organizations), community (built environment, food access, cultural norms), and policy (agricultural policy, food labeling, school nutrition standards). Effective PHN interventions work across multiple levels simultaneously. Rural communities face unique nutrition challenges including limited food access, transportation barriers, and fewer nutrition education resources, while urban communities may face issues of food deserts, fast food density, and food marketing exposure.",
+    "claim_type": "fact",
+    "tags": [
+      "community_nutrition",
+      "CBPR",
+      "socio-ecological_model",
+      "rural_health",
+      "urban_health",
+      "food_access"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_033",
+    "source": {
+      "type": "book",
+      "title": "NUTRITION (BYU-Idaho)",
+      "page": 6,
+      "chapter": "Chapter 1: Introduction to Nutrition Science"
+    },
+    "category": "nutrient",
+    "subcategory": "community_nutrition",
+    "raw_text": "Nutrition science is the study of foods, their nutrients and other chemical constituents, and the effects of food constituents on health. The core concept is that food provides energy (calories), nutrients (essential and non-essential), and other bioactive compounds that influence body functions. Types of malnutrition include undernutrition (inadequate intake of energy or nutrients), overnutrition (excess intake leading to obesity and chronic disease), and specific nutrient deficiencies or toxicities. The textbook emphasizes a 'principle-based' approach to nutrition education, teaching foundational concepts rather than memorizing facts, enabling students to evaluate nutrition claims critically.",
+    "claim_type": "fact",
+    "tags": [
+      "nutrition_science",
+      "malnutrition_types",
+      "energy",
+      "nutrients",
+      "nutrition_education",
+      "bioactive_compounds"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_034",
+    "source": {
+      "type": "book",
+      "title": "NUTRITION (BYU-Idaho)",
+      "page": 20,
+      "chapter": "Chapter 1: Phytochemicals and Nutrient Density"
+    },
+    "category": "food",
+    "subcategory": "community_nutrition",
+    "raw_text": "Phytochemicals are non-nutrient bioactive compounds found in plant foods that provide health benefits beyond basic nutrition. Major classes include flavonoids (found in fruits, vegetables, tea, wine), carotenoids (orange/yellow/red fruits and vegetables), glucosinolates (cruciferous vegetables), and phytoestrogens (soy products). Nutrient density refers to the amount of nutrients per calorie in a food - nutrient-dense foods provide substantial amounts of vitamins, minerals, and phytochemicals with relatively few calories. Examples include dark leafy greens, berries, legumes, and whole grains. The concept of 'empty calories' describes foods high in energy but low in nutrients, such as sugary beverages and refined snack foods. Dietary Reference Intakes (DRIs) provide quantitative nutrient recommendations including RDAs (Recommended Dietary Allowances), AIs (Adequate Intakes), and ULs (Tolerable Upper Intake Levels).",
+    "claim_type": "fact",
+    "tags": [
+      "phytochemicals",
+      "flavonoids",
+      "carotenoids",
+      "nutrient_density",
+      "DRIs",
+      "RDA",
+      "empty_calories"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_035",
+    "source": {
+      "type": "book",
+      "title": "NUTRITION (BYU-Idaho)",
+      "page": 52,
+      "chapter": "Chapter 3: Variety, Moderation and Balance"
+    },
+    "category": "diet_principle",
+    "subcategory": "community_nutrition",
+    "raw_text": "Three fundamental principles of healthy eating: Variety (eating many different foods from all food groups to ensure adequate intake of all nutrients and phytochemicals, and to prevent excessive exposure to any single contaminant or anti-nutrient), Moderation (consuming appropriate portion sizes and limiting intake of foods high in added sugars, saturated fats, and sodium), and Balance (ensuring caloric intake matches energy expenditure and that nutrient proportions align with recommendations). The 2020-2025 Dietary Guidelines for Americans emphasize a life-stage approach, recognizing that nutritional needs change throughout the lifespan from infancy through older adulthood. MyPlate translates these guidelines into practical visual guidance: fill half the plate with fruits and vegetables, a quarter with whole grains, and a quarter with lean protein, with dairy on the side.",
+    "claim_type": "guideline",
+    "tags": [
+      "variety",
+      "moderation",
+      "balance",
+      "dietary_guidelines",
+      "MyPlate",
+      "life_stage_nutrition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_036",
+    "source": {
+      "type": "book",
+      "title": "NUTRITION (BYU-Idaho)",
+      "page": 114,
+      "chapter": "Chapter 5: Grains in Health and Disease"
+    },
+    "category": "food",
+    "subcategory": "community_nutrition",
+    "raw_text": "Whole grains contain all three parts of the grain kernel: bran (fiber, B vitamins, minerals, phytochemicals), endosperm (starch, protein), and germ (healthy fats, vitamin E, B vitamins, phytochemicals). Refined grains remove the bran and germ, losing approximately 25% of protein and at least 17 key nutrients. Enrichment adds back only a few B vitamins (thiamin, riboflavin, niacin, folic acid) and iron. Whole grain consumption is associated with reduced risk of cardiovascular disease, type 2 diabetes, colorectal cancer, and all-cause mortality. Mechanisms include improved glycemic control, increased satiety from fiber, anti-inflammatory effects of grain phytochemicals, and favorable effects on gut microbiota through prebiotic fiber fermentation producing short-chain fatty acids.",
+    "claim_type": "research_finding",
+    "tags": [
+      "whole_grains",
+      "refined_grains",
+      "fiber",
+      "glycemic_control",
+      "gut_microbiota",
+      "chronic_disease_prevention"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_037",
+    "source": {
+      "type": "book",
+      "title": "NUTRITION (BYU-Idaho)",
+      "page": 148,
+      "chapter": "Chapter 7: Lipids and Health"
+    },
+    "category": "nutrient",
+    "subcategory": "community_nutrition",
+    "raw_text": "Lipid categories include triglycerides (the main form of dietary fat and stored body fat), phospholipids (cell membrane components), and sterols (cholesterol and phytosterols). Fatty acids are classified as saturated (no double bonds), monounsaturated (one double bond), and polyunsaturated (multiple double bonds). Essential fatty acids (linoleic acid/omega-6 and alpha-linolenic acid/omega-3) must be obtained from diet. Trans fatty acids, formed through partial hydrogenation of vegetable oils, raise LDL cholesterol and lower HDL cholesterol, increasing cardiovascular disease risk. Dietary fat recommendations: total fat 20-35% of calories, saturated fat less than 10% of calories, trans fat as low as possible. Replacing saturated fat with polyunsaturated fat reduces cardiovascular disease risk, while replacement with refined carbohydrates does not confer the same benefit.",
+    "claim_type": "fact",
+    "tags": [
+      "lipids",
+      "triglycerides",
+      "saturated_fat",
+      "unsaturated_fat",
+      "trans_fat",
+      "cholesterol",
+      "CVD_risk"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_038",
+    "source": {
+      "type": "book",
+      "title": "NUTRITION (BYU-Idaho)",
+      "page": 225,
+      "chapter": "Chapter 10: Vitamins"
+    },
+    "category": "nutrient",
+    "subcategory": "community_nutrition",
+    "raw_text": "Vitamins are classified as water-soluble (B-complex vitamins and vitamin C) and fat-soluble (vitamins A, D, E, K). Water-soluble vitamins are not stored extensively in the body and must be consumed regularly; excess is excreted in urine. Fat-soluble vitamins are stored in liver and adipose tissue, making toxicity possible with excessive supplementation. Key functions: Folate (B9) is essential for DNA synthesis and methylation, with critical importance during early pregnancy for neural tube development. Vitamin B12 is required for folate metabolism, myelin sheath maintenance, and red blood cell formation. Vitamin D functions as a hormone regulating calcium absorption, immune function, and gene expression. Vitamin C acts as an antioxidant, supports immune function, and is essential for collagen synthesis. Vitamin A is crucial for vision, immune function, and cell differentiation.",
+    "claim_type": "fact",
+    "tags": [
+      "vitamins",
+      "water-soluble",
+      "fat-soluble",
+      "folate",
+      "B12",
+      "vitamin_D",
+      "vitamin_C",
+      "vitamin_A"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_039",
+    "source": {
+      "type": "book",
+      "title": "NUTRITION (BYU-Idaho)",
+      "page": 293,
+      "chapter": "Chapter 13: Life Cycle Nutrition"
+    },
+    "category": "population",
+    "subcategory": "community_nutrition",
+    "raw_text": "Life cycle nutrition recognizes that nutrient requirements vary significantly across developmental stages. During pregnancy, increased needs for folate (600 mcg DFE/day), iron (27 mg/day), calcium, and omega-3 fatty acids (especially DHA for fetal brain development) are critical. Inadequate maternal nutrition is linked to epigenetic programming effects on offspring health including risk for obesity, diabetes, and cardiovascular disease in adulthood. Lactation increases caloric needs by approximately 500 kcal/day and requires adequate hydration and nutrient-dense foods. Infant nutrition recommendations emphasize exclusive breastfeeding for the first 6 months, introduction of iron-fortified complementary foods around 6 months, and avoidance of added sugars and salt. Young children benefit from repeated exposure to new foods (may require 8-15 exposures before acceptance) and modeling of healthy eating behaviors by caregivers.",
+    "claim_type": "guideline",
+    "tags": [
+      "life_cycle",
+      "pregnancy",
+      "lactation",
+      "infant_feeding",
+      "DHA",
+      "folate",
+      "child_nutrition",
+      "epigenetic_programming"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_040",
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "page": 19,
+      "chapter": "Chapter 2: Stress and Inflammation"
+    },
+    "category": "clinical",
+    "subcategory": "anti_inflammatory",
+    "raw_text": "Physiological and psychological stress promotes inflammation through release of neuropeptides that stimulate a systemic stress response via the sympathetic nervous system. This triggers stress hormone release (including cortisol), which stimulates acute-phase proteins - the first promoters of inflammation. The same neuropeptides that mediate stress also mediate inflammation, so stress directly creates an inflammatory response. Prolonged elevated cortisol leads to thyroid dysfunction, blood sugar abnormalities, weight gain, osteoporosis, high blood pressure, hyperinsulinemia, hypercholesterolemia, and other metabolic imbalances. Elevated cortisol increases interleukin-6 (IL-6), causing inflammatory reactions and decreasing viral/bacterial immune protection. Negative emotions and abrasive close relationships are seen to provoke persistent immune downregulation. Treatment requires a holistic approach: anti-inflammatory diet, adequate sleep, exercise, and if indicated, counseling, journaling, affirmations, prayer, qi gong, and nutritional supplementation.",
+    "claim_type": "research_finding",
+    "tags": [
+      "stress",
+      "cortisol",
+      "neuropeptides",
+      "IL-6",
+      "immune_downregulation",
+      "holistic_approach",
+      "mind-body"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_041",
+    "source": {
+      "type": "book",
+      "title": "Epigenetics and Human Health: Linking Hereditary, Environmental and Nutritional Aspects",
+      "page": 209,
+      "chapter": "Chapter 17: Epigenetic Dysregulation in Aging and Cancer"
+    },
+    "category": "clinical",
+    "subcategory": "epigenetics",
+    "raw_text": "Aging is associated with a cancer-prone metabolic phenotype characterized by epigenetic dysregulation. Age-related epigenetic silencing via DNA methylation affects tumor suppressor genes, creating a permissive environment for cancer development. Inflammatory control of age-related epigenetic regulators suggests that chronic low-grade inflammation (inflammaging) drives epigenetic changes that increase cancer risk with age. Lessons from anti-aging modalities including caloric restriction and dietary interventions (such as increased intake of polyphenols and methyl donor nutrients) suggest that dietary strategies may slow age-related epigenetic drift and reduce cancer susceptibility. The intersection of inflammation, epigenetics, and aging represents a key target for nutritional interventions aimed at healthy longevity.",
+    "claim_type": "research_finding",
+    "tags": [
+      "aging",
+      "cancer",
+      "inflammaging",
+      "caloric_restriction",
+      "epigenetic_drift",
+      "longevity",
+      "anti-aging_nutrition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_spec_042",
+    "source": {
+      "type": "book",
+      "title": "Epigenetics and Human Health: Linking Hereditary, Environmental and Nutritional Aspects",
+      "page": 281,
+      "chapter": "Chapter 22: Epigenetic Health and Responsibility"
+    },
+    "category": "population",
+    "subcategory": "epigenetics",
+    "raw_text": "The emerging understanding of epigenetics creates new dimensions of health responsibility. Because environmental factors including diet, toxins, stress, and lifestyle can create heritable epigenetic changes that affect future generations, individuals and societies bear responsibility not only for their own health but for the health of their descendants. This concept - 'epigenetic health and responsibility' - has profound implications for public health policy. It suggests that nutritional interventions during pregnancy and early childhood may have multi-generational benefits, and that public health strategies should incorporate epigenetic considerations into dietary guidelines, environmental regulations, and health education. The concept of 'Health in All Policies' provides a framework for translating epigenetic knowledge into cross-sectoral policy actions.",
+    "claim_type": "guideline",
+    "tags": [
+      "epigenetic_responsibility",
+      "public_health_policy",
+      "transgenerational_health",
+      "prevention",
+      "early_intervention",
+      "health_policy"
+    ],
+    "extracted_date": "2026-06-03"
+  }
+]

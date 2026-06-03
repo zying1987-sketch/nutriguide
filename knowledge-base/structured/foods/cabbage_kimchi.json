@@ -1,0 +1,65 @@
+{
+  "id": "cabbage_kimchi",
+  "name": "Cabbage, kimchi",
+  "category": "蔬菜与蔬菜制品",
+  "tags": [
+    "肠脑轴"
+  ],
+  "deep_analysis": true,
+  "nutrients": {
+    "能量": {
+      "value": 65.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [
+    {
+      "name": "乳酸菌**",
+      "content_text": "含量：10^8-10^9 CFU/g",
+      "mechanism": "作用机制：竞争排除病原菌;产生SCFA;修复肠漏"
+    },
+    {
+      "name": "辣椒素**",
+      "content_text": "含量：辣白菜品种",
+      "mechanism": "作用机制：TRPV1→内啡肽→情绪改善"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "🟡 B级** — **肠道菌群**：增加Lactobacillus和Bifidobacterium丰度",
+      "evidence_level": "B",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **代谢**：12周食用降低空腹血糖和HOMA-IR",
+      "evidence_level": "B",
+      "reference": "参考文献：RCT(n=21 prediabetes)",
+      "description": ""
+    },
+    {
+      "text": "⚪ C级** — **免疫**：调节GALT,sIgA增加",
+      "evidence_level": "C",
+      "description": ""
+    }
+  ],
+  "daily_intake": "100-150g/d",
+  "cooking_tips": [
+    "最佳生食(烹饪杀死活性益生菌)",
+    "泡菜汤/饼可接受——后生元仍有价值",
+    "自制比工业化益生菌多样性更高",
+    "冷藏保存,1周内口感最佳"
+  ],
+  "synergy": [
+    "糙米/杂粮(纤维是益生元)",
+    "猪肉(经典韩式搭配)",
+    "豆腐(发酵蔬菜+大豆蛋白)"
+  ],
+  "contraindications": [
+    "高钠版:高血压/肾病选低钠泡菜",
+    "IBS/SIBO从少量开始",
+    "自制需充分发酵>7天",
+    "孕期选择充分发酵或消毒处理"
+  ],
+  "tcm": {},
+  "source": ""
+}

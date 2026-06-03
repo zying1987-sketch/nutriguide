@@ -1,0 +1,42 @@
+{
+  "id": "kale_raw",
+  "name": "Kale, raw",
+  "category": "蔬菜与蔬菜制品",
+  "tags": [
+    "抗炎"
+  ],
+  "deep_analysis": false,
+  "nutrients": {
+    "能量": {
+      "value": 148.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [],
+  "health_benefits": [
+    {
+      "text": "🟢 A级** — **骨健康**：每100g含钙254mg",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **免疫**：每100g含维C93mg",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **抗炎**：富含抗炎活性成分",
+      "evidence_level": "B",
+      "description": ""
+    }
+  ],
+  "daily_intake": "100-300g/d",
+  "cooking_tips": [
+    "蒸制或快炒保留营养素",
+    "避免长时间水煮"
+  ],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

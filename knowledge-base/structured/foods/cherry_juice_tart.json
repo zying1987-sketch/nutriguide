@@ -1,0 +1,32 @@
+{
+  "id": "cherry_juice_tart",
+  "name": "Cherry juice, tart",
+  "category": "水果与果汁",
+  "tags": [
+    "抗氧化"
+  ],
+  "deep_analysis": false,
+  "nutrients": {
+    "能量": {
+      "value": 248.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [],
+  "health_benefits": [
+    {
+      "text": "🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+      "evidence_level": "B",
+      "description": ""
+    }
+  ],
+  "daily_intake": "100-200g/d",
+  "cooking_tips": [
+    "生吃最佳",
+    "制成果昔/沙拉"
+  ],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

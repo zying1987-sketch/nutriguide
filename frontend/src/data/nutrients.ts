@@ -14,6 +14,8 @@ export interface Nutrient {
   overdoseRisk: string
   sources: string[]
   specialNotes?: string
+  /** 补充建议：基于知识库，说明哪些人群建议额外补充、原因和剂量 */
+  supplementAdvice?: string
 }
 
 export const nutrients: Nutrient[] = [
@@ -29,7 +31,8 @@ export const nutrients: Nutrient[] = [
     ul: '3000μg RAE',
     overdoseRisk: '肝损伤、骨质疏松、胎儿畸形',
     sources: ['动物肝脏', '蛋黄', '深绿色叶菜', '胡萝卜', '南瓜'],
-    specialNotes: '一般不缺，避免长期高剂量补充'
+    specialNotes: '一般不缺，避免长期高剂量补充',
+    supplementAdvice: '普通杂食者无需额外补充。孕妇需遵医嘱，不可超量（UL 3000μg RAE）。夜盲症或严重缺乏者需医疗监督下补充。'
   },
   {
     id: 'vitamin_c',
@@ -42,7 +45,8 @@ export const nutrients: Nutrient[] = [
     rni: { male: '100mg', female: '100mg', unit: 'mg' },
     ul: '2000mg',
     overdoseRisk: '腹泻、肾结石（长期大剂量）',
-    sources: ['猕猴桃', '柑橘', '草莓', '青椒', '西兰花']
+    sources: ['猕猴桃', '柑橘', '草莓', '青椒', '西兰花'],
+    supplementAdvice: '普通饮食均衡者无需额外补充。吸烟者、压力大、易感冒人群可考虑每日100-200mg长期补充； higher剂量（>1000mg）可能引起腹泻，应避免。'
   },
   {
     id: 'vitamin_d',
@@ -56,7 +60,8 @@ export const nutrients: Nutrient[] = [
     ul: '50μg(2000IU)',
     overdoseRisk: '高钙血症、肾钙化',
     sources: ['阳光照射', '深海鱼', '蛋黄', '强化奶', '蘑菇（晒过）'],
-    specialNotes: '缺乏极其普遍，建议检测25(OH)D水平'
+    specialNotes: '缺乏极其普遍，建议检测25(OH)D水平',
+    supplementAdvice: '⚠️ 绝大多数日照不足者需要额外补充。建议每日400-2000 IU（10-50μg），冬季、高纬度、深色皮肤、室内工作者务必补充。食物几乎无法满足需求。'
   },
   {
     id: 'vitamin_e',
@@ -69,7 +74,8 @@ export const nutrients: Nutrient[] = [
     rni: { male: '14mg α-TE', female: '14mg α-TE', unit: 'mg α-TE' },
     ul: '700mg α-TE',
     overdoseRisk: '出血倾向（抗凝血）',
-    sources: ['坚果', '种子', '植物油', '牛油果', '菠菜']
+    sources: ['坚果', '种子', '植物油', '牛油果', '菠菜'],
+    supplementAdvice: '普通饮食（坚果、植物油）通常充足，无需额外补充。早产儿、脂肪吸收不良者需遵医嘱补充。高剂量（>400 IU）可能增加出血风险，需注意。'
   },
   {
     id: 'vitamin_k',
@@ -82,7 +88,8 @@ export const nutrients: Nutrient[] = [
     rni: { male: '80μg', female: '80μg', unit: 'μg' },
     ul: '未确定',
     overdoseRisk: '大剂量合成K3可致溶血',
-    sources: ['深绿色叶菜', '纳豆', '西兰花', '菜籽油']
+    sources: ['深绿色叶菜', '纳豆', '西兰花', '菜籽油'],
+    supplementAdvice: '普通饮食（绿叶菜）通常充足，无需额外补充。新生儿需注射K1防出血。骨质疏松高风险者可考虑补充K2（MK-7型）90-180μg。'
   },
   {
     id: 'vitamin_b1',
@@ -95,7 +102,8 @@ export const nutrients: Nutrient[] = [
     rni: { male: '1.4mg', female: '1.2mg', unit: 'mg' },
     ul: '未确定',
     overdoseRisk: '罕见，过量排出',
-    sources: ['全谷物', '豆类', '瘦肉', '坚果', '酵母']
+    sources: ['全谷物', '豆类', '瘦肉', '坚果', '酵母'],
+    supplementAdvice: '普通饮食（全谷物、瘦肉）通常充足。酗酒者、长期吃精白米面者需注意补充B1（1.2-1.4mg/天）。'
   },
   {
     id: 'vitamin_b2',
@@ -108,7 +116,8 @@ export const nutrients: Nutrient[] = [
     rni: { male: '1.4mg', female: '1.2mg', unit: 'mg' },
     ul: '未确定',
     overdoseRisk: '尿黄（无害）',
-    sources: ['奶制品', '蛋', '瘦肉', '绿叶蔬菜', '豆类']
+    sources: ['奶制品', '蛋', '瘦肉', '绿叶蔬菜', '豆类'],
+    supplementAdvice: '普通饮食通常充足。素食者、孕妇、偏食儿童需注意。极少缺乏，补充剂中B2通常包含在B族复合维生素中。'
   },
   {
     id: 'vitamin_b3',
@@ -121,7 +130,8 @@ export const nutrients: Nutrient[] = [
     rni: { male: '15mg', female: '12mg', unit: 'mg' },
     ul: '35mg',
     overdoseRisk: '皮肤潮红、肝损伤',
-    sources: ['禽肉', '鱼', '花生', '全谷物', '蘑菇']
+    sources: ['禽肉', '鱼', '花生', '全谷物', '蘑菇'],
+    supplementAdvice: '普通饮食通常充足。糙皮病（皮炎、腹泻、痴呆）患者需医疗剂量补充。高剂量（>35mg）可能引起皮肤潮红，缓释型可减轻。'
   },
   {
     id: 'vitamin_b6',
@@ -135,7 +145,8 @@ export const nutrients: Nutrient[] = [
     ul: '60mg',
     overdoseRisk: '神经毒性（可逆）',
     sources: ['禽肉', '鱼', '土豆', '香蕉', '鹰嘴豆'],
-    specialNotes: '可缓解孕吐，B6+镁协同'
+    specialNotes: '可缓解孕吐，B6+镁协同',
+    supplementAdvice: '普通杂食者无需额外补充。⚠️ 严格素食者必须补充（25-100μg/天）。老年人（>50岁）胃酸减少导致吸收差，建议补充。胃切除者需注射补充。'
   },
   {
     id: 'vitamin_b12',
@@ -149,7 +160,8 @@ export const nutrients: Nutrient[] = [
     ul: '未确定',
     overdoseRisk: '极低毒性',
     sources: ['动物肝脏', '鱼', '蛋', '奶', '强化食品'],
-    specialNotes: '仅存在于动物性食物，素食者必须补充'
+    specialNotes: '仅存在于动物性食物，素食者必须补充',
+    supplementAdvice: '⚠️ 备孕及孕早期女性必须补充（400-800μg DFE/天），预防胎儿神经管畸形。普通非孕期人群若每日吃足生鲜绿叶菜可不补。烹饪破坏率50-90%，补充剂吸收率更高。'
   },
   {
     id: 'folate',
@@ -176,7 +188,8 @@ export const nutrients: Nutrient[] = [
     rni: { male: '30μg', female: '30μg', unit: 'μg' },
     ul: '未确定',
     overdoseRisk: '罕见',
-    sources: ['蛋黄', '坚果', '种子', '三文鱼', '牛油果']
+    sources: ['蛋黄', '坚果', '种子', '三文鱼', '牛油果'],
+    supplementAdvice: '普通饮食（蛋、肝脏、坚果）通常充足，无需额外补充。生吃蛋清（含抗生物素蛋白）者、长期肠外营养者需注意。补充剂常见于复合B族中。'
   },
   {
     id: 'pantothenic_acid',
@@ -189,7 +202,8 @@ export const nutrients: Nutrient[] = [
     rni: { male: '5mg', female: '5mg', unit: 'mg' },
     ul: '未确定',
     overdoseRisk: '腹泻',
-    sources: ['几乎所有食物', '全谷物', '牛油果', '蘑菇', '蛋']
+    sources: ['几乎所有食物', '全谷物', '牛油果', '蘑菇', '蛋'],
+    supplementAdvice: '几乎存在于所有食物中，极难缺乏。无需额外补充。'
   },
   {
     id: 'calcium',
@@ -203,7 +217,8 @@ export const nutrients: Nutrient[] = [
     ul: '2000mg',
     overdoseRisk: '肾结石、血管钙化、便秘',
     sources: ['奶制品', '豆腐', '深绿色叶菜', '芝麻', '沙丁鱼'],
-    specialNotes: '40岁以上女性每日建议1000-1200mg'
+    specialNotes: '40岁以上女性每日建议1000-1200mg',
+    supplementAdvice: '常喝奶/吃豆制品者无需额外补充。⚠️ 奶摄入不足者（青少年、孕妇、老年人、素食者）建议补充柠檬酸钙500-600mg/天，分次服用配合维生素D。'
   },
   {
     id: 'iron',
@@ -217,7 +232,8 @@ export const nutrients: Nutrient[] = [
     ul: '42mg',
     overdoseRisk: '肝损伤、便秘、心脏损伤',
     sources: ['红肉', '动物肝脏', '蛤蜊', '豆类', '菠菜'],
-    specialNotes: '动物性铁（血红素铁）吸收率远高于植物铁；维C促进铁吸收'
+    specialNotes: '动物性铁（血红素铁）吸收率远高于植物铁；维C促进铁吸收',
+    supplementAdvice: '⚠️ 月经期女性、孕妇、素食者易缺乏。确诊缺铁性贫血者需补充元素铁20-30mg/天（医嘱）。普通杂食男性无需补充。先检测血清铁蛋白再决定。'
   },
   {
     id: 'zinc',
@@ -230,7 +246,8 @@ export const nutrients: Nutrient[] = [
     rni: { male: '12.5mg', female: '7.5mg', unit: 'mg' },
     ul: '40mg',
     overdoseRisk: '铜缺乏、免疫功能下降',
-    sources: ['牡蛎', '红肉', '南瓜籽', '腰果', '鹰嘴豆']
+    sources: ['牡蛎', '红肉', '南瓜籽', '腰果', '鹰嘴豆'],
+    supplementAdvice: '⚠️ 素食者（吸收率仅20-35%）需要额外注意。普通杂食者无需额外补充。孕妇、生长期儿童、腹泻者需增加摄入。补充剂建议低剂量（8-11mg/天）。'
   },
   {
     id: 'magnesium',
@@ -244,7 +261,8 @@ export const nutrients: Nutrient[] = [
     ul: '700mg（来自补充剂）',
     overdoseRisk: '腹泻、低血压、呼吸抑制',
     sources: ['南瓜籽', '杏仁', '菠菜', '黑巧克力', '牛油果'],
-    specialNotes: '甘氨酸镁/柠檬酸镁吸收好；氧化镁易腹泻'
+    specialNotes: '甘氨酸镁/柠檬酸镁吸收好；氧化镁易腹泻',
+    supplementAdvice: '普通饮食（坚果、种子、绿叶菜）通常充足。压力大、糖尿病、酗酒者需注意。补充剂选甘氨酸镁或柠檬酸镁（吸收好），避免氧化镁（易腹泻）。'
   },
   {
     id: 'selenium',
@@ -258,7 +276,8 @@ export const nutrients: Nutrient[] = [
     ul: '400μg',
     overdoseRisk: '脱发、指甲变形、蒜味呼吸',
     sources: ['巴西坚果', '海鲜', '蛋', '瘦肉', '全谷物'],
-    specialNotes: '每天1-2颗巴西坚果即可满足需求'
+    specialNotes: '每天1-2颗巴西坚果即可满足需求',
+    supplementAdvice: '低硒地区居民（中国东北-西南带）需注意。普通饮食（巴西坚果1-2颗/天）即可满足，无需额外补充。极高剂量（>400μg）有毒，导致脱发、指甲变形。'
   },
   {
     id: 'iodine',
@@ -272,7 +291,8 @@ export const nutrients: Nutrient[] = [
     ul: '600μg',
     overdoseRisk: '甲亢/甲减',
     sources: ['碘盐', '海带', '紫菜', '海鲜', '蛋'],
-    specialNotes: '桥本患者需谨慎补碘，避免高碘食物'
+    specialNotes: '桥本患者需谨慎补碘，避免高碘食物',
+    supplementAdvice: '使用加碘盐者通常充足。⚠️ 孕妇、哺乳期需增加至200-250μg/天。低碘地区、严格控盐者需注意。补充剂需医嘱，过量致甲亢/甲减。'
   },
   {
     id: 'potassium',
@@ -285,7 +305,8 @@ export const nutrients: Nutrient[] = [
     rni: { male: '2000mg', female: '2000mg', unit: 'mg' },
     ul: '未设（食物中安全）',
     overdoseRisk: '高钾血症（肾功能不全者）',
-    sources: ['香蕉', '土豆', '牛油果', '菠菜', '椰子水']
+    sources: ['香蕉', '土豆', '牛油果', '菠菜', '椰子水'],
+    supplementAdvice: '普通饮食（蔬菜水果）通常充足，无需额外补充。高血压患者、大量出汗者需注意。肾功能不全者避免高钾补充剂。'
   },
   {
     id: 'omega3',
@@ -299,7 +320,8 @@ export const nutrients: Nutrient[] = [
     ul: '未明确',
     overdoseRisk: '抗凝血（极高剂量）',
     sources: ['深海鱼（三文鱼、沙丁鱼）', '亚麻籽', '奇亚籽', '核桃', '藻油'],
-    specialNotes: '素食者可用藻油DHA替代'
+    specialNotes: '素食者可用藻油DHA替代',
+    supplementAdvice: '⚠️ 很少吃深海鱼（<2次/周）者建议补充鱼油或藻油DHA 200-300mg/天。孕妇、心血管高危者强烈建议。素食者可用藻油替代。'
   },
   {
     id: 'fiber',
@@ -313,7 +335,8 @@ export const nutrients: Nutrient[] = [
     ul: '无',
     overdoseRisk: '腹胀、影响矿物质吸收（过量）',
     sources: ['全谷物', '豆类', '蔬菜', '水果', '坚果'],
-    specialNotes: 'IBS-D患者宜选可溶性纤维；IBS-C增加不可溶性纤维'
+    specialNotes: 'IBS-D患者宜选可溶性纤维；IBS-C增加不可溶性纤维',
+    supplementAdvice: '便秘者、肥胖、糖尿病、高血脂者建议增加至35g/天。逐渐增加用量，配合足量饮水，避免腹胀。'
   },
   {
     id: 'protein',
@@ -327,7 +350,8 @@ export const nutrients: Nutrient[] = [
     ul: '无（过量增加肾负担）',
     overdoseRisk: '肾损伤（已有肾病者）',
     sources: ['瘦肉', '鱼', '蛋', '奶', '豆类', '豆制品'],
-    specialNotes: '健身增肌期建议1.6-2.2g/kg体重'
+    specialNotes: '健身增肌期建议1.6-2.2g/kg体重',
+    supplementAdvice: '普通饮食通常充足。健身增肌期、术后、老年人、素食者需注意补充优质蛋白。蛋白粉（乳清/豌豆/大米）可作辅助，非必需。'
   }
 ]
 

@@ -844,6 +844,278 @@ const adolescent: PopulationPlan = {
   warningSigns: ['身高增长停滞+体重不增→发育迟缓', '女孩>15岁未初潮→就医', '严重痤疮+月经不调→排查PCOS'],
 }
 
+// ========== 14. PMS（经前综合征）==========
+const menstrualPms: PopulationPlan = {
+  id: 'menstrual_pms',
+  name: '经前综合征（PMS）',
+  category: 'menstrual',
+  categoryName: '月经周期',
+  description: '针对经前情绪波动、腹胀、乳房胀痛、疲劳等症状的营养支持方案，聚焦于稳定血糖、抗炎、神经递质支持。',
+  keyRisks: ['黄体期雌激素/孕酮波动导致血清素水平下降', '镁缺乏加剧焦虑、肌肉痉挛、睡眠差', '血糖波动加重情绪症状', 'B6不足影响GABA和多巴胺合成', '慢性炎症加重PMS症状'],
+  supplements: [
+    { name: '镁', nameEn: 'Magnesium', dosage: '300-400mg', form: '甘氨酸镁/柠檬酸镁', timing: '睡前（黄体期每天）', level: 'core' },
+    { name: '维生素B6', nameEn: 'Vitamin B6', dosage: '50-100mg', form: '吡哆醇/P5P', timing: '黄体期每天', level: 'core', drugInteraction: '长期>200mg/日可能神经毒性' },
+    { name: '钙', nameEn: 'Calcium', dosage: '1000-1200mg', form: '柠檬酸钙', timing: '分次随餐', level: 'core' },
+    { name: '维生素D', nameEn: 'Vitamin D', dosage: '2000-4000IU', form: 'D3', timing: '随含脂餐', level: 'conditional', condition: '血清25(OH)D < 40ng/mL时使用' },
+    { name: 'Omega-3', nameEn: 'Omega-3 (EPA/DHA)', dosage: '1000-2000mg EPA+DHA', form: '鱼油/藻油', timing: '随餐', level: 'core' },
+    { name: '月见草油', nameEn: 'Evening Primrose Oil', dosage: '1000-2000mg', form: '含GLA 8-10%', timing: '黄体期每天', level: 'optional', condition: '乳房胀痛明显者' },
+    { name: '圣约翰草提取物', nameEn: 'St. John\'s Wort', dosage: '300mg（含0.3%金丝桃素）', form: '标准化提取物', timing: '每日3次', level: 'optional', condition: '情绪低落明显，注意：与SSRI/避孕药/华法林等严重相互作用', drugInteraction: '与SSRI、口服避孕药、华法林、环孢素等严重相互作用' },
+  ],
+  diet: {
+    principles: [
+      { principle: '稳定血糖', detail: '少食多餐（5-6餐/日），每餐复合碳水+蛋白质。避免精制糖和单糖。黄体期尤其重要。' },
+      { principle: '增加色氨酸摄入', detail: '火鸡、鸡肉、鸡蛋、奶制品、香蕉。色氨酸→血清素，改善情绪。' },
+      { principle: '高镁饮食', detail: '深绿色叶菜、南瓜籽、杏仁、黑巧克力(>70%)、牛油果。每日目标400mg镁。' },
+      { principle: '减少钠摄入', detail: '黄体期减盐（<4g/日），减少加工食品，缓解腹胀水肿。' },
+      { principle: '限制咖啡因和酒精', detail: '黄体期避免咖啡因（加重焦虑和乳房胀痛）和酒精（加重抑郁）。' },
+    ],
+    foodsToEat: [
+      { name: '深绿色叶菜（菠菜、羽衣甘蓝）', reason: '镁、钙、叶酸' },
+      { name: '三文鱼/沙丁鱼', reason: 'Omega-3、维生素D、色氨酸' },
+      { name: '南瓜籽/杏仁', reason: '镁、锌、健康脂肪' },
+      { name: '香蕉', reason: '色氨酸前体、B6、钾' },
+      { name: '黑巧克力(>70%)', reason: '镁、苯乙胺（改善情绪）' },
+      { name: '豆制品', reason: '大豆异黄酮可能缓解PMS' },
+    ],
+    foodsToAvoid: [
+      { name: '精制糖和甜点', reason: '血糖波动加重情绪症状' },
+      { name: '高盐食物（薯片、泡面）', reason: '加重腹胀水肿' },
+      { name: '咖啡和浓茶', reason: '加重焦虑、失眠和乳房胀痛' },
+      { name: '酒精', reason: '加重抑郁情绪和腹胀' },
+    ],
+  },
+  lifestyle: [
+    { category: '运动', recommendation: '黄体期：瑜伽、散步、轻度有氧。高强度运动可能加重疲劳。卵泡期可恢复正常强度', frequency: '每周5次，每次30分钟' },
+    { category: '睡眠', recommendation: '黄体期保证8-9小时，睡前泡脚或温水浴帮助放松', frequency: '每晚' },
+    { category: '压力管理', recommendation: '冥想、深呼吸、认知行为疗法（CBT）已被临床验证对PMS有效', frequency: '每日10-15分钟' },
+    { category: '周期追踪', recommendation: '记录月经周期+症状日记（APP或手写），帮助预测和应对PMS期', frequency: '每日记录' },
+  ],
+  monitoringPlan: ['症状日记：乳房胀痛/情绪/腹胀等 严重度0-10', '血清镁、25(OH)D、铁蛋白', '严重者排查PMDD（经前焦虑障碍）'],
+  warningSigns: ['症状严重干扰工作/社交→排查PMDD，需精神科评估', '自伤/自杀念头→立即就医', '乳房触及固定肿块→乳腺科'],
+}
+
+// ========== 15. 男性睾酮低下（LOH）==========
+const maleLowTestosterone: PopulationPlan = {
+  id: 'male_low_testosterone',
+  name: '睾酮低下（LOH）',
+  category: 'male_health',
+  categoryName: '男性健康',
+  description: '针对中老年男性睾酮水平下降导致的性欲减退、精力下降、肌肉流失等症状的营养支持方案。营养补充不能替代睾酮替代治疗（TRT），需在医生指导下评估。',
+  keyRisks: ['锌缺乏直接抑制睾酮合成（Leydig细胞需锌）', '维生素D缺乏与睾酮水平下降强相关', '肥胖增加芳香化酶活性→睾酮→雌激素转化', '镁不足影响睡眠和DHEA', '过量酒精直接毒害Leydig细胞'],
+  supplements: [
+    { name: '锌', nameEn: 'Zinc', dosage: '30-50mg', form: '甘氨酸锌/吡啶酸锌', timing: '随餐', level: 'core' },
+    { name: '维生素D', nameEn: 'Vitamin D', dosage: '2000-5000IU', form: 'D3', timing: '随含脂餐', level: 'core', condition: '目标血清25(OH)D 40-60ng/mL' },
+    { name: '镁', nameEn: 'Magnesium', dosage: '300-400mg', form: '甘氨酸镁', timing: '睡前', level: 'core' },
+    { name: 'DHEA', nameEn: 'DHEA', dosage: '25-50mg', form: '微粒化DHEA', timing: '早晨', level: 'conditional', condition: '仅限血清DHEA-S < 正常低限，需医生监测', drugInteraction: '与激素类药物相互作用，需医疗监督' },
+    { name: '辅酶Q10', nameEn: 'CoQ10', dosage: '200-300mg', form: '泛醇', timing: '随含脂餐', level: 'optional' },
+    { name: '南非醉茄', nameEn: 'Ashwagandha', dosage: '300-600mg', form: 'KSM-66/Sensoril提取物', timing: '早晚', level: 'optional', condition: '压力大、皮质醇高者' },
+    { name: '葫芦巴提取物', nameEn: 'Fenugreek Extract', dosage: '500-600mg', form: '标准化睾丸酮支持提取物', timing: '早晚', level: 'optional' },
+  ],
+  diet: {
+    principles: [
+      { principle: '充足的优质蛋白', detail: '每日1.6-2.0g/kg体重，优先：鸡蛋、瘦牛肉、三文鱼、鸡肉。蛋白质提供睾酮合成的氨基酸底物。' },
+      { principle: '健康脂肪不可少', detail: '总热量的25-35%来自脂肪。单不饱和脂肪（橄榄油、牛油果）和Omega-3优先。极低脂饮食降低睾酮。' },
+      { principle: '控制体脂', detail: '体脂>25%时芳香化酶活性增加→睾酮转化为雌激素。目标BMI 20-25，腰围<90cm。' },
+      { principle: '补充锌和镁食物', detail: '牡蛎（最佳锌源）、牛肉、南瓜籽、菠菜、杏仁。' },
+    ],
+    foodsToEat: [
+      { name: '鸡蛋', reason: '胆固醇是睾酮合成前体、优质蛋白' },
+      { name: '牡蛎/瘦牛肉', reason: '锌（睾酮合成必需）、铁' },
+      { name: '三文鱼', reason: 'Omega-3、维生素D、蛋白质' },
+      { name: '十字花科蔬菜（西兰花、卷心菜）', reason: 'DIM/I3C帮助雌激素代谢' },
+      { name: '巴西坚果', reason: '硒（1颗巴西坚果=日需量）' },
+    ],
+    foodsToAvoid: [
+      { name: '过量酒精', reason: '直接毒害Leydig细胞，降低睾酮合成' },
+      { name: '高度加工食品/反式脂肪', reason: '增加炎症和芳香化酶活性' },
+      { name: '大豆制品（大量）', reason: '高剂量大豆异黄酮可能轻微影响睾酮（证据有限但规避）' },
+    ],
+  },
+  lifestyle: [
+    { category: '抗阻训练', recommendation: '大重量复合动作（深蹲、硬拉、卧推），每周3-4次。抗阻训练是最有效的天然睾酮提升方法', frequency: '每周3-4次' },
+    { category: 'HIIT', recommendation: '短时间高强度间歇训练（如30秒冲刺+90秒休息×6轮），可急性提升睾酮', frequency: '每周1-2次' },
+    { category: '睡眠', recommendation: '7-9小时，尤其保证深睡眠期（睾酮脉冲分泌高峰在REM睡眠）', frequency: '每晚' },
+    { category: '减少内分泌干扰物', recommendation: '避免塑料容器加热、含BPA产品、某些杀虫剂。使用玻璃/不锈钢容器', frequency: '日常' },
+  ],
+  monitoringPlan: ['血清总睾酮+游离睾酮+SHBG（空腹早晨8-10点）', 'DHEA-S、雌二醇（E2）', 'PSA（>40岁）', '血清锌、25(OH)D'],
+  warningSigns: ['总睾酮 < 300ng/dL 持续两次→内分泌科评估TRT', 'PSA升高+排尿困难→泌尿科', '男性乳房发育→排查雌激素过高'],
+}
+
+// ========== 16. 良性前列腺增生（BPH）==========
+const maleBph: PopulationPlan = {
+  id: 'male_bph',
+  name: '良性前列腺增生（BPH）',
+  category: 'male_health',
+  categoryName: '男性健康',
+  description: '针对中老年男性前列腺增生导致的尿频、尿急、夜尿等症状的营养支持方案。聚焦于抗炎、5α-还原酶抑制、抗氧化。',
+  keyRisks: ['锌缺乏与前列腺增生相关（前列腺组织锌浓度高）', '慢性炎症促进前列腺增生', '高饱和脂肪+红肉摄入与BPH风险正相关', '肥胖增加雌激素→促进前列腺增生', '维生素D不足'],
+  supplements: [
+    { name: '锌', nameEn: 'Zinc', dosage: '30-50mg', form: '甘氨酸锌/吡啶酸锌', timing: '随餐', level: 'core' },
+    { name: '锯棕榈提取物', nameEn: 'Saw Palmetto', dosage: '320mg', form: '标准化提取物（85-95%脂肪酸）', timing: '每日1-2次', level: 'core' },
+    { name: 'β-谷甾醇', nameEn: 'Beta-Sitosterol', dosage: '60-130mg', form: '植物固醇复合物', timing: '每日2次', level: 'conditional' },
+    { name: '维生素D', nameEn: 'Vitamin D', dosage: '2000-5000IU', form: 'D3', timing: '随含脂餐', level: 'core' },
+    { name: '硒', nameEn: 'Selenium', dosage: '100-200μg', form: '硒代蛋氨酸', timing: '随餐', level: 'conditional' },
+    { name: '南瓜籽油', nameEn: 'Pumpkin Seed Oil', dosage: '500-1000mg', form: '冷压油', timing: '每日2次', level: 'optional' },
+  ],
+  diet: {
+    principles: [
+      { principle: '增加植物性食物', detail: '蔬菜、水果、全谷物占比>50%。植物化学物（番茄红素、β-谷甾醇、异黄酮）有益前列腺健康。' },
+      { principle: '番茄红素', detail: '煮熟的番茄制品（番茄酱、煮番茄）比生的生物利用度更高。目标每日10-30mg。' },
+      { principle: '减少红肉和饱和脂肪', detail: '红肉<2次/周，选用瘦肉。奶制品选低脂/脱脂。' },
+      { principle: '补充锌和硒食物', detail: '牡蛎、南瓜籽、瘦牛肉、巴西坚果。' },
+    ],
+    foodsToEat: [
+      { name: '煮熟的番茄/番茄酱', reason: '番茄红素（最强前列腺保护剂之一）' },
+      { name: '南瓜籽', reason: '锌、植物固醇、必需脂肪酸' },
+      { name: '十字花科蔬菜', reason: '萝卜硫素抗氧化抗炎' },
+      { name: '绿茶', reason: 'EGCG抗氧化、可能抑制5α-还原酶' },
+      { name: '浆果类（蓝莓、草莓）', reason: '花青素抗氧化' },
+    ],
+    foodsToAvoid: [
+      { name: '过量红肉和加工肉', reason: '增加炎症和BPH风险' },
+      { name: '高脂奶制品', reason: '饱和脂肪增加风险' },
+      { name: '酒精和咖啡因', reason: '刺激膀胱加重尿频尿急' },
+      { name: '辛辣食物', reason: '可能刺激前列腺加重症状' },
+    ],
+  },
+  lifestyle: [
+    { category: '运动', recommendation: '中等强度有氧：快走、游泳。避免长时间骑行（压迫会阴）', frequency: '每周5次，每次30分钟' },
+    { category: '排尿习惯', recommendation: '定时排尿（不要憋尿）、排尿后再次尝试（二次排尿）、睡前2小时限制饮水', frequency: '每日' },
+    { category: '体重管理', recommendation: 'BMI < 25，腰围<90cm。肥胖是BPH独立危险因素', frequency: '持续' },
+  ],
+  monitoringPlan: ['IPSS评分（国际前列腺症状评分）每3-6月', 'PSA（前列腺特异性抗原）+ 直肠指检（>50岁每年）', '泌尿系B超：前列腺体积+残余尿量'],
+  warningSigns: ['急性尿潴留→急诊', 'PSA年增速>0.75ng/mL或>4.0→泌尿科排查前列腺癌', '肉眼血尿→泌尿科'],
+}
+
+// ========== 17. 痛风/高尿酸 ==========
+const maleGout: PopulationPlan = {
+  id: 'male_gout',
+  name: '痛风/高尿酸',
+  category: 'male_health',
+  categoryName: '男性健康',
+  description: '针对痛风和高尿酸血症的营养管理方案，通过低嘌呤饮食、碱化尿液、抗炎营养素降低尿酸水平，减少痛风发作频率。',
+  keyRisks: ['高嘌呤饮食（动物内脏、红肉、海鲜）直接升高尿酸', '果糖（含糖饮料、果汁）代谢产生尿酸', '酒精（尤其啤酒）抑制尿酸排泄+增加生成', '肥胖降低尿酸排泄', '脱水浓缩尿酸'],
+  supplements: [
+    { name: '维生素C', nameEn: 'Vitamin C', dosage: '500-1000mg', form: '抗坏血酸', timing: '随餐', level: 'core', condition: '有轻微促尿酸排泄作用' },
+    { name: '芹菜籽提取物', nameEn: 'Celery Seed Extract', dosage: '150-300mg', form: '标准化提取物', timing: '每日2次', level: 'optional', condition: '传统抗痛风，含抗炎成分' },
+    { name: '酸樱桃提取物', nameEn: 'Tart Cherry Extract', dosage: '500-1000mg', form: '标准化花青素提取物', timing: '每日', level: 'core' },
+    { name: 'Omega-3', nameEn: 'Omega-3 (EPA/DHA)', dosage: '1000-2000mg', form: '鱼油/藻油', timing: '随餐', level: 'core' },
+    { name: '槲皮素', nameEn: 'Quercetin', dosage: '500mg', form: '槲皮素二水合物', timing: '每日2次', level: 'optional', condition: '可能抑制黄嘌呤氧化酶' },
+  ],
+  diet: {
+    principles: [
+      { principle: '限制高嘌呤食物', detail: '动物内脏（<1次/月）、部分海鲜（沙丁鱼、鱼子、贝类）、红肉<2次/周。急性期严格限制。' },
+      { principle: '戒酒（尤其啤酒）', detail: '啤酒（含鸟嘌呤核苷）最危险，白酒次之。红酒相对风险较低但急性期也应避免。' },
+      { principle: '杜绝含糖饮料和果糖', detail: '果糖代谢产生尿酸。含糖饮料、果汁、蜂蜜、高果糖玉米糖浆都是禁忌。' },
+      { principle: '足量饮水+碱化', detail: '每日饮水2000-3000ml，可加柠檬汁碱化尿液（目标尿pH 6.2-6.8）。苏打水/碱性水可能有帮助。' },
+      { principle: '增加低脂乳制品', detail: '低脂牛奶、酸奶中的乳清蛋白和酪蛋白有促尿酸排泄作用。每日300-500ml。' },
+    ],
+    foodsToEat: [
+      { name: '低脂牛奶/酸奶', reason: '促尿酸排泄作用' },
+      { name: '酸樱桃/樱桃汁', reason: '降低尿酸、减少痛风发作频率' },
+      { name: '蔬菜（大部分）', reason: '植物性嘌呤不影响尿酸（最新证据），可自由摄入' },
+      { name: '全谷物', reason: '纤维帮助排泄尿酸' },
+      { name: '咖啡（不加糖）', reason: '流行病学证据显示与低尿酸关联' },
+    ],
+    foodsToAvoid: [
+      { name: '动物内脏', reason: '嘌呤含量最高' },
+      { name: '啤酒和白酒', reason: '抑制尿酸排泄+增加生成' },
+      { name: '含糖饮料/果汁/蜂蜜', reason: '果糖代谢产生尿酸' },
+      { name: '沙丁鱼/鱼子/贝类', reason: '高嘌呤海鲜' },
+      { name: '红肉（大量）', reason: '中高嘌呤，急性期限制' },
+    ],
+  },
+  lifestyle: [
+    { category: '体重管理', recommendation: '目标BMI<25。减重5-10%可显著降低尿酸0.5-1.5mg/dL', frequency: '持续' },
+    { category: '运动', recommendation: '中等强度运动（非急性期）。急性发作期禁运动。注意：剧烈运动后乳酸可暂时升高尿酸', frequency: '每周5次' },
+    { category: '饮水', recommendation: '每日2000-3000ml，平均分配。晨起、睡前各一杯', frequency: '每日' },
+    { category: '避免脱水', recommendation: '高温环境、运动后、饮酒后及时补水。脱水是痛风发作的常见诱因', frequency: '需要时' },
+  ],
+  monitoringPlan: ['血尿酸（目标<360μmol/L，有痛风石<300μmol/L）', '肾功能（肌酐、eGFR）', '尿常规+尿pH', '血压+血脂+血糖（常共病）'],
+  warningSigns: ['急性关节红肿热痛→痛风发作，及时抗炎治疗（秋水仙碱/NSAIDs/激素）', '血尿酸>540μmol/L→需药物降尿酸治疗', '痛风石形成→需长期降尿酸治疗'],
+}
+
+// ========== 13. 普通人群（基于中美膳食指南）==========
+const generalPopulation: PopulationPlan = {
+  id: 'general_population',
+  name: '普通成年人（18-64岁）',
+  category: 'general',
+  categoryName: '普通人群',
+  description: '基于《中国居民膳食指南（2022）》和《美国居民膳食指南（2020-2025）》的普通成年人营养基准方案，适用于无特殊健康问题的健康成年人。',
+  keyRisks: [
+    '久坐生活方式导致能量过剩与微量营养素缺乏并存',
+    '加工食品摄入过多，钠超标、膳食纤维不足',
+    '外食比例高导致油盐超标、蔬菜摄入不足',
+    '维生素D缺乏普遍（尤其室内工作者和北方居民）',
+    '添加糖摄入超标（奶茶、饮料、甜点）'
+  ],
+  supplements: [
+    { name: '维生素D', nameEn: 'Vitamin D', dosage: '400-800IU', form: 'D3', timing: '随含脂餐', level: 'conditional', condition: '日照不足或血清25(OH)D < 30ng/mL时补充', drugInteraction: '与某些抗惊厥药、糖皮质激素可能相互影响' },
+    { name: 'Omega-3', nameEn: 'Omega-3 (EPA/DHA)', dosage: '250-500mg EPA+DHA', form: '鱼油/藻油', timing: '随餐', level: 'optional', condition: '不吃鱼或ω-3摄入不足者' },
+    { name: '复合维生素', nameEn: 'Multivitamin', dosage: '按产品说明', form: '全谱复合', timing: '随餐', level: 'optional', condition: '饮食多样性差、蔬菜水果摄入不足时考虑' },
+    { name: '钙', nameEn: 'Calcium', dosage: '500-600mg（补充到总摄入800-1000mg）', form: '柠檬酸钙/碳酸钙', timing: '分次随餐', level: 'optional', condition: '不喝奶/奶制品摄入不足者' },
+    { name: '铁', nameEn: 'Iron', dosage: '按需（需查血清铁蛋白）', form: '富马酸亚铁', timing: '空腹+维C', level: 'conditional', condition: '仅限确诊缺铁性贫血或铁蛋白<30ng/mL时使用' },
+    { name: '镁', nameEn: 'Magnesium', dosage: '200-400mg', form: '甘氨酸镁/柠檬酸镁', timing: '睡前', level: 'optional', condition: '压力大、睡眠质量差、肌肉痉挛者' },
+    { name: '益生菌', nameEn: 'Probiotics', dosage: '按产品说明（CFU 10^9-10^10）', form: '多菌株复合', timing: '随餐或空腹', level: 'optional', condition: '消化不适、抗生素使用后或免疫力低时考虑' }
+  ],
+  diet: {
+    principles: [
+      { principle: '食物多样，谷类为主', detail: '每日摄入12种以上食物，每周25种以上。谷类200-300g/日，其中全谷物和杂豆50-150g，薯类50-100g。' },
+      { principle: '多吃蔬果、奶类、大豆', detail: '蔬菜300-500g/日，深色蔬菜占一半；水果200-350g/日；奶及奶制品300-500ml/日；大豆及坚果25-35g/日。' },
+      { principle: '适量吃鱼、禽、蛋、瘦肉', detail: '动物性食物120-200g/日，每周至少2次鱼。优先选择鱼和禽，少吃肥肉和加工肉制品。' },
+      { principle: '少盐少油，控糖限酒', detail: '食盐<5g/日、烹调油25-30g/日、添加糖<25g/日。不饮酒或限量（男<25g酒精/日，女<15g）。' },
+      { principle: '吃动平衡，健康体重', detail: '保持BMI在18.5-24.0kg/m²。每周至少150分钟中等强度有氧运动，每周2-3次抗阻训练。' },
+      { principle: '足量饮水', detail: '男性1.7L/日，女性1.5L/日，以白水或淡茶为主，不喝或少喝含糖饮料。' },
+      { principle: '规律进餐，定量定时', detail: '三餐定时定量，不暴饮暴食，不跳过早餐。晚餐与睡觉间隔至少2小时。' }
+    ],
+    foodsToEat: [
+      { name: '深色蔬菜（菠菜、西兰花、胡萝卜）', reason: '富含维生素A/C/K、叶酸、抗氧化物质' },
+      { name: '全谷物（燕麦、糙米、藜麦）', reason: 'B族维生素、膳食纤维、低GI' },
+      { name: '豆类及豆制品（豆腐、豆浆）', reason: '植物蛋白、钙、大豆异黄酮' },
+      { name: '深海鱼（三文鱼、沙丁鱼）', reason: 'Omega-3、维生素D、优质蛋白' },
+      { name: '坚果种子（核桃、亚麻籽）', reason: '健康脂肪、维生素E、镁、植物固醇' },
+      { name: '发酵食品（酸奶、开菲尔）', reason: '益生菌、钙、蛋白质' },
+      { name: '浆果类水果（蓝莓、草莓）', reason: '花青素、维生素C、低GI' }
+    ],
+    foodsToAvoid: [
+      { name: '高度加工食品（薯片、饼干、方便面）', reason: '高钠、反式脂肪酸、添加剂' },
+      { name: '含糖饮料（奶茶、汽水、果汁饮料）', reason: '添加糖超标、空热量' },
+      { name: '加工肉制品（火腿、培根、香肠）', reason: 'WHO 1类致癌物、高钠、亚硝酸盐' },
+      { name: '精制碳水（白面包、蛋糕、甜点）', reason: '高GI、缺乏微量营养素' },
+      { name: '过量红肉（牛肉、猪肉 > 500g/周）', reason: '增加结直肠癌风险、饱和脂肪' },
+      { name: '过量酒精', reason: '肝损伤、多种癌症风险、营养素消耗' }
+    ],
+    mealExample: [
+      '早餐：全麦面包 + 鸡蛋 + 牛奶 + 一小把坚果',
+      '午餐：糙米饭 + 清蒸鱼 + 炒时蔬（深绿色叶菜）',
+      '晚餐：藜麦沙拉（含豆类、番茄、牛油果）+ 酸奶',
+      '加餐：水果（苹果/蓝莓）+ 无糖豆浆'
+    ]
+  },
+  lifestyle: [
+    { category: '运动', recommendation: '每周≥150分钟中等强度有氧（快走、游泳、骑车）+ 每周2次全身抗阻训练', frequency: '每周5-7天' },
+    { category: '睡眠', recommendation: '7-9小时优质睡眠，固定作息，睡前1小时远离屏幕', frequency: '每晚' },
+    { category: '阳光', recommendation: '每日15-30分钟日照（上午10点-下午3点），暴露手臂和面部，促进维生素D合成', frequency: '每日', note: '北方冬季或室内工作者建议检测25(OH)D' },
+    { category: '压力管理', recommendation: '正念冥想、深呼吸练习、社交活动。避免长期高压导致皮质醇升高影响代谢', frequency: '每日10-15分钟' },
+    { category: '定期体检', recommendation: '年度体检：血常规、肝肾功、血脂、血糖、25(OH)D、甲状腺功能。女性加做乳腺+宫颈筛查', frequency: '每年1次' }
+  ],
+  monitoringPlan: [
+    '体重和BMI：每月1次，保持在18.5-24.0',
+    '腰围：男性<90cm，女性<85cm',
+    '血压：<120/80mmHg，至少每半年测一次',
+    '空腹血糖：<6.1mmol/L，每年体检',
+    '血脂：总胆固醇<5.2mmol/L，LDL-C<3.4mmol/L',
+    '25(OH)D：>30ng/mL（>75nmol/L）为充足'
+  ],
+  warningSigns: [
+    '不明原因体重下降（3个月内>5%）→ 就医排查',
+    '持续疲劳+苍白→ 排查缺铁性贫血',
+    'BMI>28或<18.5→ 营养科咨询',
+    '腰围超标+血压偏高→ 代谢综合征风险',
+    '长期便秘/腹泻→ 消化科检查'
+  ],
+}
+
 // 导出所有人群方案
 export const populationPlans: Record<string, PopulationPlan> = {
   pregnancy_general: pregnancyBase,
@@ -866,6 +1138,11 @@ export const populationPlans: Record<string, PopulationPlan> = {
   menopause: menopause,
   elderly_general: elderlyGeneral,
   adolescent: adolescent,
+  general_population: generalPopulation,
+  menstrual_pms: menstrualPms,
+  male_low_testosterone: maleLowTestosterone,
+  male_bph: maleBph,
+  male_gout: maleGout,
 }
 
 // 人群分类
@@ -882,6 +1159,8 @@ export const populationCategories = [
   { key: 'hashimoto', name: '桥本甲状腺炎', icon: 'shield', color: '#F59E0B' },
   { key: 'menstrual', name: '月经周期', icon: 'moon', color: '#EC4899' },
   { key: 'adolescent', name: '青少年', icon: 'zap', color: '#10B981' },
+  { key: 'general', name: '普通人群', icon: 'users', color: '#3B82F6' },
+  { key: 'male_health', name: '男性健康', icon: 'user', color: '#0891B2' },
 ]
 
 export const populationPriority: Record<string, number> = {

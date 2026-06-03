@@ -1,0 +1,166 @@
+[
+  {
+    "id": "kb_population_1400",
+    "category": "population",
+    "subcategory": "epigenetics",
+    "title": "The Overkalix cohort studies (Sweden, 1890, 1905, 1920 cohorts) demonstrated tra",
+    "content": "The Overkalix cohort studies (Sweden, 1890, 1905, 1920 cohorts) demonstrated transgenerational epigenetic effects of nutrition. The nutrition of paternal grandparents during their slow growth period (SGP, ages 9-12) influenced the longevity and cardiovascular/diabetes mortality of their grandchildren. Food availability during ancestors' childhood affected descendants' health outcomes through epigenetic inheritance mechanisms. The studies provided evidence that environmental exposures (particularly nutrition) can create heritable epigenetic marks passed to subsequent generations, independent of DNA sequence changes. Fetal programming and epigenetic inheritance mechanisms explain how maternal nutrition during pregnancy can have lifelong effects on offspring health, including risk for metabolic syndrome and cardiovascular disease.",
+    "claim_type": "research_finding",
+    "evidence_level": "B",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Epigenetics and Human Health: Linking Hereditary, Environmental and Nutritional Aspects",
+      "chapter": "Chapter 7: Case Studies on Epigenetic Inheritance",
+      "page": 63
+    },
+    "tags": [
+      "transgenerational_epigenetics",
+      "Overkalix",
+      "fetal_programming",
+      "ancestral_nutrition",
+      "longevity",
+      "metabolic_syndrome"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.425757",
+    "status": "structured"
+  },
+  {
+    "id": "kb_population_1405",
+    "category": "population",
+    "subcategory": "public_health",
+    "title": "Public Health Nutrition (PHN) is defined as the promotion and maintenance of nut",
+    "content": "Public Health Nutrition (PHN) is defined as the promotion and maintenance of nutrition-related health and well-being of populations through organized efforts and informed choices of society. PHN focuses on population-level interventions rather than individual clinical care, addressing the social determinants of health. Key areas include food security, nutrition policy, community-based nutrition programs, nutritional epidemiology, and health disparities. PHN professionals work in diverse settings including government agencies, non-profit organizations, community health centers, academic institutions, and international organizations. Mobile food markets represent an innovative PHN intervention to increase access to healthful foods in both urban and rural communities, addressing food deserts and improving nutritional equity.",
+    "claim_type": "fact",
+    "evidence_level": "C",
+    "confidence": 75,
+    "source": {
+      "type": "book",
+      "title": "Public Health Nutrition: Rural, Urban, and Global Community-Based Practice",
+      "chapter": "Chapter 1: Introduction to Public Health Nutrition",
+      "page": 3
+    },
+    "tags": [
+      "public_health_nutrition",
+      "population_health",
+      "food_security",
+      "health_disparities",
+      "community_nutrition",
+      "food_deserts"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.425781",
+    "status": "structured"
+  },
+  {
+    "id": "kb_population_1406",
+    "category": "population",
+    "subcategory": "public_health",
+    "title": "Nutritional epidemiology applies epidemiological principles to study the relatio",
+    "content": "Nutritional epidemiology applies epidemiological principles to study the relationship between diet and disease in populations. Key study designs include: cross-sectional studies (assessing diet-disease relationships at one point in time), case-control studies (comparing dietary exposures between those with and without disease), cohort studies (following populations over time to relate diet to disease incidence), and randomized controlled trials (the gold standard for establishing causality). Dietary assessment methods include 24-hour recalls, food frequency questionnaires (FFQ), food records/diaries, and biomarkers. Each method has strengths and limitations in terms of accuracy, cost, and participant burden. Biostatistical principles essential to nutritional epidemiology include measures of association (relative risk, odds ratios), confidence intervals, and adjustment for confounding variables.",
+    "claim_type": "fact",
+    "evidence_level": "C",
+    "confidence": 75,
+    "source": {
+      "type": "book",
+      "title": "Public Health Nutrition: Rural, Urban, and Global Community-Based Practice",
+      "chapter": "Chapter 2: Nutrition Epidemiology Principles",
+      "page": 23
+    },
+    "tags": [
+      "nutritional_epidemiology",
+      "study_designs",
+      "dietary_assessment",
+      "FFQ",
+      "biomarkers",
+      "epidemiology_methods"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.425783",
+    "status": "structured"
+  },
+  {
+    "id": "kb_population_1407",
+    "category": "population",
+    "subcategory": "community_nutrition",
+    "title": "Community-based participatory research (CBPR) is a cornerstone methodology in pu",
+    "content": "Community-based participatory research (CBPR) is a cornerstone methodology in public health nutrition that engages community members as equal partners in research and intervention design. PHN addresses the socio-ecological model recognizing that nutrition behaviors are influenced by multiple levels: individual (knowledge, skills, genetics), interpersonal (family, peers, social networks), organizational (schools, workplaces, faith-based organizations), community (built environment, food access, cultural norms), and policy (agricultural policy, food labeling, school nutrition standards). Effective PHN interventions work across multiple levels simultaneously. Rural communities face unique nutrition challenges including limited food access, transportation barriers, and fewer nutrition education resources, while urban communities may face issues of food deserts, fast food density, and food marketing exposure.",
+    "claim_type": "fact",
+    "evidence_level": "C",
+    "confidence": 75,
+    "source": {
+      "type": "book",
+      "title": "Public Health Nutrition: Rural, Urban, and Global Community-Based Practice",
+      "chapter": "Chapter 1: Community-Based Practice",
+      "page": 5
+    },
+    "tags": [
+      "community_nutrition",
+      "CBPR",
+      "socio-ecological_model",
+      "rural_health",
+      "urban_health",
+      "food_access"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.425785",
+    "status": "structured"
+  },
+  {
+    "id": "kb_population_1414",
+    "category": "population",
+    "subcategory": "community_nutrition",
+    "title": "Life cycle nutrition recognizes that nutrient requirements vary significantly ac",
+    "content": "Life cycle nutrition recognizes that nutrient requirements vary significantly across developmental stages. During pregnancy, increased needs for folate (600 mcg DFE/day), iron (27 mg/day), calcium, and omega-3 fatty acids (especially DHA for fetal brain development) are critical. Inadequate maternal nutrition is linked to epigenetic programming effects on offspring health including risk for obesity, diabetes, and cardiovascular disease in adulthood. Lactation increases caloric needs by approximately 500 kcal/day and requires adequate hydration and nutrient-dense foods. Infant nutrition recommendations emphasize exclusive breastfeeding for the first 6 months, introduction of iron-fortified complementary foods around 6 months, and avoidance of added sugars and salt. Young children benefit from repeated exposure to new foods (may require 8-15 exposures before acceptance) and modeling of healthy eating behaviors by caregivers.",
+    "claim_type": "guideline",
+    "evidence_level": "C",
+    "confidence": 75,
+    "source": {
+      "type": "book",
+      "title": "NUTRITION (BYU-Idaho)",
+      "chapter": "Chapter 13: Life Cycle Nutrition",
+      "page": 293
+    },
+    "tags": [
+      "life_cycle",
+      "pregnancy",
+      "lactation",
+      "infant_feeding",
+      "DHA",
+      "folate",
+      "child_nutrition",
+      "epigenetic_programming"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.425801",
+    "status": "structured"
+  },
+  {
+    "id": "kb_population_1417",
+    "category": "population",
+    "subcategory": "epigenetics",
+    "title": "The emerging understanding of epigenetics creates new dimensions of health respo",
+    "content": "The emerging understanding of epigenetics creates new dimensions of health responsibility. Because environmental factors including diet, toxins, stress, and lifestyle can create heritable epigenetic changes that affect future generations, individuals and societies bear responsibility not only for their own health but for the health of their descendants. This concept - 'epigenetic health and responsibility' - has profound implications for public health policy. It suggests that nutritional interventions during pregnancy and early childhood may have multi-generational benefits, and that public health strategies should incorporate epigenetic considerations into dietary guidelines, environmental regulations, and health education. The concept of 'Health in All Policies' provides a framework for translating epigenetic knowledge into cross-sectoral policy actions.",
+    "claim_type": "guideline",
+    "evidence_level": "C",
+    "confidence": 75,
+    "source": {
+      "type": "book",
+      "title": "Epigenetics and Human Health: Linking Hereditary, Environmental and Nutritional Aspects",
+      "chapter": "Chapter 22: Epigenetic Health and Responsibility",
+      "page": 281
+    },
+    "tags": [
+      "epigenetic_responsibility",
+      "public_health_policy",
+      "transgenerational_health",
+      "prevention",
+      "early_intervention",
+      "health_policy"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.425817",
+    "status": "structured"
+  }
+]

@@ -1,0 +1,232 @@
+{
+  "nav": {
+    "home": "Home",
+    "nutrients": "Nutrition Encyclopedia",
+    "assessment": "Self-Assessment",
+    "populations": "Population Plans",
+    "results": "Results",
+    "login": "Login",
+    "register": "Sign Up",
+    "adminPanel": "Admin Panel",
+    "logout": "Sign Out"
+  },
+  "home": {
+    "hero": {
+      "tags": ["Personalized Nutrition", "Evidence-Based", "28-Day Plan"],
+      "headline": "Your Body<br/><span style=\"color:#2D6B4F\">Deserves a</span><br/>Custom Plan",
+      "subtitle": "Stop blindly following supplement trends. Through a 6-step intelligent assessment, precisely match your special population group and generate a 3-dimensional 28-day personalized plan covering supplementation, diet, and lifestyle.",
+      "cta1": "Start Free Assessment",
+      "cta2": "View Sample Report",
+      "stat1": "population groups",
+      "stat2": "nutrients",
+      "stat3": "assessment steps",
+      "cardTitle": "Every person's nutritional needs\nare unique",
+      "card1Title": "Supplement Plan",
+      "card1Desc": "Precise dosage & timing",
+      "card2Title": "Diet Adjustment",
+      "card2Desc": "Personalized dietary plan",
+      "card3Title": "Lifestyle",
+      "card3Desc": "Sleep, exercise, stress"
+    },
+    "whyUs": {
+      "label": "Our Advantages",
+      "title": "More Than Supplement Recommendations",
+      "subtitle": "Every step from assessment to plan is tailored to your health"
+    },
+    "features": {
+      "f1": {
+        "title": "Smart Population Matching",
+        "desc": "Based on symptom self-evaluation and health check data, precisely identify nutritional gaps across 12 special population groups — no generic recommendations."
+      },
+      "f2": {
+        "title": "3-Dimensional Plan",
+        "desc": "Supplement + Diet adjustment + Lifestyle changes, three dimensions working together to comprehensively cover your health needs."
+      },
+      "f3": {
+        "title": "Evidence-Based Science",
+        "desc": "Based on Chinese DRIs 2023 and international authoritative guidelines — every recommendation is backed by evidence, no fear-mongering."
+      },
+      "f4": {
+        "title": "Safety First",
+        "desc": "Conflict detection + medication interval reminders + clinical referral indicators. We don't replace doctors, but help you supplement smarter."
+      }
+    },
+    "populations": {
+      "label": "Covered Groups",
+      "title": "12 Special Population Groups",
+      "subtitle": "Everyone's body is different, requiring different nutritional strategies. Choose the group that best fits you for precise recommendations.",
+      "cta": "Start Matching Assessment"
+    },
+    "philosophy": {
+      "label": "Our Philosophy",
+      "title": "Evidence-Based<br/><span style=\"color:#2D6B4F\">Personalized Nutrition</span>",
+      "p1": "More supplements is not always better. Based on Chinese Dietary Reference Intakes (DRIs 2023) and international guidelines, we develop precise nutritional strategies for each special population group.",
+      "p2": "We also detect conflicts between nutrients (e.g., Hashimoto's requiring iodine restriction while pregnancy requires iodine), remind about medication intervals, and suggest consulting a doctor when necessary.",
+      "tags": ["DRIs 2023", "WHO Guidelines", "AHRQ Evidence", "Personalized Algorithm"],
+      "c1Title": "Multi-Group Merging",
+      "c1Desc": "A person may belong to multiple special groups simultaneously (e.g., pregnant + vegan). Our algorithm automatically merges plans and detects conflicts.",
+      "c2Title": "Safety Priority",
+      "c2Desc": "All plans include drug interaction notes and clinical indicators. We provide optimal nutrition advice under the premise of ensuring safety.",
+      "c3Title": "AI-Enhanced Plans",
+      "c3Desc": "Powered by large language models to generate 28-day personalized guidance, from daily supplement reminders to meal pairing suggestions."
+    },
+    "cta": {
+      "title": "Ready to Discover What\nYour Body Truly Needs?",
+      "subtitle": "Complete the 6-step assessment in about 5–8 minutes. All your data is stored only in your local browser.",
+      "button": "Start Assessment Now",
+      "note": "Completely free · No registration required · Local storage"
+    },
+    "footer": {
+      "disclaimer": "This tool is for reference only and does not replace professional medical advice. Please consult a doctor for health concerns."
+    }
+  },
+  "populations": {
+    "pregnancy": { "name": "Pregnancy / Preconception", "desc": "Folate, iron, DHA precision supplementation" },
+    "vegetarian": { "name": "Strict Vegan / Vegetarian", "desc": "B12, iron, zinc, Omega-3 plan" },
+    "fitness": { "name": "Fitness / Body Composition", "desc": "Protein, creatine, electrolyte management" },
+    "menopause": { "name": "Menopausal Women", "desc": "Calcium, Vitamin D, phytoestrogen support" },
+    "pcos": { "name": "PCOS", "desc": "Inositol, Vitamin D, low GI diet strategy" },
+    "ibs": { "name": "IBS", "desc": "Low FODMAP + probiotic restoration" },
+    "mental_health": { "name": "Anxiety / Depression", "desc": "Omega-3, magnesium, B-vitamins, gut-brain axis" },
+    "diabetes": { "name": "Diabetes Management", "desc": "Chromium, magnesium, alpha-lipoic acid, low GI" },
+    "hashimoto": { "name": "Hashimoto's Thyroiditis", "desc": "Selenium, zinc, Vitamin D, gluten-free diet" },
+    "menstrual": { "name": "Menstrual Cycle Optimization", "desc": "Cycle-synced nutrition, PMS relief" },
+    "elderly": { "name": "Elderly", "desc": "Sarcopenia, bone health, cognitive support" },
+    "adolescent": { "name": "Adolescents", "desc": "Growth & development + academic brain support" }
+  },
+  "nutrients": {
+    "title": "Nutrition Encyclopedia",
+    "badge": "Evidence-Based Nutrition",
+    "subtitle": "Based on Chinese Dietary Reference Intakes (DRIs 2023), learn about sources, intake recommendations, and overdose risks for each nutrient.",
+    "searchPlaceholder": "Search nutrient name or keyword…",
+    "allCategory": "All",
+    "categoryVitamin": "Vitamins",
+    "categoryMineral": "Minerals",
+    "categoryFattyAcid": "Fatty Acids",
+    "categoryFiber": "Dietary Fiber",
+    "categoryMacro": "Macronutrients",
+    "noResults": "No matching nutrients found",
+    "noResultsHint": "Try a different keyword or category",
+    "ulUnknown": "UL Not Determined",
+    "back": "Back to Nutrient List",
+    "notFound": "Nutrient not found",
+    "dailyIntake": "Daily Intake Recommendations",
+    "rniLabel": "Recommended Intake (RNI / AI)",
+    "male": "♂ Male",
+    "female": "♀ Female",
+    "unitLabel": "Unit: ",
+    "cycleLabel": "Supplementation Cycle",
+    "specialNote": "💡 Special Note",
+    "overdoseRisk": "Overdose Risk",
+    "ulLabel": "Tolerable Upper Intake Level (UL)",
+    "ulSafe": "Not clearly defined (regular diet unlikely to cause excess)",
+    "overdoseSymptoms": "Overdose Symptoms",
+    "foodSources": "Food Sources",
+    "vitDNote": "☀️ Special Note: Limited food sources of Vitamin D",
+    "vitDNoteBody": "Vitamin D is primarily synthesized through skin exposure to sunlight, with few food sources. Recommend 15–30 minutes of outdoor activity daily, or Vitamin D supplementation under medical guidance.",
+    "vitB12Note": "🌱 Note for Vegans",
+    "vitB12NoteBody": "Vitamin B12 is found almost exclusively in animal foods. Strict vegans must obtain it through fortified foods or supplements to avoid deficiency.",
+    "supplementAdvice": "Supplement Purchasing Advice",
+    "atRiskGroups": "High-Risk Deficiency Groups",
+    "labRef": "Lab Reference Values",
+    "labDeficient": "Deficient",
+    "labInsufficient": "Insufficient",
+    "labOptimal": "Optimal Range",
+    "labHigh": "Elevated",
+    "labNote": "Data is for reference only; please consult your doctor for interpretation",
+    "disclaimer": "⚠️ Disclaimer: Information on this page is based on Chinese DRIs 2023 and publicly available scientific literature, for educational and reference purposes only. It does not constitute medical diagnosis or treatment advice. Any use of nutritional supplements should be under the guidance of a doctor or registered dietitian.",
+    "cycleDaily": "Daily Supplementation",
+    "cyclePeriodic": "Periodic Supplementation",
+    "cycleAsNeeded": "As Needed"
+  },
+  "assessment": {
+    "stepOf": "Step {{current}} of {{total}}",
+    "draftFound": "Unfinished assessment draft detected",
+    "draftRestore": "Restore Draft",
+    "required": "Please fill in/select: ",
+    "requireCoreNeed": "Please select at least one core need",
+    "fillGenderAge": "Please fill in gender and age in 'Basic Info' before selecting needs.",
+    "goBack": "Click 'Previous' to go back.",
+    "noFollowUp": "No core needs selected, no follow-up needed.",
+    "continueNext": "Click 'Next' to continue.",
+    "noContent": "No content to fill in for this step.",
+    "clickNext": "Click 'Next' to continue.",
+    "optional": "(Optional)",
+    "prev": "Previous",
+    "next": "Next",
+    "saveDraft": "Save Draft",
+    "skipFollowUp": "Skip Follow-up",
+    "viewResults": "View Results",
+    "placeholder": "Please select..."
+  },
+  "summary": {
+    "basicInfo": "Basic Information",
+    "gender": "Gender",
+    "age": "Age",
+    "heightWeight": "Height/Weight",
+    "pregnancy": "Pregnant/Preconception",
+    "diagnosis": "Diagnosed Conditions",
+    "coreNeeds": "Core Needs ({{count}} selected)",
+    "currentSupplements": "Currently Taking",
+    "labData": "Lab Data",
+    "noLabData": "No lab data",
+    "goBackEdit": "To make changes, click 'Previous' to go back.",
+    "genderFemale": "Female",
+    "genderMale": "Male",
+    "notFilled": "Not filled",
+    "bmi": "BMI",
+    "ageUnit": " years"
+  },
+  "results": {
+    "title": "Your Nutrition Assessment Results",
+    "subtitle": "Based on your assessment data, here are your personalized nutrition recommendations",
+    "noResult": "No assessment results yet",
+    "goAssess": "Take Assessment",
+    "matched": "Matched Groups",
+    "plan": "Nutrition Plan",
+    "supplements": "Recommended Supplements",
+    "diet": "Diet Recommendations",
+    "lifestyle": "Lifestyle"
+  },
+  "login": {
+    "welcome": "Welcome Back",
+    "welcomeDesc": "Sign in to view your nutrition plan",
+    "email": "Email",
+    "password": "Password",
+    "passwordPlaceholder": "At least 6 characters",
+    "submit": "Sign In",
+    "submitting": "Signing in...",
+    "noAccount": "Don't have an account?",
+    "registerLink": "Sign Up Now"
+  },
+  "register": {
+    "subtitle": "Create an account to start your personalized nutrition journey",
+    "email": "Email",
+    "getCode": "Get Code",
+    "verifyCode": "Verification Code",
+    "codeSentTo": "Code sent to",
+    "resendCode": "Resend",
+    "retryLater": "s to retry",
+    "invalidEmail": "Please enter a valid email",
+    "invalidCode": "Please enter the 6-digit code",
+    "sendCodeFailed": "Failed to send verification code",
+    "name": "Name / Nickname",
+    "namePlaceholder": "What should we call you",
+    "optional": "optional",
+    "password": "Set Password",
+    "passwordPlaceholder": "At least 6 characters",
+    "passwordTooShort": "Password must be at least 6 characters",
+    "createAccount": "Create Account",
+    "registerFailed": "Registration failed, please check the code",
+    "hasAccount": "Already have an account?",
+    "goLogin": "Sign In"
+  },
+  "language": {
+    "label": "Language"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry"
+  }
+}

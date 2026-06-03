@@ -1,0 +1,4889 @@
+[
+  {
+    "id": "荠菜，生",
+    "name": "荠菜，生",
+    "category": "中式药食同源食材",
+    "tags": [],
+    "deep_analysis": true,
+    "nutrients": {},
+    "active_compounds": [
+      {
+        "name": "钙**",
+        "content_text": "含量：每100g含294mg",
+        "mechanism": "作用机制：是牛奶2.5倍,但含草酸吸收率约20-30%"
+      },
+      {
+        "name": "荠菜酸**",
+        "content_text": "含量：特征性植物化学物",
+        "mechanism": "作用机制：收缩血管止血"
+      },
+      {
+        "name": "胡萝卜素**",
+        "content_text": "含量：每100g约2590μg",
+        "mechanism": "作用机制：转化为VA"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "⚪ C级** — **止血**：缩短出血和凝血时间",
+        "evidence_level": "C",
+        "description": ""
+      },
+      {
+        "text": "⚪ C级** — **骨健康**：高钙来源,适合乳糖不耐受人群",
+        "evidence_level": "C",
+        "description": ""
+      },
+      {
+        "text": "⚪ C级** — **降血压**：ACE抑制活性",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "鲜荠菜100-200g/d",
+    "cooking_tips": [
+      "焯水10秒去除部分草酸",
+      "荠菜饺子/馄饨——经典",
+      "荠菜豆腐羹——高钙双保险",
+      "不宜生吃"
+    ],
+    "synergy": [
+      "豆腐(双重钙源)",
+      "鸡蛋(完整营养)",
+      "猪肉(氨基酸互补)"
+    ],
+    "contraindications": [
+      "肾结石草酸钙型限量",
+      "孕妇慎用大量",
+      "甲减者焯水后食用"
+    ],
+    "tcm": {
+      "meridian": "** 归经：归肝、胃经"
+    }
+  },
+  {
+    "id": "马齿苋，生",
+    "name": "马齿苋，生",
+    "category": "中式药食同源食材",
+    "tags": [],
+    "deep_analysis": true,
+    "nutrients": {},
+    "active_compounds": [
+      {
+        "name": "ALA**",
+        "content_text": "含量：陆生植物最高(~350-400mg/100g)",
+        "mechanism": "作用机制：植物omega-3,抗炎"
+      },
+      {
+        "name": "去甲肾上腺素**",
+        "content_text": "含量：每100g约2.5mg",
+        "mechanism": "作用机制：调节血管张力"
+      },
+      {
+        "name": "谷胱甘肽**",
+        "content_text": "含量：三肽抗氧化剂",
+        "mechanism": "作用机制：清除自由基,肝脏解毒辅因子"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "⚪ C级** — **抗炎**：omega-3+多酚双重抗炎",
+        "evidence_level": "C",
+        "description": ""
+      },
+      {
+        "text": "⚪ C级** — **抗菌**：抑制痢疾杆菌/大肠杆菌(体外)",
+        "evidence_level": "C",
+        "description": ""
+      },
+      {
+        "text": "⚪ C级** — **血糖**：动物实验显示降糖作用",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "鲜马齿苋100-150g/d",
+    "cooking_tips": [
+      "必须焯水(含草酸+硝酸盐)",
+      "凉拌:焯水后+蒜泥+醋+香油",
+      "炒蛋:切碎+鸡蛋快炒",
+      "口感微酸滑腻"
+    ],
+    "synergy": [
+      "大蒜(双重抗菌)",
+      "醋(提升矿物质吸收)",
+      "鸡蛋/瘦肉(蛋白质补充)"
+    ],
+    "contraindications": [
+      "脾胃虚寒腹泻者慎用",
+      "大剂量安全性未知",
+      "肾结石草酸钙型限量"
+    ],
+    "tcm": {
+      "meridian": "** 归经：归肝、大肠经"
+    }
+  },
+  {
+    "id": "黑木耳，干",
+    "name": "黑木耳，干",
+    "category": "中式药食同源食材",
+    "tags": [],
+    "deep_analysis": true,
+    "nutrients": {},
+    "active_compounds": [
+      {
+        "name": "木耳多糖**",
+        "content_text": "含量：水溶性β-葡聚糖",
+        "mechanism": "作用机制：免疫调节;抑制血小板聚集"
+      },
+      {
+        "name": "铁**",
+        "content_text": "含量：干品5.9mg/100g",
+        "mechanism": "作用机制：血红素合成必需"
+      },
+      {
+        "name": "膳食纤维**",
+        "content_text": "含量：干品30-40%",
+        "mechanism": "作用机制：增加饱腹感,调节菌群"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "⚪ C级** — **心血管**：温和抗血栓作用",
+        "evidence_level": "C",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **补铁**：植物性铁良好来源",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "⚪ C级** — **肠道**：高纤维促进排便",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "干品5-10g(泡发后50-100g)",
+    "cooking_tips": [
+      "冷水浸泡2-4h(勿用热水)",
+      "严禁隔夜泡发(椰毒假单胞菌→米酵菌酸中毒)",
+      "凉拌:焯水+醋/黄瓜/蒜泥",
+      "炒菜:木耳炒蛋/炒肉"
+    ],
+    "synergy": [
+      "醋(促进铁吸收)",
+      "青椒/番茄(VC提升铁利用)",
+      "鸡蛋(动物蛋白+植物铁)",
+      "山药(粘蛋白+木耳多糖)"
+    ],
+    "contraindications": [
+      "服用抗凝药者注意(食物量通常不造成临床风险)",
+      "术前1周暂停",
+      "选择干燥无异味产品"
+    ],
+    "tcm": {
+      "meridian": "** 归经：归胃、大肠经"
+    }
+  },
+  {
+    "id": "银耳（白木耳），干",
+    "name": "银耳（白木耳），干",
+    "category": "中式药食同源食材",
+    "tags": [],
+    "deep_analysis": false,
+    "nutrients": {},
+    "active_compounds": [
+      {
+        "name": "复合活性成分**",
+        "content_text": "含量：传统药食同源食材",
+        "mechanism": "作用机制：多靶点协同"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "⚪ C级(传统知识)** — **传统功效**：滋阴润肺,养胃生津",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "按传统用法适量食用",
+    "cooking_tips": [
+      "按传统烹饪方法"
+    ],
+    "synergy": [],
+    "contraindications": [
+      "参照中医体质辨证食用"
+    ],
+    "tcm": {
+      "meridian": "** 归经：归肺、胃、肾经"
+    }
+  },
+  {
+    "id": "莲子，干",
+    "name": "莲子，干",
+    "category": "中式药食同源食材",
+    "tags": [],
+    "deep_analysis": true,
+    "nutrients": {},
+    "active_compounds": [
+      {
+        "name": "莲子碱**",
+        "content_text": "含量：异喹啉生物碱",
+        "mechanism": "作用机制：镇静安神,钙通道阻滞→降血压"
+      },
+      {
+        "name": "GABA**",
+        "content_text": "含量：天然存在",
+        "mechanism": "作用机制：抑制性神经递质,帮助放松和入睡"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "⚪ C级** — **睡眠**：养心安神,GABA+生物碱镇静",
+        "evidence_level": "C",
+        "description": ""
+      },
+      {
+        "text": "⚪ C级** — **消化**：健脾止泻",
+        "evidence_level": "C",
+        "description": ""
+      },
+      {
+        "text": "⚪ C级** — **心血管**：莲子碱温和降压",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "干品10-30g/d",
+    "cooking_tips": [
+      "提前浸泡>2h",
+      "莲子粥:莲子+百合+糯米",
+      "冰糖莲子:莲子+银耳+冰糖煲糖水",
+      "莲子心苦味极重但清热效果更强,可根据需要去留"
+    ],
+    "synergy": [
+      "百合(安神协同)",
+      "银耳(双重滋阴)",
+      "桂圆(补心血+安神)",
+      "山药(健脾养胃黄金配)"
+    ],
+    "contraindications": [
+      "大便燥结/便秘者少食(收敛止泻)",
+      "腹胀满者慎食",
+      "莲子心极苦性寒,体质虚寒者去心"
+    ],
+    "tcm": {
+      "meridian": "** 归经：归脾、肾、心经"
+    }
+  },
+  {
+    "id": "红枣（大枣），干",
+    "name": "红枣（大枣），干",
+    "category": "中式药食同源食材",
+    "tags": [],
+    "deep_analysis": true,
+    "nutrients": {},
+    "active_compounds": [
+      {
+        "name": "cAMP**",
+        "content_text": "含量：植物界最高(~100-500nmol/g)",
+        "mechanism": "作用机制：第二信使,调节激素分泌/免疫应答"
+      },
+      {
+        "name": "多糖**",
+        "content_text": "含量：水溶性枣多糖",
+        "mechanism": "作用机制：免疫调节"
+      },
+      {
+        "name": "VC**",
+        "content_text": "含量：鲜枣约243mg/100g",
+        "mechanism": "作用机制：抗氧化,促进铁吸收"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "⚪ C级** — **补血**：传统补气血要药,cAMP可能促进EPO分泌",
+        "evidence_level": "C",
+        "description": ""
+      },
+      {
+        "text": "⚪ C级** — **免疫**：多糖激活巨噬细胞",
+        "evidence_level": "C",
+        "description": ""
+      },
+      {
+        "text": "⚪ C级** — **安神**：GABA+黄酮镇静(甘麦大枣汤)",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "干红枣5-10颗(约20-30g)/d",
+    "cooking_tips": [
+      "直接食用:去核当零食",
+      "煮汤/粥:与小米/黑米/姜/桂圆",
+      "泡茶:红枣+枸杞+生姜",
+      "干枣含糖量>60%,血糖管理需注意"
+    ],
+    "synergy": [
+      "生姜(暖宫补血经典)",
+      "枸杞(肝肾双补)",
+      "桂圆(补血安神黄金搭档)",
+      "黄芪(气血双补)"
+    ],
+    "contraindications": [
+      "糖尿病患者严格控制(GI约103)",
+      "痰湿体质/腹胀满者少食",
+      "外感风热/喉咙痛时暂停",
+      "避免霉变枣(黄曲霉素)"
+    ],
+    "tcm": {
+      "meridian": "** 归经：归脾、胃、心经"
+    }
+  },
+  {
+    "id": "桂圆（龙眼肉），干",
+    "name": "桂圆（龙眼肉），干",
+    "category": "中式药食同源食材",
+    "tags": [],
+    "deep_analysis": false,
+    "nutrients": {},
+    "active_compounds": [
+      {
+        "name": "复合活性成分**",
+        "content_text": "含量：传统药食同源食材",
+        "mechanism": "作用机制：多靶点协同"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "⚪ C级(传统知识)** — **传统功效**：补心脾,益气血,安神",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "按传统用法适量食用",
+    "cooking_tips": [
+      "按传统烹饪方法"
+    ],
+    "synergy": [],
+    "contraindications": [
+      "参照中医体质辨证食用"
+    ],
+    "tcm": {
+      "meridian": "** 归经：归心、脾经"
+    }
+  },
+  {
+    "id": "薏苡仁（薏米）",
+    "name": "薏苡仁（薏米）",
+    "category": "中式药食同源食材",
+    "tags": [],
+    "deep_analysis": true,
+    "nutrients": {},
+    "active_compounds": [
+      {
+        "name": "薏苡仁酯**",
+        "content_text": "含量：脂溶性成分",
+        "mechanism": "作用机制：抗肿瘤活性(体外)"
+      },
+      {
+        "name": "薏苡仁多糖(Coixan)**",
+        "content_text": "含量：多糖",
+        "mechanism": "作用机制：降血糖(抑制α-葡萄糖苷酶)"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "⚪ C级** — **利水渗湿**：促进水分代谢,改善水肿",
+        "evidence_level": "C",
+        "description": ""
+      },
+      {
+        "text": "⚪ C级** — **关节**：传统治疗湿热痹症",
+        "evidence_level": "C",
+        "description": ""
+      },
+      {
+        "text": "⚪ C级** — **皮肤**：改善湿热型痤疮,对扁平疣有效",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "生薏米30-50g/d",
+    "cooking_tips": [
+      "提前浸泡>4h",
+      "薏米+赤小豆——经典祛湿组合",
+      "薏米+冬瓜+排骨煲汤",
+      "生薏米性凉,炒薏米性平——体虚寒者选炒制"
+    ],
+    "synergy": [
+      "赤小豆(祛湿黄金组合)",
+      "冬瓜(利水消肿叠加)",
+      "茯苓(健脾利湿协同)",
+      "山药(健脾祛湿不伤正)"
+    ],
+    "contraindications": [
+      "孕妇慎用(动物实验薏苡仁油有子宫兴奋作用)",
+      "阴虚津亏/口干严重者少食",
+      "脾胃虚寒严重者用炒薏米"
+    ],
+    "tcm": {
+      "meridian": "** 归经：归脾、胃、肺、肾经"
+    }
+  },
+  {
+    "id": "山楂，干",
+    "name": "山楂，干",
+    "category": "中式药食同源食材",
+    "tags": [],
+    "deep_analysis": false,
+    "nutrients": {},
+    "active_compounds": [
+      {
+        "name": "复合活性成分**",
+        "content_text": "含量：传统药食同源食材",
+        "mechanism": "作用机制：多靶点协同"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "⚪ C级(传统知识)** — **传统功效**：消食化积,行气散瘀",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "按传统用法适量食用",
+    "cooking_tips": [
+      "按传统烹饪方法"
+    ],
+    "synergy": [],
+    "contraindications": [
+      "参照中医体质辨证食用"
+    ],
+    "tcm": {
+      "meridian": "** 归经：归脾、胃、肝经"
+    }
+  },
+  {
+    "id": "紫菜，干",
+    "name": "紫菜，干",
+    "category": "中式药食同源食材",
+    "tags": [],
+    "deep_analysis": false,
+    "nutrients": {},
+    "active_compounds": [
+      {
+        "name": "复合活性成分**",
+        "content_text": "含量：传统药食同源食材",
+        "mechanism": "作用机制：多靶点协同"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "⚪ C级(传统知识)** — **传统功效**：软坚散结,清热化痰",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "按传统用法适量食用",
+    "cooking_tips": [
+      "按传统烹饪方法"
+    ],
+    "synergy": [],
+    "contraindications": [
+      "参照中医体质辨证食用"
+    ],
+    "tcm": {
+      "meridian": "** 归经：归肺、肾经"
+    }
+  },
+  {
+    "id": "白果（银杏），煮熟",
+    "name": "白果（银杏），煮熟",
+    "category": "中式药食同源食材",
+    "tags": [],
+    "deep_analysis": false,
+    "nutrients": {},
+    "active_compounds": [
+      {
+        "name": "复合活性成分**",
+        "content_text": "含量：传统药食同源食材",
+        "mechanism": "作用机制：多靶点协同"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "⚪ C级(传统知识)** — **传统功效**：敛肺定喘,止带缩尿",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "按传统用法适量食用",
+    "cooking_tips": [
+      "按传统烹饪方法"
+    ],
+    "synergy": [],
+    "contraindications": [
+      "参照中医体质辨证食用"
+    ],
+    "tcm": {
+      "meridian": "** 归经：归肺、肾经"
+    }
+  },
+  {
+    "id": "陈皮，干",
+    "name": "陈皮，干",
+    "category": "中式药食同源食材",
+    "tags": [],
+    "deep_analysis": false,
+    "nutrients": {},
+    "active_compounds": [
+      {
+        "name": "复合活性成分**",
+        "content_text": "含量：传统药食同源食材",
+        "mechanism": "作用机制：多靶点协同"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "⚪ C级(传统知识)** — **传统功效**：理气健脾,燥湿化痰",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "按传统用法适量食用",
+    "cooking_tips": [
+      "按传统烹饪方法"
+    ],
+    "synergy": [],
+    "contraindications": [
+      "参照中医体质辨证食用"
+    ],
+    "tcm": {
+      "meridian": "** 归经：归脾、肺经"
+    }
+  },
+  {
+    "id": "黑芝麻，生",
+    "name": "黑芝麻，生",
+    "category": "中式药食同源食材",
+    "tags": [],
+    "deep_analysis": false,
+    "nutrients": {},
+    "active_compounds": [
+      {
+        "name": "复合活性成分**",
+        "content_text": "含量：传统药食同源食材",
+        "mechanism": "作用机制：多靶点协同"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "⚪ C级(传统知识)** — **传统功效**：补肝肾,益精血,润肠通便",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "按传统用法适量食用",
+    "cooking_tips": [
+      "按传统烹饪方法"
+    ],
+    "synergy": [],
+    "contraindications": [
+      "参照中医体质辨证食用"
+    ],
+    "tcm": {
+      "meridian": "** 归经：归肝、肾、大肠经"
+    }
+  },
+  {
+    "id": "绿豆芽",
+    "name": "绿豆芽",
+    "category": "中式药食同源食材",
+    "tags": [],
+    "deep_analysis": false,
+    "nutrients": {},
+    "active_compounds": [
+      {
+        "name": "复合活性成分**",
+        "content_text": "含量：传统药食同源食材",
+        "mechanism": "作用机制：多靶点协同"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "⚪ C级(传统知识)** — **传统功效**：清热消暑,利尿解毒",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "按传统用法适量食用",
+    "cooking_tips": [
+      "按传统烹饪方法"
+    ],
+    "synergy": [],
+    "contraindications": [
+      "参照中医体质辨证食用"
+    ],
+    "tcm": {
+      "meridian": "** 归经：归脾、胃经"
+    }
+  },
+  {
+    "id": "kefir_lowfat_plain_lifeway",
+    "name": "Kefir, lowfat, plain, LIFEWAY",
+    "category": "乳制品与蛋类",
+    "tags": [
+      "肠脑轴"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 182.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **骨健康**：每100g含钙130mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-200g/d",
+    "cooking_tips": [
+      "冷藏保存,开封后尽快食用"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "kefir_lowfat_strawberry_lifeway",
+    "name": "Kefir, lowfat, strawberry, LIFEWAY",
+    "category": "乳制品与蛋类",
+    "tags": [
+      "抗氧化",
+      "肠脑轴"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 261.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **骨健康**：每100g含钙119mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-200g/d",
+    "cooking_tips": [
+      "冷藏保存,开封后尽快食用"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "lunchmeat_chicken_breast_sliced",
+    "name": "Lunchmeat, chicken breast, sliced",
+    "category": "加工肉制品",
+    "tags": [
+      "基础营养"
+    ],
+    "deep_analysis": false,
+    "nutrients": {},
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **综合营养**：全面营养支持",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "少量,加工肉制品建议<50g/周",
+    "cooking_tips": [],
+    "synergy": [],
+    "contraindications": [
+      "加工肉制品IARC 1类致癌物(结直肠癌)"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "nuts_walnuts_english",
+    "name": "Nuts, walnuts, english",
+    "category": "坚果与种子",
+    "tags": [
+      "抗炎"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 2738.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "α-亚麻酸(ALA)**",
+        "content_text": "含量：每100g约9g",
+        "mechanism": "作用机制：植物omega-3最高来源之一,转化为EPA/DHA"
+      },
+      {
+        "name": "鞣花酸**",
+        "content_text": "含量：多酚类",
+        "mechanism": "作用机制：肠道菌群代谢为尿石素,激活线粒体自噬"
+      },
+      {
+        "name": "褪黑素**",
+        "content_text": "含量：约3.5ng/g",
+        "mechanism": "作用机制：调节昼夜节律,抗氧化"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **心血管**：降低LDL-C 5-10%",
+        "evidence_level": "A",
+        "reference": "参考文献：PREDIMED研究(n=7447)",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **认知**：改善老年人认知功能",
+        "evidence_level": "B",
+        "reference": "参考文献：WAHA研究(n=708,2年RCT)",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **抗炎**：降低CRP、IL-6",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **肠道**：增加产丁酸菌丰度",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "30-60g/d(约6-12个,一把)",
+    "cooking_tips": [
+      "生吃最佳(ALA和鞣花酸热敏)",
+      "烘焙<150°C,<15分钟",
+      "浸泡4-8小时去单宁",
+      "可研磨加入燕麦/酸奶/沙拉"
+    ],
+    "synergy": [
+      "蓝莓(多酚+ALA协同)",
+      "希腊酸奶(蛋白质稳定血糖)",
+      "绿叶蔬菜(脂溶性维生素)"
+    ],
+    "contraindications": [
+      "坚果过敏者严格避免",
+      "肾结石草酸钙型需限量",
+      "注意热量(654kcal/100g)",
+      "冷藏密封保存(ALA易氧化)"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "nuts_pecans",
+    "name": "Nuts, pecans",
+    "category": "坚果与种子",
+    "tags": [
+      "抗氧化"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 2889.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "膳食纤维**",
+        "content_text": "含量：9.6g/100g",
+        "mechanism": "作用机制：促进肠蠕动,调节菌群"
+      },
+      {
+        "name": "镁**",
+        "content_text": "含量：121mg/100g",
+        "mechanism": "作用机制：300+酶促反应辅因子"
+      },
+      {
+        "name": "Omega-3(ALA)**",
+        "content_text": "含量：1.0g/100g",
+        "mechanism": "作用机制：抗炎类花生酸前体"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **肠道健康**：高纤维(9.6g/100g)促进排便和菌群平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **神经肌肉**：每100g含镁121mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **抗炎**：omega-3含量1.0g/100g",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "20-40g/d(约一把)",
+    "cooking_tips": [
+      "生吃或轻度烘烤(<150°C)",
+      "浸泡去单宁"
+    ],
+    "synergy": [],
+    "contraindications": [
+      "过敏者避免"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "nuts_pecans_halves_raw",
+    "name": "Nuts, pecans, halves, raw",
+    "category": "坚果与种子",
+    "tags": [
+      "抗氧化"
+    ],
+    "deep_analysis": true,
+    "nutrients": {},
+    "active_compounds": [
+      {
+        "name": "膳食纤维**",
+        "content_text": "含量：5.8g/100g",
+        "mechanism": "作用机制：促进肠蠕动,调节菌群"
+      },
+      {
+        "name": "镁**",
+        "content_text": "含量：103mg/100g",
+        "mechanism": "作用机制：300+酶促反应辅因子"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **肠道健康**：高纤维(5.8g/100g)促进排便和菌群平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **神经肌肉**：每100g含镁103mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "20-40g/d(约一把)",
+    "cooking_tips": [
+      "生吃或轻度烘烤(<150°C)",
+      "浸泡去单宁"
+    ],
+    "synergy": [],
+    "contraindications": [
+      "过敏者避免"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "flaxseed_ground",
+    "name": "Flaxseed, ground",
+    "category": "坚果与种子",
+    "tags": [
+      "女性激素健康"
+    ],
+    "deep_analysis": true,
+    "nutrients": {},
+    "active_compounds": [
+      {
+        "name": "木脂素(SDG)**",
+        "content_text": "含量：每100g含300mg(自然界最高)",
+        "mechanism": "作用机制：肠道菌群→肠内酯,SERM样作用"
+      },
+      {
+        "name": "ALA**",
+        "content_text": "含量：每100g约22g",
+        "mechanism": "作用机制：植物omega-3最高来源,抑制COX-2/5-LOX"
+      },
+      {
+        "name": "粘液纤维**",
+        "content_text": "含量：6-12%",
+        "mechanism": "作用机制：形成凝胶延缓胃排空,包裹胆汁酸"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟡 B级** — **激素平衡**：木脂素SERM:雌激素高时拮抗,低时弱激活",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **更年期**：40g/d亚麻籽粉减轻潮热频率",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **心血管**：降低总胆固醇和LDL-C 6-11%",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **肠道**：粘液纤维促进排便规律",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "亚麻籽粉15-30g/d(约1-2汤匙),必须研磨后食用!",
+    "cooking_tips": [
+      "必须研磨成粉后食用!整粒几乎原样排出",
+      "加入燕麦/酸奶/冰沙/面团",
+      "不宜高温烘烤(ALA氧化)",
+      "开封后密封冷藏,2周内用完"
+    ],
+    "synergy": [
+      "VC丰富食物(稳定ALA)",
+      "豆制品(木脂素+大豆异黄酮)",
+      "充分饮水(粘液纤维膨胀)"
+    ],
+    "contraindications": [
+      "肠道梗阻/狭窄禁用",
+      "甲减者与甲状腺素药物间隔>2h",
+      "孕期<30g/d安全",
+      "购买棕色或金色亚麻籽均可"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "seeds_flaxseed",
+    "name": "Seeds, flaxseed",
+    "category": "坚果与种子",
+    "tags": [
+      "女性激素健康"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 2234.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "木脂素(SDG)**",
+        "content_text": "含量：每100g含300mg(自然界最高)",
+        "mechanism": "作用机制：肠道菌群→肠内酯,SERM样作用"
+      },
+      {
+        "name": "ALA**",
+        "content_text": "含量：每100g约22g",
+        "mechanism": "作用机制：植物omega-3最高来源,抑制COX-2/5-LOX"
+      },
+      {
+        "name": "粘液纤维**",
+        "content_text": "含量：6-12%",
+        "mechanism": "作用机制：形成凝胶延缓胃排空,包裹胆汁酸"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟡 B级** — **激素平衡**：木脂素SERM:雌激素高时拮抗,低时弱激活",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **更年期**：40g/d亚麻籽粉减轻潮热频率",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **心血管**：降低总胆固醇和LDL-C 6-11%",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **肠道**：粘液纤维促进排便规律",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "亚麻籽粉15-30g/d(约1-2汤匙),必须研磨后食用!",
+    "cooking_tips": [
+      "必须研磨成粉后食用!整粒几乎原样排出",
+      "加入燕麦/酸奶/冰沙/面团",
+      "不宜高温烘烤(ALA氧化)",
+      "开封后密封冷藏,2周内用完"
+    ],
+    "synergy": [
+      "VC丰富食物(稳定ALA)",
+      "豆制品(木脂素+大豆异黄酮)",
+      "充分饮水(粘液纤维膨胀)"
+    ],
+    "contraindications": [
+      "肠道梗阻/狭窄禁用",
+      "甲减者与甲状腺素药物间隔>2h",
+      "孕期<30g/d安全",
+      "购买棕色或金色亚麻籽均可"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "seeds_pumpkin_seeds_pepitas_raw",
+    "name": "Seeds, pumpkin seeds (pepitas), raw",
+    "category": "坚果与种子",
+    "tags": [
+      "女性激素健康"
+    ],
+    "deep_analysis": true,
+    "nutrients": {},
+    "active_compounds": [
+      {
+        "name": "优质蛋白质**",
+        "content_text": "含量：29.9g/100g",
+        "mechanism": "作用机制：肌肉合成与修复"
+      },
+      {
+        "name": "膳食纤维**",
+        "content_text": "含量：5.1g/100g",
+        "mechanism": "作用机制：促进肠蠕动,调节菌群"
+      },
+      {
+        "name": "镁**",
+        "content_text": "含量：500mg/100g",
+        "mechanism": "作用机制：300+酶促反应辅因子"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **肠道健康**：高纤维(5.1g/100g)促进排便和菌群平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **补铁**：每100g含铁8.4mg",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **神经肌肉**：每100g含镁500mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **血压调节**：高钾(691mg/100g),有助钠钾平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "20-40g/d(约一把)",
+    "cooking_tips": [
+      "生吃或轻度烘烤(<150°C)",
+      "浸泡去单宁"
+    ],
+    "synergy": [],
+    "contraindications": [
+      "过敏者避免"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "seeds_pumpkin_and_squash_seed_kernels_dried",
+    "name": "Seeds, pumpkin and squash seed kernels, dried",
+    "category": "坚果与种子",
+    "tags": [
+      "女性激素健康"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 2339.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "优质蛋白质**",
+        "content_text": "含量：30.2g/100g",
+        "mechanism": "作用机制：肌肉合成与修复"
+      },
+      {
+        "name": "膳食纤维**",
+        "content_text": "含量：6.0g/100g",
+        "mechanism": "作用机制：促进肠蠕动,调节菌群"
+      },
+      {
+        "name": "镁**",
+        "content_text": "含量：592mg/100g",
+        "mechanism": "作用机制：300+酶促反应辅因子"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **肠道健康**：高纤维(6.0g/100g)促进排便和菌群平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **补铁**：每100g含铁8.8mg",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **神经肌肉**：每100g含镁592mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **血压调节**：高钾(809mg/100g),有助钠钾平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "20-40g/d(约一把)",
+    "cooking_tips": [
+      "生吃或轻度烘烤(<150°C)",
+      "浸泡去单宁"
+    ],
+    "synergy": [],
+    "contraindications": [
+      "过敏者避免"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "seeds_sunflower_seed_kernels_dried",
+    "name": "Seeds, sunflower seed kernels, dried",
+    "category": "坚果与种子",
+    "tags": [
+      "女性激素健康"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 2445.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "优质蛋白质**",
+        "content_text": "含量：20.8g/100g",
+        "mechanism": "作用机制：肌肉合成与修复"
+      },
+      {
+        "name": "膳食纤维**",
+        "content_text": "含量：8.6g/100g",
+        "mechanism": "作用机制：促进肠蠕动,调节菌群"
+      },
+      {
+        "name": "镁**",
+        "content_text": "含量：325mg/100g",
+        "mechanism": "作用机制：300+酶促反应辅因子"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **肠道健康**：高纤维(8.6g/100g)促进排便和菌群平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **补铁**：每100g含铁5.2mg",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **神经肌肉**：每100g含镁325mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **血压调节**：高钾(645mg/100g),有助钠钾平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "20-40g/d(约一把)",
+    "cooking_tips": [
+      "生吃或轻度烘烤(<150°C)",
+      "浸泡去单宁"
+    ],
+    "synergy": [],
+    "contraindications": [
+      "过敏者避免"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "seeds_sunflower_seed_kernel_raw",
+    "name": "Seeds, sunflower seed, kernel, raw",
+    "category": "坚果与种子",
+    "tags": [
+      "女性激素健康"
+    ],
+    "deep_analysis": true,
+    "nutrients": {},
+    "active_compounds": [
+      {
+        "name": "优质蛋白质**",
+        "content_text": "含量：18.9g/100g",
+        "mechanism": "作用机制：肌肉合成与修复"
+      },
+      {
+        "name": "膳食纤维**",
+        "content_text": "含量：7.2g/100g",
+        "mechanism": "作用机制：促进肠蠕动,调节菌群"
+      },
+      {
+        "name": "镁**",
+        "content_text": "含量：302mg/100g",
+        "mechanism": "作用机制：300+酶促反应辅因子"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **肠道健康**：高纤维(7.2g/100g)促进排便和菌群平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **骨健康**：每100g含钙116mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **补铁**：每100g含铁4.4mg",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **神经肌肉**：每100g含镁302mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **血压调节**：高钾(657mg/100g),有助钠钾平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "20-40g/d(约一把)",
+    "cooking_tips": [
+      "生吃或轻度烘烤(<150°C)",
+      "浸泡去单宁"
+    ],
+    "synergy": [],
+    "contraindications": [
+      "过敏者避免"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "seeds_sesame_seeds_whole_dried",
+    "name": "Seeds, sesame seeds, whole, dried",
+    "category": "坚果与种子",
+    "tags": [
+      "女性激素健康"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 2397.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "优质蛋白质**",
+        "content_text": "含量：17.7g/100g",
+        "mechanism": "作用机制：肌肉合成与修复"
+      },
+      {
+        "name": "膳食纤维**",
+        "content_text": "含量：11.8g/100g",
+        "mechanism": "作用机制：促进肠蠕动,调节菌群"
+      },
+      {
+        "name": "镁**",
+        "content_text": "含量：351mg/100g",
+        "mechanism": "作用机制：300+酶促反应辅因子"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **肠道健康**：高纤维(11.8g/100g)促进排便和菌群平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **骨健康**：每100g含钙975mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **补铁**：每100g含铁14.6mg",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **神经肌肉**：每100g含镁351mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "20-40g/d(约一把)",
+    "cooking_tips": [
+      "生吃或轻度烘烤(<150°C)",
+      "浸泡去单宁"
+    ],
+    "synergy": [],
+    "contraindications": [
+      "过敏者避免"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "seeds_sesame_seed_kernels_dried_decorticated",
+    "name": "Seeds, sesame seed kernels, dried (decorticated)",
+    "category": "坚果与种子",
+    "tags": [
+      "女性激素健康"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 2640.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "优质蛋白质**",
+        "content_text": "含量：20.4g/100g",
+        "mechanism": "作用机制：肌肉合成与修复"
+      },
+      {
+        "name": "膳食纤维**",
+        "content_text": "含量：11.6g/100g",
+        "mechanism": "作用机制：促进肠蠕动,调节菌群"
+      },
+      {
+        "name": "镁**",
+        "content_text": "含量：345mg/100g",
+        "mechanism": "作用机制：300+酶促反应辅因子"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **肠道健康**：高纤维(11.6g/100g)促进排便和菌群平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **补铁**：每100g含铁6.4mg",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **神经肌肉**：每100g含镁345mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "20-40g/d(约一把)",
+    "cooking_tips": [
+      "生吃或轻度烘烤(<150°C)",
+      "浸泡去单宁"
+    ],
+    "synergy": [],
+    "contraindications": [
+      "过敏者避免"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "blueberries_raw",
+    "name": "Blueberries, raw",
+    "category": "水果与果汁",
+    "tags": [
+      "抗氧化"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 240.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "花青素**",
+        "content_text": "含量：每100g约163-387mg",
+        "mechanism": "作用机制：穿过血脑屏障,Nrf2/ARE通路激活"
+      },
+      {
+        "name": "紫檀芪**",
+        "content_text": "含量：白藜芦醇类似物",
+        "mechanism": "作用机制：生物利用度比白藜芦醇高80%"
+      },
+      {
+        "name": "槲皮素**",
+        "content_text": "含量：每100g约7-10mg",
+        "mechanism": "作用机制：SIRT1激活,AMPK通路"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **认知**：改善老年人记忆和执行功能",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **抗氧化**：ORAC值4669(水果最高之一)",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **心血管**：降低血压5-8mmHg",
+        "evidence_level": "B",
+        "reference": "参考文献：meta分析",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **血糖**：改善胰岛素敏感性22%",
+        "evidence_level": "B",
+        "reference": "参考文献：RCT(n=32)",
+        "description": ""
+      }
+    ],
+    "daily_intake": "新鲜蓝莓100-150g/d(约一杯)",
+    "cooking_tips": [
+      "生吃最佳(花青素热敏,>80°C显著降解)",
+      "冷冻蓝莓花青素保留率>80%",
+      "加入燕麦/酸奶/冰沙",
+      "低温烘焙(<175°C)可保留部分花青素"
+    ],
+    "synergy": [
+      "核桃/杏仁(多酚+ALA/VE协同)",
+      "希腊酸奶(蛋白质稳定血糖)",
+      "黑巧克力(多酚叠加)"
+    ],
+    "contraindications": [
+      "水杨酸敏感者少量尝试",
+      "草酸钙肾结石需限量",
+      "选择有机蓝莓"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "pomegranates_raw",
+    "name": "Pomegranates, raw",
+    "category": "水果与果汁",
+    "tags": [
+      "抗炎"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 346.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "🟡 B级** — **抗炎**：富含抗炎活性成分",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-200g/d",
+    "cooking_tips": [
+      "生吃最佳",
+      "制成果昔/沙拉"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "pomegranate_juice_bottled",
+    "name": "Pomegranate juice, bottled",
+    "category": "水果与果汁",
+    "tags": [
+      "抗炎"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 228.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "🟡 B级** — **抗炎**：富含抗炎活性成分",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-200g/d",
+    "cooking_tips": [
+      "生吃最佳",
+      "制成果昔/沙拉"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "cranberries_raw",
+    "name": "Cranberries, raw",
+    "category": "水果与果汁",
+    "tags": [],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 191.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [],
+    "daily_intake": "100-200g/d",
+    "cooking_tips": [
+      "生吃最佳",
+      "制成果昔/沙拉"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "cranberries_dried_sweetened",
+    "name": "Cranberries, dried, sweetened",
+    "category": "水果与果汁",
+    "tags": [],
+    "deep_analysis": false,
+    "nutrients": {},
+    "active_compounds": [],
+    "health_benefits": [],
+    "daily_intake": "100-200g/d",
+    "cooking_tips": [
+      "生吃最佳",
+      "制成果昔/沙拉"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "blackberries_raw",
+    "name": "Blackberries, raw",
+    "category": "水果与果汁",
+    "tags": [
+      "抗氧化"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 181.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "膳食纤维**",
+        "content_text": "含量：5.3g/100g",
+        "mechanism": "作用机制：促进肠蠕动,调节菌群"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **肠道健康**：高纤维(5.3g/100g)促进排便和菌群平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-200g/d",
+    "cooking_tips": [
+      "生吃最佳",
+      "制成果昔/沙拉"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "raspberries_raw",
+    "name": "Raspberries, raw",
+    "category": "水果与果汁",
+    "tags": [],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 220.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "膳食纤维**",
+        "content_text": "含量：6.5g/100g",
+        "mechanism": "作用机制：促进肠蠕动,调节菌群"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **肠道健康**：高纤维(6.5g/100g)促进排便和菌群平衡",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-200g/d",
+    "cooking_tips": [
+      "生吃最佳",
+      "制成果昔/沙拉"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "strawberries_raw",
+    "name": "Strawberries, raw",
+    "category": "水果与果汁",
+    "tags": [],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 136.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **免疫**：每100g含维C59mg",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-200g/d",
+    "cooking_tips": [
+      "生吃最佳",
+      "制成果昔/沙拉"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "cherries_sweet_raw",
+    "name": "Cherries, sweet, raw",
+    "category": "水果与果汁",
+    "tags": [],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 263.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [],
+    "daily_intake": "100-200g/d",
+    "cooking_tips": [
+      "生吃最佳",
+      "制成果昔/沙拉"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "cherry_juice_tart",
+    "name": "Cherry juice, tart",
+    "category": "水果与果汁",
+    "tags": [
+      "抗氧化"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 248.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-200g/d",
+    "cooking_tips": [
+      "生吃最佳",
+      "制成果昔/沙拉"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "plums_raw",
+    "name": "Plums, raw",
+    "category": "水果与果汁",
+    "tags": [
+      "抗氧化"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 192.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-200g/d",
+    "cooking_tips": [
+      "生吃最佳",
+      "制成果昔/沙拉"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "carissa_natal-plum_raw",
+    "name": "Carissa, (natal-plum), raw",
+    "category": "水果与果汁",
+    "tags": [
+      "抗氧化"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 259.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **免疫**：每100g含维C38mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-200g/d",
+    "cooking_tips": [
+      "生吃最佳",
+      "制成果昔/沙拉"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "avocados_raw_california",
+    "name": "Avocados, raw, California",
+    "category": "水果与果汁",
+    "tags": [
+      "女性激素健康"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 697.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "膳食纤维**",
+        "content_text": "含量：6.8g/100g",
+        "mechanism": "作用机制：促进肠蠕动,调节菌群"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **肠道健康**：高纤维(6.8g/100g)促进排便和菌群平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **血压调节**：高钾(507mg/100g),有助钠钾平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-200g/d",
+    "cooking_tips": [
+      "生吃最佳",
+      "制成果昔/沙拉"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "bananas_dehydrated_or_banana_powder",
+    "name": "Bananas, dehydrated, or banana powder",
+    "category": "水果与果汁",
+    "tags": [
+      "肠脑轴"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 1448.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "膳食纤维**",
+        "content_text": "含量：9.9g/100g",
+        "mechanism": "作用机制：促进肠蠕动,调节菌群"
+      },
+      {
+        "name": "镁**",
+        "content_text": "含量：108mg/100g",
+        "mechanism": "作用机制：300+酶促反应辅因子"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **肠道健康**：高纤维(9.9g/100g)促进排便和菌群平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **神经肌肉**：每100g含镁108mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **血压调节**：高钾(1491mg/100g),有助钠钾平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-200g/d",
+    "cooking_tips": [
+      "生吃最佳",
+      "制成果昔/沙拉"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "bananas_raw",
+    "name": "Bananas, raw",
+    "category": "水果与果汁",
+    "tags": [
+      "肠脑轴"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 371.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-200g/d",
+    "cooking_tips": [
+      "生吃最佳",
+      "制成果昔/沙拉"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "oil_corn_peanut_and_olive",
+    "name": "Oil, corn, peanut, and olive",
+    "category": "油脂类",
+    "tags": [
+      "抗炎"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 3699.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "橄榄油刺激醛(Oleocanthal)**",
+        "content_text": "含量：EVOO独有",
+        "mechanism": "作用机制：COX-1/COX-2非选择性抑制(50ml≈10%布洛芬剂量)"
+      },
+      {
+        "name": "羟基酪醇**",
+        "content_text": "含量：多酚类",
+        "mechanism": "作用机制：超强抗氧化,保护LDL免受氧化"
+      },
+      {
+        "name": "单不饱和脂肪酸(MUFA)**",
+        "content_text": "含量：70-80%",
+        "mechanism": "作用机制：替代饱和脂肪改善血脂"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **心血管**：降低心血管事件30%",
+        "evidence_level": "A",
+        "reference": "参考文献：PREDIMED RCT(n=7447,NEJM 2018)",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **抗炎**：抑制COX通路,长期每天摄入累积效应显著",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **认知**：EVOO组认知功能优于对照组",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "特级初榨橄榄油30-50ml/d(约2-3汤匙)",
+    "cooking_tips": [
+      "EVOO适合凉拌、低温煎炒(<180°C)",
+      "不适合高温油炸(多酚破坏)",
+      "出锅淋油最大化多酚摄入"
+    ],
+    "synergy": [
+      "番茄(促进番茄红素吸收3-4倍)",
+      "绿叶蔬菜(促进叶黄素/β-胡萝卜素)",
+      "醋/柠檬(经典沙拉酱)"
+    ],
+    "contraindications": [
+      "每日>60ml可能增加热量过多",
+      "胆囊切除后大量食用可能腹泻",
+      "市售EVOO掺假率高达70%,选择深色玻璃瓶"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "oil_olive_extra_light",
+    "name": "Oil, olive, extra light",
+    "category": "油脂类",
+    "tags": [
+      "抗炎"
+    ],
+    "deep_analysis": true,
+    "nutrients": {},
+    "active_compounds": [
+      {
+        "name": "橄榄油刺激醛(Oleocanthal)**",
+        "content_text": "含量：EVOO独有",
+        "mechanism": "作用机制：COX-1/COX-2非选择性抑制(50ml≈10%布洛芬剂量)"
+      },
+      {
+        "name": "羟基酪醇**",
+        "content_text": "含量：多酚类",
+        "mechanism": "作用机制：超强抗氧化,保护LDL免受氧化"
+      },
+      {
+        "name": "单不饱和脂肪酸(MUFA)**",
+        "content_text": "含量：70-80%",
+        "mechanism": "作用机制：替代饱和脂肪改善血脂"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **心血管**：降低心血管事件30%",
+        "evidence_level": "A",
+        "reference": "参考文献：PREDIMED RCT(n=7447,NEJM 2018)",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **抗炎**：抑制COX通路,长期每天摄入累积效应显著",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **认知**：EVOO组认知功能优于对照组",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "特级初榨橄榄油30-50ml/d(约2-3汤匙)",
+    "cooking_tips": [
+      "EVOO适合凉拌、低温煎炒(<180°C)",
+      "不适合高温油炸(多酚破坏)",
+      "出锅淋油最大化多酚摄入"
+    ],
+    "synergy": [
+      "番茄(促进番茄红素吸收3-4倍)",
+      "绿叶蔬菜(促进叶黄素/β-胡萝卜素)",
+      "醋/柠檬(经典沙拉酱)"
+    ],
+    "contraindications": [
+      "每日>60ml可能增加热量过多",
+      "胆囊切除后大量食用可能腹泻",
+      "市售EVOO掺假率高达70%,选择深色玻璃瓶"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "fish_oil_salmon",
+    "name": "Fish oil, salmon",
+    "category": "油脂类",
+    "tags": [
+      "抗炎"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 3774.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "EPA**",
+        "content_text": "含量：每100g约0.7-1.2g",
+        "mechanism": "作用机制：生成resolvins消退炎症"
+      },
+      {
+        "name": "DHA**",
+        "content_text": "含量：每100g约0.8-1.5g",
+        "mechanism": "作用机制：神经元细胞膜主要结构脂质"
+      },
+      {
+        "name": "虾青素**",
+        "content_text": "含量：野生三文鱼橙红色来源",
+        "mechanism": "作用机制：比VE强100倍抗氧化,穿过血脑屏障"
+      },
+      {
+        "name": "维生素D**",
+        "content_text": "含量：每100g约10-15μg",
+        "mechanism": "作用机制：少数天然富含VD食物"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **心血管**：降低甘油三酯25-30%",
+        "evidence_level": "A",
+        "reference": "参考文献：GISSI-Prevenzione(n=11324)",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **抗炎**：Resolvins/Protectins主动消退炎症",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **认知**：每周>1次鱼类降低痴呆风险20-30%",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **关节**：减轻类风湿关节炎症状",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "每周2-3次,每次100-150g",
+    "cooking_tips": [
+      "低温慢煮/蒸制最佳(保留EPA/DHA)",
+      "煎烤<180°C,<10分钟",
+      "避免过度烤焦(杂环胺形成)"
+    ],
+    "synergy": [
+      "姜黄(EPA+姜黄素双重抗炎)",
+      "西兰花(硫代葡萄糖苷+omega-3)",
+      "柠檬(VC保护omega-3氧化)"
+    ],
+    "contraindications": [
+      "痛风急性发作期慎食",
+      "选择野生或有机养殖三文鱼",
+      "三文鱼属低汞安全鱼类",
+      "服用抗凝药者监控"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "oil_walnut",
+    "name": "Oil, walnut",
+    "category": "油脂类",
+    "tags": [
+      "抗炎"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 3699.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "Omega-3(ALA)**",
+        "content_text": "含量：10.4g/100g",
+        "mechanism": "作用机制：抗炎类花生酸前体"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **抗炎**：omega-3含量10.4g/100g",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **抗炎**：富含抗炎活性成分",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "",
+    "cooking_tips": [],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "fish_oil_sardine",
+    "name": "Fish oil, sardine",
+    "category": "油脂类",
+    "tags": [
+      "抗炎"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 3774.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "Omega-3(ALA)**",
+        "content_text": "含量：22.1g/100g",
+        "mechanism": "作用机制：抗炎类花生酸前体"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **抗炎**：omega-3含量22.1g/100g",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **抗炎**：富含抗炎活性成分",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "",
+    "cooking_tips": [],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "oil_avocado",
+    "name": "Oil, avocado",
+    "category": "油脂类",
+    "tags": [
+      "女性激素健康"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 3699.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "Omega-3(ALA)**",
+        "content_text": "含量：1.0g/100g",
+        "mechanism": "作用机制：抗炎类花生酸前体"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **抗炎**：omega-3含量1.0g/100g",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "",
+    "cooking_tips": [],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "croissants_apple",
+    "name": "Croissants, apple",
+    "category": "烘焙食品",
+    "tags": [],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 1063.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [],
+    "daily_intake": "",
+    "cooking_tips": [],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "strudel_apple",
+    "name": "Strudel, apple",
+    "category": "烘焙食品",
+    "tags": [],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 1146.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [],
+    "daily_intake": "",
+    "cooking_tips": [],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "bread_oatmeal",
+    "name": "Bread, oatmeal",
+    "category": "烘焙食品",
+    "tags": [
+      "肠脑轴"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 1125.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "",
+    "cooking_tips": [],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "bread_oatmeal_toasted",
+    "name": "Bread, oatmeal, toasted",
+    "category": "烘焙食品",
+    "tags": [
+      "肠脑轴"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 1222.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "",
+    "cooking_tips": [],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "beef_variety_meats_and_by-products_liver_raw",
+    "name": "Beef, variety meats and by-products, liver, raw",
+    "category": "牛肉制品",
+    "tags": [
+      "基础营养"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 564.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "优质蛋白质**",
+        "content_text": "含量：20.4g/100g",
+        "mechanism": "作用机制：肌肉合成与修复"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟡 B级** — **补铁**：每100g含铁4.9mg",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **综合营养**：全面营养支持",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "50-100g/d",
+    "cooking_tips": [
+      "彻底煮熟至安全温度",
+      "低温慢煮保留营养"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "beef_variety_meats_and_by-products_liver_cooked_braised",
+    "name": "Beef, variety meats and by-products, liver, cooked, braised",
+    "category": "牛肉制品",
+    "tags": [
+      "基础营养"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 801.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "优质蛋白质**",
+        "content_text": "含量：29.1g/100g",
+        "mechanism": "作用机制：肌肉合成与修复"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟡 B级** — **补铁**：每100g含铁6.5mg",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **综合营养**：全面营养支持",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "50-100g/d",
+    "cooking_tips": [
+      "彻底煮熟至安全温度",
+      "低温慢煮保留营养"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "candies_special_dark_chocolate_bar",
+    "name": "Candies, SPECIAL DARK Chocolate Bar",
+    "category": "甜食",
+    "tags": [
+      "抗炎"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 2325.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "膳食纤维**",
+        "content_text": "含量：6.5g/100g",
+        "mechanism": "作用机制：促进肠蠕动,调节菌群"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **肠道健康**：高纤维(6.5g/100g)促进排便和菌群平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **血压调节**：高钾(502mg/100g),有助钠钾平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **抗炎**：富含抗炎活性成分",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "少量,偶尔享用",
+    "cooking_tips": [],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "candies_dark_chocolate_coated_coffee_beans",
+    "name": "Candies, dark chocolate coated coffee beans",
+    "category": "甜食",
+    "tags": [
+      "抗炎"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 2259.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "膳食纤维**",
+        "content_text": "含量：7.5g/100g",
+        "mechanism": "作用机制：促进肠蠕动,调节菌群"
+      },
+      {
+        "name": "镁**",
+        "content_text": "含量：107mg/100g",
+        "mechanism": "作用机制：300+酶促反应辅因子"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **肠道健康**：高纤维(7.5g/100g)促进排便和菌群平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **神经肌肉**：每100g含镁107mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **抗炎**：富含抗炎活性成分",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "少量,偶尔享用",
+    "cooking_tips": [],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "frozen_yogurts_chocolate",
+    "name": "Frozen yogurts, chocolate",
+    "category": "甜食",
+    "tags": [
+      "抗炎",
+      "肠脑轴"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 547.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "🟡 B级** — **抗炎**：富含抗炎活性成分",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "少量,偶尔享用",
+    "cooking_tips": [],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "emu_oyster_raw",
+    "name": "Emu, oyster, raw",
+    "category": "禽肉",
+    "tags": [
+      "女性激素健康"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 591.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "优质蛋白质**",
+        "content_text": "含量：22.8g/100g",
+        "mechanism": "作用机制：肌肉合成与修复"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟡 B级** — **补铁**：每100g含铁5.5mg",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "50-100g/d",
+    "cooking_tips": [
+      "彻底煮熟至安全温度",
+      "低温慢煮保留营养"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "chicken_breast_tenders_breaded_uncooked",
+    "name": "Chicken breast tenders, breaded, uncooked",
+    "category": "禽肉",
+    "tags": [
+      "基础营养"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 1101.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **综合营养**：全面营养支持",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "50-100g/d",
+    "cooking_tips": [
+      "彻底煮熟至安全温度",
+      "低温慢煮保留营养"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "ginger_root_raw",
+    "name": "Ginger root, raw",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "抗炎"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 333.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "6-姜辣素**",
+        "content_text": "含量：鲜姜主要活性物",
+        "mechanism": "作用机制：COX-2抑制,TRPV1激活,5-HT3拮抗(止吐)"
+      },
+      {
+        "name": "6-姜烯酚**",
+        "content_text": "含量：干姜/加热后升高",
+        "mechanism": "作用机制：比6-gingerol抗炎活性更强"
+      },
+      {
+        "name": "姜烯**",
+        "content_text": "含量：挥发油30-40%",
+        "mechanism": "作用机制：抗氧化、抗微生物"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **抗炎镇痛**：减轻运动后肌肉酸痛25%",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **消化**：加速胃排空50%",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **止吐**：妊娠恶心效果与VB6相当",
+        "evidence_level": "A",
+        "reference": "参考文献：Cochrane系统评价",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **代谢**：降低空腹血糖和HbA1c",
+        "evidence_level": "B",
+        "reference": "参考文献：2022 meta分析",
+        "description": ""
+      }
+    ],
+    "daily_intake": "鲜姜10-30g/d,干姜粉2-4g/d,提取物500-2000mg/d",
+    "cooking_tips": [
+      "鲜姜:炒菜/蒸鱼/煲汤,最后5-10分钟加入保留挥发油",
+      "姜茶:鲜姜5-10片+红枣煮水10分钟",
+      "干姜粉:烘焙/咖喱/炖肉",
+      "不宜高温长时间烹煮"
+    ],
+    "synergy": [
+      "姜黄(协同抗炎)",
+      "红枣(补气血经典药对)",
+      "柠檬+蜂蜜(日常保健)",
+      "大蒜(双重抗炎+抗菌)"
+    ],
+    "contraindications": [
+      "胃溃疡活动期慎用",
+      "胆结石大量服用可能诱发绞痛",
+      "服用抗凝药者监测凝血",
+      "孕期止吐:<1g干姜/d安全"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "kale_raw",
+    "name": "Kale, raw",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "抗炎"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 148.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **骨健康**：每100g含钙254mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **免疫**：每100g含维C93mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **抗炎**：富含抗炎活性成分",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-300g/d",
+    "cooking_tips": [
+      "蒸制或快炒保留营养素",
+      "避免长时间水煮"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "jerusalem-artichokes_raw",
+    "name": "Jerusalem-artichokes, raw",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "抗氧化"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 304.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "🟡 B级** — **补铁**：每100g含铁3.4mg",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-300g/d",
+    "cooking_tips": [
+      "蒸制或快炒保留营养素",
+      "避免长时间水煮"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "artichokes_globe_or_french_raw",
+    "name": "Artichokes, (globe or french), raw",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "抗氧化"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 197.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "膳食纤维**",
+        "content_text": "含量：5.4g/100g",
+        "mechanism": "作用机制：促进肠蠕动,调节菌群"
+      },
+      {
+        "name": "镁**",
+        "content_text": "含量：60mg/100g",
+        "mechanism": "作用机制：300+酶促反应辅因子"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **肠道健康**：高纤维(5.4g/100g)促进排便和菌群平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **神经肌肉**：每100g含镁60mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-300g/d",
+    "cooking_tips": [
+      "蒸制或快炒保留营养素",
+      "避免长时间水煮"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "beans_kidney_mature_seeds_sprouted_raw",
+    "name": "Beans, kidney, mature seeds, sprouted, raw",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 121.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **免疫**：每100g含维C39mg",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-300g/d",
+    "cooking_tips": [
+      "蒸制或快炒保留营养素",
+      "避免长时间水煮"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "broccoli_raw",
+    "name": "Broccoli, raw",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "女性激素健康"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 141.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "萝卜硫素**",
+        "content_text": "含量：前体glucoraphanin",
+        "mechanism": "作用机制：最强Nrf2激活剂之一;抑制HDAC"
+      },
+      {
+        "name": "吲哚-3-甲醇(I3C)**",
+        "content_text": "含量：glucobrassicin水解物",
+        "mechanism": "作用机制：→DIM,调节雌激素代谢"
+      },
+      {
+        "name": "维生素K**",
+        "content_text": "含量：约101μg/100g(126%DV)",
+        "mechanism": "作用机制：骨钙素活化必需"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟡 B级** — **激素代谢**：DIM促进雌激素保护性代谢",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **抗癌**：萝卜硫素与多种癌症风险降低关联",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **解毒/肝脏**：Nrf2激活上调谷胱甘肽",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **骨健康**：VK+钙协同维持骨密度",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "鲜西兰花150-250g/d,西兰花芽萝卜硫素是成熟20-50倍",
+    "cooking_tips": [
+      "关键:切开后静置40分钟再烹饪!",
+      "蒸制3-4分钟最佳(保留>70%萝卜硫素)",
+      "水煮5分钟以上损失>50%",
+      "加入芥末同煮(补充黑芥子酶)"
+    ],
+    "synergy": [
+      "芥末/芥菜籽(互补黑芥子酶)",
+      "番茄(萝卜硫素+番茄红素)",
+      "柠檬汁(VC保护硫代葡萄糖苷)"
+    ],
+    "contraindications": [
+      "甲减者勿大量生食(硫氰酸盐)",
+      "华法令患者保持VK摄入稳定",
+      "IBS可能产气——从少量开始"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "edamame_frozen_prepared",
+    "name": "Edamame, frozen, prepared",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "女性激素健康"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 507.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "大豆异黄酮**",
+        "content_text": "含量：每100g约100-300mg",
+        "mechanism": "作用机制：SERM:竞争性结合ERβ,组织特异性效应"
+      },
+      {
+        "name": "大豆蛋白**",
+        "content_text": "含量：唯一植物完全蛋白质",
+        "mechanism": "作用机制：增LDL受体表达降胆固醇"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **更年期**：异黄酮50-100mg/d减少潮热40-50%",
+        "evidence_level": "A",
+        "reference": "参考文献：北美更年期学会2022",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **骨健康**：异黄酮+大豆蛋白维持骨密度",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **心血管**：大豆蛋白25g/d降LDL-C 3-5%",
+        "evidence_level": "A",
+        "reference": "参考文献：FDA健康声明",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **乳腺**：青春期开始食用大豆降低乳腺癌风险",
+        "evidence_level": "B",
+        "reference": "参考文献：上海乳腺癌生存研究(n=5042)",
+        "description": ""
+      }
+    ],
+    "daily_intake": "传统大豆食品(豆腐/毛豆/味噌)50-100g/d",
+    "cooking_tips": [
+      "发酵大豆(味噌/纳豆/天贝):异黄酮苷元形式吸收更好",
+      "豆腐/毛豆:焯水去涩味",
+      "豆浆:浸泡8h+煮沸至少5min"
+    ],
+    "synergy": [
+      "谷物(氨基酸互补)",
+      "海藻(增碘,抵消致甲状腺肿效应)",
+      "亚麻籽(异黄酮+木脂素双重SERM)"
+    ],
+    "contraindications": [
+      "甲减者:与左甲状腺素间隔>4h",
+      "乳腺癌ER+:食物安全,但避免浓缩异黄酮补充剂",
+      "发酵豆制品嘌呤更高"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "mushroom_oyster",
+    "name": "Mushroom, oyster",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "女性激素健康",
+      "基础营养"
+    ],
+    "deep_analysis": false,
+    "nutrients": {},
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **综合营养**：全面营养支持",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-300g/d",
+    "cooking_tips": [
+      "蒸制或快炒保留营养素",
+      "避免长时间水煮"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "seaweed_agar_dried",
+    "name": "Seaweed, agar, dried",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "女性激素健康"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 1282.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "膳食纤维**",
+        "content_text": "含量：7.7g/100g",
+        "mechanism": "作用机制：促进肠蠕动,调节菌群"
+      },
+      {
+        "name": "镁**",
+        "content_text": "含量：770mg/100g",
+        "mechanism": "作用机制：300+酶促反应辅因子"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **肠道健康**：高纤维(7.7g/100g)促进排便和菌群平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **骨健康**：每100g含钙625mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **补铁**：每100g含铁21.4mg",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **神经肌肉**：每100g含镁770mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **血压调节**：高钾(1125mg/100g),有助钠钾平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-300g/d",
+    "cooking_tips": [
+      "蒸制或快炒保留营养素",
+      "避免长时间水煮"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "seaweed_agar_raw",
+    "name": "Seaweed, agar, raw",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "女性激素健康"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 109.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "镁**",
+        "content_text": "含量：67mg/100g",
+        "mechanism": "作用机制：300+酶促反应辅因子"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **神经肌肉**：每100g含镁67mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **激素平衡**：含植物雌激素或激素调节营养素",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-300g/d",
+    "cooking_tips": [
+      "蒸制或快炒保留营养素",
+      "避免长时间水煮"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "cabbage_kimchi",
+    "name": "Cabbage, kimchi",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "肠脑轴"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 65.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "乳酸菌**",
+        "content_text": "含量：10^8-10^9 CFU/g",
+        "mechanism": "作用机制：竞争排除病原菌;产生SCFA;修复肠漏"
+      },
+      {
+        "name": "辣椒素**",
+        "content_text": "含量：辣白菜品种",
+        "mechanism": "作用机制：TRPV1→内啡肽→情绪改善"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟡 B级** — **肠道菌群**：增加Lactobacillus和Bifidobacterium丰度",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **代谢**：12周食用降低空腹血糖和HOMA-IR",
+        "evidence_level": "B",
+        "reference": "参考文献：RCT(n=21 prediabetes)",
+        "description": ""
+      },
+      {
+        "text": "⚪ C级** — **免疫**：调节GALT,sIgA增加",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-150g/d",
+    "cooking_tips": [
+      "最佳生食(烹饪杀死活性益生菌)",
+      "泡菜汤/饼可接受——后生元仍有价值",
+      "自制比工业化益生菌多样性更高",
+      "冷藏保存,1周内口感最佳"
+    ],
+    "synergy": [
+      "糙米/杂粮(纤维是益生元)",
+      "猪肉(经典韩式搭配)",
+      "豆腐(发酵蔬菜+大豆蛋白)"
+    ],
+    "contraindications": [
+      "高钠版:高血压/肾病选低钠泡菜",
+      "IBS/SIBO从少量开始",
+      "自制需充分发酵>7天",
+      "孕期选择充分发酵或消毒处理"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "asparagus_raw",
+    "name": "Asparagus, raw",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "肠脑轴"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 85.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-300g/d",
+    "cooking_tips": [
+      "蒸制或快炒保留营养素",
+      "避免长时间水煮"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "asparagus_frozen_unprepared",
+    "name": "Asparagus, frozen, unprepared",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "肠脑轴"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 100.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **免疫**：每100g含维C32mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-300g/d",
+    "cooking_tips": [
+      "蒸制或快炒保留营养素",
+      "避免长时间水煮"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "garlic_raw",
+    "name": "Garlic, raw",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "肠脑轴"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 623.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **骨健康**：每100g含钙181mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **免疫**：每100g含维C31mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-300g/d",
+    "cooking_tips": [
+      "蒸制或快炒保留营养素",
+      "避免长时间水煮"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "onions_raw",
+    "name": "Onions, raw",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "肠脑轴"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 166.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-300g/d",
+    "cooking_tips": [
+      "蒸制或快炒保留营养素",
+      "避免长时间水煮"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "sauerkraut_canned_solids_and_liquids",
+    "name": "Sauerkraut, canned, solids and liquids",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "肠脑轴"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 78.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-300g/d",
+    "cooking_tips": [
+      "蒸制或快炒保留营养素",
+      "避免长时间水煮"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "leeks_bulb_and_lower_leaf-portion_raw",
+    "name": "Leeks, (bulb and lower leaf-portion), raw",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "肠脑轴"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 255.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-300g/d",
+    "cooking_tips": [
+      "蒸制或快炒保留营养素",
+      "避免长时间水煮"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "leeks_bulb_and_greens_root_removed_raw",
+    "name": "Leeks, bulb and greens, root removed, raw",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "肠脑轴"
+    ],
+    "deep_analysis": false,
+    "nutrients": {},
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-300g/d",
+    "cooking_tips": [
+      "蒸制或快炒保留营养素",
+      "避免长时间水煮"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "spinach_souffle",
+    "name": "Spinach souffle",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "基础营养"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 719.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **骨健康**：每100g含钙165mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **综合营养**：全面营养支持",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-300g/d",
+    "cooking_tips": [
+      "蒸制或快炒保留营养素",
+      "避免长时间水煮"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "spinach_baby",
+    "name": "Spinach, baby",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "基础营养"
+    ],
+    "deep_analysis": false,
+    "nutrients": {},
+    "active_compounds": [
+      {
+        "name": "镁**",
+        "content_text": "含量：93mg/100g",
+        "mechanism": "作用机制：300+酶促反应辅因子"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **神经肌肉**：每100g含镁93mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **血压调节**：高钾(582mg/100g),有助钠钾平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **综合营养**：全面营养支持",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-300g/d",
+    "cooking_tips": [
+      "蒸制或快炒保留营养素",
+      "避免长时间水煮"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "carrot_dehydrated",
+    "name": "Carrot, dehydrated",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "基础营养"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 1427.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "膳食纤维**",
+        "content_text": "含量：23.6g/100g",
+        "mechanism": "作用机制：促进肠蠕动,调节菌群"
+      },
+      {
+        "name": "镁**",
+        "content_text": "含量：118mg/100g",
+        "mechanism": "作用机制：300+酶促反应辅因子"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **肠道健康**：高纤维(23.6g/100g)促进排便和菌群平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **骨健康**：每100g含钙212mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **补铁**：每100g含铁3.9mg",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **神经肌肉**：每100g含镁118mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **血压调节**：高钾(2540mg/100g),有助钠钾平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **综合营养**：全面营养支持",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-300g/d",
+    "cooking_tips": [
+      "蒸制或快炒保留营养素",
+      "避免长时间水煮"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "carrots_raw",
+    "name": "Carrots, raw",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "基础营养"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 173.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **综合营养**：全面营养支持",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-300g/d",
+    "cooking_tips": [
+      "蒸制或快炒保留营养素",
+      "避免长时间水煮"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "sweet_potato_leaves_raw",
+    "name": "Sweet potato leaves, raw",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "基础营养"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 175.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "膳食纤维**",
+        "content_text": "含量：5.3g/100g",
+        "mechanism": "作用机制：促进肠蠕动,调节菌群"
+      },
+      {
+        "name": "镁**",
+        "content_text": "含量：70mg/100g",
+        "mechanism": "作用机制：300+酶促反应辅因子"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **肠道健康**：高纤维(5.3g/100g)促进排便和菌群平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **神经肌肉**：每100g含镁70mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **血压调节**：高钾(508mg/100g),有助钠钾平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **综合营养**：全面营养支持",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-300g/d",
+    "cooking_tips": [
+      "蒸制或快炒保留营养素",
+      "避免长时间水煮"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "sweet_potato_canned_mashed",
+    "name": "Sweet potato, canned, mashed",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "基础营养"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 421.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **综合营养**：全面营养支持",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-300g/d",
+    "cooking_tips": [
+      "蒸制或快炒保留营养素",
+      "避免长时间水煮"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "mushroom_beech",
+    "name": "Mushroom, beech",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "基础营养"
+    ],
+    "deep_analysis": false,
+    "nutrients": {},
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **综合营养**：全面营养支持",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-300g/d",
+    "cooking_tips": [
+      "蒸制或快炒保留营养素",
+      "避免长时间水煮"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "mushroom_crimini",
+    "name": "Mushroom, crimini",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "基础营养"
+    ],
+    "deep_analysis": false,
+    "nutrients": {},
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **综合营养**：全面营养支持",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-300g/d",
+    "cooking_tips": [
+      "蒸制或快炒保留营养素",
+      "避免长时间水煮"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "peppers_bell_green_raw",
+    "name": "Peppers, bell, green, raw",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [],
+    "deep_analysis": false,
+    "nutrients": {},
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **免疫**：每100g含维C100mg",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-300g/d",
+    "cooking_tips": [
+      "蒸制或快炒保留营养素",
+      "避免长时间水煮"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "peppers_bell_orange_raw",
+    "name": "Peppers, bell, orange, raw",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [],
+    "deep_analysis": false,
+    "nutrients": {},
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **免疫**：每100g含维C158mg",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-300g/d",
+    "cooking_tips": [
+      "蒸制或快炒保留营养素",
+      "避免长时间水煮"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "tomato_powder",
+    "name": "Tomato powder",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "基础营养"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 1263.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "膳食纤维**",
+        "content_text": "含量：16.5g/100g",
+        "mechanism": "作用机制：促进肠蠕动,调节菌群"
+      },
+      {
+        "name": "镁**",
+        "content_text": "含量：178mg/100g",
+        "mechanism": "作用机制：300+酶促反应辅因子"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **肠道健康**：高纤维(16.5g/100g)促进排便和菌群平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **骨健康**：每100g含钙166mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **补铁**：每100g含铁4.6mg",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **神经肌肉**：每100g含镁178mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **血压调节**：高钾(1927mg/100g),有助钠钾平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **免疫**：每100g含维C117mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **综合营养**：全面营养支持",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-300g/d",
+    "cooking_tips": [
+      "蒸制或快炒保留营养素",
+      "避免长时间水煮"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "tomato_roma",
+    "name": "Tomato, roma",
+    "category": "蔬菜与蔬菜制品",
+    "tags": [
+      "基础营养"
+    ],
+    "deep_analysis": false,
+    "nutrients": {},
+    "active_compounds": [],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **综合营养**：全面营养支持",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "100-300g/d",
+    "cooking_tips": [
+      "蒸制或快炒保留营养素",
+      "避免长时间水煮"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "flour_rice_brown",
+    "name": "Flour, rice, brown",
+    "category": "谷物与面食",
+    "tags": [],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 1582.2,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "镁**",
+        "content_text": "含量：124mg/100g",
+        "mechanism": "作用机制：300+酶促反应辅因子"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **神经肌肉**：每100g含镁124mg",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "",
+    "cooking_tips": [],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "rice_flour_brown",
+    "name": "Rice flour, brown",
+    "category": "谷物与面食",
+    "tags": [],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 1519.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "镁**",
+        "content_text": "含量：112mg/100g",
+        "mechanism": "作用机制：300+酶促反应辅因子"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **神经肌肉**：每100g含镁112mg",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "",
+    "cooking_tips": [],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "quinoa_cooked",
+    "name": "Quinoa, cooked",
+    "category": "谷物与面食",
+    "tags": [
+      "基础营养"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 503.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "镁**",
+        "content_text": "含量：64mg/100g",
+        "mechanism": "作用机制：300+酶促反应辅因子"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **神经肌肉**：每100g含镁64mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **综合营养**：全面营养支持",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "",
+    "cooking_tips": [],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "quinoa_uncooked",
+    "name": "Quinoa, uncooked",
+    "category": "谷物与面食",
+    "tags": [
+      "基础营养"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 1539.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "膳食纤维**",
+        "content_text": "含量：7.0g/100g",
+        "mechanism": "作用机制：促进肠蠕动,调节菌群"
+      },
+      {
+        "name": "镁**",
+        "content_text": "含量：197mg/100g",
+        "mechanism": "作用机制：300+酶促反应辅因子"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **肠道健康**：高纤维(7.0g/100g)促进排便和菌群平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **补铁**：每100g含铁4.6mg",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **神经肌肉**：每100g含镁197mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **血压调节**：高钾(563mg/100g),有助钠钾平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **综合营养**：全面营养支持",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "",
+    "cooking_tips": [],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "beans_liquid_from_stewed_kidney_beans",
+    "name": "Beans, liquid from stewed kidney beans",
+    "category": "豆类与豆制品",
+    "tags": [],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 197.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [],
+    "health_benefits": [],
+    "daily_intake": "50-100g/d(干重)",
+    "cooking_tips": [
+      "充分浸泡+彻底煮熟"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "tofu_yogurt",
+    "name": "Tofu yogurt",
+    "category": "豆类与豆制品",
+    "tags": [
+      "女性激素健康",
+      "肠脑轴"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 394.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "大豆异黄酮**",
+        "content_text": "含量：每100g约100-300mg",
+        "mechanism": "作用机制：SERM:竞争性结合ERβ,组织特异性效应"
+      },
+      {
+        "name": "大豆蛋白**",
+        "content_text": "含量：唯一植物完全蛋白质",
+        "mechanism": "作用机制：增LDL受体表达降胆固醇"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **更年期**：异黄酮50-100mg/d减少潮热40-50%",
+        "evidence_level": "A",
+        "reference": "参考文献：北美更年期学会2022",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **骨健康**：异黄酮+大豆蛋白维持骨密度",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **心血管**：大豆蛋白25g/d降LDL-C 3-5%",
+        "evidence_level": "A",
+        "reference": "参考文献：FDA健康声明",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **乳腺**：青春期开始食用大豆降低乳腺癌风险",
+        "evidence_level": "B",
+        "reference": "参考文献：上海乳腺癌生存研究(n=5042)",
+        "description": ""
+      }
+    ],
+    "daily_intake": "传统大豆食品(豆腐/毛豆/味噌)50-100g/d",
+    "cooking_tips": [
+      "发酵大豆(味噌/纳豆/天贝):异黄酮苷元形式吸收更好",
+      "豆腐/毛豆:焯水去涩味",
+      "豆浆:浸泡8h+煮沸至少5min"
+    ],
+    "synergy": [
+      "谷物(氨基酸互补)",
+      "海藻(增碘,抵消致甲状腺肿效应)",
+      "亚麻籽(异黄酮+木脂素双重SERM)"
+    ],
+    "contraindications": [
+      "甲减者:与左甲状腺素间隔>4h",
+      "乳腺癌ER+:食物安全,但避免浓缩异黄酮补充剂",
+      "发酵豆制品嘌呤更高"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "tofu_fried",
+    "name": "Tofu, fried",
+    "category": "豆类与豆制品",
+    "tags": [
+      "女性激素健康"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 1131.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "大豆异黄酮**",
+        "content_text": "含量：每100g约100-300mg",
+        "mechanism": "作用机制：SERM:竞争性结合ERβ,组织特异性效应"
+      },
+      {
+        "name": "大豆蛋白**",
+        "content_text": "含量：唯一植物完全蛋白质",
+        "mechanism": "作用机制：增LDL受体表达降胆固醇"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **更年期**：异黄酮50-100mg/d减少潮热40-50%",
+        "evidence_level": "A",
+        "reference": "参考文献：北美更年期学会2022",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **骨健康**：异黄酮+大豆蛋白维持骨密度",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **心血管**：大豆蛋白25g/d降LDL-C 3-5%",
+        "evidence_level": "A",
+        "reference": "参考文献：FDA健康声明",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **乳腺**：青春期开始食用大豆降低乳腺癌风险",
+        "evidence_level": "B",
+        "reference": "参考文献：上海乳腺癌生存研究(n=5042)",
+        "description": ""
+      }
+    ],
+    "daily_intake": "传统大豆食品(豆腐/毛豆/味噌)50-100g/d",
+    "cooking_tips": [
+      "发酵大豆(味噌/纳豆/天贝):异黄酮苷元形式吸收更好",
+      "豆腐/毛豆:焯水去涩味",
+      "豆浆:浸泡8h+煮沸至少5min"
+    ],
+    "synergy": [
+      "谷物(氨基酸互补)",
+      "海藻(增碘,抵消致甲状腺肿效应)",
+      "亚麻籽(异黄酮+木脂素双重SERM)"
+    ],
+    "contraindications": [
+      "甲减者:与左甲状腺素间隔>4h",
+      "乳腺癌ER+:食物安全,但避免浓缩异黄酮补充剂",
+      "发酵豆制品嘌呤更高"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "miso",
+    "name": "Miso",
+    "category": "豆类与豆制品",
+    "tags": [
+      "肠脑轴"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 828.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "膳食纤维**",
+        "content_text": "含量：5.4g/100g",
+        "mechanism": "作用机制：促进肠蠕动,调节菌群"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **肠道健康**：高纤维(5.4g/100g)促进排便和菌群平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "50-100g/d(干重)",
+    "cooking_tips": [
+      "充分浸泡+彻底煮熟"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "lentils_dry",
+    "name": "Lentils, dry",
+    "category": "豆类与豆制品",
+    "tags": [
+      "基础营养"
+    ],
+    "deep_analysis": true,
+    "nutrients": {},
+    "active_compounds": [
+      {
+        "name": "优质蛋白质**",
+        "content_text": "含量：23.6g/100g",
+        "mechanism": "作用机制：肌肉合成与修复"
+      },
+      {
+        "name": "镁**",
+        "content_text": "含量：107mg/100g",
+        "mechanism": "作用机制：300+酶促反应辅因子"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟡 B级** — **补铁**：每100g含铁7.2mg",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **神经肌肉**：每100g含镁107mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **血压调节**：高钾(949mg/100g),有助钠钾平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **综合营养**：全面营养支持",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "50-100g/d(干重)",
+    "cooking_tips": [
+      "充分浸泡+彻底煮熟"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "lentils_raw",
+    "name": "Lentils, raw",
+    "category": "豆类与豆制品",
+    "tags": [
+      "基础营养"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 1473.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "优质蛋白质**",
+        "content_text": "含量：24.6g/100g",
+        "mechanism": "作用机制：肌肉合成与修复"
+      },
+      {
+        "name": "膳食纤维**",
+        "content_text": "含量：10.7g/100g",
+        "mechanism": "作用机制：促进肠蠕动,调节菌群"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **肠道健康**：高纤维(10.7g/100g)促进排便和菌群平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **补铁**：每100g含铁6.5mg",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **血压调节**：高钾(677mg/100g),有助钠钾平衡",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **综合营养**：全面营养支持",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "50-100g/d(干重)",
+    "cooking_tips": [
+      "充分浸泡+彻底煮熟"
+    ],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "denny's_onion_rings",
+    "name": "DENNY'S, onion rings",
+    "category": "餐饮食品",
+    "tags": [
+      "肠脑轴"
+    ],
+    "deep_analysis": false,
+    "nutrients": {
+      "能量": {
+        "value": 1613.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "Omega-3(ALA)**",
+        "content_text": "含量：2.5g/100g",
+        "mechanism": "作用机制：抗炎类花生酸前体"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **抗炎**：omega-3含量2.5g/100g",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+        "evidence_level": "C",
+        "description": ""
+      }
+    ],
+    "daily_intake": "",
+    "cooking_tips": [],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  },
+  {
+    "id": "beverages_tea_green_brewed_decaffeinated",
+    "name": "Beverages, tea, green, brewed, decaffeinated",
+    "category": "饮品",
+    "tags": [],
+    "deep_analysis": true,
+    "nutrients": {},
+    "active_compounds": [
+      {
+        "name": "EGCG**",
+        "content_text": "含量：儿茶素总量50-60%",
+        "mechanism": "作用机制：NF-κB抑制;DNA甲基转移酶抑制"
+      },
+      {
+        "name": "L-茶氨酸**",
+        "content_text": "含量：干重1-2%",
+        "mechanism": "作用机制：穿过血脑屏障→GABA增加,α脑波(放松专注)"
+      },
+      {
+        "name": "咖啡因**",
+        "content_text": "含量：每杯30-50mg",
+        "mechanism": "作用机制：腺苷受体拮抗"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **认知**：L-茶氨酸+咖啡因改善注意力",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **代谢**：EGCG 300-500mg/d增脂肪氧化4-8%",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **心血管**：≥3杯/天心血管死亡率降20-30%",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "3-5杯/d(750-1250ml),每杯3g茶叶80°C冲泡2-3分钟",
+    "cooking_tips": [
+      "80°C水温冲泡(沸水破坏儿茶素且涩味重)",
+      "冲泡2-3分钟——过量浸泡苦涩+空腹胃不适",
+      "冷泡:儿茶素/茶氨酸更高,咖啡因更低",
+      "抹茶EGCG是普通冲泡3-5倍"
+    ],
+    "synergy": [
+      "柠檬/VC(儿茶素肠道稳定性+3倍)",
+      "薄荷(清爽协同)",
+      "不宜与牛奶同饮(酪蛋白降低抗氧化活性20-25%)"
+    ],
+    "contraindications": [
+      "贫血女性餐后1h再喝(单宁酸抑制铁吸收>60%)",
+      "肝功能异常者慎用高剂量EGCG补充剂",
+      "孕期<2杯/d安全"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "beverages_tea_green_brewed_regular",
+    "name": "Beverages, tea, green, brewed, regular",
+    "category": "饮品",
+    "tags": [],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 4.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "EGCG**",
+        "content_text": "含量：儿茶素总量50-60%",
+        "mechanism": "作用机制：NF-κB抑制;DNA甲基转移酶抑制"
+      },
+      {
+        "name": "L-茶氨酸**",
+        "content_text": "含量：干重1-2%",
+        "mechanism": "作用机制：穿过血脑屏障→GABA增加,α脑波(放松专注)"
+      },
+      {
+        "name": "咖啡因**",
+        "content_text": "含量：每杯30-50mg",
+        "mechanism": "作用机制：腺苷受体拮抗"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **认知**：L-茶氨酸+咖啡因改善注意力",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **代谢**：EGCG 300-500mg/d增脂肪氧化4-8%",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **心血管**：≥3杯/天心血管死亡率降20-30%",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "3-5杯/d(750-1250ml),每杯3g茶叶80°C冲泡2-3分钟",
+    "cooking_tips": [
+      "80°C水温冲泡(沸水破坏儿茶素且涩味重)",
+      "冲泡2-3分钟——过量浸泡苦涩+空腹胃不适",
+      "冷泡:儿茶素/茶氨酸更高,咖啡因更低",
+      "抹茶EGCG是普通冲泡3-5倍"
+    ],
+    "synergy": [
+      "柠檬/VC(儿茶素肠道稳定性+3倍)",
+      "薄荷(清爽协同)",
+      "不宜与牛奶同饮(酪蛋白降低抗氧化活性20-25%)"
+    ],
+    "contraindications": [
+      "贫血女性餐后1h再喝(单宁酸抑制铁吸收>60%)",
+      "肝功能异常者慎用高剂量EGCG补充剂",
+      "孕期<2杯/d安全"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "spices_turmeric_ground",
+    "name": "Spices, turmeric, ground",
+    "category": "香料与草本",
+    "tags": [
+      "抗炎"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 1305.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "姜黄素**",
+        "content_text": "含量：干重3-5%",
+        "mechanism": "作用机制：NF-κB通路抑制，COX-2下调"
+      },
+      {
+        "name": "芳香姜黄酮**",
+        "content_text": "含量：挥发油",
+        "mechanism": "作用机制：促进神经干细胞增殖"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **抗炎**：抑制慢性低度炎症",
+        "evidence_level": "A",
+        "reference": "参考文献：多中心RCT",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **关节**：减轻骨关节炎疼痛30-50%",
+        "evidence_level": "A",
+        "reference": "参考文献：Cochrane系统评价",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **心血管**：改善内皮功能,降低CRP 25-40%",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **认知**：印度农村阿尔茨海默病发病率显著低于西方国家",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "姜黄粉1-3g/d,或姜黄素提取物500-2000mg/d",
+    "cooking_tips": [
+      "与黑胡椒和油脂同煮——胡椒碱将生物利用度提高2000%",
+      "脂溶性,需与油脂共热",
+      "适合咖喱、炖菜、汤品、黄金奶",
+      "不宜高温油炸(>180°C降解姜黄素)"
+    ],
+    "synergy": [
+      "黑胡椒(胡椒碱增效2000%)",
+      "油脂(椰奶/橄榄油)",
+      "生姜(协同抗炎)",
+      "维生素C(稳定姜黄素)"
+    ],
+    "contraindications": [
+      "胆结石/胆道梗阻者慎用",
+      "服用抗凝药者需监测INR",
+      "铁缺乏者不宜随餐大量服用",
+      "孕期慎用大剂量",
+      "手术前2周停用"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "spices_ginger_ground",
+    "name": "Spices, ginger, ground",
+    "category": "香料与草本",
+    "tags": [
+      "抗炎"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 1404.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "6-姜辣素**",
+        "content_text": "含量：鲜姜主要活性物",
+        "mechanism": "作用机制：COX-2抑制,TRPV1激活,5-HT3拮抗(止吐)"
+      },
+      {
+        "name": "6-姜烯酚**",
+        "content_text": "含量：干姜/加热后升高",
+        "mechanism": "作用机制：比6-gingerol抗炎活性更强"
+      },
+      {
+        "name": "姜烯**",
+        "content_text": "含量：挥发油30-40%",
+        "mechanism": "作用机制：抗氧化、抗微生物"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **抗炎镇痛**：减轻运动后肌肉酸痛25%",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **消化**：加速胃排空50%",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **止吐**：妊娠恶心效果与VB6相当",
+        "evidence_level": "A",
+        "reference": "参考文献：Cochrane系统评价",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **代谢**：降低空腹血糖和HbA1c",
+        "evidence_level": "B",
+        "reference": "参考文献：2022 meta分析",
+        "description": ""
+      }
+    ],
+    "daily_intake": "鲜姜10-30g/d,干姜粉2-4g/d,提取物500-2000mg/d",
+    "cooking_tips": [
+      "鲜姜:炒菜/蒸鱼/煲汤,最后5-10分钟加入保留挥发油",
+      "姜茶:鲜姜5-10片+红枣煮水10分钟",
+      "干姜粉:烘焙/咖喱/炖肉",
+      "不宜高温长时间烹煮"
+    ],
+    "synergy": [
+      "姜黄(协同抗炎)",
+      "红枣(补气血经典药对)",
+      "柠檬+蜂蜜(日常保健)",
+      "大蒜(双重抗炎+抗菌)"
+    ],
+    "contraindications": [
+      "胃溃疡活动期慎用",
+      "胆结石大量服用可能诱发绞痛",
+      "服用抗凝药者监测凝血",
+      "孕期止吐:<1g干姜/d安全"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "fish_salmon_chinook_raw",
+    "name": "Fish, salmon, chinook, raw",
+    "category": "鱼类与海鲜",
+    "tags": [
+      "抗炎"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 750.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "EPA**",
+        "content_text": "含量：每100g约0.7-1.2g",
+        "mechanism": "作用机制：生成resolvins消退炎症"
+      },
+      {
+        "name": "DHA**",
+        "content_text": "含量：每100g约0.8-1.5g",
+        "mechanism": "作用机制：神经元细胞膜主要结构脂质"
+      },
+      {
+        "name": "虾青素**",
+        "content_text": "含量：野生三文鱼橙红色来源",
+        "mechanism": "作用机制：比VE强100倍抗氧化,穿过血脑屏障"
+      },
+      {
+        "name": "维生素D**",
+        "content_text": "含量：每100g约10-15μg",
+        "mechanism": "作用机制：少数天然富含VD食物"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **心血管**：降低甘油三酯25-30%",
+        "evidence_level": "A",
+        "reference": "参考文献：GISSI-Prevenzione(n=11324)",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **抗炎**：Resolvins/Protectins主动消退炎症",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **认知**：每周>1次鱼类降低痴呆风险20-30%",
+        "evidence_level": "B",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **关节**：减轻类风湿关节炎症状",
+        "evidence_level": "A",
+        "description": ""
+      }
+    ],
+    "daily_intake": "每周2-3次,每次100-150g",
+    "cooking_tips": [
+      "低温慢煮/蒸制最佳(保留EPA/DHA)",
+      "煎烤<180°C,<10分钟",
+      "避免过度烤焦(杂环胺形成)"
+    ],
+    "synergy": [
+      "姜黄(EPA+姜黄素双重抗炎)",
+      "西兰花(硫代葡萄糖苷+omega-3)",
+      "柠檬(VC保护omega-3氧化)"
+    ],
+    "contraindications": [
+      "痛风急性发作期慎食",
+      "选择野生或有机养殖三文鱼",
+      "三文鱼属低汞安全鱼类",
+      "服用抗凝药者监控"
+    ],
+    "tcm": {}
+  },
+  {
+    "id": "fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone",
+    "name": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+    "category": "鱼类与海鲜",
+    "tags": [
+      "抗炎"
+    ],
+    "deep_analysis": true,
+    "nutrients": {
+      "能量": {
+        "value": 871.0,
+        "unit": "kcal"
+      }
+    },
+    "active_compounds": [
+      {
+        "name": "优质蛋白质**",
+        "content_text": "含量：24.6g/100g",
+        "mechanism": "作用机制：肌肉合成与修复"
+      },
+      {
+        "name": "Omega-3(ALA)**",
+        "content_text": "含量：1.5g/100g",
+        "mechanism": "作用机制：抗炎类花生酸前体"
+      }
+    ],
+    "health_benefits": [
+      {
+        "text": "🟢 A级** — **骨健康**：每100g含钙382mg",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟢 A级** — **抗炎**：omega-3含量1.5g/100g",
+        "evidence_level": "A",
+        "description": ""
+      },
+      {
+        "text": "🟡 B级** — **抗炎**：富含抗炎活性成分",
+        "evidence_level": "B",
+        "description": ""
+      }
+    ],
+    "daily_intake": "",
+    "cooking_tips": [],
+    "synergy": [],
+    "contraindications": [],
+    "tcm": {}
+  }
+]

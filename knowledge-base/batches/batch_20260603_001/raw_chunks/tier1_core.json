@@ -1,0 +1,2217 @@
+[
+  {
+    "id": "chunk_b1_research_001",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 2,
+      "chapter": "1. Introduction"
+    },
+    "category": "clinical",
+    "subcategory": "neurodegenerative",
+    "raw_text": "Cognitive impairment is a major healthcare challenge. Neurodegenerative disorders (Alzheimer's, Parkinson's, ALS, multiple sclerosis) involve progressive neural loss driven by protein aggregation, neuroinflammation, and neurotransmitter dysfunction. These depend on modifiable lifestyle factors.",
+    "claim_type": "fact",
+    "tags": [
+      "cognitive_decline",
+      "alzheimer",
+      "parkinsons"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_002",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 3,
+      "chapter": "1. Introduction"
+    },
+    "category": "diet_principle",
+    "subcategory": "precision_nutrition",
+    "raw_text": "Gut microbiota critically regulates neuronal function via gut-brain mechanisms, influencing neurogenesis, synaptic plasticity, and behavior. Precision nutrition modulating the gut-brain axis is promising for cognitive health and neurodegeneration prevention.",
+    "claim_type": "guideline",
+    "tags": [
+      "gut_microbiota",
+      "neurogenesis",
+      "precision_nutrition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_003",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 3,
+      "chapter": "1. Introduction"
+    },
+    "category": "diet_principle",
+    "subcategory": "gut_brain_axis",
+    "raw_text": "GI tract communicates bidirectionally with CNS through neural (vagus nerve), endocrine (HPA axis), immune (cytokines), and metabolic pathways. Nutrition modulates neurological health via this gut-brain axis in both physiological and pathological states.",
+    "claim_type": "fact",
+    "tags": [
+      "vagus_nerve",
+      "HPA_axis",
+      "bidirectional"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_004",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 5,
+      "chapter": "SCFA & Metabolites"
+    },
+    "category": "nutrient",
+    "subcategory": "SCFA_butyrate",
+    "raw_text": "Nutrients 2025, 17, 3068 5 of 39 Intestinal microbiota plays a key role in modulating the immune response through activation of inflammatory regulators toll-like receptors (TLRs) and nuclear factor kappa B (NF-κB) [43]. These reactions lead to the secretion of proinflammatory cytokines and enteroendocrine peptides (EEPs) [44]. Activation of TLR receptors by components of the intestinal microbiota triggers a cascade of intracellular signaling pathways leading to the translocation of NF-κB into th",
+    "claim_type": "fact",
+    "tags": [
+      "SCFA",
+      "butyrate",
+      "gut_metabolites"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_005",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 6,
+      "chapter": "B Vitamins & Cognition"
+    },
+    "category": "nutrient",
+    "subcategory": "B_vitamins_cognition",
+    "raw_text": "Nutrients 2025, 17, 3068 6 of 39 action, indirect regulation through the immune and endocrine systems, and modulation of other signaling pathways of gut–brain communication [50–52]. These include the innate and adaptive immune response, metabolic and energy regulation, maintenance of the integrity of the intestinal and vascular barriers, as well as modulation of circadian rhythms, sleep and appetite [53,54]. The molecular mechanisms of action of SCFAs include activation of G protein-coupled rece",
+    "claim_type": "fact",
+    "tags": [
+      "B_vitamins",
+      "folate",
+      "B12",
+      "homocysteine"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_006",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 7,
+      "chapter": "Microbiome Modulation"
+    },
+    "category": "supplement",
+    "subcategory": "probiotics_prebiotics",
+    "raw_text": "Nutrients 2025, 17, 3068 7 of 39 contributing to the development of neurodegenerative diseases. The results of numerous studies highlight the potential of the microbiota and its metabolites as targets for the development of preventive and therapeutic strategies. 4. Dietary Interventions as Modulators of Gut–Brain Axis Mechanisms 4.1. Probiotics and Psychobiotics Probiotics are live microorganisms that, when ingested in sufficient quantities, have a positive effect on the health of the host organ",
+    "claim_type": "guideline",
+    "tags": [
+      "probiotics",
+      "prebiotics",
+      "fermented_foods"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_007",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 8,
+      "chapter": "Microbiome Modulation"
+    },
+    "category": "supplement",
+    "subcategory": "probiotics_prebiotics",
+    "raw_text": "Nutrients 2025, 17, 3068 8 of 39 Modern studies indicate that psychobiotics have a positive effect on the body by activating the enteric nervous system or stimulating the immune response. Their effect on psychophysiological markers of depression and anxiety has been established. The mechanisms of this effect can be realized through modulation of the HPA axis stress response, leading to a decrease in systemic inflammation, direct effects on the immune system, regulating its activity, secretion of",
+    "claim_type": "guideline",
+    "tags": [
+      "probiotics",
+      "prebiotics",
+      "fermented_foods"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_008",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 9,
+      "chapter": "Microbiome Modulation"
+    },
+    "category": "supplement",
+    "subcategory": "probiotics_prebiotics",
+    "raw_text": "Nutrients 2025, 17, 3068 9 of 39 and dietary fiber intake and improved cognitive function, as well as reduced anxiety and depression, highlighting their potential as a dietary component for maintaining mental health [91,92]. Figure 2. Mechanisms by which dietary fibers and prebiotics influence the gut–brain axis and cognitive health. ↑—increase; ↓—decrease. Dietary fiber refers to heterogenous group of non-digestible carbohydrates that can modulate the gut–brain axis through both microbiome-depe",
+    "claim_type": "guideline",
+    "tags": [
+      "probiotics",
+      "prebiotics",
+      "fermented_foods"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_009",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 10,
+      "chapter": "Microbiome Modulation"
+    },
+    "category": "supplement",
+    "subcategory": "probiotics_prebiotics",
+    "raw_text": "Nutrients 2025, 17, 3068 10 of 39 individuals without clinically pronounced symptoms, the effects are less pronounced. In individuals with functional disorders, such as irritable bowel syndrome, taking GOS is accompanied by an increase in the number of Bifidobacteria and a decrease in anxiety, while in patients with clinical depression, convincing data on the effect of prebiotics on depressive symptoms has not been obtained [98]. Despite the growing body of evidence indicating the beneficial eff",
+    "claim_type": "guideline",
+    "tags": [
+      "probiotics",
+      "prebiotics",
+      "fermented_foods"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_010",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 11,
+      "chapter": "Omega-3 Fatty Acids"
+    },
+    "category": "nutrient",
+    "subcategory": "omega3_fatty_acids",
+    "raw_text": "Nutrients 2025, 17, 3068 11 of 39 4.3. Polyphenols and Antioxidant Polyphenols, with their pronounced antioxidant and anti-inflammatory properties, play an important role on modulating the gut–brain axis, which opens up new prospects for the prevention and treatment of neurodegenerative diseases. Consumption of these bioactive compounds is associated with an increase in microbial diversity, an increase in populations of beneficial bacteria (e.g., Bifidobacterium, Akkermansia, Lactobacillus) and",
+    "claim_type": "fact",
+    "tags": [
+      "omega3",
+      "DHA",
+      "EPA",
+      "brain_health"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_011",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 12,
+      "chapter": "Microbiome Modulation"
+    },
+    "category": "supplement",
+    "subcategory": "probiotics_prebiotics",
+    "raw_text": "Nutrients 2025, 17, 3068 12 of 39 ticular, a significant decrease in the number of representatives of the genus Faecalibacterium was recorded, which in some cases was combined with an increase in the proportion of bacteria of the Bacteroidetes type, as well as butyrate-producing microorganisms belonging to the Lachnospiraceae family [113]. Experimental data on animal models demonstrate that the interaction between the intestinal microbiota, omega-3 fatty acids and the immune system can play a ke",
+    "claim_type": "guideline",
+    "tags": [
+      "probiotics",
+      "prebiotics",
+      "fermented_foods"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_012",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 13,
+      "chapter": "Omega-3 Fatty Acids"
+    },
+    "category": "nutrient",
+    "subcategory": "omega3_fatty_acids",
+    "raw_text": "Nutrients 2025, 17, 3068 13 of 39 Table 2. Cont. Category of Component Key Strains/Compounds Participants Study Design Cognitive Effects References Probiotics/Psychobiotics Lactobacillus acidophilus LB Children and adolescents aged 6–16 years with ADHD Randomized controlled trial A significant reduction in ADHD symptom severity compared with the control group according to the CPRS-R-L and CBCL measures, along with improvements in selective and sustained attention as assessed by the CPT. [125] Pr",
+    "claim_type": "fact",
+    "tags": [
+      "omega3",
+      "DHA",
+      "EPA",
+      "brain_health"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_013",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 14,
+      "chapter": "SCFA & Metabolites"
+    },
+    "category": "nutrient",
+    "subcategory": "SCFA_butyrate",
+    "raw_text": "Nutrients 2025, 17, 3068 14 of 39 Table 3 presents intestinal microbiota disturbances in Alzheimer’s disease and their relationship with the pathogenesis of neurodegeneration. Of particular interest are data on the environment of bacterial factors in the patho- genetic cascade of neurodegenerative diseases characterized by impaired aggregation of endogenous proteins that spread via a prion-like mechanism [136,137]. In particular, the role of the enterobacteria within the concept of the “gut–brai",
+    "claim_type": "fact",
+    "tags": [
+      "SCFA",
+      "butyrate",
+      "gut_metabolites"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_014",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 15,
+      "chapter": "SCFA & Metabolites"
+    },
+    "category": "nutrient",
+    "subcategory": "SCFA_butyrate",
+    "raw_text": "Nutrients 2025, 17, 3068 15 of 39 Table 3. Gut microbiota disorders in Alzheimer’s disease and their relationship with the pathogenesis of neurodegeneration. Nature of Dysbiosis Associated Changes in AD Potential Mechanisms of Impact on the Central Nervous System References Deficiency of neuroprotective taxa ↓Firmicutes, Bifidobacterium ↑Bacteroidetes SCFAs deficiency, activation of neuroinflammation, neurotransmitter dysregulation, disruption of the gut–brain axis [144] Increase in pro-inflamma",
+    "claim_type": "fact",
+    "tags": [
+      "SCFA",
+      "butyrate",
+      "gut_metabolites"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_015",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 16,
+      "chapter": "B Vitamins & Cognition"
+    },
+    "category": "nutrient",
+    "subcategory": "B_vitamins_cognition",
+    "raw_text": "Nutrients 2025, 17, 3068 16 of 39 Table 4. Characteristic changes in the intestinal microbiota in Parkinson’s disease and their pathogenetic consequences. Microbiota Alterations Associated Taxa Functional Implication Clinical/Pathogenetic Correlations References Changes in β-Diversity and Bacterial Families ↑Lactobacillaceae, Barnesiellaceae, Enterococcaceae Compromised intestinal barrier and increased systemic inflammation, promoting microglial activation and neurodegeneration Associated with n",
+    "claim_type": "fact",
+    "tags": [
+      "B_vitamins",
+      "folate",
+      "B12",
+      "homocysteine"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_016",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 17,
+      "chapter": "SCFA & Metabolites"
+    },
+    "category": "nutrient",
+    "subcategory": "SCFA_butyrate",
+    "raw_text": "Nutrients 2025, 17, 3068 17 of 39 induce the expression, post-translational modifications, and aggregation of α-synuclein in neurons [167]. Considering the established link between microbial lipopolysaccharides and α- synuclein aggregation, experimental data demonstrate that chronic rotenone administration induces degeneration of tyrosine hydroxylase (TH)-positive neurons regardless of microbial status. However, the development motor deficits and increased intestinal barrier perme- ability were",
+    "claim_type": "fact",
+    "tags": [
+      "SCFA",
+      "butyrate",
+      "gut_metabolites"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_017",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 18,
+      "chapter": "SCFA & Metabolites"
+    },
+    "category": "nutrient",
+    "subcategory": "SCFA_butyrate",
+    "raw_text": "Nutrients 2025, 17, 3068 18 of 39 (body mass index, physical activity level, diet, weight fluctuations) affect the microbiota structure and can act as confounding factors or independent modifiers. The results of another study in this area indicate a positive correlation between the degree of the considered microbial disturbances and the severity of motor symptoms assessed by the MDS-UPDRS III scale, as well as disease progression according to the Hoehn & Yahr scale [174]. Functional metagenomic",
+    "claim_type": "fact",
+    "tags": [
+      "SCFA",
+      "butyrate",
+      "gut_metabolites"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_018",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 19,
+      "chapter": "Microbiome Modulation"
+    },
+    "category": "supplement",
+    "subcategory": "probiotics_prebiotics",
+    "raw_text": "Nutrients 2025, 17, 3068 19 of 39 both general and phenotype-specific alterations in the microbial community, highlighting the pivotal role of the microbiota in modulating either a pro-inflammatory or a tolerogenic environment. Building on these findings regarding the role of the microbial community, the study of exogenous factors capable of inducing dysbiosis becomes increasingly important. In another experimental investigation, diet-induced obesity was shown to exacerbate the course of autoimm",
+    "claim_type": "guideline",
+    "tags": [
+      "probiotics",
+      "prebiotics",
+      "fermented_foods"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_019",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 21,
+      "chapter": "Anti-inflammatory Nutrition"
+    },
+    "category": "diet_principle",
+    "subcategory": "anti_inflammatory",
+    "raw_text": "Nutrients 2025, 17, 3068 21 of 39 composition and metabolomic profile are currently actively considered [200,201]. This comprehensive analysis is especially important in the context of the prevention of neu- rodegenerative diseases, since dysfunction of the gut–brain axis and chronic inflammation, modulated by dietary factors, significantly contribute to the pathogenesis of Alzheimer’s disease and Parkinson’s disease. Modern studies demonstrate that the effectiveness of dietary interventions var",
+    "claim_type": "guideline",
+    "tags": [
+      "anti_inflammatory_diet",
+      "neuroprotection"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_020",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 22,
+      "chapter": "B Vitamins & Cognition"
+    },
+    "category": "nutrient",
+    "subcategory": "B_vitamins_cognition",
+    "raw_text": "Nutrients 2025, 17, 3068 22 of 39 Recommended nutritional biomarkers for precision therapy of neurodegenerative diseases are presented in Table 5. Table 5. Potential biomarkers for precision therapy of neurodegenerative diseases. Biomarkers Function Impact on Nutrition Association with Neurodegeneration Therapeutic and Preventive Significance References MTHFR Methylenetetrahydrofolate reductase Folate metabolism Disruption of synaptic transmission, epigenetic dysregulation, and diminished neurot",
+    "claim_type": "fact",
+    "tags": [
+      "B_vitamins",
+      "folate",
+      "B12",
+      "homocysteine"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_021",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 23,
+      "chapter": "Anti-inflammatory Nutrition"
+    },
+    "category": "diet_principle",
+    "subcategory": "anti_inflammatory",
+    "raw_text": "Nutrients 2025, 17, 3068 23 of 39 and machine learning methods allows us to quantitatively assess the state of each of the key processes that determine cognitive health. Modern advances in genetic testing and bioinformatics have significantly expanded the possibilities for identifying genetic biomarkers associated with predisposition to diseases, the dynamics of their progression and response to therapy [220]. Of particular importance is the development of molecular rapid tests for use in point-",
+    "claim_type": "guideline",
+    "tags": [
+      "anti_inflammatory_diet",
+      "neuroprotection"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_022",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 24,
+      "chapter": "Anti-inflammatory Nutrition"
+    },
+    "category": "diet_principle",
+    "subcategory": "anti_inflammatory",
+    "raw_text": "Nutrients 2025, 17, 3068 24 of 39 Recent studies have demonstrated that circadian regulation disorders, including desyn- chronosis, can initiate oxidative stress [231], neuroinflammation [232], and mitochondrial dysfunction [233]—key pathogenetic mechanisms of neurodegenerative diseases. In this regard, optimization of meal timing, macro- and micronutrients is of particular importance for the correction of metabolic disorders and maintenance of cognitive health. For exam- ple, time-restricted fe",
+    "claim_type": "guideline",
+    "tags": [
+      "anti_inflammatory_diet",
+      "neuroprotection"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_023",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 25,
+      "chapter": "SCFA & Metabolites"
+    },
+    "category": "nutrient",
+    "subcategory": "SCFA_butyrate",
+    "raw_text": "Nutrients 2025, 17, 3068 25 of 39 Bifidobacterium pseudolongum abundance and propionic acid levels [237]. The obtained results are confirmed in a clinical study, where a four-month TRE regimen resulted in a significant improvement in cognitive performance in patients with Alzheimer’s disease, with a positive correlation between fecal propionic acid levels and the degree of cognitive improvement. The neuroprotective effect of TRE is realized through the gut–brain axis by a microbiome-dependent in",
+    "claim_type": "fact",
+    "tags": [
+      "SCFA",
+      "butyrate",
+      "gut_metabolites"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_024",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 26,
+      "chapter": "Microbiome Modulation"
+    },
+    "category": "supplement",
+    "subcategory": "probiotics_prebiotics",
+    "raw_text": "Nutrients 2025, 17, 3068 26 of 39 Another promising direction is the combination of chrononutritive interventions with real-time monitoring technologies, including wearable devices and mobile applications, which opens up new possibilities for dynamic nutritional adjustments taking into account individual circadian characteristics [249]. The introduction of these approaches into clinical practice requires further research to validate optimal nutrient intake windows and develop unified algorithms",
+    "claim_type": "guideline",
+    "tags": [
+      "probiotics",
+      "prebiotics",
+      "fermented_foods"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_025",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 27,
+      "chapter": "Microbiome Modulation"
+    },
+    "category": "supplement",
+    "subcategory": "probiotics_prebiotics",
+    "raw_text": "Nutrients 2025, 17, 3068 27 of 39 The lack of standardized approaches to strain selection, dosing, and administration regi- mens continues to hinder the development of clear clinical recommendations. Equally significant is the heterogeneity of study populations. Factors such as age, ethnicity, dietary patterns, socioeconomic status, and comorbidities have a substantial impact on microbiota composition and the effectiveness of dietary interventions. However, these variables are not always adequat",
+    "claim_type": "guideline",
+    "tags": [
+      "probiotics",
+      "prebiotics",
+      "fermented_foods"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_026",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 28,
+      "chapter": "SCFA & Metabolites"
+    },
+    "category": "nutrient",
+    "subcategory": "SCFA_butyrate",
+    "raw_text": "Nutrients 2025, 17, 3068 28 of 39 effectiveness of preventive measures and shifts the focus from treating already established pathology toward early intervention and the slowing of cognitive decline. However, the current body of evidence is characterized by several limitations, in- cluding the fragmentary nature of clinical data, variability of results, being driven by methodological and population-specific differences, and insufficient knowledge regarding the long-term efficacy and safety of nu",
+    "claim_type": "fact",
+    "tags": [
+      "SCFA",
+      "butyrate",
+      "gut_metabolites"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_027",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 29,
+      "chapter": "Omega-3 Fatty Acids"
+    },
+    "category": "nutrient",
+    "subcategory": "omega3_fatty_acids",
+    "raw_text": "Nutrients 2025, 17, 3068 29 of 39 CSF Cerebrospinal fluid Aβ β-amyloid IFN-γ Interferon-γ IL-17 Interleukin-17 FOS Fructo-oligosaccharides GOS Galactooligosaccharides BDNF Brain-derived neurotrophic factor Treg T-regulatory lymphocytes PUFA Polyunsaturated fatty acids EPA Eicosapentaenoic acid DHA Docosahexaenoic acid CLA Conjugated linoleic acid CALA Conjugated α-linolenic acid SNCA α-synuclein MAPT Microtubule-associated protein tau LRRK2 Leucine-rich repeat kinase 2 SOD1 Superoxide dismutase",
+    "claim_type": "fact",
+    "tags": [
+      "omega3",
+      "DHA",
+      "EPA",
+      "brain_health"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_028",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 30,
+      "chapter": "Anti-inflammatory Nutrition"
+    },
+    "category": "diet_principle",
+    "subcategory": "anti_inflammatory",
+    "raw_text": "Nutrients 2025, 17, 3068 30 of 39 13. Mohajeri, M.H.; La Fata, G.; Steinert, R.E.; Weber, P. Relationship between the gut microbiome and brain function. Nutr. Rev. 2018, 76, 481–496. [CrossRef] 14. Montagnani, M.; Bottalico, L.; Potenza, M.A.; Charitos, I.A.; Topi, S.; Colella, M.; Santacroce, L. The crosstalk between gut microbiota and nervous system: A bidirectional interaction between microorganisms and metabolome. Int. J. Mol. Sci. 2023, 24, 10322. [CrossRef] 15. Alkasir, R.; Li, J.; Li, X.;",
+    "claim_type": "guideline",
+    "tags": [
+      "anti_inflammatory_diet",
+      "neuroprotection"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_029",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 31,
+      "chapter": "Microbiome Modulation"
+    },
+    "category": "supplement",
+    "subcategory": "probiotics_prebiotics",
+    "raw_text": "Nutrients 2025, 17, 3068 31 of 39 38. De Magistris, L.; Familiari, V.; Pascotto, A.; Sapone, A.; Frolli, A.; Iardino, P.; Carteni, M.; De Rosa, M.; Francavilla, R.; Riegler, G.; et al. Alterations of the intestinal barrier in patients with autism spectrum disorders and in their first-degree relatives. J. Pediatr. Gastroenterol. Nutr. 2010, 51, 418–424. [CrossRef] 39. Trzeciak, P.; Herbet, M. Role of the intestinal microbiome, intestinal barrier and psychobiotics in depression. Nutrients 2021, 13",
+    "claim_type": "guideline",
+    "tags": [
+      "probiotics",
+      "prebiotics",
+      "fermented_foods"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_030",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 32,
+      "chapter": "Microbiome Modulation"
+    },
+    "category": "supplement",
+    "subcategory": "probiotics_prebiotics",
+    "raw_text": "Nutrients 2025, 17, 3068 32 of 39 61. Fock, E.; Parnova, R. Mechanisms of blood–brain barrier protection by microbiota-derived short-chain fatty acids. Cells 2023, 12, 657. [CrossRef] 62. Majumdar, A.; Siva Venkatesh, I.P.; Basu, A. Short-chain fatty acids in the microbiota–gut–brain axis: Role in neurodegenerative disorders and viral infections. ACS Chem. Neurosci. 2023, 14, 1045–1062. [CrossRef] 63. Roager, H.M.; Licht, T.R. Microbial tryptophan catabolites in health and disease. Nat. Commun.",
+    "claim_type": "guideline",
+    "tags": [
+      "probiotics",
+      "prebiotics",
+      "fermented_foods"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_031",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 33,
+      "chapter": "Microbiome Modulation"
+    },
+    "category": "supplement",
+    "subcategory": "probiotics_prebiotics",
+    "raw_text": "Nutrients 2025, 17, 3068 33 of 39 87. Asl, Z.R.; Sepehri, G.; Salami, M. Probiotic treatment improves the impaired spatial cognitive performance and restores synaptic plasticity in an animal model of Alzheimer’s disease. Behav. Brain Res. 2019, 376, 112183. [CrossRef] 88. Tamtaji, O.R.; Heidari-Soureshjani, R.; Mirhosseini, N.; Kouchaki, E.; Bahmani, F.; Aghadavod, E.; Tajabadi-Ebrahimi, M.; Asemi, Z. Probiotic and selenium co-supplementation, and the effects on clinical, metabolic and genetic s",
+    "claim_type": "guideline",
+    "tags": [
+      "probiotics",
+      "prebiotics",
+      "fermented_foods"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_032",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 34,
+      "chapter": "Microbiome Modulation"
+    },
+    "category": "supplement",
+    "subcategory": "probiotics_prebiotics",
+    "raw_text": "Nutrients 2025, 17, 3068 34 of 39 110. Zinkow, A.; Grodzicki, W.; Czerwi´nska, M.; Dziendzikowska, K. Molecular Mechanisms Linking Omega-3 Fatty Acids and the Gut–Brain Axis. Molecules 2024, 30, 71. [CrossRef] 111. Guixà-González, R.; Javanainen, M.; Gómez-Soler, M.; Cordobilla, B.; Domingo, J.C.; Sanz, F.; Pastor, M.; Ciruela, F.; Martinez- Seara, H.; Selent, J. Membrane omega-3 fatty acids modulate the oligomerisation kinetics of adenosine A2A and dopamine D2 receptors. Sci. Rep. 2016, 6, 1983",
+    "claim_type": "guideline",
+    "tags": [
+      "probiotics",
+      "prebiotics",
+      "fermented_foods"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_033",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 35,
+      "chapter": "Microbiome Modulation"
+    },
+    "category": "supplement",
+    "subcategory": "probiotics_prebiotics",
+    "raw_text": "Nutrients 2025, 17, 3068 35 of 39 130. Colombo, J.; Carlson, S.E.; Algarín, C.; Reyes, S.; Chichlowski, M.; Harris, C.L.; Wampler, J.L.; Peirano, P.; Berseth, C.L. Developmental effects on sleep–wake patterns in infants receiving a cow’s milk-based infant formula with an added prebiotic blend: A Randomized Controlled Trial. Pediatr. Res. 2021, 89, 1222–1231. [CrossRef] 131. Gillies, N.A.; Wilson, B.C.; Miller, J.R.; Roy, N.C.; Scholey, A.; Braakhuis, A.J. Effects of a flavonoid-rich blackcurrant",
+    "claim_type": "guideline",
+    "tags": [
+      "probiotics",
+      "prebiotics",
+      "fermented_foods"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_034",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 37,
+      "chapter": "Anti-inflammatory Nutrition"
+    },
+    "category": "diet_principle",
+    "subcategory": "anti_inflammatory",
+    "raw_text": "Nutrients 2025, 17, 3068 37 of 39 178. Jadidi-Niaragh, F.; Mirshafiey, A. Th17 cell, the new player of neuroinflammatory process in multiple sclerosis. Scand. J. Immunol. 2011, 74, 1–13. [CrossRef] 179. Rostami, A.; Ciric, B. Role of Th17 cells in the pathogenesis of CNS inflammatory demyelination. J. Neurol. Sci. 2013, 333, 76–87. [CrossRef] [PubMed] 180. Zhang, W.; Wang, Y.; Zhu, M.; Liu, K.; Zhang, H.L. Gut flora in multiple sclerosis: Implications for pathogenesis and treatment. Neural Regen",
+    "claim_type": "guideline",
+    "tags": [
+      "anti_inflammatory_diet",
+      "neuroprotection"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_035",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 38,
+      "chapter": "B Vitamins & Cognition"
+    },
+    "category": "nutrient",
+    "subcategory": "B_vitamins_cognition",
+    "raw_text": "Nutrients 2025, 17, 3068 38 of 39 204. Tap, J.; Furet, J.P.; Bensaada, M.; Philippe, C.; Roth, H.; Rabot, S.; Lakhdari, O.; Lombard, V.; Henrissat, B.; Corthier, G.; et al. Gut microbiota richness promotes its stability upon increased dietary fibre intake in healthy adults. Environ. Microbiol. 2015, 17, 4954–4964. [CrossRef] 205. Bashiardes, S.; Abdeen, S.K.; Elinav, E. Personalized nutrition: Are we there yet? J. Pediatr. Gastroenterol. Nutr. 2019, 69, 633–638. [CrossRef] 206. Kolodziejczyk, A.",
+    "claim_type": "fact",
+    "tags": [
+      "B_vitamins",
+      "folate",
+      "B12",
+      "homocysteine"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b1_research_036",
+    "source": {
+      "type": "book",
+      "title": "Precision Nutrition and Gut–Brain Axis Modulation in Prevention of Neurodegenerative Diseases (Nutrients 2025)",
+      "page": 39,
+      "chapter": "SCFA & Metabolites"
+    },
+    "category": "nutrient",
+    "subcategory": "SCFA_butyrate",
+    "raw_text": "Nutrients 2025, 17, 3068 39 of 39 228. Wasilewski, T.; Kamysz, W.; G˛ebicki, J. AI-assisted detection of biomarkers by sensors and biosensors for early diagnosis and monitoring. Biosensors 2024, 14, 356. [CrossRef] [PubMed] 229. Samieri, C.; Yassine, H.N.; Melo van Lent, D.; Lefèvre-Arbogast, S.; van de Rest, O.; Bowman, G.L.; Scarmeas, N. Personalized nutrition for dementia prevention. Alzheimer’s Dement. 2022, 18, 1424–1437. [CrossRef] 230. Castro-Mata, P.C.; Cueto-Manzano, A.M.; Vizmanos, B.;",
+    "claim_type": "fact",
+    "tags": [
+      "SCFA",
+      "butyrate",
+      "gut_metabolites"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b2_understanding_037",
+    "source": {
+      "type": "book",
+      "title": "Understanding Nutrition, 5th Aus/NZ Ed (Whitney, Rolfes, Crowe, Walsh)",
+      "page": 30,
+      "chapter": "Chapters 1-7"
+    },
+    "category": "nutrient",
+    "subcategory": "RDA_values",
+    "raw_text": "rdan\nIsrael\nLebanon\nMontenegro\nBosnia\nScience Photo Library/Dr M",
+    "claim_type": "data_point",
+    "tags": [
+      "RDA",
+      "reference_values"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b2_understanding_038",
+    "source": {
+      "type": "book",
+      "title": "Understanding Nutrition, 5th Aus/NZ Ed (Whitney, Rolfes, Crowe, Walsh)",
+      "page": 43,
+      "chapter": "Chapters 1-7"
+    },
+    "category": "diet_principle",
+    "subcategory": "dietary_guidelines",
+    "raw_text": "Understanding Nutrition 26 Risk factors for chronic diseases Factors that increase or reduce the risk of developing chronic diseases can be identified by analysing statistical data. A strong association between a risk factor and a disease means that when the factor is present, the likelihood of developing the disease increases. It does not mean that all people with the risk factor will develop the disease. Similarly, a lack of risk factors does not guarantee freedom from a given disease. O",
+    "claim_type": "guideline",
+    "tags": [
+      "dietary_guidelines"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b2_understanding_039",
+    "source": {
+      "type": "book",
+      "title": "Understanding Nutrition, 5th Aus/NZ Ed (Whitney, Rolfes, Crowe, Walsh)",
+      "page": 56,
+      "chapter": "Chapters 1-7"
+    },
+    "category": "diet_principle",
+    "subcategory": "dietary_guidelines",
+    "raw_text": "39 Lemons contain a high amount of vitamin C, soluble fibre, and plant compounds that give them a number of health benefits Circle your answer T F The concept of nutrient density means eating more kilojoules to get more nutrients. T F Dietary guidelines prescribe a set diet. T F Frozen and canned vegetables are not a suitable alternative to fresh varieties. T F \u0007The suggested serving size on food labels is often the same as the recommended serving in the Australian Guide",
+    "claim_type": "guideline",
+    "tags": [
+      "dietary_guidelines"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b2_understanding_040",
+    "source": {
+      "type": "book",
+      "title": "Understanding Nutrition, 5th Aus/NZ Ed (Whitney, Rolfes, Crowe, Walsh)",
+      "page": 57,
+      "chapter": "Chapters 1-7"
+    },
+    "category": "diet_principle",
+    "subcategory": "dietary_guidelines",
+    "raw_text": "Understanding Nutrition 40 Chapter 1 explained that the body’s many activities are supported by the nutrients delivered by the foods we eat. Food choices made over years influence the body’s health, with consistently poor choices increasing the risks of developing chronic disease in later life. This chapter shows how we can choose from the tens of thousands of available foods to create a diet that supports health. Most foods provide several nutrients, so wise diet planning involves selecting",
+    "claim_type": "guideline",
+    "tags": [
+      "dietary_guidelines"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b2_understanding_041",
+    "source": {
+      "type": "book",
+      "title": "Understanding Nutrition, 5th Aus/NZ Ed (Whitney, Rolfes, Crowe, Walsh)",
+      "page": 59,
+      "chapter": "Chapters 1-7"
+    },
+    "category": "diet_principle",
+    "subcategory": "dietary_guidelines",
+    "raw_text": "Understanding Nutrition 42 Foods that are notably low in nutrient density, such as potato chips, lollies and soft drinks, are sometimes called empty-kilojoule foods. The kilojoules these foods provide are called ‘empty’ because they deliver energy (from sugar, fat or both) with little or no protein, vitamins or minerals. The concept of nutrient density is relatively simple when examining the contributions of one nutrient to a food or diet. With respect to calcium, milk ranks high and meats",
+    "claim_type": "guideline",
+    "tags": [
+      "dietary_guidelines"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b2_understanding_042",
+    "source": {
+      "type": "book",
+      "title": "Understanding Nutrition, 5th Aus/NZ Ed (Whitney, Rolfes, Crowe, Walsh)",
+      "page": 60,
+      "chapter": "Chapters 1-7"
+    },
+    "category": "diet_principle",
+    "subcategory": "dietary_guidelines",
+    "raw_text": "Chapter 2: Planning a healthy diet 43 TABLE 2.1 The Australian Dietary Guidelines GUIDELINE 1: TO ACHIEVE AND MAINTAIN A HEALTHY WEIGHT, BE PHYSICALLY ACTIVE AND CHOOSE AMOUNTS OF NUTRITIOUS FOOD AND DRINKS TO MEET YOUR ENERGY NEEDS • \u0007Children and adolescents should eat sufficient nutritious foods to grow and develop normally. They should be physically active every day and their growth should be checked regularly • Older people should eat nutritious foods and keep physically active to h",
+    "claim_type": "guideline",
+    "tags": [
+      "dietary_guidelines"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b2_understanding_043",
+    "source": {
+      "type": "book",
+      "title": "Understanding Nutrition, 5th Aus/NZ Ed (Whitney, Rolfes, Crowe, Walsh)",
+      "page": 61,
+      "chapter": "Chapters 1-7"
+    },
+    "category": "diet_principle",
+    "subcategory": "dietary_guidelines",
+    "raw_text": "Understanding Nutrition 44 2.2 Diet-planning guides To plan a diet that achieves all the dietary ideals just outlined, we need tools as well as knowledge. Among the most widely used tools for diet planning are food group plans that build a diet from groups of foods that are similar in nutrient content. Thus, each group represents a set of nutrients that differ somewhat from the nutrients supplied by the other groups. Selecting foods from each of the groups allows us to create an adequate an",
+    "claim_type": "guideline",
+    "tags": [
+      "dietary_guidelines"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b2_understanding_044",
+    "source": {
+      "type": "book",
+      "title": "Understanding Nutrition, 5th Aus/NZ Ed (Whitney, Rolfes, Crowe, Walsh)",
+      "page": 62,
+      "chapter": "Chapters 1-7"
+    },
+    "category": "diet_principle",
+    "subcategory": "dietary_guidelines",
+    "raw_text": "Chapter 2: Planning a healthy diet 45 FIGURE 2.1 Australian Dietary Guidelines: eat a wide variety of nutritious foods from these five groups every day Fruits contribute folate, vitamin A, vitamin C, potassium and fibre. • \u00071 medium piece (150 g) of fruit (apple, banana, orange, pear) • \u00072 small pieces (150 g) of fruit (apricots, kiwifruit, plums) • \u00071 cup (150 g) diced pieces or canned fruit • \u00071½ tablespoons sultanas, 4 dried apricot halves • \u0007½ cup (125 mL) fruit juice FRUITS The",
+    "claim_type": "guideline",
+    "tags": [
+      "dietary_guidelines"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b2_understanding_045",
+    "source": {
+      "type": "book",
+      "title": "Understanding Nutrition, 5th Aus/NZ Ed (Whitney, Rolfes, Crowe, Walsh)",
+      "page": 63,
+      "chapter": "Chapters 1-7"
+    },
+    "category": "diet_principle",
+    "subcategory": "dietary_guidelines",
+    "raw_text": "Understanding Nutrition 46 Adapted from National Health and Medical Research Council, Department of Health and Ageing, Australian Dietary Guidelines, Canberra: Commonwealth of Australia (2013). CC BY 4.0 International Licence (https://www.eatforhealth.gov.au/copyright-information) Recommended amounts All food groups offer valuable nutrients, and people should select from each group daily. Table 2.3 and Table 2.4 indicate the number of serves needed from each group daily to create a healthful",
+    "claim_type": "guideline",
+    "tags": [
+      "dietary_guidelines"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b2_understanding_046",
+    "source": {
+      "type": "book",
+      "title": "Understanding Nutrition, 5th Aus/NZ Ed (Whitney, Rolfes, Crowe, Walsh)",
+      "page": 64,
+      "chapter": "Chapters 1-7"
+    },
+    "category": "diet_principle",
+    "subcategory": "dietary_guidelines",
+    "raw_text": "Chapter 2: Planning a healthy diet 47 TABLE 2.3 Recommended dietary patterns for men and women RECOMMENDED AVERAGE DAILY NUMBER OF SERVES FROM EACH OF THE FIVE FOOD GROUPS* ADDITIONAL SERVES FOR TALLER OR MORE ACTIVE MEN AND WOMEN Age Vegetables and legumes/ beans Fruit Grain (cereal) foods, mostly wholegrain, such as breads, cereals, rice, pasta, noodles, polenta, couscous, oats, quinoa and barley Lean meat and poultry, fish, eggs, nuts and seeds, and legumes/beans Milk, yoghurt, c",
+    "claim_type": "guideline",
+    "tags": [
+      "dietary_guidelines"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b2_understanding_047",
+    "source": {
+      "type": "book",
+      "title": "Understanding Nutrition, 5th Aus/NZ Ed (Whitney, Rolfes, Crowe, Walsh)",
+      "page": 65,
+      "chapter": "Chapters 1-7"
+    },
+    "category": "diet_principle",
+    "subcategory": "dietary_guidelines",
+    "raw_text": "Understanding Nutrition 48 All vegetables provide an array of vitamins, fibre and the mineral potassium, but some vegetables are especially good sources of certain nutrients, and of beneficial phytochemicals – the non-nutrient compounds found in plant-derived foods that have biological activity in the body. Dark green vegetables deliver the B-group vitamin folate; orange vegetables provide vitamin A; legumes supply iron and protein; starchy vegetables contribute carbohydrate; and other ve",
+    "claim_type": "guideline",
+    "tags": [
+      "dietary_guidelines"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b2_understanding_048",
+    "source": {
+      "type": "book",
+      "title": "Understanding Nutrition, 5th Aus/NZ Ed (Whitney, Rolfes, Crowe, Walsh)",
+      "page": 66,
+      "chapter": "Chapters 1-7"
+    },
+    "category": "diet_principle",
+    "subcategory": "dietary_guidelines",
+    "raw_text": "Chapter 2: Planning a healthy diet 49 Dietary guidelines prescribe a set diet. FALSE juice. Oil is a notable exception: even though oil is pure fat and therefore rich in kilojoules, a small amount of oil from sources such as nuts, fish or vegetable oils is necessary every day to provide nutrients lacking from other foods. Consequently, these high-fat foods are listed among the nutrient-dense foods (see Highlight 5 to learn why). Serving equivalents Recommended serving amounts for fruits, ve",
+    "claim_type": "guideline",
+    "tags": [
+      "dietary_guidelines"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b2_understanding_049",
+    "source": {
+      "type": "book",
+      "title": "Understanding Nutrition, 5th Aus/NZ Ed (Whitney, Rolfes, Crowe, Walsh)",
+      "page": 67,
+      "chapter": "Chapters 1-7"
+    },
+    "category": "diet_principle",
+    "subcategory": "dietary_guidelines",
+    "raw_text": "Understanding Nutrition 50 We can begin to fill in the plan with real foods to create an eating pattern to sustain good health. For example, breakfast calls for 30 grams of grain, ½ cup fruit and 1 cup of milk. We might select a bowl of cereal with banana slices and milk: • 1 cup cereal = 30 grams grain • 1 small banana = ½ cup fruit • 1 cup fat-free milk = 1 cup milk. We can then continue to create a diet plan by establishing healthy eating patterns for lunch, dinner and other snacks.",
+    "claim_type": "guideline",
+    "tags": [
+      "dietary_guidelines"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b2_understanding_050",
+    "source": {
+      "type": "book",
+      "title": "Understanding Nutrition, 5th Aus/NZ Ed (Whitney, Rolfes, Crowe, Walsh)",
+      "page": 73,
+      "chapter": "Chapters 1-7"
+    },
+    "category": "diet_principle",
+    "subcategory": "dietary_guidelines",
+    "raw_text": "Understanding Nutrition 56 © Food Standards Australia New Zealand. TABLE 2.7 Examples of nutrition content terms you may find on food labels TERM EXPLANATION Low fat or low in fat The food must not contain more than 3 g of fat per 100 g of solid food (or 1.5 g of fat per 100 mL of liquid food) Reduced fat or less fat The food contains at least 25 per cent less fat than the same quantity of the reference food Low cholesterol or low in cholesterol The food must not contain more than 20 mg cho",
+    "claim_type": "guideline",
+    "tags": [
+      "dietary_guidelines"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b2_understanding_051",
+    "source": {
+      "type": "book",
+      "title": "Understanding Nutrition, 5th Aus/NZ Ed (Whitney, Rolfes, Crowe, Walsh)",
+      "page": 74,
+      "chapter": "Chapters 1-7"
+    },
+    "category": "diet_principle",
+    "subcategory": "dietary_guidelines",
+    "raw_text": "Chapter 2: Planning a healthy diet 57 TABLE 2.8 Examples of the levels of health claims that may be made on food packaging DESCRIPTION OF CLAIM EXAMPLE Nutrition content claims Are claims about the content of certain nutrients or substances in a food. These claims will need to meet certain criteria set out in the Standard This food is high in calcium. General level health claims Refer to a nutrient or substance in a food and its effect on a health function. They must not refer to a serious",
+    "claim_type": "guideline",
+    "tags": [
+      "dietary_guidelines"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b2_understanding_052",
+    "source": {
+      "type": "book",
+      "title": "Understanding Nutrition, 5th Aus/NZ Ed (Whitney, Rolfes, Crowe, Walsh)",
+      "page": 75,
+      "chapter": "Chapters 1-7"
+    },
+    "category": "diet_principle",
+    "subcategory": "dietary_guidelines",
+    "raw_text": "58 Understanding Nutrition CHAPTER ACTIVITIES 1 The concept of nutrient density means eating more kilojoules to get more nutrients. FALSE Sometimes we do eat more kilojoules to obtain more nutrients, but the concept of nutrient density is where we obtain more nutrients (e.g. iron) but eat less kilojoules (e.g. 300 instead of 450). 2 Dietary guidelines prescribe a set diet. FALSE Dietary guidelines provide a number of guidelines for each food group depending on life-stage. The guideline",
+    "claim_type": "guideline",
+    "tags": [
+      "dietary_guidelines"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b2_understanding_053",
+    "source": {
+      "type": "book",
+      "title": "Understanding Nutrition, 5th Aus/NZ Ed (Whitney, Rolfes, Crowe, Walsh)",
+      "page": 76,
+      "chapter": "Chapters 1-7"
+    },
+    "category": "diet_principle",
+    "subcategory": "dietary_guidelines",
+    "raw_text": "Chapter 2: Planning a healthy diet 59 3 Which of the following is consistent with the Australian Dietary Guidelines? a Choose a diet restricted in fat and cholesterol. b Eat plenty of vegetables, legumes and fruits. c Balance the food you eat with physical activity. d Eat an abundance of foods to ensure nutrient adequacy. 4 According to the Australian Guide to Healthy Eating, what are added fats counted as? a Meats and grains b Nutrient-dense foods c Discretionary kilojoules d Dis",
+    "claim_type": "guideline",
+    "tags": [
+      "dietary_guidelines"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b2_understanding_054",
+    "source": {
+      "type": "book",
+      "title": "Understanding Nutrition, 5th Aus/NZ Ed (Whitney, Rolfes, Crowe, Walsh)",
+      "page": 77,
+      "chapter": "Chapters 1-7"
+    },
+    "category": "diet_principle",
+    "subcategory": "dietary_guidelines",
+    "raw_text": "60 Understanding Nutrition • Learn more about the Australian Dietary Guidelines at: http://www.eatforhealth.gov.au • Find New Zealand information on nutrition guidelines and food labels at http://www.foodstandards.govt.nz • Learn more about the Healthy Eating Pyramid: http://www.nutritionaustralia.org • Visit the Traditional Diet Pyramids for various ethnic groups at Oldways Preservation and Exchange Trust: http://www.oldwayspt.org • Visit the United States Department of Agricultur",
+    "claim_type": "guideline",
+    "tags": [
+      "dietary_guidelines"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b2_understanding_055",
+    "source": {
+      "type": "book",
+      "title": "Understanding Nutrition, 5th Aus/NZ Ed (Whitney, Rolfes, Crowe, Walsh)",
+      "page": 82,
+      "chapter": "Chapters 1-7"
+    },
+    "category": "diet_principle",
+    "subcategory": "dietary_guidelines",
+    "raw_text": "Chapter 2: Planning a healthy diet 65 HIGHLIGHT 1 M. Dinu and co-authors, Vegetarian, vegan diets and multiple health outcomes: A systematic review with meta-analysis of observational studies, Critical Reviews in Food Science and Nutrition 57 (2017): 3640–3649. 2 Position of the Academy of Nutrition and Dietetics, Vegetarian diets, Journal of the Academy of Nutrition and Dietetics, 116 (2016): 1970–1980; US Department of Health and Human Services and US Department of Agriculture, 2015–20",
+    "claim_type": "guideline",
+    "tags": [
+      "dietary_guidelines"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b2_understanding_056",
+    "source": {
+      "type": "book",
+      "title": "Understanding Nutrition, 5th Aus/NZ Ed (Whitney, Rolfes, Crowe, Walsh)",
+      "page": 100,
+      "chapter": "Chapters 1-7"
+    },
+    "category": "diet_principle",
+    "subcategory": "dietary_guidelines",
+    "raw_text": "Chapter 3: Digestion, absorption and transport 83 is deemed effective as there are many different approaches to eating healthier, however, a Mediterranean-style diet is of prominent interest. The mechanisms by which dietary changes might influence depression symptoms are unclear. Biochemical pathways involving inflammation, oxidative stress and mitochondrial dysfunction are all known to be disrupted in people with mental disorders, so diet could be having a positive impact. Then there is the",
+    "claim_type": "guideline",
+    "tags": [
+      "dietary_guidelines"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_057",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 10,
+      "chapter": "Early Chapters"
+    },
+    "category": "diet_principle",
+    "subcategory": "concepts_controversies",
+    "raw_text": "CONTROVERSY 1: Sorting the Imposters from \nthe Real Nutrition Experts  24\nChapter 2\nNutrition Tools—Standards \nand Guidelines  31\nNutrient Recommendations  32\nDietary Reference Intakes  32\nThe DRI Lists and Purposes  33\nUnderstanding the DRI Recommended \nIntake",
+    "claim_type": "opinion",
+    "tags": [
+      "controversy",
+      "myth_busting"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_058",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 11,
+      "chapter": "Early Chapters"
+    },
+    "category": "diet_principle",
+    "subcategory": "concepts_controversies",
+    "raw_text": "CONTROVERSY 3: Alcohol: Do the Benefits \nOutweigh the Risks?  100\nChapter 4\nThe Carbohydrates: Sugar",
+    "claim_type": "opinion",
+    "tags": [
+      "controversy",
+      "myth_busting"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_059",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 12,
+      "chapter": "Early Chapters"
+    },
+    "category": "diet_principle",
+    "subcategory": "concepts_controversies",
+    "raw_text": "CONTROVERSY 4: Are Added Sugars “Bad” \nfor You?  154\nChapter 5\nThe Lipids: Fats",
+    "claim_type": "opinion",
+    "tags": [
+      "controversy",
+      "myth_busting"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_060",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 13,
+      "chapter": "Early Chapters"
+    },
+    "category": "diet_principle",
+    "subcategory": "concepts_controversies",
+    "raw_text": "CONTROVERSY 6: Vegetarian and Meat-\nContaining Diets: What Are the Benefits and \nPitfalls?  232\nChapter 7\nThe Vitamins  240\nDefinition and Classification of \nVitamins  242\nThe Concept of Vitamin Precursors  242\nTwo Classes of Vitamins: Fat-Soluble  \nand Water-S",
+    "claim_type": "opinion",
+    "tags": [
+      "controversy",
+      "myth_busting"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_061",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 13,
+      "chapter": "Early Chapters"
+    },
+    "category": "diet_principle",
+    "subcategory": "concepts_controversies",
+    "raw_text": "Debate  196\nChapter 6\nThe Proteins and Amino \nAcids  201\nThe Structure of Proteins  202\nAmino Acids  202\nHow Do Amino Acids Build Proteins?  204\nThe Variety of Proteins  204\nDenaturation of Proteins  207\nThink Fitness: Can Eating Extra Protein Make \nMuscle",
+    "claim_type": "opinion",
+    "tags": [
+      "controversy",
+      "myth_busting"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_062",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 14,
+      "chapter": "Early Chapters"
+    },
+    "category": "diet_principle",
+    "subcategory": "concepts_controversies",
+    "raw_text": "CONTROVERSY 7: Vitamin Supplements:  \nWhat Are the Benefits and Risks?  285\nChapter 8\nWater and Minerals  292\nWater  294\nWhy Is Water the Most Indispensable \nNutrient?  295\nThe Body’s Water Balance  296\nQuenching Thirst and Balancing Losses  296\nHow Much Water",
+    "claim_type": "opinion",
+    "tags": [
+      "controversy",
+      "myth_busting"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_063",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 15,
+      "chapter": "Early Chapters"
+    },
+    "category": "diet_principle",
+    "subcategory": "concepts_controversies",
+    "raw_text": "CONTROVERSY 8: Osteoporosis: Can Lifestyle \nChoices Reduce the Risk?  335\nChapter 9\nEnergy Balance and \nHealthy Body Weight  343\nThe Problems of Too Little or Too Much \nBody Fat  344\nWhat Are the Risks from Underweight?  345\nWhat Are the Risks from Too Much  \nB",
+    "claim_type": "opinion",
+    "tags": [
+      "controversy",
+      "myth_busting"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_064",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 16,
+      "chapter": "Early Chapters"
+    },
+    "category": "diet_principle",
+    "subcategory": "concepts_controversies",
+    "raw_text": "CONTROVERSY 9: The Perils of Eating \nDisorders  383\nChapter 10\nPerformance \nNutrition  389\nThe Benefits of Fitness  390\nThe Nature of Fitness  390\nPhysical Activity Guidelines  392\nThe Essentials of Fitness  393\nHow Do Muscles Adapt to \nPhysical Activity?  394",
+    "claim_type": "opinion",
+    "tags": [
+      "controversy",
+      "myth_busting"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_065",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 18,
+      "chapter": "Early Chapters"
+    },
+    "category": "diet_principle",
+    "subcategory": "concepts_controversies",
+    "raw_text": "CONTROVERSY 12: Genetically Engineered \nFoods: What Are the Pros and Cons?  509\nChapter 13\nLife Cycle Nutrition: Mother \nand Infant  516\nPregnancy: The Impact of Nutrition on the \nFuture  517\nPreparing for Pregnancy  517\nThe Events of Pregnancy  519\nIncreased N",
+    "claim_type": "opinion",
+    "tags": [
+      "controversy",
+      "myth_busting"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_066",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 19,
+      "chapter": "Early Chapters"
+    },
+    "category": "diet_principle",
+    "subcategory": "concepts_controversies",
+    "raw_text": "CONTROVERSY 14: Nutrient–\nDrug Interactions: Who Should \nBe Concerned?  594\nChapter 15\nHunger and the \nFuture of Food  599\nU",
+    "claim_type": "opinion",
+    "tags": [
+      "controversy",
+      "myth_busting"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_067",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 23,
+      "chapter": "Early Chapters"
+    },
+    "category": "diet_principle",
+    "subcategory": "concepts_controversies",
+    "raw_text": "Controversy 4 has renewed its focus on theories and fables \nsurrounding the health effects of added sugars in the diet",
+    "claim_type": "opinion",
+    "tags": [
+      "controversy",
+      "myth_busting"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_068",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 29,
+      "chapter": "Early Chapters"
+    },
+    "category": "diet_principle",
+    "subcategory": "concepts_controversies",
+    "raw_text": "Controversy 1 concludes the chapter by offering ways to distinguish between \ntrustworthy sources of nutrition information and those that are less reliable",
+    "claim_type": "opinion",
+    "tags": [
+      "controversy",
+      "myth_busting"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_069",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 34,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "often measure them in grams, units of weight",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_070",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 35,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "Food scientists measure food energy in kilocalories, units of heat",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_071",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 35,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "This book uses the common word calories to mean the same thing",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_072",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 35,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "nutrients is fat, which contains 9 calories in each gram",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_073",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 35,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "each contain only 4 calories in a gram",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_074",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 35,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "▪▪Food energy is measured in calories; nutrient quantities are often measured in grams",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_075",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 35,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "a kilocalorie (also called kcalorie or Calorie): it",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_076",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 35,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "the temperature of a kilogram (a liter) of water",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_077",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 35,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "practice of using the lowercase term calorie",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_078",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 39,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "food choices could easily result in a low-nutrient, high-calorie eating pattern with a",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_079",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 40,
+      "chapter": "Early Chapters"
+    },
+    "category": "diet_principle",
+    "subcategory": "concepts_controversies",
+    "raw_text": "Controversy explores the strengths and weaknesses of both the vegetarian’s and the \nmeat eater’s diets",
+    "claim_type": "opinion",
+    "tags": [
+      "controversy",
+      "myth_busting"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_080",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 52,
+      "chapter": "Early Chapters"
+    },
+    "category": "diet_principle",
+    "subcategory": "concepts_controversies",
+    "raw_text": "Controversy 1 Sorting the Imposters from the Real Nutrition Experts \nHow can people learn to distinguish \nvalid nutrition information from \nmisinformation? Some quackery is \neasy to identify—like the claims of the \nsalesman in Figure C1–1—whereas \nother types a",
+    "claim_type": "opinion",
+    "tags": [
+      "controversy",
+      "myth_busting"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_081",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 54,
+      "chapter": "Early Chapters"
+    },
+    "category": "diet_principle",
+    "subcategory": "concepts_controversies",
+    "raw_text": "Controversy 1 Sorting the Imposters from the Real Nutrition Experts \nFigure C1–2\nPubMed (www",
+    "claim_type": "opinion",
+    "tags": [
+      "controversy",
+      "myth_busting"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_082",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 56,
+      "chapter": "Early Chapters"
+    },
+    "category": "diet_principle",
+    "subcategory": "concepts_controversies",
+    "raw_text": "Controversy 1 Sorting the Imposters from the Real Nutrition Experts \nSpecialty\nSample Responsibilities\nPublic Health Nutrition\n▪\n▪Influence nutrition policy",
+    "claim_type": "opinion",
+    "tags": [
+      "controversy",
+      "myth_busting"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_083",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 70,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "To help people control calories and achieve and sustain a healthy body weight, the",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_084",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 70,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "pure, calorie-rich fat and is therefore low in nutrient den-",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_085",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 70,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "calories to foods, reducing their nutrient density",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_086",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 70,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "Alcoholic beverages are a top contributor of empty calories to the diets of many",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_087",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 70,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "empty calories  calories provided by added",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_088",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 70,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "Other empty calorie sources include",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_089",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 70,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "peaches adds 135 empty calories of added",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_090",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 75,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "crucial to controlling calorie intakes, but",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_091",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 77,
+      "chapter": "Early Chapters"
+    },
+    "category": "diet_principle",
+    "subcategory": "concepts_controversies",
+    "raw_text": "Controversy 3)\n100\nSource: Adapted from American Diabetes Association and Academy of Nutrition and Dietetics",
+    "claim_type": "opinion",
+    "tags": [
+      "controversy",
+      "myth_busting"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_092",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 79,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "provides the calorie and nutrient amounts listed",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_093",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 79,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "10 chips, so if you eat 50 chips, you will have consumed five times the calorie and",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_094",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 79,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "Grams of fat per serving with a breakdown showing grams of",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_095",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 79,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "Milligrams of cholesterol per serving",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_096",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 79,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "Milligrams of sodium per serving",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_097",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 79,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "depending on your calorie needs",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_098",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 80,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "Grams of carbohydrate per serving,",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_099",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 80,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "showing grams of dietary fiber and sugars",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_100",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 80,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "Daily Values and calories-per-gram reminder",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_101",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 80,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "2,500 calories a day and provides a calories-per-gram",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_102",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 80,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "the number of calories in a single serving",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_103",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 80,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "juice, though, so the label does specify sugar grams; details are in Chapter 4",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_104",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 80,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "on the Daily Values set for a 2,000-calorie diet",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_105",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 80,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "4 milligrams of iron per serving and the Daily Value is 18 milligrams, then a serving",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_106",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 82,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "▪low calorie 40 calories or fewer per serving",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_107",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 82,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "▪reduced calorie at least 25% lower in calories than a “regular,” or reference, food",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_108",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 82,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "▪calorie free fewer than 5 calories per serving",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_109",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 82,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "less than 95 mg of cholesterol per serving",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_110",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 82,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "▪low sodium 140 mg or less of sodium per serving",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_111",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 82,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "▪sodium free less than 5 mg per serving",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_112",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 82,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "▪very low sodium 35 mg or less of sodium per serving",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_113",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 82,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "▪less, fewer, reduced containing at least 25% less of a nutrient or calories than a reference",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_114",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 82,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "A serving provides one-third fewer calories or half the fat of the regular product",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_115",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 82,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "A serving of a low-calorie, low-fat food provides half the sodium normally present",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_116",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 88,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "physical activity to help balance calorie intakes to achieve",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_117",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 88,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "4) A properly planned diet controls calories by",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_118",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 88,
+      "chapter": "Early Chapters"
+    },
+    "category": "food",
+    "subcategory": "composition",
+    "raw_text": "3 grams of fat or less per serving",
+    "claim_type": "data_point",
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_119",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 89,
+      "chapter": "Early Chapters"
+    },
+    "category": "diet_principle",
+    "subcategory": "concepts_controversies",
+    "raw_text": "controversy\n“Worried about cancer? Eat tomatoes!” \nCan the produce aisle double as a \nmedicine chest? Although headlines often \noverstate their talents",
+    "claim_type": "opinion",
+    "tags": [
+      "controversy",
+      "myth_busting"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_120",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 90,
+      "chapter": "Early Chapters"
+    },
+    "category": "diet_principle",
+    "subcategory": "concepts_controversies",
+    "raw_text": "Controversy 2 Are Some Foods Superfoods for Health? \nA Scientist’s View  \nof Phytochemicals\nAt one time",
+    "claim_type": "opinion",
+    "tags": [
+      "controversy",
+      "myth_busting"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_121",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 92,
+      "chapter": "Early Chapters"
+    },
+    "category": "diet_principle",
+    "subcategory": "concepts_controversies",
+    "raw_text": "Controversy 2 Are Some Foods Superfoods for Health? \nFlaxseed\nLong valued \nfor relieving \nconstipation \nand \ndigestive \ndistress",
+    "claim_type": "opinion",
+    "tags": [
+      "controversy",
+      "myth_busting"
+    ],
+    "extracted_date": "2026-06-03"
+  },
+  {
+    "id": "chunk_b3_concepts_122",
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "page": 96,
+      "chapter": "Early Chapters"
+    },
+    "category": "diet_principle",
+    "subcategory": "concepts_controversies",
+    "raw_text": "Controversy 2 Are Some Foods Superfoods for Health? \nCritical Thinking\n1",
+    "claim_type": "opinion",
+    "tags": [
+      "controversy",
+      "myth_busting"
+    ],
+    "extracted_date": "2026-06-03"
+  }
+]

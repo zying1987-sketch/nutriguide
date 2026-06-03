@@ -1,0 +1,35 @@
+{
+  "id": "frozen_yogurts_chocolate",
+  "name": "Frozen yogurts, chocolate",
+  "category": "甜食",
+  "tags": [
+    "抗炎",
+    "肠脑轴"
+  ],
+  "deep_analysis": false,
+  "nutrients": {
+    "能量": {
+      "value": 547.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [],
+  "health_benefits": [
+    {
+      "text": "🟡 B级** — **抗炎**：富含抗炎活性成分",
+      "evidence_level": "B",
+      "description": ""
+    },
+    {
+      "text": "⚪ C级** — **肠脑轴**：富含益生元/益生菌/调节菌群营养素",
+      "evidence_level": "C",
+      "description": ""
+    }
+  ],
+  "daily_intake": "少量,偶尔享用",
+  "cooking_tips": [],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

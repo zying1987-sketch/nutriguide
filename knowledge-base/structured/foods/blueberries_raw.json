@@ -1,0 +1,75 @@
+{
+  "id": "blueberries_raw",
+  "name": "Blueberries, raw",
+  "category": "水果与果汁",
+  "tags": [
+    "抗氧化"
+  ],
+  "deep_analysis": true,
+  "nutrients": {
+    "能量": {
+      "value": 240.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [
+    {
+      "name": "花青素**",
+      "content_text": "含量：每100g约163-387mg",
+      "mechanism": "作用机制：穿过血脑屏障,Nrf2/ARE通路激活"
+    },
+    {
+      "name": "紫檀芪**",
+      "content_text": "含量：白藜芦醇类似物",
+      "mechanism": "作用机制：生物利用度比白藜芦醇高80%"
+    },
+    {
+      "name": "槲皮素**",
+      "content_text": "含量：每100g约7-10mg",
+      "mechanism": "作用机制：SIRT1激活,AMPK通路"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "🟢 A级** — **认知**：改善老年人记忆和执行功能",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **抗氧化**：ORAC值4669(水果最高之一)",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **心血管**：降低血压5-8mmHg",
+      "evidence_level": "B",
+      "reference": "参考文献：meta分析",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **血糖**：改善胰岛素敏感性22%",
+      "evidence_level": "B",
+      "reference": "参考文献：RCT(n=32)",
+      "description": ""
+    }
+  ],
+  "daily_intake": "新鲜蓝莓100-150g/d(约一杯)",
+  "cooking_tips": [
+    "生吃最佳(花青素热敏,>80°C显著降解)",
+    "冷冻蓝莓花青素保留率>80%",
+    "加入燕麦/酸奶/冰沙",
+    "低温烘焙(<175°C)可保留部分花青素"
+  ],
+  "synergy": [
+    "核桃/杏仁(多酚+ALA/VE协同)",
+    "希腊酸奶(蛋白质稳定血糖)",
+    "黑巧克力(多酚叠加)"
+  ],
+  "contraindications": [
+    "水杨酸敏感者少量尝试",
+    "草酸钙肾结石需限量",
+    "选择有机蓝莓"
+  ],
+  "tcm": {},
+  "source": ""
+}

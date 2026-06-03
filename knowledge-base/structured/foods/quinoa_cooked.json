@@ -1,0 +1,40 @@
+{
+  "id": "quinoa_cooked",
+  "name": "Quinoa, cooked",
+  "category": "谷物与面食",
+  "tags": [
+    "基础营养"
+  ],
+  "deep_analysis": false,
+  "nutrients": {
+    "能量": {
+      "value": 503.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [
+    {
+      "name": "镁**",
+      "content_text": "含量：64mg/100g",
+      "mechanism": "作用机制：300+酶促反应辅因子"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "🟢 A级** — **神经肌肉**：每100g含镁64mg",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **综合营养**：全面营养支持",
+      "evidence_level": "A",
+      "description": ""
+    }
+  ],
+  "daily_intake": "",
+  "cooking_tips": [],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

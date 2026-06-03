@@ -14,6 +14,7 @@ interface AppState {
 
   // AI
   aiPlan: string | null
+  aiModel: string | null
   aiLoading: boolean
   aiError: string | null
 
@@ -29,6 +30,7 @@ interface AppState {
   setAssessmentResult: (result: AssessmentResult) => void
   setGeneratedPlan: (plan: GeneratedPlan) => void
   setAIPlan: (plan: string | null) => void
+  setAIModel: (model: string | null) => void
   setAILoading: (loading: boolean) => void
   setAIError: (error: string | null) => void
   setAssessmentId: (id: number) => void
@@ -45,6 +47,7 @@ export const useAppStore = create<AppState>((set, get) => ({
   assessmentResult: null,
   generatedPlan: null,
   aiPlan: null,
+  aiModel: null,
   aiLoading: false,
   aiError: null,
   assessmentId: null,
@@ -80,6 +83,7 @@ export const useAppStore = create<AppState>((set, get) => ({
   setAssessmentResult: (result) => set({ assessmentResult: result }),
   setGeneratedPlan: (plan) => set({ generatedPlan: plan }),
   setAIPlan: (plan) => set({ aiPlan: plan }),
+  setAIModel: (model: string | null) => set({ aiModel: model }),
   setAILoading: (loading) => set({ aiLoading: loading }),
   setAIError: (error) => set({ aiError: error }),
 
@@ -94,6 +98,7 @@ export const useAppStore = create<AppState>((set, get) => ({
       assessmentResult: null,
       generatedPlan: null,
       aiPlan: null,
+      aiModel: null,
       aiLoading: false,
       aiError: null,
       assessmentId: null,

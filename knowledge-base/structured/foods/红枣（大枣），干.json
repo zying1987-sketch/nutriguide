@@ -1,0 +1,65 @@
+{
+  "id": "红枣（大枣），干",
+  "name": "红枣（大枣），干",
+  "category": "中式药食同源食材",
+  "tags": [],
+  "deep_analysis": true,
+  "nutrients": {},
+  "active_compounds": [
+    {
+      "name": "cAMP**",
+      "content_text": "含量：植物界最高(~100-500nmol/g)",
+      "mechanism": "作用机制：第二信使,调节激素分泌/免疫应答"
+    },
+    {
+      "name": "多糖**",
+      "content_text": "含量：水溶性枣多糖",
+      "mechanism": "作用机制：免疫调节"
+    },
+    {
+      "name": "VC**",
+      "content_text": "含量：鲜枣约243mg/100g",
+      "mechanism": "作用机制：抗氧化,促进铁吸收"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "⚪ C级** — **补血**：传统补气血要药,cAMP可能促进EPO分泌",
+      "evidence_level": "C",
+      "description": ""
+    },
+    {
+      "text": "⚪ C级** — **免疫**：多糖激活巨噬细胞",
+      "evidence_level": "C",
+      "description": ""
+    },
+    {
+      "text": "⚪ C级** — **安神**：GABA+黄酮镇静(甘麦大枣汤)",
+      "evidence_level": "C",
+      "description": ""
+    }
+  ],
+  "daily_intake": "干红枣5-10颗(约20-30g)/d",
+  "cooking_tips": [
+    "直接食用:去核当零食",
+    "煮汤/粥:与小米/黑米/姜/桂圆",
+    "泡茶:红枣+枸杞+生姜",
+    "干枣含糖量>60%,血糖管理需注意"
+  ],
+  "synergy": [
+    "生姜(暖宫补血经典)",
+    "枸杞(肝肾双补)",
+    "桂圆(补血安神黄金搭档)",
+    "黄芪(气血双补)"
+  ],
+  "contraindications": [
+    "糖尿病患者严格控制(GI约103)",
+    "痰湿体质/腹胀满者少食",
+    "外感风热/喉咙痛时暂停",
+    "避免霉变枣(黄曲霉素)"
+  ],
+  "tcm": {
+    "meridian": "** 归经：归脾、胃、心经"
+  },
+  "source": ""
+}

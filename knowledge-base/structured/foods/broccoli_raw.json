@@ -1,0 +1,73 @@
+{
+  "id": "broccoli_raw",
+  "name": "Broccoli, raw",
+  "category": "蔬菜与蔬菜制品",
+  "tags": [
+    "女性激素健康"
+  ],
+  "deep_analysis": true,
+  "nutrients": {
+    "能量": {
+      "value": 141.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [
+    {
+      "name": "萝卜硫素**",
+      "content_text": "含量：前体glucoraphanin",
+      "mechanism": "作用机制：最强Nrf2激活剂之一;抑制HDAC"
+    },
+    {
+      "name": "吲哚-3-甲醇(I3C)**",
+      "content_text": "含量：glucobrassicin水解物",
+      "mechanism": "作用机制：→DIM,调节雌激素代谢"
+    },
+    {
+      "name": "维生素K**",
+      "content_text": "含量：约101μg/100g(126%DV)",
+      "mechanism": "作用机制：骨钙素活化必需"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "🟡 B级** — **激素代谢**：DIM促进雌激素保护性代谢",
+      "evidence_level": "B",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **抗癌**：萝卜硫素与多种癌症风险降低关联",
+      "evidence_level": "B",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **解毒/肝脏**：Nrf2激活上调谷胱甘肽",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **骨健康**：VK+钙协同维持骨密度",
+      "evidence_level": "B",
+      "description": ""
+    }
+  ],
+  "daily_intake": "鲜西兰花150-250g/d,西兰花芽萝卜硫素是成熟20-50倍",
+  "cooking_tips": [
+    "关键:切开后静置40分钟再烹饪!",
+    "蒸制3-4分钟最佳(保留>70%萝卜硫素)",
+    "水煮5分钟以上损失>50%",
+    "加入芥末同煮(补充黑芥子酶)"
+  ],
+  "synergy": [
+    "芥末/芥菜籽(互补黑芥子酶)",
+    "番茄(萝卜硫素+番茄红素)",
+    "柠檬汁(VC保护硫代葡萄糖苷)"
+  ],
+  "contraindications": [
+    "甲减者勿大量生食(硫氰酸盐)",
+    "华法令患者保持VK摄入稳定",
+    "IBS可能产气——从少量开始"
+  ],
+  "tcm": {},
+  "source": ""
+}

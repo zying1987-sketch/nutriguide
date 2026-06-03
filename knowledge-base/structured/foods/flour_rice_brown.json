@@ -1,0 +1,33 @@
+{
+  "id": "flour_rice_brown",
+  "name": "Flour, rice, brown",
+  "category": "谷物与面食",
+  "tags": [],
+  "deep_analysis": false,
+  "nutrients": {
+    "能量": {
+      "value": 1582.2,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [
+    {
+      "name": "镁**",
+      "content_text": "含量：124mg/100g",
+      "mechanism": "作用机制：300+酶促反应辅因子"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "🟢 A级** — **神经肌肉**：每100g含镁124mg",
+      "evidence_level": "A",
+      "description": ""
+    }
+  ],
+  "daily_intake": "",
+  "cooking_tips": [],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

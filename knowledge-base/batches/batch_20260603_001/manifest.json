@@ -1,0 +1,174 @@
+{
+  "batch_id": "batch_20260603_001",
+  "created": "2026-06-03T14:31:00+08:00",
+  "status": "in_progress",
+  "phase": "phase1_extraction",
+  "description": "第一批18本营养学书籍知识摄入",
+  "books": [
+    {
+      "tier": 1,
+      "filename": "中国居民膳食营养素参考摄入量（2023）.pdf",
+      "type": "scanned",
+      "pages": 655,
+      "priority": "critical",
+      "agent": "distiller_ocr"
+    },
+    {
+      "tier": 1,
+      "filename": "营养学基础与临床实践.pdf",
+      "type": "scanned",
+      "pages": 430,
+      "priority": "high",
+      "agent": "distiller_ocr"
+    },
+    {
+      "tier": 1,
+      "filename": "膳食营养素使用手册.pdf",
+      "type": "scanned",
+      "pages": 251,
+      "priority": "high",
+      "agent": "distiller_ocr"
+    },
+    {
+      "tier": 2,
+      "filename": "哈佛家庭医学全书(女性健康手册).pdf",
+      "type": "scanned",
+      "pages": 321,
+      "priority": "high",
+      "agent": "distiller_ocr"
+    },
+    {
+      "tier": 2,
+      "filename": "镁,一种可以改变你生活的营养素.pdf",
+      "type": "scanned",
+      "pages": 81,
+      "priority": "high",
+      "agent": "distiller_ocr"
+    },
+    {
+      "tier": 2,
+      "filename": "nutrients-17-03068-v2.pdf",
+      "type": "text",
+      "pages": 39,
+      "priority": "medium",
+      "agent": "general-purpose-1"
+    },
+    {
+      "tier": 2,
+      "filename": "The Anti-Inflammation Diet and Recipe Book.pdf",
+      "type": "text",
+      "pages": 259,
+      "priority": "medium",
+      "agent": "general-purpose-3"
+    },
+    {
+      "tier": 2,
+      "filename": "Epigenetics and Human Health.pdf",
+      "type": "text",
+      "pages": 322,
+      "priority": "medium",
+      "agent": "general-purpose-3"
+    },
+    {
+      "tier": 3,
+      "filename": "实用运动营养学（第5版）.pdf",
+      "type": "scanned",
+      "pages": 487,
+      "priority": "low",
+      "agent": "distiller_ocr"
+    },
+    {
+      "tier": 3,
+      "filename": "Understanding Nutrition 5th.pdf",
+      "type": "text",
+      "pages": 812,
+      "priority": "high",
+      "agent": "general-purpose-1"
+    },
+    {
+      "tier": 3,
+      "filename": "Nutrition Concepts and Controversies 14th.pdf",
+      "type": "text",
+      "pages": 886,
+      "priority": "high",
+      "agent": "general-purpose-1"
+    },
+    {
+      "tier": 3,
+      "filename": "Krause and Mahans Food 15e.pdf",
+      "type": "text",
+      "pages": 1227,
+      "priority": "critical",
+      "agent": "general-purpose-2"
+    },
+    {
+      "tier": 3,
+      "filename": "Medical Nutrition Therapy.pdf",
+      "type": "text",
+      "pages": 460,
+      "priority": "high",
+      "agent": "general-purpose-2"
+    },
+    {
+      "tier": 3,
+      "filename": "Prescription for Nutritional Healing.pdf",
+      "type": "text",
+      "pages": 784,
+      "priority": "high",
+      "agent": "general-purpose-2"
+    },
+    {
+      "tier": 3,
+      "filename": "Public Health Nutrition.pdf",
+      "type": "text",
+      "pages": 503,
+      "priority": "medium",
+      "agent": "general-purpose-3"
+    },
+    {
+      "tier": 3,
+      "filename": "NUTRITION (BYU-Idaho).pdf",
+      "type": "text",
+      "pages": 363,
+      "priority": "medium",
+      "agent": "general-purpose-3"
+    },
+    {
+      "tier": 3,
+      "filename": "Williams' Basic Nutrition 15th.pdf",
+      "type": "error",
+      "pages": 0,
+      "priority": "low",
+      "agent": "tbd"
+    }
+  ],
+  "pipeline_stages": {
+    "phase1_extraction": {
+      "status": "in_progress",
+      "agents": [
+        "general-purpose-1",
+        "general-purpose-2",
+        "general-purpose-3"
+      ],
+      "output_dir": "raw_chunks/"
+    },
+    "phase2_structured": {
+      "status": "pending",
+      "agents": [
+        "analyst",
+        "scientist"
+      ],
+      "output_dir": "structured/"
+    },
+    "phase3_audit": {
+      "status": "pending",
+      "agent": "auditor",
+      "output_dir": "audit/"
+    },
+    "phase4_integration": {
+      "status": "pending",
+      "agent": "integrator",
+      "output_dir": "output/"
+    }
+  }
+}

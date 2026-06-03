@@ -1,0 +1,32 @@
+{
+  "id": "chicken_breast_tenders_breaded_uncooked",
+  "name": "Chicken breast tenders, breaded, uncooked",
+  "category": "禽肉",
+  "tags": [
+    "基础营养"
+  ],
+  "deep_analysis": false,
+  "nutrients": {
+    "能量": {
+      "value": 1101.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [],
+  "health_benefits": [
+    {
+      "text": "🟢 A级** — **综合营养**：全面营养支持",
+      "evidence_level": "A",
+      "description": ""
+    }
+  ],
+  "daily_intake": "50-100g/d",
+  "cooking_tips": [
+    "彻底煮熟至安全温度",
+    "低温慢煮保留营养"
+  ],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

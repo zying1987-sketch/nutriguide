@@ -1,0 +1,165 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "nutriguide/knowledge-base/schemas/meal-template.json",
+  "title": "Meal Template",
+  "description": "一套示范餐单模板，适用于特定人群和能量水平",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "target_population",
+    "energy_kcal",
+    "meals"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^meal_\\d{3,}$"
+    },
+    "name": {
+      "type": "string",
+      "description": "餐单名称"
+    },
+    "target_population": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "适用人群（可包含 'general'）"
+    },
+    "energy_kcal": {
+      "type": "integer",
+      "enum": [
+        1200,
+        1400,
+        1600,
+        1800,
+        2000,
+        2200,
+        2400,
+        2600
+      ],
+      "description": "全天总能量目标(kcal)"
+    },
+    "diet_pattern": {
+      "type": "string",
+      "description": "遵循的膳食模式"
+    },
+    "description": {
+      "type": "string",
+      "description": "餐单总体描述"
+    },
+    "meals": {
+      "type": "object",
+      "properties": {
+        "breakfast": {
+          "$ref": "#/definitions/mealSlot"
+        },
+        "morning_snack": {
+          "$ref": "#/definitions/mealSlot"
+        },
+        "lunch": {
+          "$ref": "#/definitions/mealSlot"
+        },
+        "afternoon_snack": {
+          "$ref": "#/definitions/mealSlot"
+        },
+        "dinner": {
+          "$ref": "#/definitions/mealSlot"
+        },
+        "evening_snack": {
+          "$ref": "#/definitions/mealSlot"
+        }
+      }
+    },
+    "daily_nutrition": {
+      "type": "object",
+      "properties": {
+        "energy_kcal": {
+          "type": "number"
+        },
+        "protein_g": {
+          "type": "number"
+        },
+        "fat_g": {
+          "type": "number"
+        },
+        "carbs_g": {
+          "type": "number"
+        },
+        "fiber_g": {
+          "type": "number"
+        },
+        "highlights": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "string",
+      "description": "餐单备注、备选替换、注意事项"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "definitions": {
+    "mealSlot": {
+      "type": "object",
+      "required": [
+        "foods"
+      ],
+      "properties": {
+        "foods": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "name",
+              "portion"
+            ],
+            "properties": {
+              "food_id": {
+                "type": "string",
+                "description": "关联 foods 数据库中的 ID"
+              },
+              "name": {
+                "type": "string"
+              },
+              "portion": {
+                "type": "string"
+              },
+              "category": {
+                "type": "string"
+              },
+              "key_nutrients": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "preparation": {
+                "type": "string",
+                "description": "烹饪/制作方式"
+              }
+            }
+          }
+        },
+        "nutrition_summary": {
+          "type": "string",
+          "description": "该餐营养亮点"
+        }
+      }
+    }
+  }
+}

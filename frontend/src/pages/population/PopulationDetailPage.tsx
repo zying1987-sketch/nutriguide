@@ -299,7 +299,7 @@ export default function PopulationDetailPage() {
           <Sparkles className="w-8 h-8 mx-auto mb-4 text-[#2D6B4F]" />
           <h3 className="font-serif text-2xl font-semibold mb-3">不确定自己属于哪类人群？</h3>
           <p className="text-white/50 mb-6 max-w-md mx-auto">
-            完成 6 步自测，精准匹配你的营养需求
+            完成 7 步自测，精准匹配你的营养需求
           </p>
           <Link
             to="/assessment"

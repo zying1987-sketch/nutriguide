@@ -1,0 +1,1945 @@
+{
+  "total_foods": 107,
+  "total_categories": 17,
+  "categories": {
+    "中式药食同源食材": {
+      "name": "中式药食同源食材",
+      "file": "中式药食同源食材.md",
+      "count": 14,
+      "foods": [
+        {
+          "id": "荠菜，生",
+          "name": "荠菜，生",
+          "tags": []
+        },
+        {
+          "id": "马齿苋，生",
+          "name": "马齿苋，生",
+          "tags": []
+        },
+        {
+          "id": "黑木耳，干",
+          "name": "黑木耳，干",
+          "tags": []
+        },
+        {
+          "id": "银耳（白木耳），干",
+          "name": "银耳（白木耳），干",
+          "tags": []
+        },
+        {
+          "id": "莲子，干",
+          "name": "莲子，干",
+          "tags": []
+        },
+        {
+          "id": "红枣（大枣），干",
+          "name": "红枣（大枣），干",
+          "tags": []
+        },
+        {
+          "id": "桂圆（龙眼肉），干",
+          "name": "桂圆（龙眼肉），干",
+          "tags": []
+        },
+        {
+          "id": "薏苡仁（薏米）",
+          "name": "薏苡仁（薏米）",
+          "tags": []
+        },
+        {
+          "id": "山楂，干",
+          "name": "山楂，干",
+          "tags": []
+        },
+        {
+          "id": "紫菜，干",
+          "name": "紫菜，干",
+          "tags": []
+        },
+        {
+          "id": "白果（银杏），煮熟",
+          "name": "白果（银杏），煮熟",
+          "tags": []
+        },
+        {
+          "id": "陈皮，干",
+          "name": "陈皮，干",
+          "tags": []
+        },
+        {
+          "id": "黑芝麻，生",
+          "name": "黑芝麻，生",
+          "tags": []
+        },
+        {
+          "id": "绿豆芽",
+          "name": "绿豆芽",
+          "tags": []
+        }
+      ]
+    },
+    "乳制品与蛋类": {
+      "name": "乳制品与蛋类",
+      "file": "乳制品与蛋类.md",
+      "count": 2,
+      "foods": [
+        {
+          "id": "kefir_lowfat_plain_lifeway",
+          "name": "Kefir, lowfat, plain, LIFEWAY",
+          "tags": [
+            "肠脑轴"
+          ]
+        },
+        {
+          "id": "kefir_lowfat_strawberry_lifeway",
+          "name": "Kefir, lowfat, strawberry, LIFEWAY",
+          "tags": [
+            "抗氧化",
+            "肠脑轴"
+          ]
+        }
+      ]
+    },
+    "加工肉制品": {
+      "name": "加工肉制品",
+      "file": "加工肉制品.md",
+      "count": 1,
+      "foods": [
+        {
+          "id": "lunchmeat_chicken_breast_sliced",
+          "name": "Lunchmeat, chicken breast, sliced",
+          "tags": [
+            "基础营养"
+          ]
+        }
+      ]
+    },
+    "坚果与种子": {
+      "name": "坚果与种子",
+      "file": "坚果与种子.md",
+      "count": 11,
+      "foods": [
+        {
+          "id": "nuts_walnuts_english",
+          "name": "Nuts, walnuts, english",
+          "tags": [
+            "抗炎"
+          ]
+        },
+        {
+          "id": "nuts_pecans",
+          "name": "Nuts, pecans",
+          "tags": [
+            "抗氧化"
+          ]
+        },
+        {
+          "id": "nuts_pecans_halves_raw",
+          "name": "Nuts, pecans, halves, raw",
+          "tags": [
+            "抗氧化"
+          ]
+        },
+        {
+          "id": "flaxseed_ground",
+          "name": "Flaxseed, ground",
+          "tags": [
+            "女性激素健康"
+          ]
+        },
+        {
+          "id": "seeds_flaxseed",
+          "name": "Seeds, flaxseed",
+          "tags": [
+            "女性激素健康"
+          ]
+        },
+        {
+          "id": "seeds_pumpkin_seeds_pepitas_raw",
+          "name": "Seeds, pumpkin seeds (pepitas), raw",
+          "tags": [
+            "女性激素健康"
+          ]
+        },
+        {
+          "id": "seeds_pumpkin_and_squash_seed_kernels_dried",
+          "name": "Seeds, pumpkin and squash seed kernels, dried",
+          "tags": [
+            "女性激素健康"
+          ]
+        },
+        {
+          "id": "seeds_sunflower_seed_kernels_dried",
+          "name": "Seeds, sunflower seed kernels, dried",
+          "tags": [
+            "女性激素健康"
+          ]
+        },
+        {
+          "id": "seeds_sunflower_seed_kernel_raw",
+          "name": "Seeds, sunflower seed, kernel, raw",
+          "tags": [
+            "女性激素健康"
+          ]
+        },
+        {
+          "id": "seeds_sesame_seeds_whole_dried",
+          "name": "Seeds, sesame seeds, whole, dried",
+          "tags": [
+            "女性激素健康"
+          ]
+        },
+        {
+          "id": "seeds_sesame_seed_kernels_dried_decorticated",
+          "name": "Seeds, sesame seed kernels, dried (decorticated)",
+          "tags": [
+            "女性激素健康"
+          ]
+        }
+      ]
+    },
+    "水果与果汁": {
+      "name": "水果与果汁",
+      "file": "水果与果汁.md",
+      "count": 15,
+      "foods": [
+        {
+          "id": "blueberries_raw",
+          "name": "Blueberries, raw",
+          "tags": [
+            "抗氧化"
+          ]
+        },
+        {
+          "id": "pomegranates_raw",
+          "name": "Pomegranates, raw",
+          "tags": [
+            "抗炎"
+          ]
+        },
+        {
+          "id": "pomegranate_juice_bottled",
+          "name": "Pomegranate juice, bottled",
+          "tags": [
+            "抗炎"
+          ]
+        },
+        {
+          "id": "cranberries_raw",
+          "name": "Cranberries, raw",
+          "tags": []
+        },
+        {
+          "id": "cranberries_dried_sweetened",
+          "name": "Cranberries, dried, sweetened",
+          "tags": []
+        },
+        {
+          "id": "blackberries_raw",
+          "name": "Blackberries, raw",
+          "tags": [
+            "抗氧化"
+          ]
+        },
+        {
+          "id": "raspberries_raw",
+          "name": "Raspberries, raw",
+          "tags": []
+        },
+        {
+          "id": "strawberries_raw",
+          "name": "Strawberries, raw",
+          "tags": []
+        },
+        {
+          "id": "cherries_sweet_raw",
+          "name": "Cherries, sweet, raw",
+          "tags": []
+        },
+        {
+          "id": "cherry_juice_tart",
+          "name": "Cherry juice, tart",
+          "tags": [
+            "抗氧化"
+          ]
+        },
+        {
+          "id": "plums_raw",
+          "name": "Plums, raw",
+          "tags": [
+            "抗氧化"
+          ]
+        },
+        {
+          "id": "carissa_natal-plum_raw",
+          "name": "Carissa, (natal-plum), raw",
+          "tags": [
+            "抗氧化"
+          ]
+        },
+        {
+          "id": "avocados_raw_california",
+          "name": "Avocados, raw, California",
+          "tags": [
+            "女性激素健康"
+          ]
+        },
+        {
+          "id": "bananas_dehydrated_or_banana_powder",
+          "name": "Bananas, dehydrated, or banana powder",
+          "tags": [
+            "肠脑轴"
+          ]
+        },
+        {
+          "id": "bananas_raw",
+          "name": "Bananas, raw",
+          "tags": [
+            "肠脑轴"
+          ]
+        }
+      ]
+    },
+    "油脂类": {
+      "name": "油脂类",
+      "file": "油脂类.md",
+      "count": 6,
+      "foods": [
+        {
+          "id": "oil_corn_peanut_and_olive",
+          "name": "Oil, corn, peanut, and olive",
+          "tags": [
+            "抗炎"
+          ]
+        },
+        {
+          "id": "oil_olive_extra_light",
+          "name": "Oil, olive, extra light",
+          "tags": [
+            "抗炎"
+          ]
+        },
+        {
+          "id": "fish_oil_salmon",
+          "name": "Fish oil, salmon",
+          "tags": [
+            "抗炎"
+          ]
+        },
+        {
+          "id": "oil_walnut",
+          "name": "Oil, walnut",
+          "tags": [
+            "抗炎"
+          ]
+        },
+        {
+          "id": "fish_oil_sardine",
+          "name": "Fish oil, sardine",
+          "tags": [
+            "抗炎"
+          ]
+        },
+        {
+          "id": "oil_avocado",
+          "name": "Oil, avocado",
+          "tags": [
+            "女性激素健康"
+          ]
+        }
+      ]
+    },
+    "烘焙食品": {
+      "name": "烘焙食品",
+      "file": "烘焙食品.md",
+      "count": 4,
+      "foods": [
+        {
+          "id": "croissants_apple",
+          "name": "Croissants, apple",
+          "tags": []
+        },
+        {
+          "id": "strudel_apple",
+          "name": "Strudel, apple",
+          "tags": []
+        },
+        {
+          "id": "bread_oatmeal",
+          "name": "Bread, oatmeal",
+          "tags": [
+            "肠脑轴"
+          ]
+        },
+        {
+          "id": "bread_oatmeal_toasted",
+          "name": "Bread, oatmeal, toasted",
+          "tags": [
+            "肠脑轴"
+          ]
+        }
+      ]
+    },
+    "牛肉制品": {
+      "name": "牛肉制品",
+      "file": "牛肉制品.md",
+      "count": 2,
+      "foods": [
+        {
+          "id": "beef_variety_meats_and_by-products_liver_raw",
+          "name": "Beef, variety meats and by-products, liver, raw",
+          "tags": [
+            "基础营养"
+          ]
+        },
+        {
+          "id": "beef_variety_meats_and_by-products_liver_cooked_braised",
+          "name": "Beef, variety meats and by-products, liver, cooked, braised",
+          "tags": [
+            "基础营养"
+          ]
+        }
+      ]
+    },
+    "甜食": {
+      "name": "甜食",
+      "file": "甜食.md",
+      "count": 3,
+      "foods": [
+        {
+          "id": "candies_special_dark_chocolate_bar",
+          "name": "Candies, SPECIAL DARK Chocolate Bar",
+          "tags": [
+            "抗炎"
+          ]
+        },
+        {
+          "id": "candies_dark_chocolate_coated_coffee_beans",
+          "name": "Candies, dark chocolate coated coffee beans",
+          "tags": [
+            "抗炎"
+          ]
+        },
+        {
+          "id": "frozen_yogurts_chocolate",
+          "name": "Frozen yogurts, chocolate",
+          "tags": [
+            "抗炎",
+            "肠脑轴"
+          ]
+        }
+      ]
+    },
+    "禽肉": {
+      "name": "禽肉",
+      "file": "禽肉.md",
+      "count": 2,
+      "foods": [
+        {
+          "id": "emu_oyster_raw",
+          "name": "Emu, oyster, raw",
+          "tags": [
+            "女性激素健康"
+          ]
+        },
+        {
+          "id": "chicken_breast_tenders_breaded_uncooked",
+          "name": "Chicken breast tenders, breaded, uncooked",
+          "tags": [
+            "基础营养"
+          ]
+        }
+      ]
+    },
+    "蔬菜与蔬菜制品": {
+      "name": "蔬菜与蔬菜制品",
+      "file": "蔬菜与蔬菜制品.md",
+      "count": 30,
+      "foods": [
+        {
+          "id": "ginger_root_raw",
+          "name": "Ginger root, raw",
+          "tags": [
+            "抗炎"
+          ]
+        },
+        {
+          "id": "kale_raw",
+          "name": "Kale, raw",
+          "tags": [
+            "抗炎"
+          ]
+        },
+        {
+          "id": "jerusalem-artichokes_raw",
+          "name": "Jerusalem-artichokes, raw",
+          "tags": [
+            "抗氧化"
+          ]
+        },
+        {
+          "id": "artichokes_globe_or_french_raw",
+          "name": "Artichokes, (globe or french), raw",
+          "tags": [
+            "抗氧化"
+          ]
+        },
+        {
+          "id": "beans_kidney_mature_seeds_sprouted_raw",
+          "name": "Beans, kidney, mature seeds, sprouted, raw",
+          "tags": []
+        },
+        {
+          "id": "broccoli_raw",
+          "name": "Broccoli, raw",
+          "tags": [
+            "女性激素健康"
+          ]
+        },
+        {
+          "id": "edamame_frozen_prepared",
+          "name": "Edamame, frozen, prepared",
+          "tags": [
+            "女性激素健康"
+          ]
+        },
+        {
+          "id": "mushroom_oyster",
+          "name": "Mushroom, oyster",
+          "tags": [
+            "女性激素健康",
+            "基础营养"
+          ]
+        },
+        {
+          "id": "seaweed_agar_dried",
+          "name": "Seaweed, agar, dried",
+          "tags": [
+            "女性激素健康"
+          ]
+        },
+        {
+          "id": "seaweed_agar_raw",
+          "name": "Seaweed, agar, raw",
+          "tags": [
+            "女性激素健康"
+          ]
+        },
+        {
+          "id": "cabbage_kimchi",
+          "name": "Cabbage, kimchi",
+          "tags": [
+            "肠脑轴"
+          ]
+        },
+        {
+          "id": "asparagus_raw",
+          "name": "Asparagus, raw",
+          "tags": [
+            "肠脑轴"
+          ]
+        },
+        {
+          "id": "asparagus_frozen_unprepared",
+          "name": "Asparagus, frozen, unprepared",
+          "tags": [
+            "肠脑轴"
+          ]
+        },
+        {
+          "id": "garlic_raw",
+          "name": "Garlic, raw",
+          "tags": [
+            "肠脑轴"
+          ]
+        },
+        {
+          "id": "onions_raw",
+          "name": "Onions, raw",
+          "tags": [
+            "肠脑轴"
+          ]
+        },
+        {
+          "id": "sauerkraut_canned_solids_and_liquids",
+          "name": "Sauerkraut, canned, solids and liquids",
+          "tags": [
+            "肠脑轴"
+          ]
+        },
+        {
+          "id": "leeks_bulb_and_lower_leaf-portion_raw",
+          "name": "Leeks, (bulb and lower leaf-portion), raw",
+          "tags": [
+            "肠脑轴"
+          ]
+        },
+        {
+          "id": "leeks_bulb_and_greens_root_removed_raw",
+          "name": "Leeks, bulb and greens, root removed, raw",
+          "tags": [
+            "肠脑轴"
+          ]
+        },
+        {
+          "id": "spinach_souffle",
+          "name": "Spinach souffle",
+          "tags": [
+            "基础营养"
+          ]
+        },
+        {
+          "id": "spinach_baby",
+          "name": "Spinach, baby",
+          "tags": [
+            "基础营养"
+          ]
+        },
+        {
+          "id": "carrot_dehydrated",
+          "name": "Carrot, dehydrated",
+          "tags": [
+            "基础营养"
+          ]
+        },
+        {
+          "id": "carrots_raw",
+          "name": "Carrots, raw",
+          "tags": [
+            "基础营养"
+          ]
+        },
+        {
+          "id": "sweet_potato_leaves_raw",
+          "name": "Sweet potato leaves, raw",
+          "tags": [
+            "基础营养"
+          ]
+        },
+        {
+          "id": "sweet_potato_canned_mashed",
+          "name": "Sweet potato, canned, mashed",
+          "tags": [
+            "基础营养"
+          ]
+        },
+        {
+          "id": "mushroom_beech",
+          "name": "Mushroom, beech",
+          "tags": [
+            "基础营养"
+          ]
+        },
+        {
+          "id": "mushroom_crimini",
+          "name": "Mushroom, crimini",
+          "tags": [
+            "基础营养"
+          ]
+        },
+        {
+          "id": "peppers_bell_green_raw",
+          "name": "Peppers, bell, green, raw",
+          "tags": []
+        },
+        {
+          "id": "peppers_bell_orange_raw",
+          "name": "Peppers, bell, orange, raw",
+          "tags": []
+        },
+        {
+          "id": "tomato_powder",
+          "name": "Tomato powder",
+          "tags": [
+            "基础营养"
+          ]
+        },
+        {
+          "id": "tomato_roma",
+          "name": "Tomato, roma",
+          "tags": [
+            "基础营养"
+          ]
+        }
+      ]
+    },
+    "谷物与面食": {
+      "name": "谷物与面食",
+      "file": "谷物与面食.md",
+      "count": 4,
+      "foods": [
+        {
+          "id": "flour_rice_brown",
+          "name": "Flour, rice, brown",
+          "tags": []
+        },
+        {
+          "id": "rice_flour_brown",
+          "name": "Rice flour, brown",
+          "tags": []
+        },
+        {
+          "id": "quinoa_cooked",
+          "name": "Quinoa, cooked",
+          "tags": [
+            "基础营养"
+          ]
+        },
+        {
+          "id": "quinoa_uncooked",
+          "name": "Quinoa, uncooked",
+          "tags": [
+            "基础营养"
+          ]
+        }
+      ]
+    },
+    "豆类与豆制品": {
+      "name": "豆类与豆制品",
+      "file": "豆类与豆制品.md",
+      "count": 6,
+      "foods": [
+        {
+          "id": "beans_liquid_from_stewed_kidney_beans",
+          "name": "Beans, liquid from stewed kidney beans",
+          "tags": []
+        },
+        {
+          "id": "tofu_yogurt",
+          "name": "Tofu yogurt",
+          "tags": [
+            "女性激素健康",
+            "肠脑轴"
+          ]
+        },
+        {
+          "id": "tofu_fried",
+          "name": "Tofu, fried",
+          "tags": [
+            "女性激素健康"
+          ]
+        },
+        {
+          "id": "miso",
+          "name": "Miso",
+          "tags": [
+            "肠脑轴"
+          ]
+        },
+        {
+          "id": "lentils_dry",
+          "name": "Lentils, dry",
+          "tags": [
+            "基础营养"
+          ]
+        },
+        {
+          "id": "lentils_raw",
+          "name": "Lentils, raw",
+          "tags": [
+            "基础营养"
+          ]
+        }
+      ]
+    },
+    "餐饮食品": {
+      "name": "餐饮食品",
+      "file": "餐饮食品.md",
+      "count": 1,
+      "foods": [
+        {
+          "id": "denny's_onion_rings",
+          "name": "DENNY'S, onion rings",
+          "tags": [
+            "肠脑轴"
+          ]
+        }
+      ]
+    },
+    "饮品": {
+      "name": "饮品",
+      "file": "饮品.md",
+      "count": 2,
+      "foods": [
+        {
+          "id": "beverages_tea_green_brewed_decaffeinated",
+          "name": "Beverages, tea, green, brewed, decaffeinated",
+          "tags": []
+        },
+        {
+          "id": "beverages_tea_green_brewed_regular",
+          "name": "Beverages, tea, green, brewed, regular",
+          "tags": []
+        }
+      ]
+    },
+    "香料与草本": {
+      "name": "香料与草本",
+      "file": "香料与草本.md",
+      "count": 2,
+      "foods": [
+        {
+          "id": "spices_turmeric_ground",
+          "name": "Spices, turmeric, ground",
+          "tags": [
+            "抗炎"
+          ]
+        },
+        {
+          "id": "spices_ginger_ground",
+          "name": "Spices, ginger, ground",
+          "tags": [
+            "抗炎"
+          ]
+        }
+      ]
+    },
+    "鱼类与海鲜": {
+      "name": "鱼类与海鲜",
+      "file": "鱼类与海鲜.md",
+      "count": 2,
+      "foods": [
+        {
+          "id": "fish_salmon_chinook_raw",
+          "name": "Fish, salmon, chinook, raw",
+          "tags": [
+            "抗炎"
+          ]
+        },
+        {
+          "id": "fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone",
+          "name": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+          "tags": [
+            "抗炎"
+          ]
+        }
+      ]
+    }
+  },
+  "all_foods": [
+    {
+      "id": "荠菜，生",
+      "name": "荠菜，生",
+      "category": "中式药食同源食材",
+      "tags": [],
+      "deep_analysis": true,
+      "health_benefits_count": 3,
+      "has_tcm": true
+    },
+    {
+      "id": "马齿苋，生",
+      "name": "马齿苋，生",
+      "category": "中式药食同源食材",
+      "tags": [],
+      "deep_analysis": true,
+      "health_benefits_count": 3,
+      "has_tcm": true
+    },
+    {
+      "id": "黑木耳，干",
+      "name": "黑木耳，干",
+      "category": "中式药食同源食材",
+      "tags": [],
+      "deep_analysis": true,
+      "health_benefits_count": 3,
+      "has_tcm": true
+    },
+    {
+      "id": "银耳（白木耳），干",
+      "name": "银耳（白木耳），干",
+      "category": "中式药食同源食材",
+      "tags": [],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": true
+    },
+    {
+      "id": "莲子，干",
+      "name": "莲子，干",
+      "category": "中式药食同源食材",
+      "tags": [],
+      "deep_analysis": true,
+      "health_benefits_count": 3,
+      "has_tcm": true
+    },
+    {
+      "id": "红枣（大枣），干",
+      "name": "红枣（大枣），干",
+      "category": "中式药食同源食材",
+      "tags": [],
+      "deep_analysis": true,
+      "health_benefits_count": 3,
+      "has_tcm": true
+    },
+    {
+      "id": "桂圆（龙眼肉），干",
+      "name": "桂圆（龙眼肉），干",
+      "category": "中式药食同源食材",
+      "tags": [],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": true
+    },
+    {
+      "id": "薏苡仁（薏米）",
+      "name": "薏苡仁（薏米）",
+      "category": "中式药食同源食材",
+      "tags": [],
+      "deep_analysis": true,
+      "health_benefits_count": 3,
+      "has_tcm": true
+    },
+    {
+      "id": "山楂，干",
+      "name": "山楂，干",
+      "category": "中式药食同源食材",
+      "tags": [],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": true
+    },
+    {
+      "id": "紫菜，干",
+      "name": "紫菜，干",
+      "category": "中式药食同源食材",
+      "tags": [],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": true
+    },
+    {
+      "id": "白果（银杏），煮熟",
+      "name": "白果（银杏），煮熟",
+      "category": "中式药食同源食材",
+      "tags": [],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": true
+    },
+    {
+      "id": "陈皮，干",
+      "name": "陈皮，干",
+      "category": "中式药食同源食材",
+      "tags": [],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": true
+    },
+    {
+      "id": "黑芝麻，生",
+      "name": "黑芝麻，生",
+      "category": "中式药食同源食材",
+      "tags": [],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": true
+    },
+    {
+      "id": "绿豆芽",
+      "name": "绿豆芽",
+      "category": "中式药食同源食材",
+      "tags": [],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": true
+    },
+    {
+      "id": "kefir_lowfat_plain_lifeway",
+      "name": "Kefir, lowfat, plain, LIFEWAY",
+      "category": "乳制品与蛋类",
+      "tags": [
+        "肠脑轴"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 2,
+      "has_tcm": false
+    },
+    {
+      "id": "kefir_lowfat_strawberry_lifeway",
+      "name": "Kefir, lowfat, strawberry, LIFEWAY",
+      "category": "乳制品与蛋类",
+      "tags": [
+        "抗氧化",
+        "肠脑轴"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 3,
+      "has_tcm": false
+    },
+    {
+      "id": "lunchmeat_chicken_breast_sliced",
+      "name": "Lunchmeat, chicken breast, sliced",
+      "category": "加工肉制品",
+      "tags": [
+        "基础营养"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": false
+    },
+    {
+      "id": "nuts_walnuts_english",
+      "name": "Nuts, walnuts, english",
+      "category": "坚果与种子",
+      "tags": [
+        "抗炎"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 4,
+      "has_tcm": false
+    },
+    {
+      "id": "nuts_pecans",
+      "name": "Nuts, pecans",
+      "category": "坚果与种子",
+      "tags": [
+        "抗氧化"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 4,
+      "has_tcm": false
+    },
+    {
+      "id": "nuts_pecans_halves_raw",
+      "name": "Nuts, pecans, halves, raw",
+      "category": "坚果与种子",
+      "tags": [
+        "抗氧化"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 3,
+      "has_tcm": false
+    },
+    {
+      "id": "flaxseed_ground",
+      "name": "Flaxseed, ground",
+      "category": "坚果与种子",
+      "tags": [
+        "女性激素健康"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 4,
+      "has_tcm": false
+    },
+    {
+      "id": "seeds_flaxseed",
+      "name": "Seeds, flaxseed",
+      "category": "坚果与种子",
+      "tags": [
+        "女性激素健康"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 4,
+      "has_tcm": false
+    },
+    {
+      "id": "seeds_pumpkin_seeds_pepitas_raw",
+      "name": "Seeds, pumpkin seeds (pepitas), raw",
+      "category": "坚果与种子",
+      "tags": [
+        "女性激素健康"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 5,
+      "has_tcm": false
+    },
+    {
+      "id": "seeds_pumpkin_and_squash_seed_kernels_dried",
+      "name": "Seeds, pumpkin and squash seed kernels, dried",
+      "category": "坚果与种子",
+      "tags": [
+        "女性激素健康"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 5,
+      "has_tcm": false
+    },
+    {
+      "id": "seeds_sunflower_seed_kernels_dried",
+      "name": "Seeds, sunflower seed kernels, dried",
+      "category": "坚果与种子",
+      "tags": [
+        "女性激素健康"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 5,
+      "has_tcm": false
+    },
+    {
+      "id": "seeds_sunflower_seed_kernel_raw",
+      "name": "Seeds, sunflower seed, kernel, raw",
+      "category": "坚果与种子",
+      "tags": [
+        "女性激素健康"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 6,
+      "has_tcm": false
+    },
+    {
+      "id": "seeds_sesame_seeds_whole_dried",
+      "name": "Seeds, sesame seeds, whole, dried",
+      "category": "坚果与种子",
+      "tags": [
+        "女性激素健康"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 5,
+      "has_tcm": false
+    },
+    {
+      "id": "seeds_sesame_seed_kernels_dried_decorticated",
+      "name": "Seeds, sesame seed kernels, dried (decorticated)",
+      "category": "坚果与种子",
+      "tags": [
+        "女性激素健康"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 4,
+      "has_tcm": false
+    },
+    {
+      "id": "blueberries_raw",
+      "name": "Blueberries, raw",
+      "category": "水果与果汁",
+      "tags": [
+        "抗氧化"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 4,
+      "has_tcm": false
+    },
+    {
+      "id": "pomegranates_raw",
+      "name": "Pomegranates, raw",
+      "category": "水果与果汁",
+      "tags": [
+        "抗炎"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": false
+    },
+    {
+      "id": "pomegranate_juice_bottled",
+      "name": "Pomegranate juice, bottled",
+      "category": "水果与果汁",
+      "tags": [
+        "抗炎"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": false
+    },
+    {
+      "id": "cranberries_raw",
+      "name": "Cranberries, raw",
+      "category": "水果与果汁",
+      "tags": [],
+      "deep_analysis": false,
+      "health_benefits_count": 0,
+      "has_tcm": false
+    },
+    {
+      "id": "cranberries_dried_sweetened",
+      "name": "Cranberries, dried, sweetened",
+      "category": "水果与果汁",
+      "tags": [],
+      "deep_analysis": false,
+      "health_benefits_count": 0,
+      "has_tcm": false
+    },
+    {
+      "id": "blackberries_raw",
+      "name": "Blackberries, raw",
+      "category": "水果与果汁",
+      "tags": [
+        "抗氧化"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 2,
+      "has_tcm": false
+    },
+    {
+      "id": "raspberries_raw",
+      "name": "Raspberries, raw",
+      "category": "水果与果汁",
+      "tags": [],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": false
+    },
+    {
+      "id": "strawberries_raw",
+      "name": "Strawberries, raw",
+      "category": "水果与果汁",
+      "tags": [],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": false
+    },
+    {
+      "id": "cherries_sweet_raw",
+      "name": "Cherries, sweet, raw",
+      "category": "水果与果汁",
+      "tags": [],
+      "deep_analysis": false,
+      "health_benefits_count": 0,
+      "has_tcm": false
+    },
+    {
+      "id": "cherry_juice_tart",
+      "name": "Cherry juice, tart",
+      "category": "水果与果汁",
+      "tags": [
+        "抗氧化"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": false
+    },
+    {
+      "id": "plums_raw",
+      "name": "Plums, raw",
+      "category": "水果与果汁",
+      "tags": [
+        "抗氧化"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": false
+    },
+    {
+      "id": "carissa_natal-plum_raw",
+      "name": "Carissa, (natal-plum), raw",
+      "category": "水果与果汁",
+      "tags": [
+        "抗氧化"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 2,
+      "has_tcm": false
+    },
+    {
+      "id": "avocados_raw_california",
+      "name": "Avocados, raw, California",
+      "category": "水果与果汁",
+      "tags": [
+        "女性激素健康"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 3,
+      "has_tcm": false
+    },
+    {
+      "id": "bananas_dehydrated_or_banana_powder",
+      "name": "Bananas, dehydrated, or banana powder",
+      "category": "水果与果汁",
+      "tags": [
+        "肠脑轴"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 4,
+      "has_tcm": false
+    },
+    {
+      "id": "bananas_raw",
+      "name": "Bananas, raw",
+      "category": "水果与果汁",
+      "tags": [
+        "肠脑轴"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": false
+    },
+    {
+      "id": "oil_corn_peanut_and_olive",
+      "name": "Oil, corn, peanut, and olive",
+      "category": "油脂类",
+      "tags": [
+        "抗炎"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 3,
+      "has_tcm": false
+    },
+    {
+      "id": "oil_olive_extra_light",
+      "name": "Oil, olive, extra light",
+      "category": "油脂类",
+      "tags": [
+        "抗炎"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 3,
+      "has_tcm": false
+    },
+    {
+      "id": "fish_oil_salmon",
+      "name": "Fish oil, salmon",
+      "category": "油脂类",
+      "tags": [
+        "抗炎"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 4,
+      "has_tcm": false
+    },
+    {
+      "id": "oil_walnut",
+      "name": "Oil, walnut",
+      "category": "油脂类",
+      "tags": [
+        "抗炎"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 2,
+      "has_tcm": false
+    },
+    {
+      "id": "fish_oil_sardine",
+      "name": "Fish oil, sardine",
+      "category": "油脂类",
+      "tags": [
+        "抗炎"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 2,
+      "has_tcm": false
+    },
+    {
+      "id": "oil_avocado",
+      "name": "Oil, avocado",
+      "category": "油脂类",
+      "tags": [
+        "女性激素健康"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 2,
+      "has_tcm": false
+    },
+    {
+      "id": "croissants_apple",
+      "name": "Croissants, apple",
+      "category": "烘焙食品",
+      "tags": [],
+      "deep_analysis": false,
+      "health_benefits_count": 0,
+      "has_tcm": false
+    },
+    {
+      "id": "strudel_apple",
+      "name": "Strudel, apple",
+      "category": "烘焙食品",
+      "tags": [],
+      "deep_analysis": false,
+      "health_benefits_count": 0,
+      "has_tcm": false
+    },
+    {
+      "id": "bread_oatmeal",
+      "name": "Bread, oatmeal",
+      "category": "烘焙食品",
+      "tags": [
+        "肠脑轴"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": false
+    },
+    {
+      "id": "bread_oatmeal_toasted",
+      "name": "Bread, oatmeal, toasted",
+      "category": "烘焙食品",
+      "tags": [
+        "肠脑轴"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": false
+    },
+    {
+      "id": "beef_variety_meats_and_by-products_liver_raw",
+      "name": "Beef, variety meats and by-products, liver, raw",
+      "category": "牛肉制品",
+      "tags": [
+        "基础营养"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 2,
+      "has_tcm": false
+    },
+    {
+      "id": "beef_variety_meats_and_by-products_liver_cooked_braised",
+      "name": "Beef, variety meats and by-products, liver, cooked, braised",
+      "category": "牛肉制品",
+      "tags": [
+        "基础营养"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 2,
+      "has_tcm": false
+    },
+    {
+      "id": "candies_special_dark_chocolate_bar",
+      "name": "Candies, SPECIAL DARK Chocolate Bar",
+      "category": "甜食",
+      "tags": [
+        "抗炎"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 3,
+      "has_tcm": false
+    },
+    {
+      "id": "candies_dark_chocolate_coated_coffee_beans",
+      "name": "Candies, dark chocolate coated coffee beans",
+      "category": "甜食",
+      "tags": [
+        "抗炎"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 3,
+      "has_tcm": false
+    },
+    {
+      "id": "frozen_yogurts_chocolate",
+      "name": "Frozen yogurts, chocolate",
+      "category": "甜食",
+      "tags": [
+        "抗炎",
+        "肠脑轴"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 2,
+      "has_tcm": false
+    },
+    {
+      "id": "emu_oyster_raw",
+      "name": "Emu, oyster, raw",
+      "category": "禽肉",
+      "tags": [
+        "女性激素健康"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 2,
+      "has_tcm": false
+    },
+    {
+      "id": "chicken_breast_tenders_breaded_uncooked",
+      "name": "Chicken breast tenders, breaded, uncooked",
+      "category": "禽肉",
+      "tags": [
+        "基础营养"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": false
+    },
+    {
+      "id": "ginger_root_raw",
+      "name": "Ginger root, raw",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "抗炎"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 4,
+      "has_tcm": false
+    },
+    {
+      "id": "kale_raw",
+      "name": "Kale, raw",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "抗炎"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 3,
+      "has_tcm": false
+    },
+    {
+      "id": "jerusalem-artichokes_raw",
+      "name": "Jerusalem-artichokes, raw",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "抗氧化"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 2,
+      "has_tcm": false
+    },
+    {
+      "id": "artichokes_globe_or_french_raw",
+      "name": "Artichokes, (globe or french), raw",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "抗氧化"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 3,
+      "has_tcm": false
+    },
+    {
+      "id": "beans_kidney_mature_seeds_sprouted_raw",
+      "name": "Beans, kidney, mature seeds, sprouted, raw",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": false
+    },
+    {
+      "id": "broccoli_raw",
+      "name": "Broccoli, raw",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "女性激素健康"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 4,
+      "has_tcm": false
+    },
+    {
+      "id": "edamame_frozen_prepared",
+      "name": "Edamame, frozen, prepared",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "女性激素健康"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 4,
+      "has_tcm": false
+    },
+    {
+      "id": "mushroom_oyster",
+      "name": "Mushroom, oyster",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "女性激素健康",
+        "基础营养"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 2,
+      "has_tcm": false
+    },
+    {
+      "id": "seaweed_agar_dried",
+      "name": "Seaweed, agar, dried",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "女性激素健康"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 6,
+      "has_tcm": false
+    },
+    {
+      "id": "seaweed_agar_raw",
+      "name": "Seaweed, agar, raw",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "女性激素健康"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 2,
+      "has_tcm": false
+    },
+    {
+      "id": "cabbage_kimchi",
+      "name": "Cabbage, kimchi",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "肠脑轴"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 3,
+      "has_tcm": false
+    },
+    {
+      "id": "asparagus_raw",
+      "name": "Asparagus, raw",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "肠脑轴"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": false
+    },
+    {
+      "id": "asparagus_frozen_unprepared",
+      "name": "Asparagus, frozen, unprepared",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "肠脑轴"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 2,
+      "has_tcm": false
+    },
+    {
+      "id": "garlic_raw",
+      "name": "Garlic, raw",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "肠脑轴"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 3,
+      "has_tcm": false
+    },
+    {
+      "id": "onions_raw",
+      "name": "Onions, raw",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "肠脑轴"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": false
+    },
+    {
+      "id": "sauerkraut_canned_solids_and_liquids",
+      "name": "Sauerkraut, canned, solids and liquids",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "肠脑轴"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": false
+    },
+    {
+      "id": "leeks_bulb_and_lower_leaf-portion_raw",
+      "name": "Leeks, (bulb and lower leaf-portion), raw",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "肠脑轴"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": false
+    },
+    {
+      "id": "leeks_bulb_and_greens_root_removed_raw",
+      "name": "Leeks, bulb and greens, root removed, raw",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "肠脑轴"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": false
+    },
+    {
+      "id": "spinach_souffle",
+      "name": "Spinach souffle",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "基础营养"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 2,
+      "has_tcm": false
+    },
+    {
+      "id": "spinach_baby",
+      "name": "Spinach, baby",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "基础营养"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 3,
+      "has_tcm": false
+    },
+    {
+      "id": "carrot_dehydrated",
+      "name": "Carrot, dehydrated",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "基础营养"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 6,
+      "has_tcm": false
+    },
+    {
+      "id": "carrots_raw",
+      "name": "Carrots, raw",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "基础营养"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": false
+    },
+    {
+      "id": "sweet_potato_leaves_raw",
+      "name": "Sweet potato leaves, raw",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "基础营养"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 4,
+      "has_tcm": false
+    },
+    {
+      "id": "sweet_potato_canned_mashed",
+      "name": "Sweet potato, canned, mashed",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "基础营养"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": false
+    },
+    {
+      "id": "mushroom_beech",
+      "name": "Mushroom, beech",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "基础营养"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": false
+    },
+    {
+      "id": "mushroom_crimini",
+      "name": "Mushroom, crimini",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "基础营养"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": false
+    },
+    {
+      "id": "peppers_bell_green_raw",
+      "name": "Peppers, bell, green, raw",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": false
+    },
+    {
+      "id": "peppers_bell_orange_raw",
+      "name": "Peppers, bell, orange, raw",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": false
+    },
+    {
+      "id": "tomato_powder",
+      "name": "Tomato powder",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "基础营养"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 7,
+      "has_tcm": false
+    },
+    {
+      "id": "tomato_roma",
+      "name": "Tomato, roma",
+      "category": "蔬菜与蔬菜制品",
+      "tags": [
+        "基础营养"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": false
+    },
+    {
+      "id": "flour_rice_brown",
+      "name": "Flour, rice, brown",
+      "category": "谷物与面食",
+      "tags": [],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": false
+    },
+    {
+      "id": "rice_flour_brown",
+      "name": "Rice flour, brown",
+      "category": "谷物与面食",
+      "tags": [],
+      "deep_analysis": false,
+      "health_benefits_count": 1,
+      "has_tcm": false
+    },
+    {
+      "id": "quinoa_cooked",
+      "name": "Quinoa, cooked",
+      "category": "谷物与面食",
+      "tags": [
+        "基础营养"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 2,
+      "has_tcm": false
+    },
+    {
+      "id": "quinoa_uncooked",
+      "name": "Quinoa, uncooked",
+      "category": "谷物与面食",
+      "tags": [
+        "基础营养"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 5,
+      "has_tcm": false
+    },
+    {
+      "id": "beans_liquid_from_stewed_kidney_beans",
+      "name": "Beans, liquid from stewed kidney beans",
+      "category": "豆类与豆制品",
+      "tags": [],
+      "deep_analysis": false,
+      "health_benefits_count": 0,
+      "has_tcm": false
+    },
+    {
+      "id": "tofu_yogurt",
+      "name": "Tofu yogurt",
+      "category": "豆类与豆制品",
+      "tags": [
+        "女性激素健康",
+        "肠脑轴"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 4,
+      "has_tcm": false
+    },
+    {
+      "id": "tofu_fried",
+      "name": "Tofu, fried",
+      "category": "豆类与豆制品",
+      "tags": [
+        "女性激素健康"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 4,
+      "has_tcm": false
+    },
+    {
+      "id": "miso",
+      "name": "Miso",
+      "category": "豆类与豆制品",
+      "tags": [
+        "肠脑轴"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 2,
+      "has_tcm": false
+    },
+    {
+      "id": "lentils_dry",
+      "name": "Lentils, dry",
+      "category": "豆类与豆制品",
+      "tags": [
+        "基础营养"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 4,
+      "has_tcm": false
+    },
+    {
+      "id": "lentils_raw",
+      "name": "Lentils, raw",
+      "category": "豆类与豆制品",
+      "tags": [
+        "基础营养"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 4,
+      "has_tcm": false
+    },
+    {
+      "id": "denny's_onion_rings",
+      "name": "DENNY'S, onion rings",
+      "category": "餐饮食品",
+      "tags": [
+        "肠脑轴"
+      ],
+      "deep_analysis": false,
+      "health_benefits_count": 2,
+      "has_tcm": false
+    },
+    {
+      "id": "beverages_tea_green_brewed_decaffeinated",
+      "name": "Beverages, tea, green, brewed, decaffeinated",
+      "category": "饮品",
+      "tags": [],
+      "deep_analysis": true,
+      "health_benefits_count": 3,
+      "has_tcm": false
+    },
+    {
+      "id": "beverages_tea_green_brewed_regular",
+      "name": "Beverages, tea, green, brewed, regular",
+      "category": "饮品",
+      "tags": [],
+      "deep_analysis": true,
+      "health_benefits_count": 3,
+      "has_tcm": false
+    },
+    {
+      "id": "spices_turmeric_ground",
+      "name": "Spices, turmeric, ground",
+      "category": "香料与草本",
+      "tags": [
+        "抗炎"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 4,
+      "has_tcm": false
+    },
+    {
+      "id": "spices_ginger_ground",
+      "name": "Spices, ginger, ground",
+      "category": "香料与草本",
+      "tags": [
+        "抗炎"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 4,
+      "has_tcm": false
+    },
+    {
+      "id": "fish_salmon_chinook_raw",
+      "name": "Fish, salmon, chinook, raw",
+      "category": "鱼类与海鲜",
+      "tags": [
+        "抗炎"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 4,
+      "has_tcm": false
+    },
+    {
+      "id": "fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone",
+      "name": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+      "category": "鱼类与海鲜",
+      "tags": [
+        "抗炎"
+      ],
+      "deep_analysis": true,
+      "health_benefits_count": 3,
+      "has_tcm": false
+    }
+  ]
+}

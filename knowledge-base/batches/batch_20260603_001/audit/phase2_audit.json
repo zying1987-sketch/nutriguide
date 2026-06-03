@@ -1,0 +1,32 @@
+{
+  "batch_id": "batch_20260603_001",
+  "phase": "phase2_structured",
+  "timestamp": "2026-06-03T14:46:56.471191",
+  "summary": {
+    "total_raw": 1431,
+    "junk_removed": 2,
+    "duplicates_removed": 11,
+    "final_entries": 1418,
+    "evidence_distribution": {
+      "A": 1,
+      "B": 15,
+      "C": 1381,
+      "D": 21
+    },
+    "category_distribution": {
+      "clinical": 817,
+      "diet_principle": 54,
+      "nutrient": 471,
+      "supplement": 13,
+      "food": 57,
+      "population": 6
+    }
+  },
+  "quality_notes": [
+    "Evidence A: 1 entries - high confidence research-backed claims",
+    "Evidence C: 1381 entries - textbook/guideline level, suitable for general advice",
+    "Evidence D: 21 entries - opinion/anecdotal, flag for review",
+    "Filtered {junk_count} junk chunks (copyright, cover pages, boilerplate)",
+    "Removed {len(filtered) - len(deduped)} near-duplicate entries"
+  ]
+}

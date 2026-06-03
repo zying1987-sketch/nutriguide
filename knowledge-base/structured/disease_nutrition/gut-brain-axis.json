@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "title": "肠脑轴营养干预指南",
+    "source": "生物通、家庭医学在线、百度健康、哈佛大学研究",
+    "year": 2025,
+    "category": "disease_nutrition",
+    "subcategory": "mental_health",
+    "evidence_level": "B",
+    "batch_id": "batch_20260603_001",
+    "extracted_at": "2026-06-03"
+  },
+  "overview": "肠脑轴（Gut-Brain Axis）是肠道与大脑之间的双向调节系统，通过迷走神经、肠道激素、免疫系统和肠道菌群代谢产物（如血清素、短链脂肪酸）影响大脑功能、情绪和认知。约90%的血清素在肠道合成。",
+  "gut_brain_mechanism": [
+    {
+      "pathway": "神经通路",
+      "description": "迷走神经直接连接肠道和脑干，肠道信号可在毫秒级传递到大脑"
+    },
+    {
+      "pathway": "激素通路",
+      "description": "肠道激素（如瘦素、饥饿素）影响食欲中枢和情绪调节"
+    },
+    {
+      "pathway": "免疫炎症通路",
+      "description": "肠道菌群失调→肠漏→炎症因子入血→穿过血脑屏障→神经炎症"
+    },
+    {
+      "pathway": "代谢产物通路",
+      "description": "肠道菌群发酵膳食纤维产生短链脂肪酸（SCFA），可穿过血脑屏障，具有神经保护作用"
+    }
+  ],
+  "nutrition_interventions": [
+    {
+      "id": "gba_01",
+      "intervention": "增加膳食纤维摄入",
+      "mechanism": "膳食纤维被菌群发酵产生短链脂肪酸（乙酸、丙酸、丁酸），丁酸是结肠细胞主要能量来源，具有抗炎和神经保护效应",
+      "recommendation": "每天摄入25-30g膳食纤维",
+      "food_sources": [
+        "全谷物（燕麦、糙米、藜麦）",
+        "豆类（黑豆、鹰嘴豆、扁豆）",
+        "蔬菜（洋蓟、芦笋、洋葱、大蒜）",
+        "水果（苹果带皮、梨带皮、莓果）"
+      ],
+      "tags": [
+        "fiber",
+        "intermittent_fasting"
+      ]
+    },
+    {
+      "id": "gba_02",
+      "intervention": "摄入益生菌/发酵食品",
+      "mechanism": "益生菌可调节菌群组成，减少致病菌30-50%，降低肠漏风险，减少炎症因子进入大脑",
+      "recommendation": "每周3-5次发酵食品，或每日益生菌补充剂（10-100亿CFU）",
+      "food_sources": [
+        "无糖酸奶",
+        "开菲尔（Kefir）",
+        "泡菜/酸菜（自然发酵，非醋泡）",
+        "纳豆",
+        "康普茶"
+      ],
+      "note": "益生菌菌株特异性强，不同菌株效果不同；优先通过食物摄入",
+      "tags": [
+        "probiotics",
+        "fermented_food"
+      ]
+    },
+    {
+      "id": "gba_03",
+      "intervention": "增加Omega-3脂肪酸",
+      "mechanism": "Omega-3（EPA/DHA）具有强抗炎作用，可降低神经炎症，促进脑源性神经营养因子（BDNF）表达",
+      "recommendation": "每周至少2次多脂鱼，或每日补充EPA+DHA 250-2000mg",
+      "food_sources": [
+        "三文鱼",
+        "鲭鱼",
+        "沙丁鱼",
+        "核桃",
+        "亚麻籽（磨碎）",
+        "奇亚籽"
+      ],
+      "tags": [
+        "omega_3",
+        "anxiety_depression"
+      ]
+    },
+    {
+      "id": "gba_04",
+      "intervention": "减少精制糖和加工食品",
+      "mechanism": "高糖饮食促进有害菌过度生长，增加肠道通透性和系统性炎症，通过肠脑轴加重焦虑和抑郁症状",
+      "recommendation": "添加糖每天≤25g，避免高果糖玉米糖浆",
+      "foods_to_avoid": [
+        "含糖饮料",
+        "甜点",
+        "精制白面粉制品",
+        "加工零食"
+      ],
+      "tags": [
+        "sugar_limit",
+        "processed_foods"
+      ]
+    },
+    {
+      "id": "gba_05",
+      "intervention": "饮食顺序调整（哈佛研究）",
+      "mechanism": "先吃膳食纤维/蛋白质/脂肪，最后吃精制碳水，可平抑餐后血糖峰值，减少血糖波动引起的情绪不稳和认知波动",
+      "recommendation": "每餐按「蔬菜→蛋白质→主食」顺序进食",
+      "evidence": "哈佛研究发现饮食顺序调整可缓解约60%的焦虑症状",
+      "tags": [
+        "eating_behavior",
+        "blood_sugar"
+      ]
+    }
+  ],
+  "diet_patterns_for_mental_health": [
+    {
+      "name": "地中海饮食",
+      "effect": "多项研究显示可降低抑郁风险30-50%，延缓认知衰退",
+      "key_components": [
+        "大量蔬菜水果",
+        "全谷物",
+        "橄榄油",
+        "适量鱼类",
+        "发酵乳制品",
+        "少量红酒（可选）"
+      ]
+    },
+    {
+      "name": "传统中国膳食模式",
+      "effect": "以全谷物、豆类、大量蔬菜、适量鱼类为特征，天然高纤维、低加工，对肠脑轴友好",
+      "key_components": [
+        "糙米/杂粮饭",
+        "豆腐/豆浆",
+        "多样蔬菜（每天≥300g）",
+        "少量瘦肉/鱼",
+        "发酵食品（泡菜、豆豉）"
+      ]
+    }
+  ],
+  "practical_tips": [
+    "餐餐有蔬菜（每天≥300g），深色蔬菜占一半",
+    "每周吃2次多脂鱼（三文鱼、鲭鱼）",
+    "每天一小把坚果（核桃最佳，富含Omega-3）",
+    "尝试自然发酵食品（无糖酸奶、泡菜、纳豆）",
+    "减少外卖（通常高油盐糖，破坏菌群）",
+    "充足睡眠（7-9小时）对肠脑轴修复至关重要",
+    "管理压力（长期压力改变菌群组成，增加有害菌）"
+  ],
+  "tags": [
+    "mental_health",
+    "gut_brain_axis",
+    "anxiety_depression",
+    "microbiome"
+  ]
+}

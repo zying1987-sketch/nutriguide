@@ -1,0 +1,50 @@
+{
+  "id": "candies_dark_chocolate_coated_coffee_beans",
+  "name": "Candies, dark chocolate coated coffee beans",
+  "category": "甜食",
+  "tags": [
+    "抗炎"
+  ],
+  "deep_analysis": true,
+  "nutrients": {
+    "能量": {
+      "value": 2259.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [
+    {
+      "name": "膳食纤维**",
+      "content_text": "含量：7.5g/100g",
+      "mechanism": "作用机制：促进肠蠕动,调节菌群"
+    },
+    {
+      "name": "镁**",
+      "content_text": "含量：107mg/100g",
+      "mechanism": "作用机制：300+酶促反应辅因子"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "🟢 A级** — **肠道健康**：高纤维(7.5g/100g)促进排便和菌群平衡",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **神经肌肉**：每100g含镁107mg",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **抗炎**：富含抗炎活性成分",
+      "evidence_level": "B",
+      "description": ""
+    }
+  ],
+  "daily_intake": "少量,偶尔享用",
+  "cooking_tips": [],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

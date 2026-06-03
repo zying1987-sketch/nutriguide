@@ -1,0 +1,1369 @@
+[
+  {
+    "id": "kb_food_0068",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "often measure them in grams, units of weight",
+    "content": "often measure them in grams, units of weight",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 34
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418891",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0069",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "Food scientists measure food energy in kilocalories, units of heat",
+    "content": "Food scientists measure food energy in kilocalories, units of heat",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 35
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418946",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0070",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "This book uses the common word calories to mean the same thing",
+    "content": "This book uses the common word calories to mean the same thing",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 35
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418948",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0071",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "nutrients is fat, which contains 9 calories in each gram",
+    "content": "nutrients is fat, which contains 9 calories in each gram",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 35
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418949",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0072",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "each contain only 4 calories in a gram",
+    "content": "each contain only 4 calories in a gram",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 35
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418951",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0073",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "▪▪Food energy is measured in calories; nutrient quantities are often measured in",
+    "content": "▪▪Food energy is measured in calories; nutrient quantities are often measured in grams",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 35
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418952",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0074",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "a kilocalorie (also called kcalorie or Calorie): it",
+    "content": "a kilocalorie (also called kcalorie or Calorie): it",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 35
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418954",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0075",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "the temperature of a kilogram (a liter) of water",
+    "content": "the temperature of a kilogram (a liter) of water",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 35
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418956",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0076",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "practice of using the lowercase term calorie",
+    "content": "practice of using the lowercase term calorie",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 35
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418957",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0077",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "food choices could easily result in a low-nutrient, high-calorie eating pattern",
+    "content": "food choices could easily result in a low-nutrient, high-calorie eating pattern with a",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 39
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418959",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0082",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "To help people control calories and achieve and sustain a healthy body weight, t",
+    "content": "To help people control calories and achieve and sustain a healthy body weight, the",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 70
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418970",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0083",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "pure, calorie-rich fat and is therefore low in nutrient den-",
+    "content": "pure, calorie-rich fat and is therefore low in nutrient den-",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 70
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418971",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0084",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "calories to foods, reducing their nutrient density",
+    "content": "calories to foods, reducing their nutrient density",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 70
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418973",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0085",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "Alcoholic beverages are a top contributor of empty calories to the diets of many",
+    "content": "Alcoholic beverages are a top contributor of empty calories to the diets of many",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 70
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418974",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0086",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "empty calories  calories provided by added",
+    "content": "empty calories  calories provided by added",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 70
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418976",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0087",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "Other empty calorie sources include",
+    "content": "Other empty calorie sources include",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 70
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418977",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0088",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "peaches adds 135 empty calories of added",
+    "content": "peaches adds 135 empty calories of added",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 70
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418979",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0089",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "crucial to controlling calorie intakes, but",
+    "content": "crucial to controlling calorie intakes, but",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 75
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418981",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0091",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "provides the calorie and nutrient amounts listed",
+    "content": "provides the calorie and nutrient amounts listed",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 79
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418984",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0092",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "10 chips, so if you eat 50 chips, you will have consumed five times the calorie",
+    "content": "10 chips, so if you eat 50 chips, you will have consumed five times the calorie and",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 79
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418985",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0093",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "Grams of fat per serving with a breakdown showing grams of",
+    "content": "Grams of fat per serving with a breakdown showing grams of",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 79
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418987",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0094",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "Milligrams of cholesterol per serving",
+    "content": "Milligrams of cholesterol per serving",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 79
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418989",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0095",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "Milligrams of sodium per serving",
+    "content": "Milligrams of sodium per serving",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 79
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418990",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0096",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "depending on your calorie needs",
+    "content": "depending on your calorie needs",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 79
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418992",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0097",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "Grams of carbohydrate per serving,",
+    "content": "Grams of carbohydrate per serving,",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 80
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418993",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0098",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "showing grams of dietary fiber and sugars",
+    "content": "showing grams of dietary fiber and sugars",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 80
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418995",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0099",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "Daily Values and calories-per-gram reminder",
+    "content": "Daily Values and calories-per-gram reminder",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 80
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418997",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0100",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "2,500 calories a day and provides a calories-per-gram",
+    "content": "2,500 calories a day and provides a calories-per-gram",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 80
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.418999",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0101",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "the number of calories in a single serving",
+    "content": "the number of calories in a single serving",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 80
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.419000",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0102",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "juice, though, so the label does specify sugar grams; details are in Chapter 4",
+    "content": "juice, though, so the label does specify sugar grams; details are in Chapter 4",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 80
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.419002",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0103",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "on the Daily Values set for a 2,000-calorie diet",
+    "content": "on the Daily Values set for a 2,000-calorie diet",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 80
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.419003",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0104",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "4 milligrams of iron per serving and the Daily Value is 18 milligrams, then a se",
+    "content": "4 milligrams of iron per serving and the Daily Value is 18 milligrams, then a serving",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 80
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.419005",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0105",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "▪low calorie 40 calories or fewer per serving",
+    "content": "▪low calorie 40 calories or fewer per serving",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 82
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.419007",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0106",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "▪reduced calorie at least 25% lower in calories than a “regular,” or reference,",
+    "content": "▪reduced calorie at least 25% lower in calories than a “regular,” or reference, food",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 82
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.419009",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0107",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "▪calorie free fewer than 5 calories per serving",
+    "content": "▪calorie free fewer than 5 calories per serving",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 82
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.419011",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0108",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "less than 95 mg of cholesterol per serving",
+    "content": "less than 95 mg of cholesterol per serving",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 82
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.419012",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0109",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "▪low sodium 140 mg or less of sodium per serving",
+    "content": "▪low sodium 140 mg or less of sodium per serving",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 82
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.419014",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0110",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "▪sodium free less than 5 mg per serving",
+    "content": "▪sodium free less than 5 mg per serving",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 82
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.419016",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0111",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "▪very low sodium 35 mg or less of sodium per serving",
+    "content": "▪very low sodium 35 mg or less of sodium per serving",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 82
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.419017",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0112",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "▪less, fewer, reduced containing at least 25% less of a nutrient or calories tha",
+    "content": "▪less, fewer, reduced containing at least 25% less of a nutrient or calories than a reference",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 82
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.419019",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0113",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "A serving provides one-third fewer calories or half the fat of the regular produ",
+    "content": "A serving provides one-third fewer calories or half the fat of the regular product",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 82
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.419021",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0114",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "A serving of a low-calorie, low-fat food provides half the sodium normally prese",
+    "content": "A serving of a low-calorie, low-fat food provides half the sodium normally present",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 82
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.419022",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0115",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "physical activity to help balance calorie intakes to achieve",
+    "content": "physical activity to help balance calorie intakes to achieve",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 88
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.419024",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0116",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "4) A properly planned diet controls calories by",
+    "content": "4) A properly planned diet controls calories by",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 88
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.419025",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_0117",
+    "category": "food",
+    "subcategory": "composition",
+    "title": "3 grams of fat or less per serving",
+    "content": "3 grams of fat or less per serving",
+    "claim_type": "data_point",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Nutrition Concepts and Controversies, 14th Ed (Sizer, Whitney)",
+      "chapter": "Early Chapters",
+      "page": 88
+    },
+    "tags": [
+      "food_data",
+      "composition"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.419027",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_1380",
+    "category": "food",
+    "subcategory": "anti_inflammatory",
+    "title": "Dietary fatty acids directly influence prostaglandin production: Linoleic acid (",
+    "content": "Dietary fatty acids directly influence prostaglandin production: Linoleic acid (from safflower oil, sunflower oil and seeds, sesame oil and seeds) is converted into PGE1. Arachidonic acid (from meats, dairy products) is converted into PGE2. Alpha-linolenic acid (from pumpkin seeds, flaxseeds, walnuts, soybeans) is converted into PGE3. EPA and DHA promote the PGE3 pathway and are found in cold-water fish such as salmon, mackerel, sardines, and trout. Including plenty of nuts, seeds, and cold-water fish naturally inhibits inflammation by increasing PGE1 levels, which in turn inhibits PGE2 formation.",
+    "claim_type": "guideline",
+    "evidence_level": "C",
+    "confidence": 75,
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "chapter": "Chapter 2: Inflammation: What's the Big Deal?",
+      "page": 14
+    },
+    "tags": [
+      "omega-3",
+      "omega-6",
+      "arachidonic_acid",
+      "EPA",
+      "DHA",
+      "ALA",
+      "fatty_acid_pathways"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.425683",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_1382",
+    "category": "food",
+    "subcategory": "anti_inflammatory",
+    "title": "Foods to AVOID on the anti-inflammation diet: all wheat products, dairy products",
+    "content": "Foods to AVOID on the anti-inflammation diet: all wheat products, dairy products, potatoes, tomatoes, corn, sugar, citrus fruits, pork, commercial (nonorganic) eggs, shellfish, peanuts and peanut butter, coffee, alcohol, juice, caffeinated teas, soda, anything containing hydrogenated oils, processed foods, and fried foods. Tomatoes and potatoes (nightshade/Solanaceae family) are known to cause inflammation and should definitely be avoided by anyone with arthritis. Pork is avoided because of high arachidonic acid content and potential to stimulate autoimmune cross-reactions, as pigs have protein structures very similar to humans.",
+    "claim_type": "protocol",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "chapter": "Chapter 3: The Importance of Diet - Foods That Contribute to Inflammation",
+      "page": 28
+    },
+    "tags": [
+      "foods_to_avoid",
+      "nightshades",
+      "wheat",
+      "dairy",
+      "pork",
+      "shellfish",
+      "peanuts",
+      "hydrogenated_oils"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.425691",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_1384",
+    "category": "food",
+    "subcategory": "anti_inflammatory",
+    "title": "The body absorbs only about 30% of the calcium contained in dairy products. Inta",
+    "content": "The body absorbs only about 30% of the calcium contained in dairy products. Intact milk proteins are known to stimulate secretion of proinflammatory cytokines in susceptible patients with cow's milk allergy. Because the standard diet is largely made up of animal proteins (including milk proteins), which are acidic, the body removes calcium from the bones to help balance pH in the GI system. Nondairy calcium sources include fortified soy, rice, oat, almond, and other nut milks. If dairy is tolerated, only organic dairy products should be consumed (not daily) because they don't contain pesticide residues, hormones, and antibiotic residues.",
+    "claim_type": "research_finding",
+    "evidence_level": "B",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "chapter": "Chapter 3: The Importance of Diet - Dairy",
+      "page": 28
+    },
+    "tags": [
+      "dairy",
+      "calcium_absorption",
+      "milk_protein",
+      "acid_base_balance",
+      "bone_health",
+      "organic"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.425699",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_1385",
+    "category": "food",
+    "subcategory": "anti_inflammatory",
+    "title": "Genetically modifying wheat has increased its gluten content to 90%, which is hi",
+    "content": "Genetically modifying wheat has increased its gluten content to 90%, which is highly irregular. In 'Dangerous Grains,' James Brady and Ron Hoggan describe gluten as a protein that the immune system reacts to pathologically, producing inflammation. Their theory, supported by evidence, is that gluten destroys healthy tissue through molecular mimicry (cross-reaction). CRP and IL-6 (inflammatory markers) are increased during acute allergic reactions to wheat. The typical American family may consume wheat three times daily - cereal/toast for breakfast, sandwich for lunch, pasta/pizza for dinner - which contributes to the development of wheat sensitivities through non-rotating consumption.",
+    "claim_type": "research_finding",
+    "evidence_level": "B",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "chapter": "Chapter 3: The Importance of Diet - Wheat and Gluten",
+      "page": 31
+    },
+    "tags": [
+      "gluten",
+      "wheat",
+      "molecular_mimicry",
+      "CRP",
+      "IL-6",
+      "GMO",
+      "celiac"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.425705",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_1387",
+    "category": "food",
+    "subcategory": "anti_inflammatory",
+    "title": "Coconut oil is a shorter-chain saturated fat that is more easily metabolized tha",
+    "content": "Coconut oil is a shorter-chain saturated fat that is more easily metabolized than many other saturated fats. Studies reveal that coconut oil stored at room temperature for over one year still shows no evidence of rancidity. Individuals living in regions where coconut oil is eaten regularly have generally lower cholesterol levels than individuals eating the typical American diet. For cooking: use coconut oil for stir-fries, baking, and prolonged heating because it remains stable at high temperatures. Olive oil should not be heated too high due to risk of oxidative damage and conversion to trans fatty acids. Canola oil (from rapeseed) was used in chemical warfare as mustard gas and was placed on the FDA 'Generally Recognized as Safe' list after the Canadian government paid a large sum; animal studies show problems related to heart, adrenals, kidneys, and thyroid.",
+    "claim_type": "guideline",
+    "evidence_level": "C",
+    "confidence": 75,
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "chapter": "Chapter 4: The Anti-Inflammation Diet - Fats and Oils",
+      "page": 38
+    },
+    "tags": [
+      "coconut_oil",
+      "olive_oil",
+      "canola_oil_warning",
+      "cooking_fats",
+      "oxidative_damage",
+      "trans_fats"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.425709",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_1389",
+    "category": "food",
+    "subcategory": "anti_inflammatory",
+    "title": "Hydrogenated oils are used in approximately 40,000 food products in the United S",
+    "content": "Hydrogenated oils are used in approximately 40,000 food products in the United States. According to the Journal of Clinical Nutrition, Harvard University studies in 2004 revealed that trans fats may increase levels of inflammation in the body and may worsen inflammation already present in people with heart failure. In 1977, the World Health Organization sent out an alert to all nations stating that continuing to use hydrogenated fats would cause detrimental health effects; not one nation listened. Hydrogenated oils promote inflammation by stimulating the increase of inflammation-promoting prostaglandins. Any oils or fats cooked at very high temperatures convert to trans fats; if oil begins smoking, the heat is too high. Deep-fried foods left sitting in fryers (as in fast food) become trans fatty acids.",
+    "claim_type": "research_finding",
+    "evidence_level": "B",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "chapter": "Chapter 4: The Anti-Inflammation Diet - Hydrogenated Oils",
+      "page": 38
+    },
+    "tags": [
+      "trans_fats",
+      "hydrogenated_oils",
+      "WHO_warning",
+      "fast_food",
+      "inflammation",
+      "processed_foods"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.425716",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_1390",
+    "category": "food",
+    "subcategory": "anti_inflammatory",
+    "title": "COMPLETE FOOD LISTS - Vegetables Group 1 (lowest carb): Asparagus, bean sprouts,",
+    "content": "COMPLETE FOOD LISTS - Vegetables Group 1 (lowest carb): Asparagus, bean sprouts, beet greens, broccoli, red/green cabbage, cauliflower, celery, Swiss chard, cucumber, endive, lettuce (all types), mustard and dandelion greens, radishes, spinach, watercress. Group 2: String beans, beets, bok choy, brussels sprouts, chives, collards, eggplant, kale, kohlrabi, leeks, onion, parsley, red pepper, pumpkin, rutabagas, turnips, zucchini. Group 3: Artichokes, parsnips, green peas, winter squash, carrots. Group 4: Yams and sweet potatoes. Avoid: tomatoes and potatoes. Grains (allowed): Amaranth, spelt, barley, buckwheat, millet, oatmeal, quinoa, basmati/brown rice, rye, teff. Avoid all wheat products. Legumes (allowed): Split peas, lentils, kidney beans, pinto beans, black beans, garbanzo beans, tempeh, miso, mung beans, adzuki beans.",
+    "claim_type": "protocol",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "chapter": "Chapter 4: The Anti-Inflammation Diet - Food Categories Summary",
+      "page": 41
+    },
+    "tags": [
+      "food_list",
+      "vegetables",
+      "grains",
+      "legumes",
+      "carbohydrate_groups",
+      "allowed_foods"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.425718",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_1391",
+    "category": "food",
+    "subcategory": "anti_inflammatory",
+    "title": "Seafood (allowed): Wild salmon, cod, haddock, halibut, mackerel, sardines, tuna",
+    "content": "Seafood (allowed): Wild salmon, cod, haddock, halibut, mackerel, sardines, tuna (limit 2 servings/month), trout, summer flounder. Eat wild cold-water fish 3-4 times per week. Avoid shellfish. Meat (allowed): Organic free-range chicken/turkey (meat only, not skin), wild game, venison, elk, organic free-range lamb and buffalo. Organic grass-fed beef allowed 1-2 servings weekly. Avoid pork and conventionally raised beef. Fruits Group 1 (lowest carb): Cantaloupe, rhubarb, melons, strawberries. Group 2: Apricots, blackberries, cranberries, papayas, peaches, plums, raspberries, kiwis. Group 3: Apples, blueberries, cherries, grapes, pears, pineapples, pomegranates. Group 4: Bananas, figs, prunes. Avoid citrus fruits (lemon is okay). Eat only 1-2 servings of fruit per day. Sweeteners (occasional): Pure maple syrup, brown rice syrup, raw honey, agave syrup, stevia. Absolutely no sugar, NutraSweet, or any artificial sweetener.",
+    "claim_type": "protocol",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "chapter": "Chapter 4: The Anti-Inflammation Diet - Summary",
+      "page": 42
+    },
+    "tags": [
+      "food_list",
+      "seafood",
+      "meat",
+      "fruits",
+      "sweeteners",
+      "allowed_foods"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.425721",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_1392",
+    "category": "food",
+    "subcategory": "anti_inflammatory",
+    "title": "Nuts and seeds (allowed): Flax, pumpkin, sesame, sunflower seeds; most nuts and",
+    "content": "Nuts and seeds (allowed): Flax, pumpkin, sesame, sunflower seeds; most nuts and nut butters. Avoid peanuts and peanut butter. Butter and oils: Small amount of organic butter okay; olive oil for cooking; coconut oil for baking; nut/seed oils for salads. Mix 1 pound organic butter with 1 cup extra-virgin olive oil as spread. Avoid hydrogenated oils and partially hydrogenated oils. Eggs: Organic eggs from free-range, antibiotic-free chickens allowed. Slow cook, poach, or soft boil to prevent oxidation of egg protein. Avoid commercial eggs. Beverages: Minimum of half your weight in fluid ounces per day of filtered water. Small amounts of rice, oat, almond, or soy milk. Herbal teas as substitutes for coffee and juice. Avoid coffee, soda, juice, caffeinated teas, alcohol. Miscellaneous: Avoid corn products, processed foods, fried foods.",
+    "claim_type": "protocol",
+    "evidence_level": "C",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "The Anti-Inflammation Diet and Recipe Book",
+      "chapter": "Chapter 4: The Anti-Inflammation Diet - Nuts, Beverages, Oils",
+      "page": 43
+    },
+    "tags": [
+      "nuts_seeds",
+      "oils",
+      "eggs",
+      "beverages",
+      "hydration",
+      "food_list"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.425722",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_1398",
+    "category": "food",
+    "subcategory": "epigenetics",
+    "title": "Specific dietary compounds shown to influence DNA methylation and histone modifi",
+    "content": "Specific dietary compounds shown to influence DNA methylation and histone modifications include: genistein (main flavonoid in soy), vitamin D3, all-trans retinoic acid (vitamin A derivative), butyrate (produced from dietary fiber fermentation in the colon), diallyl disulfide (from garlic), sulforaphane (from cruciferous vegetables like broccoli), resveratrol (from grapes and red wine), and polyphenols with catechol groups (from green tea, berries, and cocoa). These compounds act as histone deacetylase (HDAC) inhibitors or modulate DNA methyltransferase (DNMT) enzyme activity. Butyrate, acetate, and propionate - short-chain fatty acids produced from dietary fiber fermentation - are taken up by colonic mucosa and influence gene expression in colon cells.",
+    "claim_type": "research_finding",
+    "evidence_level": "B",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "Epigenetics and Human Health: Linking Hereditary, Environmental and Nutritional Aspects",
+      "chapter": "Chapter 4: Dietary Effects on Epigenetics",
+      "page": 23
+    },
+    "tags": [
+      "genistein",
+      "vitamin_D",
+      "retinoic_acid",
+      "butyrate",
+      "sulforaphane",
+      "resveratrol",
+      "HDAC_inhibitors",
+      "dietary_fiber",
+      "SCFA"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.425746",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_1409",
+    "category": "food",
+    "subcategory": "community_nutrition",
+    "title": "Phytochemicals are non-nutrient bioactive compounds found in plant foods that pr",
+    "content": "Phytochemicals are non-nutrient bioactive compounds found in plant foods that provide health benefits beyond basic nutrition. Major classes include flavonoids (found in fruits, vegetables, tea, wine), carotenoids (orange/yellow/red fruits and vegetables), glucosinolates (cruciferous vegetables), and phytoestrogens (soy products). Nutrient density refers to the amount of nutrients per calorie in a food - nutrient-dense foods provide substantial amounts of vitamins, minerals, and phytochemicals with relatively few calories. Examples include dark leafy greens, berries, legumes, and whole grains. The concept of 'empty calories' describes foods high in energy but low in nutrients, such as sugary beverages and refined snack foods. Dietary Reference Intakes (DRIs) provide quantitative nutrient recommendations including RDAs (Recommended Dietary Allowances), AIs (Adequate Intakes), and ULs (Tolerable Upper Intake Levels).",
+    "claim_type": "fact",
+    "evidence_level": "C",
+    "confidence": 75,
+    "source": {
+      "type": "book",
+      "title": "NUTRITION (BYU-Idaho)",
+      "chapter": "Chapter 1: Phytochemicals and Nutrient Density",
+      "page": 20
+    },
+    "tags": [
+      "phytochemicals",
+      "flavonoids",
+      "carotenoids",
+      "nutrient_density",
+      "DRIs",
+      "RDA",
+      "empty_calories"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.425789",
+    "status": "structured"
+  },
+  {
+    "id": "kb_food_1411",
+    "category": "food",
+    "subcategory": "community_nutrition",
+    "title": "Whole grains contain all three parts of the grain kernel: bran (fiber, B vitamin",
+    "content": "Whole grains contain all three parts of the grain kernel: bran (fiber, B vitamins, minerals, phytochemicals), endosperm (starch, protein), and germ (healthy fats, vitamin E, B vitamins, phytochemicals). Refined grains remove the bran and germ, losing approximately 25% of protein and at least 17 key nutrients. Enrichment adds back only a few B vitamins (thiamin, riboflavin, niacin, folic acid) and iron. Whole grain consumption is associated with reduced risk of cardiovascular disease, type 2 diabetes, colorectal cancer, and all-cause mortality. Mechanisms include improved glycemic control, increased satiety from fiber, anti-inflammatory effects of grain phytochemicals, and favorable effects on gut microbiota through prebiotic fiber fermentation producing short-chain fatty acids.",
+    "claim_type": "research_finding",
+    "evidence_level": "B",
+    "confidence": 60,
+    "source": {
+      "type": "book",
+      "title": "NUTRITION (BYU-Idaho)",
+      "chapter": "Chapter 5: Grains in Health and Disease",
+      "page": 114
+    },
+    "tags": [
+      "whole_grains",
+      "refined_grains",
+      "fiber",
+      "glycemic_control",
+      "gut_microbiota",
+      "chronic_disease_prevention"
+    ],
+    "extracted_date": "2026-06-03",
+    "processed_date": "2026-06-03T14:46:56.425796",
+    "status": "structured"
+  }
+]

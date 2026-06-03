@@ -1,0 +1,63 @@
+{
+  "id": "荠菜，生",
+  "name": "荠菜，生",
+  "category": "中式药食同源食材",
+  "tags": [],
+  "deep_analysis": true,
+  "nutrients": {},
+  "active_compounds": [
+    {
+      "name": "钙**",
+      "content_text": "含量：每100g含294mg",
+      "mechanism": "作用机制：是牛奶2.5倍,但含草酸吸收率约20-30%"
+    },
+    {
+      "name": "荠菜酸**",
+      "content_text": "含量：特征性植物化学物",
+      "mechanism": "作用机制：收缩血管止血"
+    },
+    {
+      "name": "胡萝卜素**",
+      "content_text": "含量：每100g约2590μg",
+      "mechanism": "作用机制：转化为VA"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "⚪ C级** — **止血**：缩短出血和凝血时间",
+      "evidence_level": "C",
+      "description": ""
+    },
+    {
+      "text": "⚪ C级** — **骨健康**：高钙来源,适合乳糖不耐受人群",
+      "evidence_level": "C",
+      "description": ""
+    },
+    {
+      "text": "⚪ C级** — **降血压**：ACE抑制活性",
+      "evidence_level": "C",
+      "description": ""
+    }
+  ],
+  "daily_intake": "鲜荠菜100-200g/d",
+  "cooking_tips": [
+    "焯水10秒去除部分草酸",
+    "荠菜饺子/馄饨——经典",
+    "荠菜豆腐羹——高钙双保险",
+    "不宜生吃"
+  ],
+  "synergy": [
+    "豆腐(双重钙源)",
+    "鸡蛋(完整营养)",
+    "猪肉(氨基酸互补)"
+  ],
+  "contraindications": [
+    "肾结石草酸钙型限量",
+    "孕妇慎用大量",
+    "甲减者焯水后食用"
+  ],
+  "tcm": {
+    "meridian": "** 归经：归肝、胃经"
+  },
+  "source": ""
+}

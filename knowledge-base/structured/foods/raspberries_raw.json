@@ -1,0 +1,36 @@
+{
+  "id": "raspberries_raw",
+  "name": "Raspberries, raw",
+  "category": "水果与果汁",
+  "tags": [],
+  "deep_analysis": false,
+  "nutrients": {
+    "能量": {
+      "value": 220.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [
+    {
+      "name": "膳食纤维**",
+      "content_text": "含量：6.5g/100g",
+      "mechanism": "作用机制：促进肠蠕动,调节菌群"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "🟢 A级** — **肠道健康**：高纤维(6.5g/100g)促进排便和菌群平衡",
+      "evidence_level": "A",
+      "description": ""
+    }
+  ],
+  "daily_intake": "100-200g/d",
+  "cooking_tips": [
+    "生吃最佳",
+    "制成果昔/沙拉"
+  ],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

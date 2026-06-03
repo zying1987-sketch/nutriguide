@@ -1,0 +1,71 @@
+{
+  "id": "tofu_yogurt",
+  "name": "Tofu yogurt",
+  "category": "豆类与豆制品",
+  "tags": [
+    "女性激素健康",
+    "肠脑轴"
+  ],
+  "deep_analysis": true,
+  "nutrients": {
+    "能量": {
+      "value": 394.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [
+    {
+      "name": "大豆异黄酮**",
+      "content_text": "含量：每100g约100-300mg",
+      "mechanism": "作用机制：SERM:竞争性结合ERβ,组织特异性效应"
+    },
+    {
+      "name": "大豆蛋白**",
+      "content_text": "含量：唯一植物完全蛋白质",
+      "mechanism": "作用机制：增LDL受体表达降胆固醇"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "🟢 A级** — **更年期**：异黄酮50-100mg/d减少潮热40-50%",
+      "evidence_level": "A",
+      "reference": "参考文献：北美更年期学会2022",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **骨健康**：异黄酮+大豆蛋白维持骨密度",
+      "evidence_level": "B",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **心血管**：大豆蛋白25g/d降LDL-C 3-5%",
+      "evidence_level": "A",
+      "reference": "参考文献：FDA健康声明",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **乳腺**：青春期开始食用大豆降低乳腺癌风险",
+      "evidence_level": "B",
+      "reference": "参考文献：上海乳腺癌生存研究(n=5042)",
+      "description": ""
+    }
+  ],
+  "daily_intake": "传统大豆食品(豆腐/毛豆/味噌)50-100g/d",
+  "cooking_tips": [
+    "发酵大豆(味噌/纳豆/天贝):异黄酮苷元形式吸收更好",
+    "豆腐/毛豆:焯水去涩味",
+    "豆浆:浸泡8h+煮沸至少5min"
+  ],
+  "synergy": [
+    "谷物(氨基酸互补)",
+    "海藻(增碘,抵消致甲状腺肿效应)",
+    "亚麻籽(异黄酮+木脂素双重SERM)"
+  ],
+  "contraindications": [
+    "甲减者:与左甲状腺素间隔>4h",
+    "乳腺癌ER+:食物安全,但避免浓缩异黄酮补充剂",
+    "发酵豆制品嘌呤更高"
+  ],
+  "tcm": {},
+  "source": ""
+}

@@ -1,0 +1,53 @@
+{
+  "id": "artichokes_globe_or_french_raw",
+  "name": "Artichokes, (globe or french), raw",
+  "category": "蔬菜与蔬菜制品",
+  "tags": [
+    "抗氧化"
+  ],
+  "deep_analysis": true,
+  "nutrients": {
+    "能量": {
+      "value": 197.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [
+    {
+      "name": "膳食纤维**",
+      "content_text": "含量：5.4g/100g",
+      "mechanism": "作用机制：促进肠蠕动,调节菌群"
+    },
+    {
+      "name": "镁**",
+      "content_text": "含量：60mg/100g",
+      "mechanism": "作用机制：300+酶促反应辅因子"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "🟢 A级** — **肠道健康**：高纤维(5.4g/100g)促进排便和菌群平衡",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **神经肌肉**：每100g含镁60mg",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **抗氧化**：高ORAC值,减轻氧化应激",
+      "evidence_level": "B",
+      "description": ""
+    }
+  ],
+  "daily_intake": "100-300g/d",
+  "cooking_tips": [
+    "蒸制或快炒保留营养素",
+    "避免长时间水煮"
+  ],
+  "synergy": [],
+  "contraindications": [],
+  "tcm": {},
+  "source": ""
+}

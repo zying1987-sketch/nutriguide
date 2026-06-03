@@ -1,130 +1,243 @@
-import { useState, FormEvent } from 'react'
+import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import { Mail, Lock, User, ShieldCheck, ArrowRight, ArrowLeft, Loader2 } from 'lucide-react'
+import { api, setToken } from '../lib/api'
 import { useAuthStore } from '../stores/useAuthStore'
-import { UserPlus, Mail, Lock, User, Eye, EyeOff, AlertCircle } from 'lucide-react'
 
 export default function RegisterPage() {
-  const [name, setName] = useState('')
-  const [email, setEmail] = useState('')
-  const [password, setPassword] = useState('')
-  const [showPassword, setShowPassword] = useState(false)
-  const [error, setError] = useState('')
-  const [submitting, setSubmitting] = useState(false)
-
-  const register = useAuthStore((s) => s.register)
+  const { t } = useTranslation()
   const navigate = useNavigate()
+  const { setUser } = useAuthStore()
 
-  const handleSubmit = async (e: FormEvent) => {
+  const [step, setStep] = useState<'email' | 'verify'>('email')
+  const [email, setEmail] = useState('')
+  const [code, setCode] = useState('')
+  const [password, setPassword] = useState('')
+  const [name, setName] = useState('')
+  const [error, setError] = useState('')
+  const [loading, setLoading] = useState(false)
+  const [codeSent, setCodeSent] = useState(false)
+  const [countdown, setCountdown] = useState(0)
+
+  // 发送验证码
+  const handleSendCode = async (e: React.FormEvent) => {
     e.preventDefault()
     setError('')
-
-    if (password.length < 6) {
-      setError('密码至少6位')
+    if (!email || !email.includes('@')) {
+      setError(t('register.invalidEmail'))
       return
     }
 
-    setSubmitting(true)
+    setLoading(true)
     try {
-      await register(email.trim(), password, name.trim())
-      navigate('/')
+      await api.sendVerifyCode(email)
+      setCodeSent(true)
+      setStep('verify')
+      // 60秒倒计时
+      setCountdown(60)
+      const timer = setInterval(() => {
+        setCountdown((c) => {
+          if (c <= 1) { clearInterval(timer); return 0 }
+          return c - 1
+        })
+      }, 1000)
     } catch (err: any) {
-      setError(err.message || '注册失败')
+      setError(err.message || t('register.sendCodeFailed'))
     } finally {
-      setSubmitting(false)
+      setLoading(false)
+    }
+  }
+
+  // 完成注册
+  const handleRegister = async (e: React.FormEvent) => {
+    e.preventDefault()
+    setError('')
+
+    if (!code || code.length !== 6) {
+      setError(t('register.invalidCode'))
+      return
+    }
+    if (!password || password.length < 6) {
+      setError(t('register.passwordTooShort'))
+      return
+    }
+
+    setLoading(true)
+    try {
+      const data = await api.register({ email, password, name: name || undefined, code })
+      setToken(data.token)
+      setUser(data.user, data.token)
+      navigate('/assessment')
+    } catch (err: any) {
+      setError(err.message || t('register.registerFailed'))
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  // 重新发送验证码
+  const handleResend = async () => {
+    if (countdown > 0) return
+    setError('')
+    setLoading(true)
+    try {
+      await api.sendVerifyCode(email)
+      setCountdown(60)
+      const timer = setInterval(() => {
+        setCountdown((c) => {
+          if (c <= 1) { clearInterval(timer); return 0 }
+          return c - 1
+        })
+      }, 1000)
+    } catch (err: any) {
+      setError(err.message || t('register.sendCodeFailed'))
+    } finally {
+      setLoading(false)
     }
   }
 
   return (
-    <div className="min-h-[80vh] flex items-center justify-center px-4">
-      <div className="w-full max-w-[400px]">
+    <div className="min-h-screen bg-[#FAF8F5] flex items-center justify-center px-4 py-12">
+      <div className="w-full max-w-md">
+        {/* Logo */}
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-[#7A8B6F]/10 mb-4">
-            <UserPlus className="w-6 h-6 text-[#7A8B6F]" />
-          </div>
-          <h1 className="text-3xl serif font-semibold text-[#1A1A1A] mb-2">创建账号</h1>
-          <p className="text-[#6B6560] text-sm">开始你的个性化营养之旅</p>
+          <h1 className="text-3xl font-bold text-[#1B2A4A]">NutriGuide</h1>
+          <p className="text-[#1B2A4A]/60 mt-2">{t('register.subtitle')}</p>
         </div>
 
-        <div className="bg-white rounded-[24px] p-8 shadow-sm border border-[#E5E0D8]">
-          {error && (
-            <div className="flex items-center gap-2 bg-[#FDF0ED] text-[#C0392B] text-sm px-4 py-3 rounded-xl mb-4">
-              <AlertCircle className="w-4 h-4 flex-shrink-0" />
-              {error}
+        {/* Card */}
+        <div className="bg-white rounded-2xl shadow-sm border border-[#1B2A4A]/10 p-8">
+          {/* Step indicator */}
+          <div className="flex items-center gap-3 mb-8">
+            <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium ${step === 'email' ? 'bg-[#E85D3A] text-white' : 'bg-[#2D9C6F] text-white'}`}>
+              {step === 'email' ? '1' : '✓'}
             </div>
+            <div className="flex-1 h-0.5 bg-[#1B2A4A]/10">
+              <div className={`h-full bg-[#2D9C6F] transition-all ${step === 'verify' ? 'w-full' : 'w-0'}`} />
+            </div>
+            <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium ${step === 'verify' ? 'bg-[#E85D3A] text-white' : 'bg-[#1B2A4A]/10 text-[#1B2A4A]/40'}`}>2</div>
+          </div>
+
+          {error && (
+            <div className="mb-6 p-3 bg-red-50 border border-red-200 text-red-700 rounded-lg text-sm">{error}</div>
           )}
 
-          <form onSubmit={handleSubmit} className="space-y-4">
-            <div>
-              <label className="block text-xs font-medium text-[#6B6560] mb-1.5">昵称</label>
-              <div className="relative">
-                <User className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#C4BFB8]" />
-                <input
-                  type="text"
-                  value={name}
-                  onChange={(e) => setName(e.target.value)}
-                  placeholder="你的昵称"
-                  className="w-full pl-10 pr-4 py-3 bg-[#F8F6F3] border border-[#E5E0D8] rounded-xl text-sm focus:outline-none focus:border-[#7A8B6F] focus:ring-2 focus:ring-[#7A8B6F]/20 transition-all"
-                />
+          {/* Step 1: Enter email */}
+          {step === 'email' && (
+            <form onSubmit={handleSendCode}>
+              <div className="mb-6">
+                <label className="block text-sm font-medium text-[#1B2A4A] mb-2">{t('register.email')}</label>
+                <div className="relative">
+                  <Mail className="absolute left-3 top-1/2 -translate-y-1/2 text-[#1B2A4A]/30 w-5 h-5" />
+                  <input
+                    type="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    placeholder="your@email.com"
+                    className="w-full pl-10 pr-4 py-3 border border-[#1B2A4A]/15 rounded-xl focus:ring-2 focus:ring-[#2D9C6F]/30 focus:border-[#2D9C6F] outline-none transition bg-[#FAF8F5]"
+                    required
+                  />
+                </div>
               </div>
-            </div>
 
-            <div>
-              <label className="block text-xs font-medium text-[#6B6560] mb-1.5">邮箱</label>
-              <div className="relative">
-                <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#C4BFB8]" />
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="your@email.com"
-                  required
-                  className="w-full pl-10 pr-4 py-3 bg-[#F8F6F3] border border-[#E5E0D8] rounded-xl text-sm focus:outline-none focus:border-[#7A8B6F] focus:ring-2 focus:ring-[#7A8B6F]/20 transition-all"
-                />
-              </div>
-            </div>
+              <button
+                type="submit"
+                disabled={loading}
+                className="w-full py-3 bg-[#2D9C6F] text-white rounded-xl font-medium flex items-center justify-center gap-2 hover:bg-[#2D9C6F]/90 transition disabled:opacity-50"
+              >
+                {loading ? <Loader2 className="w-5 h-5 animate-spin" /> : null}
+                {t('register.getCode')}
+                {!loading && <ArrowRight className="w-4 h-4" />}
+              </button>
+            </form>
+          )}
 
-            <div>
-              <label className="block text-xs font-medium text-[#6B6560] mb-1.5">密码</label>
-              <div className="relative">
-                <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#C4BFB8]" />
-                <input
-                  type={showPassword ? 'text' : 'password'}
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
-                  placeholder="至少6位"
-                  required
-                  className="w-full pl-10 pr-12 py-3 bg-[#F8F6F3] border border-[#E5E0D8] rounded-xl text-sm focus:outline-none focus:border-[#7A8B6F] focus:ring-2 focus:ring-[#7A8B6F]/20 transition-all"
-                />
+          {/* Step 2: Verify code + register */}
+          {step === 'verify' && (
+            <form onSubmit={handleRegister}>
+              <div className="mb-4">
+                <label className="block text-sm font-medium text-[#1B2A4A] mb-2">{t('register.verifyCode')}</label>
+                <p className="text-xs text-[#1B2A4A]/50 mb-3">{t('register.codeSentTo')} {email}</p>
+                <div className="relative">
+                  <ShieldCheck className="absolute left-3 top-1/2 -translate-y-1/2 text-[#1B2A4A]/30 w-5 h-5" />
+                  <input
+                    type="text"
+                    value={code}
+                    onChange={(e) => setCode(e.target.value.replace(/\D/g, '').slice(0, 6))}
+                    placeholder="000000"
+                    maxLength={6}
+                    className="w-full pl-10 pr-4 py-3 border border-[#1B2A4A]/15 rounded-xl focus:ring-2 focus:ring-[#2D9C6F]/30 focus:border-[#2D9C6F] outline-none transition bg-[#FAF8F5] text-center text-2xl tracking-[0.5em] font-mono"
+                    required
+                    autoFocus
+                  />
+                </div>
                 <button
                   type="button"
-                  onClick={() => setShowPassword(!showPassword)}
-                  className="absolute right-3 top-1/2 -translate-y-1/2"
+                  onClick={handleResend}
+                  disabled={countdown > 0 || loading}
+                  className="text-sm text-[#2D9C6F] hover:underline mt-2 disabled:text-[#1B2A4A]/30"
                 >
-                  {showPassword ? (
-                    <EyeOff className="w-4 h-4 text-[#C4BFB8]" />
-                  ) : (
-                    <Eye className="w-4 h-4 text-[#C4BFB8]" />
-                  )}
+                  {countdown > 0 ? `${countdown}s ${t('register.retryLater')}` : t('register.resendCode')}
                 </button>
               </div>
-            </div>
 
-            <button
-              type="submit"
-              disabled={submitting}
-              className="w-full py-3 bg-[#1A1A1A] text-white rounded-xl font-medium text-sm hover:bg-[#333] disabled:opacity-50 disabled:cursor-not-allowed transition-all mt-2"
-            >
-              {submitting ? '注册中...' : '注册'}
-            </button>
-          </form>
+              <div className="mb-4">
+                <label className="block text-sm font-medium text-[#1B2A4A] mb-2">{t('register.name')} <span className="text-[#1B2A4A]/40">({t('register.optional')})</span></label>
+                <div className="relative">
+                  <User className="absolute left-3 top-1/2 -translate-y-1/2 text-[#1B2A4A]/30 w-5 h-5" />
+                  <input
+                    type="text"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                    placeholder={t('register.namePlaceholder')}
+                    className="w-full pl-10 pr-4 py-3 border border-[#1B2A4A]/15 rounded-xl focus:ring-2 focus:ring-[#2D9C6F]/30 focus:border-[#2D9C6F] outline-none transition bg-[#FAF8F5]"
+                  />
+                </div>
+              </div>
+
+              <div className="mb-6">
+                <label className="block text-sm font-medium text-[#1B2A4A] mb-2">{t('register.password')}</label>
+                <div className="relative">
+                  <Lock className="absolute left-3 top-1/2 -translate-y-1/2 text-[#1B2A4A]/30 w-5 h-5" />
+                  <input
+                    type="password"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    placeholder={t('register.passwordPlaceholder')}
+                    className="w-full pl-10 pr-4 py-3 border border-[#1B2A4A]/15 rounded-xl focus:ring-2 focus:ring-[#2D9C6F]/30 focus:border-[#2D9C6F] outline-none transition bg-[#FAF8F5]"
+                    required
+                    minLength={6}
+                  />
+                </div>
+              </div>
+
+              <div className="flex gap-3">
+                <button
+                  type="button"
+                  onClick={() => { setStep('email'); setError('') }}
+                  className="px-4 py-3 border border-[#1B2A4A]/15 text-[#1B2A4A] rounded-xl font-medium flex items-center gap-2 hover:bg-[#1B2A4A]/5 transition"
+                >
+                  <ArrowLeft className="w-4 h-4" />
+                </button>
+                <button
+                  type="submit"
+                  disabled={loading}
+                  className="flex-1 py-3 bg-[#E85D3A] text-white rounded-xl font-medium flex items-center justify-center gap-2 hover:bg-[#E85D3A]/90 transition disabled:opacity-50"
+                >
+                  {loading ? <Loader2 className="w-5 h-5 animate-spin" /> : null}
+                  {t('register.createAccount')}
+                </button>
+              </div>
+            </form>
+          )}
+
+          {/* Login link */}
+          <p className="text-center text-sm text-[#1B2A4A]/50 mt-6">
+            {t('register.hasAccount')}{' '}
+            <Link to="/login" className="text-[#2D9C6F] hover:underline font-medium">{t('register.goLogin')}</Link>
+          </p>
         </div>
-
-        <p className="text-center text-sm text-[#6B6560] mt-6">
-          已有账号？{' '}
-          <Link to="/login" className="text-[#7A8B6F] font-medium hover:underline">
-            立即登录
-          </Link>
-        </p>
       </div>
     </div>
   )

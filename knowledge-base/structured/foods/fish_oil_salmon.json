@@ -1,0 +1,79 @@
+{
+  "id": "fish_oil_salmon",
+  "name": "Fish oil, salmon",
+  "category": "油脂类",
+  "tags": [
+    "抗炎"
+  ],
+  "deep_analysis": true,
+  "nutrients": {
+    "能量": {
+      "value": 3774.0,
+      "unit": "kcal"
+    }
+  },
+  "active_compounds": [
+    {
+      "name": "EPA**",
+      "content_text": "含量：每100g约0.7-1.2g",
+      "mechanism": "作用机制：生成resolvins消退炎症"
+    },
+    {
+      "name": "DHA**",
+      "content_text": "含量：每100g约0.8-1.5g",
+      "mechanism": "作用机制：神经元细胞膜主要结构脂质"
+    },
+    {
+      "name": "虾青素**",
+      "content_text": "含量：野生三文鱼橙红色来源",
+      "mechanism": "作用机制：比VE强100倍抗氧化,穿过血脑屏障"
+    },
+    {
+      "name": "维生素D**",
+      "content_text": "含量：每100g约10-15μg",
+      "mechanism": "作用机制：少数天然富含VD食物"
+    }
+  ],
+  "health_benefits": [
+    {
+      "text": "🟢 A级** — **心血管**：降低甘油三酯25-30%",
+      "evidence_level": "A",
+      "reference": "参考文献：GISSI-Prevenzione(n=11324)",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **抗炎**：Resolvins/Protectins主动消退炎症",
+      "evidence_level": "A",
+      "description": ""
+    },
+    {
+      "text": "🟡 B级** — **认知**：每周>1次鱼类降低痴呆风险20-30%",
+      "evidence_level": "B",
+      "description": ""
+    },
+    {
+      "text": "🟢 A级** — **关节**：减轻类风湿关节炎症状",
+      "evidence_level": "A",
+      "description": ""
+    }
+  ],
+  "daily_intake": "每周2-3次,每次100-150g",
+  "cooking_tips": [
+    "低温慢煮/蒸制最佳(保留EPA/DHA)",
+    "煎烤<180°C,<10分钟",
+    "避免过度烤焦(杂环胺形成)"
+  ],
+  "synergy": [
+    "姜黄(EPA+姜黄素双重抗炎)",
+    "西兰花(硫代葡萄糖苷+omega-3)",
+    "柠檬(VC保护omega-3氧化)"
+  ],
+  "contraindications": [
+    "痛风急性发作期慎食",
+    "选择野生或有机养殖三文鱼",
+    "三文鱼属低汞安全鱼类",
+    "服用抗凝药者监控"
+  ],
+  "tcm": {},
+  "source": ""
+}
