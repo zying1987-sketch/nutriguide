@@ -89,9 +89,11 @@ router.post('/register', async (req, res) => {
     { expiresIn: '7d' }
   )
 
+  const credits = db.prepare('SELECT balance FROM user_credits WHERE user_id = ?').get(result.lastInsertRowid)
+
   res.status(201).json({
     token,
-    user: { id: result.lastInsertRowid, email, name: name || email.split('@')[0], role }
+    user: { id: result.lastInsertRowid, email, name: name || email.split('@')[0], role, credits: credits?.balance ?? 0 }
   })
 })
 
@@ -121,9 +123,11 @@ router.post('/login', async (req, res) => {
     { expiresIn: '7d' }
   )
 
+  const credits = db.prepare('SELECT balance FROM user_credits WHERE user_id = ?').get(user.id)
+
   res.json({
     token,
-    user: { id: user.id, email: user.email, name: user.name, role: user.role }
+    user: { id: user.id, email: user.email, name: user.name, role: user.role, credits: credits?.balance ?? 0 }
   })
 })
 
