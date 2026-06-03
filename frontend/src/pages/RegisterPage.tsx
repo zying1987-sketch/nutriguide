@@ -32,28 +32,35 @@ export default function RegisterPage() {
       return
     }
     if (!inviteCode || inviteCode.length !== 8) {
-      setError('请输入 8 位邀请码')
-      return
+      // 留空表示当前无邀请码，交由后端判断（首个用户免码）
+      if (!inviteCode || inviteCode.length === 0) {
+        // 空邀请码：允许继续，后端会检查是否是首个用户
+      } else {
+        setError('请输入 8 位邀请码，如果没有请联系管理员')
+        return
+      }
     }
 
-    // 先校验邀请码
-    setInviteChecking(true)
-    try {
-      const result = await api.validateInviteCode(inviteCode)
-      if (!result.valid) {
+    // 先校验邀请码（如果填写了）
+    if (inviteCode && inviteCode.length === 8) {
+      setInviteChecking(true)
+      try {
+        const result = await api.validateInviteCode(inviteCode)
+        if (!result.valid) {
+          setInviteValid(false)
+          setError(result.error || '邀请码无效')
+          setInviteChecking(false)
+          return
+        }
+        setInviteValid(true)
+      } catch (err: any) {
         setInviteValid(false)
-        setError(result.error || '邀请码无效')
+        setError(err.message || '邀请码校验失败')
         setInviteChecking(false)
         return
       }
-      setInviteValid(true)
-    } catch (err: any) {
-      setInviteValid(false)
-      setError(err.message || '邀请码校验失败')
       setInviteChecking(false)
-      return
     }
-    setInviteChecking(false)
 
     setLoading(true)
     try {
@@ -153,7 +160,7 @@ export default function RegisterPage() {
           {step === 'email' && (
             <form onSubmit={handleSendCode}>
               <div className="mb-4">
-                <label className="block text-sm font-medium text-[#1B2A4A] mb-2">邀请码 <span className="text-[#E85D3A]">*</span></label>
+                <label className="block text-sm font-medium text-[#1B2A4A] mb-2">邀请码 <span className="text-[#A8A199] text-xs">(内测用户必填)</span></label>
                 <div className="relative">
                   <Ticket className="absolute left-3 top-1/2 -translate-y-1/2 text-[#1B2A4A]/30 w-5 h-5" />
                   <input
@@ -167,7 +174,6 @@ export default function RegisterPage() {
                       inviteValid === false ? 'border-[#E85D3A] focus:ring-[#E85D3A]/30' :
                       'border-[#1B2A4A]/15 focus:ring-[#2D9C6F]/30 focus:border-[#2D9C6F]'
                     }`}
-                    required
                   />
                 </div>
                 {inviteValid === true && (
