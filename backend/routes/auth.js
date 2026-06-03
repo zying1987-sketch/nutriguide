@@ -66,9 +66,11 @@ router.post('/register', async (req, res) => {
 
   const passwordHash = await bcrypt.hash(password, 10)
 
+  const role = userCount.count === 0 ? 'admin' : 'user'
+
   const result = db.prepare(
     'INSERT INTO users (email, password_hash, name, role) VALUES (?, ?, ?, ?)'
-  ).run(email, passwordHash, name || email.split('@')[0], userCount.count === 0 ? 'admin' : 'user')
+  ).run(email, passwordHash, name || email.split('@')[0], role)
 
   // 新用户赠送 3 积分
   db.prepare(
@@ -82,14 +84,14 @@ router.post('/register', async (req, res) => {
   }
 
   const token = jwt.sign(
-    { id: result.lastInsertRowid, email, role: 'user' },
+    { id: result.lastInsertRowid, email, role },
     JWT_SECRET,
     { expiresIn: '7d' }
   )
 
   res.status(201).json({
     token,
-    user: { id: result.lastInsertRowid, email, name: name || email.split('@')[0], role: 'user' }
+    user: { id: result.lastInsertRowid, email, name: name || email.split('@')[0], role }
   })
 })
 
