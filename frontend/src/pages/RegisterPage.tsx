@@ -22,6 +22,8 @@ export default function RegisterPage() {
   const [loading, setLoading] = useState(false)
   const [codeSent, setCodeSent] = useState(false)
   const [devCode, setDevCode] = useState('')  // 未配 SMTP 时后端直接返回验证码
+  const [agreed, setAgreed] = useState(false)
+  const [showAgreement, setShowAgreement] = useState(false)
   const [countdown, setCountdown] = useState(0)
 
   // 发送验证码（先校验邀请码）
@@ -97,6 +99,10 @@ export default function RegisterPage() {
     }
     if (!password || password.length < 6) {
       setError(t('register.passwordTooShort'))
+      return
+    }
+    if (!agreed) {
+      setError('请阅读并同意用户协议和免责声明')
       return
     }
 
@@ -275,6 +281,58 @@ export default function RegisterPage() {
                     minLength={6}
                   />
                 </div>
+              </div>
+
+              {/* 用户协议 */}
+              <div className="mb-6">
+                <label className="flex items-start gap-2 cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={agreed}
+                    onChange={(e) => setAgreed(e.target.checked)}
+                    className="mt-0.5 w-4 h-4 accent-[#2D9C6F] cursor-pointer shrink-0"
+                  />
+                  <span className="text-xs text-[#6B6560] leading-relaxed">
+                    我已阅读并同意{' '}
+                    <button
+                      type="button"
+                      onClick={() => setShowAgreement(!showAgreement)}
+                      className="text-[#2D9C6F] underline hover:text-[#1B7A4A] transition-colors"
+                    >
+                      《用户协议与免责声明》
+                    </button>
+                  </span>
+                </label>
+
+                {showAgreement && (
+                  <div className="mt-3 p-4 bg-[#FAF8F5] border border-[#E8E3DB] rounded-lg text-xs text-[#4A453E] leading-relaxed max-h-48 overflow-y-auto space-y-3">
+                    <p className="font-semibold text-[#1B2A4A]">NutriGuide 用户协议与免责声明</p>
+
+                    <p><strong>一、服务性质</strong><br/>
+                    NutriGuide（以下简称"本工具"）是基于营养科学知识库和人工智能技术开发的饮食营养参考工具，<strong>不提供医疗诊断、治疗或处方服务</strong>。</p>
+
+                    <p><strong>二、免责声明</strong><br/>
+                    1. 本工具生成的所有营养建议、补充剂推荐、饮食方案仅供<strong>参考和教育目的</strong>，不构成医疗建议。<br/>
+                    2. 用户应在使用任何补充剂或改变饮食习惯前<strong>咨询执业医师或注册营养师</strong>，尤其是患有疾病、正在服药、怀孕或哺乳期的用户。<br/>
+                    3. 本工具的信息来源包括公开的学术文献和营养学数据库，但不保证信息的完整性、准确性和时效性。用户因依赖本工具信息而产生的任何健康问题或损失，NutriGuide 及开发者<strong>不承担法律责任</strong>。</p>
+
+                    <p><strong>三、用户责任</strong><br/>
+                    1. 用户提供的健康信息应当真实准确。隐瞒或虚报健康状况可能影响建议的有效性和安全性。<br/>
+                    2. 如出现以下情况，请<strong>立即停止使用</strong>并就医：<br/>
+                    &nbsp;&nbsp;• 服用补充剂后出现皮疹、呼吸困难、心悸等过敏反应<br/>
+                    &nbsp;&nbsp;• 饮食调整后出现持续不适或症状加重<br/>
+                    &nbsp;&nbsp;• 体重在短期内出现异常剧烈波动</p>
+
+                    <p><strong>四、数据与隐私</strong><br/>
+                    1. 您的自测数据仅用于生成个性化营养方案，不会与第三方共享。<br/>
+                    2. 我们使用行业标准的安全措施保护您的个人信息，但无法保证绝对安全。</p>
+
+                    <p><strong>五、AI 输出说明</strong><br/>
+                    本工具可能使用大语言模型生成部分内容。AI 输出可能存在不准确或遗漏的情况，用户应以专业人士意见为最终依据。</p>
+
+                    <p className="text-[#A8A199]">最后更新：2026 年 6 月</p>
+                  </div>
+                )}
               </div>
 
               <div className="flex gap-3">
