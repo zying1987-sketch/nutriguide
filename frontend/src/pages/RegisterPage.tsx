@@ -21,6 +21,7 @@ export default function RegisterPage() {
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
   const [codeSent, setCodeSent] = useState(false)
+  const [devCode, setDevCode] = useState('')  // 未配 SMTP 时后端直接返回验证码
   const [countdown, setCountdown] = useState(0)
 
   // 发送验证码（先校验邀请码）
@@ -64,8 +65,11 @@ export default function RegisterPage() {
 
     setLoading(true)
     try {
-      await api.sendVerifyCode(email)
+      const result = await api.sendVerifyCode(email)
       setCodeSent(true)
+      if (result._dev_code) {
+        setDevCode(result._dev_code)
+      }
       setStep('verify')
       // 60秒倒计时
       setCountdown(60)
@@ -214,6 +218,12 @@ export default function RegisterPage() {
               <div className="mb-4">
                 <label className="block text-sm font-medium text-[#1B2A4A] mb-2">{t('register.verifyCode')}</label>
                 <p className="text-xs text-[#1B2A4A]/50 mb-3">{t('register.codeSentTo')} {email}</p>
+                {devCode && (
+                  <div className="mb-3 p-2 bg-[#F0F7F2] border border-[#2D9C6F]/30 rounded-lg text-center">
+                    <span className="text-xs text-[#6B6560]">未配置邮件服务，你的验证码是：</span>
+                    <span className="text-lg font-mono font-bold text-[#2D9C6F] ml-2 tracking-wider">{devCode}</span>
+                  </div>
+                )}
                 <div className="relative">
                   <ShieldCheck className="absolute left-3 top-1/2 -translate-y-1/2 text-[#1B2A4A]/30 w-5 h-5" />
                   <input
