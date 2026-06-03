@@ -127,7 +127,11 @@ export default function HistoryDetailPage() {
             {result.primaryPopulation && (
               <div>
                 <span className="text-[#A8A199] text-xs">匹配人群</span>
-                <p className="text-[#2D6B4F] font-medium">{result.primaryPopulation}</p>
+                <p className="text-[#2D6B4F] font-medium">
+                  {typeof result.primaryPopulation === 'object'
+                    ? result.primaryPopulation.populationName || result.primaryPopulation.populationId
+                    : result.primaryPopulation}
+                </p>
               </div>
             )}
             {result.dietQualityScore !== undefined && (
