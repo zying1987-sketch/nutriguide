@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Environment secrets (DO NOT commit real .env)
+backend/.env
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+
+# Database files
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Build outputs (rebuilt in Docker)
+frontend/dist/
+backend/public/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Docker itself
+Dockerfile
+.dockerignore
+
+# Git
+.git/
+.gitignore
+
+# Docs (not needed at runtime)
+README.md
+ARCHITECTURE.md
+phase4-frontend-integration.md
+knowledge-base/ARCHITECTURE.md
+knowledge-base/README.md
+knowledge-base/pipeline.md
+
+# Python scripts (not needed at runtime)
+backend/parse-food-md.py
+
+# Test files
+**/__pycache__/
+**/*.pyc
