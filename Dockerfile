@@ -15,9 +15,6 @@ RUN npm run build
 # ---------- 阶段2: 生产镜像 ----------
 FROM node:22-alpine
 
-# 创建非 root 用户
-RUN addgroup -S appgroup && adduser -S appuser -G appgroup
-
 WORKDIR /app
 
 # 安装 SQLite 命令行工具（用于备份）
@@ -39,10 +36,8 @@ COPY knowledge-base/ ../knowledge-base/
 # 复制备份脚本
 COPY scripts/ ./scripts/
 
-# 创建数据目录（挂载点）
-RUN mkdir -p /app/data && chown -R appuser:appgroup /app
-
-USER appuser
+# 创建数据目录（Railway 卷挂载点）
+RUN mkdir -p /app/data
 
 # 环境变量默认值
 ENV NODE_ENV=production
