@@ -6,9 +6,9 @@ const { requireAuth, JWT_SECRET } = require('../middleware/auth')
 
 const router = express.Router()
 
-// 注册（需先验证邮箱）
+// 注册（需先验证邮箱 + 邀请码）
 router.post('/register', async (req, res) => {
-  const { email, password, name, code } = req.body
+  const { email, password, name, code, inviteCode } = req.body
 
   if (!email || !password) {
     return res.status(400).json({ error: '邮箱和密码不能为空' })
@@ -30,6 +30,28 @@ router.post('/register', async (req, res) => {
     return res.status(409).json({ error: '该邮箱已注册' })
   }
 
+  // 验证邀请码（首个用户无需邀请码，自动成为管理员）
+  const userCount = db.prepare('SELECT COUNT(*) as count FROM users').get()
+  let inviteRecord = null
+
+  if (userCount.count === 0) {
+    // 第一个用户：不需要邀请码，自动设为管理员
+    console.log('第一个注册用户，跳过邀请码校验，自动设为管理员')
+  } else {
+    if (!inviteCode || typeof inviteCode !== 'string' || inviteCode.length !== 8) {
+      return res.status(400).json({ error: '请提供有效的邀请码' })
+    }
+    inviteRecord = db.prepare(
+      'SELECT id, used_by FROM invite_codes WHERE code = ?'
+    ).get(inviteCode.toUpperCase())
+    if (!inviteRecord) {
+      return res.status(400).json({ error: '邀请码无效' })
+    }
+    if (inviteRecord.used_by !== null) {
+      return res.status(400).json({ error: '该邀请码已被使用' })
+    }
+  }
+
   // 验证验证码
   const record = db.prepare(
     "SELECT * FROM verification_codes WHERE email = ? AND code = ? AND used = 0 AND expires_at > datetime('now') ORDER BY created_at DESC LIMIT 1"
@@ -46,12 +68,18 @@ router.post('/register', async (req, res) => {
 
   const result = db.prepare(
     'INSERT INTO users (email, password_hash, name, role) VALUES (?, ?, ?, ?)'
-  ).run(email, passwordHash, name || email.split('@')[0], 'user')
+  ).run(email, passwordHash, name || email.split('@')[0], userCount.count === 0 ? 'admin' : 'user')
 
   // 新用户赠送 3 积分
   db.prepare(
     'INSERT INTO user_credits (user_id, balance, total_purchased) VALUES (?, 3, 3)'
   ).run(result.lastInsertRowid)
+
+  // 标记邀请码已使用（首个管理员注册时没有邀请码，跳过）
+  if (inviteRecord) {
+    db.prepare("UPDATE invite_codes SET used_by = ?, used_at = datetime('now') WHERE id = ?")
+      .run(result.lastInsertRowid, inviteRecord.id)
+  }
 
   const token = jwt.sign(
     { id: result.lastInsertRowid, email, role: 'user' },

@@ -35,6 +35,7 @@ app.use('/api/assessments', assessmentRoutes)
 app.use('/api/admin', adminRoutes)
 app.use('/api/credits', creditsRoutes)
 app.use('/api/chat', chatRoutes)
+app.use('/api/invite', require('./routes/invite'))
 app.use('/api/food-wiki', require('./routes/food-wiki'))
 app.use('/api/knowledge', require('./routes/knowledge'))
 

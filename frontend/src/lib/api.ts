@@ -28,7 +28,7 @@ async function request(path: string, options: RequestInit = {}) {
 
 export const api = {
   // Auth
-  register: (data: { email: string; password: string; name?: string; code: string }) =>
+  register: (data: { email: string; password: string; name?: string; code: string; inviteCode?: string }) =>
     request('/auth/register', { method: 'POST', body: JSON.stringify(data) }),
 
   login: (data: { email: string; password: string }) =>
@@ -49,6 +49,13 @@ export const api = {
   // Assessments
   saveAssessment: (data: { stepData: any; result: any }) =>
     request('/assessments', { method: 'POST', body: JSON.stringify(data) }),
+
+  // Invite Codes
+  generateInviteCodes: (count: number) =>
+    request('/invite/generate', { method: 'POST', body: JSON.stringify({ count }) }),
+  validateInviteCode: (code: string) =>
+    request('/invite/validate', { method: 'POST', body: JSON.stringify({ code }) }),
+  getInviteCodes: () => request('/invite/list'),
 
   getAssessments: () => request('/assessments'),
 

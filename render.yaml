@@ -5,7 +5,7 @@
 
 services:
   - type: web
-    name: nutriguide
+    name: nutriguide-ai
     env: docker
     plan: free
     healthCheckPath: /api/health

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { useAuthStore } from '../stores/useAuthStore'
 import { api } from '../lib/api'
 import { Navigate } from 'react-router-dom'
-import { Users, FileText, ClipboardList, Calendar, Search, ChevronLeft, ChevronRight, LogOut } from 'lucide-react'
+import { Users, FileText, ClipboardList, Calendar, Search, ChevronLeft, ChevronRight, LogOut, Ticket, Plus, Copy, Check } from 'lucide-react'
 
 interface Stats { totalUsers: number; totalAssessments: number; totalPlans: number; todayAssessments: number }
 interface AdminUser { id: number; email: string; name: string; role: string; created_at: string; assessment_count: number; plan_count: number }
@@ -21,9 +21,32 @@ export default function AdminPage() {
   const [selectedUser, setSelectedUser] = useState<{ user: AdminUser; assessments: AssessmentRecord[]; plans: any[] } | null>(null)
   const [selectedAssessment, setSelectedAssessment] = useState<any>(null)
 
+  // 邀请码管理
+  const [inviteCount, setInviteCount] = useState(5)
+  const [generatedCodes, setGeneratedCodes] = useState<string[]>([])
+  const [copiedIndex, setCopiedIndex] = useState<number | null>(null)
+  const [inviteStats, setInviteStats] = useState<{ total: number; used: number; available: number } | null>(null)
+
+  const handleGenerateInviteCodes = async () => {
+    try {
+      const data = await api.generateInviteCodes(inviteCount)
+      setGeneratedCodes(data.codes)
+      fetchInviteStats()
+    } catch (e: any) {
+      alert('生成失败: ' + (e.message || '请确认你有管理员权限'))
+    }
+  }
+
+  const fetchInviteStats = () => {
+    api.getInviteCodes().then((data: any) => {
+      setInviteStats(data.stats)
+    }).catch(() => {})
+  }
+
   useEffect(() => {
     if (!user || user.role !== 'admin') return
     api.getAdminStats().then(setStats).catch(console.error)
+    fetchInviteStats()
   }, [user])
 
   useEffect(() => {
@@ -83,6 +106,70 @@ export default function AdminPage() {
           ))}
         </div>
       )}
+
+      {/* 邀请码管理 */}
+      <div className="bg-white rounded-2xl p-6 border border-[#E5E0D8] mb-8">
+        <div className="flex items-center gap-3 mb-4">
+          <Ticket className="w-5 h-5 text-[#E85D3A]" />
+          <h2 className="font-semibold text-[#1A1A1A]">邀请码管理</h2>
+          {inviteStats && (
+            <span className="text-xs text-[#A8A199] ml-2">
+              {inviteStats.total} 个已生成 · {inviteStats.available} 可用 · {inviteStats.used} 已用
+            </span>
+          )}
+        </div>
+
+        <div className="flex items-center gap-3 mb-4">
+          <span className="text-sm text-[#6B6560]">生成数量:</span>
+          <select
+            value={inviteCount}
+            onChange={(e) => setInviteCount(Number(e.target.value))}
+            className="px-3 py-1.5 border border-[#E5E0D8] rounded-lg text-sm bg-[#FAF8F5] focus:outline-none focus:border-[#E85D3A]"
+          >
+            {[1, 5, 10, 20, 50].map(n => (
+              <option key={n} value={n}>{n} 个</option>
+            ))}
+          </select>
+          <button
+            onClick={handleGenerateInviteCodes}
+            className="flex items-center gap-1.5 px-4 py-1.5 bg-[#E85D3A] text-white rounded-lg text-sm font-medium hover:bg-[#D1482C] transition"
+          >
+            <Plus className="w-4 h-4" />
+            生成邀请码
+          </button>
+        </div>
+
+        {generatedCodes.length > 0 && (
+          <div className="bg-[#FDF8F5] rounded-xl p-4 border border-[#F5E0D5]">
+            <p className="text-xs text-[#C17A5F] mb-3 font-medium">已生成 {generatedCodes.length} 个邀请码:</p>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-2">
+              {generatedCodes.map((code, i) => (
+                <button
+                  key={i}
+                  onClick={() => {
+                    navigator.clipboard.writeText(code).catch(() => {})
+                    setCopiedIndex(i)
+                    setTimeout(() => setCopiedIndex(null), 2000)
+                  }}
+                  className="flex items-center justify-between gap-1 px-3 py-2 bg-white rounded-lg border border-[#E5E0D8] text-sm font-mono tracking-wider hover:border-[#E85D3A] hover:bg-[#FFF5F0] transition group"
+                >
+                  <span>{code}</span>
+                  {copiedIndex === i ? (
+                    <Check className="w-3.5 h-3.5 text-[#2D9C6F]" />
+                  ) : (
+                    <Copy className="w-3.5 h-3.5 text-[#C4BFB8] group-hover:text-[#E85D3A]" />
+                  )}
+                </button>
+              ))}
+            </div>
+            <p className="text-xs text-[#A8A199] mt-3">点击邀请码即可复制，分发给内测用户即可</p>
+          </div>
+        )}
+
+        {generatedCodes.length === 0 && (
+          <p className="text-sm text-[#A8A199]">尚未生成邀请码，点击上方按钮生成后分发给内测用户</p>
+        )}
+      </div>
 
       {/* Search */}
       <div className="flex gap-3 mb-6">

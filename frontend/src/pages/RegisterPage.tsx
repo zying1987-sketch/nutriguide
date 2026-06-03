@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { Mail, Lock, User, ShieldCheck, ArrowRight, ArrowLeft, Loader2 } from 'lucide-react'
+import { Mail, Lock, User, ShieldCheck, ArrowRight, ArrowLeft, Loader2, Ticket } from 'lucide-react'
 import { api, setToken } from '../lib/api'
 import { useAuthStore } from '../stores/useAuthStore'
 
@@ -12,6 +12,9 @@ export default function RegisterPage() {
 
   const [step, setStep] = useState<'email' | 'verify'>('email')
   const [email, setEmail] = useState('')
+  const [inviteCode, setInviteCode] = useState('')
+  const [inviteValid, setInviteValid] = useState<boolean | null>(null)
+  const [inviteChecking, setInviteChecking] = useState(false)
   const [code, setCode] = useState('')
   const [password, setPassword] = useState('')
   const [name, setName] = useState('')
@@ -20,7 +23,7 @@ export default function RegisterPage() {
   const [codeSent, setCodeSent] = useState(false)
   const [countdown, setCountdown] = useState(0)
 
-  // 发送验证码
+  // 发送验证码（先校验邀请码）
   const handleSendCode = async (e: React.FormEvent) => {
     e.preventDefault()
     setError('')
@@ -28,6 +31,29 @@ export default function RegisterPage() {
       setError(t('register.invalidEmail'))
       return
     }
+    if (!inviteCode || inviteCode.length !== 8) {
+      setError('请输入 8 位邀请码')
+      return
+    }
+
+    // 先校验邀请码
+    setInviteChecking(true)
+    try {
+      const result = await api.validateInviteCode(inviteCode)
+      if (!result.valid) {
+        setInviteValid(false)
+        setError(result.error || '邀请码无效')
+        setInviteChecking(false)
+        return
+      }
+      setInviteValid(true)
+    } catch (err: any) {
+      setInviteValid(false)
+      setError(err.message || '邀请码校验失败')
+      setInviteChecking(false)
+      return
+    }
+    setInviteChecking(false)
 
     setLoading(true)
     try {
@@ -65,7 +91,7 @@ export default function RegisterPage() {
 
     setLoading(true)
     try {
-      const data = await api.register({ email, password, name: name || undefined, code })
+      const data = await api.register({ email, password, name: name || undefined, code, inviteCode })
       setToken(data.token)
       setUser(data.user, data.token)
       navigate('/assessment')
@@ -126,6 +152,29 @@ export default function RegisterPage() {
           {/* Step 1: Enter email */}
           {step === 'email' && (
             <form onSubmit={handleSendCode}>
+              <div className="mb-4">
+                <label className="block text-sm font-medium text-[#1B2A4A] mb-2">邀请码 <span className="text-[#E85D3A]">*</span></label>
+                <div className="relative">
+                  <Ticket className="absolute left-3 top-1/2 -translate-y-1/2 text-[#1B2A4A]/30 w-5 h-5" />
+                  <input
+                    type="text"
+                    value={inviteCode}
+                    onChange={(e) => { setInviteCode(e.target.value.toUpperCase()); setInviteValid(null) }}
+                    placeholder="8 位邀请码（联系管理员获取）"
+                    maxLength={8}
+                    className={`w-full pl-10 pr-4 py-3 border rounded-xl focus:ring-2 outline-none transition bg-[#FAF8F5] font-mono tracking-[0.3em] text-center uppercase ${
+                      inviteValid === true ? 'border-[#2D9C6F] focus:ring-[#2D9C6F]/30' :
+                      inviteValid === false ? 'border-[#E85D3A] focus:ring-[#E85D3A]/30' :
+                      'border-[#1B2A4A]/15 focus:ring-[#2D9C6F]/30 focus:border-[#2D9C6F]'
+                    }`}
+                    required
+                  />
+                </div>
+                {inviteValid === true && (
+                  <p className="text-xs text-[#2D9C6F] mt-1 flex items-center gap-1">邀请码有效</p>
+                )}
+              </div>
+
               <div className="mb-6">
                 <label className="block text-sm font-medium text-[#1B2A4A] mb-2">{t('register.email')}</label>
                 <div className="relative">
@@ -143,12 +192,12 @@ export default function RegisterPage() {
 
               <button
                 type="submit"
-                disabled={loading}
+                disabled={loading || inviteChecking}
                 className="w-full py-3 bg-[#2D9C6F] text-white rounded-xl font-medium flex items-center justify-center gap-2 hover:bg-[#2D9C6F]/90 transition disabled:opacity-50"
               >
-                {loading ? <Loader2 className="w-5 h-5 animate-spin" /> : null}
-                {t('register.getCode')}
-                {!loading && <ArrowRight className="w-4 h-4" />}
+                {loading || inviteChecking ? <Loader2 className="w-5 h-5 animate-spin" /> : null}
+                {inviteChecking ? '校验邀请码中...' : t('register.getCode')}
+                {!loading && !inviteChecking && <ArrowRight className="w-4 h-4" />}
               </button>
             </form>
           )}
