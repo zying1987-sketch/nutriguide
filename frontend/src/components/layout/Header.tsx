@@ -116,6 +116,10 @@ export default function Header() {
 
                   {/* 个人 */}
                   <div className="border-t border-[#F0EDE8] mt-1 pt-1">
+                    <Link to="/profile" onClick={() => setMenuOpen(false)}
+                      className="flex items-center gap-2.5 px-4 py-2 text-sm text-[#1A1A1A] hover:bg-[#F8F6F3] no-underline">
+                      <User size={15} className="text-[#7A8B6F]" /> 个人中心
+                    </Link>
                     <Link to="/history" onClick={() => setMenuOpen(false)}
                       className="flex items-center gap-2.5 px-4 py-2 text-sm text-[#1A1A1A] hover:bg-[#F8F6F3] no-underline">
                       <FileText size={15} className="text-[#7A8B6F]" /> 我的记录

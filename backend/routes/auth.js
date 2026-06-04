@@ -3,19 +3,34 @@ const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
 const { getDb } = require('../db/setup')
 const { requireAuth, JWT_SECRET } = require('../middleware/auth')
+const { captchaHandler, verifyCaptcha } = require('../services/captcha')
 
 const router = express.Router()
 
-// 注册（需先验证邮箱 + 邀请码 + 同意协议）
-router.post('/register', async (req, res) => {
-  const { email, password, name, phone, code, inviteCode, agreed } = req.body
+// ==================== 图形验证码 ====================
+router.get('/captcha', captchaHandler)
 
-  if (!email || !password) {
-    return res.status(400).json({ error: '邮箱和密码不能为空' })
+// ==================== 注册 ====================
+// 需：微信号（必填）+ 邮箱/手机（二选一）+ 密码 + 邮箱验证码 + 邀请码 + 协议
+router.post('/register', async (req, res) => {
+  const { email, password, name, phone, wechatId, code, inviteCode, agreed } = req.body
+
+  if (!email && !phone) {
+    return res.status(400).json({ error: '请填写邮箱或手机号' })
+  }
+
+  if (!email || !email.includes('@')) {
+    // 如果没有邮箱，必须有手机号（email为空时做phone校验由下面处理）
+    if (!phone) return res.status(400).json({ error: '邮箱和手机号至少填写一项' })
   }
 
   if (password.length < 6) {
     return res.status(400).json({ error: '密码至少6位' })
+  }
+
+  // 微信号必填且唯一
+  if (!wechatId || typeof wechatId !== 'string' || wechatId.trim().length < 3) {
+    return res.status(400).json({ error: '请填写有效的微信号（用于社群联系）' })
   }
 
   if (!code) {
@@ -28,10 +43,20 @@ router.post('/register', async (req, res) => {
 
   const db = getDb()
 
-  // 检查邮箱是否已注册
-  const existing = db.prepare('SELECT id FROM users WHERE email = ?').get(email)
-  if (existing) {
-    return res.status(409).json({ error: '该邮箱已注册' })
+  // 检查邮箱/手机号是否已注册
+  if (email) {
+    const existing = db.prepare('SELECT id FROM users WHERE email = ?').get(email)
+    if (existing) return res.status(409).json({ error: '该邮箱已注册' })
+  }
+  if (phone) {
+    const existing = db.prepare('SELECT id FROM users WHERE phone = ?').get(phone)
+    if (existing) return res.status(409).json({ error: '该手机号已注册' })
+  }
+
+  // 检查微信号唯一性
+  const wechatDup = db.prepare("SELECT id FROM users WHERE wechat_id = ? AND wechat_id != ''").get(wechatId.trim())
+  if (wechatDup) {
+    return res.status(409).json({ error: '该微信号已被注册' })
   }
 
   // 验证邀请码（首个用户无需邀请码，自动成为管理员）
@@ -73,8 +98,8 @@ router.post('/register', async (req, res) => {
   const role = userCount.count === 0 ? 'admin' : 'user'
 
   const result = db.prepare(
-    'INSERT INTO users (email, password_hash, name, phone, role) VALUES (?, ?, ?, ?, ?)'
-  ).run(email, passwordHash, name || email.split('@')[0], phone || '', role)
+    'INSERT INTO users (email, password_hash, name, phone, wechat_id, role) VALUES (?, ?, ?, ?, ?, ?)'
+  ).run(email || '', passwordHash, name || email.split('@')[0], phone || '', wechatId.trim(), role)
 
   // 记录协议签署
   db.prepare(
@@ -108,14 +133,26 @@ router.post('/register', async (req, res) => {
 
 // 登录
 router.post('/login', async (req, res) => {
-  const { email, password } = req.body
+  const { email, password, captchaToken, captchaAnswer } = req.body
 
-  if (!email || !password) {
-    return res.status(400).json({ error: '邮箱和密码不能为空' })
+  if ((!email && !req.body.phone) || !password) {
+    return res.status(400).json({ error: '请填写账号和密码' })
+  }
+
+  // 图形验证码校验
+  if (captchaToken && captchaAnswer) {
+    if (!verifyCaptcha(captchaToken, captchaAnswer)) {
+      return res.status(400).json({ error: '图形验证码错误' })
+    }
   }
 
   const db = getDb()
-  const user = db.prepare('SELECT * FROM users WHERE email = ?').get(email)
+
+  // 支持邮箱或手机号登录
+  const account = email || req.body.phone
+  const user = db.prepare(
+    'SELECT * FROM users WHERE email = ? OR phone = ?'
+  ).get(account, account)
 
   if (!user) {
     return res.status(401).json({ error: '邮箱或密码错误' })
@@ -136,7 +173,7 @@ router.post('/login', async (req, res) => {
 
   res.json({
     token,
-    user: { id: user.id, email: user.email, name: user.name, phone: user.phone || '', role: user.role, credits: credits?.balance ?? 0 }
+    user: { id: user.id, email: user.email, name: user.name, phone: user.phone || '', wechatId: user.wechat_id || '', role: user.role, credits: credits?.balance ?? 0 }
   })
 })
 

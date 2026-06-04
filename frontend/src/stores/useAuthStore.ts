@@ -6,6 +6,7 @@ interface User {
   email: string
   name: string
   phone?: string
+  wechatId?: string
   role: 'user' | 'admin'
   credits?: number
 }

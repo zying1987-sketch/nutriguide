@@ -114,4 +114,38 @@ router.get('/users/:userId/assessments/:id', (req, res) => {
   })
 })
 
+// 导出用户数据为 CSV
+router.get('/export/users', requireAuth, requireAdmin, (req, res) => {
+  const db = getDb()
+  const users = db.prepare(`
+    SELECT
+      u.id, u.email, u.phone, u.wechat_id, u.name, u.role, u.created_at,
+      p.display_name, p.gender, p.birth_date, p.height, p.weight, p.city,
+      c.balance as credits,
+      (SELECT COUNT(*) FROM assessments a WHERE a.user_id = u.id) as assessments,
+      (SELECT MAX(a.created_at) FROM assessments a WHERE a.user_id = u.id) as last_test
+    FROM users u
+    LEFT JOIN user_profiles p ON u.id = p.user_id
+    LEFT JOIN user_credits c ON u.id = c.user_id
+    ORDER BY u.id
+  `).all()
+
+  const headers = ['用户ID', '邮箱', '手机号', '微信号', '名称', '角色', '注册时间',
+    '显示名', '性别', '生日', '身高(cm)', '体重(kg)', '城市', '积分', '自测次数', '最后自测时间']
+
+  const csvRows = [headers.join(',')]
+  for (const u of users) {
+    csvRows.push([
+      u.id, `"${u.email || ''}"`, `"${u.phone || ''}"`, `"${u.wechat_id || ''}"`, `"${u.name || ''}"`, u.role, u.created_at,
+      `"${u.display_name || ''}"`, u.gender || '', u.birth_date || '', u.height || '', u.weight || '',
+      `"${u.city || ''}"`, u.credits || 0, u.assessments, u.last_test || ''
+    ].join(','))
+  }
+
+  res.setHeader('Content-Type', 'text/csv; charset=utf-8')
+  res.setHeader('Content-Disposition', `attachment; filename="nutriguide_users_${new Date().toISOString().slice(0, 10)}.csv"`)
+  // 添加 BOM 让 Excel 正确识别 UTF-8
+  res.send('\uFEFF' + csvRows.join('\n'))
+})
+
 module.exports = router

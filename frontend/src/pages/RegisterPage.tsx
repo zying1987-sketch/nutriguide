@@ -19,10 +19,11 @@ export default function RegisterPage() {
   const [password, setPassword] = useState('')
   const [name, setName] = useState('')
   const [phone, setPhone] = useState('')
+  const [wechatId, setWechatId] = useState('')
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
   const [codeSent, setCodeSent] = useState(false)
-  const [devCode, setDevCode] = useState('')  // 未配 SMTP 时后端直接返回验证码
+  const [devCode, setDevCode] = useState('')
   const [agreed, setAgreed] = useState(false)
   const [showAgreement, setShowAgreement] = useState(false)
   const [countdown, setCountdown] = useState(0)
@@ -109,7 +110,7 @@ export default function RegisterPage() {
 
     setLoading(true)
     try {
-      const data = await api.register({ email, password, name: name || undefined, phone: phone || undefined, code, inviteCode, agreed })
+      const data = await api.register({ email, password, name: name || undefined, phone: phone || undefined, wechatId, code, inviteCode, agreed })
       setToken(data.token)
       setUser(data.user, data.token)
       navigate('/assessment')
@@ -190,6 +191,23 @@ export default function RegisterPage() {
                 {inviteValid === true && (
                   <p className="text-xs text-[#2D9C6F] mt-1 flex items-center gap-1">邀请码有效</p>
                 )}
+              </div>
+
+              <div className="mb-4">
+                <label className="block text-sm font-medium text-[#1B2A4A] mb-2">微信号 <span className="text-[#E85D3A]">*</span></label>
+                <div className="relative">
+                  <User className="absolute left-3 top-1/2 -translate-y-1/2 text-[#1B2A4A]/30 w-5 h-5" />
+                  <input
+                    type="text"
+                    value={wechatId}
+                    onChange={(e) => setWechatId(e.target.value)}
+                    placeholder="用于社群联系，请确保准确"
+                    minLength={3}
+                    className="w-full pl-10 pr-4 py-3 border border-[#1B2A4A]/15 rounded-xl focus:ring-2 focus:ring-[#2D9C6F]/30 focus:border-[#2D9C6F] outline-none transition bg-[#FAF8F5]"
+                    required
+                  />
+                </div>
+                <p className="text-xs text-[#A8A199] mt-1">注册后不可修改，用于后续社群拉群</p>
               </div>
 
               <div className="mb-6">

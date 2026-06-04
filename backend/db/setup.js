@@ -94,11 +94,27 @@ function initTables() {
       ip_address TEXT DEFAULT '',
       FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
     );
+
+    CREATE TABLE IF NOT EXISTS user_profiles (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      user_id INTEGER UNIQUE NOT NULL,
+      display_name TEXT DEFAULT '',
+      gender TEXT DEFAULT '',
+      birth_date TEXT DEFAULT '',
+      age INTEGER,
+      height INTEGER,
+      weight REAL,
+      city TEXT DEFAULT '',
+      updated_at TEXT DEFAULT (datetime('now')),
+      FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+    );
   `)
 
-  // 迁移：为旧表加列（SQLite 不支持 IF NOT EXISTS for ALTER，用 try-catch）
-  try { db.exec('ALTER TABLE users ADD COLUMN phone TEXT DEFAULT \'\'') } catch (e) { /* 已存在则忽略 */ }
-  try { db.exec('ALTER TABLE assessments ADD COLUMN full_report TEXT DEFAULT \'\'') } catch (e) { /* 已存在则忽略 */ }
+  // 迁移：为旧表加列
+  try { db.exec('ALTER TABLE users ADD COLUMN phone TEXT DEFAULT \'\'') } catch (e) { /* 已存在 */ }
+  try { db.exec('ALTER TABLE users ADD COLUMN wechat_id TEXT DEFAULT \'\'') } catch (e) { /* 已存在 */ }
+  try { db.exec('ALTER TABLE assessments ADD COLUMN full_report TEXT DEFAULT \'\'') } catch (e) { /* 已存在 */ }
+  try { db.exec('CREATE UNIQUE INDEX IF NOT EXISTS idx_users_wechat ON users(wechat_id) WHERE wechat_id != \'\'') } catch (e) { /* 已存在 */ }
 
   // 检查是否需要创建默认管理员
   const adminCount = db.prepare('SELECT COUNT(*) as count FROM users WHERE role = ?').get('admin')

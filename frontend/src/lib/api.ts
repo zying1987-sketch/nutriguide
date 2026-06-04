@@ -28,7 +28,7 @@ async function request(path: string, options: RequestInit = {}) {
 
 export const api = {
   // Auth
-  register: (data: { email: string; password: string; name?: string; phone?: string; code: string; inviteCode?: string; agreed?: boolean }) =>
+  register: (data: { email: string; password: string; name?: string; phone?: string; wechatId?: string; code: string; inviteCode?: string; agreed?: boolean }) =>
     request('/auth/register', { method: 'POST', body: JSON.stringify(data) }),
 
   login: (data: { email: string; password: string }) =>
@@ -38,6 +38,10 @@ export const api = {
 
   updateProfile: (data: { name: string }) =>
     request('/auth/me', { method: 'PUT', body: JSON.stringify(data) }),
+
+  // User Profile (health info)
+  getProfile: () => request('/profile'),
+  updateUserProfile: (data: any) => request('/profile', { method: 'PUT', body: JSON.stringify(data) }),
 
   // Verification
   sendVerifyCode: (email: string) =>

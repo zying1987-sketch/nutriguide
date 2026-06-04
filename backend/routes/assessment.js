@@ -17,6 +17,23 @@ router.post('/', requireAuth, (req, res) => {
     'INSERT INTO assessments (user_id, step_data, result, full_report) VALUES (?, ?, ?, ?)'
   ).run(req.user.id, JSON.stringify(stepData), result ? JSON.stringify(result) : null, fullReport || '')
 
+  // 自动更新/创建用户健康档案
+  const sd = typeof stepData === 'object' ? stepData : {}
+  const existing = db.prepare('SELECT id FROM user_profiles WHERE user_id = ?').get(req.user.id)
+  if (existing) {
+    db.prepare(`
+      UPDATE user_profiles SET display_name = COALESCE(NULLIF(?, ''), display_name),
+        gender = COALESCE(NULLIF(?, ''), gender), height = COALESCE(?, height),
+        weight = COALESCE(?, weight), updated_at = datetime('now')
+      WHERE user_id = ?
+    `).run(sd.name || '', sd.gender || '', sd.height || null, sd.weight || null, req.user.id)
+  } else {
+    db.prepare(`
+      INSERT INTO user_profiles (user_id, display_name, gender, height, weight)
+      VALUES (?, ?, ?, ?, ?)
+    `).run(req.user.id, sd.name || sd.displayName || '', sd.gender || '', sd.height || null, sd.weight || null)
+  }
+
   res.status(201).json({ id: r.lastInsertRowid })
 })
 

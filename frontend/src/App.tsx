@@ -19,6 +19,7 @@ import ChatPage from './pages/ChatPage'
 import HistoryPage from './pages/HistoryPage'
 import HistoryDetailPage from './pages/HistoryDetailPage'
 import WuxingPage from './pages/WuxingPage'
+import ProfilePage from './pages/ProfilePage'
 import { useAuthStore } from './stores/useAuthStore'
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
         <Route path="/chat" element={<ChatPage />} />
         <Route path="/history" element={<ProtectedRoute><HistoryPage /></ProtectedRoute>} />
         <Route path="/history/:id" element={<ProtectedRoute><HistoryDetailPage /></ProtectedRoute>} />
+        <Route path="/profile" element={<ProtectedRoute><ProfilePage /></ProtectedRoute>} />
         <Route path="/wuxing" element={<WuxingPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
