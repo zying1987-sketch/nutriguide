@@ -71,10 +71,18 @@ router.get('/users', (req, res) => {
 router.get('/users/:id', (req, res) => {
   const db = getDb()
 
-  const user = db.prepare('SELECT id, email, name, role, created_at FROM users WHERE id = ?').get(req.params.id)
+  const user = db.prepare('SELECT id, email, name, phone, role, created_at FROM users WHERE id = ?').get(req.params.id)
   if (!user) {
     return res.status(404).json({ error: '用户不存在' })
   }
+
+  // 协议签署记录
+  const agreement = db.prepare(
+    'SELECT agreement_type, version, accepted_at, ip_address FROM agreement_records WHERE user_id = ? ORDER BY accepted_at DESC LIMIT 1'
+  ).get(req.params.id)
+
+  // 积分余额
+  const credits = db.prepare('SELECT balance, total_purchased, total_used FROM user_credits WHERE user_id = ?').get(req.params.id)
 
   const assessments = db.prepare(
     'SELECT id, created_at, result FROM assessments WHERE user_id = ? ORDER BY created_at DESC LIMIT 10'
@@ -84,7 +92,7 @@ router.get('/users/:id', (req, res) => {
     'SELECT id, population_tags, created_at FROM plans WHERE user_id = ? ORDER BY created_at DESC LIMIT 10'
   ).all(req.params.id)
 
-  res.json({ user, assessments, plans })
+  res.json({ user: { ...user, agreement, credits }, assessments, plans })
 })
 
 // 获取某个用户的自测详情

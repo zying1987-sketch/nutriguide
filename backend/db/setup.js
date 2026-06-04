@@ -22,6 +22,7 @@ function initTables() {
       email TEXT UNIQUE NOT NULL,
       password_hash TEXT NOT NULL,
       name TEXT DEFAULT '',
+      phone TEXT DEFAULT '',
       role TEXT DEFAULT 'user' CHECK(role IN ('user','admin')),
       created_at TEXT DEFAULT (datetime('now'))
     );
@@ -83,7 +84,20 @@ function initTables() {
       FOREIGN KEY (created_by) REFERENCES users(id) ON DELETE SET NULL,
       FOREIGN KEY (used_by) REFERENCES users(id) ON DELETE SET NULL
     );
+
+    CREATE TABLE IF NOT EXISTS agreement_records (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      user_id INTEGER NOT NULL,
+      agreement_type TEXT NOT NULL DEFAULT 'privacy',
+      version TEXT NOT NULL DEFAULT '2026.06',
+      accepted_at TEXT DEFAULT (datetime('now')),
+      ip_address TEXT DEFAULT '',
+      FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+    );
   `)
+
+  // 迁移：为旧表加 phone 列（SQLite 不支持 IF NOT EXISTS for ALTER，用 try-catch）
+  try { db.exec('ALTER TABLE users ADD COLUMN phone TEXT DEFAULT \'\'') } catch (e) { /* 已存在则忽略 */ }
 
   // 检查是否需要创建默认管理员
   const adminCount = db.prepare('SELECT COUNT(*) as count FROM users WHERE role = ?').get('admin')

@@ -6,9 +6,9 @@ const { requireAuth, JWT_SECRET } = require('../middleware/auth')
 
 const router = express.Router()
 
-// 注册（需先验证邮箱 + 邀请码）
+// 注册（需先验证邮箱 + 邀请码 + 同意协议）
 router.post('/register', async (req, res) => {
-  const { email, password, name, code, inviteCode } = req.body
+  const { email, password, name, phone, code, inviteCode, agreed } = req.body
 
   if (!email || !password) {
     return res.status(400).json({ error: '邮箱和密码不能为空' })
@@ -20,6 +20,10 @@ router.post('/register', async (req, res) => {
 
   if (!code) {
     return res.status(400).json({ error: '请先完成邮箱验证' })
+  }
+
+  if (!agreed) {
+    return res.status(400).json({ error: '请阅读并同意用户协议与免责声明' })
   }
 
   const db = getDb()
@@ -69,8 +73,13 @@ router.post('/register', async (req, res) => {
   const role = userCount.count === 0 ? 'admin' : 'user'
 
   const result = db.prepare(
-    'INSERT INTO users (email, password_hash, name, role) VALUES (?, ?, ?, ?)'
-  ).run(email, passwordHash, name || email.split('@')[0], role)
+    'INSERT INTO users (email, password_hash, name, phone, role) VALUES (?, ?, ?, ?, ?)'
+  ).run(email, passwordHash, name || email.split('@')[0], phone || '', role)
+
+  // 记录协议签署
+  db.prepare(
+    'INSERT INTO agreement_records (user_id, agreement_type, version, ip_address) VALUES (?, ?, ?, ?)'
+  ).run(result.lastInsertRowid, 'privacy', '2026.06', req.ip || '')
 
   // 新用户赠送 3 积分
   db.prepare(
@@ -93,7 +102,7 @@ router.post('/register', async (req, res) => {
 
   res.status(201).json({
     token,
-    user: { id: result.lastInsertRowid, email, name: name || email.split('@')[0], role, credits: credits?.balance ?? 0 }
+    user: { id: result.lastInsertRowid, email, name: name || email.split('@')[0], phone: phone || '', role, credits: credits?.balance ?? 0 }
   })
 })
 
@@ -127,14 +136,14 @@ router.post('/login', async (req, res) => {
 
   res.json({
     token,
-    user: { id: user.id, email: user.email, name: user.name, role: user.role, credits: credits?.balance ?? 0 }
+    user: { id: user.id, email: user.email, name: user.name, phone: user.phone || '', role: user.role, credits: credits?.balance ?? 0 }
   })
 })
 
 // 获取当前用户信息
 router.get('/me', requireAuth, (req, res) => {
   const db = getDb()
-  const user = db.prepare('SELECT id, email, name, role, created_at FROM users WHERE id = ?').get(req.user.id)
+  const user = db.prepare('SELECT id, email, name, phone, role, created_at FROM users WHERE id = ?').get(req.user.id)
 
   if (!user) {
     return res.status(404).json({ error: '用户不存在' })

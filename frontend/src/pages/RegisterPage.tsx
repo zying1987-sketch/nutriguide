@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { Mail, Lock, User, ShieldCheck, ArrowRight, ArrowLeft, Loader2, Ticket } from 'lucide-react'
+import { Phone, Mail, Lock, User, ShieldCheck, ArrowRight, ArrowLeft, Loader2, Ticket } from 'lucide-react'
 import { api, setToken } from '../lib/api'
 import { useAuthStore } from '../stores/useAuthStore'
 
@@ -18,6 +18,7 @@ export default function RegisterPage() {
   const [code, setCode] = useState('')
   const [password, setPassword] = useState('')
   const [name, setName] = useState('')
+  const [phone, setPhone] = useState('')
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
   const [codeSent, setCodeSent] = useState(false)
@@ -108,7 +109,7 @@ export default function RegisterPage() {
 
     setLoading(true)
     try {
-      const data = await api.register({ email, password, name: name || undefined, code, inviteCode })
+      const data = await api.register({ email, password, name: name || undefined, phone: phone || undefined, code, inviteCode, agreed })
       setToken(data.token)
       setUser(data.user, data.token)
       navigate('/assessment')
@@ -262,6 +263,21 @@ export default function RegisterPage() {
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     placeholder={t('register.namePlaceholder')}
+                    className="w-full pl-10 pr-4 py-3 border border-[#1B2A4A]/15 rounded-xl focus:ring-2 focus:ring-[#2D9C6F]/30 focus:border-[#2D9C6F] outline-none transition bg-[#FAF8F5]"
+                  />
+                </div>
+              </div>
+
+              <div className="mb-4">
+                <label className="block text-sm font-medium text-[#1B2A4A] mb-2">手机号 <span className="text-[#1B2A4A]/40">({t('register.optional')})</span></label>
+                <div className="relative">
+                  <Phone className="absolute left-3 top-1/2 -translate-y-1/2 text-[#1B2A4A]/30 w-5 h-5" />
+                  <input
+                    type="tel"
+                    value={phone}
+                    onChange={(e) => setPhone(e.target.value.replace(/\D/g, '').slice(0, 11))}
+                    placeholder="用于接收重要通知（选填）"
+                    maxLength={11}
                     className="w-full pl-10 pr-4 py-3 border border-[#1B2A4A]/15 rounded-xl focus:ring-2 focus:ring-[#2D9C6F]/30 focus:border-[#2D9C6F] outline-none transition bg-[#FAF8F5]"
                   />
                 </div>
