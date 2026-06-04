@@ -148,7 +148,9 @@ export default function HistoryDetailPage() {
                 <span className="text-[#A8A199] text-xs">潜在缺乏风险</span>
                 <div className="flex flex-wrap gap-1.5 mt-1">
                   {result.deficiencyRisks.map((r, i) => (
-                    <span key={i} className="text-xs px-2 py-0.5 bg-[#FEF5F0] rounded-full text-[#C17A5F]">{r}</span>
+                    <span key={i} className="text-xs px-2 py-0.5 bg-[#FEF5F0] rounded-full text-[#C17A5F]">
+                      {typeof r === 'object' ? (r.nutrientName || r.nutrient || '') : r}
+                    </span>
                   ))}
                 </div>
               </div>
