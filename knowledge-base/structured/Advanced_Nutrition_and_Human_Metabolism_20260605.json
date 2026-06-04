@@ -1,0 +1,287 @@
+{
+  "source": "Advanced_Nutrition_and_Human_Metabolism",
+  "extracted_at": "2026-06-05T01:37:52.937769",
+  "total_items": 28,
+  "items": [
+    {
+      "nutrient": "AMP-activated protein kinase (AMPK)",
+      "fact": "AMPK acts as a cellular energy sensor that activates catabolic pathways and inhibits anabolic pathways during low-energy states, such as fasting or exercise.",
+      "mechanism": "Activated by rising AMP:ATP ratio; phosphorylates key enzymes to stimulate glucose uptake, fatty acid oxidation, and mitochondrial biogenesis while suppressing lipogenesis and protein synthesis.",
+      "population": "General population, especially athletes and individuals with metabolic disorders",
+      "source_context": "chapter 7  Integration and Regulation of Metabolism and the Impact of Exercise and Sport 249...Amp-Activated Protein Kinase  252",
+      "id": "3d51958bca4c",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937007"
+    },
+    {
+      "nutrient": "Branched-chain amino acids (BCAAs)",
+      "fact": "Leucine, isoleucine, and valine are primarily catabolized in skeletal muscle—not the liver—and serve as important energy substrates during fasting and exercise.",
+      "mechanism": "Undergo transamination in muscle; carbon skeletons enter TCA cycle via acyl-CoA dehydrogenases; leucine stimulates mTORC1 signaling for protein synthesis.",
+      "population": "Athletes, elderly, critically ill patients",
+      "source_context": "Hepatic Catabolism and Uses of Branched-Chain Amino Acids  203",
+      "id": "a57c93308d5a",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937033"
+    },
+    {
+      "nutrient": "Glutamine",
+      "fact": "Glutamine is the most abundant free amino acid in human plasma and serves as a major fuel for enterocytes, lymphocytes, and renal tubular cells.",
+      "mechanism": "Metabolized to glutamate and ammonia in kidneys; supports acid-base balance via ammoniagenesis; maintains intestinal barrier function and immune cell proliferation.",
+      "population": "Critically ill, post-surgical, or malnourished individuals",
+      "source_context": "Glutamine and the Muscle, Intestine, Liver, and Kidneys  226",
+      "id": "e9c0015e96fd",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937038"
+    },
+    {
+      "nutrient": "Alanine",
+      "fact": "Alanine functions as a key nitrogen carrier from muscle to liver via the glucose-alanine cycle during fasting.",
+      "mechanism": "Muscle releases alanine derived from pyruvate and branched-chain amino acid catabolism; liver converts it to glucose via gluconeogenesis.",
+      "population": "Fasting or calorie-restricted individuals",
+      "source_context": "Alanine and the Liver and Muscle  228",
+      "id": "e011e3d34ace",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937043"
+    },
+    {
+      "nutrient": "Folate",
+      "fact": "Folate deficiency causes megaloblastic macrocytic anemia due to impaired DNA synthesis and red blood cell maturation.",
+      "mechanism": "Required for one-carbon transfers in nucleotide synthesis (e.g., thymidylate formation); deficiency leads to uracil misincorporation and DNA strand breaks.",
+      "population": "Pregnant women, alcohol-dependent individuals, elderly with poor diet",
+      "source_context": "Folate  344...Deficiency: Megaloblastic Macrocytic Anemia  351",
+      "id": "db66916261fd",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937048"
+    },
+    {
+      "nutrient": "Vitamin B12 (Cobalamin)",
+      "fact": "Vitamin B12 deficiency also results in megaloblastic anemia but is distinguished by concurrent neurological damage (e.g., peripheral neuropathy, subacute combined degeneration).",
+      "mechanism": "Essential cofactor for methionine synthase (affecting folate cycling) and methylmalonyl-CoA mutase; deficiency causes homocysteine accumulation and odd-chain fatty acid metabolism defects.",
+      "population": "Older adults, vegans, individuals with pernicious anemia or gastric atrophy",
+      "source_context": "Vitamin B12 (Cobalamin)  354...Deficiency: Megaloblastic Macrocytic Anemia  358",
+      "id": "47237d4c89ff",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937052"
+    },
+    {
+      "nutrient": "Pantothenic acid",
+      "fact": "Pantothenic acid is a component of coenzyme A (CoA) and acyl carrier protein (ACP), essential for acetyl group transfer and fatty acid synthesis.",
+      "mechanism": "Forms the reactive thiol end of CoA, enabling activation of carboxylic acids (e.g., acetate → acetyl-CoA) for entry into TCA cycle or lipid biosynthesis.",
+      "population": "General population; deficiency rare but seen in severe malnutrition",
+      "source_context": "Pantothenic Acid  334...Functions and Mechanisms of Action  336",
+      "id": "a85a6a1630ed",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937057"
+    },
+    {
+      "nutrient": "Biotin",
+      "fact": "Biotin serves as a covalently bound cofactor for carboxylase enzymes involved in gluconeogenesis, fatty acid synthesis, and amino acid catabolism.",
+      "mechanism": "Carries activated CO₂ in reactions catalyzed by acetyl-CoA carboxylase, propionyl-CoA carboxylase, and methylcrotonyl-CoA carboxylase.",
+      "population": "Pregnant women (increased demand), individuals consuming raw egg whites chronically",
+      "source_context": "Biotin  338...Functions and Mechanisms of Action  339",
+      "id": "7a340ccd2e8c",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937061"
+    },
+    {
+      "nutrient": "Vitamin D",
+      "fact": "Vitamin D deficiency causes rickets in children and osteomalacia in adults due to impaired bone mineralization.",
+      "mechanism": "Vitamin D promotes intestinal calcium and phosphorus absorption and regulates bone remodeling via osteoblast/osteoclast activity.",
+      "population": "Children, older adults, individuals with limited sun exposure",
+      "source_context": "Vitamin D  390\nDeficiency: Rickets and Osteomalacia  399",
+      "id": "ca885e54aa2f",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937066"
+    },
+    {
+      "nutrient": "Calcium",
+      "fact": "Calcium is essential for bone and teeth structure, muscle contraction, nerve transmission, and blood clotting.",
+      "mechanism": "Acts as a cofactor in enzymatic reactions and signal transduction; stored in hydroxyapatite crystals in bone matrix.",
+      "population": "All ages, especially adolescents and postmenopausal women",
+      "source_context": "Calcium  425\nFunctions and Mechanisms of Action  431",
+      "id": "54908367f7ec",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937070"
+    },
+    {
+      "nutrient": "Phosphorus",
+      "fact": "Phosphorus works synergistically with calcium in bone mineralization and is a key component of ATP, DNA, and cell membranes.",
+      "mechanism": "Forms phosphate esters critical for energy metabolism and genetic material synthesis; buffers intracellular pH.",
+      "population": "General population; excess intake may impair calcium balance",
+      "source_context": "Phosphorus  438\nFunctions and Mechanisms of Action  440",
+      "id": "630ddfaf49e5",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937082"
+    },
+    {
+      "nutrient": "Magnesium",
+      "fact": "Magnesium serves as a cofactor for over 300 enzymatic reactions, including those involved in energy production and protein synthesis.",
+      "mechanism": "Stabilizes ATP structure and modulates ion channels (e.g., calcium and potassium) in excitable tissues.",
+      "population": "Individuals with gastrointestinal disorders, type 2 diabetes, or chronic alcohol use",
+      "source_context": "Magnesium  443\nFunctions and Mechanisms of Action  445",
+      "id": "ca814d8405c4",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937087"
+    },
+    {
+      "nutrient": "Sodium",
+      "fact": "Sodium is the primary extracellular cation and critical for maintaining fluid balance, nerve conduction, and muscle function.",
+      "mechanism": "Regulated by renin-angiotensin-aldosterone system (RAAS) and vasopressin to control osmotic pressure and blood volume.",
+      "population": "General population; excessive intake linked to hypertension",
+      "source_context": "Sodium  462\nAbsorption, Transport, and Function  463\nRenin-Angiotensin-Aldosterone System  459",
+      "id": "e38874467581",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937092"
+    },
+    {
+      "nutrient": "Potassium",
+      "fact": "Potassium is the major intracellular cation and counterbalances sodium to maintain cellular membrane potential and heart rhythm.",
+      "mechanism": "Facilitates Na⁺/K⁺-ATPase pump activity; influences vascular smooth muscle tone and insulin secretion.",
+      "population": "Hypertensive individuals, those on diuretics, or with chronic kidney disease",
+      "source_context": "Potassium  466\nAbsorption, Transport, and Function  466\nDeficiency and Toxicity  467",
+      "id": "6203ff1212b1",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937095"
+    },
+    {
+      "nutrient": "Chloride",
+      "fact": "Chloride is the main extracellular anion, essential for gastric acid production, fluid balance, and acid-base regulation.",
+      "mechanism": "Cotransported with sodium; component of hydrochloric acid (HCl) in stomach and part of bicarbonate buffer system.",
+      "population": "General population; deficiency often accompanies sodium loss (e.g., vomiting, diarrhea)",
+      "source_context": "Chloride  467\nAbsorption, Transport, and Secretion  468\nFunctions  468",
+      "id": "a2de096c3a15",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937100"
+    },
+    {
+      "nutrient": "Iodine",
+      "fact": "Iodine is required for synthesis of thyroid hormones T3 and T4, which regulate basal metabolic rate and development.",
+      "mechanism": "Incorporated into tyrosine residues of thyroglobulin in the thyroid gland to form thyroid hormones.",
+      "population": "Pregnant women, infants, and populations in iodine-deficient regions",
+      "source_context": "Iodine  530\nFunctions and Mechanisms of Action  531\nDeficiency  534",
+      "id": "f08c2bd5aca3",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937104"
+    },
+    {
+      "nutrient": "Chromium",
+      "fact": "Chromium enhances insulin sensitivity and glucose uptake by potentiating insulin receptor signaling.",
+      "mechanism": "Forms part of chromodulin, a low-molecular-weight oligopeptide that amplifies insulin receptor kinase activity.",
+      "population": "Individuals with insulin resistance or type 2 diabetes",
+      "source_context": "Chromium  527\nFunctions and Mechanisms of Action  528",
+      "id": "6c5c6250a1c2",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937108"
+    },
+    {
+      "nutrient": "Manganese",
+      "fact": "Manganese is a cofactor for enzymes involved in bone formation, amino acid metabolism, and antioxidant defense (e.g., Mn-SOD).",
+      "mechanism": "Activates glycosyltransferases for proteoglycan synthesis and superoxide dismutase for mitochondrial ROS scavenging.",
+      "population": "Infants fed soy-based formulas (higher Mn), individuals with liver disease",
+      "source_context": "Manganese  536\nFunctions and Mechanisms of Action  536\nDeficiency  538",
+      "id": "2151a48f07e0",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937112"
+    },
+    {
+      "nutrient": "维生素D",
+      "fact": "最新膳食摄入推荐已更新，并扩展了其在肌肉功能中的作用",
+      "mechanism": "调节肌肉细胞钙信号及基因表达，影响肌纤维合成与功能",
+      "population": "一般人群，尤其关注肌肉健康者",
+      "source_context": "Chapter 10  Fat-Soluble Vitamins: 'expanded the discussion of the roles of vitamin E in gene expression and vitamin D in muscle function'；'included the latest dietary intake recommendations for vitamin D'",
+      "id": "f1c438e6f070",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937117"
+    },
+    {
+      "nutrient": "维生素K",
+      "fact": "与骨骼健康密切相关",
+      "mechanism": "作为γ-谷氨酰羧化酶的辅因子，促进骨钙素等骨基质蛋白的活化",
+      "population": "中老年人、骨质疏松风险人群",
+      "source_context": "Chapter 10: 'updated and expanded the coverage of the relationships between the fat-soluble vitamins and diseases including... vitamin K and bone health'",
+      "id": "1b2ac8b57cf5",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937121"
+    },
+    {
+      "nutrient": "钙",
+      "fact": "最新膳食摄入推荐已更新，吸收机制及骨形成/骨吸收过程得到扩展",
+      "mechanism": "跨膜转运（TRPV6、CaBP-D9k）、激素调控（PTH、维生素D）、成骨/破骨细胞平衡",
+      "population": "各年龄段，尤以儿童、孕妇、绝经后女性为重点",
+      "source_context": "Chapter 11  Major Minerals: 'included the latest dietary intake recommendations for calcium'；'expanded the discussion of calcium absorption as well as bone formation and resorption'",
+      "id": "1bd65eff73cb",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937125"
+    },
+    {
+      "nutrient": "钠、钙、镁",
+      "fact": "三者与高血压存在关联",
+      "mechanism": "钠升高血管张力与血容量；钙/镁拮抗钠致血管收缩，调节平滑肌细胞内钙浓度",
+      "population": "高血压前期及高血压患者",
+      "source_context": "Chapter 11: 'updated the discussion of the associations between sodium, calcium, and magnesium and hypertension in the Perspective'",
+      "id": "ef8483dcc9ce",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937129"
+    },
+    {
+      "nutrient": "维生素C",
+      "fact": "与感冒、癌症、心血管病及眼健康相关",
+      "mechanism": "抗氧化、胶原合成、内皮功能维护、铁吸收促进及基因表达调控",
+      "population": "免疫力低下者、吸烟者、慢性病高风险人群",
+      "source_context": "Chapter 9  Water-Soluble Vitamins: 'updated and expanded coverage of the relationships between some of the water-soluble vitamins and various diseases including, for example, vitamin C and colds, cancer, heart disease, and eye health'",
+      "id": "a6777e96a1bd",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937134"
+    },
+    {
+      "nutrient": "叶酸",
+      "fact": "与痴呆、心血管病、癌症及神经管缺陷相关",
+      "mechanism": "参与一碳代谢，影响DNA甲基化与合成，缺乏致同型半胱氨酸升高及神经发育异常",
+      "population": "育龄妇女、老年人、高同型半胱氨酸血症者",
+      "source_context": "Chapter 9: 'folate and dementia, heart disease, cancer, and neural tube defects'",
+      "id": "4922e2b4fd2b",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937138"
+    },
+    {
+      "nutrient": "维生素B12",
+      "fact": "与心血管病及神经管缺陷相关",
+      "mechanism": "协同叶酸参与同型半胱氨酸再甲基化，缺乏导致甲基丙二酸蓄积及神经髓鞘损伤",
+      "population": "老年人、素食者、胃肠道吸收障碍者",
+      "source_context": "Chapter 9: 'vitamin B12 and heart disease and neural tube defects'",
+      "id": "81b87fbc98ee",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937142"
+    },
+    {
+      "nutrient": "磷",
+      "fact": "新增其在体内的多种生理角色",
+      "mechanism": "构成ATP、磷脂、核酸及羟基磷灰石；参与信号转导（磷酸化）和pH缓冲",
+      "population": "一般人群，肾功能不全者需限制",
+      "source_context": "Chapter 11: 'added coverage of the roles of phosphorus in the body'",
+      "id": "3f3792e5aa22",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937146"
+    },
+    {
+      "nutrient": "血管加压素（ADH）",
+      "fact": "调控水与钠重吸收及钾排泄",
+      "mechanism": "通过V2受体激活集合管AQP2水通道；间接影响钠钾转运",
+      "population": "脱水、低血容量或SIADH患者",
+      "source_context": "Chapter 12  Water and Electrolytes: 'expanded the discussion of the role of vasopressin (ADH) in the reabsorption of water and sodium and the excretion of potassium'",
+      "id": "1e0220481744",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937150"
+    },
+    {
+      "nutrient": "肾素-血管紧张素II-醛固酮系统（RAAS）",
+      "fact": "协同调控水钠重吸收与钾排泄",
+      "mechanism": "血管紧张素II刺激近曲小管Na⁺重吸收；醛固酮促进远曲小管Na⁺重吸收/K⁺排泄",
+      "population": "心衰、肝硬化、肾病综合征等体液失衡患者",
+      "source_context": "Chapter 12: 'expanded coverage of the role of the renin-angiotensin II-aldosterone system in the reabsorption of water and sodium and the excretion of potassium'",
+      "id": "3b0d09cd2ff8",
+      "source": "Advanced Nutrition and Human Metabolism",
+      "extracted_at": "2026-06-05T01:37:52.937155"
+    }
+  ]
+}

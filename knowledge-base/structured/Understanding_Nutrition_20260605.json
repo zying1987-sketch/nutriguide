@@ -1,0 +1,431 @@
+{
+  "source": "Understanding_Nutrition",
+  "extracted_at": "2026-06-05T01:39:54.518485",
+  "total_items": 53,
+  "items": [
+    {
+      "nutrient": "Dietary Reference Intakes (DRI)",
+      "fact": "DRI includes RDA (Recommended Dietary Allowance) and AI (Adequate Intake) as nutrient intake goals; RDA meets needs of most healthy individuals, while AI is used when evidence is insufficient for RDA.",
+      "source_context": "The Dietary Reference Intakes (DRI) include two sets of nutrient intake goals for individuals—the Recommended Dietary Allowance (RDA) and Adequate Intake (AI). The RDA reflects the average daily amount of a nutrient considered adequate to meet the needs of most healthy people. If there is insufficient evidence to determine an RDA, an AI is set.",
+      "id": "93a4d841fb03",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.516907"
+    },
+    {
+      "nutrient": "Estimated Energy Requirement (EER)",
+      "fact": "EER represents the average dietary energy intake level predicted to maintain energy balance in a healthy individual of specified age, gender, weight, height, and physical activity level.",
+      "source_context": "The Estimated Energy Requirement (EER) represents the average dietary energy intake that will maintain energy balance in a healthy person of a given gender, age, weight, height, and physical activity level.",
+      "id": "85f0b41c9fa2",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.516974"
+    },
+    {
+      "nutrient": "Tolerable Upper Intake Level (UL)",
+      "fact": "UL is the highest average daily nutrient intake level likely to pose no risk of adverse health effects for most healthy people; absence of a UL does not imply safety at high intakes.",
+      "source_context": "The DRI also include the Tolerable Upper Intake Level (UL) that represents the estimated maximum daily amount of a nutrient that appears safe for most healthy people to consume on a regular basis. Note that the absence of a UL for a nutrient does not indicate that it is safe to consume in high doses, but only that research is too limited to set a UL.",
+      "id": "4c24d1ef5f5e",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517003"
+    },
+    {
+      "nutrient": "Water",
+      "fact": "Water AI includes water from beverages, drinking water, and food; beverages contribute ~70–80% of total water intake.",
+      "source_context": "aThe water AI includes drinking water, water in beverages, and water in foods; in general, drinking water and other beverages contribute about 70 to 80 percent, and foods, the remainder.",
+      "id": "c830d80d39ad",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517012"
+    },
+    {
+      "nutrient": "Alpha-linolenic acid (ALA)",
+      "fact": "ALA is the omega-3 fatty acid referenced as 'linolenic acid' in DRI tables and recommendations.",
+      "source_context": "cThe linolenic acid referred to in this table and text is the omega-3 fatty acid known as alpha-linolenic acid.",
+      "id": "1952df753c3a",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517018"
+    },
+    {
+      "nutrient": "Protein",
+      "fact": "Protein RDA is expressed both in absolute grams per day and relative to body weight (g/kg/day), with values decreasing slightly with age in adults and increasing during pregnancy and lactation.",
+      "source_context": "Protein RDA (g/day) and Protein RDA (g/kg/day) columns show age- and life-stage–specific values; e.g., increases to 1.10 g/kg/day in 2nd/3rd trimester and 1.30 g/kg/day in early lactation.",
+      "id": "3d5a8cd778a7",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517025"
+    },
+    {
+      "nutrient": "Dietary Fiber",
+      "fact": "Total fiber AI increases with age in children and peaks in adolescence/adulthood (e.g., 38 g/day for males 14–18 y), then declines modestly after age 50 (30 g/day).",
+      "source_context": "Total Fiber AI (g/day) column shows values: 19 (1–3 y), 25 (4–8 y), 31 (9–13 y), 38 (14–18 y), 38 (19–30 y), 30 (>50 y) for males.",
+      "id": "ef381a123e20",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517031"
+    },
+    {
+      "nutrient": "Linoleic acid",
+      "fact": "Linoleic acid (omega-6) AI remains stable across most adult life stages (17 g/day for males, 12–13 g/day for females), with slight reductions in older adulthood.",
+      "source_context": "Linoleic Acid AI (g/day): males 17 (14–18 y through >50 y); females 10–13 g/day across reproductive and postmenopausal ages.",
+      "id": "5b1a580ca3c3",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517052"
+    },
+    {
+      "nutrient": "Sodium",
+      "fact": "Adequate Intake (AI) for sodium is 1500 mg/day for most children aged 9–13 years and adults aged 19–50 years, decreasing to 1300 mg/day for adults 51–70 years and 1200 mg/day for those over 70.",
+      "source_context": "Recommended Dietary Allowances (RDA) and Adequate Intakes (AI) for Minerals — Sodium AI (mg/day) table",
+      "id": "368ae5f82d0b",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517059"
+    },
+    {
+      "nutrient": "Potassium",
+      "fact": "AI for potassium is 4700 mg/day for most individuals aged 14 years and older, including pregnant and lactating women (who require 5100 mg/day).",
+      "source_context": "Recommended Dietary Allowances (RDA) and Adequate Intakes (AI) for Minerals — Potassium AI (mg/day) table",
+      "id": "226116c60ae9",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517076"
+    },
+    {
+      "nutrient": "Calcium",
+      "fact": "RDA for calcium is 1300 mg/day for adolescents aged 9–18 years; decreases to 1000 mg/day for adults 19–50 years, then increases to 1200 mg/day for women ≥51 years and men ≥71 years.",
+      "source_context": "Recommended Dietary Allowances (RDA) and Adequate Intakes (AI) for Minerals — Calcium RDA (mg/day) table",
+      "id": "3d8e14ffa8ed",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517082"
+    },
+    {
+      "nutrient": "Iron",
+      "fact": "RDA for iron is significantly higher in females of childbearing age (18 mg/day) compared to males of same age (8 mg/day), reflecting menstrual losses; pregnancy increases requirement to 27 mg/day.",
+      "source_context": "Recommended Dietary Allowances (RDA) and Adequate Intakes (AI) for Minerals — Iron RDA (mg/day) table",
+      "id": "201108107613",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517088"
+    },
+    {
+      "nutrient": "Folate",
+      "fact": "RDA for folate is 600 μg DFE/day during pregnancy to support neural tube development; lactation reduces requirement to 500 μg DFE/day.",
+      "source_context": "Recommended Dietary Allowances (RDA) and Adequate Intakes (AI) for Vitamins — Folate RDA (μg/day) table, footnote b",
+      "id": "6951bb61ed4f",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517095"
+    },
+    {
+      "nutrient": "Vitamin D",
+      "fact": "RDA for vitamin D is 600 IU/day (15 μg) for individuals aged 1–70 years; increases to 800 IU/day (20 μg) for adults >70 years, assuming minimal sun exposure.",
+      "source_context": "Recommended Dietary Allowances (RDA) and Adequate Intakes (AI) for Vitamins — Vitamin D RDA (IU/day), footnote d",
+      "id": "5042229e1330",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517102"
+    },
+    {
+      "nutrient": "Vitamin A",
+      "fact": "RDA for vitamin A is expressed as retinol activity equivalents (RAE); values range from 400 μg RAE/day for infants to 900 μg RAE/day for adult males and 700 μg RAE/day for adult females.",
+      "source_context": "Recommended Dietary Allowances (RDA) and Adequate Intakes (AI) for Vitamins — Vitamin A RDA (μg/day), footnote c",
+      "id": "344257d49a6a",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517108"
+    },
+    {
+      "nutrient": "Choline",
+      "fact": "AI for choline is 425 mg/day for adult women, 550 mg/day for adult men, and increases to 450–550 mg/day during pregnancy and lactation respectively.",
+      "source_context": "Recommended Dietary Allowances (RDA) and Adequate Intakes (AI) for Vitamins — Choline AI (mg/day) table",
+      "id": "cfbe3836799c",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517114"
+    },
+    {
+      "nutrient": "Vitamin B6",
+      "fact": "RDA for vitamin B6 increases with age: 1.0 mg/day for ages 9–13, 1.3 mg/day for adults 19–50, and 1.7 mg/day for adults ≥51 years.",
+      "source_context": "Recommended Dietary Allowances (RDA) and Adequate Intakes (AI) for Vitamins — Vitamin B6 RDA (mg/day) table",
+      "id": "7fb384655bb3",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517131"
+    },
+    {
+      "nutrient": "Iodine",
+      "fact": "RDA for iodine is 150 μg/day for most adults, increasing to 220 μg/day during pregnancy and 290 μg/day during lactation to support fetal and infant thyroid function.",
+      "source_context": "Recommended Dietary Allowances (RDA) and Adequate Intakes (AI) for Minerals — Iodine RDA (μg/day) table",
+      "id": "26b68b7b7650",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517155"
+    },
+    {
+      "nutrient": "Niacin",
+      "fact": "Tolerable Upper Intake Level (UL) for synthetic niacin is 35 mg/day for adults aged 19–70, applicable only to supplements and fortified foods—not naturally occurring food sources.",
+      "source_context": "Tolerable Upper Intake Levels (UL) for Vitamins table; footnote a: 'The UL for niacin and folate apply to synthetic forms obtained from supplements, fortified foods, or a combination of the two.'",
+      "id": "de95e0787c73",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517162"
+    },
+    {
+      "nutrient": "Vitamin B6",
+      "fact": "UL for vitamin B6 is 100 mg/day for adults 19–70 years; chronic intakes above this level may cause sensory neuropathy.",
+      "source_context": "Tolerable Upper Intake Levels (UL) for Vitamins table; adults 19–70 row shows Vitamin B6 UL = 100 mg/day.",
+      "id": "9e4c71060f36",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517170"
+    },
+    {
+      "nutrient": "Folate",
+      "fact": "UL for synthetic folate is 1000 μg/day for adults; applies only to folic acid from supplements/fortified foods, not natural food folate.",
+      "source_context": "Tolerable Upper Intake Levels (UL) for Vitamins table; footnote a and adults 19–70 row: Folate UL = 1000 μg/day.",
+      "id": "beeb83cfdcd9",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517176"
+    },
+    {
+      "nutrient": "Choline",
+      "fact": "UL for choline is 3500 mg/day for adults 19–70; excessive intake may cause hypotension, fishy body odor, or hepatotoxicity.",
+      "source_context": "Tolerable Upper Intake Levels (UL) for Vitamins table; adults 19–70 row shows Choline UL = 3500 mg/day.",
+      "id": "e5b12d381a29",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517182"
+    },
+    {
+      "nutrient": "Vitamin C",
+      "fact": "UL for vitamin C is 2000 mg/day for adults; higher intakes may cause gastrointestinal distress and increase risk of kidney stones in susceptible individuals.",
+      "source_context": "Tolerable Upper Intake Levels (UL) for Vitamins table; adults 19–70 row shows Vitamin C UL = 2000 mg/day.",
+      "id": "070c9e714302",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517188"
+    },
+    {
+      "nutrient": "Vitamin A",
+      "fact": "UL for preformed vitamin A is 3000 IU/day (≈900 μg RAE) for adults; does not include provitamin A carotenoids like beta-carotene.",
+      "source_context": "Tolerable Upper Intake Levels (UL) for Vitamins table; footnote b: 'The UL for vitamin A applies to the preformed vitamin only.' Adults 19–70 row: 3000 IU/day.",
+      "id": "dc1e693b92fc",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517194"
+    },
+    {
+      "nutrient": "Vitamin D",
+      "fact": "UL for vitamin D is 4000 IU/day (100 μg) for all adults and most life stages; long-term intake above this may lead to hypercalcemia and soft-tissue calcification.",
+      "source_context": "Tolerable Upper Intake Levels (UL) for Vitamins table; adults 19–70 and all other adult/life-stage rows show Vitamin D UL = 4000 IU/day (100 µg).",
+      "id": "f1fb725e56ff",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517207"
+    },
+    {
+      "nutrient": "Vitamin E",
+      "fact": "UL for supplemental α-tocopherol is 1000 mg/day for adults; applies to supplements, fortified foods, or combinations—not natural dietary sources.",
+      "source_context": "Tolerable Upper Intake Levels (UL) for Vitamins table; footnote c and adults 19–70 row: Vitamin E UL = 1000 mg/day.",
+      "id": "aa029444045f",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517214"
+    },
+    {
+      "nutrient": "Sodium",
+      "fact": "UL for sodium is 2300 mg/day for adults ≥19 years; consistent excess intake is associated with increased blood pressure and cardiovascular risk.",
+      "source_context": "Tolerable Upper Intake Levels (UL) for Minerals table; adults 19–50, 51–70, and >70 rows all list Sodium UL = 2300 mg/day.",
+      "id": "104cbcabd682",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517219"
+    },
+    {
+      "nutrient": "Calcium",
+      "fact": "UL for calcium is 2500 mg/day for adults 19–50, decreasing to 2000 mg/day after age 51; high intakes may impair iron/zinc absorption and increase kidney stone risk.",
+      "source_context": "Tolerable Upper Intake Levels (UL) for Minerals table; Calcium UL = 2500 mg/day (19–50), 2000 mg/day (51–70 and >70).",
+      "id": "6c4ceac631c4",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517225"
+    },
+    {
+      "nutrient": "Magnesium",
+      "fact": "UL for magnesium applies only to synthetic forms (supplements/drugs), not food; UL is 350 mg/day for adults ≥9 years.",
+      "source_context": "Tolerable Upper Intake Levels (UL) for Minerals table; footnote d and all age groups ≥9 years show Magnesium UL = 350 mg/day.",
+      "id": "6aaade075b7f",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517231"
+    },
+    {
+      "nutrient": "Iron",
+      "fact": "UL for iron is 45 mg/day for adults; higher doses may cause gastrointestinal toxicity and oxidative stress, especially in non-deficient individuals.",
+      "source_context": "Tolerable Upper Intake Levels (UL) for Minerals table; adults 19–50, 51–70, and >70 rows list Iron UL = 45 mg/day.",
+      "id": "dbdd7dc6c212",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517236"
+    },
+    {
+      "nutrient": "Zinc",
+      "fact": "UL for zinc is 40 mg/day for adults; chronic excess can impair copper absorption, cause immune dysfunction, and reduce HDL cholesterol.",
+      "source_context": "Tolerable Upper Intake Levels (UL) for Minerals table; adults 19–50, 51–70, and >70 rows list Zinc UL = 40 mg/day.",
+      "id": "72858aaa4b08",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517241"
+    },
+    {
+      "nutrient": "Iodine",
+      "fact": "UL for iodine is 1100 μg/day for adults; excessive intake may trigger thyroid dysfunction, including hypothyroidism or hyperthyroidism.",
+      "source_context": "Tolerable Upper Intake Levels (UL) for Minerals table; adults 19–50, 51–70, and >70 rows list Iodine UL = 1100 μg/day.",
+      "id": "3b00288581ff",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517246"
+    },
+    {
+      "nutrient": "Selenium",
+      "fact": "UL for selenium is 400 μg/day for adults; chronic intake above UL is linked to selenosis, manifesting as hair loss, nail brittleness, and neurological abnormalities.",
+      "source_context": "Tolerable Upper Intake Levels (UL) for Minerals table; adults 19–50, 51–70, and >70 rows list Selenium UL = 400 μg/day.",
+      "id": "3914993389a4",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517251"
+    },
+    {
+      "nutrient": "Folate",
+      "fact": "Folate is a water-soluble B vitamin critical for DNA synthesis and red blood cell formation; deficiency causes megaloblastic anemia and increases neural tube defect risk in pregnancy",
+      "source_context": "Table of Contents   xi — Folate  310",
+      "id": "09e0611d7ccb",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517256"
+    },
+    {
+      "nutrient": "Vitamin B12",
+      "fact": "Vitamin B12 works synergistically with folate in DNA synthesis and nerve function; deficiency leads to pernicious anemia and irreversible neurological damage",
+      "source_context": "Table of Contents   xi — Vitamin B12  315",
+      "id": "63a426bdb209",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517261"
+    },
+    {
+      "nutrient": "Choline",
+      "fact": "Choline is a conditionally essential nutrient involved in phospholipid synthesis, neurotransmission (acetylcholine), and methyl-group metabolism",
+      "source_context": "Table of Contents   xi — Choline  318",
+      "id": "c3c6ff813b58",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517267"
+    },
+    {
+      "nutrient": "Vitamin C",
+      "fact": "Vitamin C functions as a cofactor in collagen synthesis, enhances nonheme iron absorption, and acts as a potent antioxidant",
+      "source_context": "Table of Contents   xi — 10.3 Vitamin C  322",
+      "id": "18f0b18193ec",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517272"
+    },
+    {
+      "nutrient": "Vitamin A",
+      "fact": "Vitamin A (retinol) and beta-carotene support vision, immune function, and epithelial integrity; deficiency causes night blindness and xerophthalmia",
+      "source_context": "Table of Contents   xi — 11.1 Vitamin A and Beta-Carotene  340",
+      "id": "d1bec7b2bf23",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517277"
+    },
+    {
+      "nutrient": "Vitamin D",
+      "fact": "Vitamin D regulates calcium and phosphorus absorption for bone mineralization; synthesized in skin via UVB exposure and obtained from fortified foods or supplements",
+      "source_context": "Table of Contents   xi — 11.2 Vitamin D  347",
+      "id": "ae7d0ebaf205",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517282"
+    },
+    {
+      "nutrient": "Vitamin E",
+      "fact": "Vitamin E (alpha-tocopherol) is the major lipid-soluble antioxidant protecting cell membranes from oxidative damage",
+      "source_context": "Table of Contents   xi — 11.3 Vitamin E  353",
+      "id": "916d0e5a3575",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517286"
+    },
+    {
+      "nutrient": "Vitamin K",
+      "fact": "Vitamin K is essential for post-translational gamma-carboxylation of clotting factors II, VII, IX, X and bone proteins like osteocalcin",
+      "source_context": "Table of Contents   xi — 11.4 Vitamin K  354",
+      "id": "bcbaa3e318a3",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517291"
+    },
+    {
+      "nutrient": "Water",
+      "fact": "Water maintains blood volume, regulates temperature, transports nutrients, and supports acid-base and electrolyte balance",
+      "source_context": "Table of Contents   xi — 12.1 Water and the Body Fluids  368",
+      "id": "64ef6fc5950d",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517296"
+    },
+    {
+      "nutrient": "Sodium",
+      "fact": "Sodium is the primary extracellular cation regulating fluid balance, nerve transmission, and muscle contraction; excess intake is linked to hypertension",
+      "source_context": "Table of Contents   xi — Sodium  379",
+      "id": "49d236fdc2e2",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517301"
+    },
+    {
+      "nutrient": "Potassium",
+      "fact": "Potassium is the principal intracellular cation that counterbalances sodium, supports heart rhythm, and helps lower blood pressure",
+      "source_context": "Table of Contents   xi — Potassium  383",
+      "id": "d3f51b344da0",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517305"
+    },
+    {
+      "nutrient": "Calcium",
+      "fact": "Calcium is vital for bone and teeth structure, muscle contraction, nerve signaling, and blood clotting; inadequate intake contributes to osteoporosis",
+      "source_context": "Table of Contents   xi — Calcium  384",
+      "id": "338132fa07d8",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517310"
+    },
+    {
+      "nutrient": "Iron",
+      "fact": "Iron is central to hemoglobin and myoglobin for oxygen transport and storage; deficiency causes microcytic hypochromic anemia",
+      "source_context": "Table of Contents   xi — Iron  405",
+      "id": "f8eb35d78042",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517315"
+    },
+    {
+      "nutrient": "Zinc",
+      "fact": "Zinc is a cofactor for over 300 enzymes involved in DNA synthesis, immune function, wound healing, and taste perception",
+      "source_context": "Table of Contents   xi — Zinc  414",
+      "id": "663dc3cbe0c9",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517319"
+    },
+    {
+      "nutrient": "Iodine",
+      "fact": "Iodine is required for synthesis of thyroid hormones T3 and T4, which regulate basal metabolic rate and growth",
+      "source_context": "Table of Contents   xi — Iodine  418",
+      "id": "9a6c61ac2206",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517324"
+    },
+    {
+      "nutrient": "Selenium",
+      "fact": "Selenium is incorporated into selenoproteins such as glutathione peroxidase, playing key roles in antioxidant defense and thyroid hormone metabolism",
+      "source_context": "Table of Contents   xi — Selenium  419",
+      "id": "0cf647251b5c",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517328"
+    },
+    {
+      "nutrient": "Fluoride",
+      "fact": "Fluoride strengthens tooth enamel by forming fluorapatite and inhibits dental caries; optimal intake prevents tooth decay without causing fluorosis",
+      "source_context": "Table of Contents   xi — Fluoride  422",
+      "id": "c0d9b6c7a5d1",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517333"
+    },
+    {
+      "nutrient": "Pregnancy nutrition",
+      "fact": "Maternal folate, iron, iodine, and energy needs increase significantly during pregnancy to support fetal growth and prevent complications like NTDs and preterm birth",
+      "source_context": "Table of Contents   xi — Chapter 15 Nutrition during Pregnancy  479",
+      "id": "fa1b60a6cacc",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517338"
+    },
+    {
+      "nutrient": "Infant nutrition",
+      "fact": "Exclusive breastfeeding is recommended for first 6 months; iron-fortified formula is alternative; cow’s milk is inappropriate before age 1 due to renal solute load and low iron",
+      "source_context": "Table of Contents   xi — Chapter 16 Nutrition during Infancy  505",
+      "id": "6ca5ec5582d5",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517344"
+    },
+    {
+      "nutrient": "Adolescent nutrition",
+      "fact": "Adolescents have increased requirements for calcium, iron (especially females), zinc, and protein to support rapid growth, peak bone mass accrual, and sexual maturation",
+      "source_context": "Table of Contents   xi — 16.3 Nutrition during Adolescence  536",
+      "id": "9642189f0e5b",
+      "source": "Understanding Nutrition",
+      "extracted_at": "2026-06-05T01:39:54.517348"
+    }
+  ]
+}
