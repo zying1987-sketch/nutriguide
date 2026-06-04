@@ -1,6 +1,6 @@
 const express = require('express')
 const { getDb } = require('../db/setup')
-const { requireAdmin } = require('../middleware/auth')
+const { requireAuth, requireAdmin } = require('../middleware/auth')
 
 const router = express.Router()
 

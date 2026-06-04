@@ -48,7 +48,7 @@ function loadKnowledgeBase() {
 
   const allEntries = []
 
-  // ---- 加载原有结构化知识 ----
+  // ---- 加载结构化知识（子目录） ----
   const subdirs = ['foods', 'principles', 'populations', 'meals', 'assessments', 'disease_nutrition']
   for (const subdir of subdirs) {
     const dirPath = path.join(KB_DIR, subdir)
@@ -90,6 +90,41 @@ function loadKnowledgeBase() {
       } catch (err) {
         console.error(`[KB] 加载失败: ${file}`, err.message)
       }
+    }
+  }
+
+  // ---- 加载根级 Pipeline 输出（json文件含 items 数组，每项有 nutrient+fact） ----
+  const rootFiles = fs.readdirSync(KB_DIR).filter(f => f.endsWith('.json'))
+  for (const file of rootFiles) {
+    const filePath = path.join(KB_DIR, file)
+    if (fs.statSync(filePath).isDirectory()) continue
+    try {
+      const raw = fs.readFileSync(filePath, 'utf8')
+        .replace(/[\x00-\x08\x0B\x0C\x0E-\x1F]/g, '')
+      const data = JSON.parse(raw)
+
+      // Pipeline 输出格式: { items: [{nutrient, fact, mechanism, evidence, source, ...}] }
+      if (data.items && Array.isArray(data.items)) {
+        for (const item of data.items) {
+          if (item.fact) {
+            allEntries.push({
+              id: item.id || `pipeline-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
+              title: item.nutrient || '',
+              content: item.fact,
+              tags: [item.nutrient, item.population, item.source].filter(Boolean),
+              category: 'pipeline',
+              source: item.source || data.source || '未知来源',
+              evidence_level: item.evidence || 'B',
+              meta_source: `${item.source || data.source || ''} (via Pipeline)`.trim(),
+              mechanism: item.mechanism || '',
+              population: item.population || '',
+            })
+          }
+        }
+        console.log(`[KB] Pipeline 加载: ${file} → ${data.items.length} 条`)
+      }
+    } catch (err) {
+      console.error(`[KB] Pipeline 加载失败: ${file}`, err.message)
     }
   }
 
