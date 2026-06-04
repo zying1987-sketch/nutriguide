@@ -170,4 +170,20 @@ router.put('/me', requireAuth, (req, res) => {
   res.json({ user })
 })
 
+// 自升级为管理员（已认证用户，检查是否是第一个用户或匹配 ADMIN_EMAILS）
+router.post('/promote', requireAuth, (req, res) => {
+  const db = getDb()
+
+  // 检查是否是第一个注册用户
+  const firstUser = db.prepare('SELECT id FROM users ORDER BY id ASC LIMIT 1').get()
+  const adminEmails = (process.env.ADMIN_EMAILS || '').split(',').map(e => e.trim()).filter(Boolean)
+
+  if (firstUser?.id === req.user.id || adminEmails.includes(req.user.email)) {
+    db.prepare('UPDATE users SET role = ? WHERE id = ?').run('admin', req.user.id)
+    return res.json({ success: true, message: '已升级为管理员，请退出重新登录' })
+  }
+
+  res.status(403).json({ error: '无权限：仅第一个注册用户或 ADMIN_EMAILS 中的邮箱可升级' })
+})
+
 module.exports = router
