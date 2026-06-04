@@ -152,9 +152,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 积分购买弹窗 */}
-      {showPurchase && <CreditPurchaseModal onClose={() => setShowPurchase(false)} />}
-
       {/* ===== WHY US ===== */}
       <section className="py-28 md:py-36">
         <div className="max-w-[1200px] mx-auto px-6">
