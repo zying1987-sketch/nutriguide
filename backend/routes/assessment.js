@@ -6,7 +6,7 @@ const router = express.Router()
 
 // 保存自测记录（需登录）
 router.post('/', requireAuth, (req, res) => {
-  const { stepData, result } = req.body
+  const { stepData, result, fullReport } = req.body
 
   if (!stepData) {
     return res.status(400).json({ error: '缺少自测数据' })
@@ -14,8 +14,8 @@ router.post('/', requireAuth, (req, res) => {
 
   const db = getDb()
   const r = db.prepare(
-    'INSERT INTO assessments (user_id, step_data, result) VALUES (?, ?, ?)'
-  ).run(req.user.id, JSON.stringify(stepData), result ? JSON.stringify(result) : null)
+    'INSERT INTO assessments (user_id, step_data, result, full_report) VALUES (?, ?, ?, ?)'
+  ).run(req.user.id, JSON.stringify(stepData), result ? JSON.stringify(result) : null, fullReport || '')
 
   res.status(201).json({ id: r.lastInsertRowid })
 })
@@ -53,8 +53,28 @@ router.get('/:id', requireAuth, (req, res) => {
     id: record.id,
     stepData: JSON.parse(record.step_data),
     result: record.result ? JSON.parse(record.result) : null,
+    hasReport: !!(record.full_report),
     createdAt: record.created_at
   })
+})
+
+// 更新评估记录的报告内容
+router.put('/:id/report', requireAuth, (req, res) => {
+  const { fullReport } = req.body
+  if (!fullReport) {
+    return res.status(400).json({ error: '缺少报告内容' })
+  }
+
+  const db = getDb()
+  const result = db.prepare(
+    'UPDATE assessments SET full_report = ? WHERE id = ? AND user_id = ?'
+  ).run(fullReport, req.params.id, req.user.id)
+
+  if (result.changes === 0) {
+    return res.status(404).json({ error: '记录不存在或无权限' })
+  }
+
+  res.json({ success: true })
 })
 
 // 保存28天方案
@@ -100,6 +120,36 @@ router.get('/plan/:id', requireAuth, (req, res) => {
     planData: JSON.parse(record.plan_data),
     createdAt: record.created_at
   })
+})
+
+// 下载 AI 完整报告
+router.get('/:id/report', optionalAuth, (req, res) => {
+  // 支持 token 从 URL query 参数传入（方便浏览器直接下载）
+  if (!req.user && req.query.token) {
+    try {
+      const jwt = require('jsonwebtoken')
+      req.user = jwt.verify(req.query.token, process.env.JWT_SECRET || 'nutriguide-dev-secret-change-me')
+    } catch (e) { /* token 无效则继续（下面会拦） */ }
+  }
+
+  if (!req.user) {
+    return res.status(401).json({ error: '请先登录' })
+  }
+  const db = getDb()
+  const record = db.prepare(
+    'SELECT full_report, created_at FROM assessments WHERE id = ? AND user_id = ?'
+  ).get(req.params.id, req.user.id)
+
+  if (!record || !record.full_report) {
+    return res.status(404).json({ error: '该记录暂无完整报告' })
+  }
+
+  const date = record.created_at ? record.created_at.slice(0, 10) : 'unknown'
+  const filename = `NutriGuide_评估报告_${date}.txt`
+
+  res.setHeader('Content-Type', 'text/plain; charset=utf-8')
+  res.setHeader('Content-Disposition', `attachment; filename="${encodeURIComponent(filename)}"`)
+  res.send(record.full_report)
 })
 
 module.exports = router

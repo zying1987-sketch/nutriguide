@@ -263,8 +263,9 @@ export default function AssessmentPage() {
     navigate('/results')
 
     // 后台保存自测结果
+    let savedId: number | null = null
     try {
-      await api.saveAssessment({
+      const saved = await api.saveAssessment({
         stepData: allData,
         result: {
           userProfile: result.userProfile,
@@ -276,7 +277,8 @@ export default function AssessmentPage() {
           dietQualityLevel: result.dietQualityLevel,
         }
       })
-      console.log('自测结果已保存到服务器')
+      savedId = saved.id
+      console.log('自测结果已保存到服务器，ID:', savedId)
     } catch (e: any) {
       console.warn('保存自测结果失败:', e.message)
     }
@@ -288,6 +290,15 @@ export default function AssessmentPage() {
       if (aiResult.plan) {
         setAIPlan(aiResult.plan)
         setAIModel(aiResult.model || null)
+        // 将 AI 报告存入数据库
+        if (savedId) {
+          try {
+            await api.updateAssessmentReport(savedId, aiResult.plan)
+            console.log('AI 报告已存入数据库')
+          } catch (e: any) {
+            console.warn('保存 AI 报告失败:', e.message)
+          }
+        }
       }
     } catch (e: any) {
       console.log('AI 报告不可用，使用本地模板:', e.message)

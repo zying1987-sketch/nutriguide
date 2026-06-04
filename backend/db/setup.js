@@ -96,8 +96,9 @@ function initTables() {
     );
   `)
 
-  // 迁移：为旧表加 phone 列（SQLite 不支持 IF NOT EXISTS for ALTER，用 try-catch）
+  // 迁移：为旧表加列（SQLite 不支持 IF NOT EXISTS for ALTER，用 try-catch）
   try { db.exec('ALTER TABLE users ADD COLUMN phone TEXT DEFAULT \'\'') } catch (e) { /* 已存在则忽略 */ }
+  try { db.exec('ALTER TABLE assessments ADD COLUMN full_report TEXT DEFAULT \'\'') } catch (e) { /* 已存在则忽略 */ }
 
   // 检查是否需要创建默认管理员
   const adminCount = db.prepare('SELECT COUNT(*) as count FROM users WHERE role = ?').get('admin')

@@ -2,7 +2,8 @@ import { useState, useEffect } from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import {
   ArrowLeft, Loader2, AlertCircle, CheckCircle, Clock, User,
-  Target, Apple, AlertTriangle, ThumbsUp, Activity, Moon, Zap
+  Target, Apple, AlertTriangle, ThumbsUp, Activity, Moon, Zap,
+  Download, FileText
 } from 'lucide-react'
 import { api } from '../lib/api'
 
@@ -36,6 +37,7 @@ interface AssessmentDetail {
     dietStrengths?: string[]
     dietWeaknesses?: string[]
   } | null
+  hasReport?: boolean
   createdAt: string
 }
 
@@ -279,6 +281,22 @@ export default function HistoryDetailPage() {
               )
             })}
           </div>
+        </div>
+      )}
+
+      {/* ============ AI 完整报告 ============ */}
+      {record.hasReport && (
+        <div className="bg-white rounded-2xl border border-[#E8E3DB] p-6 mb-6">
+          <h2 className="flex items-center gap-2 text-sm font-semibold text-[#1B2A4A] mb-4">
+            <FileText className="w-4 h-4 text-[#7A8B6F]" /> AI 完整评估报告
+          </h2>
+          <p className="text-sm text-[#6B6560] mb-4">由大语言模型生成的详细营养干预方案，包含补充建议、饮食调整计划和生活方式指导。</p>
+          <button
+            onClick={() => api.downloadReport(record.id)}
+            className="flex items-center gap-2 px-5 py-2.5 bg-[#2D9C6F] text-white rounded-full text-sm font-medium hover:bg-[#258A5E] transition-colors"
+          >
+            <Download size={16} /> 下载完整报告（TXT）
+          </button>
         </div>
       )}
 

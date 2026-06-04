@@ -47,8 +47,11 @@ export const api = {
     request('/verify/verify-code', { method: 'POST', body: JSON.stringify({ email, code }) }),
 
   // Assessments
-  saveAssessment: (data: { stepData: any; result: any }) =>
+  saveAssessment: (data: { stepData: any; result: any; fullReport?: string }) =>
     request('/assessments', { method: 'POST', body: JSON.stringify(data) }),
+
+  updateAssessmentReport: (id: number, fullReport: string) =>
+    request(`/assessments/${id}/report`, { method: 'PUT', body: JSON.stringify({ fullReport }) }),
 
   // Invite Codes
   generateInviteCodes: (count: number) =>
@@ -60,6 +63,11 @@ export const api = {
   getAssessments: () => request('/assessments'),
 
   getAssessment: (id: number) => request(`/assessments/${id}`),
+
+  downloadReport: (id: number) => {
+    const token = localStorage.getItem('nutriguide_token')
+    window.open(`/api/assessments/${id}/report?token=${encodeURIComponent(token || '')}`, '_blank')
+  },
 
   // Plans
   savePlan: (data: { populationTags: string; planData: any }) =>
