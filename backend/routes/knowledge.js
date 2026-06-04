@@ -25,6 +25,7 @@ const CATEGORY_META = {
   population:     { name: '人群营养',       icon: '👥', color: '#3B82F6', desc: '特定人群营养需求与干预' },
   diet_pattern:   { name: '饮食模式',       icon: '🍽️', color: '#EC4899', desc: '地中海、抗炎等饮食模式' },
   disease_nutrition:{ name: '疾病营养',     icon: '🏥', color: '#EF4444', desc: '疾病相关的营养管理' },
+  pipeline:       { name: '书籍提取',       icon: '📚', color: '#8B5E3C', desc: 'AI 从专业书籍中提取的营养知识' },
   general:        { name: '综合知识',       icon: '📚', color: '#6B7280', desc: '通用营养学知识' },
 }
 
