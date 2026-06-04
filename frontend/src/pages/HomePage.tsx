@@ -3,26 +3,15 @@ import { useTranslation } from 'react-i18next'
 import {
   ArrowRight, Leaf, Brain, Heart, Shield, Apple,
   FlaskConical, Sparkles, Sun, Baby, Activity,
-  Droplets, Smile, Timer, Users, Pill, Menu, X, Moon,
+  Droplets, Smile, Timer, Users, Pill, Moon,
   Zap, MessageCircle, CheckCircle, Globe
 } from 'lucide-react'
 import { useState } from 'react'
-import LanguageSwitcher from '../components/ui/LanguageSwitcher'
-import CreditPurchaseModal from '../components/ui/CreditPurchaseModal'
 import { useAuthStore } from '../stores/useAuthStore'
 
 export default function HomePage() {
   const { t } = useTranslation()
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [showPurchase, setShowPurchase] = useState(false)
   const user = useAuthStore((s) => s.user)
-
-  const navLinks = [
-    { label: t('nav.home'), href: '#/' },
-    { label: t('nav.nutrients'), href: '#/nutrients' },
-    { label: t('nav.assessment'), href: '#/assessment' },
-    { label: t('nav.populations'), href: '#/population/pregnancy' },
-  ]
 
   const features = [
     {
@@ -69,67 +58,8 @@ export default function HomePage() {
 
   return (
     <div className="overflow-hidden">
-      {/* ===== NAVIGATION ===== */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#F5F2EC]/80 backdrop-blur-md border-b border-[#E5E0D8]/60">
-        <div className="max-w-[1200px] mx-auto px-6 h-16 flex items-center justify-between">
-          <Link to="/" className="flex items-center gap-2 no-underline">
-            <div className="w-8 h-8 rounded-full bg-[#2D6B4F] flex items-center justify-center">
-              <Leaf className="w-4 h-4 text-white" />
-            </div>
-            <span className="font-serif text-lg font-semibold text-[#1A1A1A]">NutriGuide</span>
-          </Link>
-
-          {/* Desktop nav */}
-          <div className="hidden md:flex items-center gap-6">
-            {navLinks.map((link) => (
-              <a
-                key={link.label}
-                href={link.href}
-                className="text-sm text-[#6B6560] hover:text-[#1A1A1A] transition-colors no-underline tracking-wide"
-              >
-                {link.label}
-              </a>
-            ))}
-            <LanguageSwitcher />
-            <a
-              href="#/assessment"
-              className="px-5 py-2 bg-[#1A1A1A] text-white text-sm rounded-full hover:bg-[#333] transition-colors no-underline"
-            >
-              {t('home.hero.cta1')}
-            </a>
-          </div>
-
-          {/* Mobile toggle */}
-          <div className="md:hidden flex items-center gap-2">
-            <LanguageSwitcher compact />
-            <button
-              className="p-2"
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            >
-              {mobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
-            </button>
-          </div>
-        </div>
-
-        {/* Mobile menu */}
-        {mobileMenuOpen && (
-          <div className="md:hidden bg-[#F5F2EC] border-b border-[#E5E0D8] px-6 py-4 space-y-3">
-            {navLinks.map((link) => (
-              <a
-                key={link.label}
-                href={link.href}
-                className="block text-sm text-[#6B6560] no-underline"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                {link.label}
-              </a>
-            ))}
-          </div>
-        )}
-      </nav>
-
       {/* ===== HERO: 双入口 ===== */}
-      <section className="relative pt-28 pb-16 md:pt-36 md:pb-24">
+      <section className="relative pt-6 pb-16 md:pt-8 md:pb-24">
         <div className="max-w-[1000px] mx-auto px-6">
           {/* Headline */}
           <div className="text-center mb-12">
