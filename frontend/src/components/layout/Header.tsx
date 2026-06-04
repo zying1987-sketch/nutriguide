@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useAuthStore } from '../../stores/useAuthStore'
-import { User, LogOut, Shield, Zap, PlusCircle, FileText, ChevronDown } from 'lucide-react'
+import { User, LogOut, Shield, Zap, PlusCircle, FileText, ChevronDown, FlaskConical, BookOpen, Database, Sparkles, MessageCircle, Leaf } from 'lucide-react'
 import LanguageSwitcher from '../ui/LanguageSwitcher'
 import CreditPurchaseModal from '../ui/CreditPurchaseModal'
 
@@ -74,43 +74,61 @@ export default function Header() {
 
               {/* 下拉菜单 */}
               {menuOpen && (
-                <div className="absolute right-0 top-full mt-1.5 w-52 bg-white rounded-2xl shadow-lg border border-[#E5E0D8] py-1 overflow-hidden z-50">
+                <div className="absolute right-0 top-full mt-1.5 w-56 bg-white rounded-2xl shadow-lg border border-[#E5E0D8] py-1 overflow-hidden z-50">
                   <div className="px-4 py-2.5 border-b border-[#F0EDE8]">
                     <p className="text-sm font-medium text-[#1A1A1A]">{user.name || user.email.split('@')[0]}</p>
                     <p className="text-xs text-[#A8A199]">{user.email}</p>
                   </div>
 
+                  {/* 核心功能 */}
+                  <div className="px-2.5 py-1">
+                    <p className="text-[10px] text-[#A8A199] px-2 py-1 uppercase tracking-wider">核心功能</p>
+                  </div>
                   <Link to="/assessment" onClick={() => setMenuOpen(false)}
-                    className="flex items-center gap-2.5 px-4 py-2.5 text-sm text-[#1A1A1A] hover:bg-[#F8F6F3] no-underline">
-                    <span className="text-base">🧪</span> 开始自测
+                    className="flex items-center gap-2.5 px-4 py-2 text-sm text-[#1A1A1A] hover:bg-[#F8F6F3] no-underline">
+                    <FlaskConical size={15} className="text-[#2D9C6F]" /> 开始自测
                   </Link>
                   <Link to="/chat" onClick={() => setMenuOpen(false)}
-                    className="flex items-center gap-2.5 px-4 py-2.5 text-sm text-[#1A1A1A] hover:bg-[#F8F6F3] no-underline">
-                    <span className="text-base">💬</span> AI 咨询
-                  </Link>
-                  <Link to="/history" onClick={() => setMenuOpen(false)}
-                    className="flex items-center gap-2.5 px-4 py-2.5 text-sm text-[#1A1A1A] hover:bg-[#F8F6F3] no-underline">
-                    <FileText size={16} className="text-[#7A8B6F]" /> 我的记录
-                  </Link>
-                  <Link to="/nutrients" onClick={() => setMenuOpen(false)}
-                    className="flex items-center gap-2.5 px-4 py-2.5 text-sm text-[#A8A199] hover:bg-[#F8F6F3] no-underline">
-                    营养素百科
-                  </Link>
-                  <Link to="/wuxing" onClick={() => setMenuOpen(false)}
-                    className="flex items-center gap-2.5 px-4 py-2.5 text-sm text-[#A8A199] hover:bg-[#F8F6F3] no-underline">
-                    东方营养
+                    className="flex items-center gap-2.5 px-4 py-2 text-sm text-[#1A1A1A] hover:bg-[#F8F6F3] no-underline">
+                    <MessageCircle size={15} className="text-[#E85D3A]" /> AI 咨询
                   </Link>
 
+                  {/* 知识库 */}
+                  <div className="px-2.5 py-1 mt-1">
+                    <p className="text-[10px] text-[#A8A199] px-2 py-1 uppercase tracking-wider">知识库</p>
+                  </div>
+                  <Link to="/nutrients" onClick={() => setMenuOpen(false)}
+                    className="flex items-center gap-2.5 px-4 py-2 text-sm text-[#1A1A1A] hover:bg-[#F8F6F3] no-underline">
+                    <BookOpen size={15} className="text-[#7A8B6F]" /> 营养素百科
+                  </Link>
+                  <Link to="/food-wiki" onClick={() => setMenuOpen(false)}
+                    className="flex items-center gap-2.5 px-4 py-2 text-sm text-[#1A1A1A] hover:bg-[#F8F6F3] no-underline">
+                    <Leaf size={15} className="text-[#5A8B5F]" /> 食材百科
+                  </Link>
+                  <Link to="/nutrition-data" onClick={() => setMenuOpen(false)}
+                    className="flex items-center gap-2.5 px-4 py-2 text-sm text-[#1A1A1A] hover:bg-[#F8F6F3] no-underline">
+                    <Database size={15} className="text-[#4A7A9B]" /> 营养数据库
+                  </Link>
+                  <Link to="/wuxing" onClick={() => setMenuOpen(false)}
+                    className="flex items-center gap-2.5 px-4 py-2 text-sm text-[#1A1A1A] hover:bg-[#F8F6F3] no-underline">
+                    <Sparkles size={15} className="text-[#C17A5F]" /> 东方营养
+                  </Link>
+
+                  {/* 个人 */}
                   <div className="border-t border-[#F0EDE8] mt-1 pt-1">
+                    <Link to="/history" onClick={() => setMenuOpen(false)}
+                      className="flex items-center gap-2.5 px-4 py-2 text-sm text-[#1A1A1A] hover:bg-[#F8F6F3] no-underline">
+                      <FileText size={15} className="text-[#7A8B6F]" /> 我的记录
+                    </Link>
                     {user.role === 'admin' && (
                       <Link to="/admin" onClick={() => setMenuOpen(false)}
-                        className="flex items-center gap-2.5 px-4 py-2.5 text-sm text-[#1A1A1A] hover:bg-[#F8F6F3] no-underline">
-                        <Shield size={16} className="text-[#C17A5F]" /> {t('nav.adminPanel')}
+                        className="flex items-center gap-2.5 px-4 py-2 text-sm text-[#1A1A1A] hover:bg-[#F8F6F3] no-underline">
+                        <Shield size={15} className="text-[#C17A5F]" /> {t('nav.adminPanel')}
                       </Link>
                     )}
                     <button onClick={() => { logout(); setMenuOpen(false) }}
-                      className="flex items-center gap-2.5 px-4 py-2.5 text-sm text-[#6B6560] hover:bg-[#F8F6F3] w-full text-left">
-                      <LogOut size={16} /> 退出登录
+                      className="flex items-center gap-2.5 px-4 py-2 text-sm text-[#6B6560] hover:bg-[#F8F6F3] w-full text-left">
+                      <LogOut size={15} /> 退出登录
                     </button>
                   </div>
                 </div>
