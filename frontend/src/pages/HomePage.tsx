@@ -134,9 +134,9 @@ export default function HomePage() {
           {/* Headline */}
           <div className="text-center mb-12">
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-semibold text-[#1A1A1A] leading-tight">
-              你的专属营养顾问
+              {t('home.dualTitle')}
             </h1>
-            <p className="mt-4 text-[#6B6560] text-lg">选择适合你的方式，获取个性化营养方案</p>
+            <p className="mt-4 text-[#6B6560] text-lg">{t('home.dualSubtitle')}</p>
           </div>
 
           {/* Two Cards */}
@@ -145,7 +145,7 @@ export default function HomePage() {
             <div className="relative rounded-2xl border border-[#E5E0D8] bg-white overflow-hidden group hover:shadow-lg hover:shadow-[#2D6B4F]/5 transition-all">
               <div className="bg-[#2D6B4F] px-6 py-3 flex items-center gap-2">
                 <CheckCircle size={16} className="text-white" />
-                <span className="text-white font-semibold text-sm">免费自测</span>
+                <span className="text-white font-semibold text-sm">{t('home.freeTest')}</span>
               </div>
               <div className="p-6 space-y-4">
                 <div className="space-y-2">
@@ -153,26 +153,26 @@ export default function HomePage() {
                     <div className="w-5 h-5 rounded-full bg-[#E8F0EB] flex items-center justify-center shrink-0 mt-0.5">
                       <span className="text-[10px] text-[#2D6B4F] font-semibold">1</span>
                     </div>
-                    <p className="text-sm text-[#6B6560]">7 步问卷：年龄、性别、症状、饮食、生活习惯</p>
+                    <p className="text-sm text-[#6B6560]">{t('home.freeTestStep1')}</p>
                   </div>
                   <div className="flex items-start gap-2">
                     <div className="w-5 h-5 rounded-full bg-[#E8F0EB] flex items-center justify-center shrink-0 mt-0.5">
                       <span className="text-[10px] text-[#2D6B4F] font-semibold">2</span>
                     </div>
-                    <p className="text-sm text-[#6B6560]">AI 智能匹配：12 类人群 × 26+ 营养素精准推荐</p>
+                    <p className="text-sm text-[#6B6560]">{t('home.freeTestStep2')}</p>
                   </div>
                   <div className="flex items-start gap-2">
                     <div className="w-5 h-5 rounded-full bg-[#E8F0EB] flex items-center justify-center shrink-0 mt-0.5">
                       <span className="text-[10px] text-[#2D6B4F] font-semibold">3</span>
                     </div>
-                    <p className="text-sm text-[#6B6560]">完整报告：营养素 + 饮食方案 + 生活建议</p>
+                    <p className="text-sm text-[#6B6560]">{t('home.freeTestStep3')}</p>
                   </div>
                 </div>
                 <a
                   href="#/assessment"
                   className="block text-center px-6 py-3 bg-[#1A1A1A] text-white rounded-full text-sm font-medium hover:bg-[#333] transition-all no-underline"
                 >
-                  开始免费自测 →
+                  {t('home.freeTestCTA')}
                 </a>
               </div>
             </div>
@@ -182,23 +182,23 @@ export default function HomePage() {
               <div className="bg-amber-500 px-6 py-3 flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <Zap size={16} className="text-white" />
-                  <span className="text-white font-semibold text-sm">AI 即时咨询</span>
+                  <span className="text-white font-semibold text-sm">{t('home.aiChat')}</span>
                 </div>
-                <span className="text-white/80 text-xs bg-white/20 px-2 py-0.5 rounded-full">1 积分/次</span>
+                <span className="text-white/80 text-xs bg-white/20 px-2 py-0.5 rounded-full">{t('home.perCredit')}</span>
               </div>
               <div className="p-6 space-y-4">
                 <div className="space-y-2">
                   <div className="flex items-start gap-2">
                     <MessageCircle size={16} className="text-amber-500 shrink-0 mt-0.5" />
-                    <p className="text-sm text-[#6B6560]">直接描述身体状况，AI 营养顾问实时对话</p>
+                    <p className="text-sm text-[#6B6560]">{t('home.aiChatDesc')}</p>
                   </div>
                   <div className="flex items-start gap-2">
                     <Brain size={16} className="text-amber-500 shrink-0 mt-0.5" />
-                    <p className="text-sm text-[#6B6560]">通义千问驱动，专业级营养分析</p>
+                    <p className="text-sm text-[#6B6560]">{t('home.aiChatDesc2')}</p>
                   </div>
                   <div className="flex items-start gap-2">
                     <Sparkles size={16} className="text-amber-500 shrink-0 mt-0.5" />
-                    <p className="text-sm text-[#6B6560]">新用户赠送 3 积分，可追问、可深入</p>
+                    <p className="text-sm text-[#6B6560]">{t('home.aiChatDesc3')}</p>
                   </div>
                 </div>
                 {user ? (
@@ -206,14 +206,14 @@ export default function HomePage() {
                     href="#/chat"
                     className="block w-full text-center px-6 py-3 bg-amber-500 text-white rounded-full text-sm font-medium hover:bg-amber-600 transition-all no-underline"
                   >
-                    开始咨询（1 积分）→
+                    {t('home.aiChatCTA')}
                   </a>
                 ) : (
                   <a
                     href="#/register"
                     className="block text-center px-6 py-3 bg-amber-500 text-white rounded-full text-sm font-medium hover:bg-amber-600 transition-all no-underline"
                   >
-                    注册后使用（送 3 积分）→
+                    {t('home.aiChatCTA')}
                   </a>
                 )}
               </div>

@@ -72,10 +72,23 @@
     },
     "cta": {
       "title": "Ready to Discover What\nYour Body Truly Needs?",
-      "subtitle": "Complete the 6-step assessment in about 5–8 minutes. All your data is stored only in your local browser.",
+      "subtitle": "Complete the 7-step assessment in about 5–8 minutes. Based on nutrition science knowledge base.",
       "button": "Start Assessment Now",
-      "note": "Completely free · No registration required · Local storage"
+      "note": "Free · New users get 3 credits"
     },
+    "dualTitle": "Your Personal Nutrition Advisor",
+    "dualSubtitle": "Choose your path to personalized nutrition guidance",
+    "freeTest": "Free Assessment",
+    "freeTestStep1": "7-step questionnaire: age, gender, symptoms, diet, lifestyle",
+    "freeTestStep2": "Smart matching: 13 groups × 26+ nutrients precision",
+    "freeTestStep3": "Complete report: supplements + diet plan + lifestyle tips",
+    "freeTestCTA": "Start Free Assessment →",
+    "aiChat": "AI Instant Consultation",
+    "aiChatDesc": "Describe your health status, AI nutritionist real-time chat",
+    "aiChatDesc2": "Based on nutrition knowledge base, no AI hallucination",
+    "aiChatDesc3": "Context-aware follow-ups, deep-dive into your concerns",
+    "aiChatCTA": "Start AI Consultation →",
+    "perCredit": "1 Credit/Query",
     "footer": {
       "disclaimer": "This tool is for reference only and does not replace professional medical advice. Please consult a doctor for health concerns."
     }
