@@ -53,8 +53,14 @@
     },
     "populations": {
       "label": "Covered Groups",
-      "title": "12 Special Population Groups",
+      "title": "12 Special Groups + General Population",
       "subtitle": "Everyone's body is different, requiring different nutritional strategies. Choose the group that best fits you for precise recommendations.",
+      "generalLabel": "General Population",
+      "generalTitle": "Adult Nutrition Baseline (18–64)",
+      "generalDesc": "Evidence-based nutrition benchmark for healthy adults, based on Chinese Dietary Guidelines 2022 & international authorities. Includes daily nutrient recommendations, diet optimization, and healthy lifestyle guidance.",
+      "generalCta": "View Baseline Plan →",
+      "specialLabel": "12 Special Groups",
+      "specialTitle": "Precision Nutrition Plans",
       "cta": "Start Matching Assessment"
     },
     "philosophy": {

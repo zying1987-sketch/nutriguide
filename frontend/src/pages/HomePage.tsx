@@ -41,6 +41,7 @@ export default function HomePage() {
   ]
 
   const populationGroups = [
+    { name: '普通人群', desc: '18-64岁健康成年人营养基准，基于《中国居民膳食指南》& US Guidelines', icon: Globe, color: 'from-[#2D6B4F] to-[#5A9E7B]', textColor: '#FFFFFF', categoryKey: 'general', isGeneral: true },
     { name: t('populations.pregnancy.name'), desc: t('populations.pregnancy.desc'), icon: Baby, color: 'from-[#E8D5C4] to-[#F0E6D8]', textColor: '#7A5C4A', categoryKey: 'pregnancy' },
     { name: t('populations.vegetarian.name'), desc: t('populations.vegetarian.desc'), icon: Leaf, color: 'from-[#C8D9C4] to-[#E0EBDC]', textColor: '#4A6B40', categoryKey: 'vegetarian' },
     { name: t('populations.fitness.name'), desc: t('populations.fitness.desc'), icon: Activity, color: 'from-[#C4D4E0] to-[#DCE6EE]', textColor: '#3A5A70', categoryKey: 'fitness' },
@@ -53,7 +54,6 @@ export default function HomePage() {
     { name: t('populations.menstrual.name'), desc: t('populations.menstrual.desc'), icon: Moon, color: 'from-[#E8D0DA] to-[#F0E0E8]', textColor: '#8B5A6B', categoryKey: 'menstrual' },
     { name: t('populations.elderly.name'), desc: t('populations.elderly.desc'), icon: Users, color: 'from-[#D4D0C8] to-[#E8E4DC]', textColor: '#5A5040', categoryKey: 'elderly' },
     { name: t('populations.adolescent.name'), desc: t('populations.adolescent.desc'), icon: Brain, color: 'from-[#C8DCE0] to-[#DCEAEE]', textColor: '#3A5A6B', categoryKey: 'adolescent' },
-    { name: '普通人群', desc: '18-64岁健康成年人营养基准，基于《中国居民膳食指南》& US Guidelines', icon: Globe, color: 'from-[#C8D4E0] to-[#DCE4EE]', textColor: '#2A4A6B', categoryKey: 'general' },
   ]
 
   return (
@@ -216,13 +216,45 @@ export default function HomePage() {
             </a>
           </div>
 
-          {/* Masonry-style grid — 12 cards, 4 columns on large */}
+          {/* ===== 普通人群 —— 特殊展示 ===== */}
+          {populationGroups.filter(g => g.isGeneral).map((group) => (
+            <Link
+              key="general"
+              to={`/population/${group.categoryKey}`}
+              className="group relative rounded-[24px] overflow-hidden transition-all duration-500 hover:shadow-xl hover:shadow-[#1A1A1A]/8 hover:-translate-y-1 no-underline block mb-6"
+            >
+              <div className="bg-gradient-to-r from-[#2D6B4F] via-[#3D8B6F] to-[#5A9E7B] p-8 md:p-10">
+                <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                  <div className="flex items-start gap-5">
+                    <div className="w-14 h-14 rounded-2xl bg-white/25 backdrop-blur-sm flex items-center justify-center shrink-0">
+                      <Globe className="w-7 h-7 text-white" />
+                    </div>
+                    <div>
+                      <h3 className="text-2xl font-semibold text-white mb-2">{t('home.populations.generalTitle')}</h3>
+                      <p className="text-white/80 text-sm max-w-lg leading-relaxed">{t('home.populations.generalDesc')}</p>
+                    </div>
+                  </div>
+                  <span className="text-white/90 text-sm font-medium whitespace-nowrap flex items-center gap-1 group-hover:gap-2 transition-all">
+                    {t('home.populations.generalCta')}
+                  </span>
+                </div>
+              </div>
+            </Link>
+          ))}
+
+          {/* ===== 特殊人群 ===== */}
+          <div className="mb-6">
+            <span className="text-xs tracking-[0.2em] uppercase text-[#A8A199] font-medium">{t('home.populations.specialLabel')}</span>
+            <h3 className="font-serif text-2xl font-semibold text-[#1A1A1A] mt-2">{t('home.populations.specialTitle')}</h3>
+          </div>
+
+          {/* Masonry-style grid — 12 cards */}
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {populationGroups.map((group, i) => {
+            {populationGroups.filter(g => !g.isGeneral).map((group, i) => {
               const isLarge = i === 0 || i === 3 || i === 9
               return (
                 <Link
-                  key={i}
+                  key={group.categoryKey}
                   to={`/population/${group.categoryKey}`}
                   className={`group relative rounded-[24px] overflow-hidden transition-all duration-500 hover:shadow-xl hover:shadow-[#1A1A1A]/8 hover:-translate-y-1 no-underline ${
                     isLarge ? 'md:col-span-2 lg:col-span-1 aspect-[4/3]' : 'aspect-square'

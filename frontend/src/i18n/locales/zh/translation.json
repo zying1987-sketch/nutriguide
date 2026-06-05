@@ -53,8 +53,14 @@
     },
     "populations": {
       "label": "覆盖人群",
-      "title": "12 类特殊人群",
+      "title": "12 类特殊人群 + 普通人群",
       "subtitle": "每个人的身体状态不同，需要不同的营养策略。选择最贴近你的人群，获得精准建议。",
+      "generalLabel": "普通人群",
+      "generalTitle": "18-64 岁成年人营养基准",
+      "generalDesc": "健康成年人营养基准，基于《中国居民膳食指南》2022 及国际权威指南。包含每日营养素推荐摄入量、饮食结构优化和健康生活方式建议。",
+      "generalCta": "查看基准方案 →",
+      "specialLabel": "12 类特殊人群",
+      "specialTitle": "精准营养干预方案",
       "cta": "开始自测匹配"
     },
     "philosophy": {
