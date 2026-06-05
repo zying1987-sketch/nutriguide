@@ -30,7 +30,7 @@ export interface DietAssessmentResult {
 export interface DietQuestion {
   id: string
   question: string
-  category: 'meal_pattern' | 'food_diversity' | 'food_group' | 'cooking' | 'eating_out' | 'hydration'
+  category: 'meal_pattern' | 'food_diversity' | 'food_group' | 'cooking' | 'eating_out' | 'hydration' | 'meal_comp' | 'snack' | 'health_habit'
   type: 'radio' | 'multiselect'
   options: {
     label: string

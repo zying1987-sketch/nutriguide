@@ -96,6 +96,8 @@ export const api = {
   getAdminUserAssessment: (userId: number, assessmentId: number) =>
     request(`/admin/users/${userId}/assessments/${assessmentId}`),
 
+  exportUsersCSV: () => window.open('/api/admin/export/users', '_blank'),
+
   // Credits
   getCredits: () => request('/credits/balance'),
   purchaseCredits: (pkg: string) =>
