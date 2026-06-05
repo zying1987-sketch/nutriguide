@@ -213,9 +213,11 @@ router.post('/promote', requireAuth, (req, res) => {
 
   // 检查是否是第一个注册用户
   const firstUser = db.prepare('SELECT id FROM users ORDER BY id ASC LIMIT 1').get()
-  const adminEmails = (process.env.ADMIN_EMAILS || '').split(',').map(e => e.trim()).filter(Boolean)
+  const adminCount = db.prepare("SELECT COUNT(*) as count FROM users WHERE role = 'admin'").get()
+  const adminEmails = (process.env.ADMIN_EMAILS || 'junefwo@126.com').split(',').map(e => e.trim()).filter(Boolean)
 
-  if (firstUser?.id === req.user.id || adminEmails.includes(req.user.email)) {
+  // 允许：第一个用户 OR ADMIN_EMAILS 中的邮箱 OR 当前没有管理员
+  if (firstUser?.id === req.user.id || adminEmails.includes(req.user.email) || adminCount.count === 0) {
     db.prepare('UPDATE users SET role = ? WHERE id = ?').run('admin', req.user.id)
     return res.json({ success: true, message: '已升级为管理员，请退出重新登录' })
   }
