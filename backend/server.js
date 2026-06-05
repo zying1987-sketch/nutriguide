@@ -32,6 +32,54 @@ KB.loadKnowledgeBase()
 app.use('/api/auth', authRoutes)
 app.use('/api/verify', verifyRoutes)
 app.use('/api/assessments', assessmentRoutes)
+// 覆盖 admin users API: 确保返回 wechat_id 和 phone（必须在 adminRoutes mount 之前）
+app.get('/api/admin/users', require('./middleware/auth').requireAdmin, (req, res) => {
+  console.log('[INLINE ADMIN] users API hit!')
+  const db = getDb()
+  const page = parseInt(req.query.page) || 1
+  const limit = 20
+  const offset = (page - 1) * limit
+  const search = req.query.search || ''
+  let users, total
+  if (search) {
+    users = db.prepare(`
+      SELECT u.id, u.email, u.name, u.phone, u.wechat_id, u.role, u.created_at,
+        (SELECT COUNT(*) FROM assessments WHERE user_id = u.id) as assessment_count,
+        (SELECT COUNT(*) FROM plans WHERE user_id = u.id) as plan_count
+      FROM users u WHERE u.email LIKE ? OR u.name LIKE ?
+      ORDER BY u.created_at DESC LIMIT ? OFFSET ?
+    `).all('%' + search + '%', '%' + search + '%', limit, offset)
+    total = db.prepare('SELECT COUNT(*) as count FROM users WHERE email LIKE ? OR name LIKE ?').get('%' + search + '%', '%' + search + '%')
+  } else {
+    users = db.prepare(`
+      SELECT u.id, u.email, u.name, u.phone, u.wechat_id, u.role, u.created_at,
+        (SELECT COUNT(*) FROM assessments WHERE user_id = u.id) as assessment_count,
+        (SELECT COUNT(*) FROM plans WHERE user_id = u.id) as plan_count
+      FROM users u ORDER BY u.created_at DESC LIMIT ? OFFSET ?
+    `).all(limit, offset)
+    total = db.prepare('SELECT COUNT(*) as count FROM users').get()
+  }
+  res.json({ users, total: total.count, page, totalPages: Math.ceil(total.count / limit) })
+})
+
+// 覆盖 admin user detail API
+app.get('/api/admin/users/:id', require('./middleware/auth').requireAdmin, (req, res) => {
+  const db = getDb()
+  const user = db.prepare('SELECT id, email, name, phone, wechat_id, role, created_at FROM users WHERE id = ?').get(req.params.id)
+  if (!user) return res.status(404).json({ error: '用户不存在' })
+  const agreement = db.prepare('SELECT agreement_type, version, accepted_at, ip_address FROM agreement_records WHERE user_id = ? ORDER BY accepted_at DESC LIMIT 1').get(req.params.id)
+  const credits = db.prepare('SELECT balance, total_purchased, total_used FROM user_credits WHERE user_id = ?').get(req.params.id)
+  const assessments = db.prepare('SELECT id, created_at, result FROM assessments WHERE user_id = ? ORDER BY created_at DESC LIMIT 10').all(req.params.id)
+  const plans = db.prepare('SELECT id, population_tags, created_at FROM plans WHERE user_id = ? ORDER BY created_at DESC LIMIT 10').all(req.params.id)
+  res.json({ user: { ...user, agreement, credits }, assessments, plans })
+})
+
+// Health check
+app.get('/api/health', (req, res) => {
+  res.json({ status: 'ok', timestamp: new Date().toISOString() })
+})
+
+// 挂载其他路由
 app.use('/api/admin', adminRoutes)
 app.use('/api/credits', creditsRoutes)
 app.use('/api/chat', chatRoutes)
@@ -39,11 +87,6 @@ app.use('/api/invite', require('./routes/invite'))
 app.use('/api/profile', require('./routes/profile'))
 app.use('/api/food-wiki', require('./routes/food-wiki'))
 app.use('/api/knowledge', require('./routes/knowledge'))
-
-// Health check
-app.get('/api/health', (req, res) => {
-  res.json({ status: 'ok', timestamp: new Date().toISOString() })
-})
 
 // 托管前端静态文件（必须在 API 路由之后、SPA fallback 之前）
 const PUBLIC_DIR = path.join(__dirname, 'public')

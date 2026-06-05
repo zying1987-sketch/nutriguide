@@ -35,26 +35,26 @@ router.get('/users', (req, res) => {
 
   let users, total
   if (search) {
-    users = db.prepare(
-      `SELECT u.id, u.email, u.name, u.phone, u.wechat_id, u.role, u.created_at,
+    users = db.prepare(`
+      SELECT u.id, u.email, u.name, u.phone, u.wechat_id, u.role, u.created_at,
         (SELECT COUNT(*) FROM assessments WHERE user_id = u.id) as assessment_count,
         (SELECT COUNT(*) FROM plans WHERE user_id = u.id) as plan_count
       FROM users u
       WHERE u.email LIKE ? OR u.name LIKE ?
-      ORDER BY u.created_at DESC LIMIT ? OFFSET ?`
-    ).all(`%${search}%`, `%${search}%`, limit, offset)
+      ORDER BY u.created_at DESC LIMIT ? OFFSET ?
+    `).all(`%${search}%`, `%${search}%`, limit, offset)
 
     total = db.prepare(
       'SELECT COUNT(*) as count FROM users WHERE email LIKE ? OR name LIKE ?'
     ).get(`%${search}%`, `%${search}%`)
   } else {
-    users = db.prepare(
-      `SELECT u.id, u.email, u.name, u.phone, u.wechat_id, u.role, u.created_at,
+    users = db.prepare(`
+      SELECT u.id, u.email, u.name, u.phone, u.wechat_id, u.role, u.created_at,
         (SELECT COUNT(*) FROM assessments WHERE user_id = u.id) as assessment_count,
         (SELECT COUNT(*) FROM plans WHERE user_id = u.id) as plan_count
       FROM users u
-      ORDER BY u.created_at DESC LIMIT ? OFFSET ?`
-    ).all(limit, offset)
+      ORDER BY u.created_at DESC LIMIT ? OFFSET ?
+    `).all(limit, offset)
 
     total = db.prepare('SELECT COUNT(*) as count FROM users').get()
   }
@@ -72,16 +72,12 @@ router.get('/users/:id', (req, res) => {
   const db = getDb()
 
   const user = db.prepare('SELECT id, email, name, phone, wechat_id, role, created_at FROM users WHERE id = ?').get(req.params.id)
-  if (!user) {
-    return res.status(404).json({ error: '用户不存在' })
-  }
+  if (!user) return res.status(404).json({ error: '用户不存在' })
 
-  // 协议签署记录
   const agreement = db.prepare(
     'SELECT agreement_type, version, accepted_at, ip_address FROM agreement_records WHERE user_id = ? ORDER BY accepted_at DESC LIMIT 1'
   ).get(req.params.id)
 
-  // 积分余额
   const credits = db.prepare('SELECT balance, total_purchased, total_used FROM user_credits WHERE user_id = ?').get(req.params.id)
 
   const assessments = db.prepare(
@@ -93,25 +89,6 @@ router.get('/users/:id', (req, res) => {
   ).all(req.params.id)
 
   res.json({ user: { ...user, agreement, credits }, assessments, plans })
-})
-
-// 获取某个用户的自测详情
-router.get('/users/:userId/assessments/:id', (req, res) => {
-  const db = getDb()
-  const record = db.prepare(
-    'SELECT * FROM assessments WHERE id = ? AND user_id = ?'
-  ).get(req.params.id, req.params.userId)
-
-  if (!record) {
-    return res.status(404).json({ error: '记录不存在' })
-  }
-
-  res.json({
-    id: record.id,
-    stepData: JSON.parse(record.step_data),
-    result: record.result ? JSON.parse(record.result) : null,
-    createdAt: record.created_at
-  })
 })
 
 // 导出用户数据为 CSV
@@ -135,16 +112,16 @@ router.get('/export/users', requireAuth, requireAdmin, (req, res) => {
 
   const csvRows = [headers.join(',')]
   for (const u of users) {
-    csvRows.push([
-      u.id, `"${u.email || ''}"`, `"${u.phone || ''}"`, `"${u.wechat_id || ''}"`, `"${u.name || ''}"`, u.role, u.created_at,
-      `"${u.display_name || ''}"`, u.gender || '', u.birth_date || '', u.height || '', u.weight || '',
-      `"${u.city || ''}"`, u.credits || 0, u.assessments, u.last_test || ''
-    ].join(','))
+    const row = [
+      u.id, u.email || '', u.phone || '', u.wechat_id || '', u.name || '', u.role, u.created_at,
+      u.display_name || '', u.gender || '', u.birth_date || '', u.height || '', u.weight || '',
+      u.city || '', u.credits || 0, u.assessments, u.last_test || ''
+    ].map(v => `"${String(v).replace(/"/g, '""')}"`).join(',')
+    csvRows.push(row)
   }
 
   res.setHeader('Content-Type', 'text/csv; charset=utf-8')
-  res.setHeader('Content-Disposition', `attachment; filename="nutriguide_users_${new Date().toISOString().slice(0, 10)}.csv"`)
-  // 添加 BOM 让 Excel 正确识别 UTF-8
+  res.setHeader('Content-Disposition', `attachment; filename="nutriguide_users_${new Date().toISOString().slice(0,10)}.csv"`)
   res.send('\uFEFF' + csvRows.join('\n'))
 })
 
