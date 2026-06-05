@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>NutriGuide Setup</title></head>
+<body style="font-family: system-ui; max-width: 400px; margin: 80px auto; text-align: center;">
+<h1>🔧 管理员升级</h1>
+<p id="msg">获取登录状态中...</p>
+<button id="btn" onclick="promote()" style="display:none; padding:12px 32px; background:#2D9C6F; color:#fff; border:none; border-radius:24px; font-size:16px; cursor:pointer">点击升级为管理员</button>
+<script>
+const token = localStorage.getItem('nutriguide_token')
+if (!token) {
+  document.getElementById('msg').innerHTML = '❌ 请先在 <a href="/#/login">登录页</a> 登录后再访问本页面'
+} else {
+  document.getElementById('msg').innerHTML = '✅ 已检测到登录状态，点击下方按钮升级'
+  document.getElementById('btn').style.display = 'inline-block'
+}
+async function promote() {
+  const btn = document.getElementById('btn')
+  btn.disabled = true; btn.textContent = '升级中...'
+  const r = await fetch('/api/auth/promote', { method: 'POST',
+    headers: { 'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json' }
+  })
+  const d = await r.json()
+  document.getElementById('msg').innerHTML = d.success
+    ? '✅ ' + d.message + '<br><br><a href="/#/admin">→ 前往管理后台</a>'
+    : '❌ ' + (d.error || '失败')
+}
+</script>
+</body></html>
