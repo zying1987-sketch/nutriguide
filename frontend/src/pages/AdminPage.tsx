@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react'
 import { useAuthStore } from '../stores/useAuthStore'
 import { api } from '../lib/api'
 import { Navigate } from 'react-router-dom'
-import { Users, FileText, ClipboardList, Calendar, Search, ChevronLeft, ChevronRight, LogOut, Ticket, Plus, Copy, Check } from 'lucide-react'
+import { Users, FileText, ClipboardList, Calendar, Search, ChevronLeft, ChevronRight, LogOut, Ticket, Plus, Copy, Check, Download } from 'lucide-react'
 
 interface Stats { totalUsers: number; totalAssessments: number; totalPlans: number; todayAssessments: number }
-interface AdminUser { id: number; email: string; name: string; role: string; created_at: string; assessment_count: number; plan_count: number }
+interface AdminUser { id: number; email: string; name: string; phone?: string; wechat_id?: string; role: string; created_at: string; assessment_count: number; plan_count: number }
 interface AssessmentRecord { id: number; created_at: string; result: string | null }
 
 export default function AdminPage() {
@@ -183,6 +183,9 @@ export default function AdminPage() {
             className="w-full pl-10 pr-4 py-2.5 bg-white border border-[#E5E0D8] rounded-xl text-sm focus:outline-none focus:border-[#7A8B6F]"
           />
         </div>
+        <button onClick={() => api.exportUsersCSV()} className="flex items-center gap-1.5 px-4 py-2 border border-[#E5E0D8] rounded-full text-sm text-[#6B6560] hover:bg-[#F8F6F3] transition-colors">
+          <Download size={14} /> 导出 CSV
+        </button>
       </div>
 
       {/* User Table */}
@@ -192,6 +195,7 @@ export default function AdminPage() {
             <thead>
               <tr className="border-b border-[#E5E0D8] bg-[#F8F6F3]">
                 <th className="text-left px-5 py-3 font-medium text-[#6B6560]">用户</th>
+                <th className="text-left px-5 py-3 font-medium text-[#6B6560]">微信号</th>
                 <th className="text-left px-5 py-3 font-medium text-[#6B6560]">角色</th>
                 <th className="text-left px-5 py-3 font-medium text-[#6B6560]">自测</th>
                 <th className="text-left px-5 py-3 font-medium text-[#6B6560]">方案</th>
@@ -208,6 +212,9 @@ export default function AdminPage() {
                   <td className="px-5 py-3">
                     <div className="font-medium text-[#1A1A1A]">{u.name || u.email.split('@')[0]}</div>
                     <div className="text-xs text-[#A8A199]">{u.email}</div>
+                  </td>
+                  <td className="px-5 py-3">
+                    <span className="text-sm text-[#2D9C6F] font-medium">{u.wechat_id || '-'}</span>
                   </td>
                   <td className="px-5 py-3">
                     <span className={`text-xs px-2 py-0.5 rounded-full ${u.role === 'admin' ? 'bg-[#7A8B6F]/10 text-[#7A8B6F]' : 'bg-[#E5E0D8] text-[#6B6560]'}`}>
@@ -254,6 +261,9 @@ export default function AdminPage() {
             <div>
               <h2 className="text-lg font-semibold text-[#1A1A1A]">{selectedUser.user.name || selectedUser.user.email}</h2>
               <p className="text-sm text-[#A8A199]">{selectedUser.user.email}</p>
+              {selectedUser.user.wechat_id && (
+                <p className="text-sm text-[#2D9C6F] font-medium mt-1">微信号: {selectedUser.user.wechat_id}</p>
+              )}
             </div>
             <button onClick={() => { setSelectedUser(null); setSelectedAssessment(null) }} className="text-sm text-[#6B6560] hover:text-[#1A1A1A]">关闭</button>
           </div>

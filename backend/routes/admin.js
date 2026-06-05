@@ -36,7 +36,7 @@ router.get('/users', (req, res) => {
   let users, total
   if (search) {
     users = db.prepare(
-      `SELECT u.id, u.email, u.name, u.role, u.created_at,
+      `SELECT u.id, u.email, u.name, u.phone, u.wechat_id, u.role, u.created_at,
         (SELECT COUNT(*) FROM assessments WHERE user_id = u.id) as assessment_count,
         (SELECT COUNT(*) FROM plans WHERE user_id = u.id) as plan_count
       FROM users u
@@ -49,7 +49,7 @@ router.get('/users', (req, res) => {
     ).get(`%${search}%`, `%${search}%`)
   } else {
     users = db.prepare(
-      `SELECT u.id, u.email, u.name, u.role, u.created_at,
+      `SELECT u.id, u.email, u.name, u.phone, u.wechat_id, u.role, u.created_at,
         (SELECT COUNT(*) FROM assessments WHERE user_id = u.id) as assessment_count,
         (SELECT COUNT(*) FROM plans WHERE user_id = u.id) as plan_count
       FROM users u
@@ -71,7 +71,7 @@ router.get('/users', (req, res) => {
 router.get('/users/:id', (req, res) => {
   const db = getDb()
 
-  const user = db.prepare('SELECT id, email, name, phone, role, created_at FROM users WHERE id = ?').get(req.params.id)
+  const user = db.prepare('SELECT id, email, name, phone, wechat_id, role, created_at FROM users WHERE id = ?').get(req.params.id)
   if (!user) {
     return res.status(404).json({ error: '用户不存在' })
   }
