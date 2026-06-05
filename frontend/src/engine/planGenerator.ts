@@ -312,85 +312,94 @@ export function generatePlan(result: AssessmentResult): GeneratedPlan {
 export function generateAIPrompt(result: AssessmentResult, plan: GeneratedPlan): string {
   const { userProfile } = result
 
-  let prompt = `你是一位专业的注册营养师。请基于以下用户信息，生成一个28天（4周）个性化营养方案。\n\n`
+  let prompt = `你是一位有15年临床经验的注册营养师（RD）。请基于以下用户数据，生成一份专业营养评估与补充方案。\n\n`
 
-  prompt += `## 核心原则（必须遵守）\n`
-  prompt += `1. **饮食优先**：任何营养素需求，首先考虑通过食物满足。\n`
-  prompt += `2. **补充剂为辅**：只有饮食无法满足时，才建议补充剂。\n`
-  prompt += `3. **不跳过饮食直接给补充剂**：这是严重错误，请勿这样做。\n\n`
+  prompt += `## 核心原则\n`
+  prompt += `1. **饮食为先**：营养问题优先通过饮食结构调整解决。\n`
+  prompt += `2. **补充为辅**：只有饮食确实无法满足、或有明确体检指标支持时，才推荐补充剂。\n`
+  prompt += `3. **禁止跳过饮食直接推荐补充剂**。\n`
+  prompt += `4. **剂量必须具体**：标注mg、μg、IU等精确单位，不可模糊。\n`
+  prompt += `5. **注明证据等级**：A=强证据(meta/RCT)，B=中等证据，C=专家经验。\n\n`
 
+  // 用户画像 — 压缩版
   prompt += `## 用户画像\n`
   prompt += `- ${result.userDescription}\n`
   if (result.dietQualityScore !== undefined) {
-    const levelLabel = result.dietQualityLevel === 'excellent' ? '优秀' : result.dietQualityLevel === 'good' ? '良好' : result.dietQualityLevel === 'fair' ? '一般' : '较差'
-    prompt += `- 饮食质量评分：${result.dietQualityScore}/100（${levelLabel}）\n`
+    const levelLabel = result.dietQualityLevel === 'excellent' ? '优秀' : result.dietQualityLevel === 'good' ? '良好' : result.dietQualityLevel === 'fair' ? '一般' : '需改善'
+    prompt += `- 饮食评分：${result.dietQualityScore}/100（${levelLabel}）\n`
   }
-  if (result.dietStrengths && result.dietStrengths.length > 0) {
-    prompt += `- 饮食优势：${result.dietStrengths.join('、')}\n`
-  }
+  // 饮食弱点（只挑最关键3条）
   if (result.dietWeaknesses && result.dietWeaknesses.length > 0) {
-    prompt += `- 饮食需改进：${result.dietWeaknesses.join('；')}\n`
+    prompt += `- 饮食关键短板：${result.dietWeaknesses.slice(0, 3).join('；')}\n`
   }
-  prompt += `- 饮食模式：${userProfile.dietPattern || '杂食'}\n`
-  prompt += `- 运动水平：${userProfile.exerciseFrequency || '中等'}\n\n`
+  prompt += `- 饮食模式：${userProfile.dietPattern || '杂食'} | 运动：${userProfile.exerciseFrequency || '中等'}\n\n`
 
-  // 普通人群基线
+  // 生活习惯数据
+  const dietAnswers = (userProfile as any).dietAnswers || {}
+  if (dietAnswers.diet_sugar_drinks) {
+    prompt += `- 含糖饮品：${dietAnswers.diet_sugar_drinks}\n`
+  }
+  if (dietAnswers.diet_smoking) {
+    prompt += `- 吸烟：${dietAnswers.diet_smoking}\n`
+  }
+  if (dietAnswers.diet_alcohol) {
+    prompt += `- 饮酒：${dietAnswers.diet_alcohol}\n`
+  }
+  prompt += `\n`
+
+  // 普通人群基线 — 压缩
   if (result.generalBaseline && !result.primaryPopulation) {
-    prompt += `## 普通人群营养基线（无特殊疾病/状态）\n`
-    prompt += `- 能量需求：${result.generalBaseline.energyNeeds.sedentary_kcal}-${result.generalBaseline.energyNeeds.active_kcal} kcal/天\n`
-    prompt += `- 宏量营养素：${result.generalBaseline.macroDistribution.carbsPercent[0]}-${result.generalBaseline.macroDistribution.carbsPercent[1]}% 碳水，` +
-      `${result.generalBaseline.macroDistribution.proteinPercent[0]}-${result.generalBaseline.macroDistribution.proteinPercent[1]}% 蛋白质\n`
-    prompt += `- 每日份量：蔬菜${result.generalBaseline.dailyPortions.vegetables[0]}-${result.generalBaseline.dailyPortions.vegetables[1]}g，` +
-      `水果${result.generalBaseline.dailyPortions.fruits[0]}-${result.generalBaseline.dailyPortions.fruits[1]}g\n`
-    prompt += `- 补充剂立场：${result.generalBaseline.supplementGuidance}\n\n`
+    prompt += `## 营养基线\n`
+    prompt += `- 能量：${result.generalBaseline.energyNeeds.sedentary_kcal}-${result.generalBaseline.energyNeeds.active_kcal} kcal/天\n`
+    prompt += `- 宏量：碳水${result.generalBaseline.macroDistribution.carbsPercent[0]}-${result.generalBaseline.macroDistribution.carbsPercent[1]}% / 蛋白${result.generalBaseline.macroDistribution.proteinPercent[0]}-${result.generalBaseline.macroDistribution.proteinPercent[1]}%\n\n`
   }
 
   prompt += `## 匹配人群\n`
   for (const p of plan.plans) {
-    prompt += `- ${p.name}：${p.description}\n`
+    prompt += `- ${p.name}\n`
   }
 
-  prompt += `\n## 第一步：饮食改善方案（最重要）\n`
-  prompt += `请先给出具体的饮食改善建议，包括：\n`
-  prompt += `1. 针对饮食评分中的弱点，逐条给出改善建议\n`
-  prompt += `2. 每日食物选择建议（优先食物列表）\n`
-  prompt += `3. 一日示范餐单（含具体食物名和份量）\n`
-  prompt += `4. 烹饪方式建议\n\n`
+  // 缺乏风险 — 强化展示
+  prompt += `\n## 营养素缺乏风险\n`
+  for (const d of plan.deficiencyAlerts) {
+    prompt += `- ${d.nutrientName}：${d.riskLevel === 'high' ? '🔴高风险' : '🟡需关注'} — ${d.recommendation}\n`
+  }
 
-  prompt += `## 第二步：缺乏风险警示\n`
-  for (const s of plan.mergedSupplements.filter(s => s.level === 'core')) {
-    prompt += `- ${s.name}（${s.nameEn}）：${s.dosage}，${s.form}，${s.timing}`
-    if (s.personalizedNote) prompt += `（${s.personalizedNote}）`
+  // 补充剂建议 — 核心输出，详细
+  prompt += `\n## 补充剂建议（核心）\n`
+  prompt += `请按以下格式为每项补充剂给出详细建议：\n\n`
+
+  for (const s of plan.mergedSupplements) {
+    const levelTag = s.level === 'core' ? '[核心]' : s.level === 'conditional' ? '[条件]' : '[可选]'
+    prompt += `**${levelTag} ${s.name}（${s.nameEn}）**\n`
+    prompt += `- 推荐剂量：${s.dosage}\n`
+    prompt += `- 推荐剂型：${s.form}\n`
+    prompt += `- 服用时间：${s.timing}\n`
+    if (s.drugInteraction) prompt += `- 药物相互作用：${s.drugInteraction}\n`
+    if (s.conflicts) prompt += `- 注意冲突：${s.conflicts}\n`
+    if (s.personalizedNote) prompt += `- 个性化说明：${s.personalizedNote}\n`
     prompt += `\n`
   }
 
-  prompt += `\n## 缺乏风险警示\n`
-  for (const d of plan.deficiencyAlerts) {
-    prompt += `- ${d.nutrientName}（${d.riskLevel === 'high' ? '高风险' : '中风险'}）：${d.reason}\n`
-    prompt += `  建议：${d.recommendation}\n`
-  }
+  // 饮食建议 — 精简版
+  prompt += `## 饮食改善重点（精简）\n`
+  prompt += `列出3-5条最关键、最可执行的饮食改善建议，每条不超过30字。\n\n`
 
-  prompt += `\n## 第三步：补充剂建议（仅必要时）\n`
-  prompt += `请明确说明：哪些补充剂是"饮食无法满足时"才考虑。\n`
-  for (const s of plan.mergedSupplements.filter(s => s.level === 'core')) {
-    prompt += `- [核心] ${s.name}（${s.nameEn}）：${s.dosage}，${s.form}，${s.timing}\n`
-    if (s.personalizedNote) prompt += `  （${s.personalizedNote}）\n`
-  }
-  for (const s of plan.mergedSupplements.filter(s => s.level === 'conditional')) {
-    prompt += `- [条件] ${s.name}（${s.nameEn}）：${s.dosage}，${s.form}，${s.timing}（条件性补充，仅在某些饮食无法满足时考虑）\n`
-  }
+  // 生活方式 — 精简版
+  prompt += `## 生活方式\n`
+  prompt += `列出2-3条关键生活方式建议（运动/睡眠/压力管理），每条不超过20字。\n\n`
 
-  prompt += `\n## 任务要求\n请生成一个28天（4周）方案，严格按以下顺序：\n`
-  prompt += `1. 第1周饮食改善重点（基于饮食质量评分的弱点）\n`
-  prompt += `2. 第2-4周：维持 + 进阶建议\n`
-  prompt += `3. 每日食物选择清单（表格形式）\n`
-  prompt += `4. 补充剂服用日程（明确标注"饮食优先"）\n`
-  prompt += `5. 生活方式小目标（运动、睡眠、压力管理）\n`
-  prompt += `6. 复查时间点建议\n\n`
+  // 输出要求
+  prompt += `## 输出格式\n`
+  prompt += `请生成一份结构化报告，包含以下章节（用markdown）：\n`
+  prompt += `1. **营养素补充方案**（最重要，占50%篇幅）：逐项列出补充剂，含剂量/剂型/时间/证据等级/注意事项\n`
+  prompt += `2. **缺乏风险评估**：检验指标建议 + 饮食替代方案\n`
+  prompt += `3. **饮食改善建议**（精简，最多5条）\n`
+  prompt += `4. **生活方式建议**（精简，最多3条）\n`
+  prompt += `5. **复查建议**：需复查的项目和时间\n\n`
 
-  prompt += `请以中文输出，语言专业但温暖亲切，使用结构化markdown格式。\n`
-  prompt += `方案结尾必须注明："本方案仅供参考，不替代医生诊断和治疗。补充剂使用前请咨询您的医生。"\n\n`
-  prompt += `重要：本方案必须体现"饮食是基础，补充剂是补充"的原则。如果用户饮食质量评分≥80，补充剂部分应标注"饮食已充足，以下补充剂可酌情考虑"。`
-  
+  prompt += `语言要求：专业精准、信息密度高、避免冗余。以中文输出。\n`
+  prompt += `结尾注明："本方案由AI生成，不替代执业医师诊断。补充剂使用前请咨询医生或注册营养师。"\n`
+
   return prompt
 }
