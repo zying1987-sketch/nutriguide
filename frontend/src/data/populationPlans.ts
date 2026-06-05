@@ -28,6 +28,19 @@ export interface LifestyleAdvice {
   note?: string
 }
 
+export interface GenderNutrientData {
+  male: NutrientRow[]
+  female: NutrientRow[]
+}
+
+export interface NutrientRow {
+  nutrient: string
+  unit: string
+  maleValue: string
+  femaleValue: string
+  note?: string
+}
+
 export interface PopulationPlan {
   id: string
   name: string
@@ -36,6 +49,7 @@ export interface PopulationPlan {
   description: string
   keyRisks: string[]
   supplements: SupplementRecommendation[]
+  genderNutrients?: GenderNutrientData
   diet: {
     principles: DietPrinciple[]
     foodsToEat: FoodItem[]
@@ -1058,6 +1072,31 @@ const generalPopulation: PopulationPlan = {
     { name: '镁', nameEn: 'Magnesium', dosage: '200-400mg', form: '甘氨酸镁/柠檬酸镁', timing: '睡前', level: 'optional', condition: '压力大、睡眠质量差、肌肉痉挛者' },
     { name: '益生菌', nameEn: 'Probiotics', dosage: '按产品说明（CFU 10^9-10^10）', form: '多菌株复合', timing: '随餐或空腹', level: 'optional', condition: '消化不适、抗生素使用后或免疫力低时考虑' }
   ],
+  genderNutrients: {
+    male: [
+      { nutrient: '能量 (EER)', unit: 'kcal/日', maleValue: '2,250-2,800', femaleValue: '1,800-2,200', note: '轻度-中度活动水平' },
+      { nutrient: '蛋白质 (RNI)', unit: 'g/日', maleValue: '65', femaleValue: '55', note: '每kg体重约1.0-1.2g' },
+      { nutrient: '碳水化合物', unit: 'g/日', maleValue: '280-350', femaleValue: '225-275', note: '占总能量50-65%' },
+      { nutrient: '膳食纤维 (AI)', unit: 'g/日', maleValue: '25-30', femaleValue: '25-30', note: '男女推荐量相近' },
+      { nutrient: '钙 (RNI)', unit: 'mg/日', maleValue: '800', femaleValue: '800', note: '男女推荐量相同' },
+      { nutrient: '铁 (RNI)', unit: 'mg/日', maleValue: '12', femaleValue: '20', note: '♀育龄期因月经铁流失需更高' },
+      { nutrient: '锌 (RNI)', unit: 'mg/日', maleValue: '12.5', femaleValue: '7.5', note: '♂需求更高（精子生成/睾酮合成）' },
+      { nutrient: '硒 (RNI)', unit: 'µg/日', maleValue: '60', femaleValue: '60', note: '男女推荐量相同' },
+      { nutrient: '碘 (RNI)', unit: 'µg/日', maleValue: '120', femaleValue: '120', note: '男女推荐量相同' },
+      { nutrient: '维生素A (RNI)', unit: 'µg RAE/日', maleValue: '800', femaleValue: '700', note: '♂略高' },
+      { nutrient: '维生素D (RNI)', unit: 'µg/日', maleValue: '10', femaleValue: '10', note: '男女推荐量相同（日照不足需补充）' },
+      { nutrient: '维生素E (AI)', unit: 'mg α-TE/日', maleValue: '14', femaleValue: '14', note: '男女推荐量相同' },
+      { nutrient: '维生素B1 (RNI)', unit: 'mg/日', maleValue: '1.4', femaleValue: '1.2', note: '♂略高（能量代谢需求）' },
+      { nutrient: '维生素B2 (RNI)', unit: 'mg/日', maleValue: '1.4', femaleValue: '1.2', note: '♂略高' },
+      { nutrient: '维生素C (RNI)', unit: 'mg/日', maleValue: '100', femaleValue: '100', note: '男女推荐量相同' },
+      { nutrient: '叶酸 (RNI)', unit: 'µg DFE/日', maleValue: '400', femaleValue: '400', note: '♀育龄期建议额外补充400µg' },
+      { nutrient: '维生素B12 (RNI)', unit: 'µg/日', maleValue: '2.4', femaleValue: '2.4', note: '男女推荐量相同' },
+      { nutrient: '镁 (RNI)', unit: 'mg/日', maleValue: '330', femaleValue: '330', note: '男女推荐量相同' },
+      { nutrient: '钾 (AI)', unit: 'mg/日', maleValue: '2,000', femaleValue: '2,000', note: '男女推荐量相同' },
+      { nutrient: '钠 (PI-NCD)', unit: 'mg/日', maleValue: '<2,000', femaleValue: '<2,000', note: '男女推荐量相同（上限）' },
+    ],
+    female: [],
+  },
   diet: {
     principles: [
       { principle: '食物多样，谷类为主', detail: '每日摄入12种以上食物，每周25种以上。谷类200-300g/日，其中全谷物和杂豆50-150g，薯类50-100g。' },

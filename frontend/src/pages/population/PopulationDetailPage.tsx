@@ -3,7 +3,7 @@ import {
   ArrowLeft, Pill, Apple, Timer, Activity, AlertTriangle,
   Heart, Brain, Leaf, Baby, Flame, Dumbbell,
   Droplets, Shield, Zap, Moon, Stethoscope, Sparkles,
-  ChevronRight, Info
+  ChevronRight, Info, Users
 } from 'lucide-react'
 import { useState } from 'react'
 import {
@@ -11,6 +11,7 @@ import {
   populationCategories,
   type PopulationPlan,
   type SupplementRecommendation,
+  type GenderNutrientData,
 } from '../../data/populationPlans'
 
 const categoryIconMap: Record<string, React.ElementType> = {
@@ -109,6 +110,43 @@ function PlanDetailView({ plan }: { plan: PopulationPlan }) {
           ))}
         </div>
       </div>
+
+      {/* Gender-Nutrient Table (general population) */}
+      {plan.genderNutrients && plan.genderNutrients.male.length > 0 && (
+        <div>
+          <h3 className="flex items-center gap-2 text-sm font-semibold text-[#1A1A1A] mb-4">
+            <Users className="w-4 h-4 text-[#2D6B4F]" />
+            男女每日营养素推荐摄入量对比
+          </h3>
+          <p className="text-xs text-[#A8A199] mb-4">
+            基于《中国居民膳食营养素参考摄入量（DRIs 2023）》· 18-49岁成年男女
+          </p>
+          <div className="overflow-x-auto rounded-xl border border-[#E5E0D8]">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-[#F8F6F3]">
+                  <th className="text-left px-4 py-3 font-semibold text-[#1A1A1A]">营养素</th>
+                  <th className="text-center px-4 py-3 font-semibold text-[#3B82F6]">♂ 男性</th>
+                  <th className="text-center px-4 py-3 font-semibold text-[#EC4899]">♀ 女性</th>
+                  <th className="text-left px-4 py-3 font-semibold text-[#1A1A1A]">单位</th>
+                  <th className="text-left px-4 py-3 text-[#A8A199] text-xs font-normal hidden md:table-cell">备注</th>
+                </tr>
+              </thead>
+              <tbody>
+                {plan.genderNutrients.male.map((row, i) => (
+                  <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-[#FAF8F5]'}>
+                    <td className="px-4 py-2.5 font-medium text-[#1A1A1A]">{row.nutrient}</td>
+                    <td className="px-4 py-2.5 text-center text-[#3B82F6] font-medium">{row.maleValue}</td>
+                    <td className="px-4 py-2.5 text-center text-[#EC4899] font-medium">{row.femaleValue}</td>
+                    <td className="px-4 py-2.5 text-[#6B6560]">{row.unit}</td>
+                    <td className="px-4 py-2.5 text-xs text-[#A8A199] hidden md:table-cell">{row.note || ''}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
 
       {/* Supplements */}
       <div>
