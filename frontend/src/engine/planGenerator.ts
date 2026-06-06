@@ -334,16 +334,17 @@ export function generateAIPrompt(result: AssessmentResult, plan: GeneratedPlan):
   }
   prompt += `- 饮食模式：${userProfile.dietPattern || '杂食'} | 运动：${userProfile.exerciseFrequency || '中等'}\n\n`
 
-  // 生活习惯数据
+  // 生活习惯数据（新版字段优先，兼容旧版）
   const dietAnswers = (userProfile as any).dietAnswers || {}
-  if (dietAnswers.diet_sugar_drinks) {
-    prompt += `- 含糖饮品：${dietAnswers.diet_sugar_drinks}\n`
+  const hp = userProfile as any
+  if (dietAnswers.d5_sugar_drinks || hp.d5_sugar_drinks || dietAnswers.diet_sugar_drinks) {
+    prompt += `- 含糖饮品：${dietAnswers.d5_sugar_drinks || hp.d5_sugar_drinks || dietAnswers.diet_sugar_drinks}\n`
   }
-  if (dietAnswers.diet_smoking) {
-    prompt += `- 吸烟：${dietAnswers.diet_smoking}\n`
+  if (hp.e4_smoking || dietAnswers.diet_smoking) {
+    prompt += `- 吸烟：${hp.e4_smoking || dietAnswers.diet_smoking}\n`
   }
-  if (dietAnswers.diet_alcohol) {
-    prompt += `- 饮酒：${dietAnswers.diet_alcohol}\n`
+  if (hp.e5_alcohol || dietAnswers.diet_alcohol) {
+    prompt += `- 饮酒：${hp.e5_alcohol || dietAnswers.diet_alcohol}\n`
   }
   prompt += `\n`
 

@@ -30,6 +30,8 @@ export interface UserProfile {
   exerciseFrequency?: string
   sleepHours?: string
   stressLevel?: string
+  /** 新版：健康分流状态 */
+  healthStatus?: string
 }
 
 // ─── 人群匹配结果 ───
@@ -130,10 +132,11 @@ function buildUserProfile(raw: Record<string, any>): UserProfile {
   const weight = parseFloat(raw.weight) || 55
   const bmi = Math.round((weight / ((height / 100) ** 2)) * 10) / 10
 
-  // 核心诉求
+  // 核心诉求（新版本使用 health_status 分流，兼容旧版 _coreNeeds）
   const coreNeeds: string[] = Array.isArray(raw._coreNeeds) ? raw._coreNeeds : []
+  const healthStatus = raw.health_status || ''
 
-  // 追问答案
+  // 追问答案（兼容旧版）
   const followUpAnswers: Record<string, Record<string, any>> = {}
   const rawFollowUp = raw._followUp || {}
   for (const [needId, answers] of Object.entries(rawFollowUp)) {
@@ -142,9 +145,13 @@ function buildUserProfile(raw: Record<string, any>): UserProfile {
     }
   }
 
-  // 饮食评估答案（字段名前缀 diet_）
+  // 饮食评估答案（新字段：d1_diet_mode, d2_vegetables 等；兼容旧版 diet_ 前缀）
   const dietAnswers: Record<string, string | string[]> = {}
   for (const key of Object.keys(raw)) {
+    if (key.startsWith('d1_') || key.startsWith('d2_') || key.startsWith('d3_') || key.startsWith('d4_') || key.startsWith('d5_')) {
+      dietAnswers[key] = raw[key]
+    }
+    // 兼容旧版 diet_ 前缀
     if (key.startsWith('diet_')) {
       const questionId = key.replace(/^diet_/, '')
       dietAnswers[questionId] = raw[key]
@@ -164,21 +171,29 @@ function buildUserProfile(raw: Record<string, any>): UserProfile {
     }
   }
 
+  // 诊断：新字段 b1_problems（分支B），兼容旧字段 diagnosis
+  const diagnoses = Array.isArray(raw.b1_problems) ? raw.b1_problems.filter((d: string) => d !== 'none') : Array.isArray(raw.diagnosis) ? raw.diagnosis.filter((d: string) => d !== 'none') : []
+
+  // 药物：新字段 f2_medications，兼容旧字段 medications
+  const medications = Array.isArray(raw.f2_medications) ? raw.f2_medications.filter((m: string) => m !== 'none') : Array.isArray(raw.medications) ? raw.medications.filter((m: string) => m !== 'none') : []
+
   return {
     age,
     gender,
     bmi,
-    pregnancyStatus: raw.pregnancy_status || 'none',
-    diagnoses: Array.isArray(raw.diagnosis) ? raw.diagnosis.filter((d: string) => d !== 'none') : [],
-    medications: Array.isArray(raw.medications) ? raw.medications.filter((m: string) => m !== 'none') : [],
+    pregnancyStatus: raw.c1_stage || raw.pregnancy_status || 'none',
+    diagnoses,
+    medications,
     coreNeeds,
     followUpAnswers,
     dietAnswers,
     labData,
-    dietPattern: raw.diet_pattern || 'omnivore',
-    exerciseFrequency: raw.exercise_frequency || 'moderate',
-    sleepHours: raw.sleep_hours || 'normal',
-    stressLevel: raw.stress_level || 'none',
+    dietPattern: raw.d1_diet_mode || raw.diet_pattern || 'omnivore',
+    exerciseFrequency: raw.e1_exercise || raw.a10_exercise || raw.exercise_frequency || 'moderate',
+    sleepHours: raw.e2_sleep_hours || raw.sleep_hours || 'normal',
+    stressLevel: raw.e3_stress || raw.stress_level || 'none',
+    // 附加：新版分支数据
+    healthStatus,
   }
 }
 
