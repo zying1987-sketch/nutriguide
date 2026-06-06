@@ -4,7 +4,7 @@
 import type { CoreNeed } from '../data/coreNeeds'
 import { getCoreNeeds, getFollowUpQuestions } from '../data/coreNeeds'
 import { populationPlans, populationPriority, type PopulationPlan } from '../data/populationPlans'
-import { calculateDietScore, type DietAssessmentResult } from '../data/dietAssessment'
+import { calculateDietScore, calculateSimpleDietScore, type DietAssessmentResult } from '../data/dietAssessment'
 import { getBaseline, type GeneralBaseline } from '../data/generalBaseline'
 
 // ─── 用户画像（新）──
@@ -93,8 +93,11 @@ export function evaluateUser(rawData: Record<string, any>): AssessmentResult {
   const primary = matches.length > 0 ? matches[0] : null
   const secondary = matches.length > 1 ? matches.slice(1) : []
 
-  // 5. 计算饮食质量评分
-  const dietResult = calculateDietScore(profile.dietAnswers)
+  // 5. 计算饮食质量评分（新版5问优先，兼容旧版17问）
+  const hasNewFormat = rawData['d1_diet_mode'] || rawData['d2_vegetables'] || rawData['d3_fruits']
+  const dietResult = hasNewFormat
+    ? calculateSimpleDietScore(rawData)
+    : calculateDietScore(profile.dietAnswers)
   const { score: dietScore, level: dietLevel, strengths: dietStrengths, weaknesses: dietWeaknesses } = dietResult
 
   // 6. 如无特殊人群匹配，使用普通人群基线

@@ -311,10 +311,68 @@ export const dietQuestions: DietQuestion[] = [
 const TOTAL_MAX_SCORE = dietQuestions.reduce((sum, q) => sum + q.weight, 0)
 
 /**
- * 计算饮食质量评分（归一化到 0-100）
- * multiselect 题目：选中项分数累加（上限为该题权重）
- * radio 题目：取选中项分数
- * 总分 150 → 归一化 × 100/150
+ * 新版简化饮食评分（5问，满分50 → 归一化到0-100）
+ * 用于 Step 4 饮食快评（D1-D5）
+ */
+export function calculateSimpleDietScore(rawData: Record<string, any>): DietAssessmentResult {
+  const MAX_SCORE = 50
+  let totalScore = 0
+  const strengths: string[] = []
+  const weaknesses: string[] = []
+
+  // D1: 饮食模式（10分）
+  const d1 = rawData['d1_diet_mode']
+  if (d1 === 'omnivore') totalScore += 10
+  else if (d1 === 'pescatarian') totalScore += 8
+  else if (d1 === 'lacto_ovo') { totalScore += 7; weaknesses.push('蛋奶素食可能需要关注B12和铁的摄入') }
+  else if (d1 === 'vegan') { totalScore += 5; weaknesses.push('纯素食建议补充B12、铁、锌、Omega-3') }
+
+  // D2: 蔬菜摄入（10分）
+  const d2 = rawData['d2_vegetables']
+  if (d2 === '>300') { totalScore += 10; strengths.push('蔬菜摄入充足（>300g/天）') }
+  else if (d2 === '150-300') totalScore += 6
+  else if (d2 === '<150') { totalScore += 2; weaknesses.push('蔬菜摄入不足，建议每天300-500g') }
+
+  // D3: 水果摄入（10分）
+  const d3 = rawData['d3_fruits']
+  if (d3 === '250-350') { totalScore += 10; strengths.push('水果摄入达标（250-350g，符合膳食指南推荐）') }
+  else if (d3 === '150-250') totalScore += 7
+  else if (d3 === '>350') totalScore += 8
+  else if (d3 === '100-150') totalScore += 4
+  else if (d3 === 'none') { totalScore += 1; weaknesses.push('水果摄入严重不足，建议每天200-350g') }
+
+  // D4: 主食结构（10分）
+  const d4 = rawData['d4_staples']
+  if (d4 === 'whole_grain') { totalScore += 10; strengths.push('主食以全谷物/粗粮为主，膳食纤维摄入良好') }
+  else if (d4 === 'half_half') totalScore += 7
+  else if (d4 === 'refined') { totalScore += 3; weaknesses.push('主食过于精细，建议一半换成全谷物/粗粮') }
+
+  // D5: 含糖饮品（10分）
+  const d5 = rawData['d5_sugar_drinks']
+  if (d5 === 'none') { totalScore += 10; strengths.push('不喝含糖饮品，好习惯') }
+  else if (d5 === '1-2/week') totalScore += 6
+  else if (d5 === '>3/week') { totalScore += 1; weaknesses.push('含糖饮品摄入过多，增加肥胖/糖尿病/心血管风险') }
+
+  const normalizedScore = Math.round((totalScore / MAX_SCORE) * 100)
+
+  let level: 'poor' | 'fair' | 'good' | 'excellent'
+  if (normalizedScore >= 80) level = 'excellent'
+  else if (normalizedScore >= 60) level = 'good'
+  else if (normalizedScore >= 35) level = 'fair'
+  else level = 'poor'
+
+  return {
+    score: normalizedScore,
+    breakdown: [],
+    level,
+    strengths: strengths.slice(0, 3),
+    weaknesses: weaknesses.slice(0, 3),
+  }
+}
+
+/**
+ * 旧版完整饮食评分（17问，满分150 → 归一化到0-100）
+ * 保留用于兼容旧数据
  */
 export function calculateDietScore(answers: Record<string, string | string[]>): DietAssessmentResult {
   const TOTAL_MAX = 150
@@ -347,17 +405,14 @@ export function calculateDietScore(answers: Record<string, string | string[]>): 
     })
   }
 
-  // 归一化到 0-100
   const normalizedScore = Math.round((totalScore / TOTAL_MAX) * 100)
 
-  // 饮食质量等级
   let level: 'poor' | 'fair' | 'good' | 'excellent'
   if (normalizedScore >= 80) level = 'excellent'
   else if (normalizedScore >= 60) level = 'good'
   else if (normalizedScore >= 35) level = 'fair'
   else level = 'poor'
 
-  // 优势项：得分 ≥ 80% 满分的维度
   const strengths: string[] = []
   const weaknesses: string[] = []
 
