@@ -127,10 +127,11 @@ export const dietQuestions: DietQuestion[] = [
     type: 'radio',
     weight: 10,
     options: [
-      { label: '几乎不吃水果', value: 'none', score: 0 },
-      { label: '半个水果（约 100g）', value: 'half', score: 4 },
-      { label: '1 个水果（约 200g）', value: 'one', score: 7 },
-      { label: '2 个及以上（>250g）', value: 'two_plus', score: 10 },
+      { label: '几乎不吃水果（<100g）', value: 'none', score: 0 },
+      { label: '半个水果（约 100-150g）', value: 'half', score: 3 },
+      { label: '1 个水果（约 150-250g）', value: 'one', score: 6 },
+      { label: '1-2 个水果（约 250-350g，指南推荐）', value: 'one_two', score: 8 },
+      { label: '2 个以上（>350g）', value: 'two_plus', score: 10 },
     ],
   },
 
@@ -282,9 +283,10 @@ export const dietQuestions: DietQuestion[] = [
     weight: 10,
     options: [
       { label: '从不吸烟', value: 'none', score: 10 },
+      { label: '已戒烟（超过 6 个月）', value: 'quit', score: 9 },
       { label: '偶尔社交吸烟', value: 'social', score: 6 },
       { label: '每天 < 10 支', value: 'light', score: 3 },
-      { label: '每天 >= 10 支', value: 'heavy', score: 0 },
+      { label: '每天 ≥ 10 支', value: 'heavy', score: 0 },
     ],
   },
 
@@ -297,8 +299,9 @@ export const dietQuestions: DietQuestion[] = [
     weight: 10,
     options: [
       { label: '不喝酒', value: 'none', score: 10 },
-      { label: '偶尔社交饮酒（每周 < 3 次）', value: 'social', score: 7 },
-      { label: '经常饮酒（每周 3-5 次）', value: 'frequent', score: 3 },
+      { label: '已戒酒', value: 'quit', score: 9 },
+      { label: '偶尔社交饮酒（每周 < 3 天）', value: 'social', score: 7 },
+      { label: '经常饮酒（每周 3-5 天）', value: 'frequent', score: 3 },
       { label: '每天饮酒 / 偶尔大量饮酒', value: 'heavy', score: 0 },
     ],
   },

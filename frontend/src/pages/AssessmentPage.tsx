@@ -925,6 +925,7 @@ function pregnancyLabel(v: string): string {
   const map: Record<string, string> = {
     none: '无', preconception: '备孕中', pregnant_t1: '孕早期（0-12周）',
     pregnant_t2: '孕中期（13-27周）', pregnant_t3: '孕晚期（28周+）', lactation: '哺乳期',
+    perimenopause: '围绝经期/更年期',
   }
   return map[v] || v
 }
@@ -932,17 +933,19 @@ function pregnancyLabel(v: string): string {
 function diagnosisLabel(v: string): string {
   const map: Record<string, string> = {
     hashimoto: '桥本甲状腺炎', hyperthyroidism: '甲亢', hypothyroidism: '甲减',
-    diabetes: '糖尿病', pcos: 'PCOS', ibs: 'IBS', depressions_anxiety: '抑郁/焦虑',
-    hypertension: '高血压', hyperlipidemia: '高血脂', kidney_disease: '肾病', celiac: '乳糜泻',
+    diabetes: '糖尿病', pcos: 'PCOS', ibs: 'IBS', depression_anxiety: '抑郁/焦虑',
+    hypertension: '高血压', hyperlipidemia: '高血脂', cardiovascular: '心血管疾病',
+    gout: '痛风', kidney_disease: '慢性肾病', celiac: '乳糜泻',
   }
   return map[v] || v
 }
 
 function supplementLabel(v: string): string {
   const map: Record<string, string> = {
-    multivitamin: '复合维生素', vitamin_d: '维生素D', calciun: '钙片',
-    iron: '铁剂', omega3: 'Omega-3', vitamin_b_complex: 'B族维生素',
-    protein_powder: '蛋白粉', melatonin: '褪黑素', herbal: '中草药',
+    multivitamin: '复合维生素', vitamin_d: '维生素D', vitamin_c: '维生素C',
+    vitamin_b_complex: 'B族维生素', calcium: '钙片', magnesium: '镁', zinc: '锌',
+    iron: '铁剂', omega3: 'Omega-3', probiotics: '益生菌', coq10: '辅酶Q10',
+    inositol: '肌醇', protein_powder: '蛋白粉', melatonin: '褪黑素', herbal: '中草药',
   }
   return map[v] || v
 }

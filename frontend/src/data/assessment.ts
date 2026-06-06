@@ -57,6 +57,7 @@ const pregnancyOptions = [
   { label: '已怀孕（孕中期 13-27 周）', value: 'pregnant_t2' },
   { label: '已怀孕（孕晚期 28 周+）', value: 'pregnant_t3' },
   { label: '哺乳期', value: 'lactation' },
+  { label: '围绝经期/更年期', value: 'perimenopause' },
 ]
 
 const diagnosisOptions = [
@@ -69,7 +70,9 @@ const diagnosisOptions = [
   { label: '抑郁/焦虑症', value: 'depression_anxiety' },
   { label: '高血压', value: 'hypertension' },
   { label: '高血脂', value: 'hyperlipidemia' },
-  { label: '肾病', value: 'kidney_disease' },
+  { label: '心血管疾病（冠心病/心梗/中风等）', value: 'cardiovascular' },
+  { label: '痛风', value: 'gout' },
+  { label: '慢性肾病', value: 'kidney_disease' },
   { label: '乳糜泻/麸质不耐受', value: 'celiac' },
   { label: '以上均无', value: 'none' },
 ]
@@ -77,7 +80,9 @@ const diagnosisOptions = [
 const medicationOptions = [
   { label: '优甲乐（左甲状腺素）', value: 'levothyroxine' },
   { label: '二甲双胍', value: 'metformin' },
+  { label: '降糖药/胰岛素', value: 'antidiabetic' },
   { label: '他汀类降脂药', value: 'statins' },
+  { label: '降压药', value: 'antihypertensive' },
   { label: '口服避孕药', value: 'ocp' },
   { label: '抗抑郁/抗焦虑药', value: 'antidepressant' },
   { label: '利尿剂', value: 'diuretics' },
@@ -88,10 +93,16 @@ const medicationOptions = [
 const supplementOptions = [
   { label: '复合维生素', value: 'multivitamin' },
   { label: '维生素 D', value: 'vitamin_d' },
+  { label: '维生素 C', value: 'vitamin_c' },
+  { label: 'B 族维生素', value: 'vitamin_b_complex' },
   { label: '钙片', value: 'calcium' },
+  { label: '镁', value: 'magnesium' },
+  { label: '锌', value: 'zinc' },
   { label: '铁剂', value: 'iron' },
   { label: 'Omega-3（鱼油/藻油）', value: 'omega3' },
-  { label: 'B 族维生素', value: 'vitamin_b_complex' },
+  { label: '益生菌', value: 'probiotics' },
+  { label: '辅酶 Q10', value: 'coq10' },
+  { label: '肌醇', value: 'inositol' },
   { label: '蛋白粉', value: 'protein_powder' },
   { label: '褪黑素', value: 'melatonin' },
   { label: '中草药（如圣约翰草、锯棕榈等）', value: 'herbal' },
