@@ -410,6 +410,13 @@ export default function AssessmentPage() {
 
   function renderField(field: AssessmentField) {
     const value = formData[field.id] || ''
+    const gender = formData['gender'] as string | undefined
+
+    // 根据性别过滤选项：男性隐藏 femaleOnly 选项
+    const filteredOptions = (field.options || []).filter(opt => {
+      if (opt.femaleOnly && gender === 'male') return false
+      return true
+    })
 
     switch (field.type) {
       case 'select':
@@ -421,7 +428,7 @@ export default function AssessmentPage() {
             className="w-full px-4 py-3 rounded-xl border border-[#E8E3DB] bg-white text-[#1B2A4A] focus:border-[#2D9C6F] focus:ring-2 focus:ring-[#2D9C6F]/20 transition-all outline-none appearance-none"
           >
             <option value="">请选择...</option>
-            {field.options?.map(opt => (
+            {filteredOptions.map(opt => (
               <option key={opt.value} value={opt.value}>{opt.label}</option>
             ))}
           </select>
@@ -430,7 +437,7 @@ export default function AssessmentPage() {
       case 'multiselect':
         return (
           <div className="space-y-2">
-            {field.options?.map(opt => {
+            {filteredOptions.map(opt => {
               const selected = Array.isArray(value) ? value.includes(opt.value) : false
               return (
                 <label key={opt.value} className={`flex items-center gap-3 p-3 rounded-xl border cursor-pointer transition-all ${
@@ -463,7 +470,7 @@ export default function AssessmentPage() {
       case 'radio':
         return (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            {field.options?.map(opt => (
+            {filteredOptions.map(opt => (
               <button
                 key={opt.value}
                 type="button"

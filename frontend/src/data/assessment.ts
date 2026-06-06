@@ -39,7 +39,7 @@ export interface AssessmentField {
   description?: string
   placeholder?: string
   required?: boolean
-  options?: { label: string; value: string }[]
+  options?: { label: string; value: string; femaleOnly?: boolean }[]
   min?: number
   max?: number
   unit?: string
@@ -66,7 +66,7 @@ export const pregnancyOptions = [
 export const diagnosisOptions = [
   { label: '甲状腺问题（甲减/桥本/甲亢）', value: 'thyroid' },
   { label: '糖尿病（1型或2型）', value: 'diabetes' },
-  { label: '多囊卵巢（PCOS）', value: 'pcos' },
+  { label: '多囊卵巢（PCOS）', value: 'pcos', femaleOnly: true },
   { label: '肠易激（IBS）', value: 'ibs' },
   { label: '高血压', value: 'hypertension' },
   { label: '高血脂', value: 'hyperlipidemia' },
@@ -83,7 +83,7 @@ export const medicationOptions = [
   { label: '降糖药/胰岛素', value: 'antidiabetic' },
   { label: '他汀类降脂药', value: 'statins' },
   { label: '降压药', value: 'antihypertensive' },
-  { label: '口服避孕药', value: 'ocp' },
+  { label: '口服避孕药', value: 'ocp', femaleOnly: true },
   { label: '抗抑郁/抗焦虑药', value: 'antidepressant' },
   { label: '其他（请填写）', value: 'other' },
   { label: '没有服用处方药', value: 'none' },
@@ -191,6 +191,7 @@ export const assessmentSteps: AssessmentStep[] = [
           {
             label: '处于特殊时期：备孕、怀孕、哺乳或更年期',
             value: 'special_period',
+            femaleOnly: true,
           },
         ],
       },
@@ -357,7 +358,7 @@ export const assessmentSteps: AssessmentStep[] = [
     title: '特殊时期',
     description: '请告诉我们您当前的生理阶段',
     stepNumber: 3,
-    skipCondition: (fd) => fd['health_status'] !== 'special_period',
+    skipCondition: (fd) => fd['health_status'] !== 'special_period' || fd['gender'] === 'male',
     fields: [
       {
         id: 'c1_stage',
