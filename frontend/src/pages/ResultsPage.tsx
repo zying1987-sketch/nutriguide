@@ -122,8 +122,19 @@ export default function ResultsPage() {
   // 通用人群兜底方案 — 确保所有板块始终有内容
   const fallbackPlan = populationPlans['general_population'] || null
 
-  // 合并方案：优先用匹配到的方案，否则用兜底
-  const plan = generatedPlan || {
+  // 合并方案：优先用匹配到的方案，补充剂为空时用兜底
+  const plan = generatedPlan ? {
+    ...generatedPlan,
+    // 如果 mergedSupplements 为空，使用兜底方案
+    mergedSupplements: generatedPlan.mergedSupplements.length > 0
+      ? generatedPlan.mergedSupplements
+      : fallbackPlan?.supplements?.map(s => ({ ...s, fromPopulations: ['普通人群'] })) || [],
+    // 同样兜底饮食和生活方式
+    dietSummary: generatedPlan.dietSummary.length > 0 ? generatedPlan.dietSummary : fallbackPlan?.diet?.principles?.map(p => `${p.principle}: ${p.detail}`) || [],
+    lifestyleSummary: generatedPlan.lifestyleSummary.length > 0 ? generatedPlan.lifestyleSummary : fallbackPlan?.lifestyle?.map(l => `${l.category}: ${l.recommendation}（${l.frequency}）`) || [],
+    monitoringPlan: generatedPlan.monitoringPlan.length > 0 ? generatedPlan.monitoringPlan : fallbackPlan?.monitoringPlan || [],
+    warningSigns: generatedPlan.warningSigns.length > 0 ? generatedPlan.warningSigns : fallbackPlan?.warningSigns || [],
+  } : {
     userLabel: assessmentResult?.primaryPopulation?.populationName || '健康关注者',
     userDescription: '以下是基于中国居民膳食指南的通用营养建议。',
     priorityNote: '未匹配到特定人群，以下基于普通人群通用方案。如有特定健康问题，请重新自测并选择相关核心诉求。',

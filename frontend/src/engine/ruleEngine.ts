@@ -374,12 +374,14 @@ function mapCoreNeedsToPopulations(profile: UserProfile): PopulationMatch[] {
     })
   }
 
-  // ── 优先级 5：素食人群 ──
-  if (profile.dietPattern && ['strict_vegan', 'lacto_ovo', 'pescatarian', 'flexitarian'].includes(profile.dietPattern)) {
-    const subType = profile.dietPattern === 'strict_vegan' ? 'vegetarian_strict' : 'vegetarian_lacto_ovo'
+  // ── 优先级 5：素食人群 ──（兼容新旧字段值）
+  const vegPatterns = ['strict_vegan', 'vegan', 'lacto_ovo', 'pescatarian', 'flexitarian']
+  if (profile.dietPattern && vegPatterns.includes(profile.dietPattern)) {
+    const isStrict = profile.dietPattern === 'strict_vegan' || profile.dietPattern === 'vegan' || profile.dietPattern === 'pescatarian'
+    const subType = isStrict ? 'vegetarian_strict' : 'vegetarian_lacto_ovo'
     addMatch(matches, seen, {
       populationId: subType,
-      populationName: profile.dietPattern === 'strict_vegan' ? '严格素食人群' : '蛋奶素食人群',
+      populationName: isStrict ? '素食人群' : '蛋奶素食人群',
       category: 'vegetarian',
       confidence: 0.9,
       subType,
@@ -407,6 +409,21 @@ function mapCoreNeedsToPopulations(profile: UserProfile): PopulationMatch[] {
       confidence: 0.9,
       reason: [`年龄：${profile.age}岁`],
     })
+  }
+
+  // ── 优先级 8：新版日常调理 → 基于症状匹配 ──
+  if (profile.healthStatus === 'daily_wellness') {
+    // 疲劳 + 怕冷 → 亚临床甲减/桥本疑似
+    if (profile.exerciseFrequency === 'none' && matches.every(m => m.category !== 'hashimoto')) {
+      // 通用亚健康基线
+      addMatch(matches, seen, {
+        populationId: 'general_population',
+        populationName: '亚健康调理',
+        category: 'wellness',
+        confidence: 0.7,
+        reason: ['健康状态：日常调理'],
+      })
+    }
   }
 
   return matches
