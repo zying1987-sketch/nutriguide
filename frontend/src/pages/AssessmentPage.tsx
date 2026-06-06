@@ -833,7 +833,10 @@ function SummaryView({
         <SummaryRow label="年龄" value={formData['age'] ? `${formData['age']} 岁` : '未填'} />
         <SummaryRow label="身高/体重" value={formData['height'] && formData['weight'] ? `${formData['height']}cm / ${formData['weight']}kg（BMI ${calcBMI(formData['height'], formData['weight'])}）` : '未填'} />
         {formData['pregnancy_status'] && (
-          <SummaryRow label="怀孕/备孕" value={pregnancyLabel(formData['pregnancy_status'])} />
+          <SummaryRow label="生理状态" value={pregnancyLabel(formData['pregnancy_status'])} />
+        )}
+        {formData['diet_pattern'] && (
+          <SummaryRow label="饮食模式" value={dietPatternLabel(formData['diet_pattern'])} />
         )}
       </Section>
 
@@ -946,6 +949,13 @@ function supplementLabel(v: string): string {
     vitamin_b_complex: 'B族维生素', calcium: '钙片', magnesium: '镁', zinc: '锌',
     iron: '铁剂', omega3: 'Omega-3', probiotics: '益生菌', coq10: '辅酶Q10',
     inositol: '肌醇', protein_powder: '蛋白粉', melatonin: '褪黑素', herbal: '中草药',
+  }
+  return map[v] || v
+}
+
+function dietPatternLabel(v: string): string {
+  const map: Record<string, string> = {
+    omnivore: '杂食', lacto_ovo: '蛋奶素', pescatarian: '鱼素', vegan: '纯素', other: '其他特殊饮食',
   }
   return map[v] || v
 }
