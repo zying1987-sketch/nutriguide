@@ -459,9 +459,11 @@ export const assessmentSteps: AssessmentStep[] = [
         label: '您每天吃水果的量大约是？',
         required: false,
         options: [
-          { label: '几乎不吃', value: 'none' },
-          { label: '半个到1个（约100-200g）', value: '100-200' },
-          { label: '2个以上（>250g）', value: '>250' },
+          { label: '几乎不吃（<100g）', value: 'none' },
+          { label: '半个水果（约100-150g）', value: '100-150' },
+          { label: '1个水果（约150-250g）', value: '150-250' },
+          { label: '1-2个水果（约250-350g，指南推荐）', value: '250-350' },
+          { label: '2个以上（>350g）', value: '>350' },
         ],
       },
       {
@@ -537,6 +539,7 @@ export const assessmentSteps: AssessmentStep[] = [
         required: false,
         options: [
           { label: '从不', value: 'none' },
+          { label: '已戒烟（超过6个月）', value: 'quit' },
           { label: '偶尔', value: 'occasional' },
           { label: '每天', value: 'daily' },
         ],
@@ -548,6 +551,7 @@ export const assessmentSteps: AssessmentStep[] = [
         required: false,
         options: [
           { label: '不喝', value: 'none' },
+          { label: '已戒酒', value: 'quit' },
           { label: '偶尔（每周<3次）', value: 'occasional' },
           { label: '经常（每周≥3次）', value: 'frequent' },
         ],
