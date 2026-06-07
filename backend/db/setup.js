@@ -116,10 +116,21 @@ function initTables() {
   try { db.exec('ALTER TABLE assessments ADD COLUMN full_report TEXT DEFAULT \'\'') } catch (e) { /* 已存在 */ }
   try { db.exec('CREATE UNIQUE INDEX IF NOT EXISTS idx_users_wechat ON users(wechat_id) WHERE wechat_id != \'\'') } catch (e) { /* 已存在 */ }
 
-  // 检查是否需要创建默认管理员
+  // 自动创建默认管理员（若无管理员账号）
   const adminCount = db.prepare('SELECT COUNT(*) as count FROM users WHERE role = ?').get('admin')
   if (adminCount.count === 0) {
-    console.log('尚未创建管理员账号，请使用 /api/auth/register 注册第一个用户后手动在数据库中将 role 改为 admin')
+    const bcrypt = require('bcryptjs')
+    const adminEmail = process.env.ADMIN_EMAIL || 'junefwo@126.com'
+    const adminPass  = process.env.ADMIN_PASSWORD || 'admin123'
+    const hash = bcrypt.hashSync(adminPass, 10)
+    const result = db.prepare(
+      'INSERT OR IGNORE INTO users (email, password_hash, name, role) VALUES (?, ?, ?, ?)'
+    ).run(adminEmail, hash, 'Admin', 'admin')
+    if (result.changes > 0) {
+      // 为管理员初始化积分
+      db.prepare('INSERT OR IGNORE INTO user_credits (user_id, balance, total_purchased) VALUES (?, 100, 100)').run(result.lastInsertRowid)
+      console.log(`[setup] 自动创建管理员账号: ${adminEmail}`)
+    }
   }
 
   // 为已有用户初始化积分（如果没有记录）
