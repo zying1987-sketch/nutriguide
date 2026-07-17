@@ -1,0 +1,18 @@
+# Zeabur 部署配置
+# 文档: https://zeabur.com/docs/config/zeabur-toml
+
+[build]
+# 使用项目根目录的 Dockerfile（多阶段构建）
+dockerfile = "Dockerfile"
+
+[deploy]
+# 服务监听端口（与 Dockerfile EXPOSE 3030 一致）
+port = 3030
+
+[env]
+# 生产环境
+NODE_ENV = "production"
+# 数据库路径（Zeabur 免费版存储为临时，付费版可挂载持久卷）
+DB_PATH = "/app/data/nutriguide.db"
+# 前端地址（CORS 用，部署后替换为实际 Zeabur 域名）
+FRONTEND_URL = "https://nutriguide.zeabur.app"
